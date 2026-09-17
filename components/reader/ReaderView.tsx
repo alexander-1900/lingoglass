@@ -11,7 +11,7 @@ import {
   setMode as persistMode,
   setRate as persistRate,
 } from "@/lib/settings";
-import { loadVoices, speakAsync, stopSpeaking } from "@/lib/tts";
+import { cancelPendingSpeak, loadVoices, speakAsync, stopSpeaking } from "@/lib/tts";
 import AudioPlayer from "./AudioPlayer";
 import ParallelToggle from "./ParallelToggle";
 import StoryText from "./StoryText";
@@ -52,6 +52,7 @@ export default function ReaderView({ story }: { story: Story }) {
 
   const stop = useCallback(() => {
     runRef.current += 1;
+    cancelPendingSpeak();
     stopSpeaking();
     setPlaying(false);
   }, []);
@@ -59,8 +60,30 @@ export default function ReaderView({ story }: { story: Story }) {
   // Stop playback when the reader unmounts (e.g. navigating away).
   useEffect(() => () => stop(), [stop]);
 
+  // Chrome silently pauses long utterances (~15s, no onend) and iOS stalls
+  // chained playback: keep poking the synthesiser while a run is active.
+  // resume() on a non-paused engine is a no-op, so this is safe to tick.
+  useEffect(() => {
+    if (!playing) return;
+    if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
+    const id = window.setInterval(() => {
+      try {
+        const s = window.speechSynthesis;
+        if (s.paused) s.resume();
+      } catch {
+        /* speech engine unavailable — ignore */
+      }
+    }, 2000);
+    return () => window.clearInterval(id);
+  }, [playing]);
+
   const runFrom = useCallback(async (start: number) => {
     if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
+    // A word-tap utterance queued just before Listen must not talk over the story.
+    cancelPendingSpeak();
+    // Refresh the voice list on every run: the mount-time preload may have
+    // resolved before the OS exposed voices, leaving the wrong voice picked.
+    void loadVoices();
     const runId = runRef.current + 1;
     runRef.current = runId;
     setPlaying(true);

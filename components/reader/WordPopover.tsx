@@ -3,34 +3,37 @@
 import { useEffect } from "react";
 import { IconClose, IconSentencePlay } from "../ui/icons";
 
+type PopAlign = "center" | "left" | "right";
+
 interface Props {
   word: string;
   note?: string;
   reading?: string;
   romaji?: string;
-  top: number;
-  left: number;
-  placeAbove: boolean;
+  /** Sentence translation — fallback meaning when the word has no gloss. */
+  context?: string;
+  align?: PopAlign;
   onReplay: () => void;
   onClose: () => void;
 }
 
 /**
- * Minimal inline definition card anchored beside the tapped word.
- * Small by design: word, reading, gloss, speaker — never a modal.
+ * Definition card rendered directly ON TOP of the tapped word (absolutely
+ * positioned inside the word wrapper, so it scrolls with the text).
+ * Shows the glossary definition, or the sentence translation when the
+ * word itself has no gloss — never an empty card.
  */
 export default function WordPopover({
   word,
   note,
   reading,
   romaji,
-  top,
-  left,
-  placeAbove,
+  context,
+  align = "center",
   onReplay,
   onClose,
 }: Props) {
-  // Escape dismisses the card; scrolling/resizing is handled by the parent.
+  // Escape dismisses the card.
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "Escape") onClose();
@@ -40,14 +43,13 @@ export default function WordPopover({
   }, [onClose]);
 
   return (
-    <div
-      className={`word-pop ${placeAbove ? "word-pop--above" : ""}`}
-      style={{ top, left }}
+    <span
+      className={`word-pop word-pop--${align}`}
       role="dialog"
       aria-label={`Definition of ${word}`}
       onClick={(e) => e.stopPropagation()}
     >
-      <div className="word-pop-top">
+      <span className="word-pop-top">
         <span className="wp-word">{word}</span>
         <span className="word-pop-actions">
           <button
@@ -67,9 +69,18 @@ export default function WordPopover({
             <IconClose size={14} />
           </button>
         </span>
-      </div>
-      {(reading || romaji) && <div className="wp-reading">{romaji ?? reading}</div>}
-      <div className="wp-meaning">{note || "No gloss yet — the English line still helps."}</div>
-    </div>
+      </span>
+      {(reading || romaji) && <span className="wp-reading">{romaji ?? reading}</span>}
+      {note ? (
+        <span className="wp-meaning">{note}</span>
+      ) : context ? (
+        <span className="wp-meaning">
+          <span className="wp-ctx">Sentence · </span>
+          {context}
+        </span>
+      ) : (
+        <span className="wp-meaning">No gloss yet — the English line still helps.</span>
+      )}
+    </span>
   );
 }

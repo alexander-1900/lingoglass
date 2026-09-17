@@ -3,19 +3,23 @@
 import { useEffect, useRef, useState } from "react";
 import { Story, StorySentence, Token } from "@/lib/types";
 import type { ParallelMode } from "@/lib/settings";
-import { speak } from "@/lib/tts";
+import { loadVoices, speak } from "@/lib/tts";
 import { isJapaneseText, tokenWithRomaji } from "@/lib/furigana-romaji";
 import WordPopover from "./WordPopover";
 import { IconSentencePlay } from "../ui/icons";
 
+type PopAlign = "center" | "left" | "right";
+
 interface PopState {
+  sentIdx: number;
+  key: string;
   word: string;
   note: string;
   reading?: string;
   romaji?: string;
-  top: number;
-  left: number;
-  placeAbove: boolean;
+  align: PopAlign;
+  /** Sentence translation — shown when the word has no glossary note. */
+  context: string;
 }
 
 interface Props {
@@ -28,9 +32,6 @@ interface Props {
   onWordTap: () => void;
   onPlayFrom: (idx: number) => void;
 }
-
-const POP_WIDTH = 300;
-const POP_GAP = 10;
 
 /** Split a sentence into clickable units. Japanese uses the Sudachi service (with fallback). */
 function splitWords(target: string): string[] {
@@ -61,22 +62,6 @@ function glossaryLookup(sentence: StorySentence, word: string): string | undefin
   return phrase?.note;
 }
 
-/** Position a small card beside the tapped word, flipping above when needed. */
-function anchorFor(el: HTMLElement): { top: number; left: number; placeAbove: boolean } {
-  const fallback = { top: 120, left: 8, placeAbove: false };
-  if (typeof window === "undefined") return fallback;
-  const r = el.getBoundingClientRect();
-  if (r.width === 0 && r.height === 0) return fallback;
-  const left = Math.max(8, Math.min(r.left + r.width / 2 - POP_WIDTH / 2, window.innerWidth - POP_WIDTH - 8));
-  const below = r.bottom + POP_GAP;
-  const placeAbove = below + 240 > window.innerHeight && r.top > 300;
-  return {
-    left,
-    placeAbove,
-    top: placeAbove ? Math.max(8, r.top - POP_GAP) : below,
-  };
-}
-
 export default function StoryText({
   story,
   mode,
@@ -96,18 +81,8 @@ export default function StoryText({
 
   // Free-scroll: audio tracking only highlights the active sentence via CSS.
   // No scrollIntoView / observer here so the user can scroll freely during playback.
-
-  // A floating card can't track scrolling — dismiss it instead.
-  useEffect(() => {
-    if (!pop) return;
-    const close = () => setPop(null);
-    window.addEventListener("scroll", close, { passive: true });
-    window.addEventListener("resize", close);
-    return () => {
-      window.removeEventListener("scroll", close);
-      window.removeEventListener("resize", close);
-    };
-  }, [pop]);
+  // The definition card is absolutely positioned inside the tapped word, so it
+  // scrolls WITH the text — no dismiss-on-scroll needed.
 
   async function loadJaTokens(idx: number, sentence: StorySentence) {
     if (jaTokens[idx] || inFlight.current.has(idx)) return;
@@ -145,42 +120,97 @@ export default function StoryText({
 
   function openWord(
     idx: number,
+    key: string,
     word: string,
     sentence: StorySentence,
     anchorEl: HTMLElement | null,
     extra?: { reading?: string; romaji?: string }
   ) {
-    const display = word.replace(/[.,!?;:«»"()—–-]/g, "");
+    const display = stripPunct(word);
     if (!display.trim()) return;
+    // Tapping the open word closes its card.
+    if (pop && pop.sentIdx === idx && pop.key === key) {
+      setPop(null);
+      return;
+    }
     onWordTap();
+    // Refresh the OS voice list on every tap so the first taps already
+    // speak with the right language voice.
+    void loadVoices();
+    // Keep the card on screen: align to the word, flip the edge near a margin.
+    let align: PopAlign = "center";
+    if (anchorEl && typeof window !== "undefined") {
+      const r = anchorEl.getBoundingClientRect();
+      if (r.width > 0 || r.height > 0) {
+        if (r.left < 170) align = "left";
+        else if (window.innerWidth - r.right < 170) align = "right";
+      }
+    }
     const note = glossaryLookup(sentence, word) ?? "";
-    const anchor = anchorEl ? anchorFor(anchorEl) : { top: 120, left: 8, placeAbove: false };
     setPop({
+      sentIdx: idx,
+      key,
       word: display,
       note,
       reading: extra?.reading,
       romaji: extra?.romaji,
-      ...anchor,
+      align,
+      context: sentence.en,
     });
     speak(display, story.lang, rate);
     if (isJa && isJapaneseText(sentence.target)) void loadJaTokens(idx, sentence);
   }
 
+  function wordNode(
+    idx: number,
+    sentence: StorySentence,
+    key: string,
+    surface: string,
+    extra?: { reading?: string; romaji?: string },
+    trail?: string
+  ) {
+    const isOpen = !!pop && pop.sentIdx === idx && pop.key === key;
+    const open = (el: HTMLElement) => openWord(idx, key, surface, sentence, el, extra);
+    return (
+      <span className="word-wrap" key={key}>
+        <span
+          className="word"
+          role="button"
+          tabIndex={0}
+          aria-expanded={isOpen}
+          onClick={(e) => {
+            e.stopPropagation();
+            open(e.currentTarget);
+          }}
+          onKeyDown={(e) => {
+            if (e.key === "Enter" || e.key === " ") {
+              e.preventDefault();
+              open(e.currentTarget as HTMLElement);
+            }
+          }}
+        >
+          {surface}
+          {extra?.romaji && showRomaji && <span className="romaji">{extra.romaji}</span>}
+          {trail}
+        </span>
+        {isOpen && pop && (
+          <WordPopover
+            word={pop.word}
+            note={pop.note}
+            reading={pop.reading}
+            romaji={pop.romaji}
+            context={pop.context}
+            align={pop.align}
+            onReplay={() => speak(pop.word, story.lang, rate)}
+            onClose={() => setPop(null)}
+          />
+        )}
+      </span>
+    );
+  }
+
   return (
     <div className="story-text">
-      {pop && (
-        <WordPopover
-          word={pop.word}
-          note={pop.note}
-          reading={pop.reading}
-          romaji={pop.romaji}
-          top={pop.top}
-          left={pop.left}
-          placeAbove={pop.placeAbove}
-          onReplay={() => speak(pop.word, story.lang, rate)}
-          onClose={() => setPop(null)}
-        />
-      )}
       {story.sentences.map((sentence, idx) => {
         const tokens = jaTokens[idx];
         const isActive = highlight && idx === activeIdx;
@@ -200,55 +230,17 @@ export default function StoryText({
             <span className="sentence-body">
               {showTarget &&
                 (tokens && tokens.length
-                  ? tokens.map((t, ti) => (
-                      <span
-                        key={ti}
-                        className="word"
-                        role="button"
-                        tabIndex={0}
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          openWord(idx, t.surface, sentence, e.currentTarget, {
-                            reading: t.reading,
-                            romaji: showRomaji ? t.romaji : undefined,
-                          });
-                        }}
-                        onKeyDown={(e) => {
-                          if (e.key === "Enter" || e.key === " ") {
-                            e.preventDefault();
-                            openWord(idx, t.surface, sentence, e.currentTarget as HTMLElement, {
-                              reading: t.reading,
-                              romaji: showRomaji ? t.romaji : undefined,
-                            });
-                          }
-                        }}
-                      >
-                        {t.surface}
-                        {showRomaji && t.romaji && <span className="romaji">{t.romaji}</span>}{" "}
-                      </span>
-                    ))
+                  ? tokens.map((t, ti) =>
+                      wordNode(idx, sentence, `t${ti}`, t.surface, {
+                        reading: t.reading,
+                        romaji: showRomaji ? t.romaji : undefined,
+                      }, " ")
+                    )
                   : splitWords(sentence.target).map((w, wi) =>
                       isPunctToken(w) ? (
-                        <span key={wi}>{w}</span>
+                        <span key={`w${wi}`}>{w}</span>
                       ) : (
-                        <span
-                          key={wi}
-                          className="word"
-                          role="button"
-                          tabIndex={0}
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            openWord(idx, w, sentence, e.currentTarget);
-                          }}
-                          onKeyDown={(e) => {
-                            if (e.key === "Enter" || e.key === " ") {
-                              e.preventDefault();
-                              openWord(idx, w, sentence, e.currentTarget as HTMLElement);
-                            }
-                          }}
-                        >
-                          {w}
-                        </span>
+                        wordNode(idx, sentence, `w${wi}`, w)
                       )
                     ))}
               {showEn && sentence.en && <span className="pl-line">{sentence.en}</span>}

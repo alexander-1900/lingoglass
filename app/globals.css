@@ -241,22 +241,34 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
 .pl-line { display: block; margin-top: 0.5rem; font-size: 16px; line-height: 1.7; color: rgba(233, 225, 204, 0.7); }
 .story-end { text-align: center; color: var(--cream-dim); font-size: 22px; margin-top: 2rem; }
 
-/* word popover */
+/* word popover — rendered directly ON TOP of the tapped word (absolute
+   inside the word wrapper, so it scrolls with the text instead of
+   floating detached over the page) */
+.word-wrap { position: relative; display: inline-block; }
 .word-pop {
-  position: fixed; z-index: 100; width: 300px; max-width: calc(100vw - 16px);
+  position: absolute; bottom: calc(100% + 10px); left: 50%; transform: translateX(-50%);
+  z-index: 50; width: 280px; max-width: min(280px, calc(100vw - 24px));
   background: var(--navy-700); border: 1px solid rgba(246,241,227,0.12); border-radius: 1.25rem;
   padding: 1.25rem; color: var(--cream); box-shadow: var(--slide-shadow);
 }
-/* anchorFor() positions `top` at the word's top edge when flipping above —
-   shift the card fully above it. */
-.word-pop--above { transform: translateY(-100%); }
+/* speech-bubble arrow pointing down at the word */
+.word-pop::after {
+  content: ""; position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
+  border: 8px solid transparent; border-top-color: var(--navy-700);
+}
+/* edge flips: align the card inside the viewport near margins */
+.word-pop--left { left: -8px; transform: none; }
+.word-pop--left::after { left: 28px; }
+.word-pop--right { left: auto; right: -8px; transform: none; }
+.word-pop--right::after { left: auto; right: 28px; transform: none; }
 .wp-word { font-size: 26px; font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; }
 .word-pop-top { display: flex; align-items: flex-start; gap: 0.6rem; }
 .word-pop-actions { display: flex; gap: 6px; margin-left: auto; }
 .word-pop-icon { width: 34px; height: 34px; border-radius: 9999px; display: inline-flex; align-items: center; justify-content: center; border: 1px solid rgba(246,241,227,0.2); background: transparent; color: var(--cream-dim); cursor: pointer; }
 .word-pop-icon:hover { background: var(--amber); border-color: var(--amber); color: var(--navy-900); }
-.wp-reading { margin-top: 0.4rem; color: var(--amber-soft); font-size: 12px; font-weight: 700; }
-.wp-meaning { margin-top: 0.6rem; font-size: 15px; line-height: 1.6; color: var(--cream-soft); }
+.wp-reading { display: block; margin-top: 0.4rem; color: var(--amber-soft); font-size: 12px; font-weight: 700; }
+.wp-meaning { display: block; margin-top: 0.6rem; font-size: 15px; line-height: 1.6; color: var(--cream-soft); }
+.wp-ctx { color: var(--cream-dim); font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
 
 /* settings */
 .settings-list { display: grid; grid-template-columns: 1fr; gap: 1.25rem; max-width: 48rem; margin-bottom: 2rem; }

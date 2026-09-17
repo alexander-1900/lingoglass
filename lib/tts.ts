@@ -44,6 +44,14 @@ function pickVoice(lang: string): SpeechSynthesisVoice | undefined {
 // Browser timer handle (DOM setTimeout returns a number).
 let speakTimer: number | undefined;
 
+/** Drop a word-tap utterance that hasn't sounded yet (stop / new run). */
+export function cancelPendingSpeak(): void {
+  if (typeof window !== "undefined" && speakTimer !== undefined) {
+    window.clearTimeout(speakTimer);
+    speakTimer = undefined;
+  }
+}
+
 /** Speak text with the OS voice (no external TTS service). */
 export function speak(text: string, lang: string, rate = 0.9): void {
   if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
