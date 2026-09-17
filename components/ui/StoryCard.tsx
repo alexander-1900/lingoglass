@@ -1,7 +1,9 @@
 import Link from "next/link";
-import { StoryMeta, LANG_NAMES } from "@/lib/types";
+import { StoryMeta, LANG_NAMES, Lang } from "@/lib/types";
 import { IconArrowRight } from "./icons";
 import { StoryCover } from "./StoryCover";
+
+const FLAG: Record<Lang, string> = { es: "🇪🇸", ru: "🇷🇺", ja: "🇯🇵" };
 
 export function StoryCard({
   story,
@@ -21,21 +23,22 @@ export function StoryCard({
         <StoryCover src={story.image} alt={story.title} lang={story.lang} size="card" />
       </span>
       <span className="story-meta">
-        <span className="story-level">
-          <span className="level-dot" aria-hidden="true" />
-          {story.level.toUpperCase()}
+        <span className="story-card-top-row">
+          <span className="story-title">{story.title}</span>
+          <span className={`level-badge ${story.level}`}>{story.level.toUpperCase()}</span>
+        </span>
+        <span className="story-card-author">
+          {FLAG[story.lang]} {LANG_NAMES[story.lang]}
           {index > 0 && (
             <span className="story-idx" aria-hidden="true">
-              · № {String(index).padStart(2, "0")}
+              {" "}· № {String(index).padStart(2, "0")}
             </span>
           )}
         </span>
-        <span className="story-title">{story.title}</span>
         {story.titleEn && <span className="story-sub">{story.titleEn}</span>}
         <span className="story-foot">
           <span>
-            {LANG_NAMES[story.lang]} · {story.minutes} min · {story.sentenceCount}{" "}
-            {story.sentenceCount === 1 ? "sentence" : "sentences"}
+            {story.sentenceCount} {story.sentenceCount === 1 ? "sentence" : "sentences"} · {story.minutes} min
           </span>
           <IconArrowRight size={18} />
         </span>

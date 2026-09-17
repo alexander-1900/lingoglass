@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { LANGS, LANG_NAMES, LEVELS, Lang } from "@/lib/types";
 import { getAllStoryPaths, getStory } from "@/lib/stories";
 import ReaderView from "@/components/reader/ReaderView";
+import PageShell from "@/components/shell/PageShell";
 import { IconArrowLeft } from "@/components/ui/icons";
 
 export function generateStaticParams() {
@@ -34,6 +35,7 @@ export default async function StoryPage({
   if (!story) notFound();
 
   return (
+    <PageShell>
     <div className={`shell reader-shell lang-${story.lang}`}>
       <header className="topbar reveal">
         <Link href={`/library/${lang}/${level}`} className="icon-btn" aria-label="Back">
@@ -59,6 +61,7 @@ export default async function StoryPage({
         <ReaderView key={story.slug} story={story} />
       </div>
     </div>
+    </PageShell>
   );
 }
 

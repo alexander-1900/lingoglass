@@ -11,13 +11,20 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#e7e2d8",
+  themeColor: "#FAF6EE",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <div className="ambient-orbs" aria-hidden="true">
+          <div className="orb orb-1" />
+          <div className="orb orb-2" />
+          <div className="orb orb-3" />
+        </div>
+        {children}
+      </body>
     </html>
   );
 }

@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { LANGS, LANG_NAMES, LEVELS, Lang } from "@/lib/types";
 import { getStoriesForLevel } from "@/lib/stories";
 import { StoryCard } from "@/components/ui/StoryCard";
+import PageShell from "@/components/shell/PageShell";
 import { IconArrowLeft } from "@/components/ui/icons";
 
 export function generateStaticParams() {
@@ -23,7 +24,7 @@ export default async function LevelPage({
   const stories = getStoriesForLevel(lang as Lang, level);
 
   return (
-    <>
+    <PageShell>
       <div className={`shell lang-${lang}`}>
         <header className="topbar reveal">
           <Link href={`/library/${lang}`} className="icon-btn" aria-label="Back">
@@ -60,6 +61,6 @@ export default async function LevelPage({
           </div>
         )}
       </div>
-    </>
+    </PageShell>
   );
 }

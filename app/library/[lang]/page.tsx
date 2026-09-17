@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { LANGS, LANG_NAMES, Lang } from "@/lib/types";
 import { getLevelsForLang } from "@/lib/stories";
 import LevelSelector from "@/components/level/LevelSelector";
+import PageShell from "@/components/shell/PageShell";
 import { IconArrowLeft } from "@/components/ui/icons";
 
 export function generateStaticParams() {
@@ -26,7 +27,7 @@ export default async function LibraryLangPage({
   const range = lang === "ja" ? "N5 → N1 · JLPT" : "A1 → C2 · CEFR";
 
   return (
-    <>
+    <PageShell>
       <div className={`shell lang-${lang}`}>
         <header className="topbar reveal">
           <Link href="/" className="icon-btn" aria-label="Back to languages">
@@ -50,6 +51,6 @@ export default async function LibraryLangPage({
 
         <LevelSelector lang={lang} levels={levels} />
       </div>
-    </>
+    </PageShell>
   );
 }

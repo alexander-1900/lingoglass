@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { Story, StorySentence, Token } from "@/lib/types";
 import type { ParallelMode } from "@/lib/settings";
 import { loadVoices, speak } from "@/lib/tts";
+import { addBookmark, isBookmarked, useBookmarks } from "@/lib/bookmarks";
 import { isJapaneseText, tokenWithRomaji } from "@/lib/furigana-romaji";
 import WordPopover from "./WordPopover";
 import { IconSentencePlay } from "../ui/icons";
@@ -74,6 +75,7 @@ export default function StoryText({
 }: Props) {
   const [pop, setPop] = useState<PopState | null>(null);
   const [jaTokens, setJaTokens] = useState<Record<number, Token[]>>({});
+  const bookmarks = useBookmarks();
   const inFlight = useRef<Set<number>>(new Set());
   const isJa = story.lang === "ja";
   const showTarget = mode !== "english";
@@ -171,6 +173,26 @@ export default function StoryText({
   ) {
     const isOpen = !!pop && pop.sentIdx === idx && pop.key === key;
     const open = (el: HTMLElement) => openWord(idx, key, surface, sentence, el, extra);
+    const ref = {
+      lang: story.lang,
+      level: story.level,
+      slug: story.slug,
+      sentIdx: idx,
+      word: pop && pop.sentIdx === idx && pop.key === key ? pop.word : stripPunct(surface),
+    };
+    const saved = isBookmarked(bookmarks, ref);
+    const save = () => {
+      if (!pop || pop.sentIdx !== idx || pop.key !== key) return;
+      addBookmark({
+        ...ref,
+        word: pop.word,
+        note: pop.note,
+        reading: pop.reading,
+        romaji: pop.romaji,
+        context: sentence.target,
+        contextEn: sentence.en,
+      });
+    };
     return (
       <span className="word-wrap" key={key}>
         <span
@@ -201,6 +223,8 @@ export default function StoryText({
             romaji={pop.romaji}
             context={pop.context}
             align={pop.align}
+            saved={saved}
+            onSave={save}
             onReplay={() => speak(pop.word, story.lang, rate)}
             onClose={() => setPop(null)}
           />

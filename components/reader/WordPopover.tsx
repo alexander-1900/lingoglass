@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import { IconClose, IconSentencePlay } from "../ui/icons";
+import { IconBookmark, IconClose, IconSentencePlay } from "../ui/icons";
 
 type PopAlign = "center" | "left" | "right";
 
@@ -13,6 +13,8 @@ interface Props {
   /** Sentence translation — fallback meaning when the word has no gloss. */
   context?: string;
   align?: PopAlign;
+  saved: boolean;
+  onSave: () => void;
   onReplay: () => void;
   onClose: () => void;
 }
@@ -30,6 +32,8 @@ export default function WordPopover({
   romaji,
   context,
   align = "center",
+  saved,
+  onSave,
   onReplay,
   onClose,
 }: Props) {
@@ -59,6 +63,16 @@ export default function WordPopover({
             title="Hear word"
           >
             <IconSentencePlay size={14} />
+          </button>
+          <button
+            className={`word-pop-icon${saved ? " saved" : ""}`}
+            onClick={onSave}
+            aria-label={saved ? `${word} saved` : `Bookmark ${word}`}
+            aria-pressed={saved}
+            title={saved ? "Saved to vocabulary queue" : "Bookmark to vocabulary queue"}
+          >
+            <IconBookmark size={14} />
+            {saved ? "Saved" : "Save"}
           </button>
           <button
             className="word-pop-icon"

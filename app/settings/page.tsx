@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { IconArrowLeft } from "@/components/ui/icons";
+import PageShell from "@/components/shell/PageShell";
 import {
   DEFAULT_MODE,
   DEFAULT_RATE,
@@ -23,7 +24,7 @@ export default function SettingsPage() {
   const [romaji, setRomajiState] = useState<boolean>(() => getShowRomaji());
 
   return (
-    <>
+    <PageShell>
       <div className="shell">
         <header className="topbar reveal">
           <Link href="/" className="icon-btn" aria-label="Back to library">
@@ -123,6 +124,6 @@ export default function SettingsPage() {
           </section>
         </div>
       </div>
-    </>
+    </PageShell>
   );
 }

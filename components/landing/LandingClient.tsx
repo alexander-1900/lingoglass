@@ -117,7 +117,6 @@ export default function LandingClient({ totals, featured, all }: { totals: Landi
 
   return (
     <main className="sf-page">
-      <div className="sf-grain" aria-hidden="true" />
       <header className="sf-top">
         <Link href="/" className="sf-brand" data-sf-rev style={rev()}>
           <span className="sf-brand-tile"><I d={P.layers} /></span>
@@ -179,7 +178,7 @@ export default function LandingClient({ totals, featured, all }: { totals: Landi
                 <p>{hero?.titleEn || `${hero?.minutes ?? 4} min · tap a word for its gloss.`}</p>
                 <div className="sf-cap-row">
                   <Link href={heroHref} className="sf-continue">Continue</Link>
-                  <button className="sf-bookmark" aria-label={saved ? "Saved" : "Save story"} aria-pressed={saved} onClick={() => setSaved((s) => !s)} style={saved ? { background: "#f0b429", borderColor: "#f0b429", color: "#081627" } : undefined}><I d={P.bookmark} /></button>
+                  <button className="sf-bookmark" aria-label={saved ? "Saved" : "Save story"} aria-pressed={saved} onClick={() => setSaved((s) => !s)} style={saved ? { background: "#C26D5C", borderColor: "#C26D5C", color: "#fff" } : undefined}><I d={P.bookmark} /></button>
                 </div>
               </div>
             </div>
@@ -201,9 +200,9 @@ export default function LandingClient({ totals, featured, all }: { totals: Landi
       {/* showcase */}
       <section id="showcase" className="sf-sec" aria-label="Showcase">
         <div style={{ maxWidth: "42rem", marginBottom: "3rem" }}>
-          <p className="sf-eyebrow-sec" data-sf-rev style={{ ...rev(), color: "#f0b429", fontWeight: 800, fontSize: 14, letterSpacing: "0.2em" }}>THE SHOWCASE</p>
+          <p className="sf-eyebrow-sec" data-sf-rev style={{ ...rev(), color: "#C26D5C", fontWeight: 800, fontSize: 14, letterSpacing: "0.2em" }}>THE SHOWCASE</p>
           <h2 className="sf-h2" data-sf-words>{words("Three stories, one pattern.")}</h2>
-          <p className="sf-lede-sec" data-sf-rev style={{ ...rev(), color: "rgba(233,225,204,0.7)", fontSize: "1.125rem" }}>Real graded stories from your shelf, framed full bleed with bars, tags and captions.</p>
+          <p className="sf-lede-sec" data-sf-rev style={{ ...rev(), color: "rgba(107,91,85,0.85)", fontSize: "1.125rem" }}>Real graded stories from your shelf, framed full bleed with bars, tags and captions.</p>
         </div>
         <div className="sf-gallery">
           {cards.map((c) => (
@@ -216,7 +215,7 @@ export default function LandingClient({ totals, featured, all }: { totals: Landi
                 ))}
               </div>
               <div className="sf-gcap">
-                <span className="sf-tag" style={c.tag === "Product" ? { background: "#f6f1e3" } : undefined}>{c.tag}</span>
+                <span className="sf-tag" style={c.tag === "Product" ? { background: "#fff" } : undefined}>{c.tag}</span>
                 <h3>{c.title}</h3>
                 <p>{c.sub}</p>
               </div>
@@ -230,9 +229,9 @@ export default function LandingClient({ totals, featured, all }: { totals: Landi
         <div className="sf-prompts-blob" aria-hidden="true" />
         <div className="sf-prompts-grid">
           <div>
-            <p className="sf-eyebrow-sec" data-sf-rev style={{ ...rev(), color: "#f0b429", fontWeight: 800, fontSize: 14, letterSpacing: "0.2em" }}>READER PATTERN</p>
+            <p className="sf-eyebrow-sec" data-sf-rev style={{ ...rev(), color: "#C26D5C", fontWeight: 800, fontSize: 14, letterSpacing: "0.2em" }}>READER PATTERN</p>
             <h2 className="sf-h2" data-sf-words>{words("Describe the story.")} <br />{words("We frame it.", 60)}</h2>
-            <p className="sf-lede-sec" data-sf-rev style={{ ...rev(), color: "rgba(233,225,204,0.7)", fontSize: "1.125rem" }}>Every Lingoglass story ships with the same cinematic frame your readers already know.</p>
+            <p className="sf-lede-sec" data-sf-rev style={{ ...rev(), color: "rgba(107,91,85,0.85)", fontSize: "1.125rem" }}>Every Lingoglass story ships with the same cinematic frame your readers already know.</p>
             {["Auto advance timers with pause on hold", "Segmented bars that map to sentence count", "Left and right tap zones, keyboard and swipe"].map((t) => (
               <p key={t} className="sf-check" data-sf-rev style={rev()}><I d={P.check} /> {t}</p>
             ))}
@@ -257,7 +256,7 @@ export default function LandingClient({ totals, featured, all }: { totals: Landi
       {/* craft */}
       <section id="craft" className="sf-sec" aria-label="Craft">
         <div style={{ maxWidth: "42rem", marginBottom: "3.5rem" }}>
-          <p className="sf-eyebrow-sec" data-sf-rev style={{ ...rev(), color: "#f0b429", fontWeight: 800, fontSize: 14, letterSpacing: "0.2em" }}>THE CRAFT</p>
+          <p className="sf-eyebrow-sec" data-sf-rev style={{ ...rev(), color: "#C26D5C", fontWeight: 800, fontSize: 14, letterSpacing: "0.2em" }}>THE CRAFT</p>
           <h2 className="sf-h2" data-sf-words>{words("Details that earn the tap.")}</h2>
         </div>
         <div className="sf-craft-grid">
@@ -284,7 +283,7 @@ export default function LandingClient({ totals, featured, all }: { totals: Landi
           </div>
           <div style={{ marginTop: 28, display: "flex", gap: 18, justifyContent: "center", flexWrap: "wrap" }}>
             {totals.map((t) => (
-              <Link key={t.lang} href={t.href} data-sf-rev style={{ ...rev(), color: "rgba(233,225,204,0.7)", fontSize: 13, fontWeight: 700 }}>{t.name} · {t.count} →{" "}</Link>
+              <Link key={t.lang} href={t.href} data-sf-rev style={{ ...rev(), color: "rgba(107,91,85,0.85)", fontSize: 13, fontWeight: 700 }}>{t.name} · {t.count} →{" "}</Link>
             ))}
           </div>
         </div>
