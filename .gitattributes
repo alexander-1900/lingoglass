@@ -1,0 +1,4 @@
+# Story content must stay LF: the CRLF frontmatter outage (Sep 2026, 50/80
+# stories titleless) is exactly what this prevents at the VCS layer.
+content/**/*.md text eol=lf
+*.md text eol=lf
