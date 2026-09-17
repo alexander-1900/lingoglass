@@ -1,0 +1,187 @@
+---
+title: El renacer de la España vaciada
+title-en: The Rebirth of Empty Spain
+lang: es
+level: b2
+---
+
+Durante décadas, cientos de pueblos del interior peninsular han sufrido un proceso incesante de despoblación.
+* durante (durante — preposition: for / over)
+* décadas (década — noun, fem. pl.: decades)
+* cientos (ciento — numeral / noun, masc. pl.: hundreds)
+* de (de — preposition: of)
+* pueblos (pueblo — noun, masc. pl.: villages / towns)
+* del (del — contraction: de [of] + el [the], masc. sg.)
+* interior (interior — noun, masc. sg.: interior)
+* peninsular (peninsular — adjective, common sg.: peninsular)
+* han (haber — auxiliary verb, 3rd pl. pres.: have)
+* sufrido (sufrido — past participle: suffered)
+* un (un — indefinite article, masc. sg.: a)
+* proceso (proceso — noun, masc. sg.: process)
+* incesante (incesante — adjective, common sg.: relentless)
+* de (de — preposition: of)
+* despoblación (despoblación — noun, fem. sg.: depopulation)
+> For decades, hundreds of villages in the peninsular interior have suffered a relentless process of depopulation.
+
+La falta de oportunidades laborales y servicios básicos empujó a las generaciones jóvenes hacia las grandes metrópolis.
+* la (la — definite article, fem. sg.: the)
+* falta (falta — noun, fem. sg.: lack)
+* de (de — preposition: of)
+* oportunidades (oportunidad — noun, fem. pl.: opportunities)
+* laborales (laboral — adjective, common pl.: job / career)
+* y (y — conjunction: and)
+* servicios (servicio — noun, masc. pl.: services)
+* básicos (básico — adjective, masc. pl.: basic)
+* empujó (empujar — verb, 3rd sg. pret. indef.: pushed / drove)
+* a (a — personal preposition)
+* las (el — definite article, fem. pl.: the)
+* generaciones (generación — noun, fem. pl.: generations)
+* jóvenes (joven — adjective, common pl.: young)
+* hacia (hacia — preposition: toward)
+* las (el — definite article, fem. pl.: the)
+* grandes (grande — adjective, common pl.: large)
+* metrópolis (metrópolis — noun, fem. invariable pl.: metropolises)
+> The lack of job opportunities and basic services drove young generations toward the large metropolises.
+
+No obstante, recientemente ha surgido un movimiento social dispuesto a revitalizar estas comunidades olvidadas.
+* no obstante (no obstante — phrase: nevertheless)
+* recientemente (recientemente — adverb: recently)
+* ha (haber — auxiliary verb, 3rd sg. pres.: has)
+* surgido (surgido — past participle: emerged)
+* un (un — indefinite article, masc. sg.: a)
+* movimiento (movimiento — noun, masc. sg.: movement)
+* social (social — adjective, common sg.: social)
+* dispuesto (dispuesto — adjective, masc. sg.: willing / ready; dispuesto a = willing to)
+* a (a — preposition: to)
+* revitalizar (revitalizar — verb, inf.: to revitalize)
+* estas (estas — demonstrative adjective, fem. pl.: these)
+* comunidades (comunidad — noun, fem. pl.: communities)
+* olvidadas (olvidado — adjective, fem. pl.: forgotten)
+> Nevertheless, a social movement willing to revitalize these forgotten communities has recently emerged.
+
+Varios emprendedores digitales se han instalado en aldeas remotas aprovechando la instalación de fibra óptica.
+* varios (varios — determiner, masc. pl.: several)
+* emprendedores (emprendedor — noun, masc. pl.: entrepreneurs)
+* digitales (digital — adjective, common pl.: digital)
+* se (se — reflexive pronoun)
+* han (haber — auxiliary verb, 3rd pl. pres.: have)
+* instalado (instalado — past participle: settled / moved; instalarse = to settle)
+* en (en — preposition: in)
+* aldeas (aldea — noun, fem. pl.: hamlets / villages)
+* remotas (remoto — adjective, fem. pl.: remote)
+* aprovechando (aprovechar — gerund: taking advantage of)
+* la (la — definite article, fem. sg.: the)
+* instalación (instalación — noun, fem. sg.: installation)
+* de (de — preposition: of)
+* fibra óptica (fibra óptica — phrase: optical fiber)
+> Several digital entrepreneurs have settled in remote hamlets, taking advantage of optical fiber installation.
+
+Si el Estado no garantizara una atención sanitaria adecuada, sería imposible atraer a nuevos pobladores.
+* si (si — conjunction: if)
+* el (el — definite article, masc. sg.: the)
+* Estado (Estado — proper noun, masc. sg.: State)
+* no (no — negative particle: not)
+* garantizara (garantizar — verb, 3rd sg. imperf. subj.: did not guarantee)
+* una (una — indefinite article, fem. sg.: an)
+* atención (atención — noun, fem. sg.: care / services)
+* sanitaria (sanitario — adjective, fem. sg.: healthcare)
+* adecuada (adecuado — adjective, fem. sg.: adequate)
+* sería (ser — verb, 3rd sg. condit.: would be)
+* imposible (imposible — adjective, common sg.: impossible)
+* atraer (atraer — verb, inf.: to attract)
+* a (a — personal preposition)
+* nuevos (nuevo — adjective, masc. pl.: new)
+* pobladores (poblador — noun, masc. pl.: residents / settlers)
+> If the State did not guarantee adequate healthcare, it would be impossible to attract new residents.
+
+Es fundamental que las escuelas rurales permanezcan abiertas, por pocos que sean los alumnos matriculados.
+* es (ser — verb, 3rd sg. pres.: is)
+* fundamental (fundamental — adjective, common sg.: fundamental)
+* que (que — conjunction: that)
+* las (el — definite article, fem. pl.: the)
+* escuelas (escuela — noun, fem. pl.: schools)
+* rurales (rural — adjective, common pl.: rural)
+* permanezcan (permanecer — verb, 3rd pl. pres. subj.: remain)
+* abiertas (abierto — adjective, fem. pl.: open)
+* por pocos que sean (por pocos que sean — phrase: however few there may be)
+* los (el — definite article, masc. pl.: the)
+* alumnos (alumno — noun, masc. pl.: pupils / students)
+* matriculados (matriculado — adjective / participle, masc. pl.: enrolled)
+> It is fundamental that rural schools remain open, however few enrolled pupils there may be.
+
+Muchos antiguos urbanitas confiesan que su calidad de vida ha mejorado considerablemente desde que abandonaron la ciudad.
+* muchos (mucho — determiner, masc. pl.: many)
+* antiguos (antiguo — adjective, masc. pl.: former)
+* urbanitas (urbanita — noun, common pl.: city dwellers)
+* confiesan (confesar — verb, 3rd pl. pres.: confess / admit)
+* que (que — conjunction: that)
+* su (su — possessive adjective, sg.: their)
+* calidad (calidad — noun, fem. sg.: quality)
+* de (de — preposition: of)
+* vida (vida — noun, fem. sg.: life)
+* ha (haber — auxiliary verb, 3rd sg. pres.: has)
+* mejorado (mejorado — past participle: improved)
+* considerablemente (considerablemente — adverb: considerably)
+* desde que (desde que — phrase: since)
+* abandonaron (abandonar — verb, 3rd pl. pret. indef.: left)
+* la (la — definite article, fem. sg.: the)
+* ciudad (ciudad — noun, fem. sg.: city)
+> Many former city dwellers admit that their quality of life has improved considerably since they left the city.
+
+Aunque algunos vecinos mayores desconfiaban al principio de las nuevas iniciativas, ahora agradecen la llegada de sangre fresca.
+* aunque (aunque — conjunction: although)
+* algunos (alguno — determiner / pronoun, masc. pl.: some)
+* vecinos (vecino — noun, masc. pl.: residents)
+* mayores (mayor — adjective, common pl.: elderly / older)
+* desconfiaban (desconfiar — verb, 3rd pl. imperf.: were suspicious / distrusted; desconfiar de = to distrust)
+* al principio (al principio — phrase: at first)
+* de (de — preposition: of)
+* las (el — definite article, fem. pl.: the)
+* nuevas (nuevo — adjective, fem. pl.: new)
+* iniciativas (iniciativa — noun, fem. pl.: initiatives)
+* ahora (ahora — adverb: now)
+* agradecen (agradecer — verb, 3rd pl. pres.: appreciate / are grateful for)
+* la (la — definite article, fem. sg.: the)
+* llegada (llegada — noun, fem. sg.: arrival)
+* de (de — preposition: of)
+* sangre fresca (sangre fresca — phrase: fresh blood)
+> Although some elderly residents were suspicious of the new initiatives at first, they now appreciate the arrival of fresh blood.
+
+El turismo rural sostenible y la agricultura ecológica están demostrando ser motores económicos muy viables.
+* el (el — definite article, masc. sg.: the)
+* turismo (turismo — noun, masc. sg.: tourism)
+* rural (rural — adjective, common sg.: rural)
+* sostenible (sostenible — adjective, common sg.: sustainable)
+* y (y — conjunction: and)
+* la (la — definite article, fem. sg.: the)
+* agricultura (agricultura — noun, fem. sg.: agriculture)
+* ecológica (ecológico — adjective, fem. sg.: organic)
+* están (estar — auxiliary verb, 3rd pl. pres.: are)
+* demostrando (demostrar — gerund: proving / demonstrating)
+* ser (ser — verb, inf.: to be)
+* motores (motor — noun, masc. pl.: engines / drivers)
+* económicos (económico — adjective, masc. pl.: economic)
+* muy (muy — adverb: very)
+* viables (viable — adjective, common pl.: viable)
+> Sustainable rural tourism and organic agriculture are proving to be very viable economic drivers.
+
+Preservar la memoria histórica y el patrimonio etnográfico de estos valles constituye un deber moral hacia nuestros antepasados.
+* preservar (preservar — verb, inf.: to preserve)
+* la (la — definite article, fem. sg.: the)
+* memoria (memoria — noun, fem. sg.: memory)
+* histórica (histórico — adjective, fem. sg.: historical)
+* y (y — conjunction: and)
+* el (el — definite article, masc. sg.: the)
+* patrimonio (patrimonio — noun, masc. sg.: heritage)
+* etnográfico (etnográfico — adjective, masc. sg.: ethnographic)
+* de (de — preposition: of)
+* estos (estos — demonstrative adjective, masc. pl.: these)
+* valles (valle — noun, masc. pl.: valleys)
+* constituye (constituir — verb, 3rd sg. pres.: constitutes)
+* un (un — indefinite article, masc. sg.: a / an)
+* deber (deber — noun, masc. sg.: duty / obligation)
+* moral (moral — adjective, common sg.: moral)
+* hacia (hacia — preposition: toward)
+* nuestros (nuestro — possessive adjective, masc. pl.: our)
+* antepasados (antepasado — noun, masc. pl.: ancestors)
+> Preserving the historical memory and ethnographic heritage of these valleys constitutes a moral duty toward our ancestors.

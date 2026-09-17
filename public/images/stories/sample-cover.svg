@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E9D9C6"/>
+      <stop offset="1" stop-color="#E6DCCD"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="48" fill="url(#g)"/>
+  <ellipse cx="880" cy="180" rx="260" ry="180" fill="#4A3826" opacity="0.16"/>
+  <ellipse cx="280" cy="480" rx="300" ry="170" fill="#C18C5D" opacity="0.20"/>
+  <text x="600" y="330" text-anchor="middle" font-family="Georgia, serif" font-size="150" fill="#4A3826">文</text>
+  <text x="600" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" letter-spacing="8" fill="#7A6F63">PHOTO SLOT — 1200 × 630</text>
+</svg>
