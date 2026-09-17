@@ -11,6 +11,7 @@ interface Props {
   translation: string;
   grammar?: string;
   align?: PopAlign;
+  vAlign?: "above" | "below";
   saved: boolean;
   onSave: () => void;
   onSpeak: () => void;
@@ -28,6 +29,7 @@ export default function WordPopover({
   translation,
   grammar,
   align = "center",
+  vAlign = "above",
   saved,
   onSave,
   onSpeak,
@@ -43,10 +45,11 @@ export default function WordPopover({
   }, [onClose]);
 
   const alignClass = align === "center" ? "" : ` align-${align}`;
+  const vClass = vAlign === "below" ? " below" : "";
 
   return (
     <span
-      className={`word-popover glass-panel-heavy in-word active${alignClass}`}
+      className={`word-popover glass-panel-heavy in-word active${alignClass}${vClass}`}
       role="dialog"
       aria-label={`Definition of ${word}`}
       onClick={(e) => e.stopPropagation()}

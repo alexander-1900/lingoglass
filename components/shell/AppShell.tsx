@@ -50,7 +50,7 @@ export default function AppShell({
   };
 
   return (
-    <div id="app-container">
+    <div id="app-container" className={sideOpen ? undefined : "side-collapsed"}>
       <aside className={sideOpen ? "sidebar-open" : undefined}>
         <div className="glass-container" style={{ padding: 16, display: "flex", alignItems: "center", gap: 12 }}>
           <Link href="/" className="brand-title" aria-label="lingoglass home">

@@ -20,6 +20,8 @@ interface PopState {
   translation: string;
   grammar: string;
   align: PopAlign;
+  /** Above the word normally; below it when the workspace top would clip. */
+  vAlign: "above" | "below";
   save: () => void;
   saved: boolean;
   /** Viewport point above the word, for the save celebration burst. */
@@ -151,7 +153,10 @@ export default function StoryText({
     // speak with the right language voice.
     void loadVoices();
     // Keep the card on screen: align to the word, flip the edge near a margin.
+    // The workspace scrolls, so a card above a top-row word would be clipped:
+    // flip those below the word instead.
     let align: PopAlign = "center";
+    let vAlign: "above" | "below" = "above";
     let bx = typeof window !== "undefined" ? window.innerWidth / 2 : 0;
     let by = 200;
     if (anchorEl && typeof window !== "undefined") {
@@ -159,6 +164,8 @@ export default function StoryText({
       if (r.width > 0 || r.height > 0) {
         if (r.left < 170) align = "left";
         else if (window.innerWidth - r.right < 170) align = "right";
+        const ws = anchorEl.closest(".reader-workspace")?.getBoundingClientRect();
+        if (ws && r.top - ws.top < 320) vAlign = "below";
         bx = r.left + r.width / 2;
         by = r.top;
       }
@@ -188,6 +195,7 @@ export default function StoryText({
       translation: note || sentence.en || "—",
       grammar: sentence.target,
       align,
+      vAlign,
       saved: isBookmarked(bookmarks, ref),
       bx,
       by,
@@ -263,6 +271,7 @@ export default function StoryText({
             translation={pop.translation}
             grammar={pop.grammar}
             align={pop.align}
+            vAlign={pop.vAlign}
             saved={pop.saved}
             onSave={pop.save}
             onSpeak={() => speak(pop.word, story.lang, rate)}

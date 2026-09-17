@@ -5,10 +5,15 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { LANG_NAMES, Story } from "@/lib/types";
 import {
   ParallelMode,
+  SPEEDS,
+  VoiceGender,
   getMode,
   getRate,
   getShowRomaji,
+  getVoiceGender,
   setMode as persistMode,
+  setRate as persistRate,
+  setVoiceGender as persistVoice,
 } from "@/lib/settings";
 import { cancelPendingSpeak, loadVoices, speakAsync, stopSpeaking } from "@/lib/tts";
 import AudioPlayer from "./AudioPlayer";
@@ -48,6 +53,8 @@ export default function ReaderView({ story }: { story: Story }) {
   const [showRomaji] = useState<boolean>(() => getShowRomaji());
   const [playing, setPlaying] = useState(false);
   const [currentIdx, setCurrentIdx] = useState(0);
+  const [rate, setRateState] = useState<number>(() => getRate());
+  const [voice, setVoiceState] = useState<VoiceGender>(() => getVoiceGender());
   const [audioSupported] = useState(
     () => typeof window !== "undefined" && "speechSynthesis" in window
   );
@@ -154,6 +161,16 @@ export default function ReaderView({ story }: { story: Story }) {
     persistMode(next);
   }, []);
 
+  const changeRate = useCallback((next: number) => {
+    setRateState(next);
+    persistRate(next);
+  }, []);
+
+  const changeVoice = useCallback((next: VoiceGender) => {
+    setVoiceState(next);
+    persistVoice(next);
+  }, []);
+
   // Tapping a word pauses the story so its audio isn't instantly cancelled.
   const handleWordTap = useCallback(() => {
     if (playing) stop();
@@ -199,23 +216,28 @@ export default function ReaderView({ story }: { story: Story }) {
         </div>
       </div>
 
+      <AudioPlayer
+        playing={playing}
+        currentIdx={currentIdx}
+        total={story.sentences.length}
+        supported={audioSupported}
+        rate={rate}
+        speeds={SPEEDS}
+        voice={voice}
+        onToggle={toggle}
+        onSeek={seek}
+        onRate={changeRate}
+        onVoice={changeVoice}
+      />
+
       <StoryText
         story={story}
         mode={mode}
         showRomaji={showRomaji}
         activeIdx={currentIdx}
         highlight={playing}
-        rate={rateRef.current}
+        rate={rate}
         onWordTap={handleWordTap}
-      />
-
-      <AudioPlayer
-        playing={playing}
-        currentIdx={currentIdx}
-        total={story.sentences.length}
-        supported={audioSupported}
-        onToggle={toggle}
-        onSeek={seek}
       />
     </div>
   );

@@ -1,22 +1,34 @@
 "use client";
 
+import { VOICE_GENDERS, VoiceGender } from "@/lib/settings";
+
 interface Props {
   playing: boolean;
   currentIdx: number;
   total: number;
   supported: boolean;
+  rate: number;
+  speeds: number[];
+  voice: VoiceGender;
   onToggle: () => void;
   onSeek: (idx: number) => void;
+  onRate: (rate: number) => void;
+  onVoice: (voice: VoiceGender) => void;
 }
 
-/** Story transport: play/pause, sentence timeline, native-audio pill. */
+/** Story transport: play/pause, sentence timeline, speed + voice choice. */
 export default function AudioPlayer({
   playing,
   currentIdx,
   total,
   supported,
+  rate,
+  speeds,
+  voice,
   onToggle,
   onSeek,
+  onRate,
+  onVoice,
 }: Props) {
   if (total <= 0) return null;
   const percent = total > 1 ? (currentIdx / (total - 1)) * 100 : 0;
@@ -84,6 +96,40 @@ export default function AudioPlayer({
           <line x1="12" y1="19" x2="12" y2="22" />
         </svg>
         Native Audio Sync
+      </div>
+
+      <div className="player-subrow">
+        <span className="mini-label" id="speed-label">
+          Speed
+        </span>
+        <div className="layout-toggle-group" role="group" aria-labelledby="speed-label">
+          {speeds.map((s) => (
+            <button
+              key={s}
+              className={`pill-btn${s === rate ? " active" : ""}`}
+              aria-pressed={s === rate}
+              onClick={() => onRate(s)}
+            >
+              {s}×
+            </button>
+          ))}
+        </div>
+        <span className="mini-label" id="voice-label">
+          Voice
+        </span>
+        <div className="layout-toggle-group" role="group" aria-labelledby="voice-label">
+          {VOICE_GENDERS.map((v) => (
+            <button
+              key={v.id}
+              className={`pill-btn${voice === v.id ? " active" : ""}`}
+              aria-pressed={voice === v.id}
+              title={v.hint}
+              onClick={() => onVoice(v.id)}
+            >
+              {v.label}
+            </button>
+          ))}
+        </div>
       </div>
     </div>
   );

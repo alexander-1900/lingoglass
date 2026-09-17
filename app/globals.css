@@ -799,7 +799,26 @@ header {
   display: flex;
   align-items: center;
   gap: 20px;
+  flex-wrap: wrap;
   border-color: var(--border-soft);
+}
+
+/* Second footer row: speed + voice choice */
+.player-subrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  flex: 1 1 100%;
+}
+.player-subrow .layout-toggle-group { padding: 3px; }
+.player-subrow .pill-btn { min-height: 32px; font-size: 0.78rem; padding: 4px 12px; }
+.mini-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
 }
 
 .playback-controls {
@@ -1153,7 +1172,20 @@ header {
 .word-popover.in-word.align-left .popover-arrow { left: 28px; }
 .word-popover.in-word.align-right { left: auto; right: -8px; transform: translateY(6px) scale(0.97); }
 .word-popover.in-word.align-right.active { transform: translateY(0) scale(1); }
-.word-popover.in-word.align-right .popover-arrow { left: auto; right: 28px; transform: none; }
+.word-popover.in-word.align-right .popover-arrow { left: auto; right: 28px; transform: rotate(45deg); }
+
+/* Flipped below the word when the workspace top would clip the card */
+.word-popover.in-word.below { bottom: auto; top: calc(100% + 12px); transform: translateX(-50%) translateY(-6px) scale(0.97); }
+.word-popover.in-word.below.active { transform: translateX(-50%) translateY(0) scale(1); }
+.word-popover.in-word.below .popover-arrow {
+  top: -7px; bottom: auto; transform: translateX(-50%) rotate(45deg);
+  border: none; border-left: 1px solid var(--border-strong); border-top: 1px solid var(--border-strong);
+}
+.word-popover.in-word.below.align-left { transform: translateY(-6px) scale(0.97); }
+.word-popover.in-word.below.align-left.active { transform: translateY(0) scale(1); }
+.word-popover.in-word.below.align-right { transform: translateY(-6px) scale(0.97); }
+.word-popover.in-word.below.align-right.active { transform: translateY(0) scale(1); }
+.word-popover.in-word.below.align-right .popover-arrow { transform: rotate(45deg); }
 
 /* Romaji micro-reading above Japanese tokens */
 .romaji {
@@ -1171,6 +1203,14 @@ header {
 .side-toggle-mobile { display: none; }
 @media (max-width: 1024px) {
   .side-toggle-mobile { display: inline-flex; }
+}
+
+/* Desktop sidebar collapse (toggle in the brand row) */
+#app-container.side-collapsed {
+  grid-template-columns: 1fr;
+}
+#app-container.side-collapsed aside {
+  display: none;
 }
 
 /* ==========================================================================

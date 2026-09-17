@@ -1,5 +1,7 @@
 "use client";
 
+import { VoiceGender, getVoiceGender } from "./settings";
+
 const LANG_VOICES: Record<string, string[]> = {
   es: ["es-ES", "es-MX", "es"],
   ru: ["ru-RU", "ru"],
@@ -36,9 +38,45 @@ export function loadVoices(): Promise<SpeechSynthesisVoice[]> {
 
 function pickVoice(lang: string): SpeechSynthesisVoice | undefined {
   const prefixes = LANG_VOICES[lang] ?? [lang];
-  return voicesCache.find((v) =>
+  const pool = voicesCache.filter((v) =>
     prefixes.some((p) => v.lang.toLowerCase().startsWith(p))
   );
+  if (!pool.length) return undefined;
+  const want: VoiceGender = getVoiceGender();
+  if (want === "auto") return pool[0];
+  const gendered = pool.filter((v) => guessGender(v.name) === want);
+  return gendered[0] ?? pool[0];
+}
+
+/**
+ * Guess a voice's gender from its display name. Vendors expose no standard
+ * gender field, so this combines explicit markers ("Female"/"Male") with
+ * well-known voice names (Microsoft Zira/Pavel, Apple Samantha/Kyoko/Otoya…).
+ * Unknown names return null and simply don't filter.
+ */
+function guessGender(name: string): "female" | "male" | null {
+  const n = name.toLowerCase();
+  if (/\bfemale\b|\bwoman\b|\bgirl\b|\bfeminine\b|\bfemme\b|\bmujer\b|\bfrau\b|\bella\b|\bdonna\b/.test(n)) {
+    return "female";
+  }
+  if (/\bmale\b|\bman\b|\bboy\b|\bmasculine\b|\bhomme\b|\bhombre\b|\bmann\b/.test(n)) {
+    return "male";
+  }
+  if (
+    /(zira|maria|helena|sabina|laura|carmen|sofia|lucia|monica|irina|elena|olga|tatiana|svetlana|haruka|ayumi|kyoko|nanako|akari|samantha|jenny|aria|sonia|eva|anna|paulina|luciana|mei)\b/.test(
+      n
+    )
+  ) {
+    return "female";
+  }
+  if (
+  /(david|mark|daniel|pablo|diego|jorge|carlos|miguel|juan|pedro|pavel|dmitry|yuri|sergei|andrei|ivan|ichiro|otoya|kenji|takeshi|alex|guy)\b/.test(
+      n
+    )
+  ) {
+    return "male";
+  }
+  return null;
 }
 
 // Browser timer handle (DOM setTimeout returns a number).

@@ -6,21 +6,27 @@ import AppShell from "@/components/shell/AppShell";
 import {
   DEFAULT_MODE,
   DEFAULT_RATE,
+  DEFAULT_VOICE,
   MODES,
   ParallelMode,
   SPEEDS,
+  VOICE_GENDERS,
+  VoiceGender,
   getMode,
   getRate,
   getShowRomaji,
+  getVoiceGender,
   setMode,
   setRate,
   setShowRomaji,
+  setVoiceGender,
 } from "@/lib/settings";
 
 export default function SettingsPage() {
   const [rate, setRateState] = useState<number>(() => getRate());
   const [mode, setModeState] = useState<ParallelMode>(() => getMode());
   const [romaji, setRomajiState] = useState<boolean>(() => getShowRomaji());
+  const [voice, setVoiceState] = useState<VoiceGender>(() => getVoiceGender());
 
   return (
     <AppShell>
@@ -58,6 +64,31 @@ export default function SettingsPage() {
           </div>
           <p className="setting-note">
             Current: {rate}×{rate === DEFAULT_RATE ? " (default)" : ""}
+          </p>
+        </div>
+
+        <div className="glass-container setting-block">
+          <h2>Voice</h2>
+          <p>Whose voice reads the stories aloud. The closest installed match is used.</p>
+          <div className="layout-toggle-group" role="group" aria-label="Voice">
+            {VOICE_GENDERS.map((v) => (
+              <button
+                key={v.id}
+                className={`pill-btn${voice === v.id ? " active" : ""}`}
+                aria-pressed={voice === v.id}
+                title={v.hint}
+                onClick={() => {
+                  setVoiceState(v.id);
+                  setVoiceGender(v.id);
+                }}
+              >
+                {v.label}
+              </button>
+            ))}
+          </div>
+          <p className="setting-note">
+            Current: {VOICE_GENDERS.find((v) => v.id === voice)?.hint}
+            {voice === DEFAULT_VOICE ? " (default)" : ""}
           </p>
         </div>
 
