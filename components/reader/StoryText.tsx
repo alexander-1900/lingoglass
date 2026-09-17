@@ -4,10 +4,10 @@ import { useEffect, useRef, useState } from "react";
 import { Story, StorySentence, Token } from "@/lib/types";
 import type { ParallelMode } from "@/lib/settings";
 import { loadVoices, speak } from "@/lib/tts";
+import { celebrationBurst, ghostFlight, toast } from "@/lib/juice";
 import { addBookmark, isBookmarked, useBookmarks } from "@/lib/bookmarks";
 import { isJapaneseText, tokenWithRomaji } from "@/lib/furigana-romaji";
 import WordPopover from "./WordPopover";
-import { IconSentencePlay } from "../ui/icons";
 
 type PopAlign = "center" | "left" | "right";
 
@@ -15,12 +15,16 @@ interface PopState {
   sentIdx: number;
   key: string;
   word: string;
-  note: string;
-  reading?: string;
-  romaji?: string;
+  posPill: string;
+  lemma: string;
+  translation: string;
+  grammar: string;
   align: PopAlign;
-  /** Sentence translation — shown when the word has no glossary note. */
-  context: string;
+  save: () => void;
+  saved: boolean;
+  /** Viewport point above the word, for the save celebration burst. */
+  bx: number;
+  by: number;
 }
 
 interface Props {
@@ -31,7 +35,6 @@ interface Props {
   highlight: boolean;
   rate: number;
   onWordTap: () => void;
-  onPlayFrom: (idx: number) => void;
 }
 
 /** Split a sentence into clickable units. Japanese uses the Sudachi service (with fallback). */
@@ -63,6 +66,16 @@ function glossaryLookup(sentence: StorySentence, word: string): string | undefin
   return phrase?.note;
 }
 
+/** Tiny pronounce visualizer under the word, like the reference design. */
+function flashVisualizer(el: HTMLElement): void {
+  const wave = document.createElement("span");
+  wave.className = "pronounce-visualizer";
+  wave.setAttribute("aria-hidden", "true");
+  wave.innerHTML = "<span></span><span></span><span></span>";
+  el.appendChild(wave);
+  window.setTimeout(() => wave.remove(), 1200);
+}
+
 export default function StoryText({
   story,
   mode,
@@ -71,15 +84,13 @@ export default function StoryText({
   highlight,
   rate,
   onWordTap,
-  onPlayFrom,
 }: Props) {
   const [pop, setPop] = useState<PopState | null>(null);
   const [jaTokens, setJaTokens] = useState<Record<number, Token[]>>({});
+  const [revealed, setRevealed] = useState<Set<number>>(new Set());
   const bookmarks = useBookmarks();
   const inFlight = useRef<Set<number>>(new Set());
   const isJa = story.lang === "ja";
-  const showTarget = mode !== "english";
-  const showEn = mode !== "target";
 
   // Free-scroll: audio tracking only highlights the active sentence via CSS.
   // No scrollIntoView / observer here so the user can scroll freely during playback.
@@ -141,26 +152,78 @@ export default function StoryText({
     void loadVoices();
     // Keep the card on screen: align to the word, flip the edge near a margin.
     let align: PopAlign = "center";
+    let bx = typeof window !== "undefined" ? window.innerWidth / 2 : 0;
+    let by = 200;
     if (anchorEl && typeof window !== "undefined") {
       const r = anchorEl.getBoundingClientRect();
       if (r.width > 0 || r.height > 0) {
         if (r.left < 170) align = "left";
         else if (window.innerWidth - r.right < 170) align = "right";
+        bx = r.left + r.width / 2;
+        by = r.top;
+      }
+      flashVisualizer(anchorEl);
+    }
+    if (typeof window !== "undefined" && "vibrate" in navigator) {
+      try {
+        navigator.vibrate(10);
+      } catch {
+        /* unsupported — ignore */
       }
     }
     const note = glossaryLookup(sentence, word) ?? "";
+    const ref = {
+      lang: story.lang,
+      level: story.level,
+      slug: story.slug,
+      sentIdx: idx,
+      word: display,
+    };
     setPop({
       sentIdx: idx,
       key,
       word: display,
-      note,
-      reading: extra?.reading,
-      romaji: extra?.romaji,
+      posPill: story.level.toUpperCase(),
+      lemma: extra?.reading || extra?.romaji || "",
+      translation: note || sentence.en || "—",
+      grammar: sentence.target,
       align,
-      context: sentence.en,
+      saved: isBookmarked(bookmarks, ref),
+      bx,
+      by,
+      save: () => {
+        const added = addBookmark({
+          ...ref,
+          note,
+          reading: extra?.reading,
+          romaji: extra?.romaji,
+          context: sentence.target,
+          contextEn: sentence.en,
+        });
+        setPop((prev) =>
+          prev && prev.sentIdx === idx && prev.key === key ? { ...prev, saved: true } : prev
+        );
+        celebrationBurst(bx, by);
+        ghostFlight(display, bx, by);
+        toast(
+          added ? "Word Bookmarked" : "Already Bookmarked",
+          added
+            ? `'${display}' was added to your vocabulary queue.`
+            : `'${display}' is already in your review queue!`
+        );
+      },
     });
     speak(display, story.lang, rate);
     if (isJa && isJapaneseText(sentence.target)) void loadJaTokens(idx, sentence);
+  }
+
+  function toggleReveal(idx: number): void {
+    setRevealed((prev) => {
+      const next = new Set(prev);
+      if (next.has(idx)) next.delete(idx);
+      else next.add(idx);
+      return next;
+    });
   }
 
   function wordNode(
@@ -168,64 +231,41 @@ export default function StoryText({
     sentence: StorySentence,
     key: string,
     surface: string,
-    extra?: { reading?: string; romaji?: string },
-    trail?: string
+    extra?: { reading?: string; romaji?: string }
   ) {
     const isOpen = !!pop && pop.sentIdx === idx && pop.key === key;
     const open = (el: HTMLElement) => openWord(idx, key, surface, sentence, el, extra);
-    const ref = {
-      lang: story.lang,
-      level: story.level,
-      slug: story.slug,
-      sentIdx: idx,
-      word: pop && pop.sentIdx === idx && pop.key === key ? pop.word : stripPunct(surface),
-    };
-    const saved = isBookmarked(bookmarks, ref);
-    const save = () => {
-      if (!pop || pop.sentIdx !== idx || pop.key !== key) return;
-      addBookmark({
-        ...ref,
-        word: pop.word,
-        note: pop.note,
-        reading: pop.reading,
-        romaji: pop.romaji,
-        context: sentence.target,
-        contextEn: sentence.en,
-      });
-    };
     return (
-      <span className="word-wrap" key={key}>
-        <span
-          className="word"
-          role="button"
-          tabIndex={0}
-          aria-expanded={isOpen}
-          onClick={(e) => {
-            e.stopPropagation();
-            open(e.currentTarget);
-          }}
-          onKeyDown={(e) => {
-            if (e.key === "Enter" || e.key === " ") {
-              e.preventDefault();
-              open(e.currentTarget as HTMLElement);
-            }
-          }}
-        >
-          {surface}
-          {extra?.romaji && showRomaji && <span className="romaji">{extra.romaji}</span>}
-          {trail}
-        </span>
+      <span
+        key={key}
+        className="word-token"
+        role="button"
+        tabIndex={0}
+        aria-expanded={isOpen}
+        onClick={(e) => {
+          e.stopPropagation();
+          open(e.currentTarget);
+        }}
+        onKeyDown={(e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            open(e.currentTarget as HTMLElement);
+          }
+        }}
+      >
+        {surface}
+        {extra?.romaji && showRomaji && <span className="romaji">{extra.romaji}</span>}
         {isOpen && pop && (
           <WordPopover
             word={pop.word}
-            note={pop.note}
-            reading={pop.reading}
-            romaji={pop.romaji}
-            context={pop.context}
+            posPill={pop.posPill}
+            lemma={pop.lemma}
+            translation={pop.translation}
+            grammar={pop.grammar}
             align={pop.align}
-            saved={saved}
-            onSave={save}
-            onReplay={() => speak(pop.word, story.lang, rate)}
+            saved={pop.saved}
+            onSave={pop.save}
+            onSpeak={() => speak(pop.word, story.lang, rate)}
             onClose={() => setPop(null)}
           />
         )}
@@ -234,42 +274,44 @@ export default function StoryText({
   }
 
   return (
-    <div className="story-text">
+    <div
+      id="reader-workspace"
+      className={`glass-container reader-workspace reading-mode-${mode}`}
+      data-lang={story.lang}
+      onClick={() => setPop(null)}
+    >
       {story.sentences.map((sentence, idx) => {
         const tokens = jaTokens[idx];
         const isActive = highlight && idx === activeIdx;
+        const isRevealed = mode !== "interactive" || revealed.has(idx);
         return (
-          <p key={idx} className={`sentence ${isActive ? "sentence-active" : ""}`}>
-            <button
-              className="sentence-play"
-              onClick={(e) => {
-                e.stopPropagation();
-                onPlayFrom(idx);
-              }}
-              aria-label={`Play sentence ${idx + 1} from here`}
-              title={`Play from sentence ${idx + 1}`}
-            >
-              <IconSentencePlay />
-            </button>
-            <span className="sentence-body">
-              {showTarget &&
-                (tokens && tokens.length
-                  ? tokens.map((t, ti) =>
-                      wordNode(idx, sentence, `t${ti}`, t.surface, {
-                        reading: t.reading,
-                        romaji: showRomaji ? t.romaji : undefined,
-                      }, " ")
+          <div
+            key={idx}
+            className={`sentence-block${isActive ? " active" : ""}${mode === "interactive" && revealed.has(idx) ? " revealed" : ""}`}
+            onClick={() => {
+              if (mode === "interactive") toggleReveal(idx);
+            }}
+          >
+            <div className="target-line">
+              {tokens && tokens.length
+                ? tokens.map((t, ti) =>
+                    wordNode(idx, sentence, `t${ti}`, t.surface, {
+                      reading: t.reading,
+                      romaji: showRomaji ? t.romaji : undefined,
+                    })
+                  )
+                : splitWords(sentence.target).map((w, wi) =>
+                    isPunctToken(w) ? (
+                      <span key={`w${wi}`}>{w}</span>
+                    ) : (
+                      wordNode(idx, sentence, `w${wi}`, w)
                     )
-                  : splitWords(sentence.target).map((w, wi) =>
-                      isPunctToken(w) ? (
-                        <span key={`w${wi}`}>{w}</span>
-                      ) : (
-                        wordNode(idx, sentence, `w${wi}`, w)
-                      )
-                    ))}
-              {showEn && sentence.en && <span className="pl-line">{sentence.en}</span>}
-            </span>
-          </p>
+                  )}
+            </div>
+            {isRevealed && sentence.en && (
+              <div className="translation-line">{sentence.en}</div>
+            )}
+          </div>
         );
       })}
     </div>

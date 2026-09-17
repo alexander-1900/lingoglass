@@ -1,10 +1,8 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
-import { LANGS, LANG_NAMES, LEVELS, Lang } from "@/lib/types";
-import { getAllStoryPaths, getStory } from "@/lib/stories";
+import { LANGS, Lang } from "@/lib/types";
+import { getAllStories, getAllStoryPaths, getStory } from "@/lib/stories";
+import AppShell from "@/components/shell/AppShell";
 import ReaderView from "@/components/reader/ReaderView";
-import PageShell from "@/components/shell/PageShell";
-import { IconArrowLeft } from "@/components/ui/icons";
 
 export function generateStaticParams() {
   return getAllStoryPaths();
@@ -35,33 +33,10 @@ export default async function StoryPage({
   if (!story) notFound();
 
   return (
-    <PageShell>
-    <div className={`shell reader-shell lang-${story.lang}`}>
-      <header className="topbar reveal">
-        <Link href={`/library/${lang}/${level}`} className="icon-btn" aria-label="Back">
-          <IconArrowLeft />
-        </Link>
-        <span className="brand">
-          {level.toUpperCase()} · {lang}
-        </span>
-        <span style={{ width: 42 }} aria-hidden="true" />
-      </header>
-
-      <div className="folio reveal d1">
-        <div className="corners" aria-hidden="true"><span>Index · 03</span><span>{story.sentences.length} sentences</span></div>
-        <div className="folio-head">
-          <span>
-            <span className="swatch" aria-hidden="true" />
-            {LANG_NAMES[story.lang]} · {level.toUpperCase()}
-          </span>
-          <span>№ {slug.split("-")[0]} · {story.sentences.length} sentences</span>
-        </div>
-        {/* Key by slug: ReaderView holds playback + token state that must not
-            leak from the previously opened story when navigating. */}
+    <AppShell storyCount={getAllStories().length}>
+      <section id="stories-platform" style={{ flex: 1, display: "flex", flexDirection: "column", minHeight: 0 }}>
         <ReaderView key={story.slug} story={story} />
-      </div>
-    </div>
-    </PageShell>
+      </section>
+    </AppShell>
   );
 }
-

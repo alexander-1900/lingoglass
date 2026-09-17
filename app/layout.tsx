@@ -23,6 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="orb orb-2" />
           <div className="orb orb-3" />
         </div>
+        <canvas id="particle-canvas" aria-hidden="true" />
         {children}
       </body>
     </html>

@@ -133,8 +133,8 @@ npm run start   # serve the production build on :3000
 
 ## 7. App snapshot (for context, do not rebuild)
 
-- Next.js 15 App Router, plain CSS in `app/globals.css`, no Tailwind.
-- Routes: `/` (home) → `/library/[lang]` (levels) → `/library/[lang]/[level]` (story list) → `/story/[lang]/[level]/[slug]` (reader). All SSG via `generateStaticParams()`.
-- Reader: click a word → popover (glossary note + TTS pronunciation), `▶ Listen` reads the whole story with Web Speech API (OS voice, no external TTS), `English: on/off` toggles translations.
+- Next.js 15 App Router, Cream & Clay editorial theme in `app/globals.css` (system fonts only, no Tailwind, no webfonts).
+- Routes: `/` (library, all stories) → `/library/[lang]` → `/library/[lang]/[level]` → `/story/[lang]/[level]/[slug]` (reader) + `/settings`. All SSG via `generateStaticParams()`. Every page renders inside `AppShell` (sidebar with vocabulary queue + Stories/Reels tabs).
+- Reader: 3 layout modes (side-by-side / line-by-line / interactive tap-to-reveal, persisted per device), click a word → warm definition card above it (gloss, or sentence translation as fallback) with Speak + localStorage Bookmark, `▶` footer reads the whole story with Web Speech API (OS voice), timeline seeks by sentence.
 - `app/api/tokenize-ja` → Sudachi service (`services/sudachi/`, Docker, set `SUDACHI_SERVICE_URL`), with regex fallback.
-- Progress/cloud sync was **removed** (was dead code: nothing called it). Reading settings (voice speed, text mode, romaji) persist per-device in localStorage.
+- `scripts/validate-content.mjs` runs on `prebuild` and refuses the build on malformed stories.

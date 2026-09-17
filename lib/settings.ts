@@ -1,16 +1,16 @@
 "use client";
 
-export type ParallelMode = "target" | "parallel" | "english";
+export type ParallelMode = "side-by-side" | "line-by-line" | "interactive";
 
 export const MODES: { id: ParallelMode; label: string; hint: string }[] = [
-  { id: "target", label: "Story", hint: "Target language only" },
-  { id: "parallel", label: "Parallel", hint: "Target + English" },
-  { id: "english", label: "English", hint: "Translation only" },
+  { id: "side-by-side", label: "Side-by-Side", hint: "Target and English in parallel columns" },
+  { id: "line-by-line", label: "Line-by-Line", hint: "Translation under each sentence" },
+  { id: "interactive", label: "Interactive Reveal", hint: "Tap a sentence to reveal its translation" },
 ];
 
 export const SPEEDS = [0.5, 0.75, 1, 1.25, 1.5];
 export const DEFAULT_RATE = 1;
-export const DEFAULT_MODE: ParallelMode = "parallel";
+export const DEFAULT_MODE: ParallelMode = "side-by-side";
 
 const RATE_KEY = "lingoglass:rate";
 const MODE_KEY = "lingoglass:parallel-mode";
@@ -45,7 +45,7 @@ export function setRate(rate: number): void {
 
 export function getMode(): ParallelMode {
   const raw = read(MODE_KEY);
-  return raw === "target" || raw === "parallel" || raw === "english" ? raw : DEFAULT_MODE;
+  return raw === "side-by-side" || raw === "line-by-line" || raw === "interactive" ? raw : DEFAULT_MODE;
 }
 
 export function setMode(mode: ParallelMode): void {

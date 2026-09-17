@@ -1,35 +1,59 @@
 "use client";
 
+import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { Story } from "@/lib/types";
+import { LANG_NAMES, Story } from "@/lib/types";
 import {
   ParallelMode,
-  SPEEDS,
   getMode,
   getRate,
   getShowRomaji,
   setMode as persistMode,
-  setRate as persistRate,
 } from "@/lib/settings";
 import { cancelPendingSpeak, loadVoices, speakAsync, stopSpeaking } from "@/lib/tts";
 import AudioPlayer from "./AudioPlayer";
-import ParallelToggle from "./ParallelToggle";
 import StoryText from "./StoryText";
-import { StoryCover } from "../ui/StoryCover";
+
+const MODE_ICONS: Record<ParallelMode, React.ReactNode> = {
+  "side-by-side": (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden="true">
+      <rect x="3" y="3" width="7" height="18" rx="1" />
+      <rect x="14" y="3" width="7" height="18" rx="1" />
+    </svg>
+  ),
+  "line-by-line": (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden="true">
+      <line x1="3" y1="6" x2="21" y2="6" />
+      <line x1="3" y1="12" x2="21" y2="12" />
+      <line x1="3" y1="18" x2="21" y2="18" />
+    </svg>
+  ),
+  interactive: (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden="true">
+      <circle cx="12" cy="12" r="10" />
+      <line x1="12" y1="16" x2="12" y2="12" />
+      <line x1="12" y1="8" x2="12.01" y2="8" />
+    </svg>
+  ),
+};
+
+const MODE_LABELS: Record<ParallelMode, string> = {
+  "side-by-side": "Side-by-Side",
+  "line-by-line": "Line-by-Line",
+  interactive: "Interactive Reveal",
+};
 
 export default function ReaderView({ story }: { story: Story }) {
   const [mode, setMode] = useState<ParallelMode>(() => getMode());
   const [showRomaji] = useState<boolean>(() => getShowRomaji());
   const [playing, setPlaying] = useState(false);
   const [currentIdx, setCurrentIdx] = useState(0);
-  const [rate, setRateState] = useState<number>(() => getRate());
   const [audioSupported] = useState(
     () => typeof window !== "undefined" && "speechSynthesis" in window
   );
 
   const runRef = useRef(0);
-  const rateRef = useRef(rate);
-  rateRef.current = rate;
+  const rateRef = useRef(getRate());
   const sentencesRef = useRef(story.sentences.map((s) => s.target));
   sentencesRef.current = story.sentences.map((s) => s.target);
   const langRef = useRef(story.lang);
@@ -125,16 +149,6 @@ export default function ReaderView({ story }: { story: Story }) {
     [playing, runFrom]
   );
 
-  const step = useCallback(
-    (delta: number) => seek(currentIdx + delta),
-    [seek, currentIdx]
-  );
-
-  const changeRate = useCallback((next: number) => {
-    setRateState(next);
-    persistRate(next);
-  }, []);
-
   const changeMode = useCallback((next: ParallelMode) => {
     setMode(next);
     persistMode(next);
@@ -146,29 +160,43 @@ export default function ReaderView({ story }: { story: Story }) {
   }, [playing, stop]);
 
   return (
-    <article className={`reader-article lang-${story.lang}`}>
-      <StoryCover src={story.image} alt={story.title} lang={story.lang} size="lg" />
-      <p className="reader-eyebrow">A graded story</p>
-      <h1 className="reader-title">{story.title}</h1>
-      {story.titleEn && <p className="reader-sub">{story.titleEn}</p>}
+    <div id="reader-view" className="reader-view active">
+      <div className="glass-container mode-selector-bar">
+        <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+          <Link
+            href={`/library/${story.lang}/${story.level}`}
+            className="round-btn"
+            title="Back to Library"
+            aria-label="Back to Library"
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <line x1="19" y1="12" x2="5" y2="12" />
+              <polyline points="12 19 5 12 12 5" />
+            </svg>
+          </Link>
+          <div style={{ display: "flex", flexDirection: "column", gap: 2 }}>
+            <span className="eyebrow-label">
+              {LANG_NAMES[story.lang]} · {story.level.toUpperCase()}
+            </span>
+            <h3 style={{ fontSize: "1.15rem", fontWeight: 700 }}>{story.title}</h3>
+          </div>
+        </div>
 
-      <div className="reader-controls">
-        <AudioPlayer
-          playing={playing}
-          currentIdx={currentIdx}
-          total={story.sentences.length}
-          rate={rate}
-          speeds={SPEEDS}
-          supported={audioSupported}
-          onToggle={toggle}
-          onSeek={seek}
-          onStep={step}
-          onRate={changeRate}
-        />
-        <ParallelToggle mode={mode} onChange={changeMode} />
-        <span className="reader-stats">
-          {story.minutes} min · {story.sentences.length} sentences
-        </span>
+        <div className="layout-toggle-group" role="group" aria-label="Reading layout">
+          {(Object.keys(MODE_LABELS) as ParallelMode[]).map((m) => (
+            <button
+              key={m}
+              className={`pill-btn${mode === m ? " active" : ""}`}
+              data-mode={m}
+              title={MODE_LABELS[m]}
+              aria-pressed={mode === m}
+              onClick={() => changeMode(m)}
+            >
+              {MODE_ICONS[m]}
+              {MODE_LABELS[m]}
+            </button>
+          ))}
+        </div>
       </div>
 
       <StoryText
@@ -177,14 +205,18 @@ export default function ReaderView({ story }: { story: Story }) {
         showRomaji={showRomaji}
         activeIdx={currentIdx}
         highlight={playing}
-        rate={rate}
+        rate={rateRef.current}
         onWordTap={handleWordTap}
-        onPlayFrom={seek}
       />
 
-      <div className="story-end" aria-hidden="true">
-        <span>❦</span>
-      </div>
-    </article>
+      <AudioPlayer
+        playing={playing}
+        currentIdx={currentIdx}
+        total={story.sentences.length}
+        supported={audioSupported}
+        onToggle={toggle}
+        onSeek={seek}
+      />
+    </div>
   );
 }

@@ -2,8 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { IconArrowLeft } from "@/components/ui/icons";
-import PageShell from "@/components/shell/PageShell";
+import AppShell from "@/components/shell/AppShell";
 import {
   DEFAULT_MODE,
   DEFAULT_RATE,
@@ -24,106 +23,97 @@ export default function SettingsPage() {
   const [romaji, setRomajiState] = useState<boolean>(() => getShowRomaji());
 
   return (
-    <PageShell>
-      <div className="shell">
-        <header className="topbar reveal">
-          <Link href="/" className="icon-btn" aria-label="Back to library">
-            <IconArrowLeft />
+    <AppShell>
+      <section id="stories-platform" style={{ flex: 1, display: "flex", flexDirection: "column", gap: 20, minHeight: 0, overflowY: "auto" }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+          <Link href="/" className="round-btn" title="Back to library" aria-label="Back to library">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <line x1="19" y1="12" x2="5" y2="12" />
+              <polyline points="12 19 5 12 12 5" />
+            </svg>
           </Link>
-          <span className="brand">
-            <span className="brand-mark" aria-hidden="true">❖</span>Settings
-          </span>
-          <span style={{ width: 48 }} aria-hidden="true" />
-        </header>
-
-        <section className="page-head">
-          <div className="corners reveal d1" aria-hidden="true"><span>Index · 04</span><span>On this device</span></div>
-          <p className="kicker reveal d1">Reading preferences</p>
-          <h1 className="reveal d2">Read it your way</h1>
-          <p className="lede reveal d3">
-            These apply to every story, on this device. Audio uses your
-            operating system&apos;s voices for Russian, Spanish and Japanese.
-          </p>
-        </section>
-
-        <div className="settings-list">
-          <section className="setting-card reveal d1" aria-labelledby="setting-speed">
-            <h2 id="setting-speed">Voice speed</h2>
-            <p>How fast stories and words are read aloud.</p>
-            <div className="player-speeds" role="group" aria-labelledby="setting-speed">
-              {SPEEDS.map((s) => (
-                <button
-                  key={s}
-                  className={`player-speed ${s === rate ? "active" : ""}`}
-                  aria-pressed={s === rate}
-                  onClick={() => {
-                    setRateState(s);
-                    setRate(s);
-                  }}
-                >
-                  {s}×
-                </button>
-              ))}
-            </div>
-            <p className="setting-current">
-              Current: {rate}×{rate === DEFAULT_RATE ? " (default)" : ""}
-            </p>
-          </section>
-
-          <section className="setting-card reveal d2" aria-labelledby="setting-text">
-            <h2 id="setting-text">Text display</h2>
-            <p>What you see under each sentence.</p>
-            <div className="mode-toggle" role="group" aria-labelledby="setting-text">
-              {MODES.map((m) => (
-                <button
-                  key={m.id}
-                  className={`mode-btn ${mode === m.id ? "active" : ""}`}
-                  aria-pressed={mode === m.id}
-                  title={m.hint}
-                  onClick={() => {
-                    setModeState(m.id);
-                    setMode(m.id);
-                  }}
-                >
-                  {m.label}
-                </button>
-              ))}
-            </div>
-            <p className="setting-current">
-              Current: {MODES.find((m) => m.id === mode)?.hint}
-              {mode === DEFAULT_MODE ? " (default)" : ""}
-            </p>
-          </section>
-
-          <section className="setting-card reveal d3" aria-labelledby="setting-romaji">
-            <h2 id="setting-romaji">Romaji</h2>
-            <p>Show romanized readings above Japanese words.</p>
-            <div className="mode-toggle" role="group" aria-labelledby="setting-romaji">
-              <button
-                className={`mode-btn ${romaji ? "active" : ""}`}
-                aria-pressed={romaji}
-                onClick={() => {
-                  setRomajiState(true);
-                  setShowRomaji(true);
-                }}
-              >
-                On
-              </button>
-              <button
-                className={`mode-btn ${!romaji ? "active" : ""}`}
-                aria-pressed={!romaji}
-                onClick={() => {
-                  setRomajiState(false);
-                  setShowRomaji(false);
-                }}
-              >
-                Off
-              </button>
-            </div>
-            <p className="setting-current">Current: {romaji ? "On (default)" : "Off"}</p>
-          </section>
+          <div style={{ display: "flex", flexDirection: "column", gap: 2 }}>
+            <span className="eyebrow-label">Reading preferences</span>
+            <h3 style={{ fontSize: "1.3rem", fontWeight: 700 }}>Read it your way</h3>
+          </div>
         </div>
-      </div>
-    </PageShell>
+
+        <div className="glass-container setting-block">
+          <h2>Voice speed</h2>
+          <p>How fast stories and words are read aloud.</p>
+          <div className="layout-toggle-group" role="group" aria-label="Voice speed">
+            {SPEEDS.map((s) => (
+              <button
+                key={s}
+                className={`pill-btn${s === rate ? " active" : ""}`}
+                aria-pressed={s === rate}
+                onClick={() => {
+                  setRateState(s);
+                  setRate(s);
+                }}
+              >
+                {s}×
+              </button>
+            ))}
+          </div>
+          <p className="setting-note">
+            Current: {rate}×{rate === DEFAULT_RATE ? " (default)" : ""}
+          </p>
+        </div>
+
+        <div className="glass-container setting-block">
+          <h2>Reading layout</h2>
+          <p>How the target text and English translation sit together.</p>
+          <div className="layout-toggle-group" role="group" aria-label="Reading layout">
+            {MODES.map((m) => (
+              <button
+                key={m.id}
+                className={`pill-btn${mode === m.id ? " active" : ""}`}
+                aria-pressed={mode === m.id}
+                title={m.hint}
+                onClick={() => {
+                  setModeState(m.id);
+                  setMode(m.id);
+                }}
+              >
+                {m.label}
+              </button>
+            ))}
+          </div>
+          <p className="setting-note">
+            Current: {MODES.find((m) => m.id === mode)?.hint}
+            {mode === DEFAULT_MODE ? " (default)" : ""}
+          </p>
+        </div>
+
+        <div className="glass-container setting-block">
+          <h2>Romaji</h2>
+          <p>Show romanized readings above Japanese words.</p>
+          <div className="layout-toggle-group" role="group" aria-label="Romaji">
+            <button
+              className={`pill-btn${romaji ? " active" : ""}`}
+              aria-pressed={romaji}
+              onClick={() => {
+                setRomajiState(true);
+                setShowRomaji(true);
+              }}
+            >
+              On
+            </button>
+            <button
+              className={`pill-btn${!romaji ? " active" : ""}`}
+              aria-pressed={!romaji}
+              onClick={() => {
+                setRomajiState(false);
+                setShowRomaji(false);
+              }}
+            >
+              Off
+            </button>
+          </div>
+          <p className="setting-note">Current: {romaji ? "On (default)" : "Off"}</p>
+        </div>
+      </section>
+    </AppShell>
   );
 }
