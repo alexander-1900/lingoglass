@@ -62,11 +62,18 @@ export default function LibraryExplorer({ stories, scopeLang, scopeLevel, mode }
   const [levelFilter, setLevelFilter] = useState<string>("all");
   const [langFilter, setLangFilter] = useState<Lang | "all">("all");
 
-  const levels: string[] =
-    scopeLevel !== "all" ? [scopeLevel] : scopeLang === "all" ? ["a1", "a2", "b1", "b2"] : LEVELS[scopeLang as Lang];
-
-  const activeLevel = mode === "state" ? levelFilter : scopeLevel;
+  // Language-first flow: levels only exist once a language is chosen, and
+  // they always come from that language's own scale (CEFR for es/ru, JLPT
+  // for ja) — CEFR and N-levels are never shown side-by-side.
   const activeLang = mode === "state" ? langFilter : scopeLang;
+  const activeLevel = mode === "state" ? levelFilter : scopeLevel;
+
+  const levels: string[] =
+    scopeLevel !== "all"
+      ? [scopeLevel]
+      : activeLang !== "all"
+        ? LEVELS[activeLang as Lang]
+        : [];
 
   const filtered = stories.filter(
     (s) =>
@@ -74,38 +81,44 @@ export default function LibraryExplorer({ stories, scopeLang, scopeLevel, mode }
       (activeLang === "all" || s.lang === activeLang)
   );
 
-  const levelPills = (
-    <div className="library-filter-group">
-      {(["all", ...levels] as string[]).map((lv) =>
-        mode === "state" ? (
-          <button
-            key={lv}
-            className={`pill-btn${activeLevel === lv ? " active" : ""}`}
-            onClick={() => setLevelFilter(lv)}
-          >
-            {lv === "all" ? "All Levels" : lv.toUpperCase()}
-          </button>
-        ) : (
-          <Link
-            key={lv}
-            className={`pill-btn${activeLevel === lv ? " active" : ""}`}
-            href={levelHref(scopeLang, lv)}
-          >
-            {lv === "all" ? "All Levels" : lv.toUpperCase()}
-          </Link>
-        )
-      )}
-    </div>
-  );
+  const levelPills =
+    levels.length > 0 ? (
+      <div className="library-filter-group" role="group" aria-label="Level filter">
+        {(["all", ...levels] as string[]).map((lv) =>
+          mode === "state" ? (
+            <button
+              key={lv}
+              className={`pill-btn${activeLevel === lv ? " active" : ""}`}
+              onClick={() => setLevelFilter(lv)}
+            >
+              {lv === "all" ? "All Levels" : lv.toUpperCase()}
+            </button>
+          ) : (
+            <Link
+              key={lv}
+              className={`pill-btn${activeLevel === lv ? " active" : ""}`}
+              href={levelHref(scopeLang, lv)}
+            >
+              {lv === "all" ? "All Levels" : lv.toUpperCase()}
+            </Link>
+          )
+        )}
+      </div>
+    ) : null;
 
   const langPills = (
-    <div className="library-filter-group">
+    <div className="library-filter-group" role="group" aria-label="Language filter">
       {(["all", ...LANG_CODES] as (Lang | "all")[]).map((code) =>
         mode === "state" ? (
           <button
             key={code}
             className={`pill-btn lang-pill${activeLang === code ? " active" : ""}`}
-            onClick={() => setLangFilter(code)}
+            onClick={() => {
+              setLangFilter(code);
+              // New language → its own level scale; reset the level filter
+              // so a stale A1/N3 selection can never empty the grid.
+              setLevelFilter("all");
+            }}
           >
             <span className="flag">{code === "all" ? "🌐" : FLAG[code]}</span>{" "}
             {code === "all" ? "All Languages" : LANG_NAMES[code]}
@@ -135,6 +148,12 @@ export default function LibraryExplorer({ stories, scopeLang, scopeLevel, mode }
           {levelPills}
         </div>
         {langPills}
+        {/* Step 2 prompt: levels appear only after a language is picked */}
+        {mode === "state" && activeLang === "all" && (
+          <p style={{ fontSize: "0.78rem", color: "var(--text-muted)", margin: 0 }}>
+            Pick a language to see its levels — CEFR (A1–C2) for Español/Russian, JLPT (N5–N1) for Japanese.
+          </p>
+        )}
       </div>
       <div className="library-grid custom-scroll">
         {filtered.length === 0 ? (

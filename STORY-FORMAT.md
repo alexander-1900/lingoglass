@@ -1,7 +1,7 @@
 # lingoglass — Story Content Format & Workflow
 
-**Purpose of this file:** everything needed to add story content safely — for a new AI session
-or a human — without touching code. **Do not modify any code to add stories. Code is already
+**Purpose of this file:** everything needed to add story content safely — for contributors —
+without touching code. **Do not modify any code to add stories. Code is already
 finished and working. Stories are DATA, not code.**
 
 ---
@@ -50,9 +50,10 @@ level: a1
 - `lang` — one of: `ru`, `es`, `ja` (must match folder!)
 - `level` — `a1`…`c2` for ru/es, `n5`…`n1` for ja (must match folder!)
 - (`minutes:` optional — defaults to 3)
-- (`image:` optional — cover photo. If omitted, the app auto-uses
-  `public/images/stories/<slug>.jpg` (`.jpeg`/`.png`/`.webp` also work) when
-  present, else a designed placeholder. See `public/images/stories/README.md`.)
+- (`image:` optional — cover photo shown on library cards. If omitted, the app
+  auto-uses `public/images/stories/<slug>.jpg` (`.jpeg`/`.png`/`.webp` also
+  work) when present, else a designed placeholder.
+  See `public/images/stories/README.md`.)
 
 ⚠️ The folder and the frontmatter must agree. If they don't, the app will show the story
 under the folder's language/level — keep them consistent anyway.
@@ -136,5 +137,7 @@ npm run start   # serve the production build on :3000
 - Next.js 15 App Router, Cream & Clay editorial theme in `app/globals.css` (system fonts only, no Tailwind, no webfonts).
 - Routes: `/` (library, all stories) → `/library/[lang]` → `/library/[lang]/[level]` → `/story/[lang]/[level]/[slug]` (reader) + `/settings`. All SSG via `generateStaticParams()`. Every page renders inside `AppShell` (sidebar with vocabulary queue + Stories/Reels tabs).
 - Reader: 3 layout modes (side-by-side / line-by-line / interactive tap-to-reveal, persisted per device), click a word → warm definition card above it (gloss, or sentence translation as fallback) with Speak + localStorage Bookmark, `▶` footer reads the whole story with Web Speech API (OS voice), timeline seeks by sentence.
-- `app/api/tokenize-ja` → Sudachi service (`services/sudachi/`, Docker, set `SUDACHI_SERVICE_URL`), with regex fallback.
+- `app/api/tokenize-ja` → native Sudachi tokenizer (`services/sudachi/sudachi_tokenize.py`,
+  spawned via child_process; `pip install -r services/sudachi/requirements.txt` once),
+  with a regex fallback when Python/sudachipy is unavailable.
 - `scripts/validate-content.mjs` runs on `prebuild` and refuses the build on malformed stories.

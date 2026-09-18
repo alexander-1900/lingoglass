@@ -10,8 +10,9 @@ public/images/stories/<slug>.jpg
   - e.g. `content/es/a1/01-mi-rutina-diaria.md` → `01-mi-rutina-diaria.jpg`
 - Accepted: `.jpg` `.jpeg` `.png` `.webp`
 - Recommended size: **1200 × 630** (landscape), under ~300 KB.
-- Card shows a small organic blob crop; reader shows a wide hero crop.
-  Faces and landscapes both work — center-weighted compositions crop best.
+- Card shows the photo cropped to a 130px-tall cover row (center-weighted
+  `object-fit: cover`). The reader page itself doesn't display the cover (yet) —
+  cards and link previews are where it appears.
 
 Alternative — per-story override in frontmatter:
 

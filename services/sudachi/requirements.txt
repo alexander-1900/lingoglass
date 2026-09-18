@@ -1,5 +1,4 @@
-fastapi==0.115.6
-uvicorn[standard]==0.34.0
+# Native tokenizer deps (services/sudachi/tokenize.py) — install once:
+#   pip install -r services/sudachi/requirements.txt
 sudachipy==0.6.10
 sudachidict-core==20250109
-pydantic==2.10.5

@@ -1,7 +1,7 @@
 "use client";
 
 /* Celebration particles, ghost-flight bookmark animation, and toast alerts.
-   Same behavior as the reference design; DOM-only, no dependencies. */
+   DOM-only, no dependencies. */
 
 interface Particle {
   x: number;
@@ -22,22 +22,24 @@ let canvas: HTMLCanvasElement | null = null;
 let particles: Particle[] = [];
 let loopOn = false;
 let toastTimer: ReturnType<typeof setTimeout> | undefined;
+let onResize: (() => void) | null = null;
 
 /** Start the fullscreen particle loop. Call once from the app shell. */
 export function initParticles(): void {
   if (typeof window === "undefined" || loopOn) return;
   canvas = document.getElementById("particle-canvas") as HTMLCanvasElement | null;
   if (!canvas) return;
-  const resize = () => {
+  onResize = () => {
     if (!canvas) return;
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
   };
-  resize();
-  window.addEventListener("resize", resize);
+  onResize();
+  window.addEventListener("resize", onResize);
   ctx = canvas.getContext("2d");
   loopOn = true;
   const tick = () => {
+    if (!loopOn) return; // torn down: stop scheduling new frames
     if (ctx && canvas) {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
       particles = particles.filter((p) => {
@@ -61,8 +63,22 @@ export function initParticles(): void {
   requestAnimationFrame(tick);
 }
 
+/** Full teardown: removes the resize listener and drops all live particles.
+ *  Call from the shell's unmount effect — AppShell remounts on every client
+ *  navigation, so without this the resize listener would pile up per route. */
+export function destroyParticles(): void {
+  if (typeof window === "undefined") return;
+  if (onResize) window.removeEventListener("resize", onResize);
+  onResize = null;
+  particles = [];
+  loopOn = false;
+  ctx = null;
+  canvas = null;
+}
+
 /** Celebration burst at viewport coordinates (e.g. above the saved word). */
 export function celebrationBurst(x: number, y: number, count = 30): void {
+  if (!canvas) return; // no canvas mounted: don't accumulate invisible particles
   for (let i = 0; i < count; i += 1) {
     const angle = Math.random() * Math.PI * 2;
     const velocity = 3 + Math.random() * 8;
@@ -113,6 +129,7 @@ export function ghostFlight(text: string, startX: number, startY: number): void 
     { duration: 800, easing: "cubic-bezier(0.25, 1, 0.50, 1)" }
   );
   anim.onfinish = () => ghost.remove();
+  anim.oncancel = () => ghost.remove();
 }
 
 /** Floating toast alert (bottom-right HUD card). */

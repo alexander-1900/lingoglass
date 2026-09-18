@@ -73,7 +73,13 @@ function parseStoryFile(raw: string): Parsed {
   return { meta, sentences };
 }
 
+/** Slugs are filename stems from route params; reject path-traversal shapes. */
+const SAFE_SLUG = /^[\p{L}\p{N}][\p{L}\p{N}_.-]*$/u;
+
 function readStory(lang: Lang, level: string, slug: string): Story | null {
+  if (!SAFE_SLUG.test(slug) || !SAFE_SLUG.test(level) || slug.includes("..") || level.includes("..")) {
+    return null;
+  }
   const file = path.join(CONTENT_DIR, lang, level, `${slug}.md`);
   if (!fs.existsSync(file)) return null;
   const raw = fs.readFileSync(file, "utf-8");

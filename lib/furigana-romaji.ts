@@ -74,6 +74,12 @@ export function hiraganaToKatakana(s: string): string {
   );
 }
 
+export function katakanaToHiragana(s: string): string {
+  return s.replace(/[\u30a1-\u30f6]/g, (ch) =>
+    String.fromCharCode(ch.charCodeAt(0) - 0x60)
+  );
+}
+
 export function tokenWithRomaji(token: Token): Token {
   if (!token.reading) return token;
   return { ...token, romaji: katakanaToRomaji(hiraganaToKatakana(token.reading)) };

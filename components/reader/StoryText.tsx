@@ -7,6 +7,7 @@ import { loadVoices, speak } from "@/lib/tts";
 import { celebrationBurst, ghostFlight, toast } from "@/lib/juice";
 import { addBookmark, isBookmarked, useBookmarks } from "@/lib/bookmarks";
 import { isJapaneseText, tokenWithRomaji } from "@/lib/furigana-romaji";
+import { lookupJapaneseMeaning } from "@/lib/jmdict";
 import WordPopover from "./WordPopover";
 
 type PopAlign = "center" | "left" | "right";
@@ -68,7 +69,7 @@ function glossaryLookup(sentence: StorySentence, word: string): string | undefin
   return phrase?.note;
 }
 
-/** Tiny pronounce visualizer under the word, like the reference design. */
+/** Tiny pronounce visualizer under the word: three pulsing bars. */
 function flashVisualizer(el: HTMLElement): void {
   const wave = document.createElement("span");
   wave.className = "pronounce-visualizer";
@@ -88,11 +89,38 @@ export default function StoryText({
   onWordTap,
 }: Props) {
   const [pop, setPop] = useState<PopState | null>(null);
+  const [popOpen, setPopOpen] = useState(false);
   const [jaTokens, setJaTokens] = useState<Record<number, Token[]>>({});
   const [revealed, setRevealed] = useState<Set<number>>(new Set());
   const bookmarks = useBookmarks();
   const inFlight = useRef<Set<number>>(new Set());
+  const closeTimer = useRef<number | undefined>(undefined);
   const isJa = story.lang === "ja";
+
+  // Smooth dismiss: hide the card first (exit transition), then unmount.
+  function closePop() {
+    setPopOpen(false);
+    if (closeTimer.current !== undefined) window.clearTimeout(closeTimer.current);
+    closeTimer.current = window.setTimeout(() => {
+      closeTimer.current = undefined;
+      setPop(null);
+    }, 220);
+  }
+
+  function cancelPopClose() {
+    if (closeTimer.current !== undefined) {
+      window.clearTimeout(closeTimer.current);
+      closeTimer.current = undefined;
+    }
+  }
+
+  // Clear the pending unmount when the reader unmounts.
+  useEffect(
+    () => () => {
+      if (closeTimer.current !== undefined) window.clearTimeout(closeTimer.current);
+    },
+    []
+  );
 
   // Free-scroll: audio tracking only highlights the active sentence via CSS.
   // No scrollIntoView / observer here so the user can scroll freely during playback.
@@ -139,13 +167,19 @@ export default function StoryText({
     word: string,
     sentence: StorySentence,
     anchorEl: HTMLElement | null,
-    extra?: { reading?: string; romaji?: string }
+    extra?: { reading?: string; romaji?: string; lemma?: string }
   ) {
     const display = stripPunct(word);
     if (!display.trim()) return;
-    // Tapping the open word closes its card.
+    // Tapping the open word closes its card (smoothly).
     if (pop && pop.sentIdx === idx && pop.key === key) {
-      setPop(null);
+      if (popOpen) {
+        closePop();
+      } else {
+        // Card is mid-exit — cancel the unmount and reopen instantly.
+        cancelPopClose();
+        setPopOpen(true);
+      }
       return;
     }
     onWordTap();
@@ -162,10 +196,18 @@ export default function StoryText({
     if (anchorEl && typeof window !== "undefined") {
       const r = anchorEl.getBoundingClientRect();
       if (r.width > 0 || r.height > 0) {
-        if (r.left < 170) align = "left";
-        else if (window.innerWidth - r.right < 170) align = "right";
+        // Edge-aware vs the WORKSPACE (not the window): the 290px card needs ~160px each side to sit centered; near an edge it pins to the inward side so it never clips.
         const ws = anchorEl.closest(".reader-workspace")?.getBoundingClientRect();
-        if (ws && r.top - ws.top < 320) vAlign = "below";
+        if (ws) {
+          const spaceLeft = r.left - ws.left;
+          const spaceRight = ws.right - r.right;
+          if (spaceLeft >= 160 && spaceRight >= 160) align = "center";
+          else align = spaceRight >= spaceLeft ? "left" : "right";
+          if (r.top - ws.top < 320) vAlign = "below";
+        } else {
+          if (r.left < 170) align = "left";
+          else if (window.innerWidth - r.right < 170) align = "right";
+        }
         bx = r.left + r.width / 2;
         by = r.top;
       }
@@ -179,6 +221,17 @@ export default function StoryText({
       }
     }
     const note = glossaryLookup(sentence, word) ?? "";
+    // Japanese words get an English meaning from the local JMdict lookup
+    // (lemma from Sudachi is the dictionary form: 飲みます → 飲む).
+    const englishMeaning =
+      story.lang === "ja" ? lookupJapaneseMeaning(extra?.lemma, display) : undefined;
+    const translation = note || englishMeaning || sentence.en || "—";
+    const lemmaDisplay = [
+      extra?.lemma && extra.lemma !== display ? extra.lemma : "",
+      extra?.reading ?? "",
+    ]
+      .filter(Boolean)
+      .join(" · ");
     const ref = {
       lang: story.lang,
       level: story.level,
@@ -186,13 +239,17 @@ export default function StoryText({
       sentIdx: idx,
       word: display,
     };
+    // Opening a different word cancels any pending dismiss from a recent
+    // workspace click — otherwise the 220ms unmount timer would kill the
+    // card that is about to open.
+    cancelPopClose();
     setPop({
       sentIdx: idx,
       key,
       word: display,
       posPill: story.level.toUpperCase(),
-      lemma: extra?.reading || extra?.romaji || "",
-      translation: note || sentence.en || "—",
+      lemma: lemmaDisplay,
+      translation,
       grammar: sentence.target,
       align,
       vAlign,
@@ -203,6 +260,7 @@ export default function StoryText({
         const added = addBookmark({
           ...ref,
           note,
+          englishMeaning,
           reading: extra?.reading,
           romaji: extra?.romaji,
           context: sentence.target,
@@ -221,6 +279,7 @@ export default function StoryText({
         );
       },
     });
+    setPopOpen(true);
     speak(display, story.lang, rate);
     if (isJa && isJapaneseText(sentence.target)) void loadJaTokens(idx, sentence);
   }
@@ -239,14 +298,14 @@ export default function StoryText({
     sentence: StorySentence,
     key: string,
     surface: string,
-    extra?: { reading?: string; romaji?: string }
+    extra?: { reading?: string; romaji?: string; lemma?: string }
   ) {
-    const isOpen = !!pop && pop.sentIdx === idx && pop.key === key;
+    const isOpen = !!pop && popOpen && pop.sentIdx === idx && pop.key === key;
     const open = (el: HTMLElement) => openWord(idx, key, surface, sentence, el, extra);
     return (
       <span
         key={key}
-        className="word-token"
+        className={`word-token${isOpen ? " active-word" : ""}`}
         role="button"
         tabIndex={0}
         aria-expanded={isOpen}
@@ -272,10 +331,11 @@ export default function StoryText({
             grammar={pop.grammar}
             align={pop.align}
             vAlign={pop.vAlign}
+            open={popOpen}
             saved={pop.saved}
             onSave={pop.save}
             onSpeak={() => speak(pop.word, story.lang, rate)}
-            onClose={() => setPop(null)}
+            onClose={closePop}
           />
         )}
       </span>
@@ -287,16 +347,17 @@ export default function StoryText({
       id="reader-workspace"
       className={`glass-container reader-workspace reading-mode-${mode}`}
       data-lang={story.lang}
-      onClick={() => setPop(null)}
+      onClick={closePop}
     >
       {story.sentences.map((sentence, idx) => {
         const tokens = jaTokens[idx];
         const isActive = highlight && idx === activeIdx;
         const isRevealed = mode !== "interactive" || revealed.has(idx);
+        const popIsHere = !!pop && pop.sentIdx === idx;
         return (
           <div
             key={idx}
-            className={`sentence-block${isActive ? " active" : ""}${mode === "interactive" && revealed.has(idx) ? " revealed" : ""}`}
+            className={`sentence-block${isActive ? " active" : ""}${popIsHere ? " has-open-popover" : ""}${mode === "interactive" && revealed.has(idx) ? " revealed" : ""}`}
             onClick={() => {
               if (mode === "interactive") toggleReveal(idx);
             }}
@@ -307,6 +368,7 @@ export default function StoryText({
                     wordNode(idx, sentence, `t${ti}`, t.surface, {
                       reading: t.reading,
                       romaji: showRomaji ? t.romaji : undefined,
+                      lemma: t.lemma,
                     })
                   )
                 : splitWords(sentence.target).map((w, wi) =>

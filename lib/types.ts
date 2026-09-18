@@ -42,6 +42,8 @@ export interface Story extends StoryMeta {
 
 export interface Token {
   surface: string;
+  /** Dictionary / normalized form (飲みます → 飲む) from Sudachi. */
+  lemma?: string;
   reading?: string;
   romaji?: string;
   pos?: string;

@@ -376,6 +376,62 @@ header {
   background: var(--bg-sidebar);
 }
 
+/* --- Story cover: real photo or designed placeholder ---------------------
+   Base .story-cover is a styled block box so the placeholder never collapses
+   to bare inline text. Sizes: card (library grid), sm, lg (future slots). */
+.story-cover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(135deg, #F3ECE0 0%, #E9DECC 100%);
+  border-radius: 14px;
+}
+
+.story-cover--card {
+  height: 130px;
+  border-radius: 0; /* square edges: the card clips its own top corners */
+}
+
+.story-cover--sm { width: 44px; height: 44px; border-radius: 12px; flex: none; }
+.story-cover--lg { width: 100%; aspect-ratio: 2 / 1; border-radius: 14px 14px 0 0; }
+
+.story-cover--placeholder .story-cover-mono {
+  font-family: Georgia, "Times New Roman", Palatino, serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--accent-clay);
+  opacity: 0.85;
+}
+.story-cover--sm.story-cover--placeholder .story-cover-mono { font-size: 1.1rem; }
+.story-cover--lg.story-cover--placeholder .story-cover-mono { font-size: 3rem; }
+
+.story-cover--placeholder .story-cover-hint {
+  font-size: 0.6rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+/* Language-tinted placeholders, echoing the level-badge hues */
+.lang-es.story-cover--placeholder { background: linear-gradient(135deg, rgba(90, 122, 104, 0.16) 0%, #F3ECE0 100%); }
+.lang-es.story-cover--placeholder .story-cover-mono { color: var(--accent-sage); }
+.lang-ru.story-cover--placeholder { background: linear-gradient(135deg, rgba(196, 143, 69, 0.16) 0%, #F3ECE0 100%); }
+.lang-ru.story-cover--placeholder .story-cover-mono { color: var(--accent-ochre); }
+.lang-ja.story-cover--placeholder { background: linear-gradient(135deg, rgba(194, 109, 92, 0.16) 0%, #F3ECE0 100%); }
+.lang-ja.story-cover--placeholder .story-cover-mono { color: var(--accent-clay); }
+
+.story-cover-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 /* Designed placeholder keeps the same 130px cover row as real photos */
 .story-card .story-cover--placeholder {
   aspect-ratio: auto;
@@ -443,6 +499,8 @@ header {
 .level-badge.A2 { background: rgba(196, 143, 69, 0.12); color: var(--accent-ochre); }
 .level-badge.B1 { background: rgba(194, 109, 92, 0.12); color: var(--accent-clay); }
 .level-badge.B2 { background: rgba(211, 123, 123, 0.14); color: var(--accent-rose); }
+.level-badge.C1 { background: rgba(53, 43, 40, 0.08); color: var(--text-primary); }
+.level-badge.C2 { background: rgba(53, 43, 40, 0.16); color: var(--text-primary); }
 
 /* ==========================================================================
    READING PLATFORM
@@ -502,7 +560,13 @@ header {
   border-color: var(--border-soft);
 }
 
-/* Custom Editorial Scrollbar */
+/* Custom Editorial Scrollbar (Chromium/Safari via ::-webkit-*; Firefox gets
+   the slim variant via the standard scrollbar-width/scrollbar-color) */
+.reader-workspace,
+.custom-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(130, 105, 95, 0.25) transparent;
+}
 .reader-workspace::-webkit-scrollbar,
 .custom-scroll::-webkit-scrollbar {
   width: 5px;
@@ -525,9 +589,13 @@ header {
    DYNAMIC INTERACTIVE TEXT MECHANICS
    ========================================================================== */
 
-/* Sentence Unit Container - calm organic padding */
+/* Sentence Unit Container - calm organic padding.
+   isolation: isolate gives every sentence its own stacking context, so an
+   open definition card (z-100 inside its word token) always paints above
+   sibling sentences instead of merging with their text. */
 .sentence-block {
   padding: 10px 16px;
+  margin-bottom: 0.55rem; /* tight, even breathing room between sentences */
   border-radius: 8px;
   border-left: 2px solid transparent;
   transition: all 0.4s var(--transition-smooth);
@@ -535,6 +603,17 @@ header {
   flex-direction: column;
   gap: 6px;
   cursor: pointer;
+  position: relative;
+  isolation: isolate;
+}
+
+/* The sentence whose word card is open floats above every sibling.
+   z-index only works on positioned elements — position:relative is what
+   makes this lift real. Without it the open card stays trapped under the
+   neighbouring sentences' text. */
+.sentence-block.has-open-popover {
+  position: relative;
+  z-index: 60;
 }
 
 .sentence-block:hover {
@@ -547,7 +626,7 @@ header {
   border-left-color: var(--accent-clay);
 }
 
-/* Top line (Foreign / Target text) - Serif Stack */
+/* Top line (Foreign / Target text) - Serif Stack. */
 .target-line {
   font-family: Georgia, "Times New Roman", Palatino, serif;
   font-size: 1.4rem;
@@ -563,11 +642,9 @@ header {
 /* Translation Line - Calm Sans */
 .translation-line {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  font-size: 0.95rem;
-  color: var(--text-secondary);
-  font-weight: 400;
-  transition: opacity 0.4s var(--transition-smooth), max-height 0.4s var(--transition-smooth);
-  opacity: 0.75;
+  font-style: italic;
+  margin-top: 4px;
+  transition: opacity 0.3s;
 }
 
 /* Token Words */
@@ -590,13 +667,19 @@ header {
   border-bottom-color: var(--accent-clay);
 }
 
-/* Active audio sync playhead highlight word */
+/* Active audio sync playhead highlight word: applied while the word's
+   definition card is open (tap state), see StoryText.wordNode.
+   z-index is load-bearing: .active-word's translateY transform makes the
+   token a stacking context, which would trap the card's z-100 inside it and
+   let later sibling tokens paint OVER the card. Lifting the open token above
+   its siblings keeps the whole card on top of the story text. */
 .word-token.active-word {
   background-color: rgba(194, 109, 92, 0.09);
   border-bottom-color: var(--accent-clay);
   color: var(--accent-clay);
   font-weight: 600;
   transform: translateY(-0.5px);
+  z-index: 60;
 }
 
 /* Layout Mode Specific Modifiers */
@@ -659,6 +742,7 @@ header {
   position: absolute;
   z-index: 100;
   width: 290px;
+  max-width: calc(100vw - 64px); /* narrow screens: shrink instead of clipping */
   padding: 16px;
   border-radius: 12px;
   opacity: 0;
@@ -667,12 +751,30 @@ header {
   transition: opacity 0.3s var(--transition-smooth),
               transform 0.4s var(--transition-smooth);
   box-shadow: var(--shadow-deep);
+  border: 1px solid var(--border-strong);
+  isolation: isolate; /* token romaji/reading never paints over the card */
 }
 
 .word-popover.active {
   opacity: 1;
   transform: translateY(0) scale(1);
   pointer-events: auto;
+}
+
+/* Solid paper face: the glass utility underneath is translucent, so the
+   definition card gets its own opaque background — sentences must never
+   show through the card. Higher specificity beats .glass-panel-heavy. */
+.word-popover.glass-panel-heavy {
+  background: #FCFAF5;
+}
+/* Card contents are solid and self-contained: no bleed-through, no text
+   from the story wrapping into the card. */
+.word-popover.glass-panel-heavy > * {
+  position: relative;
+  z-index: 1;
+}
+.word-popover.glass-panel-heavy .popover-arrow {
+  background: #FCFAF5;
 }
 
 /* Popover inner architecture */
@@ -993,8 +1095,34 @@ header {
 
 .vocab-word-translation {
   font-size: 0.88rem;
-  color: var(--text-primary);
+  color: var(--accent-clay);
   font-weight: 600;
+}
+
+/* Reading / romaji chip next to the word (Vocabulary Queue, Japanese) */
+.vocab-word-reading {
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  background: rgba(130, 105, 95, 0.06);
+  border-radius: 99px;
+  padding: 1px 8px;
+}
+
+/* Story's own gloss note, shown under the English meaning when both exist */
+.vocab-word-note {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+/* English translation under the context sentence */
+.vocab-context-translation {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+  padding-left: 10px;
+  margin-top: -2px;
 }
 
 .vocab-context-sentence {
@@ -1020,8 +1148,7 @@ header {
 /* Review Counter badge */
 .vocab-badge {
   background: var(--accent-clay);
-  color: #fff;
-  font-size: 0.7rem;
+  color: #fff;  font-size: 0.7rem;
   font-weight: 700;
   padding: 1px 6px;
   border-radius: 99px;
@@ -1155,22 +1282,25 @@ header {
 .setting-note { font-size: 0.75rem !important; color: var(--text-muted) !important; margin: 0 !important; border-top: 1px solid var(--border-soft); padding-top: 10px; }
 
 /* Word popover mounted inside the tapped word: sits above it, travels
-   with the text. .active state matches the prototype transition. */
+   with the text. */
 .word-wrap { position: relative; display: inline-block; }
 .word-popover.in-word {
   bottom: calc(100% + 12px);
   left: 50%;
   transform: translateX(-50%) translateY(6px) scale(0.97);
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* story glyphs can never wrap or bleed inside the card */
 }
 .word-popover.in-word.active {
   transform: translateX(-50%) translateY(0) scale(1);
 }
 .word-popover.in-word .popover-arrow { left: 50%; }
-.word-popover.in-word.align-left { left: -8px; transform: translateY(6px) scale(0.97); }
+.word-popover.in-word.align-left { left: 0; transform: translateY(6px) scale(0.97); }
 .word-popover.in-word.align-left.active { transform: translateY(0) scale(1); }
 .word-popover.in-word.align-left .popover-arrow { left: 28px; }
-.word-popover.in-word.align-right { left: auto; right: -8px; transform: translateY(6px) scale(0.97); }
+.word-popover.in-word.align-right { left: auto; right: 0; transform: translateY(6px) scale(0.97); }
 .word-popover.in-word.align-right.active { transform: translateY(0) scale(1); }
 .word-popover.in-word.align-right .popover-arrow { left: auto; right: 28px; transform: rotate(45deg); }
 
@@ -1199,6 +1329,9 @@ header {
 
 /* Sidebar collapse toggle placement */
 .side-toggle { margin-left: auto; }
+/* Desktop restore button: lives in the main header, only rendered while
+   the sidebar is hidden (the in-sidebar toggle is display:none then). */
+.side-toggle-restore { display: inline-flex; }
 /* Mobile sidebar toggle lives in the header (the aside itself is hidden) */
 .side-toggle-mobile { display: none; }
 @media (max-width: 1024px) {

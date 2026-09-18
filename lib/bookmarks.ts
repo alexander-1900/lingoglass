@@ -4,11 +4,19 @@ import { useSyncExternalStore } from "react";
 
 export interface Bookmark {
   id: string;
+  /** Word exactly as displayed/tapped in the story. */
   word: string;
+  /** Story-authored gloss note (from the `* word (note)` lines), if any. */
   note: string;
+  /** English meaning from the local JMdict lookup (Japanese words). */
+  englishMeaning?: string;
+  /** Katakana/kana reading (Sudachi), when tokenized. */
   reading?: string;
+  /** Romaji rendering of the reading, when tokenized. */
   romaji?: string;
+  /** The target-language sentence the word was saved from. */
   context: string;
+  /** English translation of that sentence (sentence translation). */
   contextEn: string;
   lang: string;
   level: string;

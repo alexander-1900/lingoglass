@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 type PopAlign = "center" | "left" | "right";
 
@@ -12,6 +12,8 @@ interface Props {
   grammar?: string;
   align?: PopAlign;
   vAlign?: "above" | "below";
+  /** Controlled visibility: false plays the exit transition before unmount. */
+  open: boolean;
   saved: boolean;
   onSave: () => void;
   onSpeak: () => void;
@@ -20,7 +22,8 @@ interface Props {
 
 /**
  * Definition card rendered directly ON TOP of the tapped word (absolutely
- * positioned inside the word token, so it scrolls with the text).
+ * positioned inside the word token, so it scrolls with the text). High
+ * z-index + parent isolation keep it above every sibling sentence.
  */
 export default function WordPopover({
   word,
@@ -30,11 +33,29 @@ export default function WordPopover({
   grammar,
   align = "center",
   vAlign = "above",
+  open,
   saved,
   onSave,
   onSpeak,
   onClose,
 }: Props) {
+  // The CSS transition needs one painted frame in the hidden state before
+  // `.active` lands. The timeout is a fallback for background tabs, where
+  // rAF never fires (the card would otherwise stay invisible).
+  const [armed, setArmed] = useState(false);
+  useEffect(() => {
+    if (!open) return;
+    const raf = requestAnimationFrame(() => setArmed(true));
+    const timer = window.setTimeout(() => setArmed(true), 100);
+    return () => {
+      cancelAnimationFrame(raf);
+      window.clearTimeout(timer);
+    };
+  }, [open]);
+  useEffect(() => {
+    if (!open) setArmed(false);
+  }, [open]);
+
   // Escape dismisses the card (outside clicks are handled by the workspace).
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -46,10 +67,11 @@ export default function WordPopover({
 
   const alignClass = align === "center" ? "" : ` align-${align}`;
   const vClass = vAlign === "below" ? " below" : "";
+  const visible = open && armed;
 
   return (
     <span
-      className={`word-popover glass-panel-heavy in-word active${alignClass}${vClass}`}
+      className={`word-popover glass-panel-heavy in-word${visible ? " active" : ""}${alignClass}${vClass}`}
       role="dialog"
       aria-label={`Definition of ${word}`}
       onClick={(e) => e.stopPropagation()}

@@ -4,6 +4,9 @@ import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { LANG_NAMES, Story } from "@/lib/types";
 import {
+  DEFAULT_MODE,
+  DEFAULT_RATE,
+  DEFAULT_VOICE,
   ParallelMode,
   SPEEDS,
   VoiceGender,
@@ -49,18 +52,19 @@ const MODE_LABELS: Record<ParallelMode, string> = {
 };
 
 export default function ReaderView({ story }: { story: Story }) {
-  const [mode, setMode] = useState<ParallelMode>(() => getMode());
-  const [showRomaji] = useState<boolean>(() => getShowRomaji());
+  // Hydration-safe init: this page is statically prerendered, so the first
+  // client render must match the server output (constants, NOT localStorage).
+  // Persisted preferences are synced after mount in the effect below.
+  const [mode, setMode] = useState<ParallelMode>(DEFAULT_MODE);
+  const [showRomaji, setShowRomaji] = useState<boolean>(true);
   const [playing, setPlaying] = useState(false);
   const [currentIdx, setCurrentIdx] = useState(0);
-  const [rate, setRateState] = useState<number>(() => getRate());
-  const [voice, setVoiceState] = useState<VoiceGender>(() => getVoiceGender());
-  const [audioSupported] = useState(
-    () => typeof window !== "undefined" && "speechSynthesis" in window
-  );
+  const [rate, setRateState] = useState<number>(DEFAULT_RATE);
+  const [voice, setVoiceState] = useState<VoiceGender>(DEFAULT_VOICE);
+  const [audioSupported, setAudioSupported] = useState(false);
 
   const runRef = useRef(0);
-  const rateRef = useRef(getRate());
+  const rateRef = useRef(DEFAULT_RATE);
   const sentencesRef = useRef(story.sentences.map((s) => s.target));
   sentencesRef.current = story.sentences.map((s) => s.target);
   const langRef = useRef(story.lang);
@@ -69,6 +73,19 @@ export default function ReaderView({ story }: { story: Story }) {
   // Preload OS voices so the first tap actually speaks.
   useEffect(() => {
     void loadVoices();
+  }, []);
+
+  // Sync persisted preferences + capability detection after mount (see the
+  // useState comment above — reading localStorage during init would break
+  // hydration against the statically prerendered HTML).
+  useEffect(() => {
+    setMode(getMode());
+    setShowRomaji(getShowRomaji());
+    setAudioSupported(typeof window !== "undefined" && "speechSynthesis" in window);
+    const storedRate = getRate();
+    rateRef.current = storedRate;
+    setRateState(storedRate);
+    setVoiceState(getVoiceGender());
   }, []);
 
   // Keep <html lang> honest for screen readers: story pages declare "en"
@@ -162,6 +179,7 @@ export default function ReaderView({ story }: { story: Story }) {
   }, []);
 
   const changeRate = useCallback((next: number) => {
+    rateRef.current = next; // apply to the in-flight playback loop immediately
     setRateState(next);
     persistRate(next);
   }, []);

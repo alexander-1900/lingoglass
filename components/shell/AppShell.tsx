@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { initParticles } from "@/lib/juice";
+import { initParticles, destroyParticles } from "@/lib/juice";
 import { removeBookmark, useBookmarks } from "@/lib/bookmarks";
 
 const SIDE_KEY = "lingoglass:sidebar";
@@ -30,11 +30,18 @@ export default function AppShell({
   storyCount?: number;
 }) {
   const [tab, setTab] = useState<"stories" | "reels">("stories");
-  const [sideOpen, setSideOpen] = useState<boolean>(readSidePref);
+  // Hydration-safe: render the server default (open) first, then apply the
+  // stored sidebar preference after mount — reading localStorage in the
+  // initializer would mismatch the statically prerendered HTML.
+  const [sideOpen, setSideOpen] = useState<boolean>(true);
   const bookmarks = useBookmarks();
 
   useEffect(() => {
     initParticles();
+    setSideOpen(readSidePref());
+    // AppShell remounts on every client navigation — without this teardown
+    // the canvas resize listener (and rAF loop) would pile up per route.
+    return () => destroyParticles();
   }, []);
 
   const toggleSide = () => {
@@ -95,9 +102,24 @@ export default function AppShell({
                 <div className="saved-vocab-card" key={b.id}>
                   <div className="vocab-word-row">
                     <span className="vocab-word-target">{b.word}</span>
-                    <span className="vocab-word-translation">{b.note || b.romaji || b.reading || "—"}</span>
+                    {(b.reading || b.romaji) && (
+                      <span className="vocab-word-reading">
+                        {b.romaji ?? b.reading}
+                      </span>
+                    )}
                   </div>
+                  {/* English meaning first (local JMdict lookup), then the
+                      story's own gloss note, if the two differ. */}
+                  <span className="vocab-word-translation">
+                    {b.englishMeaning || b.note || "—"}
+                  </span>
+                  {b.note && b.englishMeaning && b.note !== b.englishMeaning && (
+                    <span className="vocab-word-note">{b.note}</span>
+                  )}
                   {b.context && <div className="vocab-context-sentence">{b.context}</div>}
+                  {b.contextEn && (
+                    <div className="vocab-context-translation">{b.contextEn}</div>
+                  )}
                   <div className="vocab-meta-row">
                     <span>
                       {b.lang} · {b.level.toUpperCase()}
@@ -125,6 +147,20 @@ export default function AppShell({
       <main>
         <header className="glass-container">
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+            {!sideOpen && (
+              <button
+                className="round-btn side-toggle-restore"
+                style={{ width: 36, height: 36 }}
+                onClick={toggleSide}
+                aria-expanded={sideOpen}
+                aria-label="Show vocabulary"
+                title="Show vocabulary queue"
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+                </svg>
+              </button>
+            )}
             <button
               className="round-btn side-toggle-mobile"
               style={{ width: 36, height: 36 }}
