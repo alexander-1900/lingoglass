@@ -4,7 +4,7 @@ A calm, editorial reading app for graded language stories: Spanish, Russian (CEF
 and Japanese (JLPT N5–N1). Tap any word for its meaning, listen with native-device
 voices, and keep a personal vocabulary queue — all in the browser.
 
-![Library](public/images/stories/sample-cover.svg)
+![Library](public/images/stories/cover.png)
 
 ## Features
 
