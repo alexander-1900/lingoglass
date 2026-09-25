@@ -6,17 +6,43 @@ const CONTENT_DIR = path.join(process.cwd(), "content");
 const STORY_IMG_DIR = path.join(process.cwd(), "public", "images", "stories");
 const STORY_IMG_EXTS = [".jpg", ".jpeg", ".png", ".webp"];
 
+/**
+ * Prod-only caches (build/prerender). Dev re-reads so content edits show
+ * without a restart. Content is static at build, so caching the aggregate
+ * collapses ~85 reads × ~113 pages to ~85 reads total.
+ */
+let coverSet: Set<string> | null = null;
+let allCache: StoryMeta[] | null = null;
+
+function getCoverSet(): Set<string> | null {
+  if (process.env.NODE_ENV === "production") {
+    if (!coverSet) {
+      try {
+        coverSet = new Set(fs.readdirSync(STORY_IMG_DIR));
+      } catch {
+        coverSet = new Set();
+      }
+    }
+    return coverSet;
+  }
+  return null;
+}
+
 /** Resolve cover art: `image:` frontmatter wins, else `/images/stories/<slug>.<ext>` if present. */
 function resolveStoryImage(slug: string, metaImage?: string): string | undefined {
   const front = metaImage?.trim();
   if (front) return front;
+  const cached = getCoverSet();
+  if (cached) {
+    for (const ext of STORY_IMG_EXTS) {
+      if (cached.has(`${slug}${ext}`)) return `/images/stories/${slug}${ext}`;
+    }
+    return undefined;
+  }
   for (const ext of STORY_IMG_EXTS) {
-    try {
-      if (fs.existsSync(path.join(STORY_IMG_DIR, `${slug}${ext}`))) {
-        return `/images/stories/${slug}${ext}`;
-      }
-    } catch {
-      /* ignore */
+    // fs.existsSync never throws — no try/catch needed here.
+    if (fs.existsSync(path.join(STORY_IMG_DIR, `${slug}${ext}`))) {
+      return `/images/stories/${slug}${ext}`;
     }
   }
   return undefined;
@@ -37,7 +63,7 @@ interface Parsed {
  *   * line(s)      -> word glossary: "surface (note)"
  *   > line         -> English translation
  */
-function parseStoryFile(raw: string): Parsed {
+export function parseStoryFile(raw: string): Parsed {
   // Content is authored on Windows (CRLF) and *nix (LF). Normalize first:
   // without this, the per-line frontmatter regex below silently matches
   // NOTHING on CRLF files (`.` can't match `\r`, `$` can't match before
@@ -76,18 +102,27 @@ function parseStoryFile(raw: string): Parsed {
 /** Slugs are filename stems from route params; reject path-traversal shapes. */
 const SAFE_SLUG = /^[\p{L}\p{N}][\p{L}\p{N}_.-]*$/u;
 
-function readStory(lang: Lang, level: string, slug: string): Story | null {
-  if (!SAFE_SLUG.test(slug) || !SAFE_SLUG.test(level) || slug.includes("..") || level.includes("..")) {
+function readStory(lang: string, level: string, slug: string): Story | null {
+  if (
+    !SAFE_SLUG.test(slug) ||
+    !SAFE_SLUG.test(level) ||
+    !SAFE_SLUG.test(lang) ||
+    slug.includes("..") ||
+    level.includes("..") ||
+    lang.includes("..")
+  ) {
     return null;
   }
+  if (!(LANGS as string[]).includes(lang)) return null;
   const file = path.join(CONTENT_DIR, lang, level, `${slug}.md`);
   if (!fs.existsSync(file)) return null;
   const raw = fs.readFileSync(file, "utf-8");
   const { meta, sentences } = parseStoryFile(raw);
   const parsedMinutes = parseInt(meta.minutes ?? "3", 10);
   const minutes = Number.isFinite(parsedMinutes) && parsedMinutes > 0 ? parsedMinutes : 3;
+  const langTyped = lang as Lang;
   return {
-    lang,
+    lang: langTyped,
     level,
     slug,
     title: meta.title ?? slug,
@@ -112,31 +147,33 @@ export function getStory(lang: Lang, level: string, slug: string): Story | null 
 }
 
 export function getStoriesForLevel(lang: Lang, level: string): StoryMeta[] {
-  return listDir(path.join(CONTENT_DIR, lang, level)).map((f) => {
+  const metas: StoryMeta[] = [];
+  for (const f of listDir(path.join(CONTENT_DIR, lang, level))) {
     const slug = f.replace(/\.md$/, "");
-    const s = readStory(lang, level, slug)!;
-    return {
+    const s = readStory(lang, level, slug);
+    if (!s) {
+      console.warn(`stories: skipping unreadable file ${lang}/${level}/${f}`);
+      continue;
+    }
+    metas.push({
       lang, level, slug,
       title: s.title,
       titleEn: s.titleEn,
       minutes: s.minutes,
       image: s.image,
       sentenceCount: s.sentences.length,
-    };
-  });
-}
-
-export function getLevelsForLang(lang: Lang): { level: string; count: number }[] {
-  return (LEVELS[lang] ?? []).map((level) => ({
-    level,
-    count: getStoriesForLevel(lang, level).length,
-  }));
+    });
+  }
+  return metas;
 }
 
 export function getAllStories(): StoryMeta[] {
-  return LANGS.flatMap((lang) =>
+  if (process.env.NODE_ENV === "production" && allCache) return allCache;
+  const all = LANGS.flatMap((lang) =>
     (LEVELS[lang] ?? []).flatMap((level) => getStoriesForLevel(lang, level))
   );
+  if (process.env.NODE_ENV === "production") allCache = all;
+  return all;
 }
 
 export function getAllStoryPaths() {

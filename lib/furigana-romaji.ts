@@ -35,7 +35,7 @@ const KANA_TO_ROMAJI: Record<string, string> = {
   "・":" ", "　":" ",
 };
 
-export function katakanaToRomaji(katakana: string): string {
+function katakanaToRomaji(katakana: string): string {
   let out = "";
   let i = 0;
   while (i < katakana.length) {
@@ -68,25 +68,13 @@ export function katakanaToRomaji(katakana: string): string {
   return out;
 }
 
-export function hiraganaToKatakana(s: string): string {
+function hiraganaToKatakana(s: string): string {
   return s.replace(/[\u3041-\u3096]/g, (ch) =>
     String.fromCharCode(ch.charCodeAt(0) + 0x60)
-  );
-}
-
-export function katakanaToHiragana(s: string): string {
-  return s.replace(/[\u30a1-\u30f6]/g, (ch) =>
-    String.fromCharCode(ch.charCodeAt(0) - 0x60)
   );
 }
 
 export function tokenWithRomaji(token: Token): Token {
   if (!token.reading) return token;
   return { ...token, romaji: katakanaToRomaji(hiraganaToKatakana(token.reading)) };
-}
-
-export function isJapaneseText(s: string): boolean {
-  // Includes CJK Extension B–F so rare kanji (e.g. 𠮷 in names) don't void
-  // tokenization. Needs the /u flag for astral-plane ranges.
-  return /[\u3040-\u30ff\u4e00-\u9faf\u{20000}-\u{2ebef}]/u.test(s);
 }

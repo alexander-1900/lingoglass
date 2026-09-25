@@ -1,12 +1,13 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Story, StorySentence, Token } from "@/lib/types";
 import type { ParallelMode } from "@/lib/settings";
-import { loadVoices, speak } from "@/lib/tts";
+import { ensureVoices, speak } from "@/lib/tts";
 import { celebrationBurst, ghostFlight, toast } from "@/lib/juice";
 import { addBookmark, isBookmarked, useBookmarks } from "@/lib/bookmarks";
-import { isJapaneseText, tokenWithRomaji } from "@/lib/furigana-romaji";
+import { glossaryLookup, isPunctToken, SEPARATORS, stripPunct } from "@/lib/glossary";
+import { tokenWithRomaji } from "@/lib/furigana-romaji";
 import { lookupJapaneseMeaning } from "@/lib/jmdict";
 import WordPopover from "./WordPopover";
 
@@ -14,7 +15,6 @@ type PopAlign = "center" | "left" | "right";
 
 interface PopState {
   sentIdx: number;
-  key: string;
   word: string;
   posPill: string;
   lemma: string;
@@ -37,37 +37,20 @@ interface Props {
   activeIdx: number;
   highlight: boolean;
   rate: number;
+  /** Precomputed Sudachi tokens (raw, romaji added client-side). */
+  jaTokens?: Record<number, Token[]>;
   onWordTap: () => void;
 }
 
-/** Split a sentence into clickable units. Japanese uses the Sudachi service (with fallback). */
+/** Split a sentence into clickable units (words kept, separators kept as
+ *  their own tokens for rendering). Shares the SEPARATORS class with gloss
+ *  matching and TTS. */
+const SPLIT_RE = new RegExp(`([${SEPARATORS}]+)`);
 function splitWords(target: string): string[] {
-  return target.split(/([\s.,!?;:«»"()—–…¿¡。、、「」『』・！？〈〉《》‹›-]+)/).filter(Boolean);
+  return target.split(SPLIT_RE).filter(Boolean);
 }
 
-const PUNCT_CLASS = "[\\s.,!?;:«»\"()—–…¿¡。、、「」『』・！？〈〉《》‹›-]";
-
-function isPunctToken(w: string): boolean {
-  return new RegExp(`^${PUNCT_CLASS}+$`).test(w);
-}
-
-function stripPunct(s: string): string {
-  return s.replace(new RegExp(PUNCT_CLASS, "g"), "");
-}
-
-function glossaryLookup(sentence: StorySentence, word: string): string | undefined {
-  const clean = stripPunct(word).toLowerCase();
-  if (!clean) return undefined;
-  const norm = (s: string) => stripPunct(s).toLowerCase();
-  // Exact match first. (The old bidirectional startsWith matched 「в」→「вместе」.)
-  const exact = sentence.glossary.find((g) => norm(g.surface) === clean);
-  if (exact) return exact.note;
-  // Conservative fallback: the word appears inside a multi-word gloss phrase.
-  const phrase = sentence.glossary.find((g) =>
-    norm(g.surface).split(/\s+/).includes(clean)
-  );
-  return phrase?.note;
-}
+// Word-splitting + gloss matching live in lib/glossary.ts (pure + unit-tested).
 
 /** Tiny pronounce visualizer under the word: three pulsing bars. */
 function flashVisualizer(el: HTMLElement): void {
@@ -86,16 +69,26 @@ export default function StoryText({
   activeIdx,
   highlight,
   rate,
+  jaTokens: jaTokensProp,
   onWordTap,
 }: Props) {
   const [pop, setPop] = useState<PopState | null>(null);
   const [popOpen, setPopOpen] = useState(false);
-  const [jaTokens, setJaTokens] = useState<Record<number, Token[]>>({});
+  // Tokens come precomputed from the build (data/ja-tokens.generated.json).
+  // Romaji is still derived client-side from the katakana readings.
+  // Memoized on the prop (not frozen in useState) so navigating between
+  // stories sharing a component instance picks up fresh tokens.
+  const jaTokens = useMemo<Record<number, Token[]>>(() => {
+    if (!jaTokensProp) return {};
+    const out: Record<number, Token[]> = {};
+    for (const [k, toks] of Object.entries(jaTokensProp)) {
+      out[Number(k)] = toks.map((t: Token) => tokenWithRomaji(t));
+    }
+    return out;
+  }, [jaTokensProp]);
   const [revealed, setRevealed] = useState<Set<number>>(new Set());
   const bookmarks = useBookmarks();
-  const inFlight = useRef<Set<number>>(new Set());
   const closeTimer = useRef<number | undefined>(undefined);
-  const isJa = story.lang === "ja";
 
   // Smooth dismiss: hide the card first (exit transition), then unmount.
   function closePop() {
@@ -122,48 +115,31 @@ export default function StoryText({
     []
   );
 
+  // Keep the card's saved state in sync with the store: removing the word
+  // from the sidebar while its card is open used to leave a stale
+  // "Saved" button until the card was closed and reopened (bug #5).
+  useEffect(() => {
+    setPop((prev) => {
+      if (!prev) return prev;
+      const ref = {
+        lang: story.lang,
+        level: story.level,
+        slug: story.slug,
+        sentIdx: prev.sentIdx,
+        word: prev.word,
+      };
+      const saved = isBookmarked(bookmarks, ref);
+      return saved === prev.saved ? prev : { ...prev, saved };
+    });
+  }, [bookmarks, story.lang, story.level, story.slug]);
+
   // Free-scroll: audio tracking only highlights the active sentence via CSS.
   // No scrollIntoView / observer here so the user can scroll freely during playback.
   // The definition card is absolutely positioned inside the tapped word, so it
   // scrolls WITH the text — no dismiss-on-scroll needed.
 
-  async function loadJaTokens(idx: number, sentence: StorySentence) {
-    if (jaTokens[idx] || inFlight.current.has(idx)) return;
-    inFlight.current.add(idx);
-    try {
-      const res = await fetch("/api/tokenize-ja", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ text: sentence.target }),
-      });
-      const data = await res.json();
-      const toks = Array.isArray(data.tokens) ? data.tokens : [];
-      setJaTokens((prev) =>
-        prev[idx]
-          ? prev
-          : { ...prev, [idx]: toks.map((t: Token) => tokenWithRomaji(t)) }
-      );
-    } catch {
-      // Deliberately not cached: the next tap retries.
-    } finally {
-      inFlight.current.delete(idx);
-    }
-  }
-
-  // Japanese has no spaces: tokenize every sentence up front so the text
-  // renders correctly on first paint instead of one giant blob that
-  // reflows after the first tap.
-  useEffect(() => {
-    if (story.lang !== "ja") return;
-    story.sentences.forEach((sentence, idx) => {
-      if (isJapaneseText(sentence.target)) void loadJaTokens(idx, sentence);
-    });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [story.slug]);
-
-  function openWord(
+  async function openWord(
     idx: number,
-    key: string,
     word: string,
     sentence: StorySentence,
     anchorEl: HTMLElement | null,
@@ -171,8 +147,11 @@ export default function StoryText({
   ) {
     const display = stripPunct(word);
     if (!display.trim()) return;
-    // Tapping the open word closes its card (smoothly).
-    if (pop && pop.sentIdx === idx && pop.key === key) {
+    // Tapping the open word closes its card (smoothly). Identity is the
+    // sentence + stripped word — stable across tokenizer swaps — NOT the
+    // React key: JA keys re-map from w{n} to t{n} when Sudachi answers,
+    // and keying on the key unmounted an open card mid-read (bug #1).
+    if (pop && pop.sentIdx === idx && pop.word === display) {
       if (popOpen) {
         closePop();
       } else {
@@ -183,9 +162,11 @@ export default function StoryText({
       return;
     }
     onWordTap();
-    // Refresh the OS voice list on every tap so the first taps already
-    // speak with the right language voice.
-    void loadVoices();
+    // Pick the right language voice BEFORE the first utterance: on a cold
+    // start the voice list is still loading, and speaking immediately used
+    // the OS default (often English) voice for ES/RU/JA text (bug #2).
+    // Cached runs resolve in a microtask; the 800ms cap bounds the worst case.
+    await ensureVoices();
     // Keep the card on screen: align to the word, flip the edge near a margin.
     // The workspace scrolls, so a card above a top-row word would be clipped:
     // flip those below the word instead.
@@ -245,7 +226,6 @@ export default function StoryText({
     cancelPopClose();
     setPop({
       sentIdx: idx,
-      key,
       word: display,
       posPill: story.level.toUpperCase(),
       lemma: lemmaDisplay,
@@ -257,7 +237,7 @@ export default function StoryText({
       bx,
       by,
       save: () => {
-        const added = addBookmark({
+        const result = addBookmark({
           ...ref,
           note,
           englishMeaning,
@@ -267,21 +247,35 @@ export default function StoryText({
           contextEn: sentence.en,
         });
         setPop((prev) =>
-          prev && prev.sentIdx === idx && prev.key === key ? { ...prev, saved: true } : prev
+          prev && prev.sentIdx === idx && prev.word === display
+            ? { ...prev, saved: result !== "failed" }
+            : prev
         );
-        celebrationBurst(bx, by);
-        ghostFlight(display, bx, by);
-        toast(
-          added ? "Word Bookmarked" : "Already Bookmarked",
-          added
-            ? `'${display}' was added to your vocabulary queue.`
-            : `'${display}' is already in your review queue!`
-        );
+        // Celebrate only when the word was actually stored — a duplicate or a
+        // failed save must not burst confetti or fly a ghost at the badge.
+        if (result === "saved" || result === "trimmed") {
+          celebrationBurst(bx, by);
+          ghostFlight(display, bx, by);
+        }
+        if (result === "failed") {
+          toast(
+            "Storage Full",
+            `Couldn't save '${display}' — remove some old words from the queue.`
+          );
+        } else if (result === "trimmed") {
+          toast(
+            "Storage Full",
+            `Saved '${display}' — your oldest words were dropped to make room.`
+          );
+        } else if (result === "duplicate") {
+          toast("Already Bookmarked", `'${display}' is already in your review queue!`);
+        } else {
+          toast("Word Bookmarked", `'${display}' was added to your vocabulary queue.`);
+        }
       },
     });
     setPopOpen(true);
     speak(display, story.lang, rate);
-    if (isJa && isJapaneseText(sentence.target)) void loadJaTokens(idx, sentence);
   }
 
   function toggleReveal(idx: number): void {
@@ -298,30 +292,40 @@ export default function StoryText({
     sentence: StorySentence,
     key: string,
     surface: string,
-    extra?: { reading?: string; romaji?: string; lemma?: string }
+    extra?: { reading?: string; romaji?: string; lemma?: string; refIndex?: number }
   ) {
-    const isOpen = !!pop && popOpen && pop.sentIdx === idx && pop.key === key;
-    const open = (el: HTMLElement) => openWord(idx, key, surface, sentence, el, extra);
+    // Identity = sentence + stripped surface: stable across the w{n} → t{n}
+    // re-key that happens when JA tokens arrive (bug #1). The extra is
+    // re-captured on re-render, so the card picks up fresh lemma/reading.
+    const isOpen = !!pop && popOpen && pop.sentIdx === idx && pop.word === stripPunct(surface);
+    const open = (el: HTMLElement) => {
+      void openWord(idx, surface, sentence, el, extra);
+    };
     return (
-      <span
-        key={key}
-        className={`word-token${isOpen ? " active-word" : ""}`}
-        role="button"
-        tabIndex={0}
-        aria-expanded={isOpen}
-        onClick={(e) => {
-          e.stopPropagation();
-          open(e.currentTarget);
-        }}
-        onKeyDown={(e) => {
-          if (e.key === "Enter" || e.key === " ") {
-            e.preventDefault();
-            open(e.currentTarget as HTMLElement);
-          }
-        }}
-      >
-        {surface}
-        {extra?.romaji && showRomaji && <span className="romaji">{extra.romaji}</span>}
+      // The card is a SIBLING of the token (not a child): a dialog nested
+      // inside a role=button is invalid ARIA and breaks focus order (#12).
+      <span key={key} className={`word-wrap${isOpen ? " has-open" : ""}`}>
+        <span
+          className={`word-token${isOpen ? " active-word" : ""}`}
+          role="button"
+          tabIndex={0}
+          aria-haspopup="dialog"
+          aria-expanded={isOpen}
+          aria-label={`Define ${stripPunct(surface) || surface}`}
+          onClick={(e) => {
+            e.stopPropagation();
+            open(e.currentTarget);
+          }}
+          onKeyDown={(e) => {
+            if (e.key === "Enter" || e.key === " ") {
+              e.preventDefault();
+              open(e.currentTarget as HTMLElement);
+            }
+          }}
+        >
+          {surface}
+          {extra?.romaji && showRomaji && <span className="romaji">{extra.romaji}</span>}
+        </span>
         {isOpen && pop && (
           <WordPopover
             word={pop.word}
@@ -363,21 +367,32 @@ export default function StoryText({
             }}
           >
             <div className="target-line">
-              {tokens && tokens.length
-                ? tokens.map((t, ti) =>
-                    wordNode(idx, sentence, `t${ti}`, t.surface, {
-                      reading: t.reading,
-                      romaji: showRomaji ? t.romaji : undefined,
-                      lemma: t.lemma,
+              {(() => {
+                // Index into the RAW token array (counting empty surfaces)
+                // so a word's position — not its rendered slot — is what
+                // survives the token list swapping between the regex and
+                // Sudachi shapes (bug #1).
+                let rawIdx = 0;
+                return tokens && tokens.length
+                  ? tokens.map((t, ti) => {
+                      const refIndex = rawIdx;
+                      rawIdx += 1;
+                      if (!t.surface) return null;
+                      return wordNode(idx, sentence, `t${ti}`, t.surface, {
+                        reading: t.reading,
+                        romaji: showRomaji ? t.romaji : undefined,
+                        lemma: t.lemma,
+                        refIndex,
+                      });
                     })
-                  )
-                : splitWords(sentence.target).map((w, wi) =>
-                    isPunctToken(w) ? (
-                      <span key={`w${wi}`}>{w}</span>
-                    ) : (
-                      wordNode(idx, sentence, `w${wi}`, w)
-                    )
-                  )}
+                  : splitWords(sentence.target).map((w, wi) =>
+                      isPunctToken(w) ? (
+                        <span key={`w${wi}`}>{w}</span>
+                      ) : (
+                        wordNode(idx, sentence, `w${wi}`, w)
+                      )
+                    );
+              })()}
             </div>
             {isRevealed && sentence.en && (
               <div className="translation-line">{sentence.en}</div>

@@ -1,12 +1,17 @@
 import { notFound } from "next/navigation";
 import { LANGS, Lang } from "@/lib/types";
 import { getAllStories, getAllStoryPaths, getStory } from "@/lib/stories";
+import { loadJaTokensForStory } from "@/lib/ja-tokens";
 import AppShell from "@/components/shell/AppShell";
 import ReaderView from "@/components/reader/ReaderView";
 
 export function generateStaticParams() {
   return getAllStoryPaths();
 }
+
+// Every story is prerendered at build; unknown slugs must 404 immediately
+// instead of triggering an on-demand fs render at request time.
+export const dynamicParams = false;
 
 export async function generateMetadata({
   params,
@@ -32,10 +37,15 @@ export default async function StoryPage({
   const story = getStory(lang as Lang, level, slug);
   if (!story) notFound();
 
+  // Precomputed Sudachi tokens (build artifact) — no runtime tokenizer.
+  const jaTokens = story.lang === "ja"
+    ? loadJaTokensForStory(story.lang, story.level, story.slug)
+    : undefined;
+
   return (
     <AppShell storyCount={getAllStories().length}>
       <section id="stories-platform" style={{ flex: 1, display: "flex", flexDirection: "column", minHeight: 0 }}>
-        <ReaderView key={story.slug} story={story} />
+        <ReaderView key={`${story.lang}/${story.level}/${story.slug}`} story={story} jaTokens={jaTokens} />
       </section>
     </AppShell>
   );

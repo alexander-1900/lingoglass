@@ -56,6 +56,23 @@ def tokenize(text: str) -> list[dict]:
 def main() -> None:
     try:
         req = json.load(sys.stdin)
+    except Exception as exc:  # noqa: BLE001
+        json.dump({"tokens": [], "error": f"bad request: {exc}"}, sys.stdout)
+        sys.exit(1)
+
+    # Batch mode: {"texts": ["...", ...]} -> {"tokens": [[...], [...], ...]}
+    # Used by scripts/precompute-ja.mjs so one spawn covers every sentence.
+    if isinstance(req.get("texts"), list):
+        texts = [str(t).strip()[:2000] for t in req["texts"]]
+        try:
+            results = [tokenize(t) if t else [] for t in texts]
+            json.dump({"tokens": results}, sys.stdout)
+        except Exception as exc:  # noqa: BLE001
+            json.dump({"tokens": [], "error": str(exc)}, sys.stdout)
+            sys.exit(1)
+        return
+
+    try:
         text = str(req.get("text", "")).strip()[:2000]
     except Exception as exc:  # noqa: BLE001
         json.dump({"tokens": [], "error": f"bad request: {exc}"}, sys.stdout)
