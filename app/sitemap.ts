@@ -6,9 +6,11 @@ import { getAllStories } from "@/lib/stories";
 const BASE = (process.env.SITE_URL ?? "http://localhost:3000").replace(/\/$/, "");
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  // /settings is a private preferences page: noindex (see its metadata),
+  // so it must not be listed for crawlers here either. Same for /login and
+  // /signup (account pages, noindex in their own metadata).
   const staticPages: MetadataRoute.Sitemap = [
     { url: `${BASE}/`, changeFrequency: "weekly", priority: 1 },
-    { url: `${BASE}/settings`, changeFrequency: "yearly", priority: 0.3 },
   ];
   const library: MetadataRoute.Sitemap = LANGS.flatMap((lang) => [
     { url: `${BASE}/library/${lang}`, changeFrequency: "weekly", priority: 0.8 },

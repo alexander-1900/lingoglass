@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { LANG_NAMES, Story } from "@/lib/types";
+import { LANG_NAMES, Story, Token } from "@/lib/types";
 import {
   DEFAULT_MODE,
   DEFAULT_RATE,
@@ -18,7 +18,9 @@ import {
   setRate as persistRate,
   setVoiceGender as persistVoice,
 } from "@/lib/settings";
-import { cancelPendingSpeak, loadVoices, speakAsync, stopSpeaking } from "@/lib/tts";
+import { cancelPendingSpeak, ensureVoices, loadVoices, speakAsync, stopSpeaking } from "@/lib/tts";
+import { getProgress, progressKey, setProgress, useProgress } from "@/lib/progress";
+import type { ProgressRecord } from "@/lib/sync-types";
 import AudioPlayer from "./AudioPlayer";
 import StoryText from "./StoryText";
 
@@ -51,7 +53,14 @@ const MODE_LABELS: Record<ParallelMode, string> = {
   interactive: "Interactive Reveal",
 };
 
-export default function ReaderView({ story }: { story: Story }) {
+export default function ReaderView({
+  story,
+  jaTokens,
+}: {
+  story: Story;
+  /** Precomputed Sudachi tokens (Japanese only, from the build step). */
+  jaTokens?: Record<number, Token[]>;
+}) {
   // Hydration-safe init: this page is statically prerendered, so the first
   // client render must match the server output (constants, NOT localStorage).
   // Persisted preferences are synced after mount in the effect below.
@@ -62,13 +71,29 @@ export default function ReaderView({ story }: { story: Story }) {
   const [rate, setRateState] = useState<number>(DEFAULT_RATE);
   const [voice, setVoiceState] = useState<VoiceGender>(DEFAULT_VOICE);
   const [audioSupported, setAudioSupported] = useState(false);
+  // Resume affordance: a stored position ahead of the current one offers a
+  // "Resume" pill (never auto-jumps — free-scroll UX is preserved).
+  const [resumeFrom, setResumeFrom] = useState<number | null>(null);
 
   const runRef = useRef(0);
   const rateRef = useRef(DEFAULT_RATE);
-  const sentencesRef = useRef(story.sentences.map((s) => s.target));
-  sentencesRef.current = story.sentences.map((s) => s.target);
+  const currentIdxRef = useRef(0);
+  // Progress only tracks deliberate interaction (playback, seeks): opening
+  // a story must never overwrite a saved position with sentence 0.
+  const interactedRef = useRef(false);
+  // Side effects in the render body break Concurrent/StrictMode guarantees —
+  // refs sync after commit instead (bug #4).
+  const sentencesRef = useRef<string[]>([]);
   const langRef = useRef(story.lang);
-  langRef.current = story.lang;
+  useEffect(() => {
+    sentencesRef.current = story.sentences.map((s) => s.target);
+    langRef.current = story.lang;
+  }, [story]);
+
+  const progressMap = useProgress();
+  useEffect(() => {
+    currentIdxRef.current = currentIdx;
+  }, [currentIdx]);
 
   // Preload OS voices so the first tap actually speaks.
   useEffect(() => {
@@ -98,15 +123,52 @@ export default function ReaderView({ story }: { story: Story }) {
     };
   }, [story.lang]);
 
+  /** Persist the reading position (local-first; sync pushes debounced).
+   *  NOTE: progress tracks deliberate interaction only (playback + seeks);
+   *  opening a story never writes, so a saved position can't be clobbered. */
+  const persistProgress = useCallback(
+    (idx: number) => {
+      const total = story.sentences.length;
+      if (total <= 0) return;
+      const key = progressKey(story.lang, story.level, story.slug);
+      const prev = getProgress(key);
+      const maxIdx = Math.max(idx, prev?.maxIdx ?? 0);
+      const rec: ProgressRecord = {
+        lang: story.lang,
+        level: story.level,
+        slug: story.slug,
+        lastIdx: idx,
+        maxIdx,
+        total,
+        completedAt: maxIdx >= total - 1 ? (prev?.completedAt ?? Date.now()) : undefined,
+        updatedAt: Date.now(),
+      };
+      setProgress(rec);
+    },
+    [story]
+  );
+
   const stop = useCallback(() => {
     runRef.current += 1;
     cancelPendingSpeak();
     stopSpeaking();
     setPlaying(false);
-  }, []);
+    if (interactedRef.current) persistProgress(currentIdxRef.current);
+  }, [persistProgress]);
 
   // Stop playback when the reader unmounts (e.g. navigating away).
   useEffect(() => () => stop(), [stop]);
+
+  // Flushing on tab-hide covers mobile navigation that skips unmount.
+  useEffect(() => {
+    const onHide = () => {
+      if (document.visibilityState === "hidden" && interactedRef.current) {
+        persistProgress(currentIdxRef.current);
+      }
+    };
+    document.addEventListener("visibilitychange", onHide);
+    return () => document.removeEventListener("visibilitychange", onHide);
+  }, [persistProgress]);
 
   // Chrome silently pauses long utterances (~15s, no onend) and iOS stalls
   // chained playback: keep poking the synthesiser while a run is active.
@@ -131,14 +193,18 @@ export default function ReaderView({ story }: { story: Story }) {
     cancelPendingSpeak();
     // Refresh the voice list on every run: the mount-time preload may have
     // resolved before the OS exposed voices, leaving the wrong voice picked.
-    void loadVoices();
+    // Awaiting (capped by ensureVoices) stops sentence #1 from being read
+    // with the OS default voice (bug #2).
+    await ensureVoices();
     const runId = runRef.current + 1;
     runRef.current = runId;
+    interactedRef.current = true;
     setPlaying(true);
     const total = sentencesRef.current.length;
     for (let i = start; i < total; i += 1) {
       if (runRef.current !== runId) return;
       setCurrentIdx(i);
+      persistProgress(i);
       await speakAsync(sentencesRef.current[i], langRef.current, () => rateRef.current, {
         get cancelled() {
           return runRef.current !== runId;
@@ -164,13 +230,15 @@ export default function ReaderView({ story }: { story: Story }) {
     (idx: number) => {
       const total = sentencesRef.current.length;
       const clamped = Math.max(0, Math.min(total - 1, idx));
+      interactedRef.current = true;
       if (playing) {
-        void runFrom(clamped);
+        void runFrom(clamped); // runFrom persists on its first advance
       } else {
         setCurrentIdx(clamped);
+        persistProgress(clamped);
       }
     },
-    [playing, runFrom]
+    [playing, runFrom, persistProgress]
   );
 
   const changeMode = useCallback((next: ParallelMode) => {
@@ -193,6 +261,29 @@ export default function ReaderView({ story }: { story: Story }) {
   const handleWordTap = useCallback(() => {
     if (playing) stop();
   }, [playing, stop]);
+
+  // Resume offer: a stored (or synced) position ahead of the current one.
+  // Recomputed when the progress store updates (e.g. right after login sync)
+  // or playback state changes; never auto-jumps, only offers a pill.
+  useEffect(() => {
+    const total = story.sentences.length;
+    const saved = progressMap[progressKey(story.lang, story.level, story.slug)];
+    if (playing) {
+      setResumeFrom(null);
+      return;
+    }
+    if (saved && saved.lastIdx > currentIdx && saved.lastIdx < total - 1) {
+      setResumeFrom(saved.lastIdx);
+    } else {
+      setResumeFrom(null);
+    }
+  }, [progressMap, story, playing, currentIdx]);
+
+  const resume = useCallback(() => {
+    if (resumeFrom === null) return;
+    setResumeFrom(null);
+    void runFrom(resumeFrom);
+  }, [resumeFrom, runFrom]);
 
   return (
     <div id="reader-view" className="reader-view active">
@@ -248,6 +339,22 @@ export default function ReaderView({ story }: { story: Story }) {
         onVoice={changeVoice}
       />
 
+      {resumeFrom !== null && (
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <button
+            className="pill-btn active"
+            onClick={resume}
+            title="Continue where you left off"
+            aria-label={`Resume from sentence ${resumeFrom + 1} of ${story.sentences.length}`}
+          >
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <polygon points="5 3 19 12 5 21 5 3" />
+            </svg>
+            Resume from sentence {resumeFrom + 1}
+          </button>
+        </div>
+      )}
+
       <StoryText
         story={story}
         mode={mode}
@@ -255,6 +362,7 @@ export default function ReaderView({ story }: { story: Story }) {
         activeIdx={currentIdx}
         highlight={playing}
         rate={rate}
+        jaTokens={jaTokens}
         onWordTap={handleWordTap}
       />
     </div>

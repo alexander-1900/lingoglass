@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { LANGS, Lang } from "@/lib/types";
+import { LANGS, LANG_NAMES, Lang } from "@/lib/types";
 import { getAllStories, getStoriesForLevel } from "@/lib/stories";
 import { LEVELS } from "@/lib/types";
 import AppShell from "@/components/shell/AppShell";
@@ -10,9 +10,14 @@ export function generateStaticParams() {
 }
 
 export function generateMetadata({ params }: { params: Promise<{ lang: string }> }) {
-  return params.then(({ lang }) => ({
-    title: `${(LANGS as string[]).includes(lang) ? lang.toUpperCase() : "Library"}`,
-  }));
+  return params.then(({ lang }) => {
+    const known = (LANGS as string[]).includes(lang);
+    const name = known ? LANG_NAMES[lang as Lang] : "Graded";
+    return {
+      title: `${name} Graded Stories`,
+      description: `Read ${name} stories by level with tap-to-define words and native read-aloud.`,
+    };
+  });
 }
 
 export default async function LibraryLangPage({

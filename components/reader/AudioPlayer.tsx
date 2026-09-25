@@ -78,9 +78,31 @@ export default function AudioPlayer({
           aria-valuenow={currentIdx + 1}
           tabIndex={0}
           onClick={(e) => seekByRatio(e.clientX, e.currentTarget.getBoundingClientRect())}
+          aria-orientation="horizontal"
+          aria-valuetext={`Sentence ${currentIdx + 1} of ${total}`}
           onKeyDown={(e) => {
-            if (e.key === "ArrowRight") onSeek(currentIdx + 1);
-            if (e.key === "ArrowLeft") onSeek(currentIdx - 1);
+            // Full slider keyboard pattern (#14): arrows step, Home/End jump
+            // to the ends, PageUp/PageDown jump 5 sentences.
+            switch (e.key) {
+              case "ArrowRight":
+                onSeek(currentIdx + 1);
+                break;
+              case "ArrowLeft":
+                onSeek(currentIdx - 1);
+                break;
+              case "Home":
+                onSeek(0);
+                break;
+              case "End":
+                onSeek(total - 1);
+                break;
+              case "PageUp":
+                onSeek(currentIdx + 5);
+                break;
+              case "PageDown":
+                onSeek(currentIdx - 5);
+                break;
+            }
           }}
         >
           <div className="timeline-fill" style={{ width: `${percent}%` }} />
@@ -108,6 +130,8 @@ export default function AudioPlayer({
               key={s}
               className={`pill-btn${s === rate ? " active" : ""}`}
               aria-pressed={s === rate}
+              disabled={!supported}
+              title={!supported ? "Audio is not supported in this browser" : undefined}
               onClick={() => onRate(s)}
             >
               {s}×
@@ -123,7 +147,10 @@ export default function AudioPlayer({
               key={v.id}
               className={`pill-btn${voice === v.id ? " active" : ""}`}
               aria-pressed={voice === v.id}
-              title={v.hint}
+              disabled={!supported}
+              title={
+                !supported ? "Audio is not supported in this browser" : v.hint
+              }
               onClick={() => onVoice(v.id)}
             >
               {v.label}

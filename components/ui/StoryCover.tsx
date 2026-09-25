@@ -39,6 +39,8 @@ export function StoryCover({ src, alt, lang, size = "sm" }: Props) {
       <img
         src={src}
         alt={alt}
+        width={320}
+        height={160}
         loading="lazy"
         onError={() => setFailed(true)}
         className="story-cover-img"

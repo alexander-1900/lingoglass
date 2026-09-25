@@ -10,3 +10,12 @@ Thumbs.db
 next-env.d.ts
 __pycache__
 *.pyc
+# Local/dev SQLite database for auth + sync (Turso in production)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+# Drizzle migrations output (regenerated via drizzle-kit)
+/drizzle
+# Vitest cache/coverage
+coverage/

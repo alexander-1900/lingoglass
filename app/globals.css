@@ -659,6 +659,14 @@ header {
               color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
 }
 
+/* Wrapper around an OPEN word + its definition card. The card must be a
+   SIBLING of the token (not a child): a dialog nested inside a role=button
+   is invalid ARIA and confuses screen readers / focus order. */
+.word-wrap {
+  position: relative;
+  display: inline-block;
+}
+
 /* Token hover: subtle lift, warm cream brush background, clay underline */
 .word-token:hover {
   transform: translateY(-1px);
@@ -669,16 +677,18 @@ header {
 
 /* Active audio sync playhead highlight word: applied while the word's
    definition card is open (tap state), see StoryText.wordNode.
-   z-index is load-bearing: .active-word's translateY transform makes the
-   token a stacking context, which would trap the card's z-100 inside it and
-   let later sibling tokens paint OVER the card. Lifting the open token above
-   its siblings keeps the whole card on top of the story text. */
+   z-index is load-bearing: the OPEN wrapper is lifted above sibling tokens so
+   the card (z-100 inside it) is never painted over by later sibling tokens.
+   The token itself keeps hover-only transforms so its stacking never traps
+   the card. */
 .word-token.active-word {
   background-color: rgba(194, 109, 92, 0.09);
   border-bottom-color: var(--accent-clay);
   color: var(--accent-clay);
   font-weight: 600;
-  transform: translateY(-0.5px);
+}
+
+.word-wrap.has-open {
   z-index: 60;
 }
 
@@ -715,7 +725,9 @@ header {
 
 .reading-mode-interactive .sentence-block.revealed .translation-line {
   opacity: 0.85;
-  max-height: 80px;
+  /* Long C1/C2 literary sentences run 3-4 lines (~150px); 80px clipped them.
+     A generous cap (instead of `none`) keeps the max-height transition smooth. */
+  max-height: 500px;
   margin-top: 4px;
 }
 
@@ -1167,7 +1179,11 @@ header {
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: 1000;
+  /* Celebration confetti paints above the story text but BELOW the word
+     definition card (z-100) and the open word (z-60) — a burst fired on save
+     used to cover the card it was celebrating. Toast (1001) and ghost (999)
+     stay on top of everything. */
+  z-index: 40;
   pointer-events: none;
 }
 
@@ -1327,7 +1343,178 @@ header {
   margin-left: 2px;
 }
 
-/* Sidebar collapse toggle placement */
+
+/* ==========================================================================
+   AUTH PAGES (/login, /signup) — Cream & Clay "reading room" card
+   ========================================================================== */
+
+/* The auth card lives inside AppShell's main column: cap the width, center
+   it, and let it scroll if the viewport is short. */
+.auth-wrap {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px 16px 48px;
+  overflow-y: auto;
+  min-height: 0;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 460px;
+  padding: 36px 36px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  text-align: left;
+  margin: auto 0;
+}
+
+.auth-card h1 {
+  font-size: 1.65rem;
+  line-height: 1.2;
+}
+
+.auth-sub {
+  font-size: 0.92rem;
+  margin: 0;
+}
+
+.auth-error {
+  font-size: 0.85rem;
+  color: #a44a3d;
+  background: rgba(194, 109, 92, 0.1);
+  border: 1px solid rgba(194, 109, 92, 0.28);
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Bilateral Google button: white sheet, soft border, clay text. */
+.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  min-height: 48px;
+  padding: 12px 18px;
+  margin-top: 4px;
+  background: #fff;
+  border: 1px solid var(--border-strong);
+  border-radius: 12px;
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: var(--shadow-subtle);
+  transition: all 0.3s var(--transition-smooth);
+}
+
+.google-btn:hover:not(:disabled) {
+  border-color: var(--accent-clay);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-medium);
+}
+
+.google-btn:active:not(:disabled) {
+  transform: scale(0.99);
+}
+
+.google-btn:disabled {
+  opacity: 0.7;
+  cursor: wait;
+}
+
+.auth-toggle {
+  font-size: 0.88rem;
+  margin: 2px 0 0;
+  text-align: center;
+}
+
+.auth-toggle a {
+  color: var(--accent-clay);
+  font-weight: 700;
+}
+
+.auth-toggle a:hover {
+  text-decoration: underline;
+}
+
+.auth-note {
+  font-size: 0.75rem !important;
+  color: var(--text-muted) !important;
+  margin: 0 !important;
+  border-top: 1px solid var(--border-soft);
+  padding-top: 12px;
+  text-align: center;
+}
+
+/* ==========================================================================
+   HEADER AUTH (Log in / Sign up buttons + signed-in avatar chip)
+   ========================================================================== */
+
+.header-auth {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 8px;
+}
+
+/* Keep the story-count pill and auth buttons on one row on desktop; on
+   narrow screens only the primary action survives. */
+.header-login {
+  white-space: nowrap;
+}
+
+.header-signup {
+  white-space: nowrap;
+  background: var(--accent-clay);
+  border-color: var(--accent-clay);
+  color: #fff;
+}
+
+.header-signup:hover {
+  background: #b55f4f;
+  border-color: #b55f4f;
+  color: #fff;
+}
+
+.header-avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  margin-left: 8px;
+  border-radius: 99px;
+  overflow: hidden;
+  flex: none;
+  background: var(--accent-clay);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border: 1px solid var(--border-strong);
+}
+
+.header-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 640px) {
+  .auth-card {
+    padding: 28px 22px 22px;
+  }
+  .header-login {
+    display: none;
+  }
+}
+
 .side-toggle { margin-left: auto; }
 /* Desktop restore button: lives in the main header, only rendered while
    the sidebar is hidden (the in-sidebar toggle is display:none then). */

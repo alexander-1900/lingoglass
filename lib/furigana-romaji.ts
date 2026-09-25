@@ -88,5 +88,5 @@ export function tokenWithRomaji(token: Token): Token {
 export function isJapaneseText(s: string): boolean {
   // Includes CJK Extension B–F so rare kanji (e.g. 𠮷 in names) don't void
   // tokenization. Needs the /u flag for astral-plane ranges.
-  return /[\u3040-\u30ff\u4e00-\u9faf\u{20000}-\u{2ebef}]/u.test(s);
+  return /[\u3040-\u30ff\u4e00-\u9fff\u{20000}-\u{2ebef}]/u.test(s);
 }

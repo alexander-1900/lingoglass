@@ -100,6 +100,10 @@ export function celebrationBurst(x: number, y: number, count = 30): void {
 export function ghostFlight(text: string, startX: number, startY: number): void {
   if (typeof document === "undefined") return;
   const badge = document.getElementById("vocab-badge-count");
+  // The badge lives in the sidebar; when the sidebar is collapsed (desktop)
+  // or hidden (mobile) its rect is 0×0 and flying to (0,0) looks like a bug.
+  const r = badge?.getBoundingClientRect();
+  if (!r || r.width === 0 || r.height === 0) return;
   const ghost = document.createElement("div");
   ghost.className = "ghost-token";
   ghost.textContent = text || "Word";
@@ -107,13 +111,8 @@ export function ghostFlight(text: string, startX: number, startY: number): void 
   ghost.style.top = `${startY}px`;
   document.body.appendChild(ghost);
 
-  let destX = startX;
-  let destY = startY - 160;
-  if (badge) {
-    const r = badge.getBoundingClientRect();
-    destX = r.left - 10;
-    destY = r.top;
-  }
+  const destX = r.left - 10;
+  const destY = r.top;
   const anim = ghost.animate(
     [
       { transform: "translate(0, 0) scale(1) rotate(0deg)", opacity: 1 },

@@ -9,9 +9,15 @@ const LANG_VOICES: Record<string, string[]> = {
 };
 
 let voicesCache: SpeechSynthesisVoice[] = [];
+// Shared in-flight load so concurrent callers await ONE load (and later
+// callers get the settled list instantly). Without memoization, every tap
+// started its own 1.5s fallback race and `speak()` could run against an
+// empty cache → the OS default (often English) voice for ES/RU/JA text.
+let voicesPromise: Promise<SpeechSynthesisVoice[]> | null = null;
 
 export function loadVoices(): Promise<SpeechSynthesisVoice[]> {
-  return new Promise((resolve) => {
+  if (voicesPromise) return voicesPromise;
+  voicesPromise = new Promise((resolve) => {
     if (typeof window === "undefined" || !("speechSynthesis" in window)) {
       resolve([]);
       return;
@@ -34,6 +40,25 @@ export function loadVoices(): Promise<SpeechSynthesisVoice[]> {
       done(window.speechSynthesis.getVoices());
     };
   });
+  return voicesPromise;
+}
+
+/**
+ * Await the voice list without ever blocking interaction for long. Callers
+ * that must pick a voice before the first utterance (first word tap, story
+ * playback start) race the load against this short cap. Once voices are
+ * cached, `loadVoices()` resolves in a microtask — no perceptible delay.
+ */
+export async function ensureVoices(): Promise<void> {
+  if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
+  try {
+    await Promise.race([
+      loadVoices(),
+      new Promise<void>((resolve) => window.setTimeout(resolve, 800)),
+    ]);
+  } catch {
+    /* speech engine unavailable — speak() still works via utter.lang */
+  }
 }
 
 function pickVoice(lang: string): SpeechSynthesisVoice | undefined {
@@ -93,7 +118,7 @@ export function cancelPendingSpeak(): void {
 /** Speak text with the OS voice (no external TTS service). */
 export function speak(text: string, lang: string, rate = 0.9): void {
   if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
-  const clean = text.replace(/[\s.,!?;:«»"()—–…¿¡。、、「」『』・！？〈〉《》‹›-]+/g, "");
+  const clean = text.replace(/[\s.,!?;:«»"''""„()—–…¿¡。、、「」『』・！？〈〉《》‹›-]+/g, "");
   if (!clean) return;
   // Chrome drops an utterance queued in the same task as cancel(): cancel
   // now, queue the utterance on the next beat. Coalesce rapid taps so only

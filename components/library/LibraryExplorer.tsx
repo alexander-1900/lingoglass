@@ -35,7 +35,14 @@ function StoryCardLink({ story }: { story: StoryMeta }) {
       className="story-card"
     >
       {story.image ? (
-        <img className="story-card-cover" src={story.image} alt={story.title} loading="lazy" />
+        <img
+          className="story-card-cover"
+          src={story.image}
+          alt={story.title}
+          width={400}
+          height={130}
+          loading="lazy"
+        />
       ) : (
         <StoryCover src={story.image} alt={story.title} lang={story.lang} size="card" />
       )}

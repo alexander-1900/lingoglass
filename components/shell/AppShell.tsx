@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { initParticles, destroyParticles } from "@/lib/juice";
 import { removeBookmark, useBookmarks } from "@/lib/bookmarks";
+import AccountBadge from "@/components/auth/AccountBadge";
+import HeaderAuth from "@/components/auth/HeaderAuth";
 
 const SIDE_KEY = "lingoglass:sidebar";
 
@@ -138,6 +140,10 @@ export default function AppShell({
             )}
           </div>
 
+          {/* Google sign-in / profile — hidden entirely when auth isn't
+              configured on the server (graceful localStorage-only mode). */}
+          <AccountBadge />
+
           <div style={{ fontSize: "0.75rem", color: "var(--text-muted)", textAlign: "center", borderTop: "1px solid rgba(255,255,255,0.05)", paddingTop: 12 }}>
             Saved on this device
           </div>
@@ -173,24 +179,37 @@ export default function AppShell({
                 <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
               </svg>
             </button>
-            <div className="tab-group" role="tablist" aria-label="Stories or reels">
+            <div className="tab-group" role="tablist" aria-label="Stories or reels"
+              onKeyDown={(e) => {
+                // Roving focus + arrow keys for the tablist pattern (#14).
+                if (e.key !== "ArrowRight" && e.key !== "ArrowLeft") return;
+                e.preventDefault();
+                setTab(tab === "stories" ? "reels" : "stories");
+              }}
+            >
               <div
                 className="tab-slider"
                 aria-hidden="true"
                 style={{ transform: tab === "reels" ? "translateX(100%)" : "translateX(0%)" }}
               />
               <button
+                id="tab-stories"
                 className={`tab-btn${tab === "stories" ? " active" : ""}`}
                 role="tab"
                 aria-selected={tab === "stories"}
+                aria-controls="main-tab-panel"
+                tabIndex={tab === "stories" ? 0 : -1}
                 onClick={() => setTab("stories")}
               >
                 Stories
               </button>
               <button
+                id="tab-reels"
                 className={`tab-btn${tab === "reels" ? " active" : ""}`}
                 role="tab"
                 aria-selected={tab === "reels"}
+                aria-controls="main-tab-panel"
+                tabIndex={tab === "reels" ? 0 : -1}
                 onClick={() => setTab("reels")}
               >
                 Reels Feed
@@ -206,8 +225,15 @@ export default function AppShell({
               {storyCount} stories
             </Link>
           )}
+          <HeaderAuth />
         </header>
 
+        <div
+          id="main-tab-panel"
+          role="tabpanel"
+          aria-labelledby={tab === "stories" ? "tab-stories" : "tab-reels"}
+          style={{ display: "contents" }}
+        >
         {tab === "stories" ? (
           children
         ) : (
@@ -224,6 +250,7 @@ export default function AppShell({
             </div>
           </section>
         )}
+        </div>
 
         <div id="pace-notification" className="pace-notification glass-panel-heavy" role="status" aria-live="polite">
           <div className="notification-icon">
