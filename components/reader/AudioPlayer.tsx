@@ -82,24 +82,31 @@ export default function AudioPlayer({
           aria-valuetext={`Sentence ${currentIdx + 1} of ${total}`}
           onKeyDown={(e) => {
             // Full slider keyboard pattern (#14): arrows step, Home/End jump
-            // to the ends, PageUp/PageDown jump 5 sentences.
+            // to the ends, PageUp/PageDown jump 5 sentences. preventDefault
+            // keeps arrow keys from scrolling the page along with seeking.
             switch (e.key) {
               case "ArrowRight":
+                e.preventDefault();
                 onSeek(currentIdx + 1);
                 break;
               case "ArrowLeft":
+                e.preventDefault();
                 onSeek(currentIdx - 1);
                 break;
               case "Home":
+                e.preventDefault();
                 onSeek(0);
                 break;
               case "End":
+                e.preventDefault();
                 onSeek(total - 1);
                 break;
               case "PageUp":
+                e.preventDefault();
                 onSeek(currentIdx + 5);
                 break;
               case "PageDown":
+                e.preventDefault();
                 onSeek(currentIdx - 5);
                 break;
             }

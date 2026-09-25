@@ -104,10 +104,8 @@ async function main() {
     ? walk(path.join(CONTENT, "ja"))
     : [];
 
-  /** key "ja/<level>/<slug>" -> sentence texts */
-  const stories = new Map();
   const allTexts = [];
-  const offsets = new Map(); // key -> [startIdx, count]
+  const offsets = new Map(); // key "ja/<level>/<slug>" -> [startIdx, count]
   for (const file of files) {
     const rel = path.relative(CONTENT, file).split(path.sep); // [ja, level, slug.md]
     if (rel.length !== 3) continue;
@@ -115,7 +113,6 @@ async function main() {
     const sentences = parseSentences(fs.readFileSync(file, "utf-8"));
     offsets.set(key, [allTexts.length, sentences.length]);
     for (const s of sentences) allTexts.push(s);
-    stories.set(key, sentences);
   }
 
   // Content signature: skip the (slow) Python spawn when nothing changed.
@@ -128,9 +125,12 @@ async function main() {
   if (fs.existsSync(OUT)) {
     try {
       const prev = JSON.parse(fs.readFileSync(OUT, "utf-8"));
-      if (prev.signature === signature && prev.stories && !process.env.FORCE_PRECOMPUTE) {
+      if (prev.signature === signature && prev.stories && prev.fallback !== true && !process.env.FORCE_PRECOMPUTE) {
         console.log(`precompute-ja: up to date (signature ${signature}).`);
         return;
+      }
+      if (prev.signature === signature && prev.fallback === true) {
+        console.log(`precompute-ja: previous run was a regex fallback — regenerating with Sudachi when available.`);
       }
     } catch {
       /* regenerate below */
@@ -140,7 +140,7 @@ async function main() {
   const result = {
     generatedAt: new Date().toISOString(),
     signature,
-    stories: Object.fromEntries([...stories.keys()].map((k) => [k, []])),
+    stories: Object.fromEntries([...offsets.keys()].map((k) => [k, []])),
     fallback: false,
   };
 
@@ -183,21 +183,24 @@ async function main() {
 }
 
 main().catch((e) => {
-  // Never fail the build for this: the app treats missing tokens as the
-  // pre-auth fallback (JA renders blob-split).
-  console.warn(`precompute-ja: FAILED — ${e.message}. Continuing without tokens.`);
+  // Never fail the build and never wipe a good artifact: the app falls back
+  // to regex-split rendering when tokens are missing. Only write an empty
+  // file when no usable file exists yet.
+  console.warn(`precompute-ja: FAILED — ${e.message}. Keeping previous tokens when available.`);
   try {
-    fs.mkdirSync(path.dirname(OUT), { recursive: true });
-    fs.writeFileSync(
-      OUT,
-      JSON.stringify({
-        generatedAt: new Date().toISOString(),
-        signature: "",
-        stories: {},
-        fallback: true,
-      }),
-      "utf-8"
-    );
+    if (!fs.existsSync(OUT)) {
+      fs.mkdirSync(path.dirname(OUT), { recursive: true });
+      fs.writeFileSync(
+        OUT,
+        JSON.stringify({
+          generatedAt: new Date().toISOString(),
+          signature: "",
+          stories: {},
+          fallback: true,
+        }),
+        "utf-8"
+      );
+    }
   } catch {
     /* ignore */
   }

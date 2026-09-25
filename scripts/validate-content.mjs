@@ -20,7 +20,9 @@ function walk(d, out = []) {
   return out;
 }
 
-for (const file of walk(CONTENT)) {
+const files = walk(CONTENT);
+
+for (const file of files) {
   const rel = path.relative(CONTENT, file).split(path.sep);
   const key = rel.join("/");
   if (rel.length !== 3) {
@@ -29,6 +31,14 @@ for (const file of walk(CONTENT)) {
   }
   const [lang, level, name] = rel;
   const slug = name.replace(/\.md$/, "");
+  // Canonical filename charset lives in lib/stories.ts SAFE_SLUG — duplicated
+  // here so bad names fail the build with a fix instead of silently skipping.
+  const SAFE = /^[\p{L}\p{N}][\p{L}\p{N}_.-]*$/u;
+  for (const [label, value] of [["lang", lang], ["level", level], ["slug", slug]]) {
+    if (!SAFE.test(value) || value.includes("..")) {
+      errors.push(`${key}: illegal ${label} name "${value}" — use letters, numbers, _, ., - (e.g. rename to 01-my-story.md)`);
+    }
+  }
   const raw = fs.readFileSync(file, "utf-8");
   const text = raw.replace(/^\uFEFF/, "").replace(/\r\n/g, "\n");
 
@@ -47,6 +57,12 @@ for (const file of walk(CONTENT)) {
   }
   if (meta.lang && meta.lang !== lang) errors.push(`${key}: lang mismatch (folder ${lang}, meta ${meta.lang})`);
   if (meta.level && meta.level !== level) errors.push(`${key}: level mismatch (folder ${level}, meta ${meta.level})`);
+  // Frontmatter image: local paths must exist (external http(s) URLs are
+  // used verbatim by the loader and can't be checked here).
+  const img = meta.image;
+  if (img && img.startsWith("/") && !fs.existsSync(path.join(root, "public", img))) {
+    warnings.push(`${key}: frontmatter image not found under public/: ${img}`);
+  }
 
   const body = text.slice(fm[0].length).trim();
   const blocks = body.split(/\n\s*\n/).filter((b) => b.trim());
@@ -78,4 +94,4 @@ if (errors.length) {
   console.error(`\nvalidate-content: ${errors.length} error(s), build refused.`);
   process.exit(1);
 }
-console.log(`validate-content: OK (${walk(CONTENT).length} stories, ${warnings.length} warning(s)).`);
+console.log(`validate-content: OK (${files.length} stories, ${warnings.length} warning(s)).`);

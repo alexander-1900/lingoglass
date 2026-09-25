@@ -9,6 +9,9 @@ export function generateStaticParams() {
   return LANGS.map((lang) => ({ lang }));
 }
 
+// Only es/ru/ja exist — anything else 404s without an on-demand render.
+export const dynamicParams = false;
+
 export function generateMetadata({ params }: { params: Promise<{ lang: string }> }) {
   return params.then(({ lang }) => {
     const known = (LANGS as string[]).includes(lang);

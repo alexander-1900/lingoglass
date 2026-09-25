@@ -46,6 +46,5 @@ export interface Token {
   lemma?: string;
   reading?: string;
   romaji?: string;
-  pos?: string;
 }
 

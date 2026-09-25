@@ -378,7 +378,7 @@ header {
 
 /* --- Story cover: real photo or designed placeholder ---------------------
    Base .story-cover is a styled block box so the placeholder never collapses
-   to bare inline text. Sizes: card (library grid), sm, lg (future slots). */
+   to bare inline text. Size: card (library grid). */
 .story-cover {
   display: flex;
   flex-direction: column;
@@ -396,9 +396,6 @@ header {
   border-radius: 0; /* square edges: the card clips its own top corners */
 }
 
-.story-cover--sm { width: 44px; height: 44px; border-radius: 12px; flex: none; }
-.story-cover--lg { width: 100%; aspect-ratio: 2 / 1; border-radius: 14px 14px 0 0; }
-
 .story-cover--placeholder .story-cover-mono {
   font-family: Georgia, "Times New Roman", Palatino, serif;
   font-size: 2rem;
@@ -407,8 +404,6 @@ header {
   color: var(--accent-clay);
   opacity: 0.85;
 }
-.story-cover--sm.story-cover--placeholder .story-cover-mono { font-size: 1.1rem; }
-.story-cover--lg.story-cover--placeholder .story-cover-mono { font-size: 3rem; }
 
 .story-cover--placeholder .story-cover-hint {
   font-size: 0.6rem;
@@ -424,13 +419,6 @@ header {
 .lang-ru.story-cover--placeholder .story-cover-mono { color: var(--accent-ochre); }
 .lang-ja.story-cover--placeholder { background: linear-gradient(135deg, rgba(194, 109, 92, 0.16) 0%, #F3ECE0 100%); }
 .lang-ja.story-cover--placeholder .story-cover-mono { color: var(--accent-clay); }
-
-.story-cover-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
 
 /* Designed placeholder keeps the same 130px cover row as real photos */
 .story-card .story-cover--placeholder {
@@ -1345,175 +1333,8 @@ header {
 
 
 /* ==========================================================================
-   AUTH PAGES (/login, /signup) — Cream & Clay "reading room" card
+   SIDEBAR / HEADER TOGGLES
    ========================================================================== */
-
-/* The auth card lives inside AppShell's main column: cap the width, center
-   it, and let it scroll if the viewport is short. */
-.auth-wrap {
-  flex: 1;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 40px 16px 48px;
-  overflow-y: auto;
-  min-height: 0;
-}
-
-.auth-card {
-  width: 100%;
-  max-width: 460px;
-  padding: 36px 36px 28px;
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  text-align: left;
-  margin: auto 0;
-}
-
-.auth-card h1 {
-  font-size: 1.65rem;
-  line-height: 1.2;
-}
-
-.auth-sub {
-  font-size: 0.92rem;
-  margin: 0;
-}
-
-.auth-error {
-  font-size: 0.85rem;
-  color: #a44a3d;
-  background: rgba(194, 109, 92, 0.1);
-  border: 1px solid rgba(194, 109, 92, 0.28);
-  border-radius: 10px;
-  padding: 10px 14px;
-  margin: 0;
-  line-height: 1.5;
-}
-
-/* Bilateral Google button: white sheet, soft border, clay text. */
-.google-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  width: 100%;
-  min-height: 48px;
-  padding: 12px 18px;
-  margin-top: 4px;
-  background: #fff;
-  border: 1px solid var(--border-strong);
-  border-radius: 12px;
-  color: var(--text-primary);
-  font-size: 0.95rem;
-  font-weight: 700;
-  cursor: pointer;
-  box-shadow: var(--shadow-subtle);
-  transition: all 0.3s var(--transition-smooth);
-}
-
-.google-btn:hover:not(:disabled) {
-  border-color: var(--accent-clay);
-  transform: translateY(-1px);
-  box-shadow: var(--shadow-medium);
-}
-
-.google-btn:active:not(:disabled) {
-  transform: scale(0.99);
-}
-
-.google-btn:disabled {
-  opacity: 0.7;
-  cursor: wait;
-}
-
-.auth-toggle {
-  font-size: 0.88rem;
-  margin: 2px 0 0;
-  text-align: center;
-}
-
-.auth-toggle a {
-  color: var(--accent-clay);
-  font-weight: 700;
-}
-
-.auth-toggle a:hover {
-  text-decoration: underline;
-}
-
-.auth-note {
-  font-size: 0.75rem !important;
-  color: var(--text-muted) !important;
-  margin: 0 !important;
-  border-top: 1px solid var(--border-soft);
-  padding-top: 12px;
-  text-align: center;
-}
-
-/* ==========================================================================
-   HEADER AUTH (Log in / Sign up buttons + signed-in avatar chip)
-   ========================================================================== */
-
-.header-auth {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-left: 8px;
-}
-
-/* Keep the story-count pill and auth buttons on one row on desktop; on
-   narrow screens only the primary action survives. */
-.header-login {
-  white-space: nowrap;
-}
-
-.header-signup {
-  white-space: nowrap;
-  background: var(--accent-clay);
-  border-color: var(--accent-clay);
-  color: #fff;
-}
-
-.header-signup:hover {
-  background: #b55f4f;
-  border-color: #b55f4f;
-  color: #fff;
-}
-
-.header-avatar {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 30px;
-  height: 30px;
-  margin-left: 8px;
-  border-radius: 99px;
-  overflow: hidden;
-  flex: none;
-  background: var(--accent-clay);
-  color: #fff;
-  font-size: 0.75rem;
-  font-weight: 700;
-  border: 1px solid var(--border-strong);
-}
-
-.header-avatar img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-@media (max-width: 640px) {
-  .auth-card {
-    padding: 28px 22px 22px;
-  }
-  .header-login {
-    display: none;
-  }
-}
 
 .side-toggle { margin-left: auto; }
 /* Desktop restore button: lives in the main header, only rendered while
@@ -1523,6 +1344,10 @@ header {
 .side-toggle-mobile { display: none; }
 @media (max-width: 1024px) {
   .side-toggle-mobile { display: inline-flex; }
+  /* The restore button is the desktop affordance; ≤1024px the dedicated
+     mobile toggle already renders in the header — showing both would put
+     two identical buttons side by side when the sidebar is collapsed. */
+  .side-toggle-restore { display: none; }
 }
 
 /* Desktop sidebar collapse (toggle in the brand row) */

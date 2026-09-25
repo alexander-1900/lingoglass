@@ -9,6 +9,10 @@ export function generateStaticParams() {
   return getAllStoryPaths();
 }
 
+// Every story is prerendered at build; unknown slugs must 404 immediately
+// instead of triggering an on-demand fs render at request time.
+export const dynamicParams = false;
+
 export async function generateMetadata({
   params,
 }: {
@@ -41,7 +45,7 @@ export default async function StoryPage({
   return (
     <AppShell storyCount={getAllStories().length}>
       <section id="stories-platform" style={{ flex: 1, display: "flex", flexDirection: "column", minHeight: 0 }}>
-        <ReaderView key={story.slug} story={story} jaTokens={jaTokens} />
+        <ReaderView key={`${story.lang}/${story.level}/${story.slug}`} story={story} jaTokens={jaTokens} />
       </section>
     </AppShell>
   );

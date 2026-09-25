@@ -124,7 +124,7 @@ level: a1
 - ❌ Do not use `> ` lines for anything except the English translation.
 - ❌ Do not put more than one `> ` line per block (parser takes the first).
 - ❌ Do not add files with a different structure "to be helpful" — if the sent text doesn't fit the format, convert it TO the format, never the reverse.
-- ❌ Do not touch `.gitkeep` files, `services/sudachi/`, or app code during content sessions.
+- ❌ Do not touch `services/sudachi/` or app code during content sessions.
 
 ## 6. Quick commands
 
@@ -139,8 +139,7 @@ npm run start   # serve the production build on :3000
 - Next.js 15 App Router, Cream & Clay editorial theme in `app/globals.css` (system fonts only, no Tailwind, no webfonts).
 - Routes: `/` (library, all stories) → `/library/[lang]` → `/library/[lang]/[level]` → `/story/[lang]/[level]/[slug]` (reader) + `/settings`. All SSG via `generateStaticParams()`. Every page renders inside `AppShell` (sidebar with vocabulary queue + Stories/Reels tabs).
 - Reader: 3 layout modes (side-by-side / line-by-line / interactive tap-to-reveal, persisted per device), click a word → warm definition card above it (gloss, or sentence translation as fallback) with Speak + localStorage Bookmark, `▶` footer reads the whole story with Web Speech API (OS voice), timeline seeks by sentence.
-- `app/api/sync` → full-state bookmark + progress merge (`POST /api/sync`,
-  Auth.js session required; 401/503 guarded; anonymous reading unaffected).
+- Bookmarks + reading progress are anonymous and local-only (`localStorage`, no accounts).
 - `scripts/validate-content.mjs` + `scripts/precompute-ja.mjs` run on `prebuild`:
   the first refuses the build on malformed stories, the second regenerates the
   committed `data/ja-tokens.generated.json` (skipped when content unchanged).

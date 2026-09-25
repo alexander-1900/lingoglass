@@ -7,6 +7,7 @@ import {
   DEFAULT_MODE,
   DEFAULT_RATE,
   DEFAULT_VOICE,
+  MODES,
   ParallelMode,
   SPEEDS,
   VoiceGender,
@@ -20,7 +21,7 @@ import {
 } from "@/lib/settings";
 import { cancelPendingSpeak, ensureVoices, loadVoices, speakAsync, stopSpeaking } from "@/lib/tts";
 import { getProgress, progressKey, setProgress, useProgress } from "@/lib/progress";
-import type { ProgressRecord } from "@/lib/sync-types";
+import type { ProgressRecord } from "@/lib/progress";
 import AudioPlayer from "./AudioPlayer";
 import StoryText from "./StoryText";
 
@@ -45,12 +46,6 @@ const MODE_ICONS: Record<ParallelMode, React.ReactNode> = {
       <line x1="12" y1="8" x2="12.01" y2="8" />
     </svg>
   ),
-};
-
-const MODE_LABELS: Record<ParallelMode, string> = {
-  "side-by-side": "Side-by-Side",
-  "line-by-line": "Line-by-Line",
-  interactive: "Interactive Reveal",
 };
 
 export default function ReaderView({
@@ -82,8 +77,10 @@ export default function ReaderView({
   // a story must never overwrite a saved position with sentence 0.
   const interactedRef = useRef(false);
   // Side effects in the render body break Concurrent/StrictMode guarantees —
-  // refs sync after commit instead (bug #4).
-  const sentencesRef = useRef<string[]>([]);
+  // refs sync after commit instead (bug #4). Initialized from the story so a
+  // Play pressed before commit still sees data; the effect below keeps them
+  // fresh on navigation (the initial useRef arg alone wouldn't track updates).
+  const sentencesRef = useRef<string[]>(story.sentences.map((s) => s.target));
   const langRef = useRef(story.lang);
   useEffect(() => {
     sentencesRef.current = story.sentences.map((s) => s.target);
@@ -123,7 +120,7 @@ export default function ReaderView({
     };
   }, [story.lang]);
 
-  /** Persist the reading position (local-first; sync pushes debounced).
+  /** Persist the reading position (local-only).
    *  NOTE: progress tracks deliberate interaction only (playback + seeks);
    *  opening a story never writes, so a saved position can't be clobbered. */
   const persistProgress = useCallback(
@@ -214,7 +211,7 @@ export default function ReaderView({
       await new Promise((r) => setTimeout(r, 220));
     }
     if (runRef.current === runId) setPlaying(false);
-  }, []);
+  }, [persistProgress]);
 
   const toggle = useCallback(() => {
     if (playing) {
@@ -262,9 +259,9 @@ export default function ReaderView({
     if (playing) stop();
   }, [playing, stop]);
 
-  // Resume offer: a stored (or synced) position ahead of the current one.
-  // Recomputed when the progress store updates (e.g. right after login sync)
-  // or playback state changes; never auto-jumps, only offers a pill.
+  // Resume offer: a stored position ahead of the current one. Recomputed
+  // when the progress store updates or playback state changes; never
+  // auto-jumps, only offers a pill.
   useEffect(() => {
     const total = story.sentences.length;
     const saved = progressMap[progressKey(story.lang, story.level, story.slug)];
@@ -309,17 +306,17 @@ export default function ReaderView({
         </div>
 
         <div className="layout-toggle-group" role="group" aria-label="Reading layout">
-          {(Object.keys(MODE_LABELS) as ParallelMode[]).map((m) => (
+          {MODES.map((m) => (
             <button
-              key={m}
-              className={`pill-btn${mode === m ? " active" : ""}`}
-              data-mode={m}
-              title={MODE_LABELS[m]}
-              aria-pressed={mode === m}
-              onClick={() => changeMode(m)}
+              key={m.id}
+              className={`pill-btn${mode === m.id ? " active" : ""}`}
+              data-mode={m.id}
+              title={m.label}
+              aria-pressed={mode === m.id}
+              onClick={() => changeMode(m.id)}
             >
-              {MODE_ICONS[m]}
-              {MODE_LABELS[m]}
+              {MODE_ICONS[m.id]}
+              {m.label}
             </button>
           ))}
         </div>

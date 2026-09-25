@@ -4,8 +4,6 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { initParticles, destroyParticles } from "@/lib/juice";
 import { removeBookmark, useBookmarks } from "@/lib/bookmarks";
-import AccountBadge from "@/components/auth/AccountBadge";
-import HeaderAuth from "@/components/auth/HeaderAuth";
 
 const SIDE_KEY = "lingoglass:sidebar";
 
@@ -17,6 +15,37 @@ function readSidePref(): boolean {
   } catch {
     return true;
   }
+}
+
+/** Header button that toggles the vocabulary sidebar (desktop-restore and
+ *  mobile variants differ only in class + labels). */
+function VocabToggle({
+  className,
+  label,
+  title,
+  expanded,
+  onToggle,
+}: {
+  className: string;
+  label: string;
+  title: string;
+  expanded: boolean;
+  onToggle: () => void;
+}) {
+  return (
+    <button
+      className={`round-btn ${className}`}
+      style={{ width: 36, height: 36 }}
+      onClick={onToggle}
+      aria-expanded={expanded}
+      aria-label={label}
+      title={title}
+    >
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+      </svg>
+    </button>
+  );
 }
 
 /**
@@ -140,10 +169,6 @@ export default function AppShell({
             )}
           </div>
 
-          {/* Google sign-in / profile — hidden entirely when auth isn't
-              configured on the server (graceful localStorage-only mode). */}
-          <AccountBadge />
-
           <div style={{ fontSize: "0.75rem", color: "var(--text-muted)", textAlign: "center", borderTop: "1px solid rgba(255,255,255,0.05)", paddingTop: 12 }}>
             Saved on this device
           </div>
@@ -154,31 +179,21 @@ export default function AppShell({
         <header className="glass-container">
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
             {!sideOpen && (
-              <button
-                className="round-btn side-toggle-restore"
-                style={{ width: 36, height: 36 }}
-                onClick={toggleSide}
-                aria-expanded={sideOpen}
-                aria-label="Show vocabulary"
+              <VocabToggle
+                className="side-toggle-restore"
+                label="Show vocabulary"
                 title="Show vocabulary queue"
-              >
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                  <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
-                </svg>
-              </button>
+                expanded={sideOpen}
+                onToggle={toggleSide}
+              />
             )}
-            <button
-              className="round-btn side-toggle-mobile"
-              style={{ width: 36, height: 36 }}
-              onClick={toggleSide}
-              aria-expanded={sideOpen}
-              aria-label={sideOpen ? "Hide vocabulary" : "Show vocabulary"}
+            <VocabToggle
+              className="side-toggle-mobile"
+              label={sideOpen ? "Hide vocabulary" : "Show vocabulary"}
               title="Vocabulary queue"
-            >
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
-              </svg>
-            </button>
+              expanded={sideOpen}
+              onToggle={toggleSide}
+            />
             <div className="tab-group" role="tablist" aria-label="Stories or reels"
               onKeyDown={(e) => {
                 // Roving focus + arrow keys for the tablist pattern (#14).
@@ -217,15 +232,31 @@ export default function AppShell({
             </div>
           </div>
 
-          {storyCount !== undefined && (
-            <Link href="/" className="pill-btn active" style={{ fontWeight: 700 }} aria-label={`${storyCount} graded stories in the library`}>
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+          <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+            {storyCount !== undefined && (
+              <Link href="/" className="pill-btn active" style={{ fontWeight: 700 }} aria-label={`${storyCount} graded stories in the library`}>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                </svg>
+                {storyCount} stories
+              </Link>
+            )}
+            {/* Settings was an orphan page after the auth UI removal — the only
+                way in is this header gear (visible on every route, sidebar open
+                or collapsed). Wrapped with the pill so the header's
+                space-between layout keeps its two-column shape. */}
+            <Link
+              href="/settings"
+              className="round-btn"
+              title="Reading preferences"
+              aria-label="Settings"
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="3" />
+                <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" />
               </svg>
-              {storyCount} stories
             </Link>
-          )}
-          <HeaderAuth />
+          </div>
         </header>
 
         <div

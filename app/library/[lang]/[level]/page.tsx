@@ -10,6 +10,10 @@ export function generateStaticParams() {
   );
 }
 
+// Every lang/level combo is prerendered — anything else 404s without an
+// on-demand render.
+export const dynamicParams = false;
+
 export default async function LevelPage({
   params,
 }: {

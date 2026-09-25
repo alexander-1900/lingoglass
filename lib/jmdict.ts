@@ -12,10 +12,10 @@
  * extend DICT to the same flat shape.
  */
 
-export interface JmdictEntry {
+interface JmdictEntry {
   /** English gloss(es); senses separated by "; ". */
   gloss: string;
-  /** Short part-of-speech hint shown alongside the meaning. */
+  /** Part-of-speech tag kept as dictionary metadata (not rendered). */
   pos?: string;
 }
 
@@ -293,15 +293,4 @@ export function lookupJapaneseMeaning(
   return undefined;
 }
 
-/** POS hint for the dictionary hit, if any (used for the popover pill). */
-export function lookupJapanesePos(
-  lemma: string | undefined,
-  surface: string
-): string | undefined {
-  const lemmaKey = (lemma ?? "").trim();
-  if (lemmaKey && DICT[lemmaKey]?.pos) return DICT[lemmaKey].pos;
-  const surfaceKey = surface.trim();
-  if (surfaceKey && DICT[surfaceKey]?.pos) return DICT[surfaceKey].pos;
-  return undefined;
-}
 

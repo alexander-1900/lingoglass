@@ -1,14 +1,14 @@
 import type { MetadataRoute } from "next";
 import { LANGS, LEVELS } from "@/lib/types";
 import { getAllStories } from "@/lib/stories";
-
-// Set SITE_URL in production (see .env.example) so absolute URLs are correct.
-const BASE = (process.env.SITE_URL ?? "http://localhost:3000").replace(/\/$/, "");
+import { SITE_BASE as BASE } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  if (!process.env.SITE_URL && process.env.NODE_ENV === "production") {
+    console.warn("sitemap: SITE_URL is unset — falling back to http://localhost:3000. Set SITE_URL in production.");
+  }
   // /settings is a private preferences page: noindex (see its metadata),
-  // so it must not be listed for crawlers here either. Same for /login and
-  // /signup (account pages, noindex in their own metadata).
+  // so it must not be listed for crawlers here either.
   const staticPages: MetadataRoute.Sitemap = [
     { url: `${BASE}/`, changeFrequency: "weekly", priority: 1 },
   ];

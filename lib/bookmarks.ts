@@ -1,7 +1,6 @@
 "use client";
 
 import { useSyncExternalStore } from "react";
-import { scheduleSync } from "./sync";
 
 export interface Bookmark {
   id: string;
@@ -24,20 +23,42 @@ export interface Bookmark {
   slug: string;
   sentIdx: number;
   savedAt: number;
-  /** Sync tombstone: set when removed, so the deletion propagates to other
-   *  devices instead of resurfacing on the next full-state merge. */
+  /**
+   * Legacy sync tombstone (pre-auth-removal). No longer written; old rows
+   * carrying it are purged on read (see migration in read()).
+   */
   deletedAt?: number;
-  /** Mutation timestamp (epoch ms) used by sync when savedAt isn't enough. */
-  updatedAt?: number;
 }
 
-export type NewBookmark = Omit<Bookmark, "id" | "savedAt">;
+type NewBookmark = Omit<Bookmark, "id" | "savedAt">;
 
 const KEY = "lingoglass:bookmarks";
 
 let cache: Bookmark[] | null = null;
-let liveCache: Bookmark[] = [];
 const listeners = new Set<() => void>();
+
+/**
+ * Pure sanitation of a parsed localStorage payload: keeps only rows that are
+ * safe to render and index. Requires the full identity tuple — AppShell does
+ * `b.level.toUpperCase()` during render, so a legacy/corrupt row without
+ * `level` used to take down the WHOLE app (AppShell wraps every page).
+ * Also drops legacy sync tombstones (`deletedAt`).
+ */
+export function sanitizeBookmarks(raw: unknown): Bookmark[] {
+  if (!Array.isArray(raw)) return [];
+  return raw.filter(
+    (b): b is Bookmark =>
+      typeof b === "object" &&
+      b !== null &&
+      typeof (b as Bookmark).id === "string" &&
+      typeof (b as Bookmark).word === "string" &&
+      typeof (b as Bookmark).lang === "string" &&
+      typeof (b as Bookmark).level === "string" &&
+      typeof (b as Bookmark).slug === "string" &&
+      typeof (b as Bookmark).sentIdx === "number" &&
+      !(b as Bookmark).deletedAt
+  );
+}
 
 function read(): Bookmark[] {
   if (typeof window === "undefined") return [];
@@ -45,44 +66,49 @@ function read(): Bookmark[] {
     const raw = window.localStorage.getItem(KEY);
     if (!raw) return [];
     const parsed: unknown = JSON.parse(raw);
-    if (!Array.isArray(parsed)) return [];
-    return parsed.filter(
-      (b): b is Bookmark =>
-        typeof b === "object" &&
-        b !== null &&
-        typeof (b as Bookmark).word === "string" &&
-        typeof (b as Bookmark).id === "string"
-    );
+    const live = sanitizeBookmarks(parsed);
+    // One-time migration: if invalid rows / legacy tombstones were dropped,
+    // persist the cleaned list so they don't linger on disk.
+    if (Array.isArray(parsed) && live.length !== parsed.length) {
+      try {
+        window.localStorage.setItem(KEY, JSON.stringify(live));
+      } catch {
+        /* ignore — next read migrates again */
+      }
+    }
+    return live;
   } catch {
     return [];
   }
 }
 
-function write(next: Bookmark[]): boolean {
-  if (typeof window === "undefined") return false;
+/** Persist the queue. Returns what was ACTUALLY stored: `ok: false` means
+ *  nothing landed (caller surfaces the failure); a `storedCount` below
+ *  `next.length` means the quota fallback dropped the oldest entries — the
+ *  caller must NOT report a plain "saved" for that. */
+function write(next: Bookmark[]): { ok: boolean; storedCount: number } {
+  if (typeof window === "undefined") return { ok: false, storedCount: 0 };
   try {
     window.localStorage.setItem(KEY, JSON.stringify(next));
-    return true;
+    return { ok: true, storedCount: next.length };
   } catch {
     // Quota exceeded (or private mode): drop the oldest half and retry once,
     // so a heavy session degrades gracefully instead of losing all saves.
     if (next.length > 20) {
       try {
-        window.localStorage.setItem(KEY, JSON.stringify(next.slice(0, Math.ceil(next.length / 2))));
-        return true;
+        const trimmed = next.slice(0, Math.ceil(next.length / 2));
+        window.localStorage.setItem(KEY, JSON.stringify(trimmed));
+        return { ok: true, storedCount: trimmed.length };
       } catch {
         /* still over quota — give up, caller surfaces the failure */
       }
     }
-    return false;
+    return { ok: false, storedCount: 0 };
   }
 }
 
 function refresh(): Bookmark[] {
   cache = read();
-  // Two views of the same data: the raw list (tombstones included) drives
-  // sync, while the hook only exposes live rows.
-  liveCache = cache.filter((b) => !b.deletedAt);
   return cache;
 }
 
@@ -99,8 +125,7 @@ function subscribe(l: () => void): () => void {
 }
 
 function snapshot(): Bookmark[] {
-  if (cache === null) refresh();
-  return liveCache;
+  return cache ?? refresh();
 }
 
 function serverSnapshot(): Bookmark[] {
@@ -109,25 +134,6 @@ function serverSnapshot(): Bookmark[] {
 
 export function useBookmarks(): Bookmark[] {
   return useSyncExternalStore(subscribe, snapshot, serverSnapshot);
-}
-
-/** Raw store contents including tombstones — what the sync engine sends. */
-export function getLocalBookmarks(): Bookmark[] {
-  return cache ?? refresh();
-}
-
-/** Replace local state with the merged server response (adopt after sync). */
-export function adoptBookmarks(list: Bookmark[]): void {
-  const now = Date.now();
-  // Drop stale tombstones (>30 days) and cap like addBookmark does.
-  const pruned = list
-    .filter((b) => !b.deletedAt || now - b.deletedAt < 30 * 24 * 60 * 60 * 1000)
-    .sort((a, b) => b.savedAt - a.savedAt)
-    .slice(0, MAX_BOOKMARKS);
-  cache = pruned;
-  liveCache = pruned.filter((b) => !b.deletedAt);
-  write(pruned);
-  listeners.forEach((l) => l());
 }
 
 function dedupeKey(b: Pick<Bookmark, "lang" | "level" | "slug" | "sentIdx" | "word">): string {
@@ -143,42 +149,36 @@ export function isBookmarked(
 }
 
 /** Outcome of a save attempt, so the UI can surface a full storage. */
-export type AddResult = "saved" | "duplicate" | "failed";
+type AddResult = "saved" | "duplicate" | "failed" | "trimmed";
 
 /** localStorage safety cap — oldest entries dropped first (LRU). */
 const MAX_BOOKMARKS = 500;
 
-/** Save a word; "duplicate" when already bookmarked, "failed" when storage is full. */
+/** Save a word; "duplicate" when already bookmarked, "failed" when storage is full,
+ *  "trimmed" when it was stored but the quota fallback dropped older entries. */
 export function addBookmark(b: NewBookmark): AddResult {
   const now = Date.now();
-  // Dedupe against LIVE rows only: a tombstoned word can be re-added, which
-  // revives it (new savedAt wins in the merge, deletedAt cleared).
-  if (isBookmarked(getLocalBookmarks().filter((x) => !x.deletedAt), b)) {
+  const current = cache ?? refresh();
+  if (isBookmarked(current, b)) {
     return "duplicate";
   }
   const entry: Bookmark = {
     ...b,
     id: `${now.toString(36)}-${Math.random().toString(36).slice(2, 8)}`,
     savedAt: now,
-    updatedAt: now,
   };
   // Cap the queue so one heavy session can't fill the ~5MB localStorage
   // quota and silently break every future save.
   const next = [entry, ...read()].slice(0, MAX_BOOKMARKS);
-  const persisted = write(next);
+  const result = write(next);
   emit();
-  if (persisted) scheduleSync();
-  return persisted ? "saved" : "failed";
+  if (!result.ok) return "failed";
+  return result.storedCount < next.length ? "trimmed" : "saved";
 }
 
-/** Remove a word. Tombstoned (not hard-deleted) so the removal syncs to
- *  the account and other devices instead of resurfacing on merge. */
+/** Remove a word (local-only hard delete). */
 export function removeBookmark(id: string): void {
-  const now = Date.now();
-  const next = read().map((b) =>
-    b.id === id ? { ...b, deletedAt: now, updatedAt: now } : b
-  );
+  const next = read().filter((b) => b.id !== id);
   write(next);
   emit();
-  scheduleSync();
 }

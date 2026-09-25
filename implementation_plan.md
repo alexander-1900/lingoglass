@@ -1,4 +1,9 @@
-# Implementation Plan — Google login + cross-device sync
+# Implementation Plan — Google login + cross-device sync (SUPERSEDED)
+
+> Removed on the `remove-auth` branch: Google sign-in, `/api/sync`, and the
+> Turso/Drizzle database were stripped back out. The app is anonymous and
+> local-only again (`localStorage`, no accounts). This document is kept as
+> history only — see README.md for the current state.
 
 ## Overview
 

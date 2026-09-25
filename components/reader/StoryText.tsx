@@ -1,12 +1,13 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Story, StorySentence, Token } from "@/lib/types";
 import type { ParallelMode } from "@/lib/settings";
 import { ensureVoices, speak } from "@/lib/tts";
 import { celebrationBurst, ghostFlight, toast } from "@/lib/juice";
 import { addBookmark, isBookmarked, useBookmarks } from "@/lib/bookmarks";
-import { isJapaneseText, tokenWithRomaji } from "@/lib/furigana-romaji";
+import { glossaryLookup, isPunctToken, SEPARATORS, stripPunct } from "@/lib/glossary";
+import { tokenWithRomaji } from "@/lib/furigana-romaji";
 import { lookupJapaneseMeaning } from "@/lib/jmdict";
 import WordPopover from "./WordPopover";
 
@@ -41,34 +42,15 @@ interface Props {
   onWordTap: () => void;
 }
 
-/** Split a sentence into clickable units. Japanese uses the Sudachi service (with fallback). */
+/** Split a sentence into clickable units (words kept, separators kept as
+ *  their own tokens for rendering). Shares the SEPARATORS class with gloss
+ *  matching and TTS. */
+const SPLIT_RE = new RegExp(`([${SEPARATORS}]+)`);
 function splitWords(target: string): string[] {
-  return target.split(/([\s.,!?;:«»"'’‘“”„()—–…¿¡。、、「」『』・！？〈〉《》‹›-]+)/).filter(Boolean);
+  return target.split(SPLIT_RE).filter(Boolean);
 }
 
-const PUNCT_CLASS = "[\\s.,!?;:«»\"'’‘“”„()—–…¿¡。、、「」『』・！？〈〉《》‹›-]";
-
-function isPunctToken(w: string): boolean {
-  return new RegExp(`^${PUNCT_CLASS}+$`).test(w);
-}
-
-function stripPunct(s: string): string {
-  return s.replace(new RegExp(PUNCT_CLASS, "g"), "");
-}
-
-function glossaryLookup(sentence: StorySentence, word: string): string | undefined {
-  const clean = stripPunct(word).toLowerCase();
-  if (!clean) return undefined;
-  const norm = (s: string) => stripPunct(s).toLowerCase();
-  // Exact match first. (The old bidirectional startsWith matched 「в」→「вместе」.)
-  const exact = sentence.glossary.find((g) => norm(g.surface) === clean);
-  if (exact) return exact.note;
-  // Conservative fallback: the word appears inside a multi-word gloss phrase.
-  const phrase = sentence.glossary.find((g) =>
-    norm(g.surface).split(/\s+/).includes(clean)
-  );
-  return phrase?.note;
-}
+// Word-splitting + gloss matching live in lib/glossary.ts (pure + unit-tested).
 
 /** Tiny pronounce visualizer under the word: three pulsing bars. */
 function flashVisualizer(el: HTMLElement): void {
@@ -92,21 +74,21 @@ export default function StoryText({
 }: Props) {
   const [pop, setPop] = useState<PopState | null>(null);
   const [popOpen, setPopOpen] = useState(false);
-  // Tokens come precomputed from the build (data/ja-tokens.generated.json —
-  // the old /api/tokenize-ja route can't run on serverless hosts). Romaji is
-  // still derived client-side from the katakana readings.
-  const [jaTokens] = useState<Record<number, Token[]>>(() => {
+  // Tokens come precomputed from the build (data/ja-tokens.generated.json).
+  // Romaji is still derived client-side from the katakana readings.
+  // Memoized on the prop (not frozen in useState) so navigating between
+  // stories sharing a component instance picks up fresh tokens.
+  const jaTokens = useMemo<Record<number, Token[]>>(() => {
     if (!jaTokensProp) return {};
     const out: Record<number, Token[]> = {};
     for (const [k, toks] of Object.entries(jaTokensProp)) {
       out[Number(k)] = toks.map((t: Token) => tokenWithRomaji(t));
     }
     return out;
-  });
+  }, [jaTokensProp]);
   const [revealed, setRevealed] = useState<Set<number>>(new Set());
   const bookmarks = useBookmarks();
   const closeTimer = useRef<number | undefined>(undefined);
-  const isJa = story.lang === "ja";
 
   // Smooth dismiss: hide the card first (exit transition), then unmount.
   function closePop() {
@@ -269,20 +251,26 @@ export default function StoryText({
             ? { ...prev, saved: result !== "failed" }
             : prev
         );
-        celebrationBurst(bx, by);
-        ghostFlight(display, bx, by);
+        // Celebrate only when the word was actually stored — a duplicate or a
+        // failed save must not burst confetti or fly a ghost at the badge.
+        if (result === "saved" || result === "trimmed") {
+          celebrationBurst(bx, by);
+          ghostFlight(display, bx, by);
+        }
         if (result === "failed") {
           toast(
             "Storage Full",
             `Couldn't save '${display}' — remove some old words from the queue.`
           );
-        } else {
+        } else if (result === "trimmed") {
           toast(
-            result === "saved" ? "Word Bookmarked" : "Already Bookmarked",
-            result === "saved"
-              ? `'${display}' was added to your vocabulary queue.`
-              : `'${display}' is already in your review queue!`
+            "Storage Full",
+            `Saved '${display}' — your oldest words were dropped to make room.`
           );
+        } else if (result === "duplicate") {
+          toast("Already Bookmarked", `'${display}' is already in your review queue!`);
+        } else {
+          toast("Word Bookmarked", `'${display}' was added to your vocabulary queue.`);
         }
       },
     });
