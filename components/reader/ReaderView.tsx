@@ -111,15 +111,8 @@ export default function ReaderView({
     setVoiceState(getVoiceGender());
   }, []);
 
-  // Keep <html lang> honest for screen readers: story pages declare "en"
-  // in the layout, but the content is ES/RU/JA.
-  useEffect(() => {
-    const prev = document.documentElement.lang;
-    document.documentElement.lang = story.lang;
-    return () => {
-      document.documentElement.lang = prev;
-    };
-  }, [story.lang]);
+  // <html lang> is owned by AppShell (the story page passes lang) — one
+  // place updates it, one place restores it on navigation.
 
   // One toast per visit: playback writes progress every sentence, so a dead
   // storage would otherwise spam the HUD.

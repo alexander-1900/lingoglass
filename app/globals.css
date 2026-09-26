@@ -483,11 +483,13 @@ header {
   letter-spacing: 0.02em;
 }
 
-.level-badge.A1 { background: rgba(90, 122, 104, 0.12); color: var(--accent-sage); }
-.level-badge.A2 { background: rgba(196, 143, 69, 0.12); color: var(--accent-ochre); }
-.level-badge.B1 { background: rgba(194, 109, 92, 0.12); color: var(--accent-clay); }
-.level-badge.B2 { background: rgba(211, 123, 123, 0.14); color: var(--accent-rose); }
-.level-badge.C1 { background: rgba(53, 43, 40, 0.08); color: var(--text-primary); }
+/* CEFR + JLPT in ONE table (same colour scale) — these two blocks used to
+   live ~800 lines apart and drifted apart on edits. */
+.level-badge.A1, .level-badge.N5 { background: rgba(90, 122, 104, 0.12); color: var(--accent-sage); }
+.level-badge.A2, .level-badge.N4 { background: rgba(196, 143, 69, 0.12); color: var(--accent-ochre); }
+.level-badge.B1, .level-badge.N3 { background: rgba(194, 109, 92, 0.12); color: var(--accent-clay); }
+.level-badge.B2, .level-badge.N2 { background: rgba(211, 123, 123, 0.14); color: var(--accent-rose); }
+.level-badge.C1, .level-badge.N1 { background: rgba(53, 43, 40, 0.08); color: var(--text-primary); }
 .level-badge.C2 { background: rgba(53, 43, 40, 0.16); color: var(--text-primary); }
 
 /* ==========================================================================
@@ -1271,14 +1273,8 @@ header {
 
 /* ==========================================================================
    APP ADDITIONS (same system, app-only needs)
-   JLPT badges · settings rows · in-word popover mount · romaji · a11y
+   settings rows · in-word popover mount · romaji · a11y
    ========================================================================== */
-
-.level-badge.N5 { background: rgba(90, 122, 104, 0.12); color: var(--accent-sage); }
-.level-badge.N4 { background: rgba(196, 143, 69, 0.12); color: var(--accent-ochre); }
-.level-badge.N3 { background: rgba(194, 109, 92, 0.12); color: var(--accent-clay); }
-.level-badge.N2 { background: rgba(211, 123, 123, 0.14); color: var(--accent-rose); }
-.level-badge.N1 { background: rgba(53, 43, 40, 0.08); color: var(--text-primary); }
 
 .setting-block { padding: 20px; display: flex; flex-direction: column; gap: 12px; }
 .setting-block h2 { font-size: 1.25rem; margin: 0; }
@@ -1286,8 +1282,8 @@ header {
 .setting-note { font-size: 0.75rem !important; color: var(--text-muted) !important; margin: 0 !important; border-top: 1px solid var(--border-soft); padding-top: 10px; }
 
 /* Word popover mounted inside the tapped word: sits above it, travels
-   with the text. */
-.word-wrap { position: relative; display: inline-block; }
+   with the text. (The .word-wrap positioning rule lives with its main
+   definition above — keep ONE copy.) */
 .word-popover.in-word {
   bottom: calc(100% + 12px);
   left: 50%;
@@ -1374,5 +1370,19 @@ header {
   }
   aside.sidebar-open {
     display: flex;
+  }
+}
+
+/* Phones/tablets: side-by-side reading can't fit two columns — collapse to
+   the line-by-line stack instead of squeezing the target text into a strip. */
+@media (max-width: 768px) {
+  .reading-mode-side-by-side .sentence-block {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .reading-mode-side-by-side .translation-line {
+    border-left: none;
+    padding-left: 0;
+    margin-top: 4px;
   }
 }

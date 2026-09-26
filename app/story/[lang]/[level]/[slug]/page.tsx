@@ -43,7 +43,7 @@ export default async function StoryPage({
     : undefined;
 
   return (
-    <AppShell storyCount={getAllStories().length}>
+    <AppShell storyCount={getAllStories().length} lang={story.lang}>
       <section id="stories-platform" style={{ flex: 1, display: "flex", flexDirection: "column", minHeight: 0 }}>
         <ReaderView key={`${story.lang}/${story.level}/${story.slug}`} story={story} jaTokens={jaTokens} />
       </section>

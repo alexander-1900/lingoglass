@@ -11,7 +11,10 @@ function readSidePref(): boolean {
   if (typeof window === "undefined") return true;
   try {
     const v = window.localStorage.getItem(SIDE_KEY);
-    return v === null ? true : v === "1";
+    if (v !== null) return v === "1";
+    // First visit: no stored pref. An open sidebar eats a phone's whole
+    // viewport, so default closed on small screens, open on desktop.
+    return window.innerWidth > 1024;
   } catch {
     return true;
   }
@@ -56,9 +59,13 @@ function VocabToggle({
 export default function AppShell({
   children,
   storyCount,
+  lang,
 }: {
   children: React.ReactNode;
   storyCount?: number;
+  /** Content language for this route — overrides <html lang> (layout says
+   *  "en"; ES/RU/JA story pages must tell screen readers the truth). */
+  lang?: string;
 }) {
   const [tab, setTab] = useState<"stories" | "reels">("stories");
   // Hydration-safe: render the server default (open) first, then apply the
@@ -74,6 +81,16 @@ export default function AppShell({
     // the canvas resize listener (and rAF loop) would pile up per route.
     return () => destroyParticles();
   }, []);
+
+  // <html lang> sync (AppShell mounts per route; restore on unmount).
+  useEffect(() => {
+    if (!lang) return;
+    const prev = document.documentElement.lang;
+    document.documentElement.lang = lang;
+    return () => {
+      document.documentElement.lang = prev;
+    };
+  }, [lang]);
 
   const toggleSide = () => {
     setSideOpen((prev) => {
@@ -199,7 +216,11 @@ export default function AppShell({
                 // Roving focus + arrow keys for the tablist pattern (#14).
                 if (e.key !== "ArrowRight" && e.key !== "ArrowLeft") return;
                 e.preventDefault();
-                setTab(tab === "stories" ? "reels" : "stories");
+                const next = tab === "stories" ? "reels" : "stories";
+                setTab(next);
+                // Move FOCUS with selection — otherwise keyboard users stay
+                // parked on the old tab while the panel changes underneath.
+                document.getElementById(next === "stories" ? "tab-stories" : "tab-reels")?.focus();
               }}
             >
               <div
