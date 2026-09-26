@@ -153,12 +153,7 @@ export function speak(text: string, lang: string, rate = 0.9): void {
   if (speakTimer) window.clearTimeout(speakTimer);
   speakTimer = window.setTimeout(() => {
     speakTimer = undefined;
-    const utter = new SpeechSynthesisUtterance(text);
-    const voice = pickVoice(lang);
-    if (voice) utter.voice = voice;
-    utter.lang = voice?.lang ?? LANG_VOICES[lang]?.[0] ?? lang;
-    utter.rate = rate;
-    window.speechSynthesis.speak(utter);
+    window.speechSynthesis.speak(makeUtterance(text, lang, rate));
   }, 40);
 }
 

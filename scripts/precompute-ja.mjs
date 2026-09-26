@@ -15,6 +15,7 @@ import path from "path";
 import crypto from "crypto";
 import { spawn } from "child_process";
 import { fileURLToPath } from "url";
+import { parseSentences } from "./lib/story-format.mjs";
 
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const CONTENT = path.join(root, "content");
@@ -27,23 +28,6 @@ function walk(dir, out = []) {
     else if (e.name.endsWith(".md")) out.push(p);
   }
   return out;
-}
-
-// Same parsing rules as lib/stories.ts / scripts/validate-content.mjs.
-function parseSentences(raw) {
-  const text = raw.replace(/^\uFEFF/, "").replace(/\r\n/g, "\n");
-  const fm = text.match(/^---\n([\s\S]*?)\n---(?:\n|$)/);
-  const body = (fm ? text.slice(fm[0].length) : text).trim();
-  const blocks = body.split(/\n\s*\n/).filter((b) => b.trim());
-  return blocks
-    .map((block) =>
-      block
-        .split("\n")
-        .map((l) => l.trim())
-        .filter((l) => l && !l.startsWith("*") && !l.startsWith(">"))
-        .join(" ")
-    )
-    .filter(Boolean);
 }
 
 // JS fallback tokenizer — same buckets as the old server fallback.

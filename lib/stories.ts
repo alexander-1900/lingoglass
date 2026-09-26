@@ -1,6 +1,16 @@
 import fs from "fs";
 import path from "path";
 import { Story, StoryMeta, Lang, LEVELS, LANGS, GlossaryWord } from "./types";
+import {
+  blockLines,
+  enOf,
+  isSafeSegment,
+  normalizeText,
+  parseGlossaryLine,
+  splitBlocks,
+  splitFrontmatter,
+  targetOf,
+} from "../scripts/lib/story-format.mjs";
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
 const STORY_IMG_DIR = path.join(process.cwd(), "public", "images", "stories");
@@ -54,63 +64,30 @@ interface Parsed {
 }
 
 /**
- * Story file format:
- * ---
- * title: ... / title-en: ... / lang: ... / level: ... / minutes: ...
- * ---
- * blocks separated by blank lines:
- *   plain line(s)  -> target sentence
- *   * line(s)      -> word glossary: "surface (note)"
- *   > line         -> English translation
+ * Story file format — parsing primitives live in scripts/lib/story-format.mjs
+ * (shared with the validator and the JA precompute); this is just the typed
+ * assembly into a Story.
  */
 export function parseStoryFile(raw: string): Parsed {
-  // Content is authored on Windows (CRLF) and *nix (LF). Normalize first:
-  // without this, the per-line frontmatter regex below silently matches
-  // NOTHING on CRLF files (`.` can't match `\r`, `$` can't match before
-  // it), dropping every title/subtitle site-wide while the build stays
-  // green. Also strip a BOM for the same reason (`startsWith("---")`).
-  const text = raw.replace(/^\uFEFF/, "").replace(/\r\n/g, "\n");
-  const meta: Record<string, string> = {};
-  let body = text;
-  const fm = text.match(/^---\n([\s\S]*?)\n---(?:\n|$)/);
-  if (fm) {
-    for (const line of fm[1].split("\n")) {
-      const m = line.match(/^([\w-]+):\s*(.+)$/);
-      if (m) meta[m[1]] = m[2].trim();
-    }
-    body = text.slice(fm[0].length).trim();
-  }
-
+  const { meta, body } = splitFrontmatter(normalizeText(raw));
   const sentences: Parsed["sentences"] = [];
-  const blocks = body.split(/\n\s*\n/).filter((b) => b.trim());
-  for (const block of blocks) {
-    const lines = block.split("\n").map((l) => l.trim()).filter(Boolean);
-    const target = lines.filter((l) => !l.startsWith("*") && !l.startsWith(">")).join(" ");
+  for (const block of splitBlocks(body)) {
+    const lines = blockLines(block);
+    const target = targetOf(lines);
     if (!target) continue;
-    const en = lines.find((l) => l.startsWith(">"))?.replace(/^>\s*/, "") ?? "";
-    const glossary: GlossaryWord[] = [];
-    for (const line of lines.filter((l) => l.startsWith("*"))) {
-      const m = line.replace(/^\*\s*/, "").match(/^([^(]+)\((.+)\)\s*$/);
-      if (m) glossary.push({ surface: m[1].trim(), note: m[2].trim() });
-      else glossary.push({ surface: line.replace(/^\*\s*/, ""), note: "" });
-    }
-    sentences.push({ target, en, glossary });
+    const glossary: GlossaryWord[] = lines
+      .filter((l) => l.startsWith("*"))
+      .map((l) => {
+        const g = parseGlossaryLine(l);
+        return { surface: g.surface, note: g.note };
+      });
+    sentences.push({ target, en: enOf(lines), glossary });
   }
   return { meta, sentences };
 }
 
-/** Slugs are filename stems from route params; reject path-traversal shapes. */
-const SAFE_SLUG = /^[\p{L}\p{N}][\p{L}\p{N}_.-]*$/u;
-
 function readStory(lang: string, level: string, slug: string): Story | null {
-  if (
-    !SAFE_SLUG.test(slug) ||
-    !SAFE_SLUG.test(level) ||
-    !SAFE_SLUG.test(lang) ||
-    slug.includes("..") ||
-    level.includes("..") ||
-    lang.includes("..")
-  ) {
+  if (!isSafeSegment(slug) || !isSafeSegment(level) || !isSafeSegment(lang)) {
     return null;
   }
   if (!(LANGS as string[]).includes(lang)) return null;
