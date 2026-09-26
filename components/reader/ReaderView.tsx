@@ -21,6 +21,7 @@ import {
 } from "@/lib/settings";
 import { cancelPendingSpeak, ensureVoices, loadVoices, speakAsync, stopSpeaking } from "@/lib/tts";
 import { getProgress, progressKey, setProgress, useProgress } from "@/lib/progress";
+import { toast } from "@/lib/juice";
 import type { ProgressRecord } from "@/lib/progress";
 import AudioPlayer from "./AudioPlayer";
 import StoryText from "./StoryText";
@@ -120,6 +121,10 @@ export default function ReaderView({
     };
   }, [story.lang]);
 
+  // One toast per visit: playback writes progress every sentence, so a dead
+  // storage would otherwise spam the HUD.
+  const progressWarnedRef = useRef(false);
+
   /** Persist the reading position (local-only).
    *  NOTE: progress tracks deliberate interaction only (playback + seeks);
    *  opening a story never writes, so a saved position can't be clobbered. */
@@ -140,7 +145,14 @@ export default function ReaderView({
         completedAt: maxIdx >= total - 1 ? (prev?.completedAt ?? Date.now()) : undefined,
         updatedAt: Date.now(),
       };
-      setProgress(rec);
+      const ok = setProgress(rec);
+      if (!ok && !progressWarnedRef.current) {
+        progressWarnedRef.current = true;
+        toast(
+          "Storage Full",
+          "Reading position couldn't be saved — your browser storage is unavailable or full."
+        );
+      }
     },
     [story]
   );

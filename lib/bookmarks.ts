@@ -117,10 +117,23 @@ function emit(): void {
   listeners.forEach((l) => l());
 }
 
+// Cross-tab sync: another tab's write fires `storage` here — without this
+// the queue in this tab stayed stale until the next local read.
+function onStorage(e: StorageEvent): void {
+  if (e.key !== null && e.key !== KEY) return;
+  emit();
+}
+
 function subscribe(l: () => void): () => void {
+  if (listeners.size === 0 && typeof window !== "undefined") {
+    window.addEventListener("storage", onStorage);
+  }
   listeners.add(l);
   return () => {
     listeners.delete(l);
+    if (listeners.size === 0 && typeof window !== "undefined") {
+      window.removeEventListener("storage", onStorage);
+    }
   };
 }
 
@@ -158,7 +171,10 @@ const MAX_BOOKMARKS = 500;
  *  "trimmed" when it was stored but the quota fallback dropped older entries. */
 export function addBookmark(b: NewBookmark): AddResult {
   const now = Date.now();
-  const current = cache ?? refresh();
+  // ONE source of truth: read from disk. The old code dup-checked against
+  // `cache` but built the new list from `read()` — a write landing between
+  // the two (e.g. another tab) was stored twice.
+  const current = read();
   if (isBookmarked(current, b)) {
     return "duplicate";
   }
@@ -169,8 +185,11 @@ export function addBookmark(b: NewBookmark): AddResult {
   };
   // Cap the queue so one heavy session can't fill the ~5MB localStorage
   // quota and silently break every future save.
-  const next = [entry, ...read()].slice(0, MAX_BOOKMARKS);
+  const next = [entry, ...current].slice(0, MAX_BOOKMARKS);
   const result = write(next);
+  // Always re-sync + notify: on success `cache` becomes what was ACTUALLY
+  // stored (trimmed lists included), on failure it reverts to disk — either
+  // way memory must never diverge from localStorage.
   emit();
   if (!result.ok) return "failed";
   return result.storedCount < next.length ? "trimmed" : "saved";

@@ -76,17 +76,23 @@ function write(next: ProgressMap): ProgressMap | null {
     window.localStorage.setItem(KEY, JSON.stringify(next));
     return next;
   } catch {
-    // Quota exceeded: drop the oldest third (by updatedAt) and retry once.
-    const entries = Object.entries(next)
-      .sort(([, a], [, b]) => b.updatedAt - a.updatedAt);
-    const keep = entries.slice(0, Math.max(10, Math.floor(entries.length * 2 / 3)));
-    const trimmed = Object.fromEntries(keep);
-    try {
-      window.localStorage.setItem(KEY, JSON.stringify(trimmed));
-      return trimmed;
-    } catch {
-      return null;
+    // Quota exceeded: shrink newest-first (oldest stories drop out) and
+    // retry until it fits. The old code kept max(10, 2/3) — for ≤10 records
+    // that rewrote the IDENTICAL payload, threw again, and stalled forever.
+    let entries = Object.entries(next).sort(([, a], [, b]) => b.updatedAt - a.updatedAt);
+    while (entries.length > 0) {
+      const keepCount =
+        entries.length > 10 ? Math.floor((entries.length * 2) / 3) : Math.floor(entries.length / 2);
+      entries = entries.slice(0, keepCount);
+      try {
+        const trimmed: ProgressMap = Object.fromEntries(entries);
+        window.localStorage.setItem(KEY, JSON.stringify(trimmed));
+        return trimmed;
+      } catch {
+        /* shrink further */
+      }
     }
+    return null; // even an empty map wouldn't stick (private mode, etc.)
   }
 }
 
@@ -95,10 +101,24 @@ function refresh(): ProgressMap {
   return cache;
 }
 
+// Cross-tab sync: another tab's write fires `storage` here — without this
+// this tab's reading positions stayed stale until the next local read.
+function onStorage(e: StorageEvent): void {
+  if (e.key !== null && e.key !== KEY) return;
+  refresh();
+  listeners.forEach((l) => l());
+}
+
 function subscribe(l: () => void): () => void {
+  if (listeners.size === 0 && typeof window !== "undefined") {
+    window.addEventListener("storage", onStorage);
+  }
   listeners.add(l);
   return () => {
     listeners.delete(l);
+    if (listeners.size === 0 && typeof window !== "undefined") {
+      window.removeEventListener("storage", onStorage);
+    }
   };
 }
 
@@ -119,12 +139,15 @@ export function getProgress(key: string): ProgressRecord | undefined {
   return map[key];
 }
 
-/** Upsert one story's position (local-only). */
-export function setProgress(rec: ProgressRecord): void {
+/** Upsert one story's position (local-only).
+ *  Returns false only when nothing could be persisted (storage full /
+ *  unavailable) so callers can surface it — a silent position loss looks
+ *  like the "Resume" pill vanishing on the next visit. */
+export function setProgress(rec: ProgressRecord): boolean {
   const key = progressKey(rec.lang, rec.level, rec.slug);
   const map = cache ?? refresh();
   const prev = map[key];
-  if (prev && prev.updatedAt > rec.updatedAt) return; // stale write
+  if (prev && prev.updatedAt > rec.updatedAt) return true; // stale write — disk already newer
   // LRU cap: drop the oldest stories when over the cap.
   const entries = Object.entries(map).sort(([, a], [, b]) => b.updatedAt - a.updatedAt);
   const trimmed = entries.slice(0, MAX_PROGRESS - 1);
@@ -133,7 +156,8 @@ export function setProgress(rec: ProgressRecord): void {
   // cache before a failed write made memory diverge from storage and the
   // position silently reverted on the next full read.
   const persisted = write(next);
-  if (!persisted) return; // storage full: keep memory == disk (previous value)
+  if (!persisted) return false; // storage full: keep memory == disk (previous value)
   cache = persisted;
   listeners.forEach((l) => l());
+  return true;
 }
