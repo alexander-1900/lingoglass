@@ -293,11 +293,21 @@ export default function StoryText({
     });
   }
 
+  /** Roving tabindex state for ONE sentence: exactly one word is a Tab stop —
+   *  the open word while its card is up, otherwise the first word. Arrows
+   *  move focus between words without Tab. `claimed` is set during render as
+   *  tokens are emitted left-to-right. */
+  interface Rover {
+    wantOpen: boolean;
+    claimed: boolean;
+  }
+
   function wordNode(
     idx: number,
     sentence: StorySentence,
     key: string,
     surface: string,
+    rover: Rover,
     extra?: { reading?: string; romaji?: string; lemma?: string; refIndex?: number }
   ) {
     // Identity = sentence + stripped surface: stable across the w{n} → t{n}
@@ -305,9 +315,13 @@ export default function StoryText({
     // re-captured on re-render, so the card picks up fresh lemma/reading.
     // `matches` keeps the card MOUNTED while pop points here (even after
     // closePop flips popOpen) so the exit transition can play before the
-    // 220ms unmount; `isOpen` = fully open (highlight + aria + card visible).
+    // 420ms unmount; `isOpen` = fully open (highlight + aria + card visible).
     const matches = !!pop && pop.sentIdx === idx && pop.word === stripPunct(surface);
     const isOpen = matches && popOpen;
+    // One Tab stop per sentence (roving tabindex): the open word, else the
+    // first word. Others stay mouse-clickable and focus()-able (tabIndex -1).
+    const isStop = rover.wantOpen ? isOpen : !rover.claimed;
+    if (isStop) rover.claimed = true;
     const open = (el: HTMLElement) => {
       void openWord(idx, surface, sentence, el, extra);
     };
@@ -320,7 +334,7 @@ export default function StoryText({
         <span
           className={`word-token${isOpen ? " active-word" : ""}`}
           role="button"
-          tabIndex={0}
+          tabIndex={isStop ? 0 : -1}
           aria-haspopup="dialog"
           aria-expanded={isOpen}
           aria-label={`Define ${stripPunct(surface) || surface}`}
@@ -370,6 +384,9 @@ export default function StoryText({
         const isActive = highlight && idx === activeIdx;
         const isRevealed = mode !== "interactive" || revealed.has(idx);
         const popIsHere = !!pop && pop.sentIdx === idx;
+        // Fresh per render (StrictMode double-render safe): open word owns
+        // the Tab stop while its card is up, else the first word claims it.
+        const rover: Rover = { wantOpen: popIsHere && popOpen, claimed: false };
         return (
           <div
             key={idx}
@@ -378,7 +395,31 @@ export default function StoryText({
               if (mode === "interactive") toggleReveal(idx);
             }}
           >
-            <div className="target-line">
+            <div
+              className="target-line"
+              onKeyDown={(e) => {
+                // Arrow-key nav between words in this sentence (roving
+                // tabindex). Delegated here so one handler covers every
+                // token; Enter/Space stays on the token itself.
+                const k = e.key;
+                if (k !== "ArrowRight" && k !== "ArrowLeft" && k !== "Home" && k !== "End") return;
+                // The definition card is inside this line too — its buttons
+                // keep their own keyboard behaviour.
+                if ((e.target as HTMLElement).closest(".word-popover")) return;
+                const words = Array.from(
+                  e.currentTarget.querySelectorAll<HTMLElement>(".word-token")
+                );
+                if (!words.length) return;
+                e.preventDefault();
+                const cur = words.indexOf(document.activeElement as HTMLElement);
+                let next: number;
+                if (k === "Home") next = 0;
+                else if (k === "End") next = words.length - 1;
+                else if (k === "ArrowRight") next = cur === -1 ? 0 : Math.min(words.length - 1, cur + 1);
+                else next = cur === -1 ? words.length - 1 : Math.max(0, cur - 1);
+                words[next]?.focus();
+              }}
+            >
               {(() => {
                 // Index into the RAW token array (counting empty surfaces)
                 // so a word's position — not its rendered slot — is what
@@ -390,7 +431,7 @@ export default function StoryText({
                       const refIndex = rawIdx;
                       rawIdx += 1;
                       if (!t.surface) return null;
-                      return wordNode(idx, sentence, `t${ti}`, t.surface, {
+                      return wordNode(idx, sentence, `t${ti}`, t.surface, rover, {
                         reading: t.reading,
                         romaji: showRomaji ? t.romaji : undefined,
                         lemma: t.lemma,
@@ -401,7 +442,7 @@ export default function StoryText({
                       isPunctToken(w) ? (
                         <span key={`w${wi}`}>{w}</span>
                       ) : (
-                        wordNode(idx, sentence, `w${wi}`, w)
+                        wordNode(idx, sentence, `w${wi}`, w, rover)
                       )
                     );
               })()}
