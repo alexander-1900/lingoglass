@@ -4,8 +4,12 @@ import { getAllStories } from "@/lib/stories";
 import { SITE_BASE as BASE } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  // Build-time guard (this route is statically generated): shipping a sitemap
+  // full of localhost URLs is a production bug — fail the build instead.
   if (!process.env.SITE_URL && process.env.NODE_ENV === "production") {
-    console.warn("sitemap: SITE_URL is unset — falling back to http://localhost:3000. Set SITE_URL in production.");
+    throw new Error(
+      "SITE_URL must be set in production (sitemap would otherwise point at http://localhost:3000)."
+    );
   }
   // /settings is a private preferences page: noindex (see its metadata),
   // so it must not be listed for crawlers here either.
