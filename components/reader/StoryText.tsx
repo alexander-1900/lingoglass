@@ -254,8 +254,12 @@ export default function StoryText({
         // Celebrate only when the word was actually stored — a duplicate or a
         // failed save must not burst confetti or fly a ghost at the badge.
         if (result === "saved" || result === "trimmed") {
-          celebrationBurst(bx, by);
-          ghostFlight(display, bx, by);
+          try {
+            celebrationBurst(bx, by);
+            ghostFlight(display, bx, by);
+          } catch {
+            /* decoration only — never break the save flow */
+          }
         }
         if (result === "failed") {
           toast(

@@ -186,17 +186,22 @@ export default function ReaderView({
 
   const runFrom = useCallback(async (start: number) => {
     if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
+    // Claim the run BEFORE awaiting: Stop, Pause, seek or navigation during
+    // the voice wait (ensureVoices, up to 800ms) bumps runRef, and the check
+    // below must observe it — otherwise playback keeps running after unmount
+    // ("orphan audio") and the button state lies during the wait.
+    const runId = runRef.current + 1;
+    runRef.current = runId;
     // A word-tap utterance queued just before Listen must not talk over the story.
     cancelPendingSpeak();
+    interactedRef.current = true;
+    setPlaying(true); // reflect intent immediately; Stop/Pause work during the wait
     // Refresh the voice list on every run: the mount-time preload may have
     // resolved before the OS exposed voices, leaving the wrong voice picked.
     // Awaiting (capped by ensureVoices) stops sentence #1 from being read
     // with the OS default voice (bug #2).
     await ensureVoices();
-    const runId = runRef.current + 1;
-    runRef.current = runId;
-    interactedRef.current = true;
-    setPlaying(true);
+    if (runRef.current !== runId) return; // stopped/navigated/seeked during the wait
     const total = sentencesRef.current.length;
     for (let i = start; i < total; i += 1) {
       if (runRef.current !== runId) return;

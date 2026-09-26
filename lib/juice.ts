@@ -113,6 +113,12 @@ export function ghostFlight(text: string, startX: number, startY: number): void 
 
   const destX = r.left - 10;
   const destY = r.top;
+  // No Web Animations API (older engines): skip the flight instead of
+  // throwing — this is pure decoration and must never break the save flow.
+  if (typeof ghost.animate !== "function") {
+    ghost.remove();
+    return;
+  }
   const anim = ghost.animate(
     [
       { transform: "translate(0, 0) scale(1) rotate(0deg)", opacity: 1 },

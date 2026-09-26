@@ -84,7 +84,14 @@ function spawnSudachiBatch(py, texts) {
       settled = true;
       clearTimeout(timer);
       if (code !== 0) {
-        reject(new Error(`sudachi exit ${code}: ${err.slice(0, 200)}`));
+        // The Python script reports real errors as JSON on STDOUT (stderr is
+        // usually empty) — surface both or the message ends up "exit 1: ".
+        const detail = [out, err]
+          .map((s) => s.trim())
+          .filter(Boolean)
+          .join(" | ")
+          .slice(0, 400);
+        reject(new Error(`sudachi exit ${code}${detail ? `: ${detail}` : ""}`));
         return;
       }
       try {
