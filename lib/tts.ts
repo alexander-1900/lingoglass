@@ -179,13 +179,18 @@ export function speakAsync(
     }
     const utter = makeUtterance(text, lang, getRate());
     let done = false;
-    let timeout: ReturnType<typeof setTimeout>;
-    let kick: ReturnType<typeof setTimeout>;
+    // Holder object rather than two `let`s: the timers are assigned AFTER
+    // `finish` is defined (finish clears them, they call finish), which is
+    // a circular init a plain const can't express.
+    const timers: {
+      timeout?: ReturnType<typeof setTimeout>;
+      kick?: ReturnType<typeof setTimeout>;
+    } = {};
     const finish = () => {
       if (done) return;
       done = true;
-      clearTimeout(timeout);
-      clearTimeout(kick);
+      clearTimeout(timers.timeout);
+      clearTimeout(timers.kick);
       resolve();
     };
     utter.onend = finish;
@@ -199,10 +204,10 @@ export function speakAsync(
       120_000,
       Math.max(30_000, Math.ceil((text.trim().length * 120) / rate))
     );
-    timeout = setTimeout(finish, safetyMs);
+    timers.timeout = setTimeout(finish, safetyMs);
     // Same Chrome cancel-then-speak race as speak(): defer the kick, and
     // don't start at all if a stop landed in the meantime.
-    kick = setTimeout(() => {
+    timers.kick = setTimeout(() => {
       if (signal.cancelled) {
         finish();
         return;

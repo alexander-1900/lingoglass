@@ -3,9 +3,10 @@
 // Last-resort boundary: replaces the root layout, so it must render its own
 // <html>/<body>. Keep it fully self-contained (inline styles only).
 export default function GlobalError({
-  error,
   reset,
 }: {
+  // The boundary contract includes `error`; nothing to render from it here
+  // beyond the reset affordance (digest lives in the route-level boundary).
   error: Error & { digest?: string };
   reset: () => void;
 }) {

@@ -25,6 +25,7 @@ Requirements: Node.js 18+ · Python 3.10+ (only for Japanese tokenization)
 
 ```bash
 npm install
+cp .env.example .env.local    # SITE_URL for the build (REQUIRED — build fails without it)
 pip install -r services/sudachi/requirements.txt  # Japanese tokenizer dict (~1 min, one-time)
 
 npm run dev     # develop at http://localhost:3000
@@ -66,7 +67,7 @@ Markdown format, then run `npm run build` to verify.
 | Variable   | Default                 | Purpose                                    |
 |------------|-------------------------|--------------------------------------------|
 | `PYTHON`   | `python` → `python3`    | Python interpreter for the Sudachi script  |
-| `SITE_URL` | `http://localhost:3000` | Canonical URL for `sitemap.xml` (set in production) |
+| `SITE_URL` | `http://localhost:3000` | Canonical URL for `sitemap.xml` — **required in production** (the build fails without it) |
 
 Reading, bookmarks, and preferences are anonymous and local-only
 (`localStorage`). There are no accounts and no network calls for user data.
@@ -79,4 +80,5 @@ Reading, bookmarks, and preferences are anonymous and local-only
 | `npm run build`   | Content validation + JA precompute + static production build |
 | `npm start`       | Serve the production build                        |
 | `npm run typecheck` | TypeScript check (`tsc --noEmit`)               |
+| `npm run lint` | ESLint (`next/core-web-vitals` + TS rules)        |
 | `npm test` | Local-storage regression tests (`vitest run`) |
