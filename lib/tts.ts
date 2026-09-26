@@ -1,6 +1,5 @@
 "use client";
 
-import { VoiceGender, getVoiceGender } from "./settings";
 import { SEPARATORS } from "./glossary";
 
 const LANG_VOICES: Record<string, string[]> = {
@@ -80,14 +79,12 @@ export async function ensureVoices(): Promise<void> {
 
 function pickVoice(lang: string): SpeechSynthesisVoice | undefined {
   const prefixes = LANG_VOICES[lang] ?? [lang];
-  const pool = voicesCache.filter((v) =>
+  // Device default for the language: first installed voice that matches —
+  // no gender/name filtering (the engine's own default ordering is what
+  // the user hears as "the default voice").
+  return voicesCache.find((v) =>
     prefixes.some((p) => v.lang.toLowerCase().startsWith(p))
   );
-  if (!pool.length) return undefined;
-  const want: VoiceGender = getVoiceGender();
-  if (want === "auto") return pool[0];
-  const gendered = pool.filter((v) => guessGender(v.name) === want);
-  return gendered[0] ?? pool[0];
 }
 
 /** Shared utterance setup for word taps and story playback. */
@@ -101,34 +98,16 @@ function makeUtterance(text: string, lang: string, rate: number): SpeechSynthesi
 }
 
 /**
- * Guess a voice's gender from its display name. Vendors expose no standard
- * gender field, so this combines explicit markers ("Female"/"Male") with
- * well-known voice names (Microsoft Zira/Pavel, Apple Samantha/Kyoko/Otoya…).
- * Unknown names return null and simply don't filter.
+ * cancel → speak drops the utterance when the engine is wedged in `paused`
+ * (Chrome after a cancel/long read: the next speak() never starts — "play
+ * button does nothing"). Un-wedge first, then queue. Shared by word taps and
+ * story playback so both paths get the same reliability.
  */
-function guessGender(name: string): "female" | "male" | null {
-  const n = name.toLowerCase();
-  if (/\bfemale\b|\bwoman\b|\bgirl\b|\bfeminine\b|\bfemme\b|\bmujer\b|\bfrau\b|\bella\b|\bdonna\b/.test(n)) {
-    return "female";
-  }
-  if (/\bmale\b|\bman\b|\bboy\b|\bmasculine\b|\bhomme\b|\bhombre\b|\bmann\b/.test(n)) {
-    return "male";
-  }
-  if (
-    /(zira|maria|helena|sabina|laura|carmen|sofia|lucia|monica|irina|elena|olga|tatiana|svetlana|haruka|ayumi|kyoko|nanako|akari|samantha|jenny|aria|sonia|eva|anna|paulina|luciana|mei)\b/.test(
-      n
-    )
-  ) {
-    return "female";
-  }
-  if (
-  /(david|mark|daniel|pablo|diego|jorge|carlos|miguel|juan|pedro|pavel|dmitry|yuri|sergei|andrei|ivan|ichiro|otoya|kenji|takeshi|alex|guy)\b/.test(
-      n
-    )
-  ) {
-    return "male";
-  }
-  return null;
+function queueSpeak(utter: SpeechSynthesisUtterance): void {
+  const s = window.speechSynthesis;
+  s.cancel(); // defensive: drop any stray/coalesced utterance
+  if (s.paused) s.resume();
+  s.speak(utter);
 }
 
 // Browser timer handle (DOM setTimeout returns a number).
@@ -153,7 +132,7 @@ export function speak(text: string, lang: string, rate = 0.9): void {
   if (speakTimer) window.clearTimeout(speakTimer);
   speakTimer = window.setTimeout(() => {
     speakTimer = undefined;
-    window.speechSynthesis.speak(makeUtterance(text, lang, rate));
+    queueSpeak(makeUtterance(text, lang, rate));
   }, 40);
 }
 
@@ -212,8 +191,7 @@ export function speakAsync(
         finish();
         return;
       }
-      window.speechSynthesis.cancel();
-      window.speechSynthesis.speak(utter);
+      queueSpeak(utter);
     }, 40);
   });
 }

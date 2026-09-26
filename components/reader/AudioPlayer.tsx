@@ -1,7 +1,5 @@
 "use client";
 
-import { VOICE_GENDERS, VoiceGender } from "@/lib/settings";
-
 interface Props {
   playing: boolean;
   currentIdx: number;
@@ -9,14 +7,12 @@ interface Props {
   supported: boolean;
   rate: number;
   speeds: number[];
-  voice: VoiceGender;
   onToggle: () => void;
   onSeek: (idx: number) => void;
   onRate: (rate: number) => void;
-  onVoice: (voice: VoiceGender) => void;
 }
 
-/** Story transport: play/pause, sentence timeline, speed + voice choice. */
+/** Story transport: play/pause, sentence timeline, speed control. */
 export default function AudioPlayer({
   playing,
   currentIdx,
@@ -24,11 +20,9 @@ export default function AudioPlayer({
   supported,
   rate,
   speeds,
-  voice,
   onToggle,
   onSeek,
   onRate,
-  onVoice,
 }: Props) {
   if (total <= 0) return null;
   const percent = total > 1 ? (currentIdx / (total - 1)) * 100 : 0;
@@ -142,25 +136,6 @@ export default function AudioPlayer({
               onClick={() => onRate(s)}
             >
               {s}×
-            </button>
-          ))}
-        </div>
-        <span className="mini-label" id="voice-label">
-          Voice
-        </span>
-        <div className="layout-toggle-group" role="group" aria-labelledby="voice-label">
-          {VOICE_GENDERS.map((v) => (
-            <button
-              key={v.id}
-              className={`pill-btn${voice === v.id ? " active" : ""}`}
-              aria-pressed={voice === v.id}
-              disabled={!supported}
-              title={
-                !supported ? "Audio is not supported in this browser" : v.hint
-              }
-              onClick={() => onVoice(v.id)}
-            >
-              {v.label}
             </button>
           ))}
         </div>

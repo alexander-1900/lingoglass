@@ -364,7 +364,13 @@ export default function StoryText({
             open={popOpen}
             saved={pop.saved}
             onSave={pop.save}
-            onSpeak={() => speak(pop.word, story.lang, rate)}
+            onSpeak={() => {
+              // Stop a running story first: without this the story loop's
+              // next kick cancels the word mid-sentence and the card's Speak
+              // button appears dead.
+              onWordTap();
+              speak(pop.word, story.lang, rate);
+            }}
             onClose={closePop}
           />
         )}

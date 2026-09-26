@@ -5,20 +5,15 @@ import { useEffect, useState } from "react";
 import {
   DEFAULT_MODE,
   DEFAULT_RATE,
-  DEFAULT_VOICE,
   MODES,
   ParallelMode,
   SPEEDS,
-  VOICE_GENDERS,
-  VoiceGender,
   getMode,
   getRate,
   getShowRomaji,
-  getVoiceGender,
   setMode,
   setRate,
   setShowRomaji,
-  setVoiceGender,
 } from "@/lib/settings";
 
 export default function SettingsForm() {
@@ -30,13 +25,11 @@ export default function SettingsForm() {
   const [rate, setRateState] = useState<number>(DEFAULT_RATE);
   const [mode, setModeState] = useState<ParallelMode>(DEFAULT_MODE);
   const [romaji, setRomajiState] = useState<boolean>(true);
-  const [voice, setVoiceState] = useState<VoiceGender>(DEFAULT_VOICE);
 
   useEffect(() => {
     setRateState(getRate());
     setModeState(getMode());
     setRomajiState(getShowRomaji());
-    setVoiceState(getVoiceGender());
   }, []);
 
   return (
@@ -74,31 +67,6 @@ export default function SettingsForm() {
         </div>
         <p className="setting-note">
           Current: {rate}×{rate === DEFAULT_RATE ? " (default)" : ""}
-        </p>
-      </div>
-
-      <div className="glass-container setting-block">
-        <h2>Voice</h2>
-        <p>Whose voice reads the stories aloud. The closest installed match is used.</p>
-        <div className="layout-toggle-group" role="group" aria-label="Voice">
-          {VOICE_GENDERS.map((v) => (
-            <button
-              key={v.id}
-              className={`pill-btn${voice === v.id ? " active" : ""}`}
-              aria-pressed={voice === v.id}
-              title={v.hint}
-              onClick={() => {
-                setVoiceState(v.id);
-                setVoiceGender(v.id);
-              }}
-            >
-              {v.label}
-            </button>
-          ))}
-        </div>
-        <p className="setting-note">
-          Current: {VOICE_GENDERS.find((v) => v.id === voice)?.hint}
-          {voice === DEFAULT_VOICE ? " (default)" : ""}
         </p>
       </div>
 

@@ -6,18 +6,14 @@ import { LANG_NAMES, Story, Token } from "@/lib/types";
 import {
   DEFAULT_MODE,
   DEFAULT_RATE,
-  DEFAULT_VOICE,
   MODES,
   ParallelMode,
   SPEEDS,
-  VoiceGender,
   getMode,
   getRate,
   getShowRomaji,
-  getVoiceGender,
   setMode as persistMode,
   setRate as persistRate,
-  setVoiceGender as persistVoice,
 } from "@/lib/settings";
 import { cancelPendingSpeak, ensureVoices, loadVoices, speakAsync, stopSpeaking } from "@/lib/tts";
 import { getProgress, progressKey, setProgress, useProgress } from "@/lib/progress";
@@ -65,7 +61,6 @@ export default function ReaderView({
   const [playing, setPlaying] = useState(false);
   const [currentIdx, setCurrentIdx] = useState(0);
   const [rate, setRateState] = useState<number>(DEFAULT_RATE);
-  const [voice, setVoiceState] = useState<VoiceGender>(DEFAULT_VOICE);
   const [audioSupported, setAudioSupported] = useState(false);
   // Resume affordance: a stored position ahead of the current one offers a
   // "Resume" pill (never auto-jumps — free-scroll UX is preserved).
@@ -108,7 +103,6 @@ export default function ReaderView({
     const storedRate = getRate();
     rateRef.current = storedRate;
     setRateState(storedRate);
-    setVoiceState(getVoiceGender());
   }, []);
 
   // <html lang> is owned by AppShell (the story page passes lang) — one
@@ -174,14 +168,16 @@ export default function ReaderView({
 
   // Chrome silently pauses long utterances (~15s, no onend) and iOS stalls
   // chained playback: keep poking the synthesiser while a run is active.
-  // resume() on a non-paused engine is a no-op, so this is safe to tick.
+  // resume() on a non-paused engine is a no-op — and the wedge this guards
+  // against is exactly "engine reports paused, new/queued speech never
+  // starts", so tick unconditionally instead of only when paused (that
+  // conditional was blind to a silent stop where paused never flips back).
   useEffect(() => {
     if (!playing) return;
     if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
     const id = window.setInterval(() => {
       try {
-        const s = window.speechSynthesis;
-        if (s.paused) s.resume();
+        window.speechSynthesis.resume();
       } catch {
         /* speech engine unavailable — ignore */
       }
@@ -259,11 +255,6 @@ export default function ReaderView({
     persistRate(next);
   }, []);
 
-  const changeVoice = useCallback((next: VoiceGender) => {
-    setVoiceState(next);
-    persistVoice(next);
-  }, []);
-
   // Tapping a word pauses the story so its audio isn't instantly cancelled.
   const handleWordTap = useCallback(() => {
     if (playing) stop();
@@ -339,11 +330,9 @@ export default function ReaderView({
         supported={audioSupported}
         rate={rate}
         speeds={SPEEDS}
-        voice={voice}
         onToggle={toggle}
         onSeek={seek}
         onRate={changeRate}
-        onVoice={changeVoice}
       />
 
       {resumeFrom !== null && (
