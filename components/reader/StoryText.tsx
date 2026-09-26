@@ -91,13 +91,15 @@ export default function StoryText({
   const closeTimer = useRef<number | undefined>(undefined);
 
   // Smooth dismiss: hide the card first (exit transition), then unmount.
+  // The delay must outlast the CSS exit (opacity 0.3s / transform 0.4s) or
+  // the card is cut mid-fade — hence 420ms, not the old 220ms.
   function closePop() {
     setPopOpen(false);
     if (closeTimer.current !== undefined) window.clearTimeout(closeTimer.current);
     closeTimer.current = window.setTimeout(() => {
       closeTimer.current = undefined;
       setPop(null);
-    }, 220);
+    }, 420);
   }
 
   function cancelPopClose() {
@@ -221,7 +223,7 @@ export default function StoryText({
       word: display,
     };
     // Opening a different word cancels any pending dismiss from a recent
-    // workspace click — otherwise the 220ms unmount timer would kill the
+    // workspace click — otherwise the unmount timer would kill the
     // card that is about to open.
     cancelPopClose();
     setPop({
@@ -301,14 +303,20 @@ export default function StoryText({
     // Identity = sentence + stripped surface: stable across the w{n} → t{n}
     // re-key that happens when JA tokens arrive (bug #1). The extra is
     // re-captured on re-render, so the card picks up fresh lemma/reading.
-    const isOpen = !!pop && popOpen && pop.sentIdx === idx && pop.word === stripPunct(surface);
+    // `matches` keeps the card MOUNTED while pop points here (even after
+    // closePop flips popOpen) so the exit transition can play before the
+    // 220ms unmount; `isOpen` = fully open (highlight + aria + card visible).
+    const matches = !!pop && pop.sentIdx === idx && pop.word === stripPunct(surface);
+    const isOpen = matches && popOpen;
     const open = (el: HTMLElement) => {
       void openWord(idx, surface, sentence, el, extra);
     };
     return (
       // The card is a SIBLING of the token (not a child): a dialog nested
       // inside a role=button is invalid ARIA and breaks focus order (#12).
-      <span key={key} className={`word-wrap${isOpen ? " has-open" : ""}`}>
+      // z-index lift stays on while the card plays its exit (matches), so it
+      // never paints under sibling tokens mid-transition.
+      <span key={key} className={`word-wrap${matches ? " has-open" : ""}`}>
         <span
           className={`word-token${isOpen ? " active-word" : ""}`}
           role="button"
@@ -330,7 +338,7 @@ export default function StoryText({
           {surface}
           {extra?.romaji && showRomaji && <span className="romaji">{extra.romaji}</span>}
         </span>
-        {isOpen && pop && (
+        {matches && pop && (
           <WordPopover
             word={pop.word}
             posPill={pop.posPill}
