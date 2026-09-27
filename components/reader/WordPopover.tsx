@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 type PopAlign = "center" | "left" | "right";
 
@@ -65,14 +65,33 @@ export default function WordPopover({
     return () => window.removeEventListener("keydown", onKey);
   }, [onClose]);
 
+  // Proper dialog behaviour (#13): move focus into the card when it opens
+  // and hand it back to the previously focused element (the tapped word)
+  // when it closes — focus used to stay on the token behind the card.
+  const cardRef = useRef<HTMLDivElement>(null);
+  const restoreRef = useRef<HTMLElement | null>(null);
+  useEffect(() => {
+    if (!open) return;
+    restoreRef.current =
+      document.activeElement instanceof HTMLElement ? document.activeElement : null;
+    cardRef.current?.focus();
+    return () => {
+      restoreRef.current?.focus();
+      restoreRef.current = null;
+    };
+  }, [open]);
+
   const alignClass = align === "center" ? "" : ` align-${align}`;
   const vClass = vAlign === "below" ? " below" : "";
   const visible = open && armed;
 
   return (
-    <span
+    <div
+      ref={cardRef}
+      tabIndex={-1}
       className={`word-popover glass-panel-heavy in-word${visible ? " active" : ""}${alignClass}${vClass}`}
       role="dialog"
+      aria-modal={false}
       aria-label={`Definition of ${word}`}
       onClick={(e) => e.stopPropagation()}
     >
@@ -105,6 +124,6 @@ export default function WordPopover({
         </button>
       </span>
       <span className="popover-arrow" aria-hidden="true" />
-    </span>
+    </div>
   );
 }

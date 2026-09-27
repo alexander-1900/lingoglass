@@ -1,9 +1,19 @@
 // Build gate: every story must carry usable frontmatter and well-formed blocks.
 // Fails `npm run build` (via `prebuild`) instead of silently shipping slugs.
-// Mirrors lib/stories.ts parsing (normalize CRLF/BOM first), then asserts.
+// Parsing delegates to lib/story-format.mjs (shared with lib/stories.ts and
+// precompute-ja.mjs); this file only ASSERTS the results.
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import {
+  blockLines,
+  isSafeSegment,
+  normalizeText,
+  parseGlossaryLine,
+  splitBlocks,
+  splitFrontmatter,
+  targetOf,
+} from "./lib/story-format.mjs";
 
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const CONTENT = path.join(root, "content");
@@ -20,7 +30,9 @@ function walk(d, out = []) {
   return out;
 }
 
-for (const file of walk(CONTENT)) {
+const files = walk(CONTENT);
+
+for (const file of files) {
   const rel = path.relative(CONTENT, file).split(path.sep);
   const key = rel.join("/");
   if (rel.length !== 3) {
@@ -29,44 +41,48 @@ for (const file of walk(CONTENT)) {
   }
   const [lang, level, name] = rel;
   const slug = name.replace(/\.md$/, "");
+  for (const [label, value] of [["lang", lang], ["level", level], ["slug", slug]]) {
+    if (!isSafeSegment(value)) {
+      errors.push(`${key}: illegal ${label} name "${value}" — use letters, numbers, _, ., - (e.g. rename to 01-my-story.md)`);
+    }
+  }
   const raw = fs.readFileSync(file, "utf-8");
-  const text = raw.replace(/^\uFEFF/, "").replace(/\r\n/g, "\n");
+  const { has: hasFm, meta, body } = splitFrontmatter(normalizeText(raw));
 
-  const fm = text.match(/^---\n([\s\S]*?)\n---(?:\n|$)/);
-  if (!fm) {
+  if (!hasFm) {
     errors.push(`${key}: missing frontmatter block`);
     continue;
-  }
-  const meta = {};
-  for (const line of fm[1].split("\n")) {
-    const m = line.match(/^([\w-]+):\s*(.+)$/);
-    if (m) meta[m[1]] = m[2].trim();
   }
   for (const k of ["title", "title-en", "lang", "level"]) {
     if (!meta[k]) errors.push(`${key}: frontmatter missing "${k}"`);
   }
   if (meta.lang && meta.lang !== lang) errors.push(`${key}: lang mismatch (folder ${lang}, meta ${meta.lang})`);
   if (meta.level && meta.level !== level) errors.push(`${key}: level mismatch (folder ${level}, meta ${meta.level})`);
+  // Frontmatter image: local paths must exist (external http(s) URLs are
+  // used verbatim by the loader and can't be checked here).
+  const img = meta.image;
+  if (img && img.startsWith("/") && !fs.existsSync(path.join(root, "public", img))) {
+    warnings.push(`${key}: frontmatter image not found under public/: ${img}`);
+  }
 
-  const body = text.slice(fm[0].length).trim();
-  const blocks = body.split(/\n\s*\n/).filter((b) => b.trim());
+  const blocks = splitBlocks(body);
   if (!blocks.length) {
     errors.push(`${key}: no sentence blocks`);
     continue;
   }
   blocks.forEach((block, i) => {
     const n = `${key}#${i + 1}`;
-    const lines = block.split("\n").map((l) => l.trim()).filter(Boolean);
-    const target = lines.filter((l) => !l.startsWith("*") && !l.startsWith(">")).join(" ");
-    const enCount = lines.filter((l) => l.startsWith(">")).length;
+    const lines = blockLines(block);
+    const target = targetOf(lines);
+    const enLines = lines.filter((l) => l.startsWith(">"));
     const gloss = lines.filter((l) => l.startsWith("*"));
     if (!target) errors.push(`${n}: block has no target sentence`);
-    if (enCount === 0) errors.push(`${n}: block has no "> translation" line`);
-    if (enCount > 1) warnings.push(`${n}: ${enCount} "> translation" lines (first wins)`);
+    if (enLines.length === 0) errors.push(`${n}: block has no "> translation" line`);
+    if (enLines.length > 1) warnings.push(`${n}: ${enLines.length} "> translation" lines (first wins)`);
     if (gloss.length === 0 && lang !== "ja")
       warnings.push(`${n}: no glossary lines (adds word-tap definitions)`);
     for (const g of gloss) {
-      if (!g.replace(/^\*\s*/, "").match(/^([^(]+)\((.+)\)\s*$/))
+      if (!parseGlossaryLine(g).ok)
         warnings.push(`${n}: malformed glossary line (want "* surface (note)"): ${g.slice(0, 40)}`);
     }
   });
@@ -78,4 +94,4 @@ if (errors.length) {
   console.error(`\nvalidate-content: ${errors.length} error(s), build refused.`);
   process.exit(1);
 }
-console.log(`validate-content: OK (${walk(CONTENT).length} stories, ${warnings.length} warning(s)).`);
+console.log(`validate-content: OK (${files.length} stories, ${warnings.length} warning(s)).`);

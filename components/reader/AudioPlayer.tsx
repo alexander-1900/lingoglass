@@ -1,7 +1,5 @@
 "use client";
 
-import { VOICE_GENDERS, VoiceGender } from "@/lib/settings";
-
 interface Props {
   playing: boolean;
   currentIdx: number;
@@ -9,14 +7,12 @@ interface Props {
   supported: boolean;
   rate: number;
   speeds: number[];
-  voice: VoiceGender;
   onToggle: () => void;
   onSeek: (idx: number) => void;
   onRate: (rate: number) => void;
-  onVoice: (voice: VoiceGender) => void;
 }
 
-/** Story transport: play/pause, sentence timeline, speed + voice choice. */
+/** Story transport: play/pause, sentence timeline, speed control. */
 export default function AudioPlayer({
   playing,
   currentIdx,
@@ -24,11 +20,9 @@ export default function AudioPlayer({
   supported,
   rate,
   speeds,
-  voice,
   onToggle,
   onSeek,
   onRate,
-  onVoice,
 }: Props) {
   if (total <= 0) return null;
   const percent = total > 1 ? (currentIdx / (total - 1)) * 100 : 0;
@@ -78,9 +72,38 @@ export default function AudioPlayer({
           aria-valuenow={currentIdx + 1}
           tabIndex={0}
           onClick={(e) => seekByRatio(e.clientX, e.currentTarget.getBoundingClientRect())}
+          aria-orientation="horizontal"
+          aria-valuetext={`Sentence ${currentIdx + 1} of ${total}`}
           onKeyDown={(e) => {
-            if (e.key === "ArrowRight") onSeek(currentIdx + 1);
-            if (e.key === "ArrowLeft") onSeek(currentIdx - 1);
+            // Full slider keyboard pattern (#14): arrows step, Home/End jump
+            // to the ends, PageUp/PageDown jump 5 sentences. preventDefault
+            // keeps arrow keys from scrolling the page along with seeking.
+            switch (e.key) {
+              case "ArrowRight":
+                e.preventDefault();
+                onSeek(currentIdx + 1);
+                break;
+              case "ArrowLeft":
+                e.preventDefault();
+                onSeek(currentIdx - 1);
+                break;
+              case "Home":
+                e.preventDefault();
+                onSeek(0);
+                break;
+              case "End":
+                e.preventDefault();
+                onSeek(total - 1);
+                break;
+              case "PageUp":
+                e.preventDefault();
+                onSeek(currentIdx + 5);
+                break;
+              case "PageDown":
+                e.preventDefault();
+                onSeek(currentIdx - 5);
+                break;
+            }
           }}
         >
           <div className="timeline-fill" style={{ width: `${percent}%` }} />
@@ -108,25 +131,11 @@ export default function AudioPlayer({
               key={s}
               className={`pill-btn${s === rate ? " active" : ""}`}
               aria-pressed={s === rate}
+              disabled={!supported}
+              title={!supported ? "Audio is not supported in this browser" : undefined}
               onClick={() => onRate(s)}
             >
               {s}×
-            </button>
-          ))}
-        </div>
-        <span className="mini-label" id="voice-label">
-          Voice
-        </span>
-        <div className="layout-toggle-group" role="group" aria-labelledby="voice-label">
-          {VOICE_GENDERS.map((v) => (
-            <button
-              key={v.id}
-              className={`pill-btn${voice === v.id ? " active" : ""}`}
-              aria-pressed={voice === v.id}
-              title={v.hint}
-              onClick={() => onVoice(v.id)}
-            >
-              {v.label}
             </button>
           ))}
         </div>

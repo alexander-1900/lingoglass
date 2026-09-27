@@ -32,10 +32,13 @@ const KANA_TO_ROMAJI: Record<string, string> = {
   クァ:"kwa", グァ:"gwa", テュ:"tyu", デュ:"dyu",
   ァ:"a", ィ:"i", ゥ:"u", ェ:"e", ォ:"o",
   ャ:"ya", ュ:"yu", ョ:"yo", ヵ:"ka", ヶ:"ke",
+  // Archaic/rare kana that still appear in proper nouns and loanwords; left
+  // unmapped they would fall through and leak raw glyphs into the romaji line.
+  ヷ:"va", ヸ:"vi", ヹ:"ve", ヺ:"vo", ヮ:"wa", ヰ:"i", ヱ:"e",
   "・":" ", "　":" ",
 };
 
-export function katakanaToRomaji(katakana: string): string {
+function katakanaToRomaji(katakana: string): string {
   let out = "";
   let i = 0;
   while (i < katakana.length) {
@@ -48,9 +51,13 @@ export function katakanaToRomaji(katakana: string): string {
       continue;
     }
     const two = katakana.slice(i, i + 2);
-    if (katakana[i] === "ッ" && katakana[i + 1]) {
-      const next = katakanaToRomaji(katakana[i + 1] ?? "");
-      out += next[0] ?? "";
+    if (katakana[i] === "ッ") {
+      // Sokuon: geminates the following consonant (シュッパツ → "shuppatsu").
+      // A TRAILING ッ (促音便 stems: コモッ, イッ, ヨコタワッ) has nothing to
+      // geminate, so it is dropped — the old branch required a following char
+      // and otherwise fell through to the raw-glyph path, printing "komoッ".
+      const next = katakana[i + 1];
+      if (next) out += katakanaToRomaji(next)[0] ?? "";
       i += 1;
       continue;
     }
@@ -61,32 +68,31 @@ export function katakanaToRomaji(katakana: string): string {
       out += KANA_TO_ROMAJI[katakana[i]];
       i += 1;
     } else {
-      out += katakana[i];
+      // Unmapped character: keep ASCII (digits, hyphens), never emit raw kana
+      // — a romaji line is ASCII-only by contract.
+      if (/[\x20-\x7E]/.test(katakana[i])) out += katakana[i];
       i += 1;
     }
   }
   return out;
 }
 
-export function hiraganaToKatakana(s: string): string {
+function hiraganaToKatakana(s: string): string {
   return s.replace(/[\u3041-\u3096]/g, (ch) =>
     String.fromCharCode(ch.charCodeAt(0) + 0x60)
   );
 }
 
-export function katakanaToHiragana(s: string): string {
-  return s.replace(/[\u30a1-\u30f6]/g, (ch) =>
-    String.fromCharCode(ch.charCodeAt(0) - 0x60)
-  );
-}
+/** At least one kana — the only readings that can produce romaji at all. */
+const KANA_RE = /[\u3041-\u3096\u30A1-\u30FA\u30FC]/;
 
 export function tokenWithRomaji(token: Token): Token {
-  if (!token.reading) return token;
-  return { ...token, romaji: katakanaToRomaji(hiraganaToKatakana(token.reading)) };
-}
-
-export function isJapaneseText(s: string): boolean {
-  // Includes CJK Extension B–F so rare kanji (e.g. 𠮷 in names) don't void
-  // tokenization. Needs the /u flag for astral-plane ranges.
-  return /[\u3040-\u30ff\u4e00-\u9faf\u{20000}-\u{2ebef}]/u.test(s);
+  // Sudachi reports punctuation tokens with their glyph as the reading (、。「」).
+  // Deriving a "romaji" for them printed a duplicate glyph under the token, so
+  // readings without kana — and readings that convert to nothing (・ → " ") —
+  // get no romaji field at all.
+  if (!token.reading || !KANA_RE.test(token.reading)) return token;
+  const romaji = katakanaToRomaji(hiraganaToKatakana(token.reading));
+  if (!romaji.trim()) return token;
+  return { ...token, romaji };
 }

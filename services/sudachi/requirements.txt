@@ -1,4 +1,4 @@
-# Native tokenizer deps (services/sudachi/tokenize.py) — install once:
+# Native tokenizer deps (services/sudachi/sudachi_tokenize.py) — install once:
 #   pip install -r services/sudachi/requirements.txt
 sudachipy==0.6.10
 sudachidict-core==20250109

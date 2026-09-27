@@ -1,12 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
-import { LANG_NAMES, LEVELS, Lang, StoryMeta } from "@/lib/types";
+import { useEffect, useState } from "react";
+import { LANGS, LANG_NAMES, LEVELS, Lang, StoryMeta } from "@/lib/types";
 import { StoryCover } from "../ui/StoryCover";
 
 const FLAG: Record<Lang, string> = { es: "🇪🇸", ru: "🇷🇺", ja: "🇯🇵" };
-const LANG_CODES: Lang[] = ["es", "ru", "ja"];
 
 interface Props {
   stories: StoryMeta[];
@@ -29,15 +28,28 @@ function langHref(code: Lang | "all"): string {
 
 function StoryCardLink({ story }: { story: StoryMeta }) {
   const minutes = Math.max(1, story.minutes || 3);
+  // A 404'd cover (frontmatter image was removed/renamed) must fall back to
+  // the designed placeholder instead of a broken-image icon — the raw <img>
+  // has no native fallback, so track the error here.
+  const [coverFailed, setCoverFailed] = useState(false);
+  useEffect(() => setCoverFailed(false), [story.image]);
   return (
     <Link
       href={`/story/${story.lang}/${story.level}/${story.slug}`}
       className="story-card"
     >
-      {story.image ? (
-        <img className="story-card-cover" src={story.image} alt={story.title} loading="lazy" />
+      {story.image && !coverFailed ? (
+        <img
+          className="story-card-cover"
+          src={story.image}
+          alt={story.title}
+          width={400}
+          height={130}
+          loading="lazy"
+          onError={() => setCoverFailed(true)}
+        />
       ) : (
-        <StoryCover src={story.image} alt={story.title} lang={story.lang} size="card" />
+        <StoryCover lang={story.lang} />
       )}
       <div className="story-card-body">
         <div className="story-card-top-row">
@@ -108,7 +120,7 @@ export default function LibraryExplorer({ stories, scopeLang, scopeLevel, mode }
 
   const langPills = (
     <div className="library-filter-group" role="group" aria-label="Language filter">
-      {(["all", ...LANG_CODES] as (Lang | "all")[]).map((code) =>
+      {(["all", ...LANGS] as (Lang | "all")[]).map((code) =>
         mode === "state" ? (
           <button
             key={code}
