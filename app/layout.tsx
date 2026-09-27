@@ -1,7 +1,9 @@
 import type { Metadata, Viewport } from "next";
+import { SITE_BASE } from "@/lib/site";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_BASE),
   title: {
     default: "lingoglass — a reading room of world stories",
     template: "%s · lingoglass",

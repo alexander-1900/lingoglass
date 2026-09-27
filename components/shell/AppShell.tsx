@@ -11,10 +11,44 @@ function readSidePref(): boolean {
   if (typeof window === "undefined") return true;
   try {
     const v = window.localStorage.getItem(SIDE_KEY);
-    return v === null ? true : v === "1";
+    if (v !== null) return v === "1";
+    // First visit: no stored pref. An open sidebar eats a phone's whole
+    // viewport, so default closed on small screens, open on desktop.
+    return window.innerWidth > 1024;
   } catch {
     return true;
   }
+}
+
+/** Header button that toggles the vocabulary sidebar (desktop-restore and
+ *  mobile variants differ only in class + labels). */
+function VocabToggle({
+  className,
+  label,
+  title,
+  expanded,
+  onToggle,
+}: {
+  className: string;
+  label: string;
+  title: string;
+  expanded: boolean;
+  onToggle: () => void;
+}) {
+  return (
+    <button
+      className={`round-btn ${className}`}
+      style={{ width: 36, height: 36 }}
+      onClick={onToggle}
+      aria-expanded={expanded}
+      aria-label={label}
+      title={title}
+    >
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+      </svg>
+    </button>
+  );
 }
 
 /**
@@ -25,9 +59,13 @@ function readSidePref(): boolean {
 export default function AppShell({
   children,
   storyCount,
+  lang,
 }: {
   children: React.ReactNode;
   storyCount?: number;
+  /** Content language for this route — overrides <html lang> (layout says
+   *  "en"; ES/RU/JA story pages must tell screen readers the truth). */
+  lang?: string;
 }) {
   const [tab, setTab] = useState<"stories" | "reels">("stories");
   // Hydration-safe: render the server default (open) first, then apply the
@@ -43,6 +81,16 @@ export default function AppShell({
     // the canvas resize listener (and rAF loop) would pile up per route.
     return () => destroyParticles();
   }, []);
+
+  // <html lang> sync (AppShell mounts per route; restore on unmount).
+  useEffect(() => {
+    if (!lang) return;
+    const prev = document.documentElement.lang;
+    document.documentElement.lang = lang;
+    return () => {
+      document.documentElement.lang = prev;
+    };
+  }, [lang]);
 
   const toggleSide = () => {
     setSideOpen((prev) => {
@@ -148,49 +196,56 @@ export default function AppShell({
         <header className="glass-container">
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
             {!sideOpen && (
-              <button
-                className="round-btn side-toggle-restore"
-                style={{ width: 36, height: 36 }}
-                onClick={toggleSide}
-                aria-expanded={sideOpen}
-                aria-label="Show vocabulary"
+              <VocabToggle
+                className="side-toggle-restore"
+                label="Show vocabulary"
                 title="Show vocabulary queue"
-              >
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                  <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
-                </svg>
-              </button>
+                expanded={sideOpen}
+                onToggle={toggleSide}
+              />
             )}
-            <button
-              className="round-btn side-toggle-mobile"
-              style={{ width: 36, height: 36 }}
-              onClick={toggleSide}
-              aria-expanded={sideOpen}
-              aria-label={sideOpen ? "Hide vocabulary" : "Show vocabulary"}
+            <VocabToggle
+              className="side-toggle-mobile"
+              label={sideOpen ? "Hide vocabulary" : "Show vocabulary"}
               title="Vocabulary queue"
+              expanded={sideOpen}
+              onToggle={toggleSide}
+            />
+            <div className="tab-group" role="tablist" aria-label="Stories or reels"
+              onKeyDown={(e) => {
+                // Roving focus + arrow keys for the tablist pattern (#14).
+                if (e.key !== "ArrowRight" && e.key !== "ArrowLeft") return;
+                e.preventDefault();
+                const next = tab === "stories" ? "reels" : "stories";
+                setTab(next);
+                // Move FOCUS with selection — otherwise keyboard users stay
+                // parked on the old tab while the panel changes underneath.
+                document.getElementById(next === "stories" ? "tab-stories" : "tab-reels")?.focus();
+              }}
             >
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
-              </svg>
-            </button>
-            <div className="tab-group" role="tablist" aria-label="Stories or reels">
               <div
                 className="tab-slider"
                 aria-hidden="true"
                 style={{ transform: tab === "reels" ? "translateX(100%)" : "translateX(0%)" }}
               />
               <button
+                id="tab-stories"
                 className={`tab-btn${tab === "stories" ? " active" : ""}`}
                 role="tab"
                 aria-selected={tab === "stories"}
+                aria-controls="main-tab-panel"
+                tabIndex={tab === "stories" ? 0 : -1}
                 onClick={() => setTab("stories")}
               >
                 Stories
               </button>
               <button
+                id="tab-reels"
                 className={`tab-btn${tab === "reels" ? " active" : ""}`}
                 role="tab"
                 aria-selected={tab === "reels"}
+                aria-controls="main-tab-panel"
+                tabIndex={tab === "reels" ? 0 : -1}
                 onClick={() => setTab("reels")}
               >
                 Reels Feed
@@ -198,16 +253,39 @@ export default function AppShell({
             </div>
           </div>
 
-          {storyCount !== undefined && (
-            <Link href="/" className="pill-btn active" style={{ fontWeight: 700 }} aria-label={`${storyCount} graded stories in the library`}>
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+          <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+            {storyCount !== undefined && (
+              <Link href="/" className="pill-btn active" style={{ fontWeight: 700 }} aria-label={`${storyCount} graded stories in the library`}>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                </svg>
+                {storyCount} stories
+              </Link>
+            )}
+            {/* Settings was an orphan page after the auth UI removal — the only
+                way in is this header gear (visible on every route, sidebar open
+                or collapsed). Wrapped with the pill so the header's
+                space-between layout keeps its two-column shape. */}
+            <Link
+              href="/settings"
+              className="round-btn"
+              title="Reading preferences"
+              aria-label="Settings"
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="3" />
+                <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" />
               </svg>
-              {storyCount} stories
             </Link>
-          )}
+          </div>
         </header>
 
+        <div
+          id="main-tab-panel"
+          role="tabpanel"
+          aria-labelledby={tab === "stories" ? "tab-stories" : "tab-reels"}
+          style={{ display: "contents" }}
+        >
         {tab === "stories" ? (
           children
         ) : (
@@ -224,6 +302,7 @@ export default function AppShell({
             </div>
           </section>
         )}
+        </div>
 
         <div id="pace-notification" className="pace-notification glass-panel-heavy" role="status" aria-live="polite">
           <div className="notification-icon">
