@@ -60,17 +60,22 @@ export function loadVoices(): Promise<SpeechSynthesisVoice[]> {
 }
 
 /**
- * Await the voice list without ever blocking interaction for long. Callers
- * that must pick a voice before the first utterance (first word tap, story
- * playback start) race the load against this short cap. Once voices are
- * cached, `loadVoices()` resolves in a microtask — no perceptible delay.
+ * Await the voice list without ever blocking interaction for long.
+ * Fast path: sync getVoices() — if the platform already has voices, return
+ * immediately instead of waiting on the promise race (that wait was up to
+ * 800ms of silence before the first sentence on Play).
  */
 export async function ensureVoices(): Promise<void> {
   if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
   try {
+    const now = window.speechSynthesis.getVoices();
+    if (now.length) {
+      voicesCache = now;
+      return;
+    }
     await Promise.race([
       loadVoices(),
-      new Promise<void>((resolve) => window.setTimeout(resolve, 800)),
+      new Promise<void>((resolve) => window.setTimeout(resolve, 300)),
     ]);
   } catch {
     /* speech engine unavailable — speak() still works via utter.lang */
@@ -87,6 +92,34 @@ function pickVoice(lang: string): SpeechSynthesisVoice | undefined {
   );
 }
 
+/**
+ * True only when the platform exposes a USABLE Web Speech engine. Some
+ * WebViews/derived browsers ship `window.speechSynthesis` without the
+ * `SpeechSynthesisUtterance` constructor; checking the former alone threw a
+ * ReferenceError inside the reader's tap handler and Play button.
+ * Voice-list loading (`loadVoices`/`ensureVoices`) only needs the synth
+ * object, so those keep their narrower check.
+ */
+export function speakSupported(): boolean {
+  return (
+    typeof window !== "undefined" &&
+    "speechSynthesis" in window &&
+    typeof SpeechSynthesisUtterance !== "undefined"
+  );
+}
+
+/** Run one engine call, swallowing platform throws (iOS/Safari can throw from
+ *  speak()/cancel() after a voice change). Returns true when the call was
+ *  accepted — callers must treat a false `speak` as a dropped utterance. */
+function safeEngine(fn: () => void): boolean {
+  try {
+    fn();
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 /** Shared utterance setup for word taps and story playback. */
 function makeUtterance(text: string, lang: string, rate: number): SpeechSynthesisUtterance {
   const utter = new SpeechSynthesisUtterance(text);
@@ -97,43 +130,105 @@ function makeUtterance(text: string, lang: string, rate: number): SpeechSynthesi
   return utter;
 }
 
-/**
- * cancel → speak drops the utterance when the engine is wedged in `paused`
- * (Chrome after a cancel/long read: the next speak() never starts — "play
- * button does nothing"). Un-wedge first, then queue. Shared by word taps and
- * story playback so both paths get the same reliability.
- */
-function queueSpeak(utter: SpeechSynthesisUtterance): void {
-  const s = window.speechSynthesis;
-  s.cancel(); // defensive: drop any stray/coalesced utterance
-  if (s.paused) s.resume();
-  s.speak(utter);
+// Deferred utterances: Chrome DROPS an utterance queued in the same task as
+// cancel() (it errors with "interrupted" or just never sounds — the classic
+// "speech doesn't start" bug), so a busy engine is cancelled now and the
+// speak happens on a later tick. An IDLE engine must never be cancelled —
+// speak directly (instant start, and still inside the user's tap gesture,
+// which iOS/Safari requires for the first utterance).
+let speakTimer: number | undefined; // word-tap deferral
+let deferTimer: number | undefined; // story/queueSpeak deferral
+/** Settle callback for the utterance parked in `deferTimer`. A dropped
+ *  deferral MUST settle its promise: the only other exit for speakAsync is a
+ *  30–120s safety timer, so pressing Stop used to leave the playback loop hung
+ *  on an utterance that was cancelled before it ever sounded. */
+let deferDropped: (() => void) | null = null;
+
+/** Cancel the pending story utterance and hand back its settle callback (null
+ *  when nothing was parked). Whoever takes it must invoke it. */
+function takeDeferral(): (() => void) | null {
+  if (deferTimer === undefined) return null;
+  window.clearTimeout(deferTimer);
+  deferTimer = undefined;
+  const dropped = deferDropped;
+  deferDropped = null;
+  return dropped;
 }
 
-// Browser timer handle (DOM setTimeout returns a number).
-let speakTimer: number | undefined;
-
-/** Drop a word-tap utterance that hasn't sounded yet (stop / new run). */
-export function cancelPendingSpeak(): void {
-  if (typeof window !== "undefined" && speakTimer !== undefined) {
+/** Drop every pending utterance (stop / new run / unmount), settling any story
+ *  utterance that will now never sound. */
+function clearDeferrals(): void {
+  if (speakTimer !== undefined) {
     window.clearTimeout(speakTimer);
     speakTimer = undefined;
   }
+  takeDeferral()?.();
+}
+
+/** Un-wedge a synthesiser stuck in `paused` (queued speech never starts), then speak.
+ *  False = the engine refused or threw, so the caller must treat the utterance
+ *  as dropped instead of waiting for an `onend` that can never fire. */
+function speakNow(utter: SpeechSynthesisUtterance): boolean {
+  const s = window.speechSynthesis;
+  if (s.paused) safeEngine(() => s.resume());
+  return safeEngine(() => s.speak(utter));
+}
+
+function busy(): boolean {
+  const s = window.speechSynthesis;
+  return s.speaking || s.pending;
+}
+
+/**
+ * Queue one utterance: instant when idle, cancel + deferred when busy.
+ * `onDropped` settles the caller's promise whenever this utterance ends up
+ * never sounding — superseded by a newer one, cancelled by a stop, or refused
+ * by the engine.
+ */
+function queueSpeak(utter: SpeechSynthesisUtterance, onDropped?: () => void): void {
+  // A newer utterance supersedes the parked one: that one settles now.
+  takeDeferral()?.();
+  if (busy()) {
+    safeEngine(() => window.speechSynthesis.cancel());
+    deferDropped = onDropped ?? null;
+    deferTimer = window.setTimeout(() => {
+      deferTimer = undefined;
+      deferDropped = null;
+      if (!speakNow(utter)) onDropped?.();
+    }, 80);
+  } else if (!speakNow(utter)) {
+    onDropped?.();
+  }
+}
+
+/** Drop any pending deferred utterance (stop / new run / unmount). */
+export function cancelPendingSpeak(): void {
+  if (typeof window === "undefined") return;
+  clearDeferrals();
 }
 
 /** Speak text with the OS voice (no external TTS service). */
 export function speak(text: string, lang: string, rate = 0.9): void {
-  if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
+  if (!speakSupported()) return;
   if (!text.replace(SEPARATOR_RE, "")) return;
-  // Chrome drops an utterance queued in the same task as cancel(): cancel
-  // now, queue the utterance on the next beat. Coalesce rapid taps so only
-  // the latest word sounds.
-  window.speechSynthesis.cancel();
-  if (speakTimer) window.clearTimeout(speakTimer);
-  speakTimer = window.setTimeout(() => {
+  if (speakTimer !== undefined) {
+    window.clearTimeout(speakTimer);
     speakTimer = undefined;
-    queueSpeak(makeUtterance(text, lang, rate));
-  }, 40);
+  }
+  const utter = makeUtterance(text, lang, rate);
+  if (busy()) {
+    // Something is sounding: cut it, then speak past the cancel on a later
+    // tick (same-task cancel+speak gets dropped). Rapid taps coalesce —
+    // only the latest word wins.
+    safeEngine(() => window.speechSynthesis.cancel());
+    speakTimer = window.setTimeout(() => {
+      speakTimer = undefined;
+      speakNow(utter);
+    }, 80);
+  } else {
+    // Idle: no cancel was issued — speak NOW (0ms, inside the tap gesture).
+    speakNow(utter);
+  }
 }
 
 /**
@@ -148,7 +243,7 @@ export function speakAsync(
   signal: { cancelled: boolean }
 ): Promise<void> {
   return new Promise((resolve) => {
-    if (typeof window === "undefined" || !("speechSynthesis" in window)) {
+    if (!speakSupported()) {
       resolve();
       return;
     }
@@ -191,13 +286,13 @@ export function speakAsync(
         finish();
         return;
       }
-      queueSpeak(utter);
+      queueSpeak(utter, finish);
     }, 40);
   });
 }
 
 export function stopSpeaking(): void {
   if (typeof window !== "undefined" && "speechSynthesis" in window) {
-    window.speechSynthesis.cancel();
+    safeEngine(() => window.speechSynthesis.cancel());
   }
 }

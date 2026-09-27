@@ -95,3 +95,169 @@ describe("tts voice loading", () => {
     await vi.advanceTimersByTimeAsync(2000); // stale timer must be a no-op
   });
 });
+
+/**
+ * Regression tests for the deferred-utterance lifecycle: a deferral that is
+ * dropped (Stop pressed, or superseded by a newer sentence) must settle its
+ * speakAsync promise at once — otherwise the playback loop waits on the
+ * 30–120s safety timer. Plus the platform guards: a browser that exposes
+ * `speechSynthesis` without the `SpeechSynthesisUtterance` constructor must
+ * never reach `new SpeechSynthesisUtterance` (it threw ReferenceError inside
+ * the tap handler), and engine throws must not escape into React handlers.
+ */
+
+class FakeUtterance {
+  text: string;
+  lang = "";
+  rate = 1;
+  voice?: unknown;
+  onend: (() => void) | null = null;
+  onerror: (() => void) | null = null;
+  constructor(text: string) {
+    this.text = text;
+  }
+}
+
+interface FakeEngine {
+  spoken: FakeUtterance[];
+  speaking: boolean;
+  pending: boolean;
+  cancelThrows: boolean;
+  speakThrows: boolean;
+  cancelCount: number;
+}
+
+/** Engine stand-in. `speaking = true` forces queueSpeak's 80ms deferral path. */
+function installEngine(withUtteranceCtor = true): FakeEngine {
+  const engine: FakeEngine = {
+    spoken: [],
+    speaking: false,
+    pending: false,
+    cancelThrows: false,
+    speakThrows: false,
+    cancelCount: 0,
+  };
+  vi.stubGlobal("window", {
+    speechSynthesis: {
+      get speaking() {
+        return engine.speaking;
+      },
+      get pending() {
+        return engine.pending;
+      },
+      paused: false,
+      getVoices: () => [],
+      addEventListener: () => {},
+      removeEventListener: () => {},
+      speak: (u: FakeUtterance) => {
+        if (engine.speakThrows) throw new Error("engine refused");
+        engine.spoken.push(u);
+      },
+      cancel: () => {
+        engine.cancelCount += 1;
+        if (engine.cancelThrows) throw new Error("cancel refused");
+      },
+      resume: () => {},
+    },
+    // Delegate at call time so vi.useFakeTimers() applies.
+    setTimeout: (...a: Parameters<typeof setTimeout>) => globalThis.setTimeout(...a),
+    clearTimeout: (...a: Parameters<typeof clearTimeout>) => globalThis.clearTimeout(...a),
+  });
+  if (withUtteranceCtor) vi.stubGlobal("SpeechSynthesisUtterance", FakeUtterance);
+  return engine;
+}
+
+describe("tts deferred utterance lifecycle", () => {
+  beforeEach(() => {
+    vi.useFakeTimers();
+    vi.resetModules(); // fresh deferral state per test
+  });
+  afterEach(() => {
+    vi.useRealTimers();
+    vi.unstubAllGlobals();
+  });
+
+  it("settles a story utterance whose deferral is dropped by Stop", async () => {
+    const engine = installEngine();
+    const tts = await import("../lib/tts");
+    engine.speaking = true; // busy -> queueSpeak parks the utterance
+    const signal = { cancelled: false };
+    let settled = false;
+    void tts
+      .speakAsync("Hola mundo.", "es", () => 1, signal)
+      .then(() => {
+        settled = true;
+      });
+
+    await vi.advanceTimersByTimeAsync(40); // kick fires -> busy -> parked
+    expect(engine.spoken).toHaveLength(0);
+
+    engine.speaking = false;
+    signal.cancelled = true;
+    tts.cancelPendingSpeak(); // Stop pressed inside the deferral window
+
+    await vi.advanceTimersByTimeAsync(10);
+    expect(settled).toBe(true); // pre-fix: only the 30s safety timer freed it
+    expect(engine.spoken).toHaveLength(0); // a dropped utterance never sounds
+  });
+
+  it("settles the superseded promise when a newer sentence coalesces the queue", async () => {
+    const engine = installEngine();
+    const tts = await import("../lib/tts");
+    engine.speaking = true;
+    let first = false;
+    void tts
+      .speakAsync("one", "es", () => 1, { cancelled: false })
+      .then(() => {
+        first = true;
+      });
+    await vi.advanceTimersByTimeAsync(40); // "one" parked
+    void tts.speakAsync("two", "es", () => 1, { cancelled: false });
+    await vi.advanceTimersByTimeAsync(60); // "two" kicks -> takes the deferral
+    expect(first).toBe(true);
+    await vi.advanceTimersByTimeAsync(120);
+    expect(engine.spoken.map((u) => u.text)).toEqual(["two"]);
+  });
+
+  it("settles immediately when the engine refuses to speak (throws)", async () => {
+    const engine = installEngine();
+    const tts = await import("../lib/tts");
+    engine.speakThrows = true;
+    let settled = false;
+    void tts
+      .speakAsync("Hola.", "es", () => 1, { cancelled: false })
+      .then(() => {
+        settled = true;
+      });
+    await vi.advanceTimersByTimeAsync(60); // idle path -> speakNow threw -> caught
+    expect(settled).toBe(true);
+  });
+
+  it("never reaches the constructor without SpeechSynthesisUtterance", async () => {
+    installEngine(false); // engine present, constructor absent (some WebViews)
+    const tts = await import("../lib/tts");
+    expect(tts.speakSupported()).toBe(false);
+    expect(() => tts.speak("hola", "es", 1)).not.toThrow();
+    expect(() => tts.stopSpeaking()).not.toThrow();
+    let settled = false;
+    void tts
+      .speakAsync("hola", "es", () => 1, { cancelled: false })
+      .then(() => {
+        settled = true;
+      });
+    await vi.advanceTimersByTimeAsync(10);
+    expect(settled).toBe(true); // no run should ever start, so never hang
+    tts.cancelPendingSpeak();
+  });
+
+  it("survives an engine that throws from cancel() (iOS after voice changes)", async () => {
+    const engine = installEngine();
+    const tts = await import("../lib/tts");
+    engine.cancelThrows = true;
+    engine.speaking = true;
+    expect(() => tts.speak("hola", "es", 1)).not.toThrow();
+    await vi.advanceTimersByTimeAsync(120); // still spoken past the failed cancel
+    expect(engine.spoken).toHaveLength(1);
+  });
+});
+

@@ -6,7 +6,7 @@ import type { ParallelMode } from "@/lib/settings";
 import { ensureVoices, speak } from "@/lib/tts";
 import { celebrationBurst, ghostFlight, toast } from "@/lib/juice";
 import { addBookmark, isBookmarked, useBookmarks } from "@/lib/bookmarks";
-import { glossaryLookup, isPunctToken, SEPARATORS, stripPunct } from "@/lib/glossary";
+import { glossaryLookup, hasWordChar, SEPARATORS, stripPunct } from "@/lib/glossary";
 import { tokenWithRomaji } from "@/lib/furigana-romaji";
 import { lookupJapaneseMeaning } from "@/lib/jmdict";
 import WordPopover from "./WordPopover";
@@ -308,7 +308,7 @@ export default function StoryText({
     key: string,
     surface: string,
     rover: Rover,
-    extra?: { reading?: string; romaji?: string; lemma?: string; refIndex?: number }
+    extra?: { reading?: string; romaji?: string; lemma?: string }
   ) {
     // Identity = sentence + stripped surface: stable across the w{n} → t{n}
     // re-key that happens when JA tokens arrive (bug #1). The extra is
@@ -427,25 +427,27 @@ export default function StoryText({
               }}
             >
               {(() => {
-                // Index into the RAW token array (counting empty surfaces)
-                // so a word's position — not its rendered slot — is what
-                // survives the token list swapping between the regex and
-                // Sudachi shapes (bug #1).
-                let rawIdx = 0;
+                // Token ORDER is fixed by the build-time token array (or by the
+                // separator split), so the array index is a stable React key —
+                // it never shifts with which tokens happen to be words.
                 return tokens && tokens.length
                   ? tokens.map((t, ti) => {
-                      const refIndex = rawIdx;
-                      rawIdx += 1;
                       if (!t.surface) return null;
+                      // Symbol-only tokens (、。「」・！) carry nothing to look up:
+                      // render them as plain text, exactly like the ES/RU path.
+                      // Making them role="button" chips created dead Tab stops —
+                      // 8 JA sentences open with 「, so the one roving Tab stop
+                      // of those sentences focused something that did nothing.
+                      if (!hasWordChar(t.surface))
+                        return <span key={`t${ti}`}>{t.surface}</span>;
                       return wordNode(idx, sentence, `t${ti}`, t.surface, rover, {
                         reading: t.reading,
                         romaji: showRomaji ? t.romaji : undefined,
                         lemma: t.lemma,
-                        refIndex,
                       });
                     })
                   : splitWords(sentence.target).map((w, wi) =>
-                      isPunctToken(w) ? (
+                      !hasWordChar(w) ? (
                         <span key={`w${wi}`}>{w}</span>
                       ) : (
                         wordNode(idx, sentence, `w${wi}`, w, rover)

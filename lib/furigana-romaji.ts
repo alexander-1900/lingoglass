@@ -32,6 +32,9 @@ const KANA_TO_ROMAJI: Record<string, string> = {
   クァ:"kwa", グァ:"gwa", テュ:"tyu", デュ:"dyu",
   ァ:"a", ィ:"i", ゥ:"u", ェ:"e", ォ:"o",
   ャ:"ya", ュ:"yu", ョ:"yo", ヵ:"ka", ヶ:"ke",
+  // Archaic/rare kana that still appear in proper nouns and loanwords; left
+  // unmapped they would fall through and leak raw glyphs into the romaji line.
+  ヷ:"va", ヸ:"vi", ヹ:"ve", ヺ:"vo", ヮ:"wa", ヰ:"i", ヱ:"e",
   "・":" ", "　":" ",
 };
 
@@ -48,9 +51,13 @@ function katakanaToRomaji(katakana: string): string {
       continue;
     }
     const two = katakana.slice(i, i + 2);
-    if (katakana[i] === "ッ" && katakana[i + 1]) {
-      const next = katakanaToRomaji(katakana[i + 1] ?? "");
-      out += next[0] ?? "";
+    if (katakana[i] === "ッ") {
+      // Sokuon: geminates the following consonant (シュッパツ → "shuppatsu").
+      // A TRAILING ッ (促音便 stems: コモッ, イッ, ヨコタワッ) has nothing to
+      // geminate, so it is dropped — the old branch required a following char
+      // and otherwise fell through to the raw-glyph path, printing "komoッ".
+      const next = katakana[i + 1];
+      if (next) out += katakanaToRomaji(next)[0] ?? "";
       i += 1;
       continue;
     }
@@ -61,7 +68,9 @@ function katakanaToRomaji(katakana: string): string {
       out += KANA_TO_ROMAJI[katakana[i]];
       i += 1;
     } else {
-      out += katakana[i];
+      // Unmapped character: keep ASCII (digits, hyphens), never emit raw kana
+      // — a romaji line is ASCII-only by contract.
+      if (/[\x20-\x7E]/.test(katakana[i])) out += katakana[i];
       i += 1;
     }
   }
@@ -74,7 +83,16 @@ function hiraganaToKatakana(s: string): string {
   );
 }
 
+/** At least one kana — the only readings that can produce romaji at all. */
+const KANA_RE = /[\u3041-\u3096\u30A1-\u30FA\u30FC]/;
+
 export function tokenWithRomaji(token: Token): Token {
-  if (!token.reading) return token;
-  return { ...token, romaji: katakanaToRomaji(hiraganaToKatakana(token.reading)) };
+  // Sudachi reports punctuation tokens with their glyph as the reading (、。「」).
+  // Deriving a "romaji" for them printed a duplicate glyph under the token, so
+  // readings without kana — and readings that convert to nothing (・ → " ") —
+  // get no romaji field at all.
+  if (!token.reading || !KANA_RE.test(token.reading)) return token;
+  const romaji = katakanaToRomaji(hiraganaToKatakana(token.reading));
+  if (!romaji.trim()) return token;
+  return { ...token, romaji };
 }
