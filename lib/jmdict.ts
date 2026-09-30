@@ -12,6 +12,8 @@
  * extend DICT to the same flat shape.
  */
 
+import type { AffixCandidate } from "./ja-morphology";
+
 interface JmdictEntry {
   /** English gloss(es); senses separated by "; ". */
   gloss: string;
@@ -275,7 +277,157 @@ const DICT: Record<string, JmdictEntry> = {
   ひかり: { gloss: "light", pos: "n" },
   姫: { gloss: "princess", pos: "n" },
   ひめ: { gloss: "princess", pos: "n" },
+
+  // --- frequent grammar fragments (Sudachi emits each as its own token) ------
+  た: { gloss: "(past-tense / plain-form auxiliary)" },
+  て: { gloss: "(connective particle)" },
+  ます: { gloss: "(polite verb ending)" },
+  れる: { gloss: "(passive / potential auxiliary)" },
+  られる: { gloss: "(passive / potential auxiliary)" },
+  せる: { gloss: "(causative auxiliary)" },
+  ない: { gloss: "not; nonexistent (negative)" },
+  ず: { gloss: "(negative form, classical / formal)" },
+  へ: { gloss: "(directional particle)" },
+  や: { gloss: "and; or (listing particle)" },
+  つつ: { gloss: "while; although" },
+  ながら: { gloss: "while; at the same time as" },
+  ほど: { gloss: "about; roughly; degree" },
+  その: { gloss: "that" },
+  小さな: { gloss: "small; little", pos: "det" },
+  御: { gloss: "honorific prefix (o-, go-)", pos: "prefix" },
+  達: { gloss: "plural suffix (people)", pos: "suffix" },
+  さ: { gloss: "-ness; degree (noun-forming suffix)", pos: "suffix" },
+  的: { gloss: "-like; -ic; -ly (suffix)", pos: "suffix" },
+  化: { gloss: "-ization; change into (suffix)", pos: "suffix" },
+  彼: { gloss: "he; him; that", pos: "n" },
+  自ら: { gloss: "oneself; in person", pos: "n" },
+
+  // --- verbs -----------------------------------------------------------------
+  言う: { gloss: "to say", pos: "v" },
+  しまう: { gloss: "to finish; to put away; to store", pos: "v" },
+  追う: { gloss: "to chase; to pursue", pos: "v" },
+  出す: { gloss: "to take out; to hand out", pos: "v" },
+  残す: { gloss: "to leave behind; to keep", pos: "v" },
+  立つ: { gloss: "to stand", pos: "v" },
+  上げる: { gloss: "to raise; to lift", pos: "v" },
+  受ける: { gloss: "to receive; to undergo; to pass (an exam)", pos: "v" },
+  込む: { gloss: "to be crowded; (after a verb) to do thoroughly", pos: "v" },
+  かける: { gloss: "to hang; to put on; to ride; to spend (time)", pos: "v" },
+
+  // --- adjectives -----------------------------------------------------------
+  優しい: { gloss: "gentle; kind; tender", pos: "adj" },
+  若い: { gloss: "young", pos: "adj" },
+  深い: { gloss: "deep", pos: "adj" },
+  激しい: { gloss: "fierce; intense", pos: "adj" },
+  嘗て: { gloss: "formerly; once", pos: "adv" },
+
+  // --- nouns ----------------------------------------------------------------
+  中: { gloss: "inside; middle; among", pos: "n" },
+  男: { gloss: "man; male", pos: "n" },
+  爺: { gloss: "old man; grandfather", pos: "n" },
+  婆: { gloss: "old woman; grandmother", pos: "n" },
+  間: { gloss: "interval; gap; time between", pos: "n" },
+  姿: { gloss: "figure; appearance; form", pos: "n" },
+  命: { gloss: "life", pos: "n" },
+  大蛇: { gloss: "giant snake; serpent", pos: "n" },
+  酒: { gloss: "sake; alcohol", pos: "n" },
+  体: { gloss: "body", pos: "n" },
+  僧: { gloss: "monk; priest", pos: "n" },
+  雀: { gloss: "sparrow", pos: "n" },
+  竜: { gloss: "dragon", pos: "n" },
+  灰: { gloss: "ashes; ash", pos: "n" },
+  都: { gloss: "capital; metropolis", pos: "n" },
+  約束: { gloss: "promise; appointment", pos: "n" },
+  箱: { gloss: "box", pos: "n" },
+  他: { gloss: "other; another; elsewhere", pos: "n" },
 };
+
+/**
+ * Sudachi's normalized form is kanji (為る / 居る / 成る), while this table is
+ * keyed mostly by kana — the mismatch that kept those taps empty. Aliased only
+ * when the kana target actually exists below.
+ */
+const LEMMA_ALIASES: Record<string, string> = {
+  為る: "する",
+  居る: "いる",
+  成る: "なる",
+  有る: "ある",
+  其の: "その",
+  無い: "ない",
+  仕舞う: "しまう",
+};
+
+/** 為る is normally する but is also read ナル in 為になる: skip the alias for
+ *  that reading so the tap falls through instead of claiming "to do". */
+const ALIAS_SKIP_PREFIX: Record<string, string> = { 為る: "ナ" };
+
+function aliasTarget(lemma: string, reading?: string): string | undefined {
+  const target = LEMMA_ALIASES[lemma];
+  if (!target) return undefined;
+  const skip = ALIAS_SKIP_PREFIX[lemma];
+  if (skip && reading?.startsWith(skip)) return undefined;
+  return target;
+}
+
+/** Numerals need no dictionary entry to have a meaning. */
+const DIGITS: Record<string, string> = {
+  "0": "zero",
+  "1": "one",
+  "2": "two",
+  "3": "three",
+  "4": "four",
+  "5": "five",
+  "6": "six",
+  "7": "seven",
+  "8": "eight",
+  "9": "nine",
+};
+
+export interface JapaneseMeaning {
+  gloss: string;
+  /** The key that matched — the card shows this instead of Sudachi's lemma
+   *  when an alias or an affixed host word answered. */
+  key: string;
+  via: "lemma" | "alias" | "affix" | "surface";
+  /** Host reading for an affix hit (オジイサン for the tapped さん). */
+  reading?: string;
+}
+
+/**
+ * Full lookup for a Japanese word. Order: lemma → kanji-lemma alias → host
+ * word rebuilt from a split affix (おじいさん) → surface. Undefined means the
+ * local dictionary has nothing, which the card renders as
+ * "No dictionary entry yet" instead of borrowing the sentence translation.
+ */
+export function lookupJapaneseDetail(
+  lemma: string | undefined,
+  surface: string,
+  affixes?: readonly AffixCandidate[],
+  reading?: string
+): JapaneseMeaning | undefined {
+  const surfaceKey = surface.trim();
+  const digit = DIGITS[surfaceKey];
+  if (digit) return { gloss: digit, key: surfaceKey, via: "surface" };
+
+  const lemmaKey = (lemma ?? "").trim();
+  if (lemmaKey && DICT[lemmaKey]) {
+    return { gloss: DICT[lemmaKey].gloss, key: lemmaKey, via: "lemma" };
+  }
+
+  const alias = lemmaKey ? aliasTarget(lemmaKey, reading) : undefined;
+  if (alias && DICT[alias]) return { gloss: DICT[alias].gloss, key: alias, via: "alias" };
+
+  for (const c of affixes ?? []) {
+    if (DICT[c.surface]) {
+      return { gloss: DICT[c.surface].gloss, key: c.surface, via: "affix", reading: c.reading };
+    }
+  }
+
+  if (surfaceKey && DICT[surfaceKey]) {
+    return { gloss: DICT[surfaceKey].gloss, key: surfaceKey, via: "surface" };
+  }
+  return undefined;
+}
 
 /**
  * English meaning for a Japanese word. `lemma` (Sudachi dictionary form) is
@@ -286,11 +438,7 @@ export function lookupJapaneseMeaning(
   lemma: string | undefined,
   surface: string
 ): string | undefined {
-  const lemmaKey = (lemma ?? "").trim();
-  if (lemmaKey && DICT[lemmaKey]) return DICT[lemmaKey].gloss;
-  const surfaceKey = surface.trim();
-  if (surfaceKey && DICT[surfaceKey]) return DICT[surfaceKey].gloss;
-  return undefined;
+  return lookupJapaneseDetail(lemma, surface)?.gloss;
 }
 
 

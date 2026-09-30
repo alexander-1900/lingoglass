@@ -3,6 +3,10 @@ import { LANGS, LEVELS } from "@/lib/types";
 import { getAllStories } from "@/lib/stories";
 import { SITE_BASE as BASE } from "@/lib/site";
 
+// Required by `output: export` (see next.config.mjs): metadata routes must
+// declare themselves static or the export build fails collecting them.
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   // Build-time guard (this route is statically generated): shipping a sitemap
   // full of localhost URLs is a production bug — fail the build instead.

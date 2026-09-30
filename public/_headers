@@ -1,11 +1,21 @@
-# Deployed-host security headers (Cloudflare Pages / Netlify read this file).
-# NOTE: keep in sync with next.config.mjs — those headers apply to
-# `next dev` / `next start`; this file applies to static hosting.
+# Deployed-host security headers (Cloudflare Pages / Netlify read this file —
+# next.config.mjs covers `next dev` only; output: export ignores headers()).
 /*
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; connect-src 'self'; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
   Strict-Transport-Security: max-age=31536000; includeSubDomains
   Permissions-Policy: camera=(), microphone=(), geolocation=()
   Cross-Origin-Opener-Policy: same-origin
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
   Referrer-Policy: strict-origin-when-cross-origin
+
+# Story audio (scripts/generate-audio.mjs): the mp3/json names embed the content
+# hash, so an edited story gets a NEW URL — immutable caching is always safe.
+# manifest.json keeps a fixed name and must stay revalidatable, or readers would
+# play yesterday's audio for weeks.
+/audio/*/*.mp3
+  Cache-Control: public, max-age=31536000, immutable
+/audio/*/*.json
+  Cache-Control: public, max-age=31536000, immutable
+/audio/manifest.json
+  Cache-Control: public, max-age=0, must-revalidate

@@ -12,3 +12,5 @@ __pycache__
 *.pyc
 # Vitest cache/coverage
 coverage/
+# Audio generation intermediates (public/audio/ IS committed)
+.audio-cache/

@@ -46,5 +46,8 @@ export interface Token {
   lemma?: string;
   reading?: string;
   romaji?: string;
+  /** Sudachi POS tag (名詞,普通名詞,副詞可能,*) — present on every build-time
+   *  token; absent on the regex-fallback path. */
+  pos?: string;
 }
 

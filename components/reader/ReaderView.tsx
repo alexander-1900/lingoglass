@@ -4,18 +4,26 @@ import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { LANG_NAMES, Story, Token } from "@/lib/types";
 import {
+  DEFAULT_FONT,
   DEFAULT_MODE,
   DEFAULT_RATE,
+  FONTS,
   MODES,
   ParallelMode,
+  ReadingFont,
   SPEEDS,
+  applyFont,
+  getFont,
   getMode,
   getRate,
   getShowRomaji,
+  setFont,
   setMode as persistMode,
   setRate as persistRate,
 } from "@/lib/settings";
 import { cancelPendingSpeak, ensureVoices, loadVoices, speakAsync, stopSpeaking } from "@/lib/tts";
+import { StoryAudio } from "@/lib/story-audio";
+import type { StoryAudioSource, WordTap } from "@/lib/story-audio";
 import { getProgress, progressKey, setProgress, useProgress } from "@/lib/progress";
 import { toast } from "@/lib/juice";
 import type { ProgressRecord } from "@/lib/progress";
@@ -58,6 +66,8 @@ export default function ReaderView({
   // Persisted preferences are synced after mount in the effect below.
   const [mode, setMode] = useState<ParallelMode>(DEFAULT_MODE);
   const [showRomaji, setShowRomaji] = useState<boolean>(true);
+  const [font, setFontState] = useState<ReadingFont>(DEFAULT_FONT);
+  const [fontMenuOpen, setFontMenuOpen] = useState<boolean>(false);
   const [playing, setPlaying] = useState(false);
   const [currentIdx, setCurrentIdx] = useState(0);
   const [rate, setRateState] = useState<number>(DEFAULT_RATE);
@@ -65,10 +75,21 @@ export default function ReaderView({
   // Resume affordance: a stored position ahead of the current one offers a
   // "Resume" pill (never auto-jumps — free-scroll UX is preserved).
   const [resumeFrom, setResumeFrom] = useState<number | null>(null);
+  // Which engine narrates: "studio" = pre-generated neural MP3 (see
+  // lib/story-audio.ts), "native" = the Web Speech sentence loop. Starts
+  // "native" so the first client render matches the prerendered HTML; the load
+  // effect flips it once the manifest for this story has been resolved.
+  const [audioSource, setAudioSource] = useState<StoryAudioSource>("native");
+  // Fixture runs (npm run audio:generate -- --fixture) are beeps, not speech —
+  // the transport says so instead of passing them off as studio narration.
+  const [audioFixture, setAudioFixture] = useState(false);
 
   const runRef = useRef(0);
+  const studioRef = useRef<StoryAudio | null>(null);
   const rateRef = useRef(DEFAULT_RATE);
   const currentIdxRef = useRef(0);
+  const fontPickerRef = useRef<HTMLDivElement>(null);
+  const fontTriggerRef = useRef<HTMLButtonElement>(null);
   // Progress only tracks deliberate interaction (playback, seeks): opening
   // a story must never overwrite a saved position with sentence 0.
   const interactedRef = useRef(false);
@@ -99,11 +120,35 @@ export default function ReaderView({
   useEffect(() => {
     setMode(getMode());
     setShowRomaji(getShowRomaji());
+    const storedFont = getFont();
+    setFontState(storedFont);
+    applyFont(storedFont); // re-assert the pre-paint value once React owns the page
     setAudioSupported(typeof window !== "undefined" && "speechSynthesis" in window);
     const storedRate = getRate();
     rateRef.current = storedRate;
     setRateState(storedRate);
   }, []);
+
+  // Font menu dismissal: outside pointer-down or Escape closes it, Escape
+  // also returns focus to the trigger so keyboard users aren't dropped at
+  // the top of the document.
+  useEffect(() => {
+    if (!fontMenuOpen) return;
+    const onPointerDown = (e: PointerEvent) => {
+      if (!fontPickerRef.current?.contains(e.target as Node)) setFontMenuOpen(false);
+    };
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key !== "Escape") return;
+      setFontMenuOpen(false);
+      fontTriggerRef.current?.focus();
+    };
+    document.addEventListener("pointerdown", onPointerDown);
+    document.addEventListener("keydown", onKey);
+    return () => {
+      document.removeEventListener("pointerdown", onPointerDown);
+      document.removeEventListener("keydown", onKey);
+    };
+  }, [fontMenuOpen]);
 
   // <html lang> is owned by AppShell (the story page passes lang) — one
   // place updates it, one place restores it on navigation.
@@ -148,6 +193,7 @@ export default function ReaderView({
     runRef.current += 1;
     cancelPendingSpeak();
     stopSpeaking();
+    studioRef.current?.pause();
     setPlaying(false);
     if (interactedRef.current) persistProgress(currentIdxRef.current);
   }, [persistProgress]);
@@ -174,6 +220,7 @@ export default function ReaderView({
   // conditional was blind to a silent stop where paused never flips back).
   useEffect(() => {
     if (!playing) return;
+    if (studioRef.current) return; // MP3 playback needs no synthesiser keep-alive
     if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
     const id = window.setInterval(() => {
       try {
@@ -186,6 +233,22 @@ export default function ReaderView({
   }, [playing]);
 
   const runFrom = useCallback(async (start: number) => {
+    // Studio audio wins whenever it loaded for this story: one continuous MP3
+    // seeked per sentence. NOTE: nothing is awaited before playFrom — the
+    // element's play() must stay inside the click's user-gesture window (iOS).
+    const studio = studioRef.current;
+    if (studio) {
+      runRef.current += 1; // invalidate any in-flight Web Speech run
+      cancelPendingSpeak();
+      stopSpeaking(); // a word-tap utterance must not talk over the story
+      interactedRef.current = true;
+      setPlaying(true);
+      setCurrentIdx(start);
+      persistProgress(start);
+      studio.setRate(rateRef.current);
+      studio.playFrom(start);
+      return;
+    }
     if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
     // Claim the run BEFORE awaiting: Stop, Pause, seek or navigation during
     // the voice wait (ensureVoices, up to 800ms) bumps runRef, and the check
@@ -219,6 +282,62 @@ export default function ReaderView({
     if (runRef.current === runId) setPlaying(false);
   }, [persistProgress]);
 
+  // Resolve this story's studio audio after mount (manifest → timing JSON).
+  // A null result — no manifest yet, no entry, sentence text edited without
+  // regenerating, offline — leaves the Web Speech loop exactly as it was.
+  useEffect(() => {
+    let cancelled = false;
+    let owned: StoryAudio | null = null;
+    setAudioSource("native");
+    setAudioFixture(false);
+    void StoryAudio.load({
+      lang: story.lang,
+      slug: story.slug,
+      texts: story.sentences.map((s) => s.target),
+    }).then((studio) => {
+      if (!studio) return;
+      if (cancelled) {
+        studio.dispose(); // StrictMode remount / fast navigation: drop it clean
+        return;
+      }
+      owned = studio;
+      studioRef.current = studio;
+      studio.setRate(rateRef.current);
+      studio.onIndex((idx) => {
+        setCurrentIdx(idx);
+        persistProgress(idx);
+      });
+      studio.onEnded(() => {
+        setPlaying(false);
+        if (interactedRef.current) persistProgress(studio.currentSentence);
+      });
+      studio.onError(() => {
+        // Missing or unstreamable file: retire studio for this story and finish
+        // with the built-in voice rather than leaving a silent player.
+        studioRef.current = null;
+        studio.dispose();
+        setAudioSource("native");
+        setAudioFixture(false);
+        setAudioSupported("speechSynthesis" in window);
+        setPlaying(false);
+        toast(
+          "Studio Audio Unavailable",
+          "Switched to the built-in voice for the rest of this story."
+        );
+        void runFrom(currentIdxRef.current);
+      });
+      setAudioSource("studio");
+      setAudioFixture(studio.fixture);
+      // A browser without speechSynthesis can still listen to real audio.
+      setAudioSupported(true);
+    });
+    return () => {
+      cancelled = true;
+      studioRef.current = null;
+      owned?.dispose(); // pauses and aborts any in-flight download
+    };
+  }, [story, persistProgress, runFrom]);
+
   const toggle = useCallback(() => {
     if (playing) {
       stop();
@@ -249,8 +368,18 @@ export default function ReaderView({
     persistMode(next);
   }, []);
 
+  // Persist + apply live: setFont writes localStorage and re-points
+  // <html data-font>, so .target-line/.translation-line repaint immediately.
+  const changeFont = useCallback((next: ReadingFont) => {
+    setFontState(next);
+    setFont(next);
+    setFontMenuOpen(false);
+    fontTriggerRef.current?.focus(); // the clicked menu item unmounts — don't strand focus
+  }, []);
+
   const changeRate = useCallback((next: number) => {
     rateRef.current = next; // apply to the in-flight playback loop immediately
+    studioRef.current?.setRate(next); // and to a playing studio MP3 (pitch-preserved)
     setRateState(next);
     persistRate(next);
   }, []);
@@ -259,6 +388,20 @@ export default function ReaderView({
   const handleWordTap = useCallback(() => {
     if (playing) stop();
   }, [playing, stop]);
+
+  // Studio audio for a tapped word: the MP3 already contains that exact
+  // boundary, so the word is spoken by the same neural voice as the story.
+  // `false` = nothing to play (no manifest / no boundary covering the tap) and
+  // StoryText falls back to the device voice.
+  const speakWord = useCallback(
+    (tap: WordTap): boolean => {
+      const studio = studioRef.current;
+      if (!studio) return false;
+      stop(); // the story must not talk over the tapped word
+      return studio.playWord(tap.sentenceIdx, tap.charStart, tap.charEnd);
+    },
+    [stop]
+  );
 
   // Resume offer: a stored position ahead of the current one. Recomputed
   // when the progress store updates or playback state changes; never
@@ -286,7 +429,7 @@ export default function ReaderView({
   return (
     <div id="reader-view" className="reader-view active">
       <div className="glass-container mode-selector-bar">
-        <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+        <div className="mode-bar-leading" style={{ display: "flex", alignItems: "center", gap: 14 }}>
           <Link
             href={`/library/${story.lang}/${story.level}`}
             className="round-btn"
@@ -298,28 +441,109 @@ export default function ReaderView({
               <polyline points="12 19 5 12 12 5" />
             </svg>
           </Link>
-          <div style={{ display: "flex", flexDirection: "column", gap: 2 }}>
+          <div className="mode-bar-heading" style={{ display: "flex", flexDirection: "column", gap: 2 }}>
             <span className="eyebrow-label">
               {LANG_NAMES[story.lang]} · {story.level.toUpperCase()}
             </span>
-            <h3 style={{ fontSize: "1.15rem", fontWeight: 700 }}>{story.title}</h3>
+            <h3 className="mode-bar-title">{story.title}</h3>
           </div>
         </div>
 
-        <div className="layout-toggle-group" role="group" aria-label="Reading layout">
-          {MODES.map((m) => (
+        <div className="mode-bar-controls">
+          <div className="layout-toggle-group" role="group" aria-label="Reading layout">
+            {MODES.map((m) => (
+              <button
+                key={m.id}
+                className={`pill-btn${mode === m.id ? " active" : ""}`}
+                data-mode={m.id}
+                title={m.label}
+                aria-pressed={mode === m.id}
+                onClick={() => changeMode(m.id)}
+              >
+                {MODE_ICONS[m.id]}
+                {m.label}
+              </button>
+            ))}
+          </div>
+
+          {/* Reading font: pill + floating menu (both styled in globals.css).
+              Each option's label renders in its own face — the list is the
+              preview. Menu/trigger outside-click and Escape are handled by
+              the dismissal effect above. */}
+          <div className="font-picker" ref={fontPickerRef}>
             <button
-              key={m.id}
-              className={`pill-btn${mode === m.id ? " active" : ""}`}
-              data-mode={m.id}
-              title={m.label}
-              aria-pressed={mode === m.id}
-              onClick={() => changeMode(m.id)}
+              ref={fontTriggerRef}
+              className={`pill-btn${fontMenuOpen ? " active" : ""}`}
+              aria-haspopup="menu"
+              aria-expanded={fontMenuOpen}
+              aria-label="Reading font"
+              title="Reading font"
+              onClick={() => setFontMenuOpen((open) => !open)}
             >
-              {MODE_ICONS[m.id]}
-              {m.label}
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.5"
+                strokeLinecap="round"
+                aria-hidden="true"
+              >
+                <path d="M4 7V5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2" />
+                <path d="M12 4v16" />
+                <path d="M9 20h6" />
+              </svg>
+              {FONTS.find((f) => f.id === font)?.label}
+              <svg
+                width="12"
+                height="12"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                aria-hidden="true"
+              >
+                <polyline points="6 9 12 15 18 9" />
+              </svg>
             </button>
-          ))}
+
+            {fontMenuOpen && (
+              <div className="font-picker-menu glass-panel-heavy" role="menu" aria-label="Reading font">
+                {FONTS.map((f) => (
+                  <button
+                    key={f.id}
+                    role="menuitemradio"
+                    aria-checked={f.id === font}
+                    className={`font-menu-item${f.id === font ? " active" : ""}`}
+                    title={f.id === font ? "Current reading font" : `Read stories in ${f.label}`}
+                    onClick={() => changeFont(f.id)}
+                  >
+                    <span className="font-menu-sample" style={{ fontFamily: `var(${f.cssVar})` }}>
+                      {f.label}
+                    </span>
+                    {f.id === font && (
+                      <svg
+                        width="14"
+                        height="14"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        aria-hidden="true"
+                      >
+                        <polyline points="20 6 9 17 4 12" />
+                      </svg>
+                    )}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
         </div>
       </div>
 
@@ -330,6 +554,8 @@ export default function ReaderView({
         supported={audioSupported}
         rate={rate}
         speeds={SPEEDS}
+        source={audioSource}
+        fixture={audioFixture}
         onToggle={toggle}
         onSeek={seek}
         onRate={changeRate}
@@ -360,6 +586,7 @@ export default function ReaderView({
         rate={rate}
         jaTokens={jaTokens}
         onWordTap={handleWordTap}
+        onWordSpeak={speakWord}
       />
     </div>
   );

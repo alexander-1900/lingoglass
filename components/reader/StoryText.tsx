@@ -6,20 +6,48 @@ import type { ParallelMode } from "@/lib/settings";
 import { ensureVoices, speak } from "@/lib/tts";
 import { celebrationBurst, ghostFlight, toast } from "@/lib/juice";
 import { addBookmark, isBookmarked, useBookmarks } from "@/lib/bookmarks";
-import { glossaryLookup, hasWordChar, SEPARATORS, stripPunct } from "@/lib/glossary";
+import {
+  glossaryLookup,
+  hasWordChar,
+  SEPARATORS,
+  stripPunct,
+  tokenRange,
+  trimmedRange,
+} from "@/lib/glossary";
 import { tokenWithRomaji } from "@/lib/furigana-romaji";
-import { lookupJapaneseMeaning } from "@/lib/jmdict";
+import { lookupJapaneseDetail } from "@/lib/jmdict";
+import type { WordTap } from "@/lib/story-audio";
+import {
+  affixCandidates,
+  nextOccurrence,
+  posLabel,
+  resolveMeaning,
+  tokenRole,
+  type AffixCandidate,
+  type MeaningSource,
+} from "@/lib/ja-morphology";
 import WordPopover from "./WordPopover";
 
 type PopAlign = "center" | "left" | "right";
 
 interface PopState {
   sentIdx: number;
+  /** 0-based occurrence of this word within its sentence — UI identity only,
+   *  so tapping the second 桃 moves the card instead of stacking a second one.
+   *  Bookmarks keep storing sentence + word (unchanged). */
+  occ: number;
   word: string;
+  /** Where that word sits in its sentence — what studio audio speaks. */
+  tap: WordTap;
   posPill: string;
   lemma: string;
   translation: string;
-  grammar: string;
+  /** "none" = no gloss anywhere: the card says so and shows the sentence as
+   *  context instead of passing it off as a definition. */
+  meaningSource: MeaningSource;
+  /** The tapped sentence + its translation, under the "In this sentence" label. */
+  contextTarget: string;
+  contextEn: string;
   align: PopAlign;
   /** Above the word normally; below it when the workspace top would clip. */
   vAlign: "above" | "below";
@@ -28,6 +56,17 @@ interface PopState {
   /** Viewport point above the word, for the save celebration burst. */
   bx: number;
   by: number;
+}
+
+/** Per-token facts re-captured on every render, so an open card picks up a
+ *  fresh lemma/reading/POS when tokens or settings change. */
+interface WordExtra {
+  reading?: string;
+  romaji?: string;
+  lemma?: string;
+  pos?: string;
+  /** Host words rebuilt from split affixes (おじいさん for おじい + さん). */
+  affix?: AffixCandidate[];
 }
 
 interface Props {
@@ -40,6 +79,9 @@ interface Props {
   /** Precomputed Sudachi tokens (raw, romaji added client-side). */
   jaTokens?: Record<number, Token[]>;
   onWordTap: () => void;
+  /** Speak a tapped word with studio audio. Returns true when it played, so the
+   *  device voice is skipped instead of talking over it. */
+  onWordSpeak?: (tap: WordTap) => boolean;
 }
 
 /** Split a sentence into clickable units (words kept, separators kept as
@@ -71,6 +113,7 @@ export default function StoryText({
   rate,
   jaTokens: jaTokensProp,
   onWordTap,
+  onWordSpeak,
 }: Props) {
   const [pop, setPop] = useState<PopState | null>(null);
   const [popOpen, setPopOpen] = useState(false);
@@ -143,17 +186,20 @@ export default function StoryText({
   async function openWord(
     idx: number,
     word: string,
+    occ: number,
     sentence: StorySentence,
     anchorEl: HTMLElement | null,
-    extra?: { reading?: string; romaji?: string; lemma?: string }
+    tap: WordTap,
+    extra?: WordExtra
   ) {
     const display = stripPunct(word);
     if (!display.trim()) return;
-    // Tapping the open word closes its card (smoothly). Identity is the
-    // sentence + stripped word — stable across tokenizer swaps — NOT the
-    // React key: JA keys re-map from w{n} to t{n} when Sudachi answers,
-    // and keying on the key unmounted an open card mid-read (bug #1).
-    if (pop && pop.sentIdx === idx && pop.word === display) {
+    // Tapping the SAME occurrence closes its card (smoothly). Identity is
+    // sentence + stripped word + occurrence ordinal: stable across tokenizer
+    // swaps (JA keys re-map from w{n} → t{n}), and the ordinal keeps two 桃 of
+    // one sentence apart — tapping the other one MOVES the card instead of
+    // closing it. React keys are never part of identity (bug #1).
+    if (pop && pop.sentIdx === idx && pop.word === display && pop.occ === occ) {
       if (popOpen) {
         closePop();
       } else {
@@ -164,6 +210,10 @@ export default function StoryText({
       return;
     }
     onWordTap();
+    // Studio audio can speak this exact word (or the phrase it sits in). Called
+    // synchronously — still inside the tap's gesture window — and its answer
+    // decides whether the device voice speaks on top (Phase 3).
+    const spoken = onWordSpeak?.(tap) ?? false;
     // Pick the right language voice BEFORE the first utterance: on a cold
     // start the voice list is still loading, and speaking immediately used
     // the OS default (often English) voice for ES/RU/JA text (bug #2).
@@ -205,13 +255,24 @@ export default function StoryText({
     }
     const note = glossaryLookup(sentence, word) ?? "";
     // Japanese words get an English meaning from the local JMdict lookup
-    // (lemma from Sudachi is the dictionary form: 飲みます → 飲む).
-    const englishMeaning =
-      story.lang === "ja" ? lookupJapaneseMeaning(extra?.lemma, display) : undefined;
-    const translation = note || englishMeaning || sentence.en || "—";
+    // (lemma from Sudachi is the dictionary form: 飲みます → 飲む). The lookup
+    // also tries kanji-lemma aliases (為る → する) and the host word of a
+    // split affix (the tapped さん inside おじいさん → おじいさん).
+    const jp =
+      story.lang === "ja"
+        ? lookupJapaneseDetail(extra?.lemma, display, extra?.affix, extra?.reading)
+        : undefined;
+    const englishMeaning = jp?.gloss;
+    // A missing gloss must NOT fall back to the sentence translation: that
+    // printed "A fox saw a crane." as the definition of 狐 on 63% of taps.
+    const meaning = resolveMeaning({ note, englishMeaning });
+    // Show the key that actually matched — the alias target (為る → する) or
+    // the affixed host (おじいさん) — otherwise Sudachi's lemma.
+    const matchedLemma = jp && jp.key !== display ? jp.key : extra?.lemma;
+    const matchedReading = jp?.via === "affix" && jp.reading ? jp.reading : extra?.reading;
     const lemmaDisplay = [
-      extra?.lemma && extra.lemma !== display ? extra.lemma : "",
-      extra?.reading ?? "",
+      matchedLemma && matchedLemma !== display ? matchedLemma : "",
+      matchedReading ?? "",
     ]
       .filter(Boolean)
       .join(" · ");
@@ -226,13 +287,22 @@ export default function StoryText({
     // workspace click — otherwise the unmount timer would kill the
     // card that is about to open.
     cancelPopClose();
+    // Real part of speech from Sudachi, prefixed by the reading level (the
+    // pill used to show the level alone, e.g. "N4").
+    const posLabelText = posLabel(extra?.pos);
     setPop({
       sentIdx: idx,
+      occ,
       word: display,
-      posPill: story.level.toUpperCase(),
+      tap,
+      posPill: posLabelText
+        ? `${story.level.toUpperCase()} · ${posLabelText}`
+        : story.level.toUpperCase(),
       lemma: lemmaDisplay,
-      translation,
-      grammar: sentence.target,
+      translation: meaning.text,
+      meaningSource: meaning.source,
+      contextTarget: sentence.target,
+      contextEn: sentence.en ?? "",
       align,
       vAlign,
       saved: isBookmarked(bookmarks, ref),
@@ -249,7 +319,7 @@ export default function StoryText({
           contextEn: sentence.en,
         });
         setPop((prev) =>
-          prev && prev.sentIdx === idx && prev.word === display
+          prev && prev.sentIdx === idx && prev.word === display && prev.occ === occ
             ? { ...prev, saved: result !== "failed" }
             : prev
         );
@@ -281,7 +351,7 @@ export default function StoryText({
       },
     });
     setPopOpen(true);
-    speak(display, story.lang, rate);
+    if (!spoken) speak(display, story.lang, rate);
   }
 
   function toggleReveal(idx: number): void {
@@ -300,6 +370,9 @@ export default function StoryText({
   interface Rover {
     wantOpen: boolean;
     claimed: boolean;
+    /** Occurrence tally for duplicate words in THIS sentence (fresh per
+     *  render): the n-th 桃 needs an ordinal to be a distinct tap target. */
+    seen: Map<string, number>;
   }
 
   function wordNode(
@@ -308,31 +381,54 @@ export default function StoryText({
     key: string,
     surface: string,
     rover: Rover,
-    extra?: { reading?: string; romaji?: string; lemma?: string }
+    range: { start: number; end: number },
+    extra?: WordExtra
   ) {
-    // Identity = sentence + stripped surface: stable across the w{n} → t{n}
-    // re-key that happens when JA tokens arrive (bug #1). The extra is
-    // re-captured on re-render, so the card picks up fresh lemma/reading.
-    // `matches` keeps the card MOUNTED while pop points here (even after
-    // closePop flips popOpen) so the exit transition can play before the
-    // 420ms unmount; `isOpen` = fully open (highlight + aria + card visible).
-    const matches = !!pop && pop.sentIdx === idx && pop.word === stripPunct(surface);
-    const isOpen = matches && popOpen;
-    // One Tab stop per sentence (roving tabindex): the open word, else the
-    // first word. Others stay mouse-clickable and focus()-able (tabIndex -1).
-    const isStop = rover.wantOpen ? isOpen : !rover.claimed;
+    // Identity = sentence + stripped surface + occurrence ordinal: stable
+    // across the w{n} → t{n} re-key when JA tokens arrive (bug #1), and it
+    // tells duplicate words apart so only the tapped occurrence owns the
+    // card. The extra is re-captured on re-render, so the card picks up a
+    // fresh lemma/reading.
+    // `isTapped` keeps the card MOUNTED while pop points at this exact
+    // occurrence (even after closePop flips popOpen) so the exit transition
+    // can play before the 420ms unmount; `isOpen` = fully open (highlight +
+    // aria + card visible); `isRepeat` = same word elsewhere, highlight only.
+    const clean = stripPunct(surface);
+    // Tap range for studio audio: this token's own word characters — the spaces
+    // and punctuation around it belong to no audio boundary (see trimmedRange).
+    const trim = trimmedRange(surface);
+    const tap: WordTap = {
+      sentenceIdx: idx,
+      charStart: range.start + trim.start,
+      charEnd: range.start + trim.end,
+      text: clean,
+    };
+    const occ = nextOccurrence(rover.seen, clean);
+    const role = tokenRole(
+      pop ? { word: pop.word, sentIdx: pop.sentIdx, occ: pop.occ } : null,
+      { word: clean, sentIdx: idx, occ },
+      extra?.pos
+    );
+    const isTapped = role === "tapped";
+    const isRepeat = role === "repeat";
+    const isOpen = isTapped && popOpen;
+    // One Tab stop per sentence (roving tabindex): the tapped word, else the
+    // first word. `isTapped` is true for exactly one occurrence, so duplicate
+    // words can never add a second Tab stop; others stay mouse-clickable and
+    // focus()-able (tabIndex -1).
+    const isStop = rover.wantOpen ? isTapped : !rover.claimed;
     if (isStop) rover.claimed = true;
     const open = (el: HTMLElement) => {
-      void openWord(idx, surface, sentence, el, extra);
+      void openWord(idx, surface, occ, sentence, el, tap, extra);
     };
     return (
       // The card is a SIBLING of the token (not a child): a dialog nested
       // inside a role=button is invalid ARIA and breaks focus order (#12).
       // z-index lift stays on while the card plays its exit (matches), so it
       // never paints under sibling tokens mid-transition.
-      <span key={key} className={`word-wrap${matches ? " has-open" : ""}`}>
+      <span key={key} className={`word-wrap${isTapped ? " has-open" : ""}`}>
         <span
-          className={`word-token${isOpen ? " active-word" : ""}`}
+          className={`word-token${isOpen ? " active-word" : ""}${isRepeat ? " repeat-match" : ""}`}
           role="button"
           tabIndex={isStop ? 0 : -1}
           aria-haspopup="dialog"
@@ -352,13 +448,15 @@ export default function StoryText({
           {surface}
           {extra?.romaji && showRomaji && <span className="romaji">{extra.romaji}</span>}
         </span>
-        {matches && pop && (
+        {isTapped && pop && (
           <WordPopover
             word={pop.word}
             posPill={pop.posPill}
             lemma={pop.lemma}
             translation={pop.translation}
-            grammar={pop.grammar}
+            meaningSource={pop.meaningSource}
+            contextTarget={pop.contextTarget}
+            contextEn={pop.contextEn}
             align={pop.align}
             vAlign={pop.vAlign}
             open={popOpen}
@@ -369,7 +467,9 @@ export default function StoryText({
               // next kick cancels the word mid-sentence and the card's Speak
               // button appears dead.
               onWordTap();
-              speak(pop.word, story.lang, rate);
+              // Re-speak the SAME occurrence: studio audio replays just that
+              // word (or phrase), otherwise the device voice takes over.
+              if (!(onWordSpeak?.(pop.tap) ?? false)) speak(pop.word, story.lang, rate);
             }}
             onClose={closePop}
           />
@@ -392,7 +492,7 @@ export default function StoryText({
         const popIsHere = !!pop && pop.sentIdx === idx;
         // Fresh per render (StrictMode double-render safe): open word owns
         // the Tab stop while its card is up, else the first word claims it.
-        const rover: Rover = { wantOpen: popIsHere && popOpen, claimed: false };
+        const rover: Rover = { wantOpen: popIsHere && popOpen, claimed: false, seen: new Map() };
         return (
           <div
             key={idx}
@@ -430,8 +530,18 @@ export default function StoryText({
                 // Token ORDER is fixed by the build-time token array (or by the
                 // separator split), so the array index is a stable React key —
                 // it never shifts with which tokens happen to be words.
+                // `cursor` walks the sentence text so every token knows its
+                // character range — that is what maps a tap onto the audio's own
+                // word boundaries (Phase 3), for JA tokens and split words alike.
+                let cursor = 0;
+                const withRange = (surface: string) => {
+                  const range = tokenRange(sentence.target, surface, cursor);
+                  cursor = range.end;
+                  return range;
+                };
                 return tokens && tokens.length
                   ? tokens.map((t, ti) => {
+                      const range = withRange(t.surface ?? "");
                       if (!t.surface) return null;
                       // Symbol-only tokens (、。「」・！) carry nothing to look up:
                       // render them as plain text, exactly like the ES/RU path.
@@ -440,19 +550,22 @@ export default function StoryText({
                       // of those sentences focused something that did nothing.
                       if (!hasWordChar(t.surface))
                         return <span key={`t${ti}`}>{t.surface}</span>;
-                      return wordNode(idx, sentence, `t${ti}`, t.surface, rover, {
+                      return wordNode(idx, sentence, `t${ti}`, t.surface, rover, range, {
                         reading: t.reading,
                         romaji: showRomaji ? t.romaji : undefined,
                         lemma: t.lemma,
+                        pos: t.pos,
+                        affix: affixCandidates(tokens, ti),
                       });
                     })
-                  : splitWords(sentence.target).map((w, wi) =>
-                      !hasWordChar(w) ? (
+                  : splitWords(sentence.target).map((w, wi) => {
+                      const range = withRange(w);
+                      return !hasWordChar(w) ? (
                         <span key={`w${wi}`}>{w}</span>
                       ) : (
-                        wordNode(idx, sentence, `w${wi}`, w, rover)
-                      )
-                    );
+                        wordNode(idx, sentence, `w${wi}`, w, rover, range)
+                      );
+                    });
               })()}
             </div>
             {isRevealed && sentence.en && (

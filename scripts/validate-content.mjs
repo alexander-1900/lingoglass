@@ -88,6 +88,24 @@ for (const file of files) {
   });
 }
 
+// public/audio/ is committed like content/, and a leftover `--fixture` run holds
+// locally synthesized BEEPS in it. Those entries are marked, so shout about them
+// at prebuild rather than shipping test audio as narration.
+try {
+  const manifest = JSON.parse(
+    fs.readFileSync(path.join(root, "public", "audio", "manifest.json"), "utf-8")
+  );
+  const beeps = Object.values(manifest).filter((e) => e?.fixture === true).length;
+  if (beeps)
+    console.warn(
+      `audio warn: public/audio holds ${beeps} FIXTURE entr${beeps === 1 ? "y" : "ies"} — beep audio, not ` +
+        `narration (the reader labels it "Studio Audio · test"). npm run audio:clear, then ` +
+        "regenerate with npm run audio:generate before deploying."
+    );
+} catch {
+  /* no audio generated yet — the reader falls back to Web Speech, which is fine */
+}
+
 for (const w of warnings) console.warn("content warn: " + w);
 if (errors.length) {
   for (const e of errors) console.error("content error: " + e);

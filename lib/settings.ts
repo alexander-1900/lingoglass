@@ -59,3 +59,46 @@ export function getShowRomaji(): boolean {
 export function setShowRomaji(show: boolean): void {
   write(ROMAJI_KEY, show ? "on" : "off");
 }
+
+/* Reading font (story sentences + translations only — headings/logo keep
+   Lobster Two). Each id maps to a next/font/google variable in app/layout.tsx
+   and to a --font-reading override in app/globals.css; the file
+   tests/font-settings.test.ts keeps all three in sync — plus the pre-paint
+   script in layout.tsx, whose id list must match FONTS order below. */
+export const FONTS = [
+  { id: "lobster-two", label: "Lobster Two", cssVar: "--font-lobster-two" },
+  { id: "playfair", label: "Playfair Display", cssVar: "--font-playfair-display" },
+  { id: "lora", label: "Lora", cssVar: "--font-lora" },
+  { id: "merriweather", label: "Merriweather", cssVar: "--font-merriweather" },
+  { id: "garamond", label: "EB Garamond", cssVar: "--font-eb-garamond" },
+  { id: "nunito", label: "Nunito", cssVar: "--font-nunito" },
+  { id: "caveat", label: "Caveat", cssVar: "--font-caveat" },
+] as const;
+
+export type ReadingFont = (typeof FONTS)[number]["id"];
+
+export const DEFAULT_FONT: ReadingFont = "lobster-two";
+
+const FONT_KEY = "lingoglass:font";
+
+/** Current reading font; corrupt/unknown values fall back to the default. */
+export function getFont(): ReadingFont {
+  const raw = read(FONT_KEY);
+  return FONTS.some((f) => f.id === raw) ? (raw as ReadingFont) : DEFAULT_FONT;
+}
+
+/** Persist the choice AND re-point <html data-font> so the change is visible
+ *  on this page immediately (the pre-paint script in layout.tsx applies the
+ *  stored value on the next full load). */
+export function setFont(font: ReadingFont): void {
+  if (!FONTS.some((f) => f.id === font)) return;
+  write(FONT_KEY, font);
+  applyFont(font);
+}
+
+/** Set <html data-font> without persisting — used to re-assert the stored
+ *  choice after mount (defence in depth: the pre-paint script already ran). */
+export function applyFont(font: ReadingFont): void {
+  if (typeof document === "undefined") return;
+  document.documentElement.setAttribute("data-font", font);
+}

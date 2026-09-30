@@ -1,5 +1,7 @@
 "use client";
 
+import type { StoryAudioSource } from "@/lib/story-audio";
+
 interface Props {
   playing: boolean;
   currentIdx: number;
@@ -7,6 +9,10 @@ interface Props {
   supported: boolean;
   rate: number;
   speeds: number[];
+  /** "studio" = pre-generated neural MP3, "native" = device speech synthesis. */
+  source?: StoryAudioSource;
+  /** The studio audio is locally synthesized test audio (not real narration). */
+  fixture?: boolean;
   onToggle: () => void;
   onSeek: (idx: number) => void;
   onRate: (rate: number) => void;
@@ -20,6 +26,8 @@ export default function AudioPlayer({
   supported,
   rate,
   speeds,
+  source = "native",
+  fixture = false,
   onToggle,
   onSeek,
   onRate,
@@ -112,13 +120,27 @@ export default function AudioPlayer({
         <span aria-hidden="true">{total}</span>
       </div>
 
-      <div className="pill-btn active" style={{ fontSize: "0.75rem", padding: "6px 12px" }}>
+      <div
+        className="pill-btn active"
+        style={{ fontSize: "0.75rem", padding: "6px 12px" }}
+        title={
+          source !== "studio"
+            ? "Narration synthesised by your device's built-in voice"
+            : fixture
+              ? "Test audio (beeps): run `npm run audio:generate` for real narration"
+              : "Neural narration from pre-generated studio audio"
+        }
+      >
         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden="true">
           <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
           <path d="M19 10v1a7 7 0 0 1-14 0v-1" />
           <line x1="12" y1="19" x2="12" y2="22" />
         </svg>
-        Native Audio Sync
+        {source === "studio"
+          ? fixture
+            ? "Studio Audio · test"
+            : "Studio Audio"
+          : "Native Audio Sync"}
       </div>
 
       <div className="player-subrow">

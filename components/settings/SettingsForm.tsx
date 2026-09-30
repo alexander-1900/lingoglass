@@ -3,14 +3,20 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import {
+  DEFAULT_FONT,
   DEFAULT_MODE,
   DEFAULT_RATE,
+  FONTS,
   MODES,
   ParallelMode,
+  ReadingFont,
   SPEEDS,
+  applyFont,
+  getFont,
   getMode,
   getRate,
   getShowRomaji,
+  setFont,
   setMode,
   setRate,
   setShowRomaji,
@@ -25,11 +31,15 @@ export default function SettingsForm() {
   const [rate, setRateState] = useState<number>(DEFAULT_RATE);
   const [mode, setModeState] = useState<ParallelMode>(DEFAULT_MODE);
   const [romaji, setRomajiState] = useState<boolean>(true);
+  const [font, setFontState] = useState<ReadingFont>(DEFAULT_FONT);
 
   useEffect(() => {
     setRateState(getRate());
     setModeState(getMode());
     setRomajiState(getShowRomaji());
+    const storedFont = getFont();
+    setFontState(storedFont);
+    applyFont(storedFont); // re-assert the pre-paint value once React owns the page
   }, []);
 
   return (
@@ -92,6 +102,35 @@ export default function SettingsForm() {
         <p className="setting-note">
           Current: {MODES.find((m) => m.id === mode)?.hint}
           {mode === DEFAULT_MODE ? " (default)" : ""}
+        </p>
+      </div>
+
+      <div className="glass-container setting-block">
+        <h2>Reading font</h2>
+        <p>
+          Typeface for story sentences and their translations — the same choice as the font button
+          in the reader bar. Headings keep the brand font.
+        </p>
+        <div className="layout-toggle-group" role="group" aria-label="Reading font">
+          {FONTS.map((f) => (
+            <button
+              key={f.id}
+              className={`pill-btn${font === f.id ? " active" : ""}`}
+              aria-pressed={font === f.id}
+              title={`Read stories in ${f.label}`}
+              onClick={() => {
+                setFontState(f.id);
+                setFont(f.id);
+              }}
+            >
+              {/* the label renders in its own face — the pill is the preview */}
+              <span style={{ fontFamily: `var(${f.cssVar})` }}>{f.label}</span>
+            </button>
+          ))}
+        </div>
+        <p className="setting-note">
+          Current: {FONTS.find((f) => f.id === font)?.label}
+          {font === DEFAULT_FONT ? " (default)" : ""}
         </p>
       </div>
 

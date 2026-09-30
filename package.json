@@ -8,7 +8,11 @@
     "start": "next start",
     "typecheck": "tsc --noEmit --incremental false",
     "lint": "eslint .",
-    "test": "vitest run"
+    "test": "vitest run",
+    "audio:generate": "node scripts/generate-audio.mjs",
+    "audio:fixture": "node scripts/generate-audio.mjs --fixture",
+    "audio:clear": "node scripts/clear-audio.mjs",
+    "deploy": "wrangler pages deploy out --project-name=lingoglass --commit-dirty=true"
   },
   "dependencies": {
     "next": "15.5.26",

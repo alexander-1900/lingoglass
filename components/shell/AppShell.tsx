@@ -38,7 +38,6 @@ function VocabToggle({
   return (
     <button
       className={`round-btn ${className}`}
-      style={{ width: 36, height: 36 }}
       onClick={onToggle}
       aria-expanded={expanded}
       aria-label={label}
@@ -117,7 +116,6 @@ export default function AppShell({
           </Link>
           <button
             className="round-btn side-toggle"
-            style={{ width: 32, height: 32 }}
             onClick={toggleSide}
             aria-expanded={sideOpen}
             aria-label={sideOpen ? "Collapse sidebar" : "Expand sidebar"}

@@ -1,4 +1,11 @@
 # Story content must stay LF: the CRLF frontmatter outage (Sep 2026, 50/80
 # stories titleless) is exactly what this prevents at the VCS layer.
 content/**/*.md text eol=lf
+
+# Generated story audio (scripts/generate-audio.mjs). core.autocrlf=true on Windows
+# would otherwise line-end-convert these: an MP3 is binary and must reach a checkout
+# byte-for-byte, and a timing JSON is content-hashed by name, so both are pinned.
+*.mp3 binary
+public/audio/**/*.json text eol=lf
+
 *.md text eol=lf

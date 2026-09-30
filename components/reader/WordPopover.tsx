@@ -1,15 +1,28 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
+import type { MeaningSource } from "@/lib/ja-morphology";
 
 type PopAlign = "center" | "left" | "right";
+
+/** Phone breakpoint: below this the card becomes a bottom sheet. Must stay in
+ *  sync with the sheet styles in app/globals.css (base rules vs the
+ *  @media (min-width: 768px) block). */
+const SHEET_QUERY = "(max-width: 767px)";
 
 interface Props {
   word: string;
   posPill: string;
   lemma?: string;
   translation: string;
-  grammar?: string;
+  /** "none" → the card admits it has no entry instead of borrowing the
+   *  sentence translation as a definition (they look nothing alike to a
+   *  learner tapping a word they don't know). */
+  meaningSource?: MeaningSource;
+  /** Sentence shown under the "In this sentence" label — context, not a gloss. */
+  contextTarget?: string;
+  contextEn?: string;
   align?: PopAlign;
   vAlign?: "above" | "below";
   /** Controlled visibility: false plays the exit transition before unmount. */
@@ -30,7 +43,9 @@ export default function WordPopover({
   posPill,
   lemma,
   translation,
-  grammar,
+  meaningSource,
+  contextTarget,
+  contextEn,
   align = "center",
   vAlign = "above",
   open,
@@ -56,6 +71,22 @@ export default function WordPopover({
     if (!open) setArmed(false);
   }, [open]);
 
+  // Phone (<768px): render as a fixed bottom sheet PORTALED TO <body>.
+  // The reading ancestors (.reader-workspace.glass-container) carry
+  // backdrop-filter, which captures position:fixed — a sheet left inside
+  // them would be trapped in the scrolling workspace. Desktop keeps the
+  // word-anchored card exactly where it is.
+  const [asSheet, setAsSheet] = useState<boolean>(() =>
+    typeof window !== "undefined" ? window.matchMedia(SHEET_QUERY).matches : false
+  );
+  useEffect(() => {
+    const mq = window.matchMedia(SHEET_QUERY);
+    const onChange = () => setAsSheet(mq.matches);
+    onChange(); // a rotate between render and mount still counts
+    mq.addEventListener("change", onChange);
+    return () => mq.removeEventListener("change", onChange);
+  }, []);
+
   // Escape dismisses the card (outside clicks are handled by the workspace).
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -79,19 +110,21 @@ export default function WordPopover({
       restoreRef.current?.focus();
       restoreRef.current = null;
     };
-  }, [open]);
+    // asSheet: a rotate while open moves the card between DOM roots — focus
+    // hands back to the word and then into the card again.
+  }, [open, asSheet]);
 
   const alignClass = align === "center" ? "" : ` align-${align}`;
   const vClass = vAlign === "below" ? " below" : "";
   const visible = open && armed;
 
-  return (
+  const card = (
     <div
       ref={cardRef}
       tabIndex={-1}
       className={`word-popover glass-panel-heavy in-word${visible ? " active" : ""}${alignClass}${vClass}`}
       role="dialog"
-      aria-modal={false}
+      aria-modal={asSheet}
       aria-label={`Definition of ${word}`}
       onClick={(e) => e.stopPropagation()}
     >
@@ -100,8 +133,18 @@ export default function WordPopover({
         <span className="popover-pos">{posPill}</span>
       </span>
       {lemma ? <span className="popover-lemma">{lemma}</span> : null}
-      <span className="popover-translation">{translation}</span>
-      {grammar ? <span className="popover-grammar-notes">{grammar}</span> : null}
+      {meaningSource === "none" ? (
+        <span className="popover-none">No dictionary entry yet</span>
+      ) : (
+        <span className="popover-translation">{translation}</span>
+      )}
+      {contextTarget || contextEn ? (
+        <span className="popover-context">
+          <span className="popover-context-label">In this sentence</span>
+          {contextTarget ? <span className="popover-context-target">{contextTarget}</span> : null}
+          {contextEn ? <span className="popover-context-en">{contextEn}</span> : null}
+        </span>
+      ) : null}
       <span className="popover-actions">
         <button className="popover-btn btn-pronounce" onClick={onSpeak} aria-label={`Hear ${word}`} title="Speak native pronunciation">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -126,4 +169,23 @@ export default function WordPopover({
       <span className="popover-arrow" aria-hidden="true" />
     </div>
   );
+
+  // Sheet mode: portal card + dimmer past the backdrop-filtered reader
+  // containers to <body>, so the fixed positioning is truly viewport-level
+  // (see globals.css). Tapping the scrim dismisses — the touch equivalent of
+  // the desktop's click-outside-to-close.
+  if (asSheet) {
+    return createPortal(
+      <>
+        <div
+          className={`word-popover-scrim${visible ? " active" : ""}`}
+          onClick={onClose}
+          aria-hidden="true"
+        />
+        {card}
+      </>,
+      document.body
+    );
+  }
+  return card;
 }
