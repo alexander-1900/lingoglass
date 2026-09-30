@@ -1,5 +1,20 @@
-# Deployed-host security headers (Cloudflare Pages / Netlify read this file —
-# next.config.mjs covers `next dev` only; output: export ignores headers()).
+# Deployed-host response headers (Cloudflare Pages / Netlify read this file —
+# next.config.mjs covers `next dev` only; `output: "export"` ignores headers()).
+#
+# Cloudflare Pages matches only ONE wildcard per path pattern: `/audio/*/*.mp3`
+# looks right and silently never matches (measured against a live deployment).
+# `/audio/*.mp3` does match nested paths, because `*` spans `/` here. Blocks are
+# not mutually exclusive — `/*` below still layers the security headers onto audio.
+#
+# Story audio (scripts/generate-audio.mjs): mp3 names embed the content hash, so an
+# edited story is a NEW URL and immutable caching can never serve stale bytes. The
+# timing JSON stays on the default revalidating policy on purpose: it is ~15 KB, it
+# is what keeps highlighting honest, and manifest.json keeps a fixed name — caching
+# it would have readers play yesterday's audio for weeks.
+/audio/manifest.json
+  Cache-Control: public, max-age=0, must-revalidate
+/audio/*.mp3
+  Cache-Control: public, max-age=31536000, immutable
 /*
   Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; connect-src 'self'; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
   Strict-Transport-Security: max-age=31536000; includeSubDomains
@@ -9,13 +24,3 @@
   X-Frame-Options: DENY
   Referrer-Policy: strict-origin-when-cross-origin
 
-# Story audio (scripts/generate-audio.mjs): the mp3/json names embed the content
-# hash, so an edited story gets a NEW URL — immutable caching is always safe.
-# manifest.json keeps a fixed name and must stay revalidatable, or readers would
-# play yesterday's audio for weeks.
-/audio/*/*.mp3
-  Cache-Control: public, max-age=31536000, immutable
-/audio/*/*.json
-  Cache-Control: public, max-age=31536000, immutable
-/audio/manifest.json
-  Cache-Control: public, max-age=0, must-revalidate
