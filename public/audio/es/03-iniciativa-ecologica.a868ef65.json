@@ -1,0 +1,949 @@
+{
+  "version": 3,
+  "lang": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 48522,
+  "sentences": [
+    {
+      "text": "Los vecinos del barrio estaban preocupados por la acumulación excesiva de plásticos urbanos.",
+      "startMs": 0,
+      "endMs": 4728,
+      "words": [
+        {
+          "text": "Los",
+          "startMs": 100,
+          "endMs": 330,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "vecinos",
+          "startMs": 340,
+          "endMs": 660,
+          "charStart": 4,
+          "charEnd": 11
+        },
+        {
+          "text": "del",
+          "startMs": 670,
+          "endMs": 770,
+          "charStart": 12,
+          "charEnd": 15
+        },
+        {
+          "text": "barrio",
+          "startMs": 780,
+          "endMs": 1080,
+          "charStart": 16,
+          "charEnd": 22
+        },
+        {
+          "text": "estaban",
+          "startMs": 1090,
+          "endMs": 1400,
+          "charStart": 23,
+          "charEnd": 30
+        },
+        {
+          "text": "preocupados",
+          "startMs": 1410,
+          "endMs": 1920,
+          "charStart": 31,
+          "charEnd": 42
+        },
+        {
+          "text": "por",
+          "startMs": 1930,
+          "endMs": 2060,
+          "charStart": 43,
+          "charEnd": 46
+        },
+        {
+          "text": "la",
+          "startMs": 2070,
+          "endMs": 2130,
+          "charStart": 47,
+          "charEnd": 49
+        },
+        {
+          "text": "acumulación",
+          "startMs": 2140,
+          "endMs": 2590,
+          "charStart": 50,
+          "charEnd": 61
+        },
+        {
+          "text": "excesiva",
+          "startMs": 2600,
+          "endMs": 3000,
+          "charStart": 62,
+          "charEnd": 70
+        },
+        {
+          "text": "de",
+          "startMs": 3010,
+          "endMs": 3100,
+          "charStart": 71,
+          "charEnd": 73
+        },
+        {
+          "text": "plásticos",
+          "startMs": 3110,
+          "endMs": 3500,
+          "charStart": 74,
+          "charEnd": 83
+        },
+        {
+          "text": "urbanos",
+          "startMs": 3510,
+          "endMs": 4040,
+          "charStart": 84,
+          "charEnd": 91
+        }
+      ]
+    },
+    {
+      "text": "Por esa razón, convocaron una reunión extraordinaria en el centro comunitario local.",
+      "startMs": 4978,
+      "endMs": 9442,
+      "words": [
+        {
+          "text": "Por",
+          "startMs": 5078,
+          "endMs": 5268,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "esa",
+          "startMs": 5278,
+          "endMs": 5418,
+          "charStart": 4,
+          "charEnd": 7
+        },
+        {
+          "text": "razón",
+          "startMs": 5428,
+          "endMs": 5778,
+          "charStart": 8,
+          "charEnd": 13
+        },
+        {
+          "text": "convocaron",
+          "startMs": 5968,
+          "endMs": 6418,
+          "charStart": 15,
+          "charEnd": 25
+        },
+        {
+          "text": "una",
+          "startMs": 6428,
+          "endMs": 6528,
+          "charStart": 26,
+          "charEnd": 29
+        },
+        {
+          "text": "reunión",
+          "startMs": 6538,
+          "endMs": 6828,
+          "charStart": 30,
+          "charEnd": 37
+        },
+        {
+          "text": "extraordinaria",
+          "startMs": 6838,
+          "endMs": 7418,
+          "charStart": 38,
+          "charEnd": 52
+        },
+        {
+          "text": "en",
+          "startMs": 7428,
+          "endMs": 7488,
+          "charStart": 53,
+          "charEnd": 55
+        },
+        {
+          "text": "el",
+          "startMs": 7498,
+          "endMs": 7598,
+          "charStart": 56,
+          "charEnd": 58
+        },
+        {
+          "text": "centro",
+          "startMs": 7608,
+          "endMs": 7838,
+          "charStart": 59,
+          "charEnd": 65
+        },
+        {
+          "text": "comunitario",
+          "startMs": 7848,
+          "endMs": 8298,
+          "charStart": 66,
+          "charEnd": 77
+        },
+        {
+          "text": "local",
+          "startMs": 8308,
+          "endMs": 8748,
+          "charStart": 78,
+          "charEnd": 83
+        }
+      ]
+    },
+    {
+      "text": "Una joven bióloga propuso que organizaran jornadas voluntarias de limpieza cada mes.",
+      "startMs": 9692,
+      "endMs": 14060,
+      "words": [
+        {
+          "text": "Una",
+          "startMs": 9792,
+          "endMs": 10032,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "joven",
+          "startMs": 10042,
+          "endMs": 10302,
+          "charStart": 4,
+          "charEnd": 9
+        },
+        {
+          "text": "bióloga",
+          "startMs": 10312,
+          "endMs": 10632,
+          "charStart": 10,
+          "charEnd": 17
+        },
+        {
+          "text": "propuso",
+          "startMs": 10642,
+          "endMs": 10992,
+          "charStart": 18,
+          "charEnd": 25
+        },
+        {
+          "text": "que",
+          "startMs": 11002,
+          "endMs": 11082,
+          "charStart": 26,
+          "charEnd": 29
+        },
+        {
+          "text": "organizaran",
+          "startMs": 11092,
+          "endMs": 11542,
+          "charStart": 30,
+          "charEnd": 41
+        },
+        {
+          "text": "jornadas",
+          "startMs": 11552,
+          "endMs": 11922,
+          "charStart": 42,
+          "charEnd": 50
+        },
+        {
+          "text": "voluntarias",
+          "startMs": 11932,
+          "endMs": 12392,
+          "charStart": 51,
+          "charEnd": 62
+        },
+        {
+          "text": "de",
+          "startMs": 12402,
+          "endMs": 12462,
+          "charStart": 63,
+          "charEnd": 65
+        },
+        {
+          "text": "limpieza",
+          "startMs": 12472,
+          "endMs": 12832,
+          "charStart": 66,
+          "charEnd": 74
+        },
+        {
+          "text": "cada",
+          "startMs": 12842,
+          "endMs": 13022,
+          "charStart": 75,
+          "charEnd": 79
+        },
+        {
+          "text": "mes",
+          "startMs": 13032,
+          "endMs": 13382,
+          "charStart": 80,
+          "charEnd": 83
+        }
+      ]
+    },
+    {
+      "text": "Muchos dudaban de que la gente participara de manera constante y desinteresada.",
+      "startMs": 14310,
+      "endMs": 18318,
+      "words": [
+        {
+          "text": "Muchos",
+          "startMs": 14405,
+          "endMs": 14745,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "dudaban",
+          "startMs": 14755,
+          "endMs": 15045,
+          "charStart": 7,
+          "charEnd": 14
+        },
+        {
+          "text": "de",
+          "startMs": 15055,
+          "endMs": 15125,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "que",
+          "startMs": 15135,
+          "endMs": 15205,
+          "charStart": 18,
+          "charEnd": 21
+        },
+        {
+          "text": "la",
+          "startMs": 15215,
+          "endMs": 15295,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "gente",
+          "startMs": 15305,
+          "endMs": 15555,
+          "charStart": 25,
+          "charEnd": 30
+        },
+        {
+          "text": "participara",
+          "startMs": 15565,
+          "endMs": 16025,
+          "charStart": 31,
+          "charEnd": 42
+        },
+        {
+          "text": "de",
+          "startMs": 16035,
+          "endMs": 16095,
+          "charStart": 43,
+          "charEnd": 45
+        },
+        {
+          "text": "manera",
+          "startMs": 16105,
+          "endMs": 16365,
+          "charStart": 46,
+          "charEnd": 52
+        },
+        {
+          "text": "constante",
+          "startMs": 16375,
+          "endMs": 16815,
+          "charStart": 53,
+          "charEnd": 62
+        },
+        {
+          "text": "y",
+          "startMs": 16825,
+          "endMs": 16855,
+          "charStart": 63,
+          "charEnd": 64
+        },
+        {
+          "text": "desinteresada",
+          "startMs": 16865,
+          "endMs": 17615,
+          "charStart": 65,
+          "charEnd": 78
+        }
+      ]
+    },
+    {
+      "text": "No obstante, en la primera jornada se presentaron más de cincuenta personas entusiastas.",
+      "startMs": 18568,
+      "endMs": 23200,
+      "words": [
+        {
+          "text": "No",
+          "startMs": 18668,
+          "endMs": 18868,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "obstante",
+          "startMs": 18878,
+          "endMs": 19328,
+          "charStart": 3,
+          "charEnd": 11
+        },
+        {
+          "text": "en",
+          "startMs": 19548,
+          "endMs": 19598,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "la",
+          "startMs": 19608,
+          "endMs": 19688,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "primera",
+          "startMs": 19698,
+          "endMs": 19948,
+          "charStart": 19,
+          "charEnd": 26
+        },
+        {
+          "text": "jornada",
+          "startMs": 19958,
+          "endMs": 20338,
+          "charStart": 27,
+          "charEnd": 34
+        },
+        {
+          "text": "se",
+          "startMs": 20348,
+          "endMs": 20458,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "presentaron",
+          "startMs": 20468,
+          "endMs": 20878,
+          "charStart": 38,
+          "charEnd": 49
+        },
+        {
+          "text": "más",
+          "startMs": 20888,
+          "endMs": 21018,
+          "charStart": 50,
+          "charEnd": 53
+        },
+        {
+          "text": "de",
+          "startMs": 21028,
+          "endMs": 21098,
+          "charStart": 54,
+          "charEnd": 56
+        },
+        {
+          "text": "cincuenta",
+          "startMs": 21108,
+          "endMs": 21478,
+          "charStart": 57,
+          "charEnd": 66
+        },
+        {
+          "text": "personas",
+          "startMs": 21488,
+          "endMs": 21848,
+          "charStart": 67,
+          "charEnd": 75
+        },
+        {
+          "text": "entusiastas",
+          "startMs": 21858,
+          "endMs": 22518,
+          "charStart": 76,
+          "charEnd": 87
+        }
+      ]
+    },
+    {
+      "text": "Mientras unos recogían residuos en el parque, otros instalaban contenedores de reciclaje.",
+      "startMs": 23450,
+      "endMs": 28130,
+      "words": [
+        {
+          "text": "Mientras",
+          "startMs": 23545,
+          "endMs": 23925,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "unos",
+          "startMs": 23935,
+          "endMs": 24095,
+          "charStart": 9,
+          "charEnd": 13
+        },
+        {
+          "text": "recogían",
+          "startMs": 24105,
+          "endMs": 24505,
+          "charStart": 14,
+          "charEnd": 22
+        },
+        {
+          "text": "residuos",
+          "startMs": 24515,
+          "endMs": 24915,
+          "charStart": 23,
+          "charEnd": 31
+        },
+        {
+          "text": "en",
+          "startMs": 24925,
+          "endMs": 24995,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "el",
+          "startMs": 25005,
+          "endMs": 25095,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "parque",
+          "startMs": 25105,
+          "endMs": 25425,
+          "charStart": 38,
+          "charEnd": 44
+        },
+        {
+          "text": "otros",
+          "startMs": 25605,
+          "endMs": 25805,
+          "charStart": 46,
+          "charEnd": 51
+        },
+        {
+          "text": "instalaban",
+          "startMs": 25815,
+          "endMs": 26255,
+          "charStart": 52,
+          "charEnd": 62
+        },
+        {
+          "text": "contenedores",
+          "startMs": 26265,
+          "endMs": 26755,
+          "charStart": 63,
+          "charEnd": 75
+        },
+        {
+          "text": "de",
+          "startMs": 26765,
+          "endMs": 26825,
+          "charStart": 76,
+          "charEnd": 78
+        },
+        {
+          "text": "reciclaje",
+          "startMs": 26835,
+          "endMs": 27435,
+          "charStart": 79,
+          "charEnd": 88
+        }
+      ]
+    },
+    {
+      "text": "El ayuntamiento colaboró proporcionando guantes resistentes, bolsas biodegradables y herramientas adecuadas.",
+      "startMs": 28380,
+      "endMs": 33804,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 28480,
+          "endMs": 28650,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "ayuntamiento",
+          "startMs": 28660,
+          "endMs": 29130,
+          "charStart": 3,
+          "charEnd": 15
+        },
+        {
+          "text": "colaboró",
+          "startMs": 29140,
+          "endMs": 29480,
+          "charStart": 16,
+          "charEnd": 24
+        },
+        {
+          "text": "proporcionando",
+          "startMs": 29490,
+          "endMs": 30070,
+          "charStart": 25,
+          "charEnd": 39
+        },
+        {
+          "text": "guantes",
+          "startMs": 30080,
+          "endMs": 30370,
+          "charStart": 40,
+          "charEnd": 47
+        },
+        {
+          "text": "resistentes",
+          "startMs": 30380,
+          "endMs": 31000,
+          "charStart": 48,
+          "charEnd": 59
+        },
+        {
+          "text": "bolsas",
+          "startMs": 31210,
+          "endMs": 31490,
+          "charStart": 61,
+          "charEnd": 67
+        },
+        {
+          "text": "biodegradables",
+          "startMs": 31500,
+          "endMs": 32070,
+          "charStart": 68,
+          "charEnd": 82
+        },
+        {
+          "text": "y",
+          "startMs": 32080,
+          "endMs": 32100,
+          "charStart": 83,
+          "charEnd": 84
+        },
+        {
+          "text": "herramientas",
+          "startMs": 32110,
+          "endMs": 32530,
+          "charStart": 85,
+          "charEnd": 97
+        },
+        {
+          "text": "adecuadas",
+          "startMs": 32540,
+          "endMs": 33110,
+          "charStart": 98,
+          "charEnd": 107
+        }
+      ]
+    },
+    {
+      "text": "En pocos meses, el aspecto de las calles mejoró notablemente gracias al esfuerzo colectivo.",
+      "startMs": 34054,
+      "endMs": 38782,
+      "words": [
+        {
+          "text": "En",
+          "startMs": 34154,
+          "endMs": 34364,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "pocos",
+          "startMs": 34374,
+          "endMs": 34614,
+          "charStart": 3,
+          "charEnd": 8
+        },
+        {
+          "text": "meses",
+          "startMs": 34624,
+          "endMs": 34974,
+          "charStart": 9,
+          "charEnd": 14
+        },
+        {
+          "text": "el",
+          "startMs": 35154,
+          "endMs": 35234,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "aspecto",
+          "startMs": 35244,
+          "endMs": 35544,
+          "charStart": 19,
+          "charEnd": 26
+        },
+        {
+          "text": "de",
+          "startMs": 35554,
+          "endMs": 35614,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "las",
+          "startMs": 35624,
+          "endMs": 35754,
+          "charStart": 30,
+          "charEnd": 33
+        },
+        {
+          "text": "calles",
+          "startMs": 35764,
+          "endMs": 36014,
+          "charStart": 34,
+          "charEnd": 40
+        },
+        {
+          "text": "mejoró",
+          "startMs": 36024,
+          "endMs": 36284,
+          "charStart": 41,
+          "charEnd": 47
+        },
+        {
+          "text": "notablemente",
+          "startMs": 36294,
+          "endMs": 36824,
+          "charStart": 48,
+          "charEnd": 60
+        },
+        {
+          "text": "gracias",
+          "startMs": 36834,
+          "endMs": 37154,
+          "charStart": 61,
+          "charEnd": 68
+        },
+        {
+          "text": "al",
+          "startMs": 37164,
+          "endMs": 37234,
+          "charStart": 69,
+          "charEnd": 71
+        },
+        {
+          "text": "esfuerzo",
+          "startMs": 37244,
+          "endMs": 37564,
+          "charStart": 72,
+          "charEnd": 80
+        },
+        {
+          "text": "colectivo",
+          "startMs": 37574,
+          "endMs": 38104,
+          "charStart": 81,
+          "charEnd": 90
+        }
+      ]
+    },
+    {
+      "text": "Los organizadores esperan que otros distritos de la ciudad sigan este excelente modelo.",
+      "startMs": 39032,
+      "endMs": 43472,
+      "words": [
+        {
+          "text": "Los",
+          "startMs": 39132,
+          "endMs": 39372,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "organizadores",
+          "startMs": 39382,
+          "endMs": 39942,
+          "charStart": 4,
+          "charEnd": 17
+        },
+        {
+          "text": "esperan",
+          "startMs": 39952,
+          "endMs": 40272,
+          "charStart": 18,
+          "charEnd": 25
+        },
+        {
+          "text": "que",
+          "startMs": 40282,
+          "endMs": 40382,
+          "charStart": 26,
+          "charEnd": 29
+        },
+        {
+          "text": "otros",
+          "startMs": 40392,
+          "endMs": 40582,
+          "charStart": 30,
+          "charEnd": 35
+        },
+        {
+          "text": "distritos",
+          "startMs": 40592,
+          "endMs": 40992,
+          "charStart": 36,
+          "charEnd": 45
+        },
+        {
+          "text": "de",
+          "startMs": 41002,
+          "endMs": 41062,
+          "charStart": 46,
+          "charEnd": 48
+        },
+        {
+          "text": "la",
+          "startMs": 41072,
+          "endMs": 41152,
+          "charStart": 49,
+          "charEnd": 51
+        },
+        {
+          "text": "ciudad",
+          "startMs": 41162,
+          "endMs": 41442,
+          "charStart": 52,
+          "charEnd": 58
+        },
+        {
+          "text": "sigan",
+          "startMs": 41452,
+          "endMs": 41732,
+          "charStart": 59,
+          "charEnd": 64
+        },
+        {
+          "text": "este",
+          "startMs": 41742,
+          "endMs": 41902,
+          "charStart": 65,
+          "charEnd": 69
+        },
+        {
+          "text": "excelente",
+          "startMs": 41912,
+          "endMs": 42322,
+          "charStart": 70,
+          "charEnd": 79
+        },
+        {
+          "text": "modelo",
+          "startMs": 42332,
+          "endMs": 42772,
+          "charStart": 80,
+          "charEnd": 86
+        }
+      ]
+    },
+    {
+      "text": "El proyecto demostró que la colaboración ciudadana puede transformar positivamente nuestro entorno.",
+      "startMs": 43722,
+      "endMs": 48522,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 43817,
+          "endMs": 43997,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "proyecto",
+          "startMs": 44007,
+          "endMs": 44347,
+          "charStart": 3,
+          "charEnd": 11
+        },
+        {
+          "text": "demostró",
+          "startMs": 44357,
+          "endMs": 44717,
+          "charStart": 12,
+          "charEnd": 20
+        },
+        {
+          "text": "que",
+          "startMs": 44727,
+          "endMs": 44797,
+          "charStart": 21,
+          "charEnd": 24
+        },
+        {
+          "text": "la",
+          "startMs": 44807,
+          "endMs": 44877,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "colaboración",
+          "startMs": 44887,
+          "endMs": 45377,
+          "charStart": 28,
+          "charEnd": 40
+        },
+        {
+          "text": "ciudadana",
+          "startMs": 45387,
+          "endMs": 45837,
+          "charStart": 41,
+          "charEnd": 50
+        },
+        {
+          "text": "puede",
+          "startMs": 45847,
+          "endMs": 46067,
+          "charStart": 51,
+          "charEnd": 56
+        },
+        {
+          "text": "transformar",
+          "startMs": 46077,
+          "endMs": 46527,
+          "charStart": 57,
+          "charEnd": 68
+        },
+        {
+          "text": "positivamente",
+          "startMs": 46537,
+          "endMs": 47117,
+          "charStart": 69,
+          "charEnd": 82
+        },
+        {
+          "text": "nuestro",
+          "startMs": 47127,
+          "endMs": 47327,
+          "charStart": 83,
+          "charEnd": 90
+        },
+        {
+          "text": "entorno",
+          "startMs": 47337,
+          "endMs": 47827,
+          "charStart": 91,
+          "charEnd": 98
+        }
+      ]
+    }
+  ]
+}

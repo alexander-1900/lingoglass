@@ -1,0 +1,501 @@
+{
+  "version": 3,
+  "lang": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 25698,
+  "sentences": [
+    {
+      "text": "Sofía tiene un perro muy simpático.",
+      "startMs": 0,
+      "endMs": 2496,
+      "words": [
+        {
+          "text": "Sofía",
+          "startMs": 100,
+          "endMs": 520,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "tiene",
+          "startMs": 530,
+          "endMs": 710,
+          "charStart": 6,
+          "charEnd": 11
+        },
+        {
+          "text": "un",
+          "startMs": 720,
+          "endMs": 810,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "perro",
+          "startMs": 820,
+          "endMs": 1020,
+          "charStart": 15,
+          "charEnd": 20
+        },
+        {
+          "text": "muy",
+          "startMs": 1030,
+          "endMs": 1170,
+          "charStart": 21,
+          "charEnd": 24
+        },
+        {
+          "text": "simpático",
+          "startMs": 1180,
+          "endMs": 1810,
+          "charStart": 25,
+          "charEnd": 34
+        }
+      ]
+    },
+    {
+      "text": "El perro se llama Toby.",
+      "startMs": 2746,
+      "endMs": 4642,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 2841,
+          "endMs": 3031,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "perro",
+          "startMs": 3041,
+          "endMs": 3251,
+          "charStart": 3,
+          "charEnd": 8
+        },
+        {
+          "text": "se",
+          "startMs": 3261,
+          "endMs": 3381,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "llama",
+          "startMs": 3391,
+          "endMs": 3581,
+          "charStart": 12,
+          "charEnd": 17
+        },
+        {
+          "text": "Toby",
+          "startMs": 3591,
+          "endMs": 3951,
+          "charStart": 18,
+          "charEnd": 22
+        }
+      ]
+    },
+    {
+      "text": "Toby es blanco, pequeño y juguetón.",
+      "startMs": 4892,
+      "endMs": 7436,
+      "words": [
+        {
+          "text": "Toby",
+          "startMs": 4992,
+          "endMs": 5252,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "es",
+          "startMs": 5262,
+          "endMs": 5342,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "blanco",
+          "startMs": 5352,
+          "endMs": 5722,
+          "charStart": 8,
+          "charEnd": 14
+        },
+        {
+          "text": "pequeño",
+          "startMs": 5872,
+          "endMs": 6152,
+          "charStart": 16,
+          "charEnd": 23
+        },
+        {
+          "text": "y",
+          "startMs": 6162,
+          "endMs": 6192,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "juguetón",
+          "startMs": 6202,
+          "endMs": 6752,
+          "charStart": 26,
+          "charEnd": 34
+        }
+      ]
+    },
+    {
+      "text": "Por la mañana ellos van al parque.",
+      "startMs": 7686,
+      "endMs": 9942,
+      "words": [
+        {
+          "text": "Por",
+          "startMs": 7781,
+          "endMs": 7951,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "la",
+          "startMs": 7961,
+          "endMs": 8021,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "mañana",
+          "startMs": 8031,
+          "endMs": 8341,
+          "charStart": 7,
+          "charEnd": 13
+        },
+        {
+          "text": "ellos",
+          "startMs": 8351,
+          "endMs": 8571,
+          "charStart": 14,
+          "charEnd": 19
+        },
+        {
+          "text": "van",
+          "startMs": 8581,
+          "endMs": 8711,
+          "charStart": 20,
+          "charEnd": 23
+        },
+        {
+          "text": "al",
+          "startMs": 8721,
+          "endMs": 8811,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "parque",
+          "startMs": 8821,
+          "endMs": 9241,
+          "charStart": 27,
+          "charEnd": 33
+        }
+      ]
+    },
+    {
+      "text": "Toby corre rápido por la hierba.",
+      "startMs": 10192,
+      "endMs": 12376,
+      "words": [
+        {
+          "text": "Toby",
+          "startMs": 10292,
+          "endMs": 10532,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "corre",
+          "startMs": 10542,
+          "endMs": 10752,
+          "charStart": 5,
+          "charEnd": 10
+        },
+        {
+          "text": "rápido",
+          "startMs": 10762,
+          "endMs": 11072,
+          "charStart": 11,
+          "charEnd": 17
+        },
+        {
+          "text": "por",
+          "startMs": 11082,
+          "endMs": 11202,
+          "charStart": 18,
+          "charEnd": 21
+        },
+        {
+          "text": "la",
+          "startMs": 11212,
+          "endMs": 11282,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "hierba",
+          "startMs": 11292,
+          "endMs": 11692,
+          "charStart": 25,
+          "charEnd": 31
+        }
+      ]
+    },
+    {
+      "text": "Sofía lanza una pelota roja pequeña.",
+      "startMs": 12626,
+      "endMs": 15218,
+      "words": [
+        {
+          "text": "Sofía",
+          "startMs": 12726,
+          "endMs": 13136,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "lanza",
+          "startMs": 13146,
+          "endMs": 13376,
+          "charStart": 6,
+          "charEnd": 11
+        },
+        {
+          "text": "una",
+          "startMs": 13386,
+          "endMs": 13506,
+          "charStart": 12,
+          "charEnd": 15
+        },
+        {
+          "text": "pelota",
+          "startMs": 13516,
+          "endMs": 13776,
+          "charStart": 16,
+          "charEnd": 22
+        },
+        {
+          "text": "roja",
+          "startMs": 13786,
+          "endMs": 14036,
+          "charStart": 23,
+          "charEnd": 27
+        },
+        {
+          "text": "pequeña",
+          "startMs": 14046,
+          "endMs": 14536,
+          "charStart": 28,
+          "charEnd": 35
+        }
+      ]
+    },
+    {
+      "text": "El perro busca la pelota alegremente.",
+      "startMs": 15468,
+      "endMs": 18012,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 15563,
+          "endMs": 15763,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "perro",
+          "startMs": 15773,
+          "endMs": 15973,
+          "charStart": 3,
+          "charEnd": 8
+        },
+        {
+          "text": "busca",
+          "startMs": 15983,
+          "endMs": 16223,
+          "charStart": 9,
+          "charEnd": 14
+        },
+        {
+          "text": "la",
+          "startMs": 16233,
+          "endMs": 16323,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "pelota",
+          "startMs": 16333,
+          "endMs": 16603,
+          "charStart": 18,
+          "charEnd": 24
+        },
+        {
+          "text": "alegremente",
+          "startMs": 16613,
+          "endMs": 17313,
+          "charStart": 25,
+          "charEnd": 36
+        }
+      ]
+    },
+    {
+      "text": "Muchos niños miran al perro feliz.",
+      "startMs": 18262,
+      "endMs": 20590,
+      "words": [
+        {
+          "text": "Muchos",
+          "startMs": 18357,
+          "endMs": 18707,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "niños",
+          "startMs": 18717,
+          "endMs": 18967,
+          "charStart": 7,
+          "charEnd": 12
+        },
+        {
+          "text": "miran",
+          "startMs": 18977,
+          "endMs": 19167,
+          "charStart": 13,
+          "charEnd": 18
+        },
+        {
+          "text": "al",
+          "startMs": 19177,
+          "endMs": 19267,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "perro",
+          "startMs": 19277,
+          "endMs": 19507,
+          "charStart": 22,
+          "charEnd": 27
+        },
+        {
+          "text": "feliz",
+          "startMs": 19517,
+          "endMs": 19897,
+          "charStart": 28,
+          "charEnd": 33
+        }
+      ]
+    },
+    {
+      "text": "Luego ellos regresan juntos a casa.",
+      "startMs": 20840,
+      "endMs": 23336,
+      "words": [
+        {
+          "text": "Luego",
+          "startMs": 20935,
+          "endMs": 21265,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "ellos",
+          "startMs": 21275,
+          "endMs": 21445,
+          "charStart": 6,
+          "charEnd": 11
+        },
+        {
+          "text": "regresan",
+          "startMs": 21455,
+          "endMs": 21845,
+          "charStart": 12,
+          "charEnd": 20
+        },
+        {
+          "text": "juntos",
+          "startMs": 21855,
+          "endMs": 22145,
+          "charStart": 21,
+          "charEnd": 27
+        },
+        {
+          "text": "a",
+          "startMs": 22155,
+          "endMs": 22185,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "casa",
+          "startMs": 22195,
+          "endMs": 22635,
+          "charStart": 30,
+          "charEnd": 34
+        }
+      ]
+    },
+    {
+      "text": "Toby come su comida y duerme.",
+      "startMs": 23586,
+      "endMs": 25698,
+      "words": [
+        {
+          "text": "Toby",
+          "startMs": 23686,
+          "endMs": 23936,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "come",
+          "startMs": 23946,
+          "endMs": 24136,
+          "charStart": 5,
+          "charEnd": 9
+        },
+        {
+          "text": "su",
+          "startMs": 24146,
+          "endMs": 24246,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "comida",
+          "startMs": 24256,
+          "endMs": 24546,
+          "charStart": 13,
+          "charEnd": 19
+        },
+        {
+          "text": "y",
+          "startMs": 24556,
+          "endMs": 24586,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "duerme",
+          "startMs": 24596,
+          "endMs": 25016,
+          "charStart": 22,
+          "charEnd": 28
+        }
+      ]
+    }
+  ]
+}

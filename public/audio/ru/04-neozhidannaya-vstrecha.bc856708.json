@@ -1,0 +1,718 @@
+{
+  "version": 3,
+  "lang": "ru",
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 41130,
+  "sentences": [
+    {
+      "text": "Вчера вечером Ольга медленно шла домой после трудной работы.",
+      "startMs": 0,
+      "endMs": 3744,
+      "words": [
+        {
+          "text": "Вчера",
+          "startMs": 100,
+          "endMs": 490,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "вечером",
+          "startMs": 490,
+          "endMs": 920,
+          "charStart": 6,
+          "charEnd": 13
+        },
+        {
+          "text": "Ольга",
+          "startMs": 920,
+          "endMs": 1180,
+          "charStart": 14,
+          "charEnd": 19
+        },
+        {
+          "text": "медленно",
+          "startMs": 1180,
+          "endMs": 1550,
+          "charStart": 20,
+          "charEnd": 28
+        },
+        {
+          "text": "шла",
+          "startMs": 1550,
+          "endMs": 1740,
+          "charStart": 29,
+          "charEnd": 32
+        },
+        {
+          "text": "домой",
+          "startMs": 1740,
+          "endMs": 2030,
+          "charStart": 33,
+          "charEnd": 38
+        },
+        {
+          "text": "после",
+          "startMs": 2030,
+          "endMs": 2320,
+          "charStart": 39,
+          "charEnd": 44
+        },
+        {
+          "text": "трудной",
+          "startMs": 2320,
+          "endMs": 2580,
+          "charStart": 45,
+          "charEnd": 52
+        },
+        {
+          "text": "работы",
+          "startMs": 2580,
+          "endMs": 3010,
+          "charStart": 53,
+          "charEnd": 59
+        }
+      ]
+    },
+    {
+      "text": "Неожиданно в витрине книжного магазина она заметила знакомое лицо.",
+      "startMs": 3994,
+      "endMs": 8170,
+      "words": [
+        {
+          "text": "Неожиданно",
+          "startMs": 4094,
+          "endMs": 4684,
+          "charStart": 0,
+          "charEnd": 10
+        },
+        {
+          "text": "в",
+          "startMs": 4684,
+          "endMs": 4714,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "витрине",
+          "startMs": 4714,
+          "endMs": 5144,
+          "charStart": 13,
+          "charEnd": 20
+        },
+        {
+          "text": "книжного",
+          "startMs": 5144,
+          "endMs": 5484,
+          "charStart": 21,
+          "charEnd": 29
+        },
+        {
+          "text": "магазина",
+          "startMs": 5484,
+          "endMs": 5944,
+          "charStart": 30,
+          "charEnd": 38
+        },
+        {
+          "text": "она",
+          "startMs": 5944,
+          "endMs": 6194,
+          "charStart": 39,
+          "charEnd": 42
+        },
+        {
+          "text": "заметила",
+          "startMs": 6194,
+          "endMs": 6584,
+          "charStart": 43,
+          "charEnd": 51
+        },
+        {
+          "text": "знакомое",
+          "startMs": 6584,
+          "endMs": 7004,
+          "charStart": 52,
+          "charEnd": 60
+        },
+        {
+          "text": "лицо",
+          "startMs": 7004,
+          "endMs": 7424,
+          "charStart": 61,
+          "charEnd": 65
+        }
+      ]
+    },
+    {
+      "text": "Это был её школьный друг Андрей, которого она не видела пять лет.",
+      "startMs": 8420,
+      "endMs": 12308,
+      "words": [
+        {
+          "text": "Это",
+          "startMs": 8520,
+          "endMs": 8760,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "был",
+          "startMs": 8760,
+          "endMs": 8920,
+          "charStart": 4,
+          "charEnd": 7
+        },
+        {
+          "text": "её",
+          "startMs": 8920,
+          "endMs": 9070,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "школьный",
+          "startMs": 9070,
+          "endMs": 9430,
+          "charStart": 11,
+          "charEnd": 19
+        },
+        {
+          "text": "друг",
+          "startMs": 9430,
+          "endMs": 9600,
+          "charStart": 20,
+          "charEnd": 24
+        },
+        {
+          "text": "Андрей",
+          "startMs": 9600,
+          "endMs": 9920,
+          "charStart": 25,
+          "charEnd": 31
+        },
+        {
+          "text": "которого",
+          "startMs": 10120,
+          "endMs": 10480,
+          "charStart": 33,
+          "charEnd": 41
+        },
+        {
+          "text": "она",
+          "startMs": 10480,
+          "endMs": 10620,
+          "charStart": 42,
+          "charEnd": 45
+        },
+        {
+          "text": "не",
+          "startMs": 10620,
+          "endMs": 10740,
+          "charStart": 46,
+          "charEnd": 48
+        },
+        {
+          "text": "видела",
+          "startMs": 10740,
+          "endMs": 11060,
+          "charStart": 49,
+          "charEnd": 55
+        },
+        {
+          "text": "пять",
+          "startMs": 11060,
+          "endMs": 11270,
+          "charStart": 56,
+          "charEnd": 60
+        },
+        {
+          "text": "лет",
+          "startMs": 11270,
+          "endMs": 11590,
+          "charStart": 61,
+          "charEnd": 64
+        }
+      ]
+    },
+    {
+      "text": "Ольга окликнула его, и Андрей сразу радостно улыбнулся.",
+      "startMs": 12558,
+      "endMs": 16158,
+      "words": [
+        {
+          "text": "Ольга",
+          "startMs": 12658,
+          "endMs": 12978,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "окликнула",
+          "startMs": 12978,
+          "endMs": 13368,
+          "charStart": 6,
+          "charEnd": 15
+        },
+        {
+          "text": "его",
+          "startMs": 13368,
+          "endMs": 13538,
+          "charStart": 16,
+          "charEnd": 19
+        },
+        {
+          "text": "и",
+          "startMs": 13758,
+          "endMs": 13898,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "Андрей",
+          "startMs": 13898,
+          "endMs": 14178,
+          "charStart": 23,
+          "charEnd": 29
+        },
+        {
+          "text": "сразу",
+          "startMs": 14178,
+          "endMs": 14498,
+          "charStart": 30,
+          "charEnd": 35
+        },
+        {
+          "text": "радостно",
+          "startMs": 14498,
+          "endMs": 14848,
+          "charStart": 36,
+          "charEnd": 44
+        },
+        {
+          "text": "улыбнулся",
+          "startMs": 14848,
+          "endMs": 15458,
+          "charStart": 45,
+          "charEnd": 54
+        }
+      ]
+    },
+    {
+      "text": "Старые друзья решили зайти в ближайшее кафе выпить кофе.",
+      "startMs": 16408,
+      "endMs": 20056,
+      "words": [
+        {
+          "text": "Старые",
+          "startMs": 16508,
+          "endMs": 16908,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "друзья",
+          "startMs": 16908,
+          "endMs": 17218,
+          "charStart": 7,
+          "charEnd": 13
+        },
+        {
+          "text": "решили",
+          "startMs": 17218,
+          "endMs": 17548,
+          "charStart": 14,
+          "charEnd": 20
+        },
+        {
+          "text": "зайти",
+          "startMs": 17548,
+          "endMs": 17818,
+          "charStart": 21,
+          "charEnd": 26
+        },
+        {
+          "text": "в",
+          "startMs": 17818,
+          "endMs": 17858,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "ближайшее",
+          "startMs": 17858,
+          "endMs": 18338,
+          "charStart": 29,
+          "charEnd": 38
+        },
+        {
+          "text": "кафе",
+          "startMs": 18338,
+          "endMs": 18628,
+          "charStart": 39,
+          "charEnd": 43
+        },
+        {
+          "text": "выпить",
+          "startMs": 18628,
+          "endMs": 18918,
+          "charStart": 44,
+          "charEnd": 50
+        },
+        {
+          "text": "кофе",
+          "startMs": 18918,
+          "endMs": 19318,
+          "charStart": 51,
+          "charEnd": 55
+        }
+      ]
+    },
+    {
+      "text": "Они заказали два капучино и сели за маленький столик.",
+      "startMs": 20306,
+      "endMs": 23810,
+      "words": [
+        {
+          "text": "Они",
+          "startMs": 20406,
+          "endMs": 20696,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "заказали",
+          "startMs": 20696,
+          "endMs": 21086,
+          "charStart": 4,
+          "charEnd": 12
+        },
+        {
+          "text": "два",
+          "startMs": 21086,
+          "endMs": 21266,
+          "charStart": 13,
+          "charEnd": 16
+        },
+        {
+          "text": "капучино",
+          "startMs": 21266,
+          "endMs": 21836,
+          "charStart": 17,
+          "charEnd": 25
+        },
+        {
+          "text": "и",
+          "startMs": 21836,
+          "endMs": 21966,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "сели",
+          "startMs": 21966,
+          "endMs": 22236,
+          "charStart": 28,
+          "charEnd": 32
+        },
+        {
+          "text": "за",
+          "startMs": 22236,
+          "endMs": 22356,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "маленький",
+          "startMs": 22356,
+          "endMs": 22696,
+          "charStart": 36,
+          "charEnd": 45
+        },
+        {
+          "text": "столик",
+          "startMs": 22696,
+          "endMs": 23106,
+          "charStart": 46,
+          "charEnd": 52
+        }
+      ]
+    },
+    {
+      "text": "Андрей рассказал, что недавно вернулся из длительной командировки.",
+      "startMs": 24060,
+      "endMs": 28044,
+      "words": [
+        {
+          "text": "Андрей",
+          "startMs": 24160,
+          "endMs": 24570,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "рассказал",
+          "startMs": 24570,
+          "endMs": 25000,
+          "charStart": 7,
+          "charEnd": 16
+        },
+        {
+          "text": "что",
+          "startMs": 25200,
+          "endMs": 25370,
+          "charStart": 18,
+          "charEnd": 21
+        },
+        {
+          "text": "недавно",
+          "startMs": 25370,
+          "endMs": 25670,
+          "charStart": 22,
+          "charEnd": 29
+        },
+        {
+          "text": "вернулся",
+          "startMs": 25670,
+          "endMs": 26170,
+          "charStart": 30,
+          "charEnd": 38
+        },
+        {
+          "text": "из",
+          "startMs": 26170,
+          "endMs": 26330,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "длительной",
+          "startMs": 26330,
+          "endMs": 26710,
+          "charStart": 42,
+          "charEnd": 52
+        },
+        {
+          "text": "командировки",
+          "startMs": 26710,
+          "endMs": 27340,
+          "charStart": 53,
+          "charEnd": 65
+        }
+      ]
+    },
+    {
+      "text": "Ольга поделилась своими новостями о новой интересной профессии.",
+      "startMs": 28294,
+      "endMs": 32110,
+      "words": [
+        {
+          "text": "Ольга",
+          "startMs": 28394,
+          "endMs": 28734,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "поделилась",
+          "startMs": 28734,
+          "endMs": 29114,
+          "charStart": 6,
+          "charEnd": 16
+        },
+        {
+          "text": "своими",
+          "startMs": 29114,
+          "endMs": 29404,
+          "charStart": 17,
+          "charEnd": 23
+        },
+        {
+          "text": "новостями",
+          "startMs": 29404,
+          "endMs": 29874,
+          "charStart": 24,
+          "charEnd": 33
+        },
+        {
+          "text": "о",
+          "startMs": 29874,
+          "endMs": 30024,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "новой",
+          "startMs": 30024,
+          "endMs": 30324,
+          "charStart": 36,
+          "charEnd": 41
+        },
+        {
+          "text": "интересной",
+          "startMs": 30324,
+          "endMs": 30824,
+          "charStart": 42,
+          "charEnd": 52
+        },
+        {
+          "text": "профессии",
+          "startMs": 30824,
+          "endMs": 31424,
+          "charStart": 53,
+          "charEnd": 62
+        }
+      ]
+    },
+    {
+      "text": "Время пролетело незаметно, потому что разговор был очень увлекательным.",
+      "startMs": 32360,
+      "endMs": 36608,
+      "words": [
+        {
+          "text": "Время",
+          "startMs": 32460,
+          "endMs": 32890,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "пролетело",
+          "startMs": 32890,
+          "endMs": 33320,
+          "charStart": 6,
+          "charEnd": 15
+        },
+        {
+          "text": "незаметно",
+          "startMs": 33320,
+          "endMs": 33810,
+          "charStart": 16,
+          "charEnd": 25
+        },
+        {
+          "text": "потому",
+          "startMs": 34020,
+          "endMs": 34250,
+          "charStart": 27,
+          "charEnd": 33
+        },
+        {
+          "text": "что",
+          "startMs": 34250,
+          "endMs": 34370,
+          "charStart": 34,
+          "charEnd": 37
+        },
+        {
+          "text": "разговор",
+          "startMs": 34370,
+          "endMs": 34750,
+          "charStart": 38,
+          "charEnd": 46
+        },
+        {
+          "text": "был",
+          "startMs": 34750,
+          "endMs": 35010,
+          "charStart": 47,
+          "charEnd": 50
+        },
+        {
+          "text": "очень",
+          "startMs": 35010,
+          "endMs": 35250,
+          "charStart": 51,
+          "charEnd": 56
+        },
+        {
+          "text": "увлекательным",
+          "startMs": 35250,
+          "endMs": 35940,
+          "charStart": 57,
+          "charEnd": 70
+        }
+      ]
+    },
+    {
+      "text": "Перед уходом они обменялись номерами телефонов и пообещали встретиться снова.",
+      "startMs": 36858,
+      "endMs": 41130,
+      "words": [
+        {
+          "text": "Перед",
+          "startMs": 36958,
+          "endMs": 37168,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "уходом",
+          "startMs": 37168,
+          "endMs": 37538,
+          "charStart": 6,
+          "charEnd": 12
+        },
+        {
+          "text": "они",
+          "startMs": 37538,
+          "endMs": 37718,
+          "charStart": 13,
+          "charEnd": 16
+        },
+        {
+          "text": "обменялись",
+          "startMs": 37718,
+          "endMs": 38098,
+          "charStart": 17,
+          "charEnd": 27
+        },
+        {
+          "text": "номерами",
+          "startMs": 38098,
+          "endMs": 38448,
+          "charStart": 28,
+          "charEnd": 36
+        },
+        {
+          "text": "телефонов",
+          "startMs": 38448,
+          "endMs": 38958,
+          "charStart": 37,
+          "charEnd": 46
+        },
+        {
+          "text": "и",
+          "startMs": 38958,
+          "endMs": 39078,
+          "charStart": 47,
+          "charEnd": 48
+        },
+        {
+          "text": "пообещали",
+          "startMs": 39078,
+          "endMs": 39538,
+          "charStart": 49,
+          "charEnd": 58
+        },
+        {
+          "text": "встретиться",
+          "startMs": 39538,
+          "endMs": 39968,
+          "charStart": 59,
+          "charEnd": 70
+        },
+        {
+          "text": "снова",
+          "startMs": 39968,
+          "endMs": 40398,
+          "charStart": 71,
+          "charEnd": 76
+        }
+      ]
+    }
+  ]
+}

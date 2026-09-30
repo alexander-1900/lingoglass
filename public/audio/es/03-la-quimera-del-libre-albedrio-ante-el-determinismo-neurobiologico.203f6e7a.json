@@ -1,0 +1,1236 @@
+{
+  "version": 3,
+  "lang": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 62850,
+  "sentences": [
+    {
+      "text": "La noción tradicional de libre albedrío palidece ante los implacables descubrimientos de la neurobiología computacional contemporánea.",
+      "startMs": 0,
+      "endMs": 6576,
+      "words": [
+        {
+          "text": "La",
+          "startMs": 100,
+          "endMs": 300,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "noción",
+          "startMs": 310,
+          "endMs": 580,
+          "charStart": 3,
+          "charEnd": 9
+        },
+        {
+          "text": "tradicional",
+          "startMs": 590,
+          "endMs": 1020,
+          "charStart": 10,
+          "charEnd": 21
+        },
+        {
+          "text": "de",
+          "startMs": 1030,
+          "endMs": 1090,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "libre",
+          "startMs": 1100,
+          "endMs": 1300,
+          "charStart": 25,
+          "charEnd": 30
+        },
+        {
+          "text": "albedrío",
+          "startMs": 1310,
+          "endMs": 1660,
+          "charStart": 31,
+          "charEnd": 39
+        },
+        {
+          "text": "palidece",
+          "startMs": 1670,
+          "endMs": 2070,
+          "charStart": 40,
+          "charEnd": 48
+        },
+        {
+          "text": "ante",
+          "startMs": 2080,
+          "endMs": 2230,
+          "charStart": 49,
+          "charEnd": 53
+        },
+        {
+          "text": "los",
+          "startMs": 2240,
+          "endMs": 2370,
+          "charStart": 54,
+          "charEnd": 57
+        },
+        {
+          "text": "implacables",
+          "startMs": 2380,
+          "endMs": 2850,
+          "charStart": 58,
+          "charEnd": 69
+        },
+        {
+          "text": "descubrimientos",
+          "startMs": 2860,
+          "endMs": 3460,
+          "charStart": 70,
+          "charEnd": 85
+        },
+        {
+          "text": "de",
+          "startMs": 3470,
+          "endMs": 3530,
+          "charStart": 86,
+          "charEnd": 88
+        },
+        {
+          "text": "la",
+          "startMs": 3540,
+          "endMs": 3600,
+          "charStart": 89,
+          "charEnd": 91
+        },
+        {
+          "text": "neurobiología",
+          "startMs": 3610,
+          "endMs": 4360,
+          "charStart": 92,
+          "charEnd": 105
+        },
+        {
+          "text": "computacional",
+          "startMs": 4475,
+          "endMs": 5135,
+          "charStart": 106,
+          "charEnd": 119
+        },
+        {
+          "text": "contemporánea",
+          "startMs": 5145,
+          "endMs": 5875,
+          "charStart": 120,
+          "charEnd": 133
+        }
+      ]
+    },
+    {
+      "text": "Todo impulso volitivo, lejos de emanar de una subjetividad incorpórea, responde a una intrincada cascada electroquímica neuronal.",
+      "startMs": 6826,
+      "endMs": 13378,
+      "words": [
+        {
+          "text": "Todo",
+          "startMs": 6926,
+          "endMs": 7156,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "impulso",
+          "startMs": 7166,
+          "endMs": 7496,
+          "charStart": 5,
+          "charEnd": 12
+        },
+        {
+          "text": "volitivo",
+          "startMs": 7506,
+          "endMs": 7936,
+          "charStart": 13,
+          "charEnd": 21
+        },
+        {
+          "text": "lejos",
+          "startMs": 8166,
+          "endMs": 8406,
+          "charStart": 23,
+          "charEnd": 28
+        },
+        {
+          "text": "de",
+          "startMs": 8416,
+          "endMs": 8466,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "emanar",
+          "startMs": 8476,
+          "endMs": 8736,
+          "charStart": 32,
+          "charEnd": 38
+        },
+        {
+          "text": "de",
+          "startMs": 8746,
+          "endMs": 8806,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "una",
+          "startMs": 8816,
+          "endMs": 8936,
+          "charStart": 42,
+          "charEnd": 45
+        },
+        {
+          "text": "subjetividad",
+          "startMs": 8946,
+          "endMs": 9446,
+          "charStart": 46,
+          "charEnd": 58
+        },
+        {
+          "text": "incorpórea",
+          "startMs": 9456,
+          "endMs": 9936,
+          "charStart": 59,
+          "charEnd": 69
+        },
+        {
+          "text": "responde",
+          "startMs": 10151,
+          "endMs": 10601,
+          "charStart": 71,
+          "charEnd": 79
+        },
+        {
+          "text": "a",
+          "startMs": 10611,
+          "endMs": 10641,
+          "charStart": 80,
+          "charEnd": 81
+        },
+        {
+          "text": "una",
+          "startMs": 10651,
+          "endMs": 10771,
+          "charStart": 82,
+          "charEnd": 85
+        },
+        {
+          "text": "intrincada",
+          "startMs": 10781,
+          "endMs": 11221,
+          "charStart": 86,
+          "charEnd": 96
+        },
+        {
+          "text": "cascada",
+          "startMs": 11231,
+          "endMs": 11571,
+          "charStart": 97,
+          "charEnd": 104
+        },
+        {
+          "text": "electroquímica",
+          "startMs": 11581,
+          "endMs": 12121,
+          "charStart": 105,
+          "charEnd": 119
+        },
+        {
+          "text": "neuronal",
+          "startMs": 12131,
+          "endMs": 12671,
+          "charStart": 120,
+          "charEnd": 128
+        }
+      ]
+    },
+    {
+      "text": "Creer que tomamos decisiones de forma autónoma constituye una ficción evolutiva indispensable para la cohesión social.",
+      "startMs": 13628,
+      "endMs": 18620,
+      "words": [
+        {
+          "text": "Creer",
+          "startMs": 13728,
+          "endMs": 14008,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "que",
+          "startMs": 14018,
+          "endMs": 14108,
+          "charStart": 6,
+          "charEnd": 9
+        },
+        {
+          "text": "tomamos",
+          "startMs": 14118,
+          "endMs": 14438,
+          "charStart": 10,
+          "charEnd": 17
+        },
+        {
+          "text": "decisiones",
+          "startMs": 14448,
+          "endMs": 14878,
+          "charStart": 18,
+          "charEnd": 28
+        },
+        {
+          "text": "de",
+          "startMs": 14888,
+          "endMs": 14948,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "forma",
+          "startMs": 14958,
+          "endMs": 15158,
+          "charStart": 32,
+          "charEnd": 37
+        },
+        {
+          "text": "autónoma",
+          "startMs": 15168,
+          "endMs": 15578,
+          "charStart": 38,
+          "charEnd": 46
+        },
+        {
+          "text": "constituye",
+          "startMs": 15588,
+          "endMs": 16028,
+          "charStart": 47,
+          "charEnd": 57
+        },
+        {
+          "text": "una",
+          "startMs": 16038,
+          "endMs": 16158,
+          "charStart": 58,
+          "charEnd": 61
+        },
+        {
+          "text": "ficción",
+          "startMs": 16168,
+          "endMs": 16478,
+          "charStart": 62,
+          "charEnd": 69
+        },
+        {
+          "text": "evolutiva",
+          "startMs": 16488,
+          "endMs": 16868,
+          "charStart": 70,
+          "charEnd": 79
+        },
+        {
+          "text": "indispensable",
+          "startMs": 16878,
+          "endMs": 17448,
+          "charStart": 80,
+          "charEnd": 93
+        },
+        {
+          "text": "para",
+          "startMs": 17458,
+          "endMs": 17598,
+          "charStart": 94,
+          "charEnd": 98
+        },
+        {
+          "text": "la",
+          "startMs": 17608,
+          "endMs": 17678,
+          "charStart": 99,
+          "charEnd": 101
+        },
+        {
+          "text": "cohesión",
+          "startMs": 17688,
+          "endMs": 18008,
+          "charStart": 102,
+          "charEnd": 110
+        },
+        {
+          "text": "social",
+          "startMs": 18018,
+          "endMs": 18498,
+          "charStart": 111,
+          "charEnd": 117
+        }
+      ]
+    },
+    {
+      "text": "El cerebro genera la ilusión de autoría consciente milisegundos después de haberse activado las redes sinápticas motoras.",
+      "startMs": 18870,
+      "endMs": 24990,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 18965,
+          "endMs": 19155,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "cerebro",
+          "startMs": 19165,
+          "endMs": 19445,
+          "charStart": 3,
+          "charEnd": 10
+        },
+        {
+          "text": "genera",
+          "startMs": 19455,
+          "endMs": 19725,
+          "charStart": 11,
+          "charEnd": 17
+        },
+        {
+          "text": "la",
+          "startMs": 19735,
+          "endMs": 19815,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "ilusión",
+          "startMs": 19825,
+          "endMs": 20155,
+          "charStart": 21,
+          "charEnd": 28
+        },
+        {
+          "text": "de",
+          "startMs": 20165,
+          "endMs": 20225,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "autoría",
+          "startMs": 20235,
+          "endMs": 20565,
+          "charStart": 32,
+          "charEnd": 39
+        },
+        {
+          "text": "consciente",
+          "startMs": 20575,
+          "endMs": 21005,
+          "charStart": 40,
+          "charEnd": 50
+        },
+        {
+          "text": "milisegundos",
+          "startMs": 21015,
+          "endMs": 21535,
+          "charStart": 51,
+          "charEnd": 63
+        },
+        {
+          "text": "después",
+          "startMs": 21545,
+          "endMs": 21835,
+          "charStart": 64,
+          "charEnd": 71
+        },
+        {
+          "text": "de",
+          "startMs": 21845,
+          "endMs": 21895,
+          "charStart": 72,
+          "charEnd": 74
+        },
+        {
+          "text": "haberse",
+          "startMs": 21905,
+          "endMs": 22135,
+          "charStart": 75,
+          "charEnd": 82
+        },
+        {
+          "text": "activado",
+          "startMs": 22145,
+          "endMs": 22465,
+          "charStart": 83,
+          "charEnd": 91
+        },
+        {
+          "text": "las",
+          "startMs": 22475,
+          "endMs": 22595,
+          "charStart": 92,
+          "charEnd": 95
+        },
+        {
+          "text": "redes",
+          "startMs": 22605,
+          "endMs": 23045,
+          "charStart": 96,
+          "charEnd": 101
+        },
+        {
+          "text": "sinápticas",
+          "startMs": 23165,
+          "endMs": 23745,
+          "charStart": 102,
+          "charEnd": 112
+        },
+        {
+          "text": "motoras",
+          "startMs": 23755,
+          "endMs": 24295,
+          "charStart": 113,
+          "charEnd": 120
+        }
+      ]
+    },
+    {
+      "text": "Desmantelada la quimera del yo soberano, la responsabilidad moral tradicional exige una refundación ontológica ineludible.",
+      "startMs": 25240,
+      "endMs": 31528,
+      "words": [
+        {
+          "text": "Desmantelada",
+          "startMs": 25340,
+          "endMs": 25960,
+          "charStart": 0,
+          "charEnd": 12
+        },
+        {
+          "text": "la",
+          "startMs": 25970,
+          "endMs": 26050,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "quimera",
+          "startMs": 26060,
+          "endMs": 26310,
+          "charStart": 16,
+          "charEnd": 23
+        },
+        {
+          "text": "del",
+          "startMs": 26320,
+          "endMs": 26440,
+          "charStart": 24,
+          "charEnd": 27
+        },
+        {
+          "text": "yo",
+          "startMs": 26450,
+          "endMs": 26550,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "soberano",
+          "startMs": 26560,
+          "endMs": 27040,
+          "charStart": 31,
+          "charEnd": 39
+        },
+        {
+          "text": "la",
+          "startMs": 27240,
+          "endMs": 27430,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "responsabilidad",
+          "startMs": 27440,
+          "endMs": 28050,
+          "charStart": 44,
+          "charEnd": 59
+        },
+        {
+          "text": "moral",
+          "startMs": 28060,
+          "endMs": 28310,
+          "charStart": 60,
+          "charEnd": 65
+        },
+        {
+          "text": "tradicional",
+          "startMs": 28320,
+          "endMs": 28810,
+          "charStart": 66,
+          "charEnd": 77
+        },
+        {
+          "text": "exige",
+          "startMs": 28820,
+          "endMs": 29150,
+          "charStart": 78,
+          "charEnd": 83
+        },
+        {
+          "text": "una",
+          "startMs": 29160,
+          "endMs": 29280,
+          "charStart": 84,
+          "charEnd": 87
+        },
+        {
+          "text": "refundación",
+          "startMs": 29290,
+          "endMs": 29800,
+          "charStart": 88,
+          "charEnd": 99
+        },
+        {
+          "text": "ontológica",
+          "startMs": 29810,
+          "endMs": 30250,
+          "charStart": 100,
+          "charEnd": 110
+        },
+        {
+          "text": "ineludible",
+          "startMs": 30260,
+          "endMs": 30820,
+          "charStart": 111,
+          "charEnd": 121
+        }
+      ]
+    },
+    {
+      "text": "¿Cómo castigar retributivamente al transgresor si su conducta estaba férreamente predeterminada por su configuración sináptica y genética?",
+      "startMs": 31778,
+      "endMs": 38594,
+      "words": [
+        {
+          "text": "Cómo",
+          "startMs": 31873,
+          "endMs": 32093,
+          "charStart": 1,
+          "charEnd": 5
+        },
+        {
+          "text": "castigar",
+          "startMs": 32103,
+          "endMs": 32433,
+          "charStart": 6,
+          "charEnd": 14
+        },
+        {
+          "text": "retributivamente",
+          "startMs": 32443,
+          "endMs": 33143,
+          "charStart": 15,
+          "charEnd": 31
+        },
+        {
+          "text": "al",
+          "startMs": 33153,
+          "endMs": 33223,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "transgresor",
+          "startMs": 33233,
+          "endMs": 33723,
+          "charStart": 35,
+          "charEnd": 46
+        },
+        {
+          "text": "si",
+          "startMs": 33733,
+          "endMs": 33813,
+          "charStart": 47,
+          "charEnd": 49
+        },
+        {
+          "text": "su",
+          "startMs": 33823,
+          "endMs": 33923,
+          "charStart": 50,
+          "charEnd": 52
+        },
+        {
+          "text": "conducta",
+          "startMs": 33933,
+          "endMs": 34313,
+          "charStart": 53,
+          "charEnd": 61
+        },
+        {
+          "text": "estaba",
+          "startMs": 34323,
+          "endMs": 34593,
+          "charStart": 62,
+          "charEnd": 68
+        },
+        {
+          "text": "férreamente",
+          "startMs": 34603,
+          "endMs": 35103,
+          "charStart": 69,
+          "charEnd": 80
+        },
+        {
+          "text": "predeterminada",
+          "startMs": 35113,
+          "endMs": 35653,
+          "charStart": 81,
+          "charEnd": 95
+        },
+        {
+          "text": "por",
+          "startMs": 35663,
+          "endMs": 35783,
+          "charStart": 96,
+          "charEnd": 99
+        },
+        {
+          "text": "su",
+          "startMs": 35793,
+          "endMs": 36053,
+          "charStart": 100,
+          "charEnd": 102
+        },
+        {
+          "text": "configuración",
+          "startMs": 36178,
+          "endMs": 36868,
+          "charStart": 103,
+          "charEnd": 116
+        },
+        {
+          "text": "sináptica",
+          "startMs": 36878,
+          "endMs": 37308,
+          "charStart": 117,
+          "charEnd": 126
+        },
+        {
+          "text": "y",
+          "startMs": 37318,
+          "endMs": 37358,
+          "charStart": 127,
+          "charEnd": 128
+        },
+        {
+          "text": "genética",
+          "startMs": 37368,
+          "endMs": 37908,
+          "charStart": 129,
+          "charEnd": 137
+        }
+      ]
+    },
+    {
+      "text": "Los juristas se resisten tenazmente a admitir que la voluntad humana carezca de autonomía metafísica vinculante.",
+      "startMs": 38844,
+      "endMs": 43668,
+      "words": [
+        {
+          "text": "Los",
+          "startMs": 38944,
+          "endMs": 39204,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "juristas",
+          "startMs": 39214,
+          "endMs": 39564,
+          "charStart": 4,
+          "charEnd": 12
+        },
+        {
+          "text": "se",
+          "startMs": 39574,
+          "endMs": 39654,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "resisten",
+          "startMs": 39664,
+          "endMs": 40044,
+          "charStart": 16,
+          "charEnd": 24
+        },
+        {
+          "text": "tenazmente",
+          "startMs": 40054,
+          "endMs": 40494,
+          "charStart": 25,
+          "charEnd": 35
+        },
+        {
+          "text": "a",
+          "startMs": 40504,
+          "endMs": 40524,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "admitir",
+          "startMs": 40534,
+          "endMs": 40854,
+          "charStart": 38,
+          "charEnd": 45
+        },
+        {
+          "text": "que",
+          "startMs": 40864,
+          "endMs": 40934,
+          "charStart": 46,
+          "charEnd": 49
+        },
+        {
+          "text": "la",
+          "startMs": 40944,
+          "endMs": 41004,
+          "charStart": 50,
+          "charEnd": 52
+        },
+        {
+          "text": "voluntad",
+          "startMs": 41014,
+          "endMs": 41364,
+          "charStart": 53,
+          "charEnd": 61
+        },
+        {
+          "text": "humana",
+          "startMs": 41374,
+          "endMs": 41594,
+          "charStart": 62,
+          "charEnd": 68
+        },
+        {
+          "text": "carezca",
+          "startMs": 41604,
+          "endMs": 41944,
+          "charStart": 69,
+          "charEnd": 76
+        },
+        {
+          "text": "de",
+          "startMs": 41954,
+          "endMs": 42014,
+          "charStart": 77,
+          "charEnd": 79
+        },
+        {
+          "text": "autonomía",
+          "startMs": 42024,
+          "endMs": 42424,
+          "charStart": 80,
+          "charEnd": 89
+        },
+        {
+          "text": "metafísica",
+          "startMs": 42434,
+          "endMs": 42924,
+          "charStart": 90,
+          "charEnd": 100
+        },
+        {
+          "text": "vinculante",
+          "startMs": 42934,
+          "endMs": 43544,
+          "charStart": 101,
+          "charEnd": 111
+        }
+      ]
+    },
+    {
+      "text": "No obstante, asumir una perspectiva mecanicista no anula la imperiosa necesidad de preservar el orden comunitario.",
+      "startMs": 43918,
+      "endMs": 49750,
+      "words": [
+        {
+          "text": "No",
+          "startMs": 44018,
+          "endMs": 44218,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "obstante",
+          "startMs": 44228,
+          "endMs": 44668,
+          "charStart": 3,
+          "charEnd": 11
+        },
+        {
+          "text": "asumir",
+          "startMs": 44843,
+          "endMs": 45223,
+          "charStart": 13,
+          "charEnd": 19
+        },
+        {
+          "text": "una",
+          "startMs": 45233,
+          "endMs": 45353,
+          "charStart": 20,
+          "charEnd": 23
+        },
+        {
+          "text": "perspectiva",
+          "startMs": 45363,
+          "endMs": 45843,
+          "charStart": 24,
+          "charEnd": 35
+        },
+        {
+          "text": "mecanicista",
+          "startMs": 45853,
+          "endMs": 46393,
+          "charStart": 36,
+          "charEnd": 47
+        },
+        {
+          "text": "no",
+          "startMs": 46403,
+          "endMs": 46503,
+          "charStart": 48,
+          "charEnd": 50
+        },
+        {
+          "text": "anula",
+          "startMs": 46513,
+          "endMs": 46723,
+          "charStart": 51,
+          "charEnd": 56
+        },
+        {
+          "text": "la",
+          "startMs": 46733,
+          "endMs": 46803,
+          "charStart": 57,
+          "charEnd": 59
+        },
+        {
+          "text": "imperiosa",
+          "startMs": 46813,
+          "endMs": 47193,
+          "charStart": 60,
+          "charEnd": 69
+        },
+        {
+          "text": "necesidad",
+          "startMs": 47203,
+          "endMs": 47613,
+          "charStart": 70,
+          "charEnd": 79
+        },
+        {
+          "text": "de",
+          "startMs": 47623,
+          "endMs": 47703,
+          "charStart": 80,
+          "charEnd": 82
+        },
+        {
+          "text": "preservar",
+          "startMs": 47713,
+          "endMs": 48103,
+          "charStart": 83,
+          "charEnd": 92
+        },
+        {
+          "text": "el",
+          "startMs": 48113,
+          "endMs": 48183,
+          "charStart": 93,
+          "charEnd": 95
+        },
+        {
+          "text": "orden",
+          "startMs": 48193,
+          "endMs": 48403,
+          "charStart": 96,
+          "charEnd": 101
+        },
+        {
+          "text": "comunitario",
+          "startMs": 48413,
+          "endMs": 49043,
+          "charStart": 102,
+          "charEnd": 113
+        }
+      ]
+    },
+    {
+      "text": "Modificar el sistema penal hacia un modelo profiláctico y terapéutico permitiría superar el anhelo atávico de venganza.",
+      "startMs": 50000,
+      "endMs": 56120,
+      "words": [
+        {
+          "text": "Modificar",
+          "startMs": 50100,
+          "endMs": 50620,
+          "charStart": 0,
+          "charEnd": 9
+        },
+        {
+          "text": "el",
+          "startMs": 50630,
+          "endMs": 50700,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "sistema",
+          "startMs": 50710,
+          "endMs": 51050,
+          "charStart": 13,
+          "charEnd": 20
+        },
+        {
+          "text": "penal",
+          "startMs": 51060,
+          "endMs": 51310,
+          "charStart": 21,
+          "charEnd": 26
+        },
+        {
+          "text": "hacia",
+          "startMs": 51320,
+          "endMs": 51520,
+          "charStart": 27,
+          "charEnd": 32
+        },
+        {
+          "text": "un",
+          "startMs": 51530,
+          "endMs": 51600,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "modelo",
+          "startMs": 51610,
+          "endMs": 51860,
+          "charStart": 36,
+          "charEnd": 42
+        },
+        {
+          "text": "profiláctico",
+          "startMs": 51870,
+          "endMs": 52410,
+          "charStart": 43,
+          "charEnd": 55
+        },
+        {
+          "text": "y",
+          "startMs": 52420,
+          "endMs": 52450,
+          "charStart": 56,
+          "charEnd": 57
+        },
+        {
+          "text": "terapéutico",
+          "startMs": 52460,
+          "endMs": 52970,
+          "charStart": 58,
+          "charEnd": 69
+        },
+        {
+          "text": "permitiría",
+          "startMs": 52980,
+          "endMs": 53440,
+          "charStart": 70,
+          "charEnd": 80
+        },
+        {
+          "text": "superar",
+          "startMs": 53450,
+          "endMs": 53750,
+          "charStart": 81,
+          "charEnd": 88
+        },
+        {
+          "text": "el",
+          "startMs": 53760,
+          "endMs": 53830,
+          "charStart": 89,
+          "charEnd": 91
+        },
+        {
+          "text": "anhelo",
+          "startMs": 53840,
+          "endMs": 54050,
+          "charStart": 92,
+          "charEnd": 98
+        },
+        {
+          "text": "atávico",
+          "startMs": 54060,
+          "endMs": 54550,
+          "charStart": 99,
+          "charEnd": 106
+        },
+        {
+          "text": "de",
+          "startMs": 54665,
+          "endMs": 54825,
+          "charStart": 107,
+          "charEnd": 109
+        },
+        {
+          "text": "venganza",
+          "startMs": 54835,
+          "endMs": 55405,
+          "charStart": 110,
+          "charEnd": 118
+        }
+      ]
+    },
+    {
+      "text": "La lucidez científica despoja al ser humano de su pretendida soberanía cósmica, restituyéndolo a la naturaleza causal inmanente.",
+      "startMs": 56370,
+      "endMs": 62850,
+      "words": [
+        {
+          "text": "La",
+          "startMs": 56470,
+          "endMs": 56660,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "lucidez",
+          "startMs": 56670,
+          "endMs": 56990,
+          "charStart": 3,
+          "charEnd": 10
+        },
+        {
+          "text": "científica",
+          "startMs": 57000,
+          "endMs": 57440,
+          "charStart": 11,
+          "charEnd": 21
+        },
+        {
+          "text": "despoja",
+          "startMs": 57450,
+          "endMs": 57810,
+          "charStart": 22,
+          "charEnd": 29
+        },
+        {
+          "text": "al",
+          "startMs": 57820,
+          "endMs": 57900,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "ser",
+          "startMs": 57910,
+          "endMs": 58040,
+          "charStart": 33,
+          "charEnd": 36
+        },
+        {
+          "text": "humano",
+          "startMs": 58050,
+          "endMs": 58270,
+          "charStart": 37,
+          "charEnd": 43
+        },
+        {
+          "text": "de",
+          "startMs": 58280,
+          "endMs": 58350,
+          "charStart": 44,
+          "charEnd": 46
+        },
+        {
+          "text": "su",
+          "startMs": 58360,
+          "endMs": 58450,
+          "charStart": 47,
+          "charEnd": 49
+        },
+        {
+          "text": "pretendida",
+          "startMs": 58460,
+          "endMs": 58890,
+          "charStart": 50,
+          "charEnd": 60
+        },
+        {
+          "text": "soberanía",
+          "startMs": 58900,
+          "endMs": 59320,
+          "charStart": 61,
+          "charEnd": 70
+        },
+        {
+          "text": "cósmica",
+          "startMs": 59330,
+          "endMs": 59730,
+          "charStart": 71,
+          "charEnd": 78
+        },
+        {
+          "text": "restituyéndolo",
+          "startMs": 59955,
+          "endMs": 60675,
+          "charStart": 80,
+          "charEnd": 94
+        },
+        {
+          "text": "a",
+          "startMs": 60685,
+          "endMs": 60705,
+          "charStart": 95,
+          "charEnd": 96
+        },
+        {
+          "text": "la",
+          "startMs": 60715,
+          "endMs": 60775,
+          "charStart": 97,
+          "charEnd": 99
+        },
+        {
+          "text": "naturaleza",
+          "startMs": 60785,
+          "endMs": 61245,
+          "charStart": 100,
+          "charEnd": 110
+        },
+        {
+          "text": "causal",
+          "startMs": 61255,
+          "endMs": 61575,
+          "charStart": 111,
+          "charEnd": 117
+        },
+        {
+          "text": "inmanente",
+          "startMs": 61585,
+          "endMs": 62155,
+          "charStart": 118,
+          "charEnd": 127
+        }
+      ]
+    }
+  ]
+}

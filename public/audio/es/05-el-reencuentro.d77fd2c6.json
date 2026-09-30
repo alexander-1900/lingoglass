@@ -1,0 +1,1019 @@
+{
+  "version": 3,
+  "lang": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 47130,
+  "sentences": [
+    {
+      "text": "Hacía diez años que Manuel no veía a su amiga de la infancia, Clara.",
+      "startMs": 0,
+      "endMs": 3744,
+      "words": [
+        {
+          "text": "Hacía",
+          "startMs": 95,
+          "endMs": 415,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "diez",
+          "startMs": 425,
+          "endMs": 605,
+          "charStart": 6,
+          "charEnd": 10
+        },
+        {
+          "text": "años",
+          "startMs": 615,
+          "endMs": 825,
+          "charStart": 11,
+          "charEnd": 15
+        },
+        {
+          "text": "que",
+          "startMs": 835,
+          "endMs": 905,
+          "charStart": 16,
+          "charEnd": 19
+        },
+        {
+          "text": "Manuel",
+          "startMs": 915,
+          "endMs": 1165,
+          "charStart": 20,
+          "charEnd": 26
+        },
+        {
+          "text": "no",
+          "startMs": 1175,
+          "endMs": 1265,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "veía",
+          "startMs": 1275,
+          "endMs": 1495,
+          "charStart": 30,
+          "charEnd": 34
+        },
+        {
+          "text": "a",
+          "startMs": 1505,
+          "endMs": 1545,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "su",
+          "startMs": 1555,
+          "endMs": 1665,
+          "charStart": 37,
+          "charEnd": 39
+        },
+        {
+          "text": "amiga",
+          "startMs": 1675,
+          "endMs": 1875,
+          "charStart": 40,
+          "charEnd": 45
+        },
+        {
+          "text": "de",
+          "startMs": 1885,
+          "endMs": 1945,
+          "charStart": 46,
+          "charEnd": 48
+        },
+        {
+          "text": "la",
+          "startMs": 1955,
+          "endMs": 2005,
+          "charStart": 49,
+          "charEnd": 51
+        },
+        {
+          "text": "infancia",
+          "startMs": 2015,
+          "endMs": 2485,
+          "charStart": 52,
+          "charEnd": 60
+        },
+        {
+          "text": "Clara",
+          "startMs": 2645,
+          "endMs": 3055,
+          "charStart": 62,
+          "charEnd": 67
+        }
+      ]
+    },
+    {
+      "text": "Ambos habían perdido el contacto después de graduarse en el instituto de secundaria.",
+      "startMs": 3994,
+      "endMs": 8242,
+      "words": [
+        {
+          "text": "Ambos",
+          "startMs": 4089,
+          "endMs": 4409,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "habían",
+          "startMs": 4419,
+          "endMs": 4689,
+          "charStart": 6,
+          "charEnd": 12
+        },
+        {
+          "text": "perdido",
+          "startMs": 4699,
+          "endMs": 4979,
+          "charStart": 13,
+          "charEnd": 20
+        },
+        {
+          "text": "el",
+          "startMs": 4989,
+          "endMs": 5049,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "contacto",
+          "startMs": 5059,
+          "endMs": 5449,
+          "charStart": 24,
+          "charEnd": 32
+        },
+        {
+          "text": "después",
+          "startMs": 5459,
+          "endMs": 5759,
+          "charStart": 33,
+          "charEnd": 40
+        },
+        {
+          "text": "de",
+          "startMs": 5769,
+          "endMs": 5829,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "graduarse",
+          "startMs": 5839,
+          "endMs": 6279,
+          "charStart": 44,
+          "charEnd": 53
+        },
+        {
+          "text": "en",
+          "startMs": 6289,
+          "endMs": 6349,
+          "charStart": 54,
+          "charEnd": 56
+        },
+        {
+          "text": "el",
+          "startMs": 6359,
+          "endMs": 6429,
+          "charStart": 57,
+          "charEnd": 59
+        },
+        {
+          "text": "instituto",
+          "startMs": 6439,
+          "endMs": 6819,
+          "charStart": 60,
+          "charEnd": 69
+        },
+        {
+          "text": "de",
+          "startMs": 6829,
+          "endMs": 6899,
+          "charStart": 70,
+          "charEnd": 72
+        },
+        {
+          "text": "secundaria",
+          "startMs": 6909,
+          "endMs": 7559,
+          "charStart": 73,
+          "charEnd": 83
+        }
+      ]
+    },
+    {
+      "text": "La semana pasada, Manuel la reconoció por casualidad en una concurrida librería céntrica.",
+      "startMs": 8492,
+      "endMs": 13244,
+      "words": [
+        {
+          "text": "La",
+          "startMs": 8587,
+          "endMs": 8767,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "semana",
+          "startMs": 8777,
+          "endMs": 9047,
+          "charStart": 3,
+          "charEnd": 9
+        },
+        {
+          "text": "pasada",
+          "startMs": 9057,
+          "endMs": 9407,
+          "charStart": 10,
+          "charEnd": 16
+        },
+        {
+          "text": "Manuel",
+          "startMs": 9617,
+          "endMs": 9837,
+          "charStart": 18,
+          "charEnd": 24
+        },
+        {
+          "text": "la",
+          "startMs": 9847,
+          "endMs": 9907,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "reconoció",
+          "startMs": 9917,
+          "endMs": 10347,
+          "charStart": 28,
+          "charEnd": 37
+        },
+        {
+          "text": "por",
+          "startMs": 10357,
+          "endMs": 10477,
+          "charStart": 38,
+          "charEnd": 41
+        },
+        {
+          "text": "casualidad",
+          "startMs": 10487,
+          "endMs": 10967,
+          "charStart": 42,
+          "charEnd": 52
+        },
+        {
+          "text": "en",
+          "startMs": 10977,
+          "endMs": 11057,
+          "charStart": 53,
+          "charEnd": 55
+        },
+        {
+          "text": "una",
+          "startMs": 11067,
+          "endMs": 11187,
+          "charStart": 56,
+          "charEnd": 59
+        },
+        {
+          "text": "concurrida",
+          "startMs": 11197,
+          "endMs": 11647,
+          "charStart": 60,
+          "charEnd": 70
+        },
+        {
+          "text": "librería",
+          "startMs": 11657,
+          "endMs": 12017,
+          "charStart": 71,
+          "charEnd": 79
+        },
+        {
+          "text": "céntrica",
+          "startMs": 12027,
+          "endMs": 12547,
+          "charStart": 80,
+          "charEnd": 88
+        }
+      ]
+    },
+    {
+      "text": "Aunque el tiempo había pasado rápidamente, la sonrisa de Clara seguía siendo idéntica.",
+      "startMs": 13494,
+      "endMs": 18054,
+      "words": [
+        {
+          "text": "Aunque",
+          "startMs": 13589,
+          "endMs": 13859,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "el",
+          "startMs": 13869,
+          "endMs": 13939,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "tiempo",
+          "startMs": 13949,
+          "endMs": 14189,
+          "charStart": 10,
+          "charEnd": 16
+        },
+        {
+          "text": "había",
+          "startMs": 14199,
+          "endMs": 14379,
+          "charStart": 17,
+          "charEnd": 22
+        },
+        {
+          "text": "pasado",
+          "startMs": 14389,
+          "endMs": 14699,
+          "charStart": 23,
+          "charEnd": 29
+        },
+        {
+          "text": "rápidamente",
+          "startMs": 14709,
+          "endMs": 15299,
+          "charStart": 30,
+          "charEnd": 41
+        },
+        {
+          "text": "la",
+          "startMs": 15519,
+          "endMs": 15589,
+          "charStart": 43,
+          "charEnd": 45
+        },
+        {
+          "text": "sonrisa",
+          "startMs": 15599,
+          "endMs": 15969,
+          "charStart": 46,
+          "charEnd": 53
+        },
+        {
+          "text": "de",
+          "startMs": 15979,
+          "endMs": 16059,
+          "charStart": 54,
+          "charEnd": 56
+        },
+        {
+          "text": "Clara",
+          "startMs": 16069,
+          "endMs": 16289,
+          "charStart": 57,
+          "charEnd": 62
+        },
+        {
+          "text": "seguía",
+          "startMs": 16299,
+          "endMs": 16579,
+          "charStart": 63,
+          "charEnd": 69
+        },
+        {
+          "text": "siendo",
+          "startMs": 16589,
+          "endMs": 16819,
+          "charStart": 70,
+          "charEnd": 76
+        },
+        {
+          "text": "idéntica",
+          "startMs": 16829,
+          "endMs": 17349,
+          "charStart": 77,
+          "charEnd": 85
+        }
+      ]
+    },
+    {
+      "text": "Decidieron sentarse en una terraza cercana para charlar tranquilamente sobre sus vidas.",
+      "startMs": 18304,
+      "endMs": 22888,
+      "words": [
+        {
+          "text": "Decidieron",
+          "startMs": 18399,
+          "endMs": 18909,
+          "charStart": 0,
+          "charEnd": 10
+        },
+        {
+          "text": "sentarse",
+          "startMs": 18919,
+          "endMs": 19329,
+          "charStart": 11,
+          "charEnd": 19
+        },
+        {
+          "text": "en",
+          "startMs": 19339,
+          "endMs": 19419,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "una",
+          "startMs": 19429,
+          "endMs": 19549,
+          "charStart": 23,
+          "charEnd": 26
+        },
+        {
+          "text": "terraza",
+          "startMs": 19559,
+          "endMs": 19889,
+          "charStart": 27,
+          "charEnd": 34
+        },
+        {
+          "text": "cercana",
+          "startMs": 19899,
+          "endMs": 20289,
+          "charStart": 35,
+          "charEnd": 42
+        },
+        {
+          "text": "para",
+          "startMs": 20299,
+          "endMs": 20479,
+          "charStart": 43,
+          "charEnd": 47
+        },
+        {
+          "text": "charlar",
+          "startMs": 20489,
+          "endMs": 20809,
+          "charStart": 48,
+          "charEnd": 55
+        },
+        {
+          "text": "tranquilamente",
+          "startMs": 20819,
+          "endMs": 21389,
+          "charStart": 56,
+          "charEnd": 70
+        },
+        {
+          "text": "sobre",
+          "startMs": 21399,
+          "endMs": 21609,
+          "charStart": 71,
+          "charEnd": 76
+        },
+        {
+          "text": "sus",
+          "startMs": 21619,
+          "endMs": 21749,
+          "charStart": 77,
+          "charEnd": 80
+        },
+        {
+          "text": "vidas",
+          "startMs": 21759,
+          "endMs": 22199,
+          "charStart": 81,
+          "charEnd": 86
+        }
+      ]
+    },
+    {
+      "text": "Clara le contó que había trabajado como periodista en varios países de América Latina.",
+      "startMs": 23138,
+      "endMs": 27338,
+      "words": [
+        {
+          "text": "Clara",
+          "startMs": 23238,
+          "endMs": 23498,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "le",
+          "startMs": 23508,
+          "endMs": 23588,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "contó",
+          "startMs": 23598,
+          "endMs": 23848,
+          "charStart": 9,
+          "charEnd": 14
+        },
+        {
+          "text": "que",
+          "startMs": 23858,
+          "endMs": 23938,
+          "charStart": 15,
+          "charEnd": 18
+        },
+        {
+          "text": "había",
+          "startMs": 23948,
+          "endMs": 24108,
+          "charStart": 19,
+          "charEnd": 24
+        },
+        {
+          "text": "trabajado",
+          "startMs": 24118,
+          "endMs": 24508,
+          "charStart": 25,
+          "charEnd": 34
+        },
+        {
+          "text": "como",
+          "startMs": 24518,
+          "endMs": 24688,
+          "charStart": 35,
+          "charEnd": 39
+        },
+        {
+          "text": "periodista",
+          "startMs": 24698,
+          "endMs": 25118,
+          "charStart": 40,
+          "charEnd": 50
+        },
+        {
+          "text": "en",
+          "startMs": 25128,
+          "endMs": 25198,
+          "charStart": 51,
+          "charEnd": 53
+        },
+        {
+          "text": "varios",
+          "startMs": 25208,
+          "endMs": 25478,
+          "charStart": 54,
+          "charEnd": 60
+        },
+        {
+          "text": "países",
+          "startMs": 25488,
+          "endMs": 25828,
+          "charStart": 61,
+          "charEnd": 67
+        },
+        {
+          "text": "de",
+          "startMs": 25838,
+          "endMs": 25898,
+          "charStart": 68,
+          "charEnd": 70
+        },
+        {
+          "text": "América",
+          "startMs": 25908,
+          "endMs": 26188,
+          "charStart": 71,
+          "charEnd": 78
+        },
+        {
+          "text": "Latina",
+          "startMs": 26198,
+          "endMs": 26648,
+          "charStart": 79,
+          "charEnd": 85
+        }
+      ]
+    },
+    {
+      "text": "Manuel le relató sus proyectos arquitectónicos y sus viajes por el norte de Europa.",
+      "startMs": 27588,
+      "endMs": 31860,
+      "words": [
+        {
+          "text": "Manuel",
+          "startMs": 27683,
+          "endMs": 28023,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "le",
+          "startMs": 28033,
+          "endMs": 28113,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "relató",
+          "startMs": 28123,
+          "endMs": 28433,
+          "charStart": 10,
+          "charEnd": 16
+        },
+        {
+          "text": "sus",
+          "startMs": 28443,
+          "endMs": 28603,
+          "charStart": 17,
+          "charEnd": 20
+        },
+        {
+          "text": "proyectos",
+          "startMs": 28613,
+          "endMs": 28993,
+          "charStart": 21,
+          "charEnd": 30
+        },
+        {
+          "text": "arquitectónicos",
+          "startMs": 29003,
+          "endMs": 29653,
+          "charStart": 31,
+          "charEnd": 46
+        },
+        {
+          "text": "y",
+          "startMs": 29663,
+          "endMs": 29703,
+          "charStart": 47,
+          "charEnd": 48
+        },
+        {
+          "text": "sus",
+          "startMs": 29713,
+          "endMs": 29863,
+          "charStart": 49,
+          "charEnd": 52
+        },
+        {
+          "text": "viajes",
+          "startMs": 29873,
+          "endMs": 30213,
+          "charStart": 53,
+          "charEnd": 59
+        },
+        {
+          "text": "por",
+          "startMs": 30223,
+          "endMs": 30343,
+          "charStart": 60,
+          "charEnd": 63
+        },
+        {
+          "text": "el",
+          "startMs": 30353,
+          "endMs": 30423,
+          "charStart": 64,
+          "charEnd": 66
+        },
+        {
+          "text": "norte",
+          "startMs": 30433,
+          "endMs": 30653,
+          "charStart": 67,
+          "charEnd": 72
+        },
+        {
+          "text": "de",
+          "startMs": 30663,
+          "endMs": 30723,
+          "charStart": 73,
+          "charEnd": 75
+        },
+        {
+          "text": "Europa",
+          "startMs": 30733,
+          "endMs": 31173,
+          "charStart": 76,
+          "charEnd": 82
+        }
+      ]
+    },
+    {
+      "text": "Se sorprendieron al descubrir que todavía compartían los mismos valores e inquietudes culturales.",
+      "startMs": 32110,
+      "endMs": 36910,
+      "words": [
+        {
+          "text": "Se",
+          "startMs": 32210,
+          "endMs": 32430,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "sorprendieron",
+          "startMs": 32440,
+          "endMs": 32910,
+          "charStart": 3,
+          "charEnd": 16
+        },
+        {
+          "text": "al",
+          "startMs": 32920,
+          "endMs": 32990,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "descubrir",
+          "startMs": 33000,
+          "endMs": 33390,
+          "charStart": 20,
+          "charEnd": 29
+        },
+        {
+          "text": "que",
+          "startMs": 33400,
+          "endMs": 33500,
+          "charStart": 30,
+          "charEnd": 33
+        },
+        {
+          "text": "todavía",
+          "startMs": 33510,
+          "endMs": 33850,
+          "charStart": 34,
+          "charEnd": 41
+        },
+        {
+          "text": "compartían",
+          "startMs": 33860,
+          "endMs": 34310,
+          "charStart": 42,
+          "charEnd": 52
+        },
+        {
+          "text": "los",
+          "startMs": 34320,
+          "endMs": 34450,
+          "charStart": 53,
+          "charEnd": 56
+        },
+        {
+          "text": "mismos",
+          "startMs": 34460,
+          "endMs": 34710,
+          "charStart": 57,
+          "charEnd": 63
+        },
+        {
+          "text": "valores",
+          "startMs": 34720,
+          "endMs": 35080,
+          "charStart": 64,
+          "charEnd": 71
+        },
+        {
+          "text": "e",
+          "startMs": 35090,
+          "endMs": 35110,
+          "charStart": 72,
+          "charEnd": 73
+        },
+        {
+          "text": "inquietudes",
+          "startMs": 35120,
+          "endMs": 35570,
+          "charStart": 74,
+          "charEnd": 85
+        },
+        {
+          "text": "culturales",
+          "startMs": 35580,
+          "endMs": 36210,
+          "charStart": 86,
+          "charEnd": 96
+        }
+      ]
+    },
+    {
+      "text": "Antes de despedirse, intercambiaron sus números de teléfono para no perder el contacto de nuevo.",
+      "startMs": 37160,
+      "endMs": 42008,
+      "words": [
+        {
+          "text": "Antes",
+          "startMs": 37260,
+          "endMs": 37580,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "de",
+          "startMs": 37590,
+          "endMs": 37650,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "despedirse",
+          "startMs": 37660,
+          "endMs": 38210,
+          "charStart": 9,
+          "charEnd": 19
+        },
+        {
+          "text": "intercambiaron",
+          "startMs": 38430,
+          "endMs": 38960,
+          "charStart": 21,
+          "charEnd": 35
+        },
+        {
+          "text": "sus",
+          "startMs": 38970,
+          "endMs": 39120,
+          "charStart": 36,
+          "charEnd": 39
+        },
+        {
+          "text": "números",
+          "startMs": 39130,
+          "endMs": 39400,
+          "charStart": 40,
+          "charEnd": 47
+        },
+        {
+          "text": "de",
+          "startMs": 39410,
+          "endMs": 39470,
+          "charStart": 48,
+          "charEnd": 50
+        },
+        {
+          "text": "teléfono",
+          "startMs": 39480,
+          "endMs": 39870,
+          "charStart": 51,
+          "charEnd": 59
+        },
+        {
+          "text": "para",
+          "startMs": 39880,
+          "endMs": 40040,
+          "charStart": 60,
+          "charEnd": 64
+        },
+        {
+          "text": "no",
+          "startMs": 40050,
+          "endMs": 40160,
+          "charStart": 65,
+          "charEnd": 67
+        },
+        {
+          "text": "perder",
+          "startMs": 40170,
+          "endMs": 40420,
+          "charStart": 68,
+          "charEnd": 74
+        },
+        {
+          "text": "el",
+          "startMs": 40430,
+          "endMs": 40490,
+          "charStart": 75,
+          "charEnd": 77
+        },
+        {
+          "text": "contacto",
+          "startMs": 40500,
+          "endMs": 40870,
+          "charStart": 78,
+          "charEnd": 86
+        },
+        {
+          "text": "de",
+          "startMs": 40880,
+          "endMs": 40940,
+          "charStart": 87,
+          "charEnd": 89
+        },
+        {
+          "text": "nuevo",
+          "startMs": 40950,
+          "endMs": 41310,
+          "charStart": 90,
+          "charEnd": 95
+        }
+      ]
+    },
+    {
+      "text": "Esa emotiva conversación les demostró que la verdadera amistad supera cualquier distancia temporal.",
+      "startMs": 42258,
+      "endMs": 47130,
+      "words": [
+        {
+          "text": "Esa",
+          "startMs": 42353,
+          "endMs": 42603,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "emotiva",
+          "startMs": 42613,
+          "endMs": 42943,
+          "charStart": 4,
+          "charEnd": 11
+        },
+        {
+          "text": "conversación",
+          "startMs": 42953,
+          "endMs": 43503,
+          "charStart": 12,
+          "charEnd": 24
+        },
+        {
+          "text": "les",
+          "startMs": 43513,
+          "endMs": 43633,
+          "charStart": 25,
+          "charEnd": 28
+        },
+        {
+          "text": "demostró",
+          "startMs": 43643,
+          "endMs": 43993,
+          "charStart": 29,
+          "charEnd": 37
+        },
+        {
+          "text": "que",
+          "startMs": 44003,
+          "endMs": 44093,
+          "charStart": 38,
+          "charEnd": 41
+        },
+        {
+          "text": "la",
+          "startMs": 44103,
+          "endMs": 44163,
+          "charStart": 42,
+          "charEnd": 44
+        },
+        {
+          "text": "verdadera",
+          "startMs": 44173,
+          "endMs": 44503,
+          "charStart": 45,
+          "charEnd": 54
+        },
+        {
+          "text": "amistad",
+          "startMs": 44513,
+          "endMs": 44853,
+          "charStart": 55,
+          "charEnd": 62
+        },
+        {
+          "text": "supera",
+          "startMs": 44863,
+          "endMs": 45183,
+          "charStart": 63,
+          "charEnd": 69
+        },
+        {
+          "text": "cualquier",
+          "startMs": 45193,
+          "endMs": 45523,
+          "charStart": 70,
+          "charEnd": 79
+        },
+        {
+          "text": "distancia",
+          "startMs": 45533,
+          "endMs": 45913,
+          "charStart": 80,
+          "charEnd": 89
+        },
+        {
+          "text": "temporal",
+          "startMs": 45923,
+          "endMs": 46443,
+          "charStart": 90,
+          "charEnd": 98
+        }
+      ]
+    }
+  ]
+}

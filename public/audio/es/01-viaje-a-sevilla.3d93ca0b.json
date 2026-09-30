@@ -1,0 +1,956 @@
+{
+  "version": 3,
+  "lang": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 42810,
+  "sentences": [
+    {
+      "text": "El fin de semana pasado, Marcos viajó a Sevilla en tren de alta velocidad.",
+      "startMs": 0,
+      "endMs": 4080,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 95,
+          "endMs": 285,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "fin",
+          "startMs": 295,
+          "endMs": 435,
+          "charStart": 3,
+          "charEnd": 6
+        },
+        {
+          "text": "de",
+          "startMs": 445,
+          "endMs": 515,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "semana",
+          "startMs": 525,
+          "endMs": 805,
+          "charStart": 10,
+          "charEnd": 16
+        },
+        {
+          "text": "pasado",
+          "startMs": 815,
+          "endMs": 1185,
+          "charStart": 17,
+          "charEnd": 23
+        },
+        {
+          "text": "Marcos",
+          "startMs": 1425,
+          "endMs": 1715,
+          "charStart": 25,
+          "charEnd": 31
+        },
+        {
+          "text": "viajó",
+          "startMs": 1725,
+          "endMs": 1995,
+          "charStart": 32,
+          "charEnd": 37
+        },
+        {
+          "text": "a",
+          "startMs": 2005,
+          "endMs": 2045,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "Sevilla",
+          "startMs": 2055,
+          "endMs": 2365,
+          "charStart": 40,
+          "charEnd": 47
+        },
+        {
+          "text": "en",
+          "startMs": 2375,
+          "endMs": 2465,
+          "charStart": 48,
+          "charEnd": 50
+        },
+        {
+          "text": "tren",
+          "startMs": 2475,
+          "endMs": 2635,
+          "charStart": 51,
+          "charEnd": 55
+        },
+        {
+          "text": "de",
+          "startMs": 2645,
+          "endMs": 2715,
+          "charStart": 56,
+          "charEnd": 58
+        },
+        {
+          "text": "alta",
+          "startMs": 2725,
+          "endMs": 2895,
+          "charStart": 59,
+          "charEnd": 63
+        },
+        {
+          "text": "velocidad",
+          "startMs": 2905,
+          "endMs": 3385,
+          "charStart": 64,
+          "charEnd": 73
+        }
+      ]
+    },
+    {
+      "text": "Era una mañana soleada y la estación estaba llena de turistas alegres.",
+      "startMs": 4330,
+      "endMs": 8218,
+      "words": [
+        {
+          "text": "Era",
+          "startMs": 4425,
+          "endMs": 4635,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "una",
+          "startMs": 4645,
+          "endMs": 4775,
+          "charStart": 4,
+          "charEnd": 7
+        },
+        {
+          "text": "mañana",
+          "startMs": 4785,
+          "endMs": 5095,
+          "charStart": 8,
+          "charEnd": 14
+        },
+        {
+          "text": "soleada",
+          "startMs": 5105,
+          "endMs": 5515,
+          "charStart": 15,
+          "charEnd": 22
+        },
+        {
+          "text": "y",
+          "startMs": 5525,
+          "endMs": 5565,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "la",
+          "startMs": 5575,
+          "endMs": 5645,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "estación",
+          "startMs": 5655,
+          "endMs": 6015,
+          "charStart": 28,
+          "charEnd": 36
+        },
+        {
+          "text": "estaba",
+          "startMs": 6025,
+          "endMs": 6335,
+          "charStart": 37,
+          "charEnd": 43
+        },
+        {
+          "text": "llena",
+          "startMs": 6345,
+          "endMs": 6535,
+          "charStart": 44,
+          "charEnd": 49
+        },
+        {
+          "text": "de",
+          "startMs": 6545,
+          "endMs": 6635,
+          "charStart": 50,
+          "charEnd": 52
+        },
+        {
+          "text": "turistas",
+          "startMs": 6645,
+          "endMs": 7015,
+          "charStart": 53,
+          "charEnd": 61
+        },
+        {
+          "text": "alegres",
+          "startMs": 7025,
+          "endMs": 7515,
+          "charStart": 62,
+          "charEnd": 69
+        }
+      ]
+    },
+    {
+      "text": "Cuando llegó a la ciudad, buscó su pequeño hotel cerca del centro histórico.",
+      "startMs": 8468,
+      "endMs": 12572,
+      "words": [
+        {
+          "text": "Cuando",
+          "startMs": 8568,
+          "endMs": 8858,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "llegó",
+          "startMs": 8868,
+          "endMs": 9098,
+          "charStart": 7,
+          "charEnd": 12
+        },
+        {
+          "text": "a",
+          "startMs": 9108,
+          "endMs": 9138,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "la",
+          "startMs": 9148,
+          "endMs": 9228,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "ciudad",
+          "startMs": 9238,
+          "endMs": 9558,
+          "charStart": 18,
+          "charEnd": 24
+        },
+        {
+          "text": "buscó",
+          "startMs": 9748,
+          "endMs": 9998,
+          "charStart": 26,
+          "charEnd": 31
+        },
+        {
+          "text": "su",
+          "startMs": 10008,
+          "endMs": 10108,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "pequeño",
+          "startMs": 10118,
+          "endMs": 10398,
+          "charStart": 35,
+          "charEnd": 42
+        },
+        {
+          "text": "hotel",
+          "startMs": 10408,
+          "endMs": 10658,
+          "charStart": 43,
+          "charEnd": 48
+        },
+        {
+          "text": "cerca",
+          "startMs": 10668,
+          "endMs": 10918,
+          "charStart": 49,
+          "charEnd": 54
+        },
+        {
+          "text": "del",
+          "startMs": 10928,
+          "endMs": 11078,
+          "charStart": 55,
+          "charEnd": 58
+        },
+        {
+          "text": "centro",
+          "startMs": 11088,
+          "endMs": 11338,
+          "charStart": 59,
+          "charEnd": 65
+        },
+        {
+          "text": "histórico",
+          "startMs": 11348,
+          "endMs": 11888,
+          "charStart": 66,
+          "charEnd": 75
+        }
+      ]
+    },
+    {
+      "text": "La habitación era cómoda y tenía una hermosa vista a la catedral antigua.",
+      "startMs": 12822,
+      "endMs": 16638,
+      "words": [
+        {
+          "text": "La",
+          "startMs": 12922,
+          "endMs": 13132,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "habitación",
+          "startMs": 13142,
+          "endMs": 13512,
+          "charStart": 3,
+          "charEnd": 13
+        },
+        {
+          "text": "era",
+          "startMs": 13522,
+          "endMs": 13632,
+          "charStart": 14,
+          "charEnd": 17
+        },
+        {
+          "text": "cómoda",
+          "startMs": 13642,
+          "endMs": 13942,
+          "charStart": 18,
+          "charEnd": 24
+        },
+        {
+          "text": "y",
+          "startMs": 13952,
+          "endMs": 14002,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "tenía",
+          "startMs": 14012,
+          "endMs": 14262,
+          "charStart": 27,
+          "charEnd": 32
+        },
+        {
+          "text": "una",
+          "startMs": 14272,
+          "endMs": 14402,
+          "charStart": 33,
+          "charEnd": 36
+        },
+        {
+          "text": "hermosa",
+          "startMs": 14412,
+          "endMs": 14732,
+          "charStart": 37,
+          "charEnd": 44
+        },
+        {
+          "text": "vista",
+          "startMs": 14742,
+          "endMs": 14982,
+          "charStart": 45,
+          "charEnd": 50
+        },
+        {
+          "text": "a",
+          "startMs": 14992,
+          "endMs": 15012,
+          "charStart": 51,
+          "charEnd": 52
+        },
+        {
+          "text": "la",
+          "startMs": 15022,
+          "endMs": 15092,
+          "charStart": 53,
+          "charEnd": 55
+        },
+        {
+          "text": "catedral",
+          "startMs": 15102,
+          "endMs": 15432,
+          "charStart": 56,
+          "charEnd": 64
+        },
+        {
+          "text": "antigua",
+          "startMs": 15442,
+          "endMs": 15942,
+          "charStart": 65,
+          "charEnd": 72
+        }
+      ]
+    },
+    {
+      "text": "Al mediodía, Marcos comió tapas deliciosas en un bar tradicional del barrio.",
+      "startMs": 16888,
+      "endMs": 21064,
+      "words": [
+        {
+          "text": "Al",
+          "startMs": 16988,
+          "endMs": 17168,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "mediodía",
+          "startMs": 17178,
+          "endMs": 17558,
+          "charStart": 3,
+          "charEnd": 11
+        },
+        {
+          "text": "Marcos",
+          "startMs": 17828,
+          "endMs": 18108,
+          "charStart": 13,
+          "charEnd": 19
+        },
+        {
+          "text": "comió",
+          "startMs": 18118,
+          "endMs": 18328,
+          "charStart": 20,
+          "charEnd": 25
+        },
+        {
+          "text": "tapas",
+          "startMs": 18338,
+          "endMs": 18568,
+          "charStart": 26,
+          "charEnd": 31
+        },
+        {
+          "text": "deliciosas",
+          "startMs": 18578,
+          "endMs": 19088,
+          "charStart": 32,
+          "charEnd": 42
+        },
+        {
+          "text": "en",
+          "startMs": 19098,
+          "endMs": 19178,
+          "charStart": 43,
+          "charEnd": 45
+        },
+        {
+          "text": "un",
+          "startMs": 19188,
+          "endMs": 19278,
+          "charStart": 46,
+          "charEnd": 48
+        },
+        {
+          "text": "bar",
+          "startMs": 19288,
+          "endMs": 19428,
+          "charStart": 49,
+          "charEnd": 52
+        },
+        {
+          "text": "tradicional",
+          "startMs": 19438,
+          "endMs": 19848,
+          "charStart": 53,
+          "charEnd": 64
+        },
+        {
+          "text": "del",
+          "startMs": 19858,
+          "endMs": 19958,
+          "charStart": 65,
+          "charEnd": 68
+        },
+        {
+          "text": "barrio",
+          "startMs": 19968,
+          "endMs": 20368,
+          "charStart": 69,
+          "charEnd": 75
+        }
+      ]
+    },
+    {
+      "text": "Probó jamón ibérico, tortilla de patatas y bebió un vaso de gazpacho frío.",
+      "startMs": 21314,
+      "endMs": 25490,
+      "words": [
+        {
+          "text": "Probó",
+          "startMs": 21414,
+          "endMs": 21664,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "jamón",
+          "startMs": 21674,
+          "endMs": 21924,
+          "charStart": 6,
+          "charEnd": 11
+        },
+        {
+          "text": "ibérico",
+          "startMs": 21934,
+          "endMs": 22334,
+          "charStart": 12,
+          "charEnd": 19
+        },
+        {
+          "text": "tortilla",
+          "startMs": 22504,
+          "endMs": 22814,
+          "charStart": 21,
+          "charEnd": 29
+        },
+        {
+          "text": "de",
+          "startMs": 22824,
+          "endMs": 22894,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "patatas",
+          "startMs": 22904,
+          "endMs": 23304,
+          "charStart": 33,
+          "charEnd": 40
+        },
+        {
+          "text": "y",
+          "startMs": 23314,
+          "endMs": 23354,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "bebió",
+          "startMs": 23364,
+          "endMs": 23594,
+          "charStart": 43,
+          "charEnd": 48
+        },
+        {
+          "text": "un",
+          "startMs": 23604,
+          "endMs": 23684,
+          "charStart": 49,
+          "charEnd": 51
+        },
+        {
+          "text": "vaso",
+          "startMs": 23694,
+          "endMs": 23904,
+          "charStart": 52,
+          "charEnd": 56
+        },
+        {
+          "text": "de",
+          "startMs": 23914,
+          "endMs": 23984,
+          "charStart": 57,
+          "charEnd": 59
+        },
+        {
+          "text": "gazpacho",
+          "startMs": 23994,
+          "endMs": 24384,
+          "charStart": 60,
+          "charEnd": 68
+        },
+        {
+          "text": "frío",
+          "startMs": 24394,
+          "endMs": 24804,
+          "charStart": 69,
+          "charEnd": 73
+        }
+      ]
+    },
+    {
+      "text": "Por la tarde, visitó el Real Alcázar y sacó muchas fotografías impresionantes.",
+      "startMs": 25740,
+      "endMs": 30060,
+      "words": [
+        {
+          "text": "Por",
+          "startMs": 25840,
+          "endMs": 26020,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "la",
+          "startMs": 26030,
+          "endMs": 26120,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "tarde",
+          "startMs": 26130,
+          "endMs": 26410,
+          "charStart": 7,
+          "charEnd": 12
+        },
+        {
+          "text": "visitó",
+          "startMs": 26600,
+          "endMs": 26890,
+          "charStart": 14,
+          "charEnd": 20
+        },
+        {
+          "text": "el",
+          "startMs": 26900,
+          "endMs": 26980,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "Real",
+          "startMs": 26990,
+          "endMs": 27150,
+          "charStart": 24,
+          "charEnd": 28
+        },
+        {
+          "text": "Alcázar",
+          "startMs": 27160,
+          "endMs": 27530,
+          "charStart": 29,
+          "charEnd": 36
+        },
+        {
+          "text": "y",
+          "startMs": 27540,
+          "endMs": 27590,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "sacó",
+          "startMs": 27600,
+          "endMs": 27830,
+          "charStart": 39,
+          "charEnd": 43
+        },
+        {
+          "text": "muchas",
+          "startMs": 27840,
+          "endMs": 28100,
+          "charStart": 44,
+          "charEnd": 50
+        },
+        {
+          "text": "fotografías",
+          "startMs": 28110,
+          "endMs": 28610,
+          "charStart": 51,
+          "charEnd": 62
+        },
+        {
+          "text": "impresionantes",
+          "startMs": 28620,
+          "endMs": 29370,
+          "charStart": 63,
+          "charEnd": 77
+        }
+      ]
+    },
+    {
+      "text": "Mientras caminaba por los jardines, conoció a una simpática guía local.",
+      "startMs": 30310,
+      "endMs": 34270,
+      "words": [
+        {
+          "text": "Mientras",
+          "startMs": 30405,
+          "endMs": 30745,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "caminaba",
+          "startMs": 30755,
+          "endMs": 31095,
+          "charStart": 9,
+          "charEnd": 17
+        },
+        {
+          "text": "por",
+          "startMs": 31105,
+          "endMs": 31225,
+          "charStart": 18,
+          "charEnd": 21
+        },
+        {
+          "text": "los",
+          "startMs": 31235,
+          "endMs": 31355,
+          "charStart": 22,
+          "charEnd": 25
+        },
+        {
+          "text": "jardines",
+          "startMs": 31365,
+          "endMs": 31795,
+          "charStart": 26,
+          "charEnd": 34
+        },
+        {
+          "text": "conoció",
+          "startMs": 31945,
+          "endMs": 32295,
+          "charStart": 36,
+          "charEnd": 43
+        },
+        {
+          "text": "a",
+          "startMs": 32305,
+          "endMs": 32335,
+          "charStart": 44,
+          "charEnd": 45
+        },
+        {
+          "text": "una",
+          "startMs": 32345,
+          "endMs": 32485,
+          "charStart": 46,
+          "charEnd": 49
+        },
+        {
+          "text": "simpática",
+          "startMs": 32495,
+          "endMs": 32965,
+          "charStart": 50,
+          "charEnd": 59
+        },
+        {
+          "text": "guía",
+          "startMs": 32975,
+          "endMs": 33125,
+          "charStart": 60,
+          "charEnd": 64
+        },
+        {
+          "text": "local",
+          "startMs": 33135,
+          "endMs": 33565,
+          "charStart": 65,
+          "charEnd": 70
+        }
+      ]
+    },
+    {
+      "text": "Ella le explicó la fascinante historia de los reyes y los palacios árabes.",
+      "startMs": 34520,
+      "endMs": 38408,
+      "words": [
+        {
+          "text": "Ella",
+          "startMs": 34615,
+          "endMs": 34865,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "le",
+          "startMs": 34875,
+          "endMs": 34945,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "explicó",
+          "startMs": 34955,
+          "endMs": 35305,
+          "charStart": 8,
+          "charEnd": 15
+        },
+        {
+          "text": "la",
+          "startMs": 35315,
+          "endMs": 35405,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "fascinante",
+          "startMs": 35415,
+          "endMs": 35845,
+          "charStart": 19,
+          "charEnd": 29
+        },
+        {
+          "text": "historia",
+          "startMs": 35855,
+          "endMs": 36165,
+          "charStart": 30,
+          "charEnd": 38
+        },
+        {
+          "text": "de",
+          "startMs": 36175,
+          "endMs": 36235,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "los",
+          "startMs": 36245,
+          "endMs": 36355,
+          "charStart": 42,
+          "charEnd": 45
+        },
+        {
+          "text": "reyes",
+          "startMs": 36365,
+          "endMs": 36655,
+          "charStart": 46,
+          "charEnd": 51
+        },
+        {
+          "text": "y",
+          "startMs": 36665,
+          "endMs": 36695,
+          "charStart": 52,
+          "charEnd": 53
+        },
+        {
+          "text": "los",
+          "startMs": 36705,
+          "endMs": 36835,
+          "charStart": 54,
+          "charEnd": 57
+        },
+        {
+          "text": "palacios",
+          "startMs": 36845,
+          "endMs": 37215,
+          "charStart": 58,
+          "charEnd": 66
+        },
+        {
+          "text": "árabes",
+          "startMs": 37225,
+          "endMs": 37705,
+          "charStart": 67,
+          "charEnd": 73
+        }
+      ]
+    },
+    {
+      "text": "Por la noche, Marcos regresó al hotel muy cansado pero profundamente feliz.",
+      "startMs": 38658,
+      "endMs": 42810,
+      "words": [
+        {
+          "text": "Por",
+          "startMs": 38758,
+          "endMs": 38938,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "la",
+          "startMs": 38948,
+          "endMs": 39008,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "noche",
+          "startMs": 39018,
+          "endMs": 39318,
+          "charStart": 7,
+          "charEnd": 12
+        },
+        {
+          "text": "Marcos",
+          "startMs": 39548,
+          "endMs": 39828,
+          "charStart": 14,
+          "charEnd": 20
+        },
+        {
+          "text": "regresó",
+          "startMs": 39838,
+          "endMs": 40178,
+          "charStart": 21,
+          "charEnd": 28
+        },
+        {
+          "text": "al",
+          "startMs": 40188,
+          "endMs": 40248,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "hotel",
+          "startMs": 40258,
+          "endMs": 40468,
+          "charStart": 32,
+          "charEnd": 37
+        },
+        {
+          "text": "muy",
+          "startMs": 40478,
+          "endMs": 40608,
+          "charStart": 38,
+          "charEnd": 41
+        },
+        {
+          "text": "cansado",
+          "startMs": 40618,
+          "endMs": 41008,
+          "charStart": 42,
+          "charEnd": 49
+        },
+        {
+          "text": "pero",
+          "startMs": 41018,
+          "endMs": 41188,
+          "charStart": 50,
+          "charEnd": 54
+        },
+        {
+          "text": "profundamente",
+          "startMs": 41198,
+          "endMs": 41768,
+          "charStart": 55,
+          "charEnd": 68
+        },
+        {
+          "text": "feliz",
+          "startMs": 41778,
+          "endMs": 42128,
+          "charStart": 69,
+          "charEnd": 74
+        }
+      ]
+    }
+  ]
+}

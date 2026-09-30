@@ -1,0 +1,977 @@
+{
+  "version": 3,
+  "lang": "ja",
+  "voice": "ja-JP-NanamiNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 38754,
+  "sentences": [
+    {
+      "text": "冬の山で、二人の木こりが猛吹雪に遭いました。",
+      "startMs": 0,
+      "endMs": 3744,
+      "words": [
+        {
+          "text": "冬",
+          "startMs": 110,
+          "endMs": 340,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "の",
+          "startMs": 350,
+          "endMs": 420,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "山",
+          "startMs": 430,
+          "endMs": 660,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "で",
+          "startMs": 670,
+          "endMs": 870,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "二人",
+          "startMs": 1060,
+          "endMs": 1330,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "の",
+          "startMs": 1340,
+          "endMs": 1420,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "木こり",
+          "startMs": 1430,
+          "endMs": 1710,
+          "charStart": 8,
+          "charEnd": 11
+        },
+        {
+          "text": "が",
+          "startMs": 1720,
+          "endMs": 1850,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "猛吹雪",
+          "startMs": 1870,
+          "endMs": 2380,
+          "charStart": 12,
+          "charEnd": 15
+        },
+        {
+          "text": "に",
+          "startMs": 2390,
+          "endMs": 2490,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "遭い",
+          "startMs": 2500,
+          "endMs": 2660,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "まし",
+          "startMs": 2670,
+          "endMs": 2850,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "た",
+          "startMs": 2860,
+          "endMs": 3040,
+          "charStart": 20,
+          "charEnd": 21
+        }
+      ]
+    },
+    {
+      "text": "二人は小さな山小屋に入って、火をつけました。",
+      "startMs": 3994,
+      "endMs": 7690,
+      "words": [
+        {
+          "text": "二人",
+          "startMs": 4104,
+          "endMs": 4384,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "は",
+          "startMs": 4394,
+          "endMs": 4514,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "小さな",
+          "startMs": 4524,
+          "endMs": 4944,
+          "charStart": 3,
+          "charEnd": 6
+        },
+        {
+          "text": "山小屋",
+          "startMs": 4954,
+          "endMs": 5374,
+          "charStart": 6,
+          "charEnd": 9
+        },
+        {
+          "text": "に",
+          "startMs": 5384,
+          "endMs": 5484,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "入っ",
+          "startMs": 5494,
+          "endMs": 5774,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "て",
+          "startMs": 5784,
+          "endMs": 6014,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "火",
+          "startMs": 6184,
+          "endMs": 6314,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "を",
+          "startMs": 6324,
+          "endMs": 6414,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "つけまし",
+          "startMs": 6424,
+          "endMs": 6804,
+          "charStart": 16,
+          "charEnd": 20
+        },
+        {
+          "text": "た",
+          "startMs": 6814,
+          "endMs": 6984,
+          "charStart": 20,
+          "charEnd": 21
+        }
+      ]
+    },
+    {
+      "text": "真夜中に、部屋の戸が静かに開きました。",
+      "startMs": 7940,
+      "endMs": 11252,
+      "words": [
+        {
+          "text": "真夜中",
+          "startMs": 8050,
+          "endMs": 8490,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "に",
+          "startMs": 8500,
+          "endMs": 8690,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "部屋",
+          "startMs": 8900,
+          "endMs": 9080,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "の",
+          "startMs": 9090,
+          "endMs": 9200,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "戸",
+          "startMs": 9210,
+          "endMs": 9300,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "が",
+          "startMs": 9310,
+          "endMs": 9430,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "静か",
+          "startMs": 9450,
+          "endMs": 9780,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "に",
+          "startMs": 9790,
+          "endMs": 9870,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "開き",
+          "startMs": 9880,
+          "endMs": 10190,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "まし",
+          "startMs": 10200,
+          "endMs": 10380,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "た",
+          "startMs": 10390,
+          "endMs": 10560,
+          "charStart": 17,
+          "charEnd": 18
+        }
+      ]
+    },
+    {
+      "text": "白い着物を着た美しい女の人が立っていました。",
+      "startMs": 11502,
+      "endMs": 15126,
+      "words": [
+        {
+          "text": "白い",
+          "startMs": 11612,
+          "endMs": 11972,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "着物",
+          "startMs": 11982,
+          "endMs": 12262,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "を",
+          "startMs": 12272,
+          "endMs": 12342,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "着",
+          "startMs": 12352,
+          "endMs": 12462,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "た",
+          "startMs": 12472,
+          "endMs": 12542,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "美しい",
+          "startMs": 12552,
+          "endMs": 13072,
+          "charStart": 7,
+          "charEnd": 10
+        },
+        {
+          "text": "女",
+          "startMs": 13082,
+          "endMs": 13322,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "の",
+          "startMs": 13332,
+          "endMs": 13402,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "人",
+          "startMs": 13412,
+          "endMs": 13582,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "が",
+          "startMs": 13592,
+          "endMs": 13692,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "立っ",
+          "startMs": 13702,
+          "endMs": 13892,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "て",
+          "startMs": 13902,
+          "endMs": 13972,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "いま",
+          "startMs": 13982,
+          "endMs": 14152,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "し",
+          "startMs": 14162,
+          "endMs": 14252,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "た",
+          "startMs": 14262,
+          "endMs": 14432,
+          "charStart": 20,
+          "charEnd": 21
+        }
+      ]
+    },
+    {
+      "text": "その女の人は冷たい雪女でした。",
+      "startMs": 15376,
+      "endMs": 18544,
+      "words": [
+        {
+          "text": "その",
+          "startMs": 15486,
+          "endMs": 15736,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "女",
+          "startMs": 15746,
+          "endMs": 15996,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "の",
+          "startMs": 16006,
+          "endMs": 16076,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "人",
+          "startMs": 16086,
+          "endMs": 16286,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "は",
+          "startMs": 16296,
+          "endMs": 16476,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "冷たい",
+          "startMs": 16546,
+          "endMs": 17016,
+          "charStart": 6,
+          "charEnd": 9
+        },
+        {
+          "text": "雪女",
+          "startMs": 17026,
+          "endMs": 17466,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "でし",
+          "startMs": 17476,
+          "endMs": 17666,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "た",
+          "startMs": 17676,
+          "endMs": 17846,
+          "charStart": 13,
+          "charEnd": 14
+        }
+      ]
+    },
+    {
+      "text": "雪女は年上の木こりに白い息を吹きかけました。",
+      "startMs": 18794,
+      "endMs": 22778,
+      "words": [
+        {
+          "text": "雪女",
+          "startMs": 18904,
+          "endMs": 19404,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "は",
+          "startMs": 19414,
+          "endMs": 19594,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "年上",
+          "startMs": 19664,
+          "endMs": 20094,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "の",
+          "startMs": 20104,
+          "endMs": 20194,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "木こり",
+          "startMs": 20204,
+          "endMs": 20504,
+          "charStart": 6,
+          "charEnd": 9
+        },
+        {
+          "text": "に",
+          "startMs": 20514,
+          "endMs": 20634,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "白い",
+          "startMs": 20644,
+          "endMs": 20974,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "息",
+          "startMs": 20984,
+          "endMs": 21164,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "を",
+          "startMs": 21174,
+          "endMs": 21274,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "吹き",
+          "startMs": 21284,
+          "endMs": 21484,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "かけまし",
+          "startMs": 21494,
+          "endMs": 21884,
+          "charStart": 16,
+          "charEnd": 20
+        },
+        {
+          "text": "た",
+          "startMs": 21894,
+          "endMs": 22074,
+          "charStart": 20,
+          "charEnd": 21
+        }
+      ]
+    },
+    {
+      "text": "雪女は若い男を見て、「あなたは助けてあげます」と言いました。",
+      "startMs": 23028,
+      "endMs": 27828,
+      "words": [
+        {
+          "text": "雪女",
+          "startMs": 23138,
+          "endMs": 23638,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "は",
+          "startMs": 23648,
+          "endMs": 23748,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "若い",
+          "startMs": 23758,
+          "endMs": 24078,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "男",
+          "startMs": 24088,
+          "endMs": 24378,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "を",
+          "startMs": 24388,
+          "endMs": 24458,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "見",
+          "startMs": 24468,
+          "endMs": 24588,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "て",
+          "startMs": 24598,
+          "endMs": 24738,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "あなた",
+          "startMs": 25018,
+          "endMs": 25328,
+          "charStart": 11,
+          "charEnd": 14
+        },
+        {
+          "text": "は",
+          "startMs": 25338,
+          "endMs": 25438,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "助け",
+          "startMs": 25448,
+          "endMs": 25748,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "て",
+          "startMs": 25758,
+          "endMs": 25838,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "あげ",
+          "startMs": 25848,
+          "endMs": 26018,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "ます",
+          "startMs": 26028,
+          "endMs": 26298,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "と",
+          "startMs": 26508,
+          "endMs": 26598,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "言い",
+          "startMs": 26608,
+          "endMs": 26758,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "まし",
+          "startMs": 26768,
+          "endMs": 26948,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "た",
+          "startMs": 26958,
+          "endMs": 27128,
+          "charStart": 28,
+          "charEnd": 29
+        }
+      ]
+    },
+    {
+      "text": "「今夜の出来事を誰にも言ってはいけません」。",
+      "startMs": 28078,
+      "endMs": 31126,
+      "words": [
+        {
+          "text": "今夜",
+          "startMs": 28188,
+          "endMs": 28478,
+          "charStart": 1,
+          "charEnd": 3
+        },
+        {
+          "text": "の",
+          "startMs": 28488,
+          "endMs": 28588,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "出来事",
+          "startMs": 28598,
+          "endMs": 28998,
+          "charStart": 4,
+          "charEnd": 7
+        },
+        {
+          "text": "を",
+          "startMs": 29008,
+          "endMs": 29108,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "誰",
+          "startMs": 29118,
+          "endMs": 29298,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "に",
+          "startMs": 29308,
+          "endMs": 29408,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "も",
+          "startMs": 29418,
+          "endMs": 29498,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "言っ",
+          "startMs": 29508,
+          "endMs": 29658,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "て",
+          "startMs": 29668,
+          "endMs": 29758,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "は",
+          "startMs": 29768,
+          "endMs": 29838,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "いけ",
+          "startMs": 29848,
+          "endMs": 30038,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "ませ",
+          "startMs": 30048,
+          "endMs": 30278,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "ん",
+          "startMs": 30288,
+          "endMs": 30418,
+          "charStart": 19,
+          "charEnd": 20
+        }
+      ]
+    },
+    {
+      "text": "男は約束をして、朝まで目を閉じました。",
+      "startMs": 31376,
+      "endMs": 34928,
+      "words": [
+        {
+          "text": "男",
+          "startMs": 31516,
+          "endMs": 31786,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "は",
+          "startMs": 31796,
+          "endMs": 31876,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "約束",
+          "startMs": 31886,
+          "endMs": 32296,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "を",
+          "startMs": 32306,
+          "endMs": 32396,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "し",
+          "startMs": 32406,
+          "endMs": 32516,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "て",
+          "startMs": 32526,
+          "endMs": 32676,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "朝",
+          "startMs": 32956,
+          "endMs": 33206,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "まで",
+          "startMs": 33216,
+          "endMs": 33406,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "目",
+          "startMs": 33416,
+          "endMs": 33526,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "を",
+          "startMs": 33536,
+          "endMs": 33626,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "閉じ",
+          "startMs": 33636,
+          "endMs": 33856,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "まし",
+          "startMs": 33866,
+          "endMs": 34046,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "た",
+          "startMs": 34056,
+          "endMs": 34236,
+          "charStart": 17,
+          "charEnd": 18
+        }
+      ]
+    },
+    {
+      "text": "朝になると、雪女の姿は消えていました。",
+      "startMs": 35178,
+      "endMs": 38754,
+      "words": [
+        {
+          "text": "朝",
+          "startMs": 35318,
+          "endMs": 35498,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "に",
+          "startMs": 35508,
+          "endMs": 35628,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "なる",
+          "startMs": 35638,
+          "endMs": 35828,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "と",
+          "startMs": 35838,
+          "endMs": 35998,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "雪女",
+          "startMs": 36238,
+          "endMs": 36738,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "の",
+          "startMs": 36748,
+          "endMs": 36838,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "姿",
+          "startMs": 36848,
+          "endMs": 37168,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "は",
+          "startMs": 37178,
+          "endMs": 37278,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "消え",
+          "startMs": 37288,
+          "endMs": 37498,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "て",
+          "startMs": 37508,
+          "endMs": 37578,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "い",
+          "startMs": 37588,
+          "endMs": 37678,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "ま",
+          "startMs": 37688,
+          "endMs": 37768,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "し",
+          "startMs": 37778,
+          "endMs": 37868,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "た",
+          "startMs": 37878,
+          "endMs": 38058,
+          "charStart": 17,
+          "charEnd": 18
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,676 @@
+{
+  "version": 3,
+  "lang": "ru",
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 39090,
+  "sentences": [
+    {
+      "text": "Вчера утром Сергей почувствовал сильную боль в горле.",
+      "startMs": 0,
+      "endMs": 3504,
+      "words": [
+        {
+          "text": "Вчера",
+          "startMs": 100,
+          "endMs": 540,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "утром",
+          "startMs": 540,
+          "endMs": 860,
+          "charStart": 6,
+          "charEnd": 11
+        },
+        {
+          "text": "Сергей",
+          "startMs": 860,
+          "endMs": 1220,
+          "charStart": 12,
+          "charEnd": 18
+        },
+        {
+          "text": "почувствовал",
+          "startMs": 1220,
+          "endMs": 1780,
+          "charStart": 19,
+          "charEnd": 31
+        },
+        {
+          "text": "сильную",
+          "startMs": 1780,
+          "endMs": 2120,
+          "charStart": 32,
+          "charEnd": 39
+        },
+        {
+          "text": "боль",
+          "startMs": 2120,
+          "endMs": 2280,
+          "charStart": 40,
+          "charEnd": 44
+        },
+        {
+          "text": "в",
+          "startMs": 2280,
+          "endMs": 2330,
+          "charStart": 45,
+          "charEnd": 46
+        },
+        {
+          "text": "горле",
+          "startMs": 2330,
+          "endMs": 2770,
+          "charStart": 47,
+          "charEnd": 52
+        }
+      ]
+    },
+    {
+      "text": "У него поднялась высокая температура, и заболела голова.",
+      "startMs": 3754,
+      "endMs": 7402,
+      "words": [
+        {
+          "text": "У",
+          "startMs": 3854,
+          "endMs": 4014,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "него",
+          "startMs": 4014,
+          "endMs": 4184,
+          "charStart": 2,
+          "charEnd": 6
+        },
+        {
+          "text": "поднялась",
+          "startMs": 4184,
+          "endMs": 4544,
+          "charStart": 7,
+          "charEnd": 16
+        },
+        {
+          "text": "высокая",
+          "startMs": 4544,
+          "endMs": 4944,
+          "charStart": 17,
+          "charEnd": 24
+        },
+        {
+          "text": "температура",
+          "startMs": 4944,
+          "endMs": 5464,
+          "charStart": 25,
+          "charEnd": 36
+        },
+        {
+          "text": "и",
+          "startMs": 5654,
+          "endMs": 5814,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "заболела",
+          "startMs": 5814,
+          "endMs": 6224,
+          "charStart": 40,
+          "charEnd": 48
+        },
+        {
+          "text": "голова",
+          "startMs": 6224,
+          "endMs": 6664,
+          "charStart": 49,
+          "charEnd": 55
+        }
+      ]
+    },
+    {
+      "text": "Сергей решил не идти на работу и вызвал врача.",
+      "startMs": 7652,
+      "endMs": 10748,
+      "words": [
+        {
+          "text": "Сергей",
+          "startMs": 7752,
+          "endMs": 8162,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "решил",
+          "startMs": 8162,
+          "endMs": 8452,
+          "charStart": 7,
+          "charEnd": 12
+        },
+        {
+          "text": "не",
+          "startMs": 8452,
+          "endMs": 8542,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "идти",
+          "startMs": 8542,
+          "endMs": 8712,
+          "charStart": 16,
+          "charEnd": 20
+        },
+        {
+          "text": "на",
+          "startMs": 8712,
+          "endMs": 8772,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "работу",
+          "startMs": 8772,
+          "endMs": 9132,
+          "charStart": 24,
+          "charEnd": 30
+        },
+        {
+          "text": "и",
+          "startMs": 9132,
+          "endMs": 9282,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "вызвал",
+          "startMs": 9282,
+          "endMs": 9592,
+          "charStart": 33,
+          "charEnd": 39
+        },
+        {
+          "text": "врача",
+          "startMs": 9592,
+          "endMs": 10022,
+          "charStart": 40,
+          "charEnd": 45
+        }
+      ]
+    },
+    {
+      "text": "Доктор приехал через час и внимательно осмотрел пациента.",
+      "startMs": 10998,
+      "endMs": 14838,
+      "words": [
+        {
+          "text": "Доктор",
+          "startMs": 11098,
+          "endMs": 11578,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "приехал",
+          "startMs": 11578,
+          "endMs": 11938,
+          "charStart": 7,
+          "charEnd": 14
+        },
+        {
+          "text": "через",
+          "startMs": 11938,
+          "endMs": 12168,
+          "charStart": 15,
+          "charEnd": 20
+        },
+        {
+          "text": "час",
+          "startMs": 12168,
+          "endMs": 12478,
+          "charStart": 21,
+          "charEnd": 24
+        },
+        {
+          "text": "и",
+          "startMs": 12478,
+          "endMs": 12578,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "внимательно",
+          "startMs": 12578,
+          "endMs": 13078,
+          "charStart": 27,
+          "charEnd": 38
+        },
+        {
+          "text": "осмотрел",
+          "startMs": 13078,
+          "endMs": 13558,
+          "charStart": 39,
+          "charEnd": 47
+        },
+        {
+          "text": "пациента",
+          "startMs": 13558,
+          "endMs": 14118,
+          "charStart": 48,
+          "charEnd": 56
+        }
+      ]
+    },
+    {
+      "text": "Он послушал лёгкие Сергея и проверил его красное горло.",
+      "startMs": 15088,
+      "endMs": 18928,
+      "words": [
+        {
+          "text": "Он",
+          "startMs": 15188,
+          "endMs": 15438,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "послушал",
+          "startMs": 15438,
+          "endMs": 15898,
+          "charStart": 3,
+          "charEnd": 11
+        },
+        {
+          "text": "лёгкие",
+          "startMs": 15898,
+          "endMs": 16208,
+          "charStart": 12,
+          "charEnd": 18
+        },
+        {
+          "text": "Сергея",
+          "startMs": 16208,
+          "endMs": 16758,
+          "charStart": 19,
+          "charEnd": 25
+        },
+        {
+          "text": "и",
+          "startMs": 16758,
+          "endMs": 16858,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "проверил",
+          "startMs": 16858,
+          "endMs": 17248,
+          "charStart": 28,
+          "charEnd": 36
+        },
+        {
+          "text": "его",
+          "startMs": 17248,
+          "endMs": 17448,
+          "charStart": 37,
+          "charEnd": 40
+        },
+        {
+          "text": "красное",
+          "startMs": 17448,
+          "endMs": 17818,
+          "charStart": 41,
+          "charEnd": 48
+        },
+        {
+          "text": "горло",
+          "startMs": 17818,
+          "endMs": 18208,
+          "charStart": 49,
+          "charEnd": 54
+        }
+      ]
+    },
+    {
+      "text": "Врач сказал: «У вас обычная сезонная простуда, не волнуйтесь».",
+      "startMs": 19178,
+      "endMs": 23426,
+      "words": [
+        {
+          "text": "Врач",
+          "startMs": 19278,
+          "endMs": 19668,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "сказал",
+          "startMs": 19668,
+          "endMs": 20038,
+          "charStart": 5,
+          "charEnd": 11
+        },
+        {
+          "text": "У",
+          "startMs": 20298,
+          "endMs": 20328,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "вас",
+          "startMs": 20328,
+          "endMs": 20558,
+          "charStart": 16,
+          "charEnd": 19
+        },
+        {
+          "text": "обычная",
+          "startMs": 20558,
+          "endMs": 20968,
+          "charStart": 20,
+          "charEnd": 27
+        },
+        {
+          "text": "сезонная",
+          "startMs": 20968,
+          "endMs": 21378,
+          "charStart": 28,
+          "charEnd": 36
+        },
+        {
+          "text": "простуда",
+          "startMs": 21378,
+          "endMs": 21758,
+          "charStart": 37,
+          "charEnd": 45
+        },
+        {
+          "text": "не",
+          "startMs": 21948,
+          "endMs": 22018,
+          "charStart": 47,
+          "charEnd": 49
+        },
+        {
+          "text": "волнуйтесь",
+          "startMs": 22018,
+          "endMs": 22548,
+          "charStart": 50,
+          "charEnd": 60
+        }
+      ]
+    },
+    {
+      "text": "Он выписал рецепт на нужные антибиотики и витамины.",
+      "startMs": 23676,
+      "endMs": 27300,
+      "words": [
+        {
+          "text": "Он",
+          "startMs": 23776,
+          "endMs": 24016,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "выписал",
+          "startMs": 24016,
+          "endMs": 24376,
+          "charStart": 3,
+          "charEnd": 10
+        },
+        {
+          "text": "рецепт",
+          "startMs": 24376,
+          "endMs": 24776,
+          "charStart": 11,
+          "charEnd": 17
+        },
+        {
+          "text": "на",
+          "startMs": 24776,
+          "endMs": 24926,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "нужные",
+          "startMs": 24926,
+          "endMs": 25266,
+          "charStart": 21,
+          "charEnd": 27
+        },
+        {
+          "text": "антибиотики",
+          "startMs": 25266,
+          "endMs": 25936,
+          "charStart": 28,
+          "charEnd": 39
+        },
+        {
+          "text": "и",
+          "startMs": 25936,
+          "endMs": 26056,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "витамины",
+          "startMs": 26056,
+          "endMs": 26566,
+          "charStart": 42,
+          "charEnd": 50
+        }
+      ]
+    },
+    {
+      "text": "Доктор посоветовал пить тёплый чай с мёдом и лимоном.",
+      "startMs": 27550,
+      "endMs": 31006,
+      "words": [
+        {
+          "text": "Доктор",
+          "startMs": 27650,
+          "endMs": 28110,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "посоветовал",
+          "startMs": 28110,
+          "endMs": 28580,
+          "charStart": 7,
+          "charEnd": 18
+        },
+        {
+          "text": "пить",
+          "startMs": 28580,
+          "endMs": 28790,
+          "charStart": 19,
+          "charEnd": 23
+        },
+        {
+          "text": "тёплый",
+          "startMs": 28790,
+          "endMs": 29090,
+          "charStart": 24,
+          "charEnd": 30
+        },
+        {
+          "text": "чай",
+          "startMs": 29090,
+          "endMs": 29300,
+          "charStart": 31,
+          "charEnd": 34
+        },
+        {
+          "text": "с",
+          "startMs": 29300,
+          "endMs": 29370,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "мёдом",
+          "startMs": 29370,
+          "endMs": 29740,
+          "charStart": 37,
+          "charEnd": 42
+        },
+        {
+          "text": "и",
+          "startMs": 29740,
+          "endMs": 29840,
+          "charStart": 43,
+          "charEnd": 44
+        },
+        {
+          "text": "лимоном",
+          "startMs": 29840,
+          "endMs": 30280,
+          "charStart": 45,
+          "charEnd": 52
+        }
+      ]
+    },
+    {
+      "text": "Также Сергею нужно было соблюдать строгий постельный режим.",
+      "startMs": 31256,
+      "endMs": 34880,
+      "words": [
+        {
+          "text": "Также",
+          "startMs": 31356,
+          "endMs": 31696,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "Сергею",
+          "startMs": 31696,
+          "endMs": 32066,
+          "charStart": 6,
+          "charEnd": 12
+        },
+        {
+          "text": "нужно",
+          "startMs": 32066,
+          "endMs": 32356,
+          "charStart": 13,
+          "charEnd": 18
+        },
+        {
+          "text": "было",
+          "startMs": 32356,
+          "endMs": 32506,
+          "charStart": 19,
+          "charEnd": 23
+        },
+        {
+          "text": "соблюдать",
+          "startMs": 32506,
+          "endMs": 32886,
+          "charStart": 24,
+          "charEnd": 33
+        },
+        {
+          "text": "строгий",
+          "startMs": 32886,
+          "endMs": 33306,
+          "charStart": 34,
+          "charEnd": 41
+        },
+        {
+          "text": "постельный",
+          "startMs": 33306,
+          "endMs": 33756,
+          "charStart": 42,
+          "charEnd": 52
+        },
+        {
+          "text": "режим",
+          "startMs": 33756,
+          "endMs": 34156,
+          "charStart": 53,
+          "charEnd": 58
+        }
+      ]
+    },
+    {
+      "text": "Через несколько дней правильного лечения больной почувствовал себя лучше.",
+      "startMs": 35130,
+      "endMs": 39090,
+      "words": [
+        {
+          "text": "Через",
+          "startMs": 35230,
+          "endMs": 35510,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "несколько",
+          "startMs": 35510,
+          "endMs": 35860,
+          "charStart": 6,
+          "charEnd": 15
+        },
+        {
+          "text": "дней",
+          "startMs": 35860,
+          "endMs": 36070,
+          "charStart": 16,
+          "charEnd": 20
+        },
+        {
+          "text": "правильного",
+          "startMs": 36070,
+          "endMs": 36440,
+          "charStart": 21,
+          "charEnd": 32
+        },
+        {
+          "text": "лечения",
+          "startMs": 36440,
+          "endMs": 36820,
+          "charStart": 33,
+          "charEnd": 40
+        },
+        {
+          "text": "больной",
+          "startMs": 36820,
+          "endMs": 37190,
+          "charStart": 41,
+          "charEnd": 48
+        },
+        {
+          "text": "почувствовал",
+          "startMs": 37190,
+          "endMs": 37730,
+          "charStart": 49,
+          "charEnd": 61
+        },
+        {
+          "text": "себя",
+          "startMs": 37730,
+          "endMs": 37940,
+          "charStart": 62,
+          "charEnd": 66
+        },
+        {
+          "text": "лучше",
+          "startMs": 37940,
+          "endMs": 38360,
+          "charStart": 67,
+          "charEnd": 72
+        }
+      ]
+    }
+  ]
+}

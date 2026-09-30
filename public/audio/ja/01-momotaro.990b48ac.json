@@ -1,0 +1,970 @@
+{
+  "version": 3,
+  "lang": "ja",
+  "voice": "ja-JP-NanamiNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 39402,
+  "sentences": [
+    {
+      "text": "昔、ある所におじいさんとおばあさんが住んでいました。",
+      "startMs": 0,
+      "endMs": 3984,
+      "words": [
+        {
+          "text": "昔",
+          "startMs": 110,
+          "endMs": 510,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "ある",
+          "startMs": 760,
+          "endMs": 970,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "所",
+          "startMs": 980,
+          "endMs": 1250,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "に",
+          "startMs": 1260,
+          "endMs": 1380,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "おじいさん",
+          "startMs": 1390,
+          "endMs": 1860,
+          "charStart": 6,
+          "charEnd": 11
+        },
+        {
+          "text": "と",
+          "startMs": 1870,
+          "endMs": 1970,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "お",
+          "startMs": 1980,
+          "endMs": 2060,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "ばあさん",
+          "startMs": 2070,
+          "endMs": 2410,
+          "charStart": 13,
+          "charEnd": 17
+        },
+        {
+          "text": "が",
+          "startMs": 2420,
+          "endMs": 2520,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "住ん",
+          "startMs": 2530,
+          "endMs": 2740,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "で",
+          "startMs": 2750,
+          "endMs": 2810,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "いま",
+          "startMs": 2820,
+          "endMs": 2990,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "し",
+          "startMs": 3000,
+          "endMs": 3100,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "た",
+          "startMs": 3110,
+          "endMs": 3290,
+          "charStart": 24,
+          "charEnd": 25
+        }
+      ]
+    },
+    {
+      "text": "おばあさんは川で大きな桃を拾いました。",
+      "startMs": 4234,
+      "endMs": 7306,
+      "words": [
+        {
+          "text": "お",
+          "startMs": 4374,
+          "endMs": 4434,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "ばあさん",
+          "startMs": 4444,
+          "endMs": 4824,
+          "charStart": 1,
+          "charEnd": 5
+        },
+        {
+          "text": "は",
+          "startMs": 4834,
+          "endMs": 4944,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "川",
+          "startMs": 4954,
+          "endMs": 5164,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "で",
+          "startMs": 5174,
+          "endMs": 5254,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "大きな",
+          "startMs": 5264,
+          "endMs": 5654,
+          "charStart": 8,
+          "charEnd": 11
+        },
+        {
+          "text": "桃",
+          "startMs": 5664,
+          "endMs": 5844,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "を",
+          "startMs": 5854,
+          "endMs": 5914,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "拾い",
+          "startMs": 5924,
+          "endMs": 6224,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "まし",
+          "startMs": 6234,
+          "endMs": 6414,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "た",
+          "startMs": 6424,
+          "endMs": 6604,
+          "charStart": 17,
+          "charEnd": 18
+        }
+      ]
+    },
+    {
+      "text": "桃を切ると、中から元気な男の子が生まれました。",
+      "startMs": 7556,
+      "endMs": 11372,
+      "words": [
+        {
+          "text": "桃",
+          "startMs": 7666,
+          "endMs": 7876,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "を",
+          "startMs": 7886,
+          "endMs": 7966,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "切る",
+          "startMs": 7976,
+          "endMs": 8206,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "と",
+          "startMs": 8216,
+          "endMs": 8366,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "中",
+          "startMs": 8616,
+          "endMs": 8806,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "から",
+          "startMs": 8816,
+          "endMs": 8996,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "元気",
+          "startMs": 9006,
+          "endMs": 9336,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "な",
+          "startMs": 9346,
+          "endMs": 9416,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "男",
+          "startMs": 9426,
+          "endMs": 9696,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "の",
+          "startMs": 9706,
+          "endMs": 9796,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "子",
+          "startMs": 9806,
+          "endMs": 9896,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "が",
+          "startMs": 9906,
+          "endMs": 9996,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "生まれ",
+          "startMs": 10006,
+          "endMs": 10276,
+          "charStart": 16,
+          "charEnd": 19
+        },
+        {
+          "text": "まし",
+          "startMs": 10286,
+          "endMs": 10486,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "た",
+          "startMs": 10496,
+          "endMs": 10666,
+          "charStart": 21,
+          "charEnd": 22
+        }
+      ]
+    },
+    {
+      "text": "二人はその子に「桃太郎」と名前をつけました。",
+      "startMs": 11622,
+      "endMs": 15318,
+      "words": [
+        {
+          "text": "二人",
+          "startMs": 11732,
+          "endMs": 12012,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "は",
+          "startMs": 12022,
+          "endMs": 12182,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "その",
+          "startMs": 12212,
+          "endMs": 12462,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "子",
+          "startMs": 12472,
+          "endMs": 12562,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "に",
+          "startMs": 12572,
+          "endMs": 12722,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "桃太郎",
+          "startMs": 12892,
+          "endMs": 13422,
+          "charStart": 8,
+          "charEnd": 11
+        },
+        {
+          "text": "と",
+          "startMs": 13572,
+          "endMs": 13662,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "名前",
+          "startMs": 13672,
+          "endMs": 13952,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "を",
+          "startMs": 13962,
+          "endMs": 14052,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "つけまし",
+          "startMs": 14062,
+          "endMs": 14432,
+          "charStart": 16,
+          "charEnd": 20
+        },
+        {
+          "text": "た",
+          "startMs": 14442,
+          "endMs": 14612,
+          "charStart": 20,
+          "charEnd": 21
+        }
+      ]
+    },
+    {
+      "text": "桃太郎はたくさんご飯を食べて、とても強くなりました。",
+      "startMs": 15568,
+      "endMs": 19648,
+      "words": [
+        {
+          "text": "桃太郎",
+          "startMs": 15678,
+          "endMs": 16168,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "は",
+          "startMs": 16178,
+          "endMs": 16308,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "たくさん",
+          "startMs": 16328,
+          "endMs": 16688,
+          "charStart": 4,
+          "charEnd": 8
+        },
+        {
+          "text": "ご",
+          "startMs": 16698,
+          "endMs": 16818,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "飯",
+          "startMs": 16828,
+          "endMs": 17028,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "を",
+          "startMs": 17038,
+          "endMs": 17128,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "食べ",
+          "startMs": 17138,
+          "endMs": 17338,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "て",
+          "startMs": 17348,
+          "endMs": 17548,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "とても",
+          "startMs": 17758,
+          "endMs": 18068,
+          "charStart": 15,
+          "charEnd": 18
+        },
+        {
+          "text": "強く",
+          "startMs": 18078,
+          "endMs": 18408,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "なり",
+          "startMs": 18418,
+          "endMs": 18578,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "まし",
+          "startMs": 18588,
+          "endMs": 18768,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "た",
+          "startMs": 18778,
+          "endMs": 18948,
+          "charStart": 24,
+          "charEnd": 25
+        }
+      ]
+    },
+    {
+      "text": "ある日、悪い鬼が村に来て宝物を盗みました。",
+      "startMs": 19898,
+      "endMs": 23738,
+      "words": [
+        {
+          "text": "ある",
+          "startMs": 20008,
+          "endMs": 20178,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "日",
+          "startMs": 20188,
+          "endMs": 20388,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "悪い",
+          "startMs": 20658,
+          "endMs": 20908,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "鬼",
+          "startMs": 20918,
+          "endMs": 21098,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "が",
+          "startMs": 21108,
+          "endMs": 21198,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "村",
+          "startMs": 21208,
+          "endMs": 21398,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "に",
+          "startMs": 21408,
+          "endMs": 21538,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "来",
+          "startMs": 21548,
+          "endMs": 21628,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "て",
+          "startMs": 21638,
+          "endMs": 21748,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "宝物",
+          "startMs": 21768,
+          "endMs": 22248,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "を",
+          "startMs": 22258,
+          "endMs": 22328,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "盗み",
+          "startMs": 22338,
+          "endMs": 22648,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "まし",
+          "startMs": 22658,
+          "endMs": 22838,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "た",
+          "startMs": 22848,
+          "endMs": 23028,
+          "charStart": 19,
+          "charEnd": 20
+        }
+      ]
+    },
+    {
+      "text": "桃太郎は鬼を倒すために、鬼ヶ島へ行きました。",
+      "startMs": 23988,
+      "endMs": 27828,
+      "words": [
+        {
+          "text": "桃太郎",
+          "startMs": 24098,
+          "endMs": 24588,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "は",
+          "startMs": 24598,
+          "endMs": 24698,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "鬼",
+          "startMs": 24708,
+          "endMs": 24938,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "を",
+          "startMs": 24948,
+          "endMs": 25038,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "倒す",
+          "startMs": 25048,
+          "endMs": 25348,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "ため",
+          "startMs": 25358,
+          "endMs": 25528,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "に",
+          "startMs": 25538,
+          "endMs": 25758,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "鬼",
+          "startMs": 25968,
+          "endMs": 26158,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "ヶ",
+          "startMs": 26168,
+          "endMs": 26258,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "島",
+          "startMs": 26268,
+          "endMs": 26458,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "へ",
+          "startMs": 26468,
+          "endMs": 26558,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "行きまし",
+          "startMs": 26568,
+          "endMs": 26958,
+          "charStart": 16,
+          "charEnd": 20
+        },
+        {
+          "text": "た",
+          "startMs": 26968,
+          "endMs": 27138,
+          "charStart": 20,
+          "charEnd": 21
+        }
+      ]
+    },
+    {
+      "text": "おばあさんはおいしいきびだんごを作ってあげました。",
+      "startMs": 28078,
+      "endMs": 31486,
+      "words": [
+        {
+          "text": "お",
+          "startMs": 28218,
+          "endMs": 28278,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "ばあさん",
+          "startMs": 28288,
+          "endMs": 28658,
+          "charStart": 1,
+          "charEnd": 5
+        },
+        {
+          "text": "は",
+          "startMs": 28668,
+          "endMs": 28848,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "おいしい",
+          "startMs": 28938,
+          "endMs": 29358,
+          "charStart": 6,
+          "charEnd": 10
+        },
+        {
+          "text": "きびだんご",
+          "startMs": 29368,
+          "endMs": 29798,
+          "charStart": 10,
+          "charEnd": 15
+        },
+        {
+          "text": "を",
+          "startMs": 29808,
+          "endMs": 29878,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "作っ",
+          "startMs": 29888,
+          "endMs": 30148,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "て",
+          "startMs": 30158,
+          "endMs": 30218,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "あげ",
+          "startMs": 30228,
+          "endMs": 30398,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "まし",
+          "startMs": 30408,
+          "endMs": 30598,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "た",
+          "startMs": 30608,
+          "endMs": 30778,
+          "charStart": 23,
+          "charEnd": 24
+        }
+      ]
+    },
+    {
+      "text": "道で犬と猿と雉が桃太郎の仲間になりました。",
+      "startMs": 31736,
+      "endMs": 35552,
+      "words": [
+        {
+          "text": "道",
+          "startMs": 31846,
+          "endMs": 32076,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "で",
+          "startMs": 32086,
+          "endMs": 32146,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "犬",
+          "startMs": 32156,
+          "endMs": 32366,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "と",
+          "startMs": 32376,
+          "endMs": 32456,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "猿",
+          "startMs": 32466,
+          "endMs": 32696,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "と",
+          "startMs": 32706,
+          "endMs": 32866,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "雉",
+          "startMs": 32946,
+          "endMs": 33186,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "が",
+          "startMs": 33196,
+          "endMs": 33306,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "桃太郎",
+          "startMs": 33316,
+          "endMs": 33786,
+          "charStart": 8,
+          "charEnd": 11
+        },
+        {
+          "text": "の",
+          "startMs": 33796,
+          "endMs": 33866,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "仲間",
+          "startMs": 33876,
+          "endMs": 34176,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "に",
+          "startMs": 34186,
+          "endMs": 34296,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "なりまし",
+          "startMs": 34306,
+          "endMs": 34666,
+          "charStart": 15,
+          "charEnd": 19
+        },
+        {
+          "text": "た",
+          "startMs": 34676,
+          "endMs": 34846,
+          "charStart": 19,
+          "charEnd": 20
+        }
+      ]
+    },
+    {
+      "text": "みんなで力を合わせて、悪い鬼を倒しました。",
+      "startMs": 35802,
+      "endMs": 39402,
+      "words": [
+        {
+          "text": "みんな",
+          "startMs": 35912,
+          "endMs": 36182,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "で",
+          "startMs": 36192,
+          "endMs": 36252,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "力",
+          "startMs": 36262,
+          "endMs": 36572,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "を",
+          "startMs": 36582,
+          "endMs": 36652,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "合わせ",
+          "startMs": 36662,
+          "endMs": 36962,
+          "charStart": 6,
+          "charEnd": 9
+        },
+        {
+          "text": "て",
+          "startMs": 36972,
+          "endMs": 37132,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "悪い",
+          "startMs": 37452,
+          "endMs": 37712,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "鬼",
+          "startMs": 37722,
+          "endMs": 37902,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "を",
+          "startMs": 37912,
+          "endMs": 38002,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "倒しまし",
+          "startMs": 38012,
+          "endMs": 38512,
+          "charStart": 15,
+          "charEnd": 19
+        },
+        {
+          "text": "た",
+          "startMs": 38522,
+          "endMs": 38692,
+          "charStart": 19,
+          "charEnd": 20
+        }
+      ]
+    }
+  ]
+}

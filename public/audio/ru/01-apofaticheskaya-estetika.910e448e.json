@@ -1,0 +1,662 @@
+{
+  "version": 3,
+  "lang": "ru",
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 50466,
+  "sentences": [
+    {
+      "text": "Подлинное произведение искусства всегда тяготеет к апофатическому молчанию.",
+      "startMs": 0,
+      "endMs": 4248,
+      "words": [
+        {
+          "text": "Подлинное",
+          "startMs": 100,
+          "endMs": 550,
+          "charStart": 0,
+          "charEnd": 9
+        },
+        {
+          "text": "произведение",
+          "startMs": 550,
+          "endMs": 1080,
+          "charStart": 10,
+          "charEnd": 22
+        },
+        {
+          "text": "искусства",
+          "startMs": 1080,
+          "endMs": 1470,
+          "charStart": 23,
+          "charEnd": 32
+        },
+        {
+          "text": "всегда",
+          "startMs": 1470,
+          "endMs": 1790,
+          "charStart": 33,
+          "charEnd": 39
+        },
+        {
+          "text": "тяготеет",
+          "startMs": 1790,
+          "endMs": 2210,
+          "charStart": 40,
+          "charEnd": 48
+        },
+        {
+          "text": "к",
+          "startMs": 2210,
+          "endMs": 2260,
+          "charStart": 49,
+          "charEnd": 50
+        },
+        {
+          "text": "апофатическому",
+          "startMs": 2260,
+          "endMs": 2900,
+          "charStart": 51,
+          "charEnd": 65
+        },
+        {
+          "text": "молчанию",
+          "startMs": 2900,
+          "endMs": 3520,
+          "charStart": 66,
+          "charEnd": 74
+        }
+      ]
+    },
+    {
+      "text": "Исчерпав дискурсивный потенциал вербализации, художник открывает бездну трансцендентного.",
+      "startMs": 4498,
+      "endMs": 9706,
+      "words": [
+        {
+          "text": "Исчерпав",
+          "startMs": 4598,
+          "endMs": 5148,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "дискурсивный",
+          "startMs": 5148,
+          "endMs": 5698,
+          "charStart": 9,
+          "charEnd": 21
+        },
+        {
+          "text": "потенциал",
+          "startMs": 5698,
+          "endMs": 6088,
+          "charStart": 22,
+          "charEnd": 31
+        },
+        {
+          "text": "вербализации",
+          "startMs": 6088,
+          "endMs": 6718,
+          "charStart": 32,
+          "charEnd": 44
+        },
+        {
+          "text": "художник",
+          "startMs": 6948,
+          "endMs": 7418,
+          "charStart": 46,
+          "charEnd": 54
+        },
+        {
+          "text": "открывает",
+          "startMs": 7418,
+          "endMs": 7828,
+          "charStart": 55,
+          "charEnd": 64
+        },
+        {
+          "text": "бездну",
+          "startMs": 7828,
+          "endMs": 8148,
+          "charStart": 65,
+          "charEnd": 71
+        },
+        {
+          "text": "трансцендентного",
+          "startMs": 8148,
+          "endMs": 8968,
+          "charStart": 72,
+          "charEnd": 88
+        }
+      ]
+    },
+    {
+      "text": "Форма, доведённая до предельного лаконизма, дематериализуется в чистом созерцании.",
+      "startMs": 9956,
+      "endMs": 14852,
+      "words": [
+        {
+          "text": "Форма",
+          "startMs": 10056,
+          "endMs": 10496,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "доведённая",
+          "startMs": 10706,
+          "endMs": 11126,
+          "charStart": 7,
+          "charEnd": 17
+        },
+        {
+          "text": "до",
+          "startMs": 11126,
+          "endMs": 11216,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "предельного",
+          "startMs": 11216,
+          "endMs": 11576,
+          "charStart": 21,
+          "charEnd": 32
+        },
+        {
+          "text": "лаконизма",
+          "startMs": 11576,
+          "endMs": 12036,
+          "charStart": 33,
+          "charEnd": 42
+        },
+        {
+          "text": "дематериализуется",
+          "startMs": 12296,
+          "endMs": 13066,
+          "charStart": 44,
+          "charEnd": 61
+        },
+        {
+          "text": "в",
+          "startMs": 13066,
+          "endMs": 13116,
+          "charStart": 62,
+          "charEnd": 63
+        },
+        {
+          "text": "чистом",
+          "startMs": 13116,
+          "endMs": 13466,
+          "charStart": 64,
+          "charEnd": 70
+        },
+        {
+          "text": "созерцании",
+          "startMs": 13466,
+          "endMs": 14166,
+          "charStart": 71,
+          "charEnd": 81
+        }
+      ]
+    },
+    {
+      "text": "Семантическая исчерпанность тривиальных знаков побуждает к поиску сверхчувственных означиваний.",
+      "startMs": 15102,
+      "endMs": 20142,
+      "words": [
+        {
+          "text": "Семантическая",
+          "startMs": 15202,
+          "endMs": 15972,
+          "charStart": 0,
+          "charEnd": 13
+        },
+        {
+          "text": "исчерпанность",
+          "startMs": 15972,
+          "endMs": 16542,
+          "charStart": 14,
+          "charEnd": 27
+        },
+        {
+          "text": "тривиальных",
+          "startMs": 16542,
+          "endMs": 16972,
+          "charStart": 28,
+          "charEnd": 39
+        },
+        {
+          "text": "знаков",
+          "startMs": 16972,
+          "endMs": 17352,
+          "charStart": 40,
+          "charEnd": 46
+        },
+        {
+          "text": "побуждает",
+          "startMs": 17352,
+          "endMs": 17762,
+          "charStart": 47,
+          "charEnd": 56
+        },
+        {
+          "text": "к",
+          "startMs": 17762,
+          "endMs": 17812,
+          "charStart": 57,
+          "charEnd": 58
+        },
+        {
+          "text": "поиску",
+          "startMs": 17812,
+          "endMs": 18162,
+          "charStart": 59,
+          "charEnd": 65
+        },
+        {
+          "text": "сверхчувственных",
+          "startMs": 18162,
+          "endMs": 18822,
+          "charStart": 66,
+          "charEnd": 82
+        },
+        {
+          "text": "означиваний",
+          "startMs": 18822,
+          "endMs": 19432,
+          "charStart": 83,
+          "charEnd": 94
+        }
+      ]
+    },
+    {
+      "text": "Вглядываясь в беспредметную пустоту, зритель испытывает священный онтологический трепет.",
+      "startMs": 20392,
+      "endMs": 25504,
+      "words": [
+        {
+          "text": "Вглядываясь",
+          "startMs": 20492,
+          "endMs": 21112,
+          "charStart": 0,
+          "charEnd": 11
+        },
+        {
+          "text": "в",
+          "startMs": 21112,
+          "endMs": 21202,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "беспредметную",
+          "startMs": 21202,
+          "endMs": 21762,
+          "charStart": 14,
+          "charEnd": 27
+        },
+        {
+          "text": "пустоту",
+          "startMs": 21762,
+          "endMs": 22132,
+          "charStart": 28,
+          "charEnd": 35
+        },
+        {
+          "text": "зритель",
+          "startMs": 22432,
+          "endMs": 22762,
+          "charStart": 37,
+          "charEnd": 44
+        },
+        {
+          "text": "испытывает",
+          "startMs": 22762,
+          "endMs": 23192,
+          "charStart": 45,
+          "charEnd": 55
+        },
+        {
+          "text": "священный",
+          "startMs": 23192,
+          "endMs": 23722,
+          "charStart": 56,
+          "charEnd": 65
+        },
+        {
+          "text": "онтологический",
+          "startMs": 23722,
+          "endMs": 24382,
+          "charStart": 66,
+          "charEnd": 80
+        },
+        {
+          "text": "трепет",
+          "startMs": 24382,
+          "endMs": 24792,
+          "charStart": 81,
+          "charEnd": 87
+        }
+      ]
+    },
+    {
+      "text": "Звучащая тишина холста красноречивее любых напыщенных риторических фигур.",
+      "startMs": 25754,
+      "endMs": 30314,
+      "words": [
+        {
+          "text": "Звучащая",
+          "startMs": 25854,
+          "endMs": 26474,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "тишина",
+          "startMs": 26474,
+          "endMs": 26784,
+          "charStart": 9,
+          "charEnd": 15
+        },
+        {
+          "text": "холста",
+          "startMs": 26784,
+          "endMs": 27164,
+          "charStart": 16,
+          "charEnd": 22
+        },
+        {
+          "text": "красноречивее",
+          "startMs": 27164,
+          "endMs": 27794,
+          "charStart": 23,
+          "charEnd": 36
+        },
+        {
+          "text": "любых",
+          "startMs": 27794,
+          "endMs": 28134,
+          "charStart": 37,
+          "charEnd": 42
+        },
+        {
+          "text": "напыщенных",
+          "startMs": 28134,
+          "endMs": 28664,
+          "charStart": 43,
+          "charEnd": 53
+        },
+        {
+          "text": "риторических",
+          "startMs": 28664,
+          "endMs": 29194,
+          "charStart": 54,
+          "charEnd": 66
+        },
+        {
+          "text": "фигур",
+          "startMs": 29194,
+          "endMs": 29584,
+          "charStart": 67,
+          "charEnd": 72
+        }
+      ]
+    },
+    {
+      "text": "Творец сознательно самоустраняется, предоставляя пространство самопроявлению абсолюта.",
+      "startMs": 30564,
+      "endMs": 35532,
+      "words": [
+        {
+          "text": "Творец",
+          "startMs": 30664,
+          "endMs": 31084,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "сознательно",
+          "startMs": 31084,
+          "endMs": 31614,
+          "charStart": 7,
+          "charEnd": 18
+        },
+        {
+          "text": "самоустраняется",
+          "startMs": 31614,
+          "endMs": 32374,
+          "charStart": 19,
+          "charEnd": 34
+        },
+        {
+          "text": "предоставляя",
+          "startMs": 32584,
+          "endMs": 33024,
+          "charStart": 36,
+          "charEnd": 48
+        },
+        {
+          "text": "пространство",
+          "startMs": 33024,
+          "endMs": 33564,
+          "charStart": 49,
+          "charEnd": 61
+        },
+        {
+          "text": "самопроявлению",
+          "startMs": 33564,
+          "endMs": 34214,
+          "charStart": 62,
+          "charEnd": 76
+        },
+        {
+          "text": "абсолюта",
+          "startMs": 34214,
+          "endMs": 34824,
+          "charStart": 77,
+          "charEnd": 85
+        }
+      ]
+    },
+    {
+      "text": "Этот аскетический редукционизм парадоксально обогащает восприятие утончённого эстета.",
+      "startMs": 35782,
+      "endMs": 40726,
+      "words": [
+        {
+          "text": "Этот",
+          "startMs": 35882,
+          "endMs": 36262,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "аскетический",
+          "startMs": 36262,
+          "endMs": 36842,
+          "charStart": 5,
+          "charEnd": 17
+        },
+        {
+          "text": "редукционизм",
+          "startMs": 36842,
+          "endMs": 37462,
+          "charStart": 18,
+          "charEnd": 30
+        },
+        {
+          "text": "парадоксально",
+          "startMs": 37462,
+          "endMs": 38052,
+          "charStart": 31,
+          "charEnd": 44
+        },
+        {
+          "text": "обогащает",
+          "startMs": 38052,
+          "endMs": 38502,
+          "charStart": 45,
+          "charEnd": 54
+        },
+        {
+          "text": "восприятие",
+          "startMs": 38502,
+          "endMs": 39032,
+          "charStart": 55,
+          "charEnd": 65
+        },
+        {
+          "text": "утончённого",
+          "startMs": 39032,
+          "endMs": 39602,
+          "charStart": 66,
+          "charEnd": 77
+        },
+        {
+          "text": "эстета",
+          "startMs": 39602,
+          "endMs": 40032,
+          "charStart": 78,
+          "charEnd": 84
+        }
+      ]
+    },
+    {
+      "text": "Сквозь мерцающий сумрак невыразимого проступает метафизический свет истины.",
+      "startMs": 40976,
+      "endMs": 45464,
+      "words": [
+        {
+          "text": "Сквозь",
+          "startMs": 41076,
+          "endMs": 41496,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "мерцающий",
+          "startMs": 41496,
+          "endMs": 41996,
+          "charStart": 7,
+          "charEnd": 16
+        },
+        {
+          "text": "сумрак",
+          "startMs": 41996,
+          "endMs": 42326,
+          "charStart": 17,
+          "charEnd": 23
+        },
+        {
+          "text": "невыразимого",
+          "startMs": 42326,
+          "endMs": 42886,
+          "charStart": 24,
+          "charEnd": 36
+        },
+        {
+          "text": "проступает",
+          "startMs": 42886,
+          "endMs": 43376,
+          "charStart": 37,
+          "charEnd": 47
+        },
+        {
+          "text": "метафизический",
+          "startMs": 43376,
+          "endMs": 44066,
+          "charStart": 48,
+          "charEnd": 62
+        },
+        {
+          "text": "свет",
+          "startMs": 44066,
+          "endMs": 44316,
+          "charStart": 63,
+          "charEnd": 67
+        },
+        {
+          "text": "истины",
+          "startMs": 44316,
+          "endMs": 44736,
+          "charStart": 68,
+          "charEnd": 74
+        }
+      ]
+    },
+    {
+      "text": "Так рождается подлинный катарсис, укоренённый в неизъяснимой гармонии мироздания.",
+      "startMs": 45714,
+      "endMs": 50466,
+      "words": [
+        {
+          "text": "Так",
+          "startMs": 45814,
+          "endMs": 46044,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "рождается",
+          "startMs": 46044,
+          "endMs": 46474,
+          "charStart": 4,
+          "charEnd": 13
+        },
+        {
+          "text": "подлинный",
+          "startMs": 46474,
+          "endMs": 46864,
+          "charStart": 14,
+          "charEnd": 23
+        },
+        {
+          "text": "катарсис",
+          "startMs": 46864,
+          "endMs": 47334,
+          "charStart": 24,
+          "charEnd": 32
+        },
+        {
+          "text": "укоренённый",
+          "startMs": 47534,
+          "endMs": 47984,
+          "charStart": 34,
+          "charEnd": 45
+        },
+        {
+          "text": "в",
+          "startMs": 47984,
+          "endMs": 48054,
+          "charStart": 46,
+          "charEnd": 47
+        },
+        {
+          "text": "неизъяснимой",
+          "startMs": 48054,
+          "endMs": 48654,
+          "charStart": 48,
+          "charEnd": 60
+        },
+        {
+          "text": "гармонии",
+          "startMs": 48654,
+          "endMs": 49054,
+          "charStart": 61,
+          "charEnd": 69
+        },
+        {
+          "text": "мироздания",
+          "startMs": 49054,
+          "endMs": 49724,
+          "charStart": 70,
+          "charEnd": 80
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1117 @@
+{
+  "version": 3,
+  "lang": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 51378,
+  "sentences": [
+    {
+      "text": "Durante los últimos años, muchas empresas han adoptado el teletrabajo de forma permanente.",
+      "startMs": 0,
+      "endMs": 4656,
+      "words": [
+        {
+          "text": "Durante",
+          "startMs": 95,
+          "endMs": 435,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "los",
+          "startMs": 445,
+          "endMs": 575,
+          "charStart": 8,
+          "charEnd": 11
+        },
+        {
+          "text": "últimos",
+          "startMs": 585,
+          "endMs": 905,
+          "charStart": 12,
+          "charEnd": 19
+        },
+        {
+          "text": "años",
+          "startMs": 915,
+          "endMs": 1205,
+          "charStart": 20,
+          "charEnd": 24
+        },
+        {
+          "text": "muchas",
+          "startMs": 1415,
+          "endMs": 1655,
+          "charStart": 26,
+          "charEnd": 32
+        },
+        {
+          "text": "empresas",
+          "startMs": 1665,
+          "endMs": 2045,
+          "charStart": 33,
+          "charEnd": 41
+        },
+        {
+          "text": "han",
+          "startMs": 2055,
+          "endMs": 2135,
+          "charStart": 42,
+          "charEnd": 45
+        },
+        {
+          "text": "adoptado",
+          "startMs": 2145,
+          "endMs": 2475,
+          "charStart": 46,
+          "charEnd": 54
+        },
+        {
+          "text": "el",
+          "startMs": 2485,
+          "endMs": 2545,
+          "charStart": 55,
+          "charEnd": 57
+        },
+        {
+          "text": "teletrabajo",
+          "startMs": 2555,
+          "endMs": 3015,
+          "charStart": 58,
+          "charEnd": 69
+        },
+        {
+          "text": "de",
+          "startMs": 3025,
+          "endMs": 3115,
+          "charStart": 70,
+          "charEnd": 72
+        },
+        {
+          "text": "forma",
+          "startMs": 3125,
+          "endMs": 3355,
+          "charStart": 73,
+          "charEnd": 78
+        },
+        {
+          "text": "permanente",
+          "startMs": 3365,
+          "endMs": 3965,
+          "charStart": 79,
+          "charEnd": 89
+        }
+      ]
+    },
+    {
+      "text": "Aunque esta modalidad ofrece una mayor flexibilidad horaria, también plantea serios inconvenientes psicológicos.",
+      "startMs": 4906,
+      "endMs": 10474,
+      "words": [
+        {
+          "text": "Aunque",
+          "startMs": 5001,
+          "endMs": 5291,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "esta",
+          "startMs": 5301,
+          "endMs": 5471,
+          "charStart": 7,
+          "charEnd": 11
+        },
+        {
+          "text": "modalidad",
+          "startMs": 5481,
+          "endMs": 5921,
+          "charStart": 12,
+          "charEnd": 21
+        },
+        {
+          "text": "ofrece",
+          "startMs": 5931,
+          "endMs": 6241,
+          "charStart": 22,
+          "charEnd": 28
+        },
+        {
+          "text": "una",
+          "startMs": 6251,
+          "endMs": 6351,
+          "charStart": 29,
+          "charEnd": 32
+        },
+        {
+          "text": "mayor",
+          "startMs": 6361,
+          "endMs": 6611,
+          "charStart": 33,
+          "charEnd": 38
+        },
+        {
+          "text": "flexibilidad",
+          "startMs": 6621,
+          "endMs": 7131,
+          "charStart": 39,
+          "charEnd": 51
+        },
+        {
+          "text": "horaria",
+          "startMs": 7141,
+          "endMs": 7481,
+          "charStart": 52,
+          "charEnd": 59
+        },
+        {
+          "text": "también",
+          "startMs": 7671,
+          "endMs": 7951,
+          "charStart": 61,
+          "charEnd": 68
+        },
+        {
+          "text": "plantea",
+          "startMs": 7961,
+          "endMs": 8281,
+          "charStart": 69,
+          "charEnd": 76
+        },
+        {
+          "text": "serios",
+          "startMs": 8291,
+          "endMs": 8551,
+          "charStart": 77,
+          "charEnd": 83
+        },
+        {
+          "text": "inconvenientes",
+          "startMs": 8561,
+          "endMs": 9081,
+          "charStart": 84,
+          "charEnd": 98
+        },
+        {
+          "text": "psicológicos",
+          "startMs": 9091,
+          "endMs": 9791,
+          "charStart": 99,
+          "charEnd": 111
+        }
+      ]
+    },
+    {
+      "text": "Marta, quien lleva dos años trabajando desde casa, confiesa que le resulta difícil desconectar.",
+      "startMs": 10724,
+      "endMs": 15836,
+      "words": [
+        {
+          "text": "Marta",
+          "startMs": 10824,
+          "endMs": 11294,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "quien",
+          "startMs": 11484,
+          "endMs": 11624,
+          "charStart": 7,
+          "charEnd": 12
+        },
+        {
+          "text": "lleva",
+          "startMs": 11634,
+          "endMs": 11804,
+          "charStart": 13,
+          "charEnd": 18
+        },
+        {
+          "text": "dos",
+          "startMs": 11814,
+          "endMs": 11974,
+          "charStart": 19,
+          "charEnd": 22
+        },
+        {
+          "text": "años",
+          "startMs": 11984,
+          "endMs": 12154,
+          "charStart": 23,
+          "charEnd": 27
+        },
+        {
+          "text": "trabajando",
+          "startMs": 12164,
+          "endMs": 12544,
+          "charStart": 28,
+          "charEnd": 38
+        },
+        {
+          "text": "desde",
+          "startMs": 12554,
+          "endMs": 12724,
+          "charStart": 39,
+          "charEnd": 44
+        },
+        {
+          "text": "casa",
+          "startMs": 12734,
+          "endMs": 13064,
+          "charStart": 45,
+          "charEnd": 49
+        },
+        {
+          "text": "confiesa",
+          "startMs": 13264,
+          "endMs": 13674,
+          "charStart": 51,
+          "charEnd": 59
+        },
+        {
+          "text": "que",
+          "startMs": 13684,
+          "endMs": 13774,
+          "charStart": 60,
+          "charEnd": 63
+        },
+        {
+          "text": "le",
+          "startMs": 13784,
+          "endMs": 13844,
+          "charStart": 64,
+          "charEnd": 66
+        },
+        {
+          "text": "resulta",
+          "startMs": 13854,
+          "endMs": 14174,
+          "charStart": 67,
+          "charEnd": 74
+        },
+        {
+          "text": "difícil",
+          "startMs": 14184,
+          "endMs": 14534,
+          "charStart": 75,
+          "charEnd": 82
+        },
+        {
+          "text": "desconectar",
+          "startMs": 14544,
+          "endMs": 15154,
+          "charStart": 83,
+          "charEnd": 94
+        }
+      ]
+    },
+    {
+      "text": "Las fronteras entre la vida laboral y el ámbito personal se han vuelto cada vez más difusas.",
+      "startMs": 16086,
+      "endMs": 20574,
+      "words": [
+        {
+          "text": "Las",
+          "startMs": 16186,
+          "endMs": 16436,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "fronteras",
+          "startMs": 16446,
+          "endMs": 16836,
+          "charStart": 4,
+          "charEnd": 13
+        },
+        {
+          "text": "entre",
+          "startMs": 16846,
+          "endMs": 17016,
+          "charStart": 14,
+          "charEnd": 19
+        },
+        {
+          "text": "la",
+          "startMs": 17026,
+          "endMs": 17096,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "vida",
+          "startMs": 17106,
+          "endMs": 17266,
+          "charStart": 23,
+          "charEnd": 27
+        },
+        {
+          "text": "laboral",
+          "startMs": 17276,
+          "endMs": 17576,
+          "charStart": 28,
+          "charEnd": 35
+        },
+        {
+          "text": "y",
+          "startMs": 17586,
+          "endMs": 17626,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "el",
+          "startMs": 17636,
+          "endMs": 17706,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "ámbito",
+          "startMs": 17716,
+          "endMs": 17976,
+          "charStart": 41,
+          "charEnd": 47
+        },
+        {
+          "text": "personal",
+          "startMs": 17986,
+          "endMs": 18396,
+          "charStart": 48,
+          "charEnd": 56
+        },
+        {
+          "text": "se",
+          "startMs": 18406,
+          "endMs": 18506,
+          "charStart": 57,
+          "charEnd": 59
+        },
+        {
+          "text": "han",
+          "startMs": 18516,
+          "endMs": 18586,
+          "charStart": 60,
+          "charEnd": 63
+        },
+        {
+          "text": "vuelto",
+          "startMs": 18596,
+          "endMs": 18826,
+          "charStart": 64,
+          "charEnd": 70
+        },
+        {
+          "text": "cada",
+          "startMs": 18836,
+          "endMs": 19006,
+          "charStart": 71,
+          "charEnd": 75
+        },
+        {
+          "text": "vez",
+          "startMs": 19016,
+          "endMs": 19176,
+          "charStart": 76,
+          "charEnd": 79
+        },
+        {
+          "text": "más",
+          "startMs": 19186,
+          "endMs": 19326,
+          "charStart": 80,
+          "charEnd": 83
+        },
+        {
+          "text": "difusas",
+          "startMs": 19336,
+          "endMs": 19896,
+          "charStart": 84,
+          "charEnd": 91
+        }
+      ]
+    },
+    {
+      "text": "Si los empleados no establecieran límites claros, sufrirían el síndrome de desgaste profesional.",
+      "startMs": 20824,
+      "endMs": 25696,
+      "words": [
+        {
+          "text": "Si",
+          "startMs": 20924,
+          "endMs": 21114,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "los",
+          "startMs": 21124,
+          "endMs": 21254,
+          "charStart": 3,
+          "charEnd": 6
+        },
+        {
+          "text": "empleados",
+          "startMs": 21264,
+          "endMs": 21664,
+          "charStart": 7,
+          "charEnd": 16
+        },
+        {
+          "text": "no",
+          "startMs": 21674,
+          "endMs": 21754,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "establecieran",
+          "startMs": 21764,
+          "endMs": 22254,
+          "charStart": 20,
+          "charEnd": 33
+        },
+        {
+          "text": "límites",
+          "startMs": 22264,
+          "endMs": 22564,
+          "charStart": 34,
+          "charEnd": 41
+        },
+        {
+          "text": "claros",
+          "startMs": 22574,
+          "endMs": 22914,
+          "charStart": 42,
+          "charEnd": 48
+        },
+        {
+          "text": "sufrirían",
+          "startMs": 23074,
+          "endMs": 23554,
+          "charStart": 50,
+          "charEnd": 59
+        },
+        {
+          "text": "el",
+          "startMs": 23564,
+          "endMs": 23664,
+          "charStart": 60,
+          "charEnd": 62
+        },
+        {
+          "text": "síndrome",
+          "startMs": 23674,
+          "endMs": 23984,
+          "charStart": 63,
+          "charEnd": 71
+        },
+        {
+          "text": "de",
+          "startMs": 23994,
+          "endMs": 24054,
+          "charStart": 72,
+          "charEnd": 74
+        },
+        {
+          "text": "desgaste",
+          "startMs": 24064,
+          "endMs": 24394,
+          "charStart": 75,
+          "charEnd": 83
+        },
+        {
+          "text": "profesional",
+          "startMs": 24404,
+          "endMs": 25004,
+          "charStart": 84,
+          "charEnd": 95
+        }
+      ]
+    },
+    {
+      "text": "Por consiguiente, los expertos aconsejan que se apague el ordenador en cuanto termine la jornada.",
+      "startMs": 25946,
+      "endMs": 30794,
+      "words": [
+        {
+          "text": "Por",
+          "startMs": 26041,
+          "endMs": 26201,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "consiguiente",
+          "startMs": 26211,
+          "endMs": 26751,
+          "charStart": 4,
+          "charEnd": 16
+        },
+        {
+          "text": "los",
+          "startMs": 26951,
+          "endMs": 27061,
+          "charStart": 18,
+          "charEnd": 21
+        },
+        {
+          "text": "expertos",
+          "startMs": 27071,
+          "endMs": 27451,
+          "charStart": 22,
+          "charEnd": 30
+        },
+        {
+          "text": "aconsejan",
+          "startMs": 27461,
+          "endMs": 27961,
+          "charStart": 31,
+          "charEnd": 40
+        },
+        {
+          "text": "que",
+          "startMs": 27971,
+          "endMs": 28061,
+          "charStart": 41,
+          "charEnd": 44
+        },
+        {
+          "text": "se",
+          "startMs": 28071,
+          "endMs": 28161,
+          "charStart": 45,
+          "charEnd": 47
+        },
+        {
+          "text": "apague",
+          "startMs": 28171,
+          "endMs": 28421,
+          "charStart": 48,
+          "charEnd": 54
+        },
+        {
+          "text": "el",
+          "startMs": 28431,
+          "endMs": 28491,
+          "charStart": 55,
+          "charEnd": 57
+        },
+        {
+          "text": "ordenador",
+          "startMs": 28501,
+          "endMs": 28871,
+          "charStart": 58,
+          "charEnd": 67
+        },
+        {
+          "text": "en",
+          "startMs": 28881,
+          "endMs": 28971,
+          "charStart": 68,
+          "charEnd": 70
+        },
+        {
+          "text": "cuanto",
+          "startMs": 28981,
+          "endMs": 29211,
+          "charStart": 71,
+          "charEnd": 77
+        },
+        {
+          "text": "termine",
+          "startMs": 29221,
+          "endMs": 29501,
+          "charStart": 78,
+          "charEnd": 85
+        },
+        {
+          "text": "la",
+          "startMs": 29511,
+          "endMs": 29591,
+          "charStart": 86,
+          "charEnd": 88
+        },
+        {
+          "text": "jornada",
+          "startMs": 29601,
+          "endMs": 30091,
+          "charStart": 89,
+          "charEnd": 96
+        }
+      ]
+    },
+    {
+      "text": "Es imprescindible que las compañías respeten el derecho a la desconexión digital de sus trabajadores.",
+      "startMs": 31044,
+      "endMs": 35724,
+      "words": [
+        {
+          "text": "Es",
+          "startMs": 31139,
+          "endMs": 31319,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "imprescindible",
+          "startMs": 31329,
+          "endMs": 31869,
+          "charStart": 3,
+          "charEnd": 17
+        },
+        {
+          "text": "que",
+          "startMs": 31879,
+          "endMs": 31969,
+          "charStart": 18,
+          "charEnd": 21
+        },
+        {
+          "text": "las",
+          "startMs": 31979,
+          "endMs": 32109,
+          "charStart": 22,
+          "charEnd": 25
+        },
+        {
+          "text": "compañías",
+          "startMs": 32119,
+          "endMs": 32499,
+          "charStart": 26,
+          "charEnd": 35
+        },
+        {
+          "text": "respeten",
+          "startMs": 32509,
+          "endMs": 32869,
+          "charStart": 36,
+          "charEnd": 44
+        },
+        {
+          "text": "el",
+          "startMs": 32879,
+          "endMs": 32939,
+          "charStart": 45,
+          "charEnd": 47
+        },
+        {
+          "text": "derecho",
+          "startMs": 32949,
+          "endMs": 33219,
+          "charStart": 48,
+          "charEnd": 55
+        },
+        {
+          "text": "a",
+          "startMs": 33229,
+          "endMs": 33249,
+          "charStart": 56,
+          "charEnd": 57
+        },
+        {
+          "text": "la",
+          "startMs": 33259,
+          "endMs": 33309,
+          "charStart": 58,
+          "charEnd": 60
+        },
+        {
+          "text": "desconexión",
+          "startMs": 33319,
+          "endMs": 33789,
+          "charStart": 61,
+          "charEnd": 72
+        },
+        {
+          "text": "digital",
+          "startMs": 33799,
+          "endMs": 34119,
+          "charStart": 73,
+          "charEnd": 80
+        },
+        {
+          "text": "de",
+          "startMs": 34129,
+          "endMs": 34199,
+          "charStart": 81,
+          "charEnd": 83
+        },
+        {
+          "text": "sus",
+          "startMs": 34209,
+          "endMs": 34339,
+          "charStart": 84,
+          "charEnd": 87
+        },
+        {
+          "text": "trabajadores",
+          "startMs": 34349,
+          "endMs": 35019,
+          "charStart": 88,
+          "charEnd": 100
+        }
+      ]
+    },
+    {
+      "text": "Marta ha empezado a practicar deporte al aire libre a fin de que su mente descanse.",
+      "startMs": 35974,
+      "endMs": 40174,
+      "words": [
+        {
+          "text": "Marta",
+          "startMs": 36074,
+          "endMs": 36424,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "ha",
+          "startMs": 36434,
+          "endMs": 36474,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "empezado",
+          "startMs": 36484,
+          "endMs": 36844,
+          "charStart": 9,
+          "charEnd": 17
+        },
+        {
+          "text": "a",
+          "startMs": 36854,
+          "endMs": 36884,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "practicar",
+          "startMs": 36894,
+          "endMs": 37304,
+          "charStart": 20,
+          "charEnd": 29
+        },
+        {
+          "text": "deporte",
+          "startMs": 37314,
+          "endMs": 37634,
+          "charStart": 30,
+          "charEnd": 37
+        },
+        {
+          "text": "al",
+          "startMs": 37644,
+          "endMs": 37724,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "aire",
+          "startMs": 37734,
+          "endMs": 37904,
+          "charStart": 41,
+          "charEnd": 45
+        },
+        {
+          "text": "libre",
+          "startMs": 37914,
+          "endMs": 38154,
+          "charStart": 46,
+          "charEnd": 51
+        },
+        {
+          "text": "a",
+          "startMs": 38164,
+          "endMs": 38224,
+          "charStart": 52,
+          "charEnd": 53
+        },
+        {
+          "text": "fin",
+          "startMs": 38234,
+          "endMs": 38414,
+          "charStart": 54,
+          "charEnd": 57
+        },
+        {
+          "text": "de",
+          "startMs": 38424,
+          "endMs": 38494,
+          "charStart": 58,
+          "charEnd": 60
+        },
+        {
+          "text": "que",
+          "startMs": 38504,
+          "endMs": 38594,
+          "charStart": 61,
+          "charEnd": 64
+        },
+        {
+          "text": "su",
+          "startMs": 38604,
+          "endMs": 38704,
+          "charStart": 65,
+          "charEnd": 67
+        },
+        {
+          "text": "mente",
+          "startMs": 38714,
+          "endMs": 38924,
+          "charStart": 68,
+          "charEnd": 73
+        },
+        {
+          "text": "descanse",
+          "startMs": 38934,
+          "endMs": 39484,
+          "charStart": 74,
+          "charEnd": 82
+        }
+      ]
+    },
+    {
+      "text": "Asimismo, procura quedar con amigos para evitar el aislamiento social que suele provocar el confinamiento doméstico.",
+      "startMs": 40424,
+      "endMs": 46280,
+      "words": [
+        {
+          "text": "Asimismo",
+          "startMs": 40519,
+          "endMs": 41109,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "procura",
+          "startMs": 41304,
+          "endMs": 41674,
+          "charStart": 10,
+          "charEnd": 17
+        },
+        {
+          "text": "quedar",
+          "startMs": 41684,
+          "endMs": 41914,
+          "charStart": 18,
+          "charEnd": 24
+        },
+        {
+          "text": "con",
+          "startMs": 41924,
+          "endMs": 42044,
+          "charStart": 25,
+          "charEnd": 28
+        },
+        {
+          "text": "amigos",
+          "startMs": 42054,
+          "endMs": 42374,
+          "charStart": 29,
+          "charEnd": 35
+        },
+        {
+          "text": "para",
+          "startMs": 42384,
+          "endMs": 42554,
+          "charStart": 36,
+          "charEnd": 40
+        },
+        {
+          "text": "evitar",
+          "startMs": 42564,
+          "endMs": 42824,
+          "charStart": 41,
+          "charEnd": 47
+        },
+        {
+          "text": "el",
+          "startMs": 42834,
+          "endMs": 42894,
+          "charStart": 48,
+          "charEnd": 50
+        },
+        {
+          "text": "aislamiento",
+          "startMs": 42904,
+          "endMs": 43354,
+          "charStart": 51,
+          "charEnd": 62
+        },
+        {
+          "text": "social",
+          "startMs": 43364,
+          "endMs": 43694,
+          "charStart": 63,
+          "charEnd": 69
+        },
+        {
+          "text": "que",
+          "startMs": 43704,
+          "endMs": 43804,
+          "charStart": 70,
+          "charEnd": 73
+        },
+        {
+          "text": "suele",
+          "startMs": 43814,
+          "endMs": 44004,
+          "charStart": 74,
+          "charEnd": 79
+        },
+        {
+          "text": "provocar",
+          "startMs": 44014,
+          "endMs": 44364,
+          "charStart": 80,
+          "charEnd": 88
+        },
+        {
+          "text": "el",
+          "startMs": 44374,
+          "endMs": 44444,
+          "charStart": 89,
+          "charEnd": 91
+        },
+        {
+          "text": "confinamiento",
+          "startMs": 44454,
+          "endMs": 45014,
+          "charStart": 92,
+          "charEnd": 105
+        },
+        {
+          "text": "doméstico",
+          "startMs": 45024,
+          "endMs": 45574,
+          "charStart": 106,
+          "charEnd": 115
+        }
+      ]
+    },
+    {
+      "text": "A fin de cuentas, el éxito laboral carece de sentido si se sacrifica el bienestar emocional.",
+      "startMs": 46530,
+      "endMs": 51378,
+      "words": [
+        {
+          "text": "A",
+          "startMs": 46625,
+          "endMs": 46755,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "fin",
+          "startMs": 46765,
+          "endMs": 46925,
+          "charStart": 2,
+          "charEnd": 5
+        },
+        {
+          "text": "de",
+          "startMs": 46935,
+          "endMs": 47005,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "cuentas",
+          "startMs": 47015,
+          "endMs": 47405,
+          "charStart": 9,
+          "charEnd": 16
+        },
+        {
+          "text": "el",
+          "startMs": 47595,
+          "endMs": 47685,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "éxito",
+          "startMs": 47695,
+          "endMs": 47945,
+          "charStart": 21,
+          "charEnd": 26
+        },
+        {
+          "text": "laboral",
+          "startMs": 47955,
+          "endMs": 48265,
+          "charStart": 27,
+          "charEnd": 34
+        },
+        {
+          "text": "carece",
+          "startMs": 48275,
+          "endMs": 48545,
+          "charStart": 35,
+          "charEnd": 41
+        },
+        {
+          "text": "de",
+          "startMs": 48555,
+          "endMs": 48625,
+          "charStart": 42,
+          "charEnd": 44
+        },
+        {
+          "text": "sentido",
+          "startMs": 48635,
+          "endMs": 48995,
+          "charStart": 45,
+          "charEnd": 52
+        },
+        {
+          "text": "si",
+          "startMs": 49005,
+          "endMs": 49105,
+          "charStart": 53,
+          "charEnd": 55
+        },
+        {
+          "text": "se",
+          "startMs": 49115,
+          "endMs": 49205,
+          "charStart": 56,
+          "charEnd": 58
+        },
+        {
+          "text": "sacrifica",
+          "startMs": 49215,
+          "endMs": 49665,
+          "charStart": 59,
+          "charEnd": 68
+        },
+        {
+          "text": "el",
+          "startMs": 49675,
+          "endMs": 49745,
+          "charStart": 69,
+          "charEnd": 71
+        },
+        {
+          "text": "bienestar",
+          "startMs": 49755,
+          "endMs": 50115,
+          "charStart": 72,
+          "charEnd": 81
+        },
+        {
+          "text": "emocional",
+          "startMs": 50125,
+          "endMs": 50685,
+          "charStart": 82,
+          "charEnd": 91
+        }
+      ]
+    }
+  ]
+}

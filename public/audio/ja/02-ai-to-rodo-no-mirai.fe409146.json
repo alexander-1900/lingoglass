@@ -1,0 +1,1719 @@
+{
+  "version": 3,
+  "lang": "ja",
+  "voice": "ja-JP-NanamiNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 66666,
+  "sentences": [
+    {
+      "text": "生成AIの登場は、知的労働のあり方を根底から問い直す契機となった。",
+      "startMs": 0,
+      "endMs": 5544,
+      "words": [
+        {
+          "text": "生成",
+          "startMs": 110,
+          "endMs": 570,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "AI",
+          "startMs": 580,
+          "endMs": 890,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "の",
+          "startMs": 900,
+          "endMs": 990,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "登場",
+          "startMs": 1000,
+          "endMs": 1340,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "は",
+          "startMs": 1350,
+          "endMs": 1550,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "知的",
+          "startMs": 1760,
+          "endMs": 2080,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "労働",
+          "startMs": 2090,
+          "endMs": 2400,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "の",
+          "startMs": 2410,
+          "endMs": 2470,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "あり",
+          "startMs": 2480,
+          "endMs": 2660,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "方",
+          "startMs": 2670,
+          "endMs": 2850,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "を",
+          "startMs": 2860,
+          "endMs": 3030,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "根底",
+          "startMs": 3050,
+          "endMs": 3440,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "から",
+          "startMs": 3450,
+          "endMs": 3620,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "問い",
+          "startMs": 3630,
+          "endMs": 3820,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "直す",
+          "startMs": 3830,
+          "endMs": 4110,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "契機",
+          "startMs": 4120,
+          "endMs": 4380,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "と",
+          "startMs": 4390,
+          "endMs": 4460,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "なっ",
+          "startMs": 4470,
+          "endMs": 4650,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "た",
+          "startMs": 4660,
+          "endMs": 4850,
+          "charStart": 31,
+          "charEnd": 32
+        }
+      ]
+    },
+    {
+      "text": "定型的な文書作成や要約といった業務は、すでに機械のほうが速くかつ正確にこなす。",
+      "startMs": 5794,
+      "endMs": 12322,
+      "words": [
+        {
+          "text": "定型",
+          "startMs": 5944,
+          "endMs": 6254,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "的",
+          "startMs": 6264,
+          "endMs": 6444,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "な",
+          "startMs": 6454,
+          "endMs": 6554,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "文書",
+          "startMs": 6564,
+          "endMs": 6874,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "作成",
+          "startMs": 6884,
+          "endMs": 7244,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "や",
+          "startMs": 7254,
+          "endMs": 7384,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "要約",
+          "startMs": 7444,
+          "endMs": 7854,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "と",
+          "startMs": 7864,
+          "endMs": 7944,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "いっ",
+          "startMs": 7954,
+          "endMs": 8084,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "た",
+          "startMs": 8094,
+          "endMs": 8174,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "業務",
+          "startMs": 8184,
+          "endMs": 8504,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "は",
+          "startMs": 8514,
+          "endMs": 8704,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "す",
+          "startMs": 8844,
+          "endMs": 9004,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "で",
+          "startMs": 9014,
+          "endMs": 9094,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "に",
+          "startMs": 9104,
+          "endMs": 9304,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "機械",
+          "startMs": 9324,
+          "endMs": 9624,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "の",
+          "startMs": 9634,
+          "endMs": 9714,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "ほう",
+          "startMs": 9724,
+          "endMs": 9924,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "が",
+          "startMs": 9934,
+          "endMs": 10034,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "速く",
+          "startMs": 10044,
+          "endMs": 10374,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "かつ",
+          "startMs": 10384,
+          "endMs": 10594,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "正確",
+          "startMs": 10604,
+          "endMs": 11024,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "に",
+          "startMs": 11034,
+          "endMs": 11144,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "こなす",
+          "startMs": 11154,
+          "endMs": 11624,
+          "charStart": 35,
+          "charEnd": 38
+        }
+      ]
+    },
+    {
+      "text": "かつては人間の専売特許とされた創造的な営みさえ、自動化の波に洗われつつある。",
+      "startMs": 12572,
+      "endMs": 18932,
+      "words": [
+        {
+          "text": "かつて",
+          "startMs": 12712,
+          "endMs": 12972,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "は",
+          "startMs": 12982,
+          "endMs": 13102,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "人間",
+          "startMs": 13122,
+          "endMs": 13492,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "の",
+          "startMs": 13502,
+          "endMs": 13602,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "専売",
+          "startMs": 13612,
+          "endMs": 14012,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "特許",
+          "startMs": 14022,
+          "endMs": 14282,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "と",
+          "startMs": 14292,
+          "endMs": 14362,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "さ",
+          "startMs": 14372,
+          "endMs": 14472,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "れ",
+          "startMs": 14482,
+          "endMs": 14562,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "た",
+          "startMs": 14572,
+          "endMs": 14742,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "創造的",
+          "startMs": 14802,
+          "endMs": 15412,
+          "charStart": 15,
+          "charEnd": 18
+        },
+        {
+          "text": "な",
+          "startMs": 15422,
+          "endMs": 15512,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "営み",
+          "startMs": 15522,
+          "endMs": 15902,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "さえ",
+          "startMs": 15912,
+          "endMs": 16242,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "自動化",
+          "startMs": 16382,
+          "endMs": 16772,
+          "charStart": 24,
+          "charEnd": 27
+        },
+        {
+          "text": "の",
+          "startMs": 16782,
+          "endMs": 16872,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "波",
+          "startMs": 16882,
+          "endMs": 17092,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "に",
+          "startMs": 17102,
+          "endMs": 17272,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "洗わ",
+          "startMs": 17302,
+          "endMs": 17612,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "れ",
+          "startMs": 17622,
+          "endMs": 17702,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "つつ",
+          "startMs": 17712,
+          "endMs": 17922,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "ある",
+          "startMs": 17932,
+          "endMs": 18222,
+          "charStart": 35,
+          "charEnd": 37
+        }
+      ]
+    },
+    {
+      "text": "楽観論者は新たな職種の創出を説くが、移行期の痛みに耐えかねる労働者が取り残される懸念は拭えない。",
+      "startMs": 19182,
+      "endMs": 26310,
+      "words": [
+        {
+          "text": "楽観",
+          "startMs": 19292,
+          "endMs": 19682,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "論者",
+          "startMs": 19692,
+          "endMs": 19952,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "は",
+          "startMs": 19962,
+          "endMs": 20172,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "新た",
+          "startMs": 20262,
+          "endMs": 20552,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "な",
+          "startMs": 20562,
+          "endMs": 20652,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "職種",
+          "startMs": 20662,
+          "endMs": 20972,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "の",
+          "startMs": 20982,
+          "endMs": 21062,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "創出",
+          "startMs": 21072,
+          "endMs": 21492,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "を",
+          "startMs": 21502,
+          "endMs": 21572,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "説く",
+          "startMs": 21582,
+          "endMs": 21782,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "が",
+          "startMs": 21792,
+          "endMs": 21982,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "移行期",
+          "startMs": 22122,
+          "endMs": 22542,
+          "charStart": 18,
+          "charEnd": 21
+        },
+        {
+          "text": "の",
+          "startMs": 22552,
+          "endMs": 22632,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "痛み",
+          "startMs": 22642,
+          "endMs": 22902,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "に",
+          "startMs": 22912,
+          "endMs": 23032,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "耐え",
+          "startMs": 23042,
+          "endMs": 23192,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "かねる",
+          "startMs": 23202,
+          "endMs": 23492,
+          "charStart": 27,
+          "charEnd": 30
+        },
+        {
+          "text": "労働者",
+          "startMs": 23502,
+          "endMs": 23912,
+          "charStart": 30,
+          "charEnd": 33
+        },
+        {
+          "text": "が",
+          "startMs": 23922,
+          "endMs": 24042,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "取り",
+          "startMs": 24052,
+          "endMs": 24242,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "残さ",
+          "startMs": 24252,
+          "endMs": 24522,
+          "charStart": 36,
+          "charEnd": 38
+        },
+        {
+          "text": "れる",
+          "startMs": 24532,
+          "endMs": 24732,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "懸念",
+          "startMs": 24742,
+          "endMs": 25012,
+          "charStart": 40,
+          "charEnd": 42
+        },
+        {
+          "text": "は",
+          "startMs": 25022,
+          "endMs": 25112,
+          "charStart": 42,
+          "charEnd": 43
+        },
+        {
+          "text": "拭え",
+          "startMs": 25122,
+          "endMs": 25342,
+          "charStart": 43,
+          "charEnd": 45
+        },
+        {
+          "text": "ない",
+          "startMs": 25352,
+          "endMs": 25612,
+          "charStart": 45,
+          "charEnd": 47
+        }
+      ]
+    },
+    {
+      "text": "問われているのは、効率化の果実をいかに分配するかという、社会の設計思想そのものだ。",
+      "startMs": 26560,
+      "endMs": 32896,
+      "words": [
+        {
+          "text": "問わ",
+          "startMs": 26700,
+          "endMs": 26850,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "れ",
+          "startMs": 26860,
+          "endMs": 26940,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "て",
+          "startMs": 26950,
+          "endMs": 27020,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "いる",
+          "startMs": 27030,
+          "endMs": 27200,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "の",
+          "startMs": 27210,
+          "endMs": 27290,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "は",
+          "startMs": 27300,
+          "endMs": 27470,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "効率化",
+          "startMs": 27730,
+          "endMs": 28200,
+          "charStart": 9,
+          "charEnd": 12
+        },
+        {
+          "text": "の",
+          "startMs": 28210,
+          "endMs": 28310,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "果実",
+          "startMs": 28320,
+          "endMs": 28670,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "を",
+          "startMs": 28680,
+          "endMs": 28810,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "いか",
+          "startMs": 28860,
+          "endMs": 29060,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "に",
+          "startMs": 29070,
+          "endMs": 29190,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "分配",
+          "startMs": 29200,
+          "endMs": 29570,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "する",
+          "startMs": 29580,
+          "endMs": 29780,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "か",
+          "startMs": 29790,
+          "endMs": 29880,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "と",
+          "startMs": 29890,
+          "endMs": 29980,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "いう",
+          "startMs": 29990,
+          "endMs": 30300,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "社会",
+          "startMs": 30440,
+          "endMs": 30800,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "の",
+          "startMs": 30810,
+          "endMs": 30890,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "設計",
+          "startMs": 30900,
+          "endMs": 31290,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "思想",
+          "startMs": 31300,
+          "endMs": 31600,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "そのもの",
+          "startMs": 31610,
+          "endMs": 32010,
+          "charStart": 35,
+          "charEnd": 39
+        },
+        {
+          "text": "だ",
+          "startMs": 32020,
+          "endMs": 32200,
+          "charStart": 39,
+          "charEnd": 40
+        }
+      ]
+    },
+    {
+      "text": "労働時間の短縮が余暇の充実ではなく、単なる雇用の劣化を招く恐れも指摘されている。",
+      "startMs": 33146,
+      "endMs": 39626,
+      "words": [
+        {
+          "text": "労働",
+          "startMs": 33256,
+          "endMs": 33636,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "時間",
+          "startMs": 33646,
+          "endMs": 33926,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "の",
+          "startMs": 33936,
+          "endMs": 34036,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "短縮",
+          "startMs": 34046,
+          "endMs": 34436,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "が",
+          "startMs": 34446,
+          "endMs": 34576,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "余暇",
+          "startMs": 34646,
+          "endMs": 34896,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "の",
+          "startMs": 34906,
+          "endMs": 35026,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "充実",
+          "startMs": 35036,
+          "endMs": 35426,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "で",
+          "startMs": 35436,
+          "endMs": 35516,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "は",
+          "startMs": 35526,
+          "endMs": 35616,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "なく",
+          "startMs": 35626,
+          "endMs": 35976,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "単",
+          "startMs": 36116,
+          "endMs": 36296,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "なる",
+          "startMs": 36306,
+          "endMs": 36516,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "雇用",
+          "startMs": 36526,
+          "endMs": 36806,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "の",
+          "startMs": 36816,
+          "endMs": 36896,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "劣化",
+          "startMs": 36906,
+          "endMs": 37166,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "を",
+          "startMs": 37176,
+          "endMs": 37286,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "招く",
+          "startMs": 37296,
+          "endMs": 37586,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "恐れ",
+          "startMs": 37596,
+          "endMs": 37886,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "も",
+          "startMs": 37896,
+          "endMs": 38046,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "指摘",
+          "startMs": 38066,
+          "endMs": 38356,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "さ",
+          "startMs": 38366,
+          "endMs": 38456,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "れ",
+          "startMs": 38466,
+          "endMs": 38546,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "て",
+          "startMs": 38556,
+          "endMs": 38626,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "いる",
+          "startMs": 38636,
+          "endMs": 38926,
+          "charStart": 37,
+          "charEnd": 39
+        }
+      ]
+    },
+    {
+      "text": "一方で、AIを使いこなす能力が新たな階層を生み、格差を固定化するとの警鐘も鳴らされている。",
+      "startMs": 39876,
+      "endMs": 46860,
+      "words": [
+        {
+          "text": "一方",
+          "startMs": 40016,
+          "endMs": 40346,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "で",
+          "startMs": 40356,
+          "endMs": 40526,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "AI",
+          "startMs": 40756,
+          "endMs": 41066,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "を",
+          "startMs": 41076,
+          "endMs": 41166,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "使い",
+          "startMs": 41176,
+          "endMs": 41436,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "こなす",
+          "startMs": 41446,
+          "endMs": 41766,
+          "charStart": 9,
+          "charEnd": 12
+        },
+        {
+          "text": "能力",
+          "startMs": 41776,
+          "endMs": 42126,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "が",
+          "startMs": 42136,
+          "endMs": 42296,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "新た",
+          "startMs": 42336,
+          "endMs": 42656,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "な",
+          "startMs": 42666,
+          "endMs": 42766,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "階層",
+          "startMs": 42776,
+          "endMs": 43146,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "を",
+          "startMs": 43156,
+          "endMs": 43216,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "生み",
+          "startMs": 43226,
+          "endMs": 43506,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "格差",
+          "startMs": 43646,
+          "endMs": 43946,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "を",
+          "startMs": 43956,
+          "endMs": 44086,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "固定化",
+          "startMs": 44096,
+          "endMs": 44486,
+          "charStart": 27,
+          "charEnd": 30
+        },
+        {
+          "text": "する",
+          "startMs": 44496,
+          "endMs": 44696,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "と",
+          "startMs": 44706,
+          "endMs": 44776,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "の",
+          "startMs": 44786,
+          "endMs": 44886,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "警鐘",
+          "startMs": 44896,
+          "endMs": 45296,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "も",
+          "startMs": 45306,
+          "endMs": 45396,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "鳴らさ",
+          "startMs": 45406,
+          "endMs": 45696,
+          "charStart": 37,
+          "charEnd": 40
+        },
+        {
+          "text": "れ",
+          "startMs": 45706,
+          "endMs": 45796,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "て",
+          "startMs": 45806,
+          "endMs": 45876,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "いる",
+          "startMs": 45886,
+          "endMs": 46166,
+          "charStart": 42,
+          "charEnd": 44
+        }
+      ]
+    },
+    {
+      "text": "技術の進歩を止めることはできない以上、人間にしか担えない価値を再定義せざるを得ない。",
+      "startMs": 47110,
+      "endMs": 53230,
+      "words": [
+        {
+          "text": "技術",
+          "startMs": 47220,
+          "endMs": 47570,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "の",
+          "startMs": 47580,
+          "endMs": 47670,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "進歩",
+          "startMs": 47680,
+          "endMs": 48000,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "を",
+          "startMs": 48010,
+          "endMs": 48080,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "止める",
+          "startMs": 48090,
+          "endMs": 48390,
+          "charStart": 6,
+          "charEnd": 9
+        },
+        {
+          "text": "こと",
+          "startMs": 48400,
+          "endMs": 48590,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "は",
+          "startMs": 48600,
+          "endMs": 48700,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "でき",
+          "startMs": 48720,
+          "endMs": 48930,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "ない",
+          "startMs": 48940,
+          "endMs": 49150,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "以上",
+          "startMs": 49160,
+          "endMs": 49550,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "人間",
+          "startMs": 49690,
+          "endMs": 50060,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "に",
+          "startMs": 50070,
+          "endMs": 50180,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "しか",
+          "startMs": 50190,
+          "endMs": 50360,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "担え",
+          "startMs": 50370,
+          "endMs": 50680,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "ない",
+          "startMs": 50690,
+          "endMs": 50860,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "価値",
+          "startMs": 50870,
+          "endMs": 51090,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "を",
+          "startMs": 51100,
+          "endMs": 51210,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "再",
+          "startMs": 51220,
+          "endMs": 51460,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "定義",
+          "startMs": 51470,
+          "endMs": 51710,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "せ",
+          "startMs": 51720,
+          "endMs": 51830,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "ざる",
+          "startMs": 51840,
+          "endMs": 52040,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "を",
+          "startMs": 52050,
+          "endMs": 52120,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "得",
+          "startMs": 52130,
+          "endMs": 52250,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "ない",
+          "startMs": 52260,
+          "endMs": 52520,
+          "charStart": 39,
+          "charEnd": 41
+        }
+      ]
+    },
+    {
+      "text": "共感や責任の引き受けといった領域こそ、機械に代替されにくい人間の領分だろう。",
+      "startMs": 53480,
+      "endMs": 59528,
+      "words": [
+        {
+          "text": "共感",
+          "startMs": 53630,
+          "endMs": 53960,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "や",
+          "startMs": 53970,
+          "endMs": 54110,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "責任",
+          "startMs": 54120,
+          "endMs": 54540,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "の",
+          "startMs": 54550,
+          "endMs": 54640,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "引き受け",
+          "startMs": 54650,
+          "endMs": 55050,
+          "charStart": 6,
+          "charEnd": 10
+        },
+        {
+          "text": "と",
+          "startMs": 55060,
+          "endMs": 55150,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "いっ",
+          "startMs": 55160,
+          "endMs": 55310,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "た",
+          "startMs": 55320,
+          "endMs": 55430,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "領域",
+          "startMs": 55450,
+          "endMs": 55870,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "こそ",
+          "startMs": 55880,
+          "endMs": 56200,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "機械",
+          "startMs": 56340,
+          "endMs": 56640,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "に",
+          "startMs": 56650,
+          "endMs": 56770,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "代替",
+          "startMs": 56780,
+          "endMs": 57130,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "さ",
+          "startMs": 57140,
+          "endMs": 57240,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "れ",
+          "startMs": 57250,
+          "endMs": 57320,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "にくい",
+          "startMs": 57330,
+          "endMs": 57660,
+          "charStart": 26,
+          "charEnd": 29
+        },
+        {
+          "text": "人間",
+          "startMs": 57670,
+          "endMs": 58010,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "の",
+          "startMs": 58020,
+          "endMs": 58110,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "領分",
+          "startMs": 58120,
+          "endMs": 58480,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "だろう",
+          "startMs": 58490,
+          "endMs": 58820,
+          "charStart": 34,
+          "charEnd": 37
+        }
+      ]
+    },
+    {
+      "text": "未来の働き方は、AIとの競争ではなく、AIとの分業をいかに設計するかにかかっている。",
+      "startMs": 59778,
+      "endMs": 66666,
+      "words": [
+        {
+          "text": "未来",
+          "startMs": 59888,
+          "endMs": 60168,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "の",
+          "startMs": 60178,
+          "endMs": 60248,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "働き",
+          "startMs": 60258,
+          "endMs": 60668,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "方",
+          "startMs": 60678,
+          "endMs": 60868,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "は",
+          "startMs": 60878,
+          "endMs": 61088,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "AI",
+          "startMs": 61348,
+          "endMs": 61658,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "と",
+          "startMs": 61668,
+          "endMs": 61748,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "の",
+          "startMs": 61758,
+          "endMs": 61848,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "競争",
+          "startMs": 61858,
+          "endMs": 62258,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "で",
+          "startMs": 62268,
+          "endMs": 62348,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "は",
+          "startMs": 62358,
+          "endMs": 62458,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "なく",
+          "startMs": 62468,
+          "endMs": 62808,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "AI",
+          "startMs": 62948,
+          "endMs": 63318,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "と",
+          "startMs": 63328,
+          "endMs": 63408,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "の",
+          "startMs": 63418,
+          "endMs": 63528,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "分業",
+          "startMs": 63538,
+          "endMs": 63918,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "を",
+          "startMs": 63928,
+          "endMs": 64068,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "いか",
+          "startMs": 64148,
+          "endMs": 64348,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "に",
+          "startMs": 64358,
+          "endMs": 64478,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "設計",
+          "startMs": 64488,
+          "endMs": 64858,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "する",
+          "startMs": 64868,
+          "endMs": 65078,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "か",
+          "startMs": 65088,
+          "endMs": 65168,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "に",
+          "startMs": 65178,
+          "endMs": 65298,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "かかっ",
+          "startMs": 65308,
+          "endMs": 65588,
+          "charStart": 35,
+          "charEnd": 38
+        },
+        {
+          "text": "て",
+          "startMs": 65598,
+          "endMs": 65668,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "いる",
+          "startMs": 65678,
+          "endMs": 65968,
+          "charStart": 39,
+          "charEnd": 41
+        }
+      ]
+    }
+  ]
+}

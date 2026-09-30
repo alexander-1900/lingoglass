@@ -1,0 +1,1173 @@
+{
+  "version": 3,
+  "lang": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 58986,
+  "sentences": [
+    {
+      "text": "El páramo estepario desplegábase como un lienzo infinito de aridez geológica bajo el crepúsculo incendiado.",
+      "startMs": 0,
+      "endMs": 5400,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 95,
+          "endMs": 295,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "páramo",
+          "startMs": 305,
+          "endMs": 555,
+          "charStart": 3,
+          "charEnd": 9
+        },
+        {
+          "text": "estepario",
+          "startMs": 565,
+          "endMs": 955,
+          "charStart": 10,
+          "charEnd": 19
+        },
+        {
+          "text": "desplegábase",
+          "startMs": 965,
+          "endMs": 1545,
+          "charStart": 20,
+          "charEnd": 32
+        },
+        {
+          "text": "como",
+          "startMs": 1555,
+          "endMs": 1735,
+          "charStart": 33,
+          "charEnd": 37
+        },
+        {
+          "text": "un",
+          "startMs": 1745,
+          "endMs": 1845,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "lienzo",
+          "startMs": 1855,
+          "endMs": 2115,
+          "charStart": 41,
+          "charEnd": 47
+        },
+        {
+          "text": "infinito",
+          "startMs": 2125,
+          "endMs": 2475,
+          "charStart": 48,
+          "charEnd": 56
+        },
+        {
+          "text": "de",
+          "startMs": 2485,
+          "endMs": 2555,
+          "charStart": 57,
+          "charEnd": 59
+        },
+        {
+          "text": "aridez",
+          "startMs": 2565,
+          "endMs": 2815,
+          "charStart": 60,
+          "charEnd": 66
+        },
+        {
+          "text": "geológica",
+          "startMs": 2825,
+          "endMs": 3315,
+          "charStart": 67,
+          "charEnd": 76
+        },
+        {
+          "text": "bajo",
+          "startMs": 3325,
+          "endMs": 3555,
+          "charStart": 77,
+          "charEnd": 81
+        },
+        {
+          "text": "el",
+          "startMs": 3565,
+          "endMs": 3625,
+          "charStart": 82,
+          "charEnd": 84
+        },
+        {
+          "text": "crepúsculo",
+          "startMs": 3635,
+          "endMs": 4085,
+          "charStart": 85,
+          "charEnd": 95
+        },
+        {
+          "text": "incendiado",
+          "startMs": 4095,
+          "endMs": 4715,
+          "charStart": 96,
+          "charEnd": 106
+        }
+      ]
+    },
+    {
+      "text": "El caminante solitario detúvose en la cumbre ventosa, sobrecogido por la majestad austera del horizonte.",
+      "startMs": 5650,
+      "endMs": 10978,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 5745,
+          "endMs": 5925,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "caminante",
+          "startMs": 5935,
+          "endMs": 6335,
+          "charStart": 3,
+          "charEnd": 12
+        },
+        {
+          "text": "solitario",
+          "startMs": 6345,
+          "endMs": 6755,
+          "charStart": 13,
+          "charEnd": 22
+        },
+        {
+          "text": "detúvose",
+          "startMs": 6765,
+          "endMs": 7165,
+          "charStart": 23,
+          "charEnd": 31
+        },
+        {
+          "text": "en",
+          "startMs": 7175,
+          "endMs": 7225,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "la",
+          "startMs": 7235,
+          "endMs": 7315,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "cumbre",
+          "startMs": 7325,
+          "endMs": 7555,
+          "charStart": 38,
+          "charEnd": 44
+        },
+        {
+          "text": "ventosa",
+          "startMs": 7565,
+          "endMs": 7985,
+          "charStart": 45,
+          "charEnd": 52
+        },
+        {
+          "text": "sobrecogido",
+          "startMs": 8175,
+          "endMs": 8685,
+          "charStart": 54,
+          "charEnd": 65
+        },
+        {
+          "text": "por",
+          "startMs": 8695,
+          "endMs": 8815,
+          "charStart": 66,
+          "charEnd": 69
+        },
+        {
+          "text": "la",
+          "startMs": 8825,
+          "endMs": 8885,
+          "charStart": 70,
+          "charEnd": 72
+        },
+        {
+          "text": "majestad",
+          "startMs": 8895,
+          "endMs": 9295,
+          "charStart": 73,
+          "charEnd": 81
+        },
+        {
+          "text": "austera",
+          "startMs": 9305,
+          "endMs": 9605,
+          "charStart": 82,
+          "charEnd": 89
+        },
+        {
+          "text": "del",
+          "startMs": 9615,
+          "endMs": 9715,
+          "charStart": 90,
+          "charEnd": 93
+        },
+        {
+          "text": "horizonte",
+          "startMs": 9725,
+          "endMs": 10275,
+          "charStart": 94,
+          "charEnd": 103
+        }
+      ]
+    },
+    {
+      "text": "El viento glacial hendía el aire enrarecido, disipando cualquier rastro de vanidad mundana en su ánimo sosegado.",
+      "startMs": 11228,
+      "endMs": 16916,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 11323,
+          "endMs": 11493,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "viento",
+          "startMs": 11503,
+          "endMs": 11713,
+          "charStart": 3,
+          "charEnd": 9
+        },
+        {
+          "text": "glacial",
+          "startMs": 11723,
+          "endMs": 12043,
+          "charStart": 10,
+          "charEnd": 17
+        },
+        {
+          "text": "hendía",
+          "startMs": 12053,
+          "endMs": 12303,
+          "charStart": 18,
+          "charEnd": 24
+        },
+        {
+          "text": "el",
+          "startMs": 12313,
+          "endMs": 12383,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "aire",
+          "startMs": 12393,
+          "endMs": 12573,
+          "charStart": 28,
+          "charEnd": 32
+        },
+        {
+          "text": "enrarecido",
+          "startMs": 12583,
+          "endMs": 13123,
+          "charStart": 33,
+          "charEnd": 43
+        },
+        {
+          "text": "disipando",
+          "startMs": 13343,
+          "endMs": 13753,
+          "charStart": 45,
+          "charEnd": 54
+        },
+        {
+          "text": "cualquier",
+          "startMs": 13763,
+          "endMs": 14083,
+          "charStart": 55,
+          "charEnd": 64
+        },
+        {
+          "text": "rastro",
+          "startMs": 14093,
+          "endMs": 14343,
+          "charStart": 65,
+          "charEnd": 71
+        },
+        {
+          "text": "de",
+          "startMs": 14353,
+          "endMs": 14413,
+          "charStart": 72,
+          "charEnd": 74
+        },
+        {
+          "text": "vanidad",
+          "startMs": 14423,
+          "endMs": 14723,
+          "charStart": 75,
+          "charEnd": 82
+        },
+        {
+          "text": "mundana",
+          "startMs": 14733,
+          "endMs": 15113,
+          "charStart": 83,
+          "charEnd": 90
+        },
+        {
+          "text": "en",
+          "startMs": 15123,
+          "endMs": 15223,
+          "charStart": 91,
+          "charEnd": 93
+        },
+        {
+          "text": "su",
+          "startMs": 15233,
+          "endMs": 15353,
+          "charStart": 94,
+          "charEnd": 96
+        },
+        {
+          "text": "ánimo",
+          "startMs": 15363,
+          "endMs": 15603,
+          "charStart": 97,
+          "charEnd": 102
+        },
+        {
+          "text": "sosegado",
+          "startMs": 15613,
+          "endMs": 16213,
+          "charStart": 103,
+          "charEnd": 111
+        }
+      ]
+    },
+    {
+      "text": "En esa soledad absoluta, la conciencia individual desprendíase de sus ataduras empíricas para fundirse con lo inconmensurable.",
+      "startMs": 17166,
+      "endMs": 23334,
+      "words": [
+        {
+          "text": "En",
+          "startMs": 17261,
+          "endMs": 17421,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "esa",
+          "startMs": 17431,
+          "endMs": 17581,
+          "charStart": 3,
+          "charEnd": 6
+        },
+        {
+          "text": "soledad",
+          "startMs": 17591,
+          "endMs": 17901,
+          "charStart": 7,
+          "charEnd": 14
+        },
+        {
+          "text": "absoluta",
+          "startMs": 17911,
+          "endMs": 18351,
+          "charStart": 15,
+          "charEnd": 23
+        },
+        {
+          "text": "la",
+          "startMs": 18586,
+          "endMs": 18776,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "conciencia",
+          "startMs": 18786,
+          "endMs": 19196,
+          "charStart": 28,
+          "charEnd": 38
+        },
+        {
+          "text": "individual",
+          "startMs": 19206,
+          "endMs": 19606,
+          "charStart": 39,
+          "charEnd": 49
+        },
+        {
+          "text": "desprendíase",
+          "startMs": 19616,
+          "endMs": 20146,
+          "charStart": 50,
+          "charEnd": 62
+        },
+        {
+          "text": "de",
+          "startMs": 20156,
+          "endMs": 20226,
+          "charStart": 63,
+          "charEnd": 65
+        },
+        {
+          "text": "sus",
+          "startMs": 20236,
+          "endMs": 20376,
+          "charStart": 66,
+          "charEnd": 69
+        },
+        {
+          "text": "ataduras",
+          "startMs": 20386,
+          "endMs": 20736,
+          "charStart": 70,
+          "charEnd": 78
+        },
+        {
+          "text": "empíricas",
+          "startMs": 20746,
+          "endMs": 21186,
+          "charStart": 79,
+          "charEnd": 88
+        },
+        {
+          "text": "para",
+          "startMs": 21196,
+          "endMs": 21356,
+          "charStart": 89,
+          "charEnd": 93
+        },
+        {
+          "text": "fundirse",
+          "startMs": 21366,
+          "endMs": 21726,
+          "charStart": 94,
+          "charEnd": 102
+        },
+        {
+          "text": "con",
+          "startMs": 21736,
+          "endMs": 21846,
+          "charStart": 103,
+          "charEnd": 106
+        },
+        {
+          "text": "lo",
+          "startMs": 21856,
+          "endMs": 21906,
+          "charStart": 107,
+          "charEnd": 109
+        },
+        {
+          "text": "inconmensurable",
+          "startMs": 21916,
+          "endMs": 22646,
+          "charStart": 110,
+          "charEnd": 125
+        }
+      ]
+    },
+    {
+      "text": "Ningún sonido quebrantaba el silencio sepulcral, salvo el crujido periódico de la escarcha bajo las botas.",
+      "startMs": 23584,
+      "endMs": 28840,
+      "words": [
+        {
+          "text": "Ningún",
+          "startMs": 23684,
+          "endMs": 24054,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "sonido",
+          "startMs": 24064,
+          "endMs": 24344,
+          "charStart": 7,
+          "charEnd": 13
+        },
+        {
+          "text": "quebrantaba",
+          "startMs": 24354,
+          "endMs": 24804,
+          "charStart": 14,
+          "charEnd": 25
+        },
+        {
+          "text": "el",
+          "startMs": 24814,
+          "endMs": 24874,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "silencio",
+          "startMs": 24884,
+          "endMs": 25204,
+          "charStart": 29,
+          "charEnd": 37
+        },
+        {
+          "text": "sepulcral",
+          "startMs": 25214,
+          "endMs": 25694,
+          "charStart": 38,
+          "charEnd": 47
+        },
+        {
+          "text": "salvo",
+          "startMs": 25894,
+          "endMs": 26124,
+          "charStart": 49,
+          "charEnd": 54
+        },
+        {
+          "text": "el",
+          "startMs": 26134,
+          "endMs": 26184,
+          "charStart": 55,
+          "charEnd": 57
+        },
+        {
+          "text": "crujido",
+          "startMs": 26194,
+          "endMs": 26514,
+          "charStart": 58,
+          "charEnd": 65
+        },
+        {
+          "text": "periódico",
+          "startMs": 26524,
+          "endMs": 26874,
+          "charStart": 66,
+          "charEnd": 75
+        },
+        {
+          "text": "de",
+          "startMs": 26884,
+          "endMs": 26954,
+          "charStart": 76,
+          "charEnd": 78
+        },
+        {
+          "text": "la",
+          "startMs": 26964,
+          "endMs": 27024,
+          "charStart": 79,
+          "charEnd": 81
+        },
+        {
+          "text": "escarcha",
+          "startMs": 27034,
+          "endMs": 27384,
+          "charStart": 82,
+          "charEnd": 90
+        },
+        {
+          "text": "bajo",
+          "startMs": 27394,
+          "endMs": 27574,
+          "charStart": 91,
+          "charEnd": 95
+        },
+        {
+          "text": "las",
+          "startMs": 27584,
+          "endMs": 27704,
+          "charStart": 96,
+          "charEnd": 99
+        },
+        {
+          "text": "botas",
+          "startMs": 27714,
+          "endMs": 28154,
+          "charStart": 100,
+          "charEnd": 105
+        }
+      ]
+    },
+    {
+      "text": "La inmensidad del páramo desnudo evocaba una sensación pánica de desamparo cósmico difícilmente descriptible.",
+      "startMs": 29090,
+      "endMs": 34490,
+      "words": [
+        {
+          "text": "La",
+          "startMs": 29185,
+          "endMs": 29335,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "inmensidad",
+          "startMs": 29345,
+          "endMs": 29765,
+          "charStart": 3,
+          "charEnd": 13
+        },
+        {
+          "text": "del",
+          "startMs": 29775,
+          "endMs": 29895,
+          "charStart": 14,
+          "charEnd": 17
+        },
+        {
+          "text": "páramo",
+          "startMs": 29905,
+          "endMs": 30155,
+          "charStart": 18,
+          "charEnd": 24
+        },
+        {
+          "text": "desnudo",
+          "startMs": 30165,
+          "endMs": 30525,
+          "charStart": 25,
+          "charEnd": 32
+        },
+        {
+          "text": "evocaba",
+          "startMs": 30535,
+          "endMs": 30855,
+          "charStart": 33,
+          "charEnd": 40
+        },
+        {
+          "text": "una",
+          "startMs": 30865,
+          "endMs": 30995,
+          "charStart": 41,
+          "charEnd": 44
+        },
+        {
+          "text": "sensación",
+          "startMs": 31005,
+          "endMs": 31455,
+          "charStart": 45,
+          "charEnd": 54
+        },
+        {
+          "text": "pánica",
+          "startMs": 31465,
+          "endMs": 31745,
+          "charStart": 55,
+          "charEnd": 61
+        },
+        {
+          "text": "de",
+          "startMs": 31755,
+          "endMs": 31825,
+          "charStart": 62,
+          "charEnd": 64
+        },
+        {
+          "text": "desamparo",
+          "startMs": 31835,
+          "endMs": 32255,
+          "charStart": 65,
+          "charEnd": 74
+        },
+        {
+          "text": "cósmico",
+          "startMs": 32265,
+          "endMs": 32585,
+          "charStart": 75,
+          "charEnd": 82
+        },
+        {
+          "text": "difícilmente",
+          "startMs": 32595,
+          "endMs": 33165,
+          "charStart": 83,
+          "charEnd": 95
+        },
+        {
+          "text": "descriptible",
+          "startMs": 33175,
+          "endMs": 33805,
+          "charStart": 96,
+          "charEnd": 108
+        }
+      ]
+    },
+    {
+      "text": "Paradójicamente, tal despojo existencial no engendraba pavor alguno, sino una beatitud metafísica profundamente pacificadora.",
+      "startMs": 34740,
+      "endMs": 41484,
+      "words": [
+        {
+          "text": "Paradójicamente",
+          "startMs": 34840,
+          "endMs": 35690,
+          "charStart": 0,
+          "charEnd": 15
+        },
+        {
+          "text": "tal",
+          "startMs": 35890,
+          "endMs": 36000,
+          "charStart": 17,
+          "charEnd": 20
+        },
+        {
+          "text": "despojo",
+          "startMs": 36010,
+          "endMs": 36360,
+          "charStart": 21,
+          "charEnd": 28
+        },
+        {
+          "text": "existencial",
+          "startMs": 36370,
+          "endMs": 36930,
+          "charStart": 29,
+          "charEnd": 40
+        },
+        {
+          "text": "no",
+          "startMs": 36940,
+          "endMs": 37040,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "engendraba",
+          "startMs": 37050,
+          "endMs": 37440,
+          "charStart": 44,
+          "charEnd": 54
+        },
+        {
+          "text": "pavor",
+          "startMs": 37450,
+          "endMs": 37660,
+          "charStart": 55,
+          "charEnd": 60
+        },
+        {
+          "text": "alguno",
+          "startMs": 37670,
+          "endMs": 38000,
+          "charStart": 61,
+          "charEnd": 67
+        },
+        {
+          "text": "sino",
+          "startMs": 38185,
+          "endMs": 38495,
+          "charStart": 69,
+          "charEnd": 73
+        },
+        {
+          "text": "una",
+          "startMs": 38505,
+          "endMs": 38615,
+          "charStart": 74,
+          "charEnd": 77
+        },
+        {
+          "text": "beatitud",
+          "startMs": 38625,
+          "endMs": 38985,
+          "charStart": 78,
+          "charEnd": 86
+        },
+        {
+          "text": "metafísica",
+          "startMs": 38995,
+          "endMs": 39505,
+          "charStart": 87,
+          "charEnd": 97
+        },
+        {
+          "text": "profundamente",
+          "startMs": 39515,
+          "endMs": 40085,
+          "charStart": 98,
+          "charEnd": 111
+        },
+        {
+          "text": "pacificadora",
+          "startMs": 40095,
+          "endMs": 40795,
+          "charStart": 112,
+          "charEnd": 124
+        }
+      ]
+    },
+    {
+      "text": "Desvanecidas las sombras de la zozobra cotidiana, el alma vislumbraba la deslumbrante desnudez de lo absoluto.",
+      "startMs": 41734,
+      "endMs": 47134,
+      "words": [
+        {
+          "text": "Desvanecidas",
+          "startMs": 41829,
+          "endMs": 42469,
+          "charStart": 0,
+          "charEnd": 12
+        },
+        {
+          "text": "las",
+          "startMs": 42479,
+          "endMs": 42609,
+          "charStart": 13,
+          "charEnd": 16
+        },
+        {
+          "text": "sombras",
+          "startMs": 42619,
+          "endMs": 42889,
+          "charStart": 17,
+          "charEnd": 24
+        },
+        {
+          "text": "de",
+          "startMs": 42899,
+          "endMs": 42949,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "la",
+          "startMs": 42959,
+          "endMs": 43039,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "zozobra",
+          "startMs": 43049,
+          "endMs": 43359,
+          "charStart": 31,
+          "charEnd": 38
+        },
+        {
+          "text": "cotidiana",
+          "startMs": 43369,
+          "endMs": 43849,
+          "charStart": 39,
+          "charEnd": 48
+        },
+        {
+          "text": "el",
+          "startMs": 44059,
+          "endMs": 44159,
+          "charStart": 50,
+          "charEnd": 52
+        },
+        {
+          "text": "alma",
+          "startMs": 44169,
+          "endMs": 44329,
+          "charStart": 53,
+          "charEnd": 57
+        },
+        {
+          "text": "vislumbraba",
+          "startMs": 44339,
+          "endMs": 44789,
+          "charStart": 58,
+          "charEnd": 69
+        },
+        {
+          "text": "la",
+          "startMs": 44799,
+          "endMs": 44859,
+          "charStart": 70,
+          "charEnd": 72
+        },
+        {
+          "text": "deslumbrante",
+          "startMs": 44869,
+          "endMs": 45349,
+          "charStart": 73,
+          "charEnd": 85
+        },
+        {
+          "text": "desnudez",
+          "startMs": 45359,
+          "endMs": 45739,
+          "charStart": 86,
+          "charEnd": 94
+        },
+        {
+          "text": "de",
+          "startMs": 45749,
+          "endMs": 45809,
+          "charStart": 95,
+          "charEnd": 97
+        },
+        {
+          "text": "lo",
+          "startMs": 45819,
+          "endMs": 45879,
+          "charStart": 98,
+          "charEnd": 100
+        },
+        {
+          "text": "absoluto",
+          "startMs": 45889,
+          "endMs": 46439,
+          "charStart": 101,
+          "charEnd": 109
+        }
+      ]
+    },
+    {
+      "text": "La noche descendía con su manto tachonado de constelaciones arcanas, cancelando el espejismo de la individualidad efímera.",
+      "startMs": 47384,
+      "endMs": 53432,
+      "words": [
+        {
+          "text": "La",
+          "startMs": 47479,
+          "endMs": 47669,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "noche",
+          "startMs": 47679,
+          "endMs": 47929,
+          "charStart": 3,
+          "charEnd": 8
+        },
+        {
+          "text": "descendía",
+          "startMs": 47939,
+          "endMs": 48369,
+          "charStart": 9,
+          "charEnd": 18
+        },
+        {
+          "text": "con",
+          "startMs": 48379,
+          "endMs": 48509,
+          "charStart": 19,
+          "charEnd": 22
+        },
+        {
+          "text": "su",
+          "startMs": 48519,
+          "endMs": 48609,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "manto",
+          "startMs": 48619,
+          "endMs": 48839,
+          "charStart": 26,
+          "charEnd": 31
+        },
+        {
+          "text": "tachonado",
+          "startMs": 48849,
+          "endMs": 49219,
+          "charStart": 32,
+          "charEnd": 41
+        },
+        {
+          "text": "de",
+          "startMs": 49229,
+          "endMs": 49289,
+          "charStart": 42,
+          "charEnd": 44
+        },
+        {
+          "text": "constelaciones",
+          "startMs": 49299,
+          "endMs": 49869,
+          "charStart": 45,
+          "charEnd": 59
+        },
+        {
+          "text": "arcanas",
+          "startMs": 49879,
+          "endMs": 50289,
+          "charStart": 60,
+          "charEnd": 67
+        },
+        {
+          "text": "cancelando",
+          "startMs": 50524,
+          "endMs": 51004,
+          "charStart": 69,
+          "charEnd": 79
+        },
+        {
+          "text": "el",
+          "startMs": 51014,
+          "endMs": 51064,
+          "charStart": 80,
+          "charEnd": 82
+        },
+        {
+          "text": "espejismo",
+          "startMs": 51074,
+          "endMs": 51534,
+          "charStart": 83,
+          "charEnd": 92
+        },
+        {
+          "text": "de",
+          "startMs": 51544,
+          "endMs": 51604,
+          "charStart": 93,
+          "charEnd": 95
+        },
+        {
+          "text": "la",
+          "startMs": 51614,
+          "endMs": 51664,
+          "charStart": 96,
+          "charEnd": 98
+        },
+        {
+          "text": "individualidad",
+          "startMs": 51674,
+          "endMs": 52214,
+          "charStart": 99,
+          "charEnd": 113
+        },
+        {
+          "text": "efímera",
+          "startMs": 52224,
+          "endMs": 52744,
+          "charStart": 114,
+          "charEnd": 121
+        }
+      ]
+    },
+    {
+      "text": "Bastábale respirar aquel hálito glacial para saberse partícipe transitorio pero indómito del misterio cósmico universal.",
+      "startMs": 53682,
+      "endMs": 58986,
+      "words": [
+        {
+          "text": "Bastábale",
+          "startMs": 53777,
+          "endMs": 54257,
+          "charStart": 0,
+          "charEnd": 9
+        },
+        {
+          "text": "respirar",
+          "startMs": 54267,
+          "endMs": 54637,
+          "charStart": 10,
+          "charEnd": 18
+        },
+        {
+          "text": "aquel",
+          "startMs": 54647,
+          "endMs": 54837,
+          "charStart": 19,
+          "charEnd": 24
+        },
+        {
+          "text": "hálito",
+          "startMs": 54847,
+          "endMs": 55077,
+          "charStart": 25,
+          "charEnd": 31
+        },
+        {
+          "text": "glacial",
+          "startMs": 55087,
+          "endMs": 55427,
+          "charStart": 32,
+          "charEnd": 39
+        },
+        {
+          "text": "para",
+          "startMs": 55437,
+          "endMs": 55597,
+          "charStart": 40,
+          "charEnd": 44
+        },
+        {
+          "text": "saberse",
+          "startMs": 55607,
+          "endMs": 55937,
+          "charStart": 45,
+          "charEnd": 52
+        },
+        {
+          "text": "partícipe",
+          "startMs": 55947,
+          "endMs": 56387,
+          "charStart": 53,
+          "charEnd": 62
+        },
+        {
+          "text": "transitorio",
+          "startMs": 56397,
+          "endMs": 56917,
+          "charStart": 63,
+          "charEnd": 74
+        },
+        {
+          "text": "pero",
+          "startMs": 56927,
+          "endMs": 57097,
+          "charStart": 75,
+          "charEnd": 79
+        },
+        {
+          "text": "indómito",
+          "startMs": 57107,
+          "endMs": 57457,
+          "charStart": 80,
+          "charEnd": 88
+        },
+        {
+          "text": "del",
+          "startMs": 57467,
+          "endMs": 57567,
+          "charStart": 89,
+          "charEnd": 92
+        },
+        {
+          "text": "misterio",
+          "startMs": 57577,
+          "endMs": 57927,
+          "charStart": 93,
+          "charEnd": 101
+        },
+        {
+          "text": "cósmico",
+          "startMs": 57937,
+          "endMs": 58277,
+          "charStart": 102,
+          "charEnd": 109
+        },
+        {
+          "text": "universal",
+          "startMs": 58287,
+          "endMs": 58857,
+          "charStart": 110,
+          "charEnd": 119
+        }
+      ]
+    }
+  ]
+}

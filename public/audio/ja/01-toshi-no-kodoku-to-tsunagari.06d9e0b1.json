@@ -1,0 +1,1852 @@
+{
+  "version": 3,
+  "lang": "ja",
+  "voice": "ja-JP-NanamiNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 71418,
+  "sentences": [
+    {
+      "text": "満員電車に揺られながらも、乗客たちは各々の小さな画面の中に閉じこもっている。",
+      "startMs": 0,
+      "endMs": 6024,
+      "words": [
+        {
+          "text": "満員",
+          "startMs": 110,
+          "endMs": 470,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "電車",
+          "startMs": 480,
+          "endMs": 750,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "に",
+          "startMs": 760,
+          "endMs": 900,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "揺ら",
+          "startMs": 910,
+          "endMs": 1070,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "れ",
+          "startMs": 1080,
+          "endMs": 1160,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "ながら",
+          "startMs": 1170,
+          "endMs": 1440,
+          "charStart": 8,
+          "charEnd": 11
+        },
+        {
+          "text": "も",
+          "startMs": 1450,
+          "endMs": 1640,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "乗客",
+          "startMs": 1870,
+          "endMs": 2280,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "たち",
+          "startMs": 2290,
+          "endMs": 2480,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "は",
+          "startMs": 2490,
+          "endMs": 2670,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "各々",
+          "startMs": 2740,
+          "endMs": 3120,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "の",
+          "startMs": 3130,
+          "endMs": 3220,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "小さな",
+          "startMs": 3230,
+          "endMs": 3660,
+          "charStart": 21,
+          "charEnd": 24
+        },
+        {
+          "text": "画面",
+          "startMs": 3670,
+          "endMs": 3940,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "の",
+          "startMs": 3950,
+          "endMs": 4030,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "中",
+          "startMs": 4040,
+          "endMs": 4220,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "に",
+          "startMs": 4230,
+          "endMs": 4410,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "閉じこもっ",
+          "startMs": 4470,
+          "endMs": 4950,
+          "charStart": 29,
+          "charEnd": 34
+        },
+        {
+          "text": "て",
+          "startMs": 4960,
+          "endMs": 5030,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "いる",
+          "startMs": 5040,
+          "endMs": 5330,
+          "charStart": 35,
+          "charEnd": 37
+        }
+      ]
+    },
+    {
+      "text": "物理的な距離がゼロに近づくほど、心理的な隔たりはかえって深まるという逆説が、現代都市には横たわっている。",
+      "startMs": 6274,
+      "endMs": 13858,
+      "words": [
+        {
+          "text": "物理的",
+          "startMs": 6414,
+          "endMs": 6864,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "な",
+          "startMs": 6874,
+          "endMs": 6964,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "距離",
+          "startMs": 6974,
+          "endMs": 7194,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "が",
+          "startMs": 7204,
+          "endMs": 7314,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "ゼロ",
+          "startMs": 7324,
+          "endMs": 7524,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "に",
+          "startMs": 7534,
+          "endMs": 7644,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "近づく",
+          "startMs": 7654,
+          "endMs": 8034,
+          "charStart": 10,
+          "charEnd": 13
+        },
+        {
+          "text": "ほど",
+          "startMs": 8044,
+          "endMs": 8324,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "心理的",
+          "startMs": 8564,
+          "endMs": 9044,
+          "charStart": 16,
+          "charEnd": 19
+        },
+        {
+          "text": "な",
+          "startMs": 9054,
+          "endMs": 9124,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "隔たり",
+          "startMs": 9134,
+          "endMs": 9504,
+          "charStart": 20,
+          "charEnd": 23
+        },
+        {
+          "text": "は",
+          "startMs": 9514,
+          "endMs": 9634,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "かえっ",
+          "startMs": 9654,
+          "endMs": 9894,
+          "charStart": 24,
+          "charEnd": 27
+        },
+        {
+          "text": "て",
+          "startMs": 9904,
+          "endMs": 10004,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "深まる",
+          "startMs": 10014,
+          "endMs": 10394,
+          "charStart": 28,
+          "charEnd": 31
+        },
+        {
+          "text": "と",
+          "startMs": 10404,
+          "endMs": 10474,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "いう",
+          "startMs": 10484,
+          "endMs": 10674,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "逆説",
+          "startMs": 10684,
+          "endMs": 11104,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "が",
+          "startMs": 11114,
+          "endMs": 11284,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "現代",
+          "startMs": 11424,
+          "endMs": 11804,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "都市",
+          "startMs": 11814,
+          "endMs": 12014,
+          "charStart": 40,
+          "charEnd": 42
+        },
+        {
+          "text": "に",
+          "startMs": 12024,
+          "endMs": 12114,
+          "charStart": 42,
+          "charEnd": 43
+        },
+        {
+          "text": "は",
+          "startMs": 12124,
+          "endMs": 12204,
+          "charStart": 43,
+          "charEnd": 44
+        },
+        {
+          "text": "横たわっ",
+          "startMs": 12214,
+          "endMs": 12774,
+          "charStart": 44,
+          "charEnd": 48
+        },
+        {
+          "text": "て",
+          "startMs": 12784,
+          "endMs": 12854,
+          "charStart": 48,
+          "charEnd": 49
+        },
+        {
+          "text": "いる",
+          "startMs": 12864,
+          "endMs": 13154,
+          "charStart": 49,
+          "charEnd": 51
+        }
+      ]
+    },
+    {
+      "text": "かつて井戸端会議が担っていた近隣との緩やかな紐帯は、効率という名のもとに解体されてしまった。",
+      "startMs": 14108,
+      "endMs": 20828,
+      "words": [
+        {
+          "text": "かつて",
+          "startMs": 14258,
+          "endMs": 14478,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "井戸端会議",
+          "startMs": 14488,
+          "endMs": 15148,
+          "charStart": 3,
+          "charEnd": 8
+        },
+        {
+          "text": "が",
+          "startMs": 15158,
+          "endMs": 15228,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "担っ",
+          "startMs": 15238,
+          "endMs": 15518,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "て",
+          "startMs": 15528,
+          "endMs": 15588,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "い",
+          "startMs": 15598,
+          "endMs": 15678,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "た",
+          "startMs": 15688,
+          "endMs": 15778,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "近隣",
+          "startMs": 15788,
+          "endMs": 16168,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "と",
+          "startMs": 16178,
+          "endMs": 16268,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "の",
+          "startMs": 16278,
+          "endMs": 16428,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "緩やか",
+          "startMs": 16468,
+          "endMs": 16888,
+          "charStart": 18,
+          "charEnd": 21
+        },
+        {
+          "text": "な",
+          "startMs": 16898,
+          "endMs": 16978,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "紐帯",
+          "startMs": 16988,
+          "endMs": 17378,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "は",
+          "startMs": 17388,
+          "endMs": 17588,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "効率",
+          "startMs": 17758,
+          "endMs": 18088,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "と",
+          "startMs": 18098,
+          "endMs": 18178,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "いう",
+          "startMs": 18188,
+          "endMs": 18378,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "名",
+          "startMs": 18388,
+          "endMs": 18478,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "の",
+          "startMs": 18488,
+          "endMs": 18578,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "もと",
+          "startMs": 18588,
+          "endMs": 18778,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "に",
+          "startMs": 18788,
+          "endMs": 18958,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "解体",
+          "startMs": 18978,
+          "endMs": 19328,
+          "charStart": 36,
+          "charEnd": 38
+        },
+        {
+          "text": "さ",
+          "startMs": 19338,
+          "endMs": 19438,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "れ",
+          "startMs": 19448,
+          "endMs": 19528,
+          "charStart": 39,
+          "charEnd": 40
+        },
+        {
+          "text": "て",
+          "startMs": 19538,
+          "endMs": 19628,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "しまっ",
+          "startMs": 19638,
+          "endMs": 19928,
+          "charStart": 41,
+          "charEnd": 44
+        },
+        {
+          "text": "た",
+          "startMs": 19938,
+          "endMs": 20138,
+          "charStart": 44,
+          "charEnd": 45
+        }
+      ]
+    },
+    {
+      "text": "孤独が病理として語られる一方で、他者との関わりを断つこと自体を積極的に選び取る人々も少なくない。",
+      "startMs": 21078,
+      "endMs": 28470,
+      "words": [
+        {
+          "text": "孤独",
+          "startMs": 21228,
+          "endMs": 21498,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "が",
+          "startMs": 21508,
+          "endMs": 21598,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "病理",
+          "startMs": 21608,
+          "endMs": 21928,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "と",
+          "startMs": 21938,
+          "endMs": 22018,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "し",
+          "startMs": 22028,
+          "endMs": 22128,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "て",
+          "startMs": 22138,
+          "endMs": 22238,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "語ら",
+          "startMs": 22248,
+          "endMs": 22568,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "れる",
+          "startMs": 22578,
+          "endMs": 22748,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "一方",
+          "startMs": 22758,
+          "endMs": 23118,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "で",
+          "startMs": 23128,
+          "endMs": 23298,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "他者",
+          "startMs": 23438,
+          "endMs": 23658,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "と",
+          "startMs": 23668,
+          "endMs": 23758,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "の",
+          "startMs": 23768,
+          "endMs": 23878,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "関わり",
+          "startMs": 23888,
+          "endMs": 24288,
+          "charStart": 20,
+          "charEnd": 23
+        },
+        {
+          "text": "を",
+          "startMs": 24298,
+          "endMs": 24378,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "断つ",
+          "startMs": 24388,
+          "endMs": 24598,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "こと",
+          "startMs": 24608,
+          "endMs": 24798,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "自体",
+          "startMs": 24808,
+          "endMs": 25098,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "を",
+          "startMs": 25108,
+          "endMs": 25288,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "積極的",
+          "startMs": 25378,
+          "endMs": 25988,
+          "charStart": 31,
+          "charEnd": 34
+        },
+        {
+          "text": "に",
+          "startMs": 25998,
+          "endMs": 26138,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "選び取る",
+          "startMs": 26158,
+          "endMs": 26588,
+          "charStart": 35,
+          "charEnd": 39
+        },
+        {
+          "text": "人々",
+          "startMs": 26598,
+          "endMs": 26968,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "も",
+          "startMs": 26978,
+          "endMs": 27078,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "少なく",
+          "startMs": 27088,
+          "endMs": 27488,
+          "charStart": 42,
+          "charEnd": 45
+        },
+        {
+          "text": "ない",
+          "startMs": 27498,
+          "endMs": 27758,
+          "charStart": 45,
+          "charEnd": 47
+        }
+      ]
+    },
+    {
+      "text": "問題は孤立そのものではなく、強いられる孤立と自ら選ぶ孤立との間にある亀裂なのかもしれない。",
+      "startMs": 28720,
+      "endMs": 35368,
+      "words": [
+        {
+          "text": "問題",
+          "startMs": 28830,
+          "endMs": 29190,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "は",
+          "startMs": 29200,
+          "endMs": 29330,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "孤立",
+          "startMs": 29340,
+          "endMs": 29650,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "そのもの",
+          "startMs": 29660,
+          "endMs": 30060,
+          "charStart": 5,
+          "charEnd": 9
+        },
+        {
+          "text": "で",
+          "startMs": 30070,
+          "endMs": 30160,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "は",
+          "startMs": 30170,
+          "endMs": 30260,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "なく",
+          "startMs": 30270,
+          "endMs": 30590,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "強い",
+          "startMs": 30730,
+          "endMs": 30970,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "ら",
+          "startMs": 30980,
+          "endMs": 31060,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "れる",
+          "startMs": 31070,
+          "endMs": 31280,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "孤立",
+          "startMs": 31290,
+          "endMs": 31570,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "と",
+          "startMs": 31580,
+          "endMs": 31680,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "自ら",
+          "startMs": 31690,
+          "endMs": 32080,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "選ぶ",
+          "startMs": 32090,
+          "endMs": 32410,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "孤立",
+          "startMs": 32420,
+          "endMs": 32700,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "と",
+          "startMs": 32710,
+          "endMs": 32780,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "の",
+          "startMs": 32790,
+          "endMs": 32870,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "間",
+          "startMs": 32880,
+          "endMs": 33140,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "に",
+          "startMs": 33150,
+          "endMs": 33250,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "ある",
+          "startMs": 33260,
+          "endMs": 33470,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "亀裂",
+          "startMs": 33480,
+          "endMs": 33780,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "な",
+          "startMs": 33790,
+          "endMs": 33860,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "の",
+          "startMs": 33870,
+          "endMs": 33960,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "か",
+          "startMs": 33970,
+          "endMs": 34060,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "も",
+          "startMs": 34070,
+          "endMs": 34160,
+          "charStart": 39,
+          "charEnd": 40
+        },
+        {
+          "text": "しれ",
+          "startMs": 34170,
+          "endMs": 34360,
+          "charStart": 40,
+          "charEnd": 42
+        },
+        {
+          "text": "ない",
+          "startMs": 34370,
+          "endMs": 34660,
+          "charStart": 42,
+          "charEnd": 44
+        }
+      ]
+    },
+    {
+      "text": "実際、地域の祭りや防災訓練といった場では、普段は顔を合わせない住民同士がにわかに連帯を示すことがある。",
+      "startMs": 35618,
+      "endMs": 43466,
+      "words": [
+        {
+          "text": "実際",
+          "startMs": 35728,
+          "endMs": 36178,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "地域",
+          "startMs": 36308,
+          "endMs": 36638,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "の",
+          "startMs": 36648,
+          "endMs": 36738,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "祭り",
+          "startMs": 36748,
+          "endMs": 37038,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "や",
+          "startMs": 37048,
+          "endMs": 37198,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "防災",
+          "startMs": 37208,
+          "endMs": 37638,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "訓練",
+          "startMs": 37648,
+          "endMs": 37958,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "と",
+          "startMs": 37968,
+          "endMs": 38068,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "いっ",
+          "startMs": 38078,
+          "endMs": 38228,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "た",
+          "startMs": 38238,
+          "endMs": 38328,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "場",
+          "startMs": 38338,
+          "endMs": 38438,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "で",
+          "startMs": 38448,
+          "endMs": 38548,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "は",
+          "startMs": 38558,
+          "endMs": 38758,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "普段",
+          "startMs": 38898,
+          "endMs": 39208,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "は",
+          "startMs": 39218,
+          "endMs": 39348,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "顔",
+          "startMs": 39358,
+          "endMs": 39588,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "を",
+          "startMs": 39598,
+          "endMs": 39658,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "合わせ",
+          "startMs": 39668,
+          "endMs": 39978,
+          "charStart": 26,
+          "charEnd": 29
+        },
+        {
+          "text": "ない",
+          "startMs": 39988,
+          "endMs": 40178,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "住民",
+          "startMs": 40188,
+          "endMs": 40548,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "同士",
+          "startMs": 40558,
+          "endMs": 40818,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "が",
+          "startMs": 40828,
+          "endMs": 40908,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "にわか",
+          "startMs": 40928,
+          "endMs": 41258,
+          "charStart": 36,
+          "charEnd": 39
+        },
+        {
+          "text": "に",
+          "startMs": 41268,
+          "endMs": 41418,
+          "charStart": 39,
+          "charEnd": 40
+        },
+        {
+          "text": "連帯",
+          "startMs": 41438,
+          "endMs": 41788,
+          "charStart": 40,
+          "charEnd": 42
+        },
+        {
+          "text": "を",
+          "startMs": 41798,
+          "endMs": 41878,
+          "charStart": 42,
+          "charEnd": 43
+        },
+        {
+          "text": "示す",
+          "startMs": 41888,
+          "endMs": 42208,
+          "charStart": 43,
+          "charEnd": 45
+        },
+        {
+          "text": "こと",
+          "startMs": 42218,
+          "endMs": 42388,
+          "charStart": 45,
+          "charEnd": 47
+        },
+        {
+          "text": "が",
+          "startMs": 42398,
+          "endMs": 42488,
+          "charStart": 47,
+          "charEnd": 48
+        },
+        {
+          "text": "ある",
+          "startMs": 42498,
+          "endMs": 42768,
+          "charStart": 48,
+          "charEnd": 50
+        }
+      ]
+    },
+    {
+      "text": "そうした一過性のつながりさえ、都市生活者にとっては渇きを癒す一滴の水にほかならない。",
+      "startMs": 43716,
+      "endMs": 50268,
+      "words": [
+        {
+          "text": "そうし",
+          "startMs": 43826,
+          "endMs": 44166,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "た",
+          "startMs": 44176,
+          "endMs": 44236,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "一過性",
+          "startMs": 44246,
+          "endMs": 44736,
+          "charStart": 4,
+          "charEnd": 7
+        },
+        {
+          "text": "の",
+          "startMs": 44746,
+          "endMs": 44836,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "つながり",
+          "startMs": 44846,
+          "endMs": 45236,
+          "charStart": 8,
+          "charEnd": 12
+        },
+        {
+          "text": "さえ",
+          "startMs": 45246,
+          "endMs": 45576,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "都市",
+          "startMs": 45716,
+          "endMs": 45926,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "生活者",
+          "startMs": 45936,
+          "endMs": 46436,
+          "charStart": 17,
+          "charEnd": 20
+        },
+        {
+          "text": "に",
+          "startMs": 46446,
+          "endMs": 46566,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "とっ",
+          "startMs": 46576,
+          "endMs": 46736,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "て",
+          "startMs": 46746,
+          "endMs": 46836,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "は",
+          "startMs": 46846,
+          "endMs": 47046,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "渇き",
+          "startMs": 47136,
+          "endMs": 47486,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "を",
+          "startMs": 47496,
+          "endMs": 47596,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "癒す",
+          "startMs": 47606,
+          "endMs": 47946,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "一滴",
+          "startMs": 47956,
+          "endMs": 48426,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "の",
+          "startMs": 48436,
+          "endMs": 48526,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "水",
+          "startMs": 48536,
+          "endMs": 48716,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "に",
+          "startMs": 48726,
+          "endMs": 48856,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "ほか",
+          "startMs": 48866,
+          "endMs": 49096,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "なら",
+          "startMs": 49106,
+          "endMs": 49296,
+          "charStart": 37,
+          "charEnd": 39
+        },
+        {
+          "text": "ない",
+          "startMs": 49306,
+          "endMs": 49556,
+          "charStart": 39,
+          "charEnd": 41
+        }
+      ]
+    },
+    {
+      "text": "行政による見守り施策も拡充されつつあるが、制度が心の隙間を完全に埋めることはあり得ない。",
+      "startMs": 50518,
+      "endMs": 57166,
+      "words": [
+        {
+          "text": "行政",
+          "startMs": 50628,
+          "endMs": 51038,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "に",
+          "startMs": 51048,
+          "endMs": 51128,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "よる",
+          "startMs": 51138,
+          "endMs": 51338,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "見守り",
+          "startMs": 51348,
+          "endMs": 51738,
+          "charStart": 5,
+          "charEnd": 8
+        },
+        {
+          "text": "施策",
+          "startMs": 51748,
+          "endMs": 52058,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "も",
+          "startMs": 52068,
+          "endMs": 52178,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "拡充",
+          "startMs": 52188,
+          "endMs": 52568,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "さ",
+          "startMs": 52578,
+          "endMs": 52668,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "れ",
+          "startMs": 52678,
+          "endMs": 52758,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "つつ",
+          "startMs": 52768,
+          "endMs": 52978,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "ある",
+          "startMs": 52988,
+          "endMs": 53158,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "が",
+          "startMs": 53168,
+          "endMs": 53368,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "制度",
+          "startMs": 53508,
+          "endMs": 53828,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "が",
+          "startMs": 53838,
+          "endMs": 53978,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "心",
+          "startMs": 53998,
+          "endMs": 54298,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "の",
+          "startMs": 54308,
+          "endMs": 54398,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "隙間",
+          "startMs": 54408,
+          "endMs": 54668,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "を",
+          "startMs": 54678,
+          "endMs": 54798,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "完全",
+          "startMs": 54808,
+          "endMs": 55178,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "に",
+          "startMs": 55188,
+          "endMs": 55288,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "埋める",
+          "startMs": 55298,
+          "endMs": 55568,
+          "charStart": 32,
+          "charEnd": 35
+        },
+        {
+          "text": "こと",
+          "startMs": 55578,
+          "endMs": 55768,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "は",
+          "startMs": 55778,
+          "endMs": 55868,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "あり",
+          "startMs": 55878,
+          "endMs": 56078,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "得",
+          "startMs": 56088,
+          "endMs": 56168,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "ない",
+          "startMs": 56178,
+          "endMs": 56448,
+          "charStart": 41,
+          "charEnd": 43
+        }
+      ]
+    },
+    {
+      "text": "求められているのは、干渉でも放置でもなく、互いの存在をゆるやかに認め合う距離感だろう。",
+      "startMs": 57416,
+      "endMs": 63848,
+      "words": [
+        {
+          "text": "求め",
+          "startMs": 57526,
+          "endMs": 57866,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "ら",
+          "startMs": 57876,
+          "endMs": 57946,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "れ",
+          "startMs": 57956,
+          "endMs": 58046,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "て",
+          "startMs": 58056,
+          "endMs": 58136,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "いる",
+          "startMs": 58146,
+          "endMs": 58316,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "の",
+          "startMs": 58326,
+          "endMs": 58406,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "は",
+          "startMs": 58416,
+          "endMs": 58606,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "干渉",
+          "startMs": 58826,
+          "endMs": 59246,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "で",
+          "startMs": 59256,
+          "endMs": 59326,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "も",
+          "startMs": 59336,
+          "endMs": 59456,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "放置",
+          "startMs": 59466,
+          "endMs": 59786,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "で",
+          "startMs": 59796,
+          "endMs": 59866,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "も",
+          "startMs": 59876,
+          "endMs": 59966,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "なく",
+          "startMs": 59976,
+          "endMs": 60306,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "互い",
+          "startMs": 60446,
+          "endMs": 60746,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "の",
+          "startMs": 60756,
+          "endMs": 60836,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "存在",
+          "startMs": 60846,
+          "endMs": 61246,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "を",
+          "startMs": 61256,
+          "endMs": 61336,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "ゆるやか",
+          "startMs": 61346,
+          "endMs": 61756,
+          "charStart": 27,
+          "charEnd": 31
+        },
+        {
+          "text": "に",
+          "startMs": 61766,
+          "endMs": 61896,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "認め",
+          "startMs": 61906,
+          "endMs": 62206,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "合う",
+          "startMs": 62216,
+          "endMs": 62426,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "距離感",
+          "startMs": 62436,
+          "endMs": 62816,
+          "charStart": 36,
+          "charEnd": 39
+        },
+        {
+          "text": "だろう",
+          "startMs": 62826,
+          "endMs": 63156,
+          "charStart": 39,
+          "charEnd": 42
+        }
+      ]
+    },
+    {
+      "text": "帰宅途中の商店街で交わす何気ない挨拶こそ、孤独に抗う最もささやかで確かな実践なのかもしれない。",
+      "startMs": 64098,
+      "endMs": 71418,
+      "words": [
+        {
+          "text": "帰宅",
+          "startMs": 64238,
+          "endMs": 64528,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "途中",
+          "startMs": 64538,
+          "endMs": 64848,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "の",
+          "startMs": 64858,
+          "endMs": 64938,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "商店街",
+          "startMs": 64948,
+          "endMs": 65478,
+          "charStart": 5,
+          "charEnd": 8
+        },
+        {
+          "text": "で",
+          "startMs": 65488,
+          "endMs": 65588,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "交わす",
+          "startMs": 65608,
+          "endMs": 65958,
+          "charStart": 9,
+          "charEnd": 12
+        },
+        {
+          "text": "何気",
+          "startMs": 65968,
+          "endMs": 66258,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "ない",
+          "startMs": 66268,
+          "endMs": 66448,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "挨拶",
+          "startMs": 66458,
+          "endMs": 66858,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "こそ",
+          "startMs": 66868,
+          "endMs": 67178,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "孤独",
+          "startMs": 67358,
+          "endMs": 67598,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "に",
+          "startMs": 67608,
+          "endMs": 67728,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "抗う",
+          "startMs": 67738,
+          "endMs": 68008,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "最も",
+          "startMs": 68018,
+          "endMs": 68398,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "ささやか",
+          "startMs": 68408,
+          "endMs": 68828,
+          "charStart": 28,
+          "charEnd": 32
+        },
+        {
+          "text": "で",
+          "startMs": 68838,
+          "endMs": 68998,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "確か",
+          "startMs": 69058,
+          "endMs": 69368,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "な",
+          "startMs": 69378,
+          "endMs": 69478,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "実践",
+          "startMs": 69488,
+          "endMs": 69848,
+          "charStart": 36,
+          "charEnd": 38
+        },
+        {
+          "text": "な",
+          "startMs": 69858,
+          "endMs": 69938,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "の",
+          "startMs": 69948,
+          "endMs": 70028,
+          "charStart": 39,
+          "charEnd": 40
+        },
+        {
+          "text": "か",
+          "startMs": 70038,
+          "endMs": 70128,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "も",
+          "startMs": 70138,
+          "endMs": 70228,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "しれ",
+          "startMs": 70238,
+          "endMs": 70438,
+          "charStart": 42,
+          "charEnd": 44
+        },
+        {
+          "text": "ない",
+          "startMs": 70448,
+          "endMs": 70708,
+          "charStart": 44,
+          "charEnd": 46
+        }
+      ]
+    }
+  ]
+}

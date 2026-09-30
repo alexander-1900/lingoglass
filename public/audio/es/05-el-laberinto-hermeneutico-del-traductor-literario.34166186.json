@@ -1,0 +1,1348 @@
+{
+  "version": 3,
+  "lang": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 69066,
+  "sentences": [
+    {
+      "text": "Verter una obra poética canónica a otra lengua constituye una odisea estética sembrada de insidiosas trampas filológicas.",
+      "startMs": 0,
+      "endMs": 6360,
+      "words": [
+        {
+          "text": "Verter",
+          "startMs": 95,
+          "endMs": 435,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "una",
+          "startMs": 445,
+          "endMs": 575,
+          "charStart": 7,
+          "charEnd": 10
+        },
+        {
+          "text": "obra",
+          "startMs": 585,
+          "endMs": 765,
+          "charStart": 11,
+          "charEnd": 15
+        },
+        {
+          "text": "poética",
+          "startMs": 775,
+          "endMs": 1105,
+          "charStart": 16,
+          "charEnd": 23
+        },
+        {
+          "text": "canónica",
+          "startMs": 1115,
+          "endMs": 1505,
+          "charStart": 24,
+          "charEnd": 32
+        },
+        {
+          "text": "a",
+          "startMs": 1515,
+          "endMs": 1555,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "otra",
+          "startMs": 1565,
+          "endMs": 1725,
+          "charStart": 35,
+          "charEnd": 39
+        },
+        {
+          "text": "lengua",
+          "startMs": 1735,
+          "endMs": 2025,
+          "charStart": 40,
+          "charEnd": 46
+        },
+        {
+          "text": "constituye",
+          "startMs": 2035,
+          "endMs": 2505,
+          "charStart": 47,
+          "charEnd": 57
+        },
+        {
+          "text": "una",
+          "startMs": 2515,
+          "endMs": 2625,
+          "charStart": 58,
+          "charEnd": 61
+        },
+        {
+          "text": "odisea",
+          "startMs": 2635,
+          "endMs": 2955,
+          "charStart": 62,
+          "charEnd": 68
+        },
+        {
+          "text": "estética",
+          "startMs": 2965,
+          "endMs": 3335,
+          "charStart": 69,
+          "charEnd": 77
+        },
+        {
+          "text": "sembrada",
+          "startMs": 3345,
+          "endMs": 3675,
+          "charStart": 78,
+          "charEnd": 86
+        },
+        {
+          "text": "de",
+          "startMs": 3685,
+          "endMs": 3745,
+          "charStart": 87,
+          "charEnd": 89
+        },
+        {
+          "text": "insidiosas",
+          "startMs": 3755,
+          "endMs": 4435,
+          "charStart": 90,
+          "charEnd": 100
+        },
+        {
+          "text": "trampas",
+          "startMs": 4560,
+          "endMs": 4940,
+          "charStart": 101,
+          "charEnd": 108
+        },
+        {
+          "text": "filológicas",
+          "startMs": 4950,
+          "endMs": 5670,
+          "charStart": 109,
+          "charEnd": 120
+        }
+      ]
+    },
+    {
+      "text": "El traductor avezado sabe que la fidelidad literal deviene inevitablemente en una traición flagrante al espíritu lírico del original.",
+      "startMs": 6610,
+      "endMs": 13234,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 6705,
+          "endMs": 6875,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "traductor",
+          "startMs": 6885,
+          "endMs": 7225,
+          "charStart": 3,
+          "charEnd": 12
+        },
+        {
+          "text": "avezado",
+          "startMs": 7235,
+          "endMs": 7625,
+          "charStart": 13,
+          "charEnd": 20
+        },
+        {
+          "text": "sabe",
+          "startMs": 7635,
+          "endMs": 7885,
+          "charStart": 21,
+          "charEnd": 25
+        },
+        {
+          "text": "que",
+          "startMs": 7895,
+          "endMs": 7975,
+          "charStart": 26,
+          "charEnd": 29
+        },
+        {
+          "text": "la",
+          "startMs": 7985,
+          "endMs": 8065,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "fidelidad",
+          "startMs": 8075,
+          "endMs": 8475,
+          "charStart": 33,
+          "charEnd": 42
+        },
+        {
+          "text": "literal",
+          "startMs": 8485,
+          "endMs": 8805,
+          "charStart": 43,
+          "charEnd": 50
+        },
+        {
+          "text": "deviene",
+          "startMs": 8815,
+          "endMs": 9075,
+          "charStart": 51,
+          "charEnd": 58
+        },
+        {
+          "text": "inevitablemente",
+          "startMs": 9085,
+          "endMs": 9755,
+          "charStart": 59,
+          "charEnd": 74
+        },
+        {
+          "text": "en",
+          "startMs": 9765,
+          "endMs": 9855,
+          "charStart": 75,
+          "charEnd": 77
+        },
+        {
+          "text": "una",
+          "startMs": 9865,
+          "endMs": 9985,
+          "charStart": 78,
+          "charEnd": 81
+        },
+        {
+          "text": "traición",
+          "startMs": 9995,
+          "endMs": 10335,
+          "charStart": 82,
+          "charEnd": 90
+        },
+        {
+          "text": "flagrante",
+          "startMs": 10345,
+          "endMs": 10715,
+          "charStart": 91,
+          "charEnd": 100
+        },
+        {
+          "text": "al",
+          "startMs": 10725,
+          "endMs": 10975,
+          "charStart": 101,
+          "charEnd": 103
+        },
+        {
+          "text": "espíritu",
+          "startMs": 11095,
+          "endMs": 11555,
+          "charStart": 104,
+          "charEnd": 112
+        },
+        {
+          "text": "lírico",
+          "startMs": 11565,
+          "endMs": 11835,
+          "charStart": 113,
+          "charEnd": 119
+        },
+        {
+          "text": "del",
+          "startMs": 11845,
+          "endMs": 11955,
+          "charStart": 120,
+          "charEnd": 123
+        },
+        {
+          "text": "original",
+          "startMs": 11965,
+          "endMs": 12525,
+          "charStart": 124,
+          "charEnd": 132
+        }
+      ]
+    },
+    {
+      "text": "Cada idioma encierra una cosmovisión singular cuyos matices rítmicos y resonancias afectivas son refractarios a una transposición mecánica.",
+      "startMs": 13484,
+      "endMs": 20660,
+      "words": [
+        {
+          "text": "Cada",
+          "startMs": 13584,
+          "endMs": 13824,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "idioma",
+          "startMs": 13834,
+          "endMs": 14104,
+          "charStart": 5,
+          "charEnd": 11
+        },
+        {
+          "text": "encierra",
+          "startMs": 14114,
+          "endMs": 14464,
+          "charStart": 12,
+          "charEnd": 20
+        },
+        {
+          "text": "una",
+          "startMs": 14474,
+          "endMs": 14604,
+          "charStart": 21,
+          "charEnd": 24
+        },
+        {
+          "text": "cosmovisión",
+          "startMs": 14614,
+          "endMs": 15134,
+          "charStart": 25,
+          "charEnd": 36
+        },
+        {
+          "text": "singular",
+          "startMs": 15144,
+          "endMs": 15514,
+          "charStart": 37,
+          "charEnd": 45
+        },
+        {
+          "text": "cuyos",
+          "startMs": 15524,
+          "endMs": 15784,
+          "charStart": 46,
+          "charEnd": 51
+        },
+        {
+          "text": "matices",
+          "startMs": 15794,
+          "endMs": 16124,
+          "charStart": 52,
+          "charEnd": 59
+        },
+        {
+          "text": "rítmicos",
+          "startMs": 16134,
+          "endMs": 16544,
+          "charStart": 60,
+          "charEnd": 68
+        },
+        {
+          "text": "y",
+          "startMs": 16554,
+          "endMs": 16594,
+          "charStart": 69,
+          "charEnd": 70
+        },
+        {
+          "text": "resonancias",
+          "startMs": 16604,
+          "endMs": 17114,
+          "charStart": 71,
+          "charEnd": 82
+        },
+        {
+          "text": "afectivas",
+          "startMs": 17124,
+          "endMs": 17554,
+          "charStart": 83,
+          "charEnd": 92
+        },
+        {
+          "text": "son",
+          "startMs": 17564,
+          "endMs": 17714,
+          "charStart": 93,
+          "charEnd": 96
+        },
+        {
+          "text": "refractarios",
+          "startMs": 17724,
+          "endMs": 18254,
+          "charStart": 97,
+          "charEnd": 109
+        },
+        {
+          "text": "a",
+          "startMs": 18264,
+          "endMs": 18474,
+          "charStart": 110,
+          "charEnd": 111
+        },
+        {
+          "text": "una",
+          "startMs": 18594,
+          "endMs": 18824,
+          "charStart": 112,
+          "charEnd": 115
+        },
+        {
+          "text": "transposición",
+          "startMs": 18834,
+          "endMs": 19374,
+          "charStart": 116,
+          "charEnd": 129
+        },
+        {
+          "text": "mecánica",
+          "startMs": 19384,
+          "endMs": 19954,
+          "charStart": 130,
+          "charEnd": 138
+        }
+      ]
+    },
+    {
+      "text": "Al enfrentarse a vocablos polisémicos impregnados de connotaciones históricas, el artífice verbal debe recrear más que trasladar.",
+      "startMs": 20910,
+      "endMs": 27246,
+      "words": [
+        {
+          "text": "Al",
+          "startMs": 21010,
+          "endMs": 21190,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "enfrentarse",
+          "startMs": 21200,
+          "endMs": 21650,
+          "charStart": 3,
+          "charEnd": 14
+        },
+        {
+          "text": "a",
+          "startMs": 21660,
+          "endMs": 21680,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "vocablos",
+          "startMs": 21690,
+          "endMs": 22030,
+          "charStart": 17,
+          "charEnd": 25
+        },
+        {
+          "text": "polisémicos",
+          "startMs": 22040,
+          "endMs": 22560,
+          "charStart": 26,
+          "charEnd": 37
+        },
+        {
+          "text": "impregnados",
+          "startMs": 22570,
+          "endMs": 23010,
+          "charStart": 38,
+          "charEnd": 49
+        },
+        {
+          "text": "de",
+          "startMs": 23020,
+          "endMs": 23070,
+          "charStart": 50,
+          "charEnd": 52
+        },
+        {
+          "text": "connotaciones",
+          "startMs": 23080,
+          "endMs": 23610,
+          "charStart": 53,
+          "charEnd": 66
+        },
+        {
+          "text": "históricas",
+          "startMs": 23620,
+          "endMs": 24140,
+          "charStart": 67,
+          "charEnd": 77
+        },
+        {
+          "text": "el",
+          "startMs": 24355,
+          "endMs": 24515,
+          "charStart": 79,
+          "charEnd": 81
+        },
+        {
+          "text": "artífice",
+          "startMs": 24525,
+          "endMs": 24915,
+          "charStart": 82,
+          "charEnd": 90
+        },
+        {
+          "text": "verbal",
+          "startMs": 24925,
+          "endMs": 25225,
+          "charStart": 91,
+          "charEnd": 97
+        },
+        {
+          "text": "debe",
+          "startMs": 25235,
+          "endMs": 25395,
+          "charStart": 98,
+          "charEnd": 102
+        },
+        {
+          "text": "recrear",
+          "startMs": 25405,
+          "endMs": 25755,
+          "charStart": 103,
+          "charEnd": 110
+        },
+        {
+          "text": "más",
+          "startMs": 25765,
+          "endMs": 25915,
+          "charStart": 111,
+          "charEnd": 114
+        },
+        {
+          "text": "que",
+          "startMs": 25925,
+          "endMs": 25995,
+          "charStart": 115,
+          "charEnd": 118
+        },
+        {
+          "text": "trasladar",
+          "startMs": 26005,
+          "endMs": 26545,
+          "charStart": 119,
+          "charEnd": 128
+        }
+      ]
+    },
+    {
+      "text": "Lejos de conformarse con equivalencias anodinas, busca afanosamente la cadencia precisa que conmueva al lector contemporáneo.",
+      "startMs": 27496,
+      "endMs": 33880,
+      "words": [
+        {
+          "text": "Lejos",
+          "startMs": 27591,
+          "endMs": 27941,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "de",
+          "startMs": 27951,
+          "endMs": 28001,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "conformarse",
+          "startMs": 28011,
+          "endMs": 28551,
+          "charStart": 9,
+          "charEnd": 20
+        },
+        {
+          "text": "con",
+          "startMs": 28561,
+          "endMs": 28681,
+          "charStart": 21,
+          "charEnd": 24
+        },
+        {
+          "text": "equivalencias",
+          "startMs": 28691,
+          "endMs": 29171,
+          "charStart": 25,
+          "charEnd": 38
+        },
+        {
+          "text": "anodinas",
+          "startMs": 29181,
+          "endMs": 29641,
+          "charStart": 39,
+          "charEnd": 47
+        },
+        {
+          "text": "busca",
+          "startMs": 29856,
+          "endMs": 30216,
+          "charStart": 49,
+          "charEnd": 54
+        },
+        {
+          "text": "afanosamente",
+          "startMs": 30226,
+          "endMs": 30826,
+          "charStart": 55,
+          "charEnd": 67
+        },
+        {
+          "text": "la",
+          "startMs": 30836,
+          "endMs": 30916,
+          "charStart": 68,
+          "charEnd": 70
+        },
+        {
+          "text": "cadencia",
+          "startMs": 30926,
+          "endMs": 31296,
+          "charStart": 71,
+          "charEnd": 79
+        },
+        {
+          "text": "precisa",
+          "startMs": 31306,
+          "endMs": 31656,
+          "charStart": 80,
+          "charEnd": 87
+        },
+        {
+          "text": "que",
+          "startMs": 31666,
+          "endMs": 31756,
+          "charStart": 88,
+          "charEnd": 91
+        },
+        {
+          "text": "conmueva",
+          "startMs": 31766,
+          "endMs": 32106,
+          "charStart": 92,
+          "charEnd": 100
+        },
+        {
+          "text": "al",
+          "startMs": 32116,
+          "endMs": 32176,
+          "charStart": 101,
+          "charEnd": 103
+        },
+        {
+          "text": "lector",
+          "startMs": 32186,
+          "endMs": 32436,
+          "charStart": 104,
+          "charEnd": 110
+        },
+        {
+          "text": "contemporáneo",
+          "startMs": 32446,
+          "endMs": 33176,
+          "charStart": 111,
+          "charEnd": 124
+        }
+      ]
+    },
+    {
+      "text": "Ciertas metáforas arraigadas en el imaginario cultural autóctono se resisten a cualquier intento de asimilación sintáctica forzada.",
+      "startMs": 34130,
+      "endMs": 40706,
+      "words": [
+        {
+          "text": "Ciertas",
+          "startMs": 34225,
+          "endMs": 34605,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "metáforas",
+          "startMs": 34615,
+          "endMs": 35065,
+          "charStart": 8,
+          "charEnd": 17
+        },
+        {
+          "text": "arraigadas",
+          "startMs": 35075,
+          "endMs": 35495,
+          "charStart": 18,
+          "charEnd": 28
+        },
+        {
+          "text": "en",
+          "startMs": 35505,
+          "endMs": 35575,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "el",
+          "startMs": 35585,
+          "endMs": 35645,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "imaginario",
+          "startMs": 35655,
+          "endMs": 36075,
+          "charStart": 35,
+          "charEnd": 45
+        },
+        {
+          "text": "cultural",
+          "startMs": 36085,
+          "endMs": 36425,
+          "charStart": 46,
+          "charEnd": 54
+        },
+        {
+          "text": "autóctono",
+          "startMs": 36435,
+          "endMs": 36905,
+          "charStart": 55,
+          "charEnd": 64
+        },
+        {
+          "text": "se",
+          "startMs": 36915,
+          "endMs": 37035,
+          "charStart": 65,
+          "charEnd": 67
+        },
+        {
+          "text": "resisten",
+          "startMs": 37045,
+          "endMs": 37405,
+          "charStart": 68,
+          "charEnd": 76
+        },
+        {
+          "text": "a",
+          "startMs": 37415,
+          "endMs": 37445,
+          "charStart": 77,
+          "charEnd": 78
+        },
+        {
+          "text": "cualquier",
+          "startMs": 37455,
+          "endMs": 37725,
+          "charStart": 79,
+          "charEnd": 88
+        },
+        {
+          "text": "intento",
+          "startMs": 37735,
+          "endMs": 38035,
+          "charStart": 89,
+          "charEnd": 96
+        },
+        {
+          "text": "de",
+          "startMs": 38045,
+          "endMs": 38105,
+          "charStart": 97,
+          "charEnd": 99
+        },
+        {
+          "text": "asimilación",
+          "startMs": 38115,
+          "endMs": 38785,
+          "charStart": 100,
+          "charEnd": 111
+        },
+        {
+          "text": "sintáctica",
+          "startMs": 38910,
+          "endMs": 39520,
+          "charStart": 112,
+          "charEnd": 122
+        },
+        {
+          "text": "forzada",
+          "startMs": 39530,
+          "endMs": 40000,
+          "charStart": 123,
+          "charEnd": 130
+        }
+      ]
+    },
+    {
+      "text": "Quien asume semejante reto navega entre la reverencia devota al autor primigenio y la audacia creadora indispensable para otorgarle nueva vida.",
+      "startMs": 40956,
+      "endMs": 48084,
+      "words": [
+        {
+          "text": "Quien",
+          "startMs": 41056,
+          "endMs": 41266,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "asume",
+          "startMs": 41276,
+          "endMs": 41526,
+          "charStart": 6,
+          "charEnd": 11
+        },
+        {
+          "text": "semejante",
+          "startMs": 41536,
+          "endMs": 42026,
+          "charStart": 12,
+          "charEnd": 21
+        },
+        {
+          "text": "reto",
+          "startMs": 42036,
+          "endMs": 42266,
+          "charStart": 22,
+          "charEnd": 26
+        },
+        {
+          "text": "navega",
+          "startMs": 42276,
+          "endMs": 42576,
+          "charStart": 27,
+          "charEnd": 33
+        },
+        {
+          "text": "entre",
+          "startMs": 42586,
+          "endMs": 42776,
+          "charStart": 34,
+          "charEnd": 39
+        },
+        {
+          "text": "la",
+          "startMs": 42786,
+          "endMs": 42866,
+          "charStart": 40,
+          "charEnd": 42
+        },
+        {
+          "text": "reverencia",
+          "startMs": 42876,
+          "endMs": 43306,
+          "charStart": 43,
+          "charEnd": 53
+        },
+        {
+          "text": "devota",
+          "startMs": 43316,
+          "endMs": 43606,
+          "charStart": 54,
+          "charEnd": 60
+        },
+        {
+          "text": "al",
+          "startMs": 43616,
+          "endMs": 43696,
+          "charStart": 61,
+          "charEnd": 63
+        },
+        {
+          "text": "autor",
+          "startMs": 43706,
+          "endMs": 43946,
+          "charStart": 64,
+          "charEnd": 69
+        },
+        {
+          "text": "primigenio",
+          "startMs": 43956,
+          "endMs": 44416,
+          "charStart": 70,
+          "charEnd": 80
+        },
+        {
+          "text": "y",
+          "startMs": 44426,
+          "endMs": 44456,
+          "charStart": 81,
+          "charEnd": 82
+        },
+        {
+          "text": "la",
+          "startMs": 44466,
+          "endMs": 44536,
+          "charStart": 83,
+          "charEnd": 85
+        },
+        {
+          "text": "audacia",
+          "startMs": 44546,
+          "endMs": 44836,
+          "charStart": 86,
+          "charEnd": 93
+        },
+        {
+          "text": "creadora",
+          "startMs": 44846,
+          "endMs": 45346,
+          "charStart": 94,
+          "charEnd": 102
+        },
+        {
+          "text": "indispensable",
+          "startMs": 45466,
+          "endMs": 46196,
+          "charStart": 103,
+          "charEnd": 116
+        },
+        {
+          "text": "para",
+          "startMs": 46206,
+          "endMs": 46356,
+          "charStart": 117,
+          "charEnd": 121
+        },
+        {
+          "text": "otorgarle",
+          "startMs": 46366,
+          "endMs": 46776,
+          "charStart": 122,
+          "charEnd": 131
+        },
+        {
+          "text": "nueva",
+          "startMs": 46786,
+          "endMs": 46996,
+          "charStart": 132,
+          "charEnd": 137
+        },
+        {
+          "text": "vida",
+          "startMs": 47006,
+          "endMs": 47386,
+          "charStart": 138,
+          "charEnd": 142
+        }
+      ]
+    },
+    {
+      "text": "Aunque algunos críticos puristas sospechen de las libertades estilísticas, tales licencias resultan cruciales para preservar la polisemia poética.",
+      "startMs": 48334,
+      "endMs": 55462,
+      "words": [
+        {
+          "text": "Aunque",
+          "startMs": 48429,
+          "endMs": 48709,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "algunos",
+          "startMs": 48719,
+          "endMs": 48979,
+          "charStart": 7,
+          "charEnd": 14
+        },
+        {
+          "text": "críticos",
+          "startMs": 48989,
+          "endMs": 49329,
+          "charStart": 15,
+          "charEnd": 23
+        },
+        {
+          "text": "puristas",
+          "startMs": 49339,
+          "endMs": 49689,
+          "charStart": 24,
+          "charEnd": 32
+        },
+        {
+          "text": "sospechen",
+          "startMs": 49699,
+          "endMs": 50109,
+          "charStart": 33,
+          "charEnd": 42
+        },
+        {
+          "text": "de",
+          "startMs": 50119,
+          "endMs": 50179,
+          "charStart": 43,
+          "charEnd": 45
+        },
+        {
+          "text": "las",
+          "startMs": 50189,
+          "endMs": 50299,
+          "charStart": 46,
+          "charEnd": 49
+        },
+        {
+          "text": "libertades",
+          "startMs": 50309,
+          "endMs": 50729,
+          "charStart": 50,
+          "charEnd": 60
+        },
+        {
+          "text": "estilísticas",
+          "startMs": 50739,
+          "endMs": 51369,
+          "charStart": 61,
+          "charEnd": 73
+        },
+        {
+          "text": "tales",
+          "startMs": 51624,
+          "endMs": 51914,
+          "charStart": 75,
+          "charEnd": 80
+        },
+        {
+          "text": "licencias",
+          "startMs": 51924,
+          "endMs": 52344,
+          "charStart": 81,
+          "charEnd": 90
+        },
+        {
+          "text": "resultan",
+          "startMs": 52354,
+          "endMs": 52734,
+          "charStart": 91,
+          "charEnd": 99
+        },
+        {
+          "text": "cruciales",
+          "startMs": 52744,
+          "endMs": 53154,
+          "charStart": 100,
+          "charEnd": 109
+        },
+        {
+          "text": "para",
+          "startMs": 53164,
+          "endMs": 53324,
+          "charStart": 110,
+          "charEnd": 114
+        },
+        {
+          "text": "preservar",
+          "startMs": 53334,
+          "endMs": 53714,
+          "charStart": 115,
+          "charEnd": 124
+        },
+        {
+          "text": "la",
+          "startMs": 53724,
+          "endMs": 53794,
+          "charStart": 125,
+          "charEnd": 127
+        },
+        {
+          "text": "polisemia",
+          "startMs": 53804,
+          "endMs": 54214,
+          "charStart": 128,
+          "charEnd": 137
+        },
+        {
+          "text": "poética",
+          "startMs": 54224,
+          "endMs": 54764,
+          "charStart": 138,
+          "charEnd": 145
+        }
+      ]
+    },
+    {
+      "text": "En las horas de desvelo frente al manuscrito enigmático, surge a veces el hallazgo milagroso que ilumina todo el poema.",
+      "startMs": 55712,
+      "endMs": 61592,
+      "words": [
+        {
+          "text": "En",
+          "startMs": 55807,
+          "endMs": 55947,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "las",
+          "startMs": 55957,
+          "endMs": 56097,
+          "charStart": 3,
+          "charEnd": 6
+        },
+        {
+          "text": "horas",
+          "startMs": 56107,
+          "endMs": 56257,
+          "charStart": 7,
+          "charEnd": 12
+        },
+        {
+          "text": "de",
+          "startMs": 56267,
+          "endMs": 56327,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "desvelo",
+          "startMs": 56337,
+          "endMs": 56667,
+          "charStart": 16,
+          "charEnd": 23
+        },
+        {
+          "text": "frente",
+          "startMs": 56677,
+          "endMs": 56907,
+          "charStart": 24,
+          "charEnd": 30
+        },
+        {
+          "text": "al",
+          "startMs": 56917,
+          "endMs": 56977,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "manuscrito",
+          "startMs": 56987,
+          "endMs": 57387,
+          "charStart": 34,
+          "charEnd": 44
+        },
+        {
+          "text": "enigmático",
+          "startMs": 57397,
+          "endMs": 57947,
+          "charStart": 45,
+          "charEnd": 55
+        },
+        {
+          "text": "surge",
+          "startMs": 58192,
+          "endMs": 58592,
+          "charStart": 57,
+          "charEnd": 62
+        },
+        {
+          "text": "a",
+          "startMs": 58602,
+          "endMs": 58622,
+          "charStart": 63,
+          "charEnd": 64
+        },
+        {
+          "text": "veces",
+          "startMs": 58632,
+          "endMs": 58912,
+          "charStart": 65,
+          "charEnd": 70
+        },
+        {
+          "text": "el",
+          "startMs": 58922,
+          "endMs": 58992,
+          "charStart": 71,
+          "charEnd": 73
+        },
+        {
+          "text": "hallazgo",
+          "startMs": 59002,
+          "endMs": 59282,
+          "charStart": 74,
+          "charEnd": 82
+        },
+        {
+          "text": "milagroso",
+          "startMs": 59292,
+          "endMs": 59712,
+          "charStart": 83,
+          "charEnd": 92
+        },
+        {
+          "text": "que",
+          "startMs": 59722,
+          "endMs": 59812,
+          "charStart": 93,
+          "charEnd": 96
+        },
+        {
+          "text": "ilumina",
+          "startMs": 59822,
+          "endMs": 60182,
+          "charStart": 97,
+          "charEnd": 104
+        },
+        {
+          "text": "todo",
+          "startMs": 60192,
+          "endMs": 60372,
+          "charStart": 105,
+          "charEnd": 109
+        },
+        {
+          "text": "el",
+          "startMs": 60382,
+          "endMs": 60442,
+          "charStart": 110,
+          "charEnd": 112
+        },
+        {
+          "text": "poema",
+          "startMs": 60452,
+          "endMs": 60902,
+          "charStart": 113,
+          "charEnd": 118
+        }
+      ]
+    },
+    {
+      "text": "Traducir auténtica poesía es entablar un diálogo intemporal entre dos sensibilidades que trasciende las contingencias geográficas y lingüísticas.",
+      "startMs": 61842,
+      "endMs": 69066,
+      "words": [
+        {
+          "text": "Traducir",
+          "startMs": 61942,
+          "endMs": 62352,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "auténtica",
+          "startMs": 62362,
+          "endMs": 62792,
+          "charStart": 9,
+          "charEnd": 18
+        },
+        {
+          "text": "poesía",
+          "startMs": 62802,
+          "endMs": 63162,
+          "charStart": 19,
+          "charEnd": 25
+        },
+        {
+          "text": "es",
+          "startMs": 63172,
+          "endMs": 63272,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "entablar",
+          "startMs": 63282,
+          "endMs": 63602,
+          "charStart": 29,
+          "charEnd": 37
+        },
+        {
+          "text": "un",
+          "startMs": 63612,
+          "endMs": 63682,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "diálogo",
+          "startMs": 63692,
+          "endMs": 64022,
+          "charStart": 41,
+          "charEnd": 48
+        },
+        {
+          "text": "intemporal",
+          "startMs": 64032,
+          "endMs": 64462,
+          "charStart": 49,
+          "charEnd": 59
+        },
+        {
+          "text": "entre",
+          "startMs": 64472,
+          "endMs": 64692,
+          "charStart": 60,
+          "charEnd": 65
+        },
+        {
+          "text": "dos",
+          "startMs": 64702,
+          "endMs": 64842,
+          "charStart": 66,
+          "charEnd": 69
+        },
+        {
+          "text": "sensibilidades",
+          "startMs": 64852,
+          "endMs": 65472,
+          "charStart": 70,
+          "charEnd": 84
+        },
+        {
+          "text": "que",
+          "startMs": 65482,
+          "endMs": 65552,
+          "charStart": 85,
+          "charEnd": 88
+        },
+        {
+          "text": "trasciende",
+          "startMs": 65562,
+          "endMs": 65932,
+          "charStart": 89,
+          "charEnd": 99
+        },
+        {
+          "text": "las",
+          "startMs": 65942,
+          "endMs": 66262,
+          "charStart": 100,
+          "charEnd": 103
+        },
+        {
+          "text": "contingencias",
+          "startMs": 66382,
+          "endMs": 67042,
+          "charStart": 104,
+          "charEnd": 117
+        },
+        {
+          "text": "geográficas",
+          "startMs": 67052,
+          "endMs": 67572,
+          "charStart": 118,
+          "charEnd": 129
+        },
+        {
+          "text": "y",
+          "startMs": 67582,
+          "endMs": 67612,
+          "charStart": 130,
+          "charEnd": 131
+        },
+        {
+          "text": "lingüísticas",
+          "startMs": 67622,
+          "endMs": 68382,
+          "charStart": 132,
+          "charEnd": 144
+        }
+      ]
+    }
+  ]
+}

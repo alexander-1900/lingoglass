@@ -1,0 +1,1173 @@
+{
+  "version": 3,
+  "lang": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 61530,
+  "sentences": [
+    {
+      "text": "El bombardeo incesante de datos efímeros distorsiona la capacidad cognitiva del individuo contemporáneo.",
+      "startMs": 0,
+      "endMs": 5136,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 95,
+          "endMs": 265,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "bombardeo",
+          "startMs": 275,
+          "endMs": 645,
+          "charStart": 3,
+          "charEnd": 12
+        },
+        {
+          "text": "incesante",
+          "startMs": 655,
+          "endMs": 1105,
+          "charStart": 13,
+          "charEnd": 22
+        },
+        {
+          "text": "de",
+          "startMs": 1115,
+          "endMs": 1185,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "datos",
+          "startMs": 1195,
+          "endMs": 1455,
+          "charStart": 26,
+          "charEnd": 31
+        },
+        {
+          "text": "efímeros",
+          "startMs": 1465,
+          "endMs": 1815,
+          "charStart": 32,
+          "charEnd": 40
+        },
+        {
+          "text": "distorsiona",
+          "startMs": 1825,
+          "endMs": 2255,
+          "charStart": 41,
+          "charEnd": 52
+        },
+        {
+          "text": "la",
+          "startMs": 2265,
+          "endMs": 2345,
+          "charStart": 53,
+          "charEnd": 55
+        },
+        {
+          "text": "capacidad",
+          "startMs": 2355,
+          "endMs": 2805,
+          "charStart": 56,
+          "charEnd": 65
+        },
+        {
+          "text": "cognitiva",
+          "startMs": 2815,
+          "endMs": 3225,
+          "charStart": 66,
+          "charEnd": 75
+        },
+        {
+          "text": "del",
+          "startMs": 3235,
+          "endMs": 3345,
+          "charStart": 76,
+          "charEnd": 79
+        },
+        {
+          "text": "individuo",
+          "startMs": 3355,
+          "endMs": 3705,
+          "charStart": 80,
+          "charEnd": 89
+        },
+        {
+          "text": "contemporáneo",
+          "startMs": 3715,
+          "endMs": 4435,
+          "charStart": 90,
+          "charEnd": 103
+        }
+      ]
+    },
+    {
+      "text": "Inundado por estímulos fugaces, el pensamiento crítico suele relegarse a un segundo plano.",
+      "startMs": 5386,
+      "endMs": 10186,
+      "words": [
+        {
+          "text": "Inundado",
+          "startMs": 5481,
+          "endMs": 5931,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "por",
+          "startMs": 5941,
+          "endMs": 6071,
+          "charStart": 9,
+          "charEnd": 12
+        },
+        {
+          "text": "estímulos",
+          "startMs": 6081,
+          "endMs": 6461,
+          "charStart": 13,
+          "charEnd": 22
+        },
+        {
+          "text": "fugaces",
+          "startMs": 6471,
+          "endMs": 6901,
+          "charStart": 23,
+          "charEnd": 30
+        },
+        {
+          "text": "el",
+          "startMs": 7071,
+          "endMs": 7171,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "pensamiento",
+          "startMs": 7181,
+          "endMs": 7621,
+          "charStart": 35,
+          "charEnd": 46
+        },
+        {
+          "text": "crítico",
+          "startMs": 7631,
+          "endMs": 7971,
+          "charStart": 47,
+          "charEnd": 54
+        },
+        {
+          "text": "suele",
+          "startMs": 7981,
+          "endMs": 8181,
+          "charStart": 55,
+          "charEnd": 60
+        },
+        {
+          "text": "relegarse",
+          "startMs": 8191,
+          "endMs": 8621,
+          "charStart": 61,
+          "charEnd": 70
+        },
+        {
+          "text": "a",
+          "startMs": 8631,
+          "endMs": 8651,
+          "charStart": 71,
+          "charEnd": 72
+        },
+        {
+          "text": "un",
+          "startMs": 8661,
+          "endMs": 8761,
+          "charStart": 73,
+          "charEnd": 75
+        },
+        {
+          "text": "segundo",
+          "startMs": 8771,
+          "endMs": 9081,
+          "charStart": 76,
+          "charEnd": 83
+        },
+        {
+          "text": "plano",
+          "startMs": 9091,
+          "endMs": 9491,
+          "charStart": 84,
+          "charEnd": 89
+        }
+      ]
+    },
+    {
+      "text": "Resulta paradójico que, habiendo alcanzado un acceso sin precedentes al conocimiento, la desinformación prolifere tan desmesuradamente.",
+      "startMs": 10436,
+      "endMs": 17444,
+      "words": [
+        {
+          "text": "Resulta",
+          "startMs": 10531,
+          "endMs": 10961,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "paradójico",
+          "startMs": 10971,
+          "endMs": 11471,
+          "charStart": 8,
+          "charEnd": 18
+        },
+        {
+          "text": "que",
+          "startMs": 11481,
+          "endMs": 11641,
+          "charStart": 19,
+          "charEnd": 22
+        },
+        {
+          "text": "habiendo",
+          "startMs": 11841,
+          "endMs": 12111,
+          "charStart": 24,
+          "charEnd": 32
+        },
+        {
+          "text": "alcanzado",
+          "startMs": 12121,
+          "endMs": 12531,
+          "charStart": 33,
+          "charEnd": 42
+        },
+        {
+          "text": "un",
+          "startMs": 12541,
+          "endMs": 12611,
+          "charStart": 43,
+          "charEnd": 45
+        },
+        {
+          "text": "acceso",
+          "startMs": 12621,
+          "endMs": 12951,
+          "charStart": 46,
+          "charEnd": 52
+        },
+        {
+          "text": "sin",
+          "startMs": 12961,
+          "endMs": 13111,
+          "charStart": 53,
+          "charEnd": 56
+        },
+        {
+          "text": "precedentes",
+          "startMs": 13121,
+          "endMs": 13601,
+          "charStart": 57,
+          "charEnd": 68
+        },
+        {
+          "text": "al",
+          "startMs": 13611,
+          "endMs": 13681,
+          "charStart": 69,
+          "charEnd": 71
+        },
+        {
+          "text": "conocimiento",
+          "startMs": 13691,
+          "endMs": 14301,
+          "charStart": 72,
+          "charEnd": 84
+        },
+        {
+          "text": "la",
+          "startMs": 14541,
+          "endMs": 14691,
+          "charStart": 86,
+          "charEnd": 88
+        },
+        {
+          "text": "desinformación",
+          "startMs": 14701,
+          "endMs": 15331,
+          "charStart": 89,
+          "charEnd": 103
+        },
+        {
+          "text": "prolifere",
+          "startMs": 15341,
+          "endMs": 15711,
+          "charStart": 104,
+          "charEnd": 113
+        },
+        {
+          "text": "tan",
+          "startMs": 15721,
+          "endMs": 15861,
+          "charStart": 114,
+          "charEnd": 117
+        },
+        {
+          "text": "desmesuradamente",
+          "startMs": 15871,
+          "endMs": 16731,
+          "charStart": 118,
+          "charEnd": 134
+        }
+      ]
+    },
+    {
+      "text": "Los algoritmos predictivos, diseñados para maximizar la permanencia del usuario, fomentan burbujas ideológicas impenetrables.",
+      "startMs": 17694,
+      "endMs": 24246,
+      "words": [
+        {
+          "text": "Los",
+          "startMs": 17794,
+          "endMs": 18044,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "algoritmos",
+          "startMs": 18054,
+          "endMs": 18464,
+          "charStart": 4,
+          "charEnd": 14
+        },
+        {
+          "text": "predictivos",
+          "startMs": 18474,
+          "endMs": 18994,
+          "charStart": 15,
+          "charEnd": 26
+        },
+        {
+          "text": "diseñados",
+          "startMs": 19174,
+          "endMs": 19584,
+          "charStart": 28,
+          "charEnd": 37
+        },
+        {
+          "text": "para",
+          "startMs": 19594,
+          "endMs": 19734,
+          "charStart": 38,
+          "charEnd": 42
+        },
+        {
+          "text": "maximizar",
+          "startMs": 19744,
+          "endMs": 20204,
+          "charStart": 43,
+          "charEnd": 52
+        },
+        {
+          "text": "la",
+          "startMs": 20214,
+          "endMs": 20284,
+          "charStart": 53,
+          "charEnd": 55
+        },
+        {
+          "text": "permanencia",
+          "startMs": 20294,
+          "endMs": 20724,
+          "charStart": 56,
+          "charEnd": 67
+        },
+        {
+          "text": "del",
+          "startMs": 20734,
+          "endMs": 20824,
+          "charStart": 68,
+          "charEnd": 71
+        },
+        {
+          "text": "usuario",
+          "startMs": 20834,
+          "endMs": 21244,
+          "charStart": 72,
+          "charEnd": 79
+        },
+        {
+          "text": "fomentan",
+          "startMs": 21439,
+          "endMs": 21899,
+          "charStart": 81,
+          "charEnd": 89
+        },
+        {
+          "text": "burbujas",
+          "startMs": 21909,
+          "endMs": 22309,
+          "charStart": 90,
+          "charEnd": 98
+        },
+        {
+          "text": "ideológicas",
+          "startMs": 22319,
+          "endMs": 22809,
+          "charStart": 99,
+          "charEnd": 110
+        },
+        {
+          "text": "impenetrables",
+          "startMs": 22819,
+          "endMs": 23549,
+          "charStart": 111,
+          "charEnd": 124
+        }
+      ]
+    },
+    {
+      "text": "Por mucho que intentemos discernir la veracidad de las fuentes, la sofisticación de los sesgos cognitivos obstaculiza nuestro juicio.",
+      "startMs": 24496,
+      "endMs": 30808,
+      "words": [
+        {
+          "text": "Por",
+          "startMs": 24596,
+          "endMs": 24786,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "mucho",
+          "startMs": 24796,
+          "endMs": 25006,
+          "charStart": 4,
+          "charEnd": 9
+        },
+        {
+          "text": "que",
+          "startMs": 25016,
+          "endMs": 25096,
+          "charStart": 10,
+          "charEnd": 13
+        },
+        {
+          "text": "intentemos",
+          "startMs": 25106,
+          "endMs": 25526,
+          "charStart": 14,
+          "charEnd": 24
+        },
+        {
+          "text": "discernir",
+          "startMs": 25536,
+          "endMs": 25916,
+          "charStart": 25,
+          "charEnd": 34
+        },
+        {
+          "text": "la",
+          "startMs": 25926,
+          "endMs": 25986,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "veracidad",
+          "startMs": 25996,
+          "endMs": 26346,
+          "charStart": 38,
+          "charEnd": 47
+        },
+        {
+          "text": "de",
+          "startMs": 26356,
+          "endMs": 26416,
+          "charStart": 48,
+          "charEnd": 50
+        },
+        {
+          "text": "las",
+          "startMs": 26426,
+          "endMs": 26556,
+          "charStart": 51,
+          "charEnd": 54
+        },
+        {
+          "text": "fuentes",
+          "startMs": 26566,
+          "endMs": 26946,
+          "charStart": 55,
+          "charEnd": 62
+        },
+        {
+          "text": "la",
+          "startMs": 27196,
+          "endMs": 27386,
+          "charStart": 64,
+          "charEnd": 66
+        },
+        {
+          "text": "sofisticación",
+          "startMs": 27396,
+          "endMs": 27966,
+          "charStart": 67,
+          "charEnd": 80
+        },
+        {
+          "text": "de",
+          "startMs": 27976,
+          "endMs": 28036,
+          "charStart": 81,
+          "charEnd": 83
+        },
+        {
+          "text": "los",
+          "startMs": 28046,
+          "endMs": 28166,
+          "charStart": 84,
+          "charEnd": 87
+        },
+        {
+          "text": "sesgos",
+          "startMs": 28176,
+          "endMs": 28426,
+          "charStart": 88,
+          "charEnd": 94
+        },
+        {
+          "text": "cognitivos",
+          "startMs": 28436,
+          "endMs": 28906,
+          "charStart": 95,
+          "charEnd": 105
+        },
+        {
+          "text": "obstaculiza",
+          "startMs": 28916,
+          "endMs": 29416,
+          "charStart": 106,
+          "charEnd": 117
+        },
+        {
+          "text": "nuestro",
+          "startMs": 29426,
+          "endMs": 29656,
+          "charStart": 118,
+          "charEnd": 125
+        },
+        {
+          "text": "juicio",
+          "startMs": 29666,
+          "endMs": 30116,
+          "charStart": 126,
+          "charEnd": 132
+        }
+      ]
+    },
+    {
+      "text": "Ciertos sociólogos afirman que la saturación informativa engendra una apatía cívica difícilmente soslayable.",
+      "startMs": 31058,
+      "endMs": 36458,
+      "words": [
+        {
+          "text": "Ciertos",
+          "startMs": 31158,
+          "endMs": 31538,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "sociólogos",
+          "startMs": 31548,
+          "endMs": 32018,
+          "charStart": 8,
+          "charEnd": 18
+        },
+        {
+          "text": "afirman",
+          "startMs": 32028,
+          "endMs": 32398,
+          "charStart": 19,
+          "charEnd": 26
+        },
+        {
+          "text": "que",
+          "startMs": 32408,
+          "endMs": 32478,
+          "charStart": 27,
+          "charEnd": 30
+        },
+        {
+          "text": "la",
+          "startMs": 32488,
+          "endMs": 32558,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "saturación",
+          "startMs": 32568,
+          "endMs": 32988,
+          "charStart": 34,
+          "charEnd": 44
+        },
+        {
+          "text": "informativa",
+          "startMs": 32998,
+          "endMs": 33488,
+          "charStart": 45,
+          "charEnd": 56
+        },
+        {
+          "text": "engendra",
+          "startMs": 33498,
+          "endMs": 33858,
+          "charStart": 57,
+          "charEnd": 65
+        },
+        {
+          "text": "una",
+          "startMs": 33868,
+          "endMs": 33988,
+          "charStart": 66,
+          "charEnd": 69
+        },
+        {
+          "text": "apatía",
+          "startMs": 33998,
+          "endMs": 34298,
+          "charStart": 70,
+          "charEnd": 76
+        },
+        {
+          "text": "cívica",
+          "startMs": 34308,
+          "endMs": 34588,
+          "charStart": 77,
+          "charEnd": 83
+        },
+        {
+          "text": "difícilmente",
+          "startMs": 34598,
+          "endMs": 35178,
+          "charStart": 84,
+          "charEnd": 96
+        },
+        {
+          "text": "soslayable",
+          "startMs": 35188,
+          "endMs": 35768,
+          "charStart": 97,
+          "charEnd": 107
+        }
+      ]
+    },
+    {
+      "text": "Lejos de emancipar a la ciudadanía, la hiperconexión parece haber menoscabado la profundidad de los debates públicos.",
+      "startMs": 36708,
+      "endMs": 42540,
+      "words": [
+        {
+          "text": "Lejos",
+          "startMs": 36808,
+          "endMs": 37178,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "de",
+          "startMs": 37188,
+          "endMs": 37238,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "emancipar",
+          "startMs": 37248,
+          "endMs": 37648,
+          "charStart": 9,
+          "charEnd": 18
+        },
+        {
+          "text": "a",
+          "startMs": 37658,
+          "endMs": 37678,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "la",
+          "startMs": 37688,
+          "endMs": 37768,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "ciudadanía",
+          "startMs": 37778,
+          "endMs": 38278,
+          "charStart": 24,
+          "charEnd": 34
+        },
+        {
+          "text": "la",
+          "startMs": 38528,
+          "endMs": 38698,
+          "charStart": 36,
+          "charEnd": 38
+        },
+        {
+          "text": "hiperconexión",
+          "startMs": 38708,
+          "endMs": 39318,
+          "charStart": 39,
+          "charEnd": 52
+        },
+        {
+          "text": "parece",
+          "startMs": 39328,
+          "endMs": 39588,
+          "charStart": 53,
+          "charEnd": 59
+        },
+        {
+          "text": "haber",
+          "startMs": 39598,
+          "endMs": 39738,
+          "charStart": 60,
+          "charEnd": 65
+        },
+        {
+          "text": "menoscabado",
+          "startMs": 39748,
+          "endMs": 40228,
+          "charStart": 66,
+          "charEnd": 77
+        },
+        {
+          "text": "la",
+          "startMs": 40238,
+          "endMs": 40328,
+          "charStart": 78,
+          "charEnd": 80
+        },
+        {
+          "text": "profundidad",
+          "startMs": 40338,
+          "endMs": 40778,
+          "charStart": 81,
+          "charEnd": 92
+        },
+        {
+          "text": "de",
+          "startMs": 40788,
+          "endMs": 40858,
+          "charStart": 93,
+          "charEnd": 95
+        },
+        {
+          "text": "los",
+          "startMs": 40868,
+          "endMs": 40978,
+          "charStart": 96,
+          "charEnd": 99
+        },
+        {
+          "text": "debates",
+          "startMs": 40988,
+          "endMs": 41298,
+          "charStart": 100,
+          "charEnd": 107
+        },
+        {
+          "text": "públicos",
+          "startMs": 41308,
+          "endMs": 41838,
+          "charStart": 108,
+          "charEnd": 116
+        }
+      ]
+    },
+    {
+      "text": "Es menester cultivar una disciplina reflexiva que salvaguarde nuestra autonomía intelectual frente a la dictadura de la inmediatez.",
+      "startMs": 42790,
+      "endMs": 48982,
+      "words": [
+        {
+          "text": "Es",
+          "startMs": 42890,
+          "endMs": 43090,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "menester",
+          "startMs": 43100,
+          "endMs": 43440,
+          "charStart": 3,
+          "charEnd": 11
+        },
+        {
+          "text": "cultivar",
+          "startMs": 43450,
+          "endMs": 43800,
+          "charStart": 12,
+          "charEnd": 20
+        },
+        {
+          "text": "una",
+          "startMs": 43810,
+          "endMs": 43910,
+          "charStart": 21,
+          "charEnd": 24
+        },
+        {
+          "text": "disciplina",
+          "startMs": 43920,
+          "endMs": 44320,
+          "charStart": 25,
+          "charEnd": 35
+        },
+        {
+          "text": "reflexiva",
+          "startMs": 44330,
+          "endMs": 44840,
+          "charStart": 36,
+          "charEnd": 45
+        },
+        {
+          "text": "que",
+          "startMs": 44850,
+          "endMs": 44940,
+          "charStart": 46,
+          "charEnd": 49
+        },
+        {
+          "text": "salvaguarde",
+          "startMs": 44950,
+          "endMs": 45410,
+          "charStart": 50,
+          "charEnd": 61
+        },
+        {
+          "text": "nuestra",
+          "startMs": 45420,
+          "endMs": 45640,
+          "charStart": 62,
+          "charEnd": 69
+        },
+        {
+          "text": "autonomía",
+          "startMs": 45650,
+          "endMs": 46020,
+          "charStart": 70,
+          "charEnd": 79
+        },
+        {
+          "text": "intelectual",
+          "startMs": 46030,
+          "endMs": 46490,
+          "charStart": 80,
+          "charEnd": 91
+        },
+        {
+          "text": "frente",
+          "startMs": 46500,
+          "endMs": 46720,
+          "charStart": 92,
+          "charEnd": 98
+        },
+        {
+          "text": "a",
+          "startMs": 46730,
+          "endMs": 46750,
+          "charStart": 99,
+          "charEnd": 100
+        },
+        {
+          "text": "la",
+          "startMs": 46760,
+          "endMs": 47020,
+          "charStart": 101,
+          "charEnd": 103
+        },
+        {
+          "text": "dictadura",
+          "startMs": 47135,
+          "endMs": 47605,
+          "charStart": 104,
+          "charEnd": 113
+        },
+        {
+          "text": "de",
+          "startMs": 47615,
+          "endMs": 47675,
+          "charStart": 114,
+          "charEnd": 116
+        },
+        {
+          "text": "la",
+          "startMs": 47685,
+          "endMs": 47735,
+          "charStart": 117,
+          "charEnd": 119
+        },
+        {
+          "text": "inmediatez",
+          "startMs": 47745,
+          "endMs": 48285,
+          "charStart": 120,
+          "charEnd": 130
+        }
+      ]
+    },
+    {
+      "text": "Quienquiera que desee preservar su lucidez mental debe aprender a filtrar rigurosamente los flujos informativos cotidianos.",
+      "startMs": 49232,
+      "endMs": 54392,
+      "words": [
+        {
+          "text": "Quienquiera",
+          "startMs": 49332,
+          "endMs": 49742,
+          "charStart": 0,
+          "charEnd": 11
+        },
+        {
+          "text": "que",
+          "startMs": 49752,
+          "endMs": 49842,
+          "charStart": 12,
+          "charEnd": 15
+        },
+        {
+          "text": "desee",
+          "startMs": 49852,
+          "endMs": 50162,
+          "charStart": 16,
+          "charEnd": 21
+        },
+        {
+          "text": "preservar",
+          "startMs": 50172,
+          "endMs": 50562,
+          "charStart": 22,
+          "charEnd": 31
+        },
+        {
+          "text": "su",
+          "startMs": 50572,
+          "endMs": 50652,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "lucidez",
+          "startMs": 50662,
+          "endMs": 51012,
+          "charStart": 35,
+          "charEnd": 42
+        },
+        {
+          "text": "mental",
+          "startMs": 51022,
+          "endMs": 51322,
+          "charStart": 43,
+          "charEnd": 49
+        },
+        {
+          "text": "debe",
+          "startMs": 51332,
+          "endMs": 51482,
+          "charStart": 50,
+          "charEnd": 54
+        },
+        {
+          "text": "aprender",
+          "startMs": 51492,
+          "endMs": 51782,
+          "charStart": 55,
+          "charEnd": 63
+        },
+        {
+          "text": "a",
+          "startMs": 51792,
+          "endMs": 51832,
+          "charStart": 64,
+          "charEnd": 65
+        },
+        {
+          "text": "filtrar",
+          "startMs": 51842,
+          "endMs": 52162,
+          "charStart": 66,
+          "charEnd": 73
+        },
+        {
+          "text": "rigurosamente",
+          "startMs": 52172,
+          "endMs": 52742,
+          "charStart": 74,
+          "charEnd": 87
+        },
+        {
+          "text": "los",
+          "startMs": 52752,
+          "endMs": 52872,
+          "charStart": 88,
+          "charEnd": 91
+        },
+        {
+          "text": "flujos",
+          "startMs": 52882,
+          "endMs": 53152,
+          "charStart": 92,
+          "charEnd": 98
+        },
+        {
+          "text": "informativos",
+          "startMs": 53162,
+          "endMs": 53672,
+          "charStart": 99,
+          "charEnd": 111
+        },
+        {
+          "text": "cotidianos",
+          "startMs": 53682,
+          "endMs": 54272,
+          "charStart": 112,
+          "charEnd": 122
+        }
+      ]
+    },
+    {
+      "text": "Solo mediante una desaceleración deliberada del consumo digital lograremos recuperar la serenidad imprescindible para la auténtica sabiduría.",
+      "startMs": 54642,
+      "endMs": 61530,
+      "words": [
+        {
+          "text": "Solo",
+          "startMs": 54737,
+          "endMs": 55027,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "mediante",
+          "startMs": 55037,
+          "endMs": 55407,
+          "charStart": 5,
+          "charEnd": 13
+        },
+        {
+          "text": "una",
+          "startMs": 55417,
+          "endMs": 55547,
+          "charStart": 14,
+          "charEnd": 17
+        },
+        {
+          "text": "desaceleración",
+          "startMs": 55557,
+          "endMs": 56157,
+          "charStart": 18,
+          "charEnd": 32
+        },
+        {
+          "text": "deliberada",
+          "startMs": 56167,
+          "endMs": 56557,
+          "charStart": 33,
+          "charEnd": 43
+        },
+        {
+          "text": "del",
+          "startMs": 56567,
+          "endMs": 56687,
+          "charStart": 44,
+          "charEnd": 47
+        },
+        {
+          "text": "consumo",
+          "startMs": 56697,
+          "endMs": 57027,
+          "charStart": 48,
+          "charEnd": 55
+        },
+        {
+          "text": "digital",
+          "startMs": 57037,
+          "endMs": 57387,
+          "charStart": 56,
+          "charEnd": 63
+        },
+        {
+          "text": "lograremos",
+          "startMs": 57397,
+          "endMs": 57807,
+          "charStart": 64,
+          "charEnd": 74
+        },
+        {
+          "text": "recuperar",
+          "startMs": 57817,
+          "endMs": 58197,
+          "charStart": 75,
+          "charEnd": 84
+        },
+        {
+          "text": "la",
+          "startMs": 58207,
+          "endMs": 58277,
+          "charStart": 85,
+          "charEnd": 87
+        },
+        {
+          "text": "serenidad",
+          "startMs": 58287,
+          "endMs": 58787,
+          "charStart": 88,
+          "charEnd": 97
+        },
+        {
+          "text": "imprescindible",
+          "startMs": 58912,
+          "endMs": 59602,
+          "charStart": 98,
+          "charEnd": 112
+        },
+        {
+          "text": "para",
+          "startMs": 59612,
+          "endMs": 59752,
+          "charStart": 113,
+          "charEnd": 117
+        },
+        {
+          "text": "la",
+          "startMs": 59762,
+          "endMs": 59822,
+          "charStart": 118,
+          "charEnd": 120
+        },
+        {
+          "text": "auténtica",
+          "startMs": 59832,
+          "endMs": 60232,
+          "charStart": 121,
+          "charEnd": 130
+        },
+        {
+          "text": "sabiduría",
+          "startMs": 60242,
+          "endMs": 60832,
+          "charStart": 131,
+          "charEnd": 140
+        }
+      ]
+    }
+  ]
+}

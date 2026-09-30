@@ -1,0 +1,1341 @@
+{
+  "version": 3,
+  "lang": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 71586,
+  "sentences": [
+    {
+      "text": "El perfeccionamiento de las herramientas de edición genómica sitúa a la comunidad científica ante un dilema ontológico sin precedentes.",
+      "startMs": 0,
+      "endMs": 6696,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 100,
+          "endMs": 300,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "perfeccionamiento",
+          "startMs": 310,
+          "endMs": 970,
+          "charStart": 3,
+          "charEnd": 20
+        },
+        {
+          "text": "de",
+          "startMs": 980,
+          "endMs": 1040,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "las",
+          "startMs": 1050,
+          "endMs": 1170,
+          "charStart": 24,
+          "charEnd": 27
+        },
+        {
+          "text": "herramientas",
+          "startMs": 1180,
+          "endMs": 1590,
+          "charStart": 28,
+          "charEnd": 40
+        },
+        {
+          "text": "de",
+          "startMs": 1600,
+          "endMs": 1660,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "edición",
+          "startMs": 1670,
+          "endMs": 1990,
+          "charStart": 44,
+          "charEnd": 51
+        },
+        {
+          "text": "genómica",
+          "startMs": 2000,
+          "endMs": 2390,
+          "charStart": 52,
+          "charEnd": 60
+        },
+        {
+          "text": "sitúa",
+          "startMs": 2400,
+          "endMs": 2690,
+          "charStart": 61,
+          "charEnd": 66
+        },
+        {
+          "text": "a",
+          "startMs": 2700,
+          "endMs": 2720,
+          "charStart": 67,
+          "charEnd": 68
+        },
+        {
+          "text": "la",
+          "startMs": 2730,
+          "endMs": 2800,
+          "charStart": 69,
+          "charEnd": 71
+        },
+        {
+          "text": "comunidad",
+          "startMs": 2810,
+          "endMs": 3200,
+          "charStart": 72,
+          "charEnd": 81
+        },
+        {
+          "text": "científica",
+          "startMs": 3210,
+          "endMs": 3680,
+          "charStart": 82,
+          "charEnd": 92
+        },
+        {
+          "text": "ante",
+          "startMs": 3690,
+          "endMs": 3840,
+          "charStart": 93,
+          "charEnd": 97
+        },
+        {
+          "text": "un",
+          "startMs": 3850,
+          "endMs": 3940,
+          "charStart": 98,
+          "charEnd": 100
+        },
+        {
+          "text": "dilema",
+          "startMs": 3950,
+          "endMs": 4380,
+          "charStart": 101,
+          "charEnd": 107
+        },
+        {
+          "text": "ontológico",
+          "startMs": 4495,
+          "endMs": 5085,
+          "charStart": 108,
+          "charEnd": 118
+        },
+        {
+          "text": "sin",
+          "startMs": 5095,
+          "endMs": 5255,
+          "charStart": 119,
+          "charEnd": 122
+        },
+        {
+          "text": "precedentes",
+          "startMs": 5265,
+          "endMs": 5995,
+          "charStart": 123,
+          "charEnd": 134
+        }
+      ]
+    },
+    {
+      "text": "La posibilidad técnica de erradicar patologías hereditarias abre horizontes terapéuticos sumamente esperanzadores para la medicina regenerativa.",
+      "startMs": 6946,
+      "endMs": 14026,
+      "words": [
+        {
+          "text": "La",
+          "startMs": 7041,
+          "endMs": 7221,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "posibilidad",
+          "startMs": 7231,
+          "endMs": 7721,
+          "charStart": 3,
+          "charEnd": 14
+        },
+        {
+          "text": "técnica",
+          "startMs": 7731,
+          "endMs": 8041,
+          "charStart": 15,
+          "charEnd": 22
+        },
+        {
+          "text": "de",
+          "startMs": 8051,
+          "endMs": 8121,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "erradicar",
+          "startMs": 8131,
+          "endMs": 8531,
+          "charStart": 26,
+          "charEnd": 35
+        },
+        {
+          "text": "patologías",
+          "startMs": 8541,
+          "endMs": 9041,
+          "charStart": 36,
+          "charEnd": 46
+        },
+        {
+          "text": "hereditarias",
+          "startMs": 9051,
+          "endMs": 9551,
+          "charStart": 47,
+          "charEnd": 59
+        },
+        {
+          "text": "abre",
+          "startMs": 9561,
+          "endMs": 9711,
+          "charStart": 60,
+          "charEnd": 64
+        },
+        {
+          "text": "horizontes",
+          "startMs": 9721,
+          "endMs": 10101,
+          "charStart": 65,
+          "charEnd": 75
+        },
+        {
+          "text": "terapéuticos",
+          "startMs": 10111,
+          "endMs": 10631,
+          "charStart": 76,
+          "charEnd": 88
+        },
+        {
+          "text": "sumamente",
+          "startMs": 10641,
+          "endMs": 11201,
+          "charStart": 89,
+          "charEnd": 98
+        },
+        {
+          "text": "esperanzadores",
+          "startMs": 11321,
+          "endMs": 12021,
+          "charStart": 99,
+          "charEnd": 113
+        },
+        {
+          "text": "para",
+          "startMs": 12031,
+          "endMs": 12161,
+          "charStart": 114,
+          "charEnd": 118
+        },
+        {
+          "text": "la",
+          "startMs": 12171,
+          "endMs": 12241,
+          "charStart": 119,
+          "charEnd": 121
+        },
+        {
+          "text": "medicina",
+          "startMs": 12251,
+          "endMs": 12621,
+          "charStart": 122,
+          "charEnd": 130
+        },
+        {
+          "text": "regenerativa",
+          "startMs": 12631,
+          "endMs": 13321,
+          "charStart": 131,
+          "charEnd": 143
+        }
+      ]
+    },
+    {
+      "text": "No obstante, la manipulación de la línea germinal humana suscita inquietudes éticas que ningún científico responsable puede soslayar.",
+      "startMs": 14276,
+      "endMs": 20324,
+      "words": [
+        {
+          "text": "No",
+          "startMs": 14376,
+          "endMs": 14576,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "obstante",
+          "startMs": 14586,
+          "endMs": 15026,
+          "charStart": 3,
+          "charEnd": 11
+        },
+        {
+          "text": "la",
+          "startMs": 15206,
+          "endMs": 15406,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "manipulación",
+          "startMs": 15416,
+          "endMs": 15916,
+          "charStart": 16,
+          "charEnd": 28
+        },
+        {
+          "text": "de",
+          "startMs": 15926,
+          "endMs": 15986,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "la",
+          "startMs": 15996,
+          "endMs": 16066,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "línea",
+          "startMs": 16076,
+          "endMs": 16316,
+          "charStart": 35,
+          "charEnd": 40
+        },
+        {
+          "text": "germinal",
+          "startMs": 16326,
+          "endMs": 16706,
+          "charStart": 41,
+          "charEnd": 49
+        },
+        {
+          "text": "humana",
+          "startMs": 16716,
+          "endMs": 16966,
+          "charStart": 50,
+          "charEnd": 56
+        },
+        {
+          "text": "suscita",
+          "startMs": 16976,
+          "endMs": 17316,
+          "charStart": 57,
+          "charEnd": 64
+        },
+        {
+          "text": "inquietudes",
+          "startMs": 17326,
+          "endMs": 17776,
+          "charStart": 65,
+          "charEnd": 76
+        },
+        {
+          "text": "éticas",
+          "startMs": 17786,
+          "endMs": 18096,
+          "charStart": 77,
+          "charEnd": 83
+        },
+        {
+          "text": "que",
+          "startMs": 18106,
+          "endMs": 18186,
+          "charStart": 84,
+          "charEnd": 87
+        },
+        {
+          "text": "ningún",
+          "startMs": 18196,
+          "endMs": 18446,
+          "charStart": 88,
+          "charEnd": 94
+        },
+        {
+          "text": "científico",
+          "startMs": 18456,
+          "endMs": 18916,
+          "charStart": 95,
+          "charEnd": 105
+        },
+        {
+          "text": "responsable",
+          "startMs": 18926,
+          "endMs": 19456,
+          "charStart": 106,
+          "charEnd": 117
+        },
+        {
+          "text": "puede",
+          "startMs": 19466,
+          "endMs": 19656,
+          "charStart": 118,
+          "charEnd": 123
+        },
+        {
+          "text": "soslayar",
+          "startMs": 19666,
+          "endMs": 20196,
+          "charStart": 124,
+          "charEnd": 132
+        }
+      ]
+    },
+    {
+      "text": "Si se autorizara la alteración deliberada de genes para mejorar facultades cognitivas, se instauraría una distopía eugenésica difícilmente reversible.",
+      "startMs": 20574,
+      "endMs": 27942,
+      "words": [
+        {
+          "text": "Si",
+          "startMs": 20674,
+          "endMs": 20904,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "se",
+          "startMs": 20914,
+          "endMs": 21004,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "autorizara",
+          "startMs": 21014,
+          "endMs": 21434,
+          "charStart": 6,
+          "charEnd": 16
+        },
+        {
+          "text": "la",
+          "startMs": 21444,
+          "endMs": 21514,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "alteración",
+          "startMs": 21524,
+          "endMs": 21914,
+          "charStart": 20,
+          "charEnd": 30
+        },
+        {
+          "text": "deliberada",
+          "startMs": 21924,
+          "endMs": 22304,
+          "charStart": 31,
+          "charEnd": 41
+        },
+        {
+          "text": "de",
+          "startMs": 22314,
+          "endMs": 22394,
+          "charStart": 42,
+          "charEnd": 44
+        },
+        {
+          "text": "genes",
+          "startMs": 22404,
+          "endMs": 22674,
+          "charStart": 45,
+          "charEnd": 50
+        },
+        {
+          "text": "para",
+          "startMs": 22684,
+          "endMs": 22814,
+          "charStart": 51,
+          "charEnd": 55
+        },
+        {
+          "text": "mejorar",
+          "startMs": 22824,
+          "endMs": 23154,
+          "charStart": 56,
+          "charEnd": 63
+        },
+        {
+          "text": "facultades",
+          "startMs": 23164,
+          "endMs": 23624,
+          "charStart": 64,
+          "charEnd": 74
+        },
+        {
+          "text": "cognitivas",
+          "startMs": 23634,
+          "endMs": 24144,
+          "charStart": 75,
+          "charEnd": 85
+        },
+        {
+          "text": "se",
+          "startMs": 24364,
+          "endMs": 24564,
+          "charStart": 87,
+          "charEnd": 89
+        },
+        {
+          "text": "instauraría",
+          "startMs": 24574,
+          "endMs": 25024,
+          "charStart": 90,
+          "charEnd": 101
+        },
+        {
+          "text": "una",
+          "startMs": 25034,
+          "endMs": 25144,
+          "charStart": 102,
+          "charEnd": 105
+        },
+        {
+          "text": "distopía",
+          "startMs": 25154,
+          "endMs": 25554,
+          "charStart": 106,
+          "charEnd": 114
+        },
+        {
+          "text": "eugenésica",
+          "startMs": 25564,
+          "endMs": 26064,
+          "charStart": 115,
+          "charEnd": 125
+        },
+        {
+          "text": "difícilmente",
+          "startMs": 26074,
+          "endMs": 26654,
+          "charStart": 126,
+          "charEnd": 138
+        },
+        {
+          "text": "reversible",
+          "startMs": 26664,
+          "endMs": 27254,
+          "charStart": 139,
+          "charEnd": 149
+        }
+      ]
+    },
+    {
+      "text": "Resulta alarmante que ciertas corporaciones transnacionales pretendan patentar secuencias moleculares con fines meramente lucrativos.",
+      "startMs": 28192,
+      "endMs": 35128,
+      "words": [
+        {
+          "text": "Resulta",
+          "startMs": 28287,
+          "endMs": 28697,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "alarmante",
+          "startMs": 28707,
+          "endMs": 29167,
+          "charStart": 8,
+          "charEnd": 17
+        },
+        {
+          "text": "que",
+          "startMs": 29177,
+          "endMs": 29297,
+          "charStart": 18,
+          "charEnd": 21
+        },
+        {
+          "text": "ciertas",
+          "startMs": 29307,
+          "endMs": 29597,
+          "charStart": 22,
+          "charEnd": 29
+        },
+        {
+          "text": "corporaciones",
+          "startMs": 29607,
+          "endMs": 30187,
+          "charStart": 30,
+          "charEnd": 43
+        },
+        {
+          "text": "transnacionales",
+          "startMs": 30197,
+          "endMs": 30837,
+          "charStart": 44,
+          "charEnd": 59
+        },
+        {
+          "text": "pretendan",
+          "startMs": 30847,
+          "endMs": 31237,
+          "charStart": 60,
+          "charEnd": 69
+        },
+        {
+          "text": "patentar",
+          "startMs": 31247,
+          "endMs": 31617,
+          "charStart": 70,
+          "charEnd": 78
+        },
+        {
+          "text": "secuencias",
+          "startMs": 31627,
+          "endMs": 32067,
+          "charStart": 79,
+          "charEnd": 89
+        },
+        {
+          "text": "moleculares",
+          "startMs": 32077,
+          "endMs": 32547,
+          "charStart": 90,
+          "charEnd": 101
+        },
+        {
+          "text": "con",
+          "startMs": 32557,
+          "endMs": 32707,
+          "charStart": 102,
+          "charEnd": 105
+        },
+        {
+          "text": "fines",
+          "startMs": 32717,
+          "endMs": 33157,
+          "charStart": 106,
+          "charEnd": 111
+        },
+        {
+          "text": "meramente",
+          "startMs": 33277,
+          "endMs": 33767,
+          "charStart": 112,
+          "charEnd": 121
+        },
+        {
+          "text": "lucrativos",
+          "startMs": 33777,
+          "endMs": 34417,
+          "charStart": 122,
+          "charEnd": 132
+        }
+      ]
+    },
+    {
+      "text": "Varios bioeticistas advierten de que las desigualdades genéticas superpuestas a las brechas socioeconómicas consolidarían castas biológicas inexpugnables.",
+      "startMs": 35378,
+      "endMs": 42914,
+      "words": [
+        {
+          "text": "Varios",
+          "startMs": 35473,
+          "endMs": 35823,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "bioeticistas",
+          "startMs": 35833,
+          "endMs": 36373,
+          "charStart": 7,
+          "charEnd": 19
+        },
+        {
+          "text": "advierten",
+          "startMs": 36383,
+          "endMs": 36783,
+          "charStart": 20,
+          "charEnd": 29
+        },
+        {
+          "text": "de",
+          "startMs": 36793,
+          "endMs": 36863,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "que",
+          "startMs": 36873,
+          "endMs": 36953,
+          "charStart": 33,
+          "charEnd": 36
+        },
+        {
+          "text": "las",
+          "startMs": 36963,
+          "endMs": 37073,
+          "charStart": 37,
+          "charEnd": 40
+        },
+        {
+          "text": "desigualdades",
+          "startMs": 37083,
+          "endMs": 37593,
+          "charStart": 41,
+          "charEnd": 54
+        },
+        {
+          "text": "genéticas",
+          "startMs": 37603,
+          "endMs": 38033,
+          "charStart": 55,
+          "charEnd": 64
+        },
+        {
+          "text": "superpuestas",
+          "startMs": 38043,
+          "endMs": 38573,
+          "charStart": 65,
+          "charEnd": 77
+        },
+        {
+          "text": "a",
+          "startMs": 38583,
+          "endMs": 38613,
+          "charStart": 78,
+          "charEnd": 79
+        },
+        {
+          "text": "las",
+          "startMs": 38623,
+          "endMs": 38753,
+          "charStart": 80,
+          "charEnd": 83
+        },
+        {
+          "text": "brechas",
+          "startMs": 38763,
+          "endMs": 39033,
+          "charStart": 84,
+          "charEnd": 91
+        },
+        {
+          "text": "socioeconómicas",
+          "startMs": 39043,
+          "endMs": 39873,
+          "charStart": 92,
+          "charEnd": 107
+        },
+        {
+          "text": "consolidarían",
+          "startMs": 39993,
+          "endMs": 40653,
+          "charStart": 108,
+          "charEnd": 121
+        },
+        {
+          "text": "castas",
+          "startMs": 40663,
+          "endMs": 40953,
+          "charStart": 122,
+          "charEnd": 128
+        },
+        {
+          "text": "biológicas",
+          "startMs": 40963,
+          "endMs": 41433,
+          "charStart": 129,
+          "charEnd": 139
+        },
+        {
+          "text": "inexpugnables",
+          "startMs": 41443,
+          "endMs": 42223,
+          "charStart": 140,
+          "charEnd": 153
+        }
+      ]
+    },
+    {
+      "text": "Urge consensuar tratados vinculantes a nivel internacional antes de que intereses mercantiles prevalezcan sobre los derechos fundamentales de la especie.",
+      "startMs": 43164,
+      "endMs": 50412,
+      "words": [
+        {
+          "text": "Urge",
+          "startMs": 43264,
+          "endMs": 43564,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "consensuar",
+          "startMs": 43574,
+          "endMs": 44054,
+          "charStart": 5,
+          "charEnd": 15
+        },
+        {
+          "text": "tratados",
+          "startMs": 44064,
+          "endMs": 44414,
+          "charStart": 16,
+          "charEnd": 24
+        },
+        {
+          "text": "vinculantes",
+          "startMs": 44424,
+          "endMs": 44924,
+          "charStart": 25,
+          "charEnd": 36
+        },
+        {
+          "text": "a",
+          "startMs": 44934,
+          "endMs": 44964,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "nivel",
+          "startMs": 44974,
+          "endMs": 45174,
+          "charStart": 39,
+          "charEnd": 44
+        },
+        {
+          "text": "internacional",
+          "startMs": 45184,
+          "endMs": 45704,
+          "charStart": 45,
+          "charEnd": 58
+        },
+        {
+          "text": "antes",
+          "startMs": 45714,
+          "endMs": 45954,
+          "charStart": 59,
+          "charEnd": 64
+        },
+        {
+          "text": "de",
+          "startMs": 45964,
+          "endMs": 46024,
+          "charStart": 65,
+          "charEnd": 67
+        },
+        {
+          "text": "que",
+          "startMs": 46034,
+          "endMs": 46104,
+          "charStart": 68,
+          "charEnd": 71
+        },
+        {
+          "text": "intereses",
+          "startMs": 46114,
+          "endMs": 46514,
+          "charStart": 72,
+          "charEnd": 81
+        },
+        {
+          "text": "mercantiles",
+          "startMs": 46524,
+          "endMs": 47044,
+          "charStart": 82,
+          "charEnd": 93
+        },
+        {
+          "text": "prevalezcan",
+          "startMs": 47054,
+          "endMs": 47504,
+          "charStart": 94,
+          "charEnd": 105
+        },
+        {
+          "text": "sobre",
+          "startMs": 47514,
+          "endMs": 47844,
+          "charStart": 106,
+          "charEnd": 111
+        },
+        {
+          "text": "los",
+          "startMs": 47964,
+          "endMs": 48204,
+          "charStart": 112,
+          "charEnd": 115
+        },
+        {
+          "text": "derechos",
+          "startMs": 48214,
+          "endMs": 48534,
+          "charStart": 116,
+          "charEnd": 124
+        },
+        {
+          "text": "fundamentales",
+          "startMs": 48544,
+          "endMs": 49084,
+          "charStart": 125,
+          "charEnd": 138
+        },
+        {
+          "text": "de",
+          "startMs": 49094,
+          "endMs": 49144,
+          "charStart": 139,
+          "charEnd": 141
+        },
+        {
+          "text": "la",
+          "startMs": 49154,
+          "endMs": 49214,
+          "charStart": 142,
+          "charEnd": 144
+        },
+        {
+          "text": "especie",
+          "startMs": 49224,
+          "endMs": 49704,
+          "charStart": 145,
+          "charEnd": 152
+        }
+      ]
+    },
+    {
+      "text": "Aun cuando los ensayos clínicos garanticen una precisión insospechada, los efectos mutagénicos tardíos continúan entrañando una incertidumbre inaceptable.",
+      "startMs": 50662,
+      "endMs": 58006,
+      "words": [
+        {
+          "text": "Aun",
+          "startMs": 50757,
+          "endMs": 50987,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "cuando",
+          "startMs": 50997,
+          "endMs": 51177,
+          "charStart": 4,
+          "charEnd": 10
+        },
+        {
+          "text": "los",
+          "startMs": 51187,
+          "endMs": 51317,
+          "charStart": 11,
+          "charEnd": 14
+        },
+        {
+          "text": "ensayos",
+          "startMs": 51327,
+          "endMs": 51667,
+          "charStart": 15,
+          "charEnd": 22
+        },
+        {
+          "text": "clínicos",
+          "startMs": 51677,
+          "endMs": 52027,
+          "charStart": 23,
+          "charEnd": 31
+        },
+        {
+          "text": "garanticen",
+          "startMs": 52037,
+          "endMs": 52467,
+          "charStart": 32,
+          "charEnd": 42
+        },
+        {
+          "text": "una",
+          "startMs": 52477,
+          "endMs": 52577,
+          "charStart": 43,
+          "charEnd": 46
+        },
+        {
+          "text": "precisión",
+          "startMs": 52587,
+          "endMs": 52937,
+          "charStart": 47,
+          "charEnd": 56
+        },
+        {
+          "text": "insospechada",
+          "startMs": 52947,
+          "endMs": 53517,
+          "charStart": 57,
+          "charEnd": 69
+        },
+        {
+          "text": "los",
+          "startMs": 53752,
+          "endMs": 54002,
+          "charStart": 71,
+          "charEnd": 74
+        },
+        {
+          "text": "efectos",
+          "startMs": 54012,
+          "endMs": 54352,
+          "charStart": 75,
+          "charEnd": 82
+        },
+        {
+          "text": "mutagénicos",
+          "startMs": 54362,
+          "endMs": 54872,
+          "charStart": 83,
+          "charEnd": 94
+        },
+        {
+          "text": "tardíos",
+          "startMs": 54882,
+          "endMs": 55192,
+          "charStart": 95,
+          "charEnd": 102
+        },
+        {
+          "text": "continúan",
+          "startMs": 55202,
+          "endMs": 55582,
+          "charStart": 103,
+          "charEnd": 112
+        },
+        {
+          "text": "entrañando",
+          "startMs": 55592,
+          "endMs": 56002,
+          "charStart": 113,
+          "charEnd": 123
+        },
+        {
+          "text": "una",
+          "startMs": 56012,
+          "endMs": 56122,
+          "charStart": 124,
+          "charEnd": 127
+        },
+        {
+          "text": "incertidumbre",
+          "startMs": 56132,
+          "endMs": 56672,
+          "charStart": 128,
+          "charEnd": 141
+        },
+        {
+          "text": "inaceptable",
+          "startMs": 56682,
+          "endMs": 57322,
+          "charStart": 142,
+          "charEnd": 153
+        }
+      ]
+    },
+    {
+      "text": "La ciencia debe guiarse por el principio de precaución, supeditando el prurito innovador al respeto irrestricto de la naturaleza humana.",
+      "startMs": 58256,
+      "endMs": 64664,
+      "words": [
+        {
+          "text": "La",
+          "startMs": 58356,
+          "endMs": 58576,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "ciencia",
+          "startMs": 58586,
+          "endMs": 58856,
+          "charStart": 3,
+          "charEnd": 10
+        },
+        {
+          "text": "debe",
+          "startMs": 58866,
+          "endMs": 59006,
+          "charStart": 11,
+          "charEnd": 15
+        },
+        {
+          "text": "guiarse",
+          "startMs": 59016,
+          "endMs": 59306,
+          "charStart": 16,
+          "charEnd": 23
+        },
+        {
+          "text": "por",
+          "startMs": 59316,
+          "endMs": 59426,
+          "charStart": 24,
+          "charEnd": 27
+        },
+        {
+          "text": "el",
+          "startMs": 59436,
+          "endMs": 59496,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "principio",
+          "startMs": 59506,
+          "endMs": 59866,
+          "charStart": 31,
+          "charEnd": 40
+        },
+        {
+          "text": "de",
+          "startMs": 59876,
+          "endMs": 59936,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "precaución",
+          "startMs": 59946,
+          "endMs": 60476,
+          "charStart": 44,
+          "charEnd": 54
+        },
+        {
+          "text": "supeditando",
+          "startMs": 60716,
+          "endMs": 61316,
+          "charStart": 56,
+          "charEnd": 67
+        },
+        {
+          "text": "el",
+          "startMs": 61326,
+          "endMs": 61396,
+          "charStart": 68,
+          "charEnd": 70
+        },
+        {
+          "text": "prurito",
+          "startMs": 61406,
+          "endMs": 61696,
+          "charStart": 71,
+          "charEnd": 78
+        },
+        {
+          "text": "innovador",
+          "startMs": 61706,
+          "endMs": 62066,
+          "charStart": 79,
+          "charEnd": 88
+        },
+        {
+          "text": "al",
+          "startMs": 62076,
+          "endMs": 62146,
+          "charStart": 89,
+          "charEnd": 91
+        },
+        {
+          "text": "respeto",
+          "startMs": 62156,
+          "endMs": 62466,
+          "charStart": 92,
+          "charEnd": 99
+        },
+        {
+          "text": "irrestricto",
+          "startMs": 62476,
+          "endMs": 62936,
+          "charStart": 100,
+          "charEnd": 111
+        },
+        {
+          "text": "de",
+          "startMs": 62946,
+          "endMs": 63016,
+          "charStart": 112,
+          "charEnd": 114
+        },
+        {
+          "text": "la",
+          "startMs": 63026,
+          "endMs": 63086,
+          "charStart": 115,
+          "charEnd": 117
+        },
+        {
+          "text": "naturaleza",
+          "startMs": 63096,
+          "endMs": 63536,
+          "charStart": 118,
+          "charEnd": 128
+        },
+        {
+          "text": "humana",
+          "startMs": 63546,
+          "endMs": 63976,
+          "charStart": 129,
+          "charEnd": 135
+        }
+      ]
+    },
+    {
+      "text": "Modificar la esencia misma de nuestra biología sin prever las consecuencias evolutivas equivaldría a jugar temerariamente a ser dioses.",
+      "startMs": 64914,
+      "endMs": 71586,
+      "words": [
+        {
+          "text": "Modificar",
+          "startMs": 65014,
+          "endMs": 65554,
+          "charStart": 0,
+          "charEnd": 9
+        },
+        {
+          "text": "la",
+          "startMs": 65564,
+          "endMs": 65624,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "esencia",
+          "startMs": 65634,
+          "endMs": 65974,
+          "charStart": 13,
+          "charEnd": 20
+        },
+        {
+          "text": "misma",
+          "startMs": 65984,
+          "endMs": 66214,
+          "charStart": 21,
+          "charEnd": 26
+        },
+        {
+          "text": "de",
+          "startMs": 66224,
+          "endMs": 66294,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "nuestra",
+          "startMs": 66304,
+          "endMs": 66524,
+          "charStart": 30,
+          "charEnd": 37
+        },
+        {
+          "text": "biología",
+          "startMs": 66534,
+          "endMs": 66944,
+          "charStart": 38,
+          "charEnd": 46
+        },
+        {
+          "text": "sin",
+          "startMs": 66954,
+          "endMs": 67124,
+          "charStart": 47,
+          "charEnd": 50
+        },
+        {
+          "text": "prever",
+          "startMs": 67134,
+          "endMs": 67334,
+          "charStart": 51,
+          "charEnd": 57
+        },
+        {
+          "text": "las",
+          "startMs": 67344,
+          "endMs": 67454,
+          "charStart": 58,
+          "charEnd": 61
+        },
+        {
+          "text": "consecuencias",
+          "startMs": 67464,
+          "endMs": 67994,
+          "charStart": 62,
+          "charEnd": 75
+        },
+        {
+          "text": "evolutivas",
+          "startMs": 68004,
+          "endMs": 68474,
+          "charStart": 76,
+          "charEnd": 86
+        },
+        {
+          "text": "equivaldría",
+          "startMs": 68484,
+          "endMs": 68934,
+          "charStart": 87,
+          "charEnd": 98
+        },
+        {
+          "text": "a",
+          "startMs": 68944,
+          "endMs": 68974,
+          "charStart": 99,
+          "charEnd": 100
+        },
+        {
+          "text": "jugar",
+          "startMs": 68984,
+          "endMs": 69404,
+          "charStart": 101,
+          "charEnd": 106
+        },
+        {
+          "text": "temerariamente",
+          "startMs": 69524,
+          "endMs": 70214,
+          "charStart": 107,
+          "charEnd": 121
+        },
+        {
+          "text": "a",
+          "startMs": 70224,
+          "endMs": 70254,
+          "charStart": 122,
+          "charEnd": 123
+        },
+        {
+          "text": "ser",
+          "startMs": 70264,
+          "endMs": 70414,
+          "charStart": 124,
+          "charEnd": 127
+        },
+        {
+          "text": "dioses",
+          "startMs": 70424,
+          "endMs": 70894,
+          "charStart": 128,
+          "charEnd": 134
+        }
+      ]
+    }
+  ]
+}

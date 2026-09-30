@@ -1,0 +1,844 @@
+{
+  "version": 3,
+  "lang": "ru",
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 58338,
+  "sentences": [
+    {
+      "text": "Неумолимый темпоральный континуум непрерывно трансформирует сиюминутное настоящее в зыбкую иллюзию воспоминаний.",
+      "startMs": 0,
+      "endMs": 5832,
+      "words": [
+        {
+          "text": "Неумолимый",
+          "startMs": 100,
+          "endMs": 660,
+          "charStart": 0,
+          "charEnd": 10
+        },
+        {
+          "text": "темпоральный",
+          "startMs": 660,
+          "endMs": 1110,
+          "charStart": 11,
+          "charEnd": 23
+        },
+        {
+          "text": "континуум",
+          "startMs": 1110,
+          "endMs": 1580,
+          "charStart": 24,
+          "charEnd": 33
+        },
+        {
+          "text": "непрерывно",
+          "startMs": 1580,
+          "endMs": 2070,
+          "charStart": 34,
+          "charEnd": 44
+        },
+        {
+          "text": "трансформирует",
+          "startMs": 2070,
+          "endMs": 2660,
+          "charStart": 45,
+          "charEnd": 59
+        },
+        {
+          "text": "сиюминутное",
+          "startMs": 2660,
+          "endMs": 3150,
+          "charStart": 60,
+          "charEnd": 71
+        },
+        {
+          "text": "настоящее",
+          "startMs": 3150,
+          "endMs": 3660,
+          "charStart": 72,
+          "charEnd": 81
+        },
+        {
+          "text": "в",
+          "startMs": 3660,
+          "endMs": 3700,
+          "charStart": 82,
+          "charEnd": 83
+        },
+        {
+          "text": "зыбкую",
+          "startMs": 3700,
+          "endMs": 4110,
+          "charStart": 84,
+          "charEnd": 90
+        },
+        {
+          "text": "иллюзию",
+          "startMs": 4110,
+          "endMs": 4510,
+          "charStart": 91,
+          "charEnd": 98
+        },
+        {
+          "text": "воспоминаний",
+          "startMs": 4510,
+          "endMs": 5160,
+          "charStart": 99,
+          "charEnd": 111
+        }
+      ]
+    },
+    {
+      "text": "Погружаясь в экзистенциальные размышления, мыслитель силился деконструировать парадоксальную дихотомию бытия и небытия.",
+      "startMs": 6082,
+      "endMs": 12370,
+      "words": [
+        {
+          "text": "Погружаясь",
+          "startMs": 6182,
+          "endMs": 6672,
+          "charStart": 0,
+          "charEnd": 10
+        },
+        {
+          "text": "в",
+          "startMs": 6672,
+          "endMs": 6742,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "экзистенциальные",
+          "startMs": 6742,
+          "endMs": 7382,
+          "charStart": 13,
+          "charEnd": 29
+        },
+        {
+          "text": "размышления",
+          "startMs": 7382,
+          "endMs": 7912,
+          "charStart": 30,
+          "charEnd": 41
+        },
+        {
+          "text": "мыслитель",
+          "startMs": 8162,
+          "endMs": 8502,
+          "charStart": 43,
+          "charEnd": 52
+        },
+        {
+          "text": "силился",
+          "startMs": 8502,
+          "endMs": 8882,
+          "charStart": 53,
+          "charEnd": 60
+        },
+        {
+          "text": "деконструировать",
+          "startMs": 8882,
+          "endMs": 9522,
+          "charStart": 61,
+          "charEnd": 77
+        },
+        {
+          "text": "парадоксальную",
+          "startMs": 9522,
+          "endMs": 10072,
+          "charStart": 78,
+          "charEnd": 92
+        },
+        {
+          "text": "дихотомию",
+          "startMs": 10072,
+          "endMs": 10512,
+          "charStart": 93,
+          "charEnd": 102
+        },
+        {
+          "text": "бытия",
+          "startMs": 10512,
+          "endMs": 10942,
+          "charStart": 103,
+          "charEnd": 108
+        },
+        {
+          "text": "и",
+          "startMs": 10942,
+          "endMs": 11082,
+          "charStart": 109,
+          "charEnd": 110
+        },
+        {
+          "text": "небытия",
+          "startMs": 11082,
+          "endMs": 11632,
+          "charStart": 111,
+          "charEnd": 118
+        }
+      ]
+    },
+    {
+      "text": "Память, искажённая призмой ретроспективных оценок, неизбежно мистифицирует давно минувшие события.",
+      "startMs": 12620,
+      "endMs": 18260,
+      "words": [
+        {
+          "text": "Память",
+          "startMs": 12720,
+          "endMs": 13110,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "искажённая",
+          "startMs": 13210,
+          "endMs": 13710,
+          "charStart": 8,
+          "charEnd": 18
+        },
+        {
+          "text": "призмой",
+          "startMs": 13710,
+          "endMs": 14040,
+          "charStart": 19,
+          "charEnd": 26
+        },
+        {
+          "text": "ретроспективных",
+          "startMs": 14040,
+          "endMs": 14660,
+          "charStart": 27,
+          "charEnd": 42
+        },
+        {
+          "text": "оценок",
+          "startMs": 14660,
+          "endMs": 15000,
+          "charStart": 43,
+          "charEnd": 49
+        },
+        {
+          "text": "неизбежно",
+          "startMs": 15230,
+          "endMs": 15670,
+          "charStart": 51,
+          "charEnd": 60
+        },
+        {
+          "text": "мистифицирует",
+          "startMs": 15670,
+          "endMs": 16260,
+          "charStart": 61,
+          "charEnd": 74
+        },
+        {
+          "text": "давно",
+          "startMs": 16260,
+          "endMs": 16570,
+          "charStart": 75,
+          "charEnd": 80
+        },
+        {
+          "text": "минувшие",
+          "startMs": 16570,
+          "endMs": 16950,
+          "charStart": 81,
+          "charEnd": 89
+        },
+        {
+          "text": "события",
+          "startMs": 16950,
+          "endMs": 17540,
+          "charStart": 90,
+          "charEnd": 97
+        }
+      ]
+    },
+    {
+      "text": "Человеческое сознание упорно цепляется за ускользающие фрагменты индивидуального чувственного опыта.",
+      "startMs": 18510,
+      "endMs": 23718,
+      "words": [
+        {
+          "text": "Человеческое",
+          "startMs": 18610,
+          "endMs": 19180,
+          "charStart": 0,
+          "charEnd": 12
+        },
+        {
+          "text": "сознание",
+          "startMs": 19180,
+          "endMs": 19610,
+          "charStart": 13,
+          "charEnd": 21
+        },
+        {
+          "text": "упорно",
+          "startMs": 19610,
+          "endMs": 20000,
+          "charStart": 22,
+          "charEnd": 28
+        },
+        {
+          "text": "цепляется",
+          "startMs": 20000,
+          "endMs": 20440,
+          "charStart": 29,
+          "charEnd": 38
+        },
+        {
+          "text": "за",
+          "startMs": 20440,
+          "endMs": 20530,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "ускользающие",
+          "startMs": 20530,
+          "endMs": 21110,
+          "charStart": 42,
+          "charEnd": 54
+        },
+        {
+          "text": "фрагменты",
+          "startMs": 21110,
+          "endMs": 21600,
+          "charStart": 55,
+          "charEnd": 64
+        },
+        {
+          "text": "индивидуального",
+          "startMs": 21600,
+          "endMs": 22210,
+          "charStart": 65,
+          "charEnd": 80
+        },
+        {
+          "text": "чувственного",
+          "startMs": 22210,
+          "endMs": 22620,
+          "charStart": 81,
+          "charEnd": 93
+        },
+        {
+          "text": "опыта",
+          "startMs": 22620,
+          "endMs": 23020,
+          "charStart": 94,
+          "charEnd": 99
+        }
+      ]
+    },
+    {
+      "text": "Пытаясь постичь трансцендентную сущность вечности, метафизики наталкиваются на непреодолимые гносеологические барьеры.",
+      "startMs": 23968,
+      "endMs": 30232,
+      "words": [
+        {
+          "text": "Пытаясь",
+          "startMs": 24068,
+          "endMs": 24428,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "постичь",
+          "startMs": 24428,
+          "endMs": 24798,
+          "charStart": 8,
+          "charEnd": 15
+        },
+        {
+          "text": "трансцендентную",
+          "startMs": 24798,
+          "endMs": 25468,
+          "charStart": 16,
+          "charEnd": 31
+        },
+        {
+          "text": "сущность",
+          "startMs": 25468,
+          "endMs": 25818,
+          "charStart": 32,
+          "charEnd": 40
+        },
+        {
+          "text": "вечности",
+          "startMs": 25818,
+          "endMs": 26268,
+          "charStart": 41,
+          "charEnd": 49
+        },
+        {
+          "text": "метафизики",
+          "startMs": 26548,
+          "endMs": 26998,
+          "charStart": 51,
+          "charEnd": 61
+        },
+        {
+          "text": "наталкиваются",
+          "startMs": 26998,
+          "endMs": 27588,
+          "charStart": 62,
+          "charEnd": 75
+        },
+        {
+          "text": "на",
+          "startMs": 27588,
+          "endMs": 27708,
+          "charStart": 76,
+          "charEnd": 78
+        },
+        {
+          "text": "непреодолимые",
+          "startMs": 27708,
+          "endMs": 28348,
+          "charStart": 79,
+          "charEnd": 92
+        },
+        {
+          "text": "гносеологические",
+          "startMs": 28348,
+          "endMs": 29068,
+          "charStart": 93,
+          "charEnd": 109
+        },
+        {
+          "text": "барьеры",
+          "startMs": 29068,
+          "endMs": 29508,
+          "charStart": 110,
+          "charEnd": 117
+        }
+      ]
+    },
+    {
+      "text": "Любая попытка зафиксировать текущий миг обречена на фатальный семантический провал.",
+      "startMs": 30482,
+      "endMs": 35090,
+      "words": [
+        {
+          "text": "Любая",
+          "startMs": 30582,
+          "endMs": 30982,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "попытка",
+          "startMs": 30982,
+          "endMs": 31342,
+          "charStart": 6,
+          "charEnd": 13
+        },
+        {
+          "text": "зафиксировать",
+          "startMs": 31342,
+          "endMs": 31892,
+          "charStart": 14,
+          "charEnd": 27
+        },
+        {
+          "text": "текущий",
+          "startMs": 31892,
+          "endMs": 32262,
+          "charStart": 28,
+          "charEnd": 35
+        },
+        {
+          "text": "миг",
+          "startMs": 32262,
+          "endMs": 32572,
+          "charStart": 36,
+          "charEnd": 39
+        },
+        {
+          "text": "обречена",
+          "startMs": 32572,
+          "endMs": 32952,
+          "charStart": 40,
+          "charEnd": 48
+        },
+        {
+          "text": "на",
+          "startMs": 32952,
+          "endMs": 33042,
+          "charStart": 49,
+          "charEnd": 51
+        },
+        {
+          "text": "фатальный",
+          "startMs": 33042,
+          "endMs": 33452,
+          "charStart": 52,
+          "charEnd": 61
+        },
+        {
+          "text": "семантический",
+          "startMs": 33452,
+          "endMs": 34012,
+          "charStart": 62,
+          "charEnd": 75
+        },
+        {
+          "text": "провал",
+          "startMs": 34012,
+          "endMs": 34402,
+          "charStart": 76,
+          "charEnd": 82
+        }
+      ]
+    },
+    {
+      "text": "Тем не менее именно осознание собственной эфемерности придаёт человеческому существованию подлинную пронзительность.",
+      "startMs": 35340,
+      "endMs": 41100,
+      "words": [
+        {
+          "text": "Тем",
+          "startMs": 35440,
+          "endMs": 35650,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "не",
+          "startMs": 35650,
+          "endMs": 35740,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "менее",
+          "startMs": 35740,
+          "endMs": 36070,
+          "charStart": 7,
+          "charEnd": 12
+        },
+        {
+          "text": "именно",
+          "startMs": 36070,
+          "endMs": 36410,
+          "charStart": 13,
+          "charEnd": 19
+        },
+        {
+          "text": "осознание",
+          "startMs": 36410,
+          "endMs": 36880,
+          "charStart": 20,
+          "charEnd": 29
+        },
+        {
+          "text": "собственной",
+          "startMs": 36880,
+          "endMs": 37280,
+          "charStart": 30,
+          "charEnd": 41
+        },
+        {
+          "text": "эфемерности",
+          "startMs": 37280,
+          "endMs": 37820,
+          "charStart": 42,
+          "charEnd": 53
+        },
+        {
+          "text": "придаёт",
+          "startMs": 37820,
+          "endMs": 38170,
+          "charStart": 54,
+          "charEnd": 61
+        },
+        {
+          "text": "человеческому",
+          "startMs": 38170,
+          "endMs": 38740,
+          "charStart": 62,
+          "charEnd": 75
+        },
+        {
+          "text": "существованию",
+          "startMs": 38740,
+          "endMs": 39360,
+          "charStart": 76,
+          "charEnd": 89
+        },
+        {
+          "text": "подлинную",
+          "startMs": 39360,
+          "endMs": 39790,
+          "charStart": 90,
+          "charEnd": 99
+        },
+        {
+          "text": "пронзительность",
+          "startMs": 39790,
+          "endMs": 40420,
+          "charStart": 100,
+          "charEnd": 115
+        }
+      ]
+    },
+    {
+      "text": "Интуитивное озарение зачастую превосходит по глубине рассудочный дедуктивный анализ.",
+      "startMs": 41350,
+      "endMs": 45934,
+      "words": [
+        {
+          "text": "Интуитивное",
+          "startMs": 41450,
+          "endMs": 42080,
+          "charStart": 0,
+          "charEnd": 11
+        },
+        {
+          "text": "озарение",
+          "startMs": 42080,
+          "endMs": 42510,
+          "charStart": 12,
+          "charEnd": 20
+        },
+        {
+          "text": "зачастую",
+          "startMs": 42510,
+          "endMs": 42940,
+          "charStart": 21,
+          "charEnd": 29
+        },
+        {
+          "text": "превосходит",
+          "startMs": 42940,
+          "endMs": 43430,
+          "charStart": 30,
+          "charEnd": 41
+        },
+        {
+          "text": "по",
+          "startMs": 43430,
+          "endMs": 43510,
+          "charStart": 42,
+          "charEnd": 44
+        },
+        {
+          "text": "глубине",
+          "startMs": 43510,
+          "endMs": 43830,
+          "charStart": 45,
+          "charEnd": 52
+        },
+        {
+          "text": "рассудочный",
+          "startMs": 43830,
+          "endMs": 44380,
+          "charStart": 53,
+          "charEnd": 64
+        },
+        {
+          "text": "дедуктивный",
+          "startMs": 44380,
+          "endMs": 44840,
+          "charStart": 65,
+          "charEnd": 76
+        },
+        {
+          "text": "анализ",
+          "startMs": 44840,
+          "endMs": 45250,
+          "charStart": 77,
+          "charEnd": 83
+        }
+      ]
+    },
+    {
+      "text": "Преодолев иллюзорную дискретность восприятия, созерцатель обретает внутреннее умиротворение перед лицом неизбежного забвения.",
+      "startMs": 46184,
+      "endMs": 52784,
+      "words": [
+        {
+          "text": "Преодолев",
+          "startMs": 46284,
+          "endMs": 46814,
+          "charStart": 0,
+          "charEnd": 9
+        },
+        {
+          "text": "иллюзорную",
+          "startMs": 46814,
+          "endMs": 47264,
+          "charStart": 10,
+          "charEnd": 20
+        },
+        {
+          "text": "дискретность",
+          "startMs": 47264,
+          "endMs": 47734,
+          "charStart": 21,
+          "charEnd": 33
+        },
+        {
+          "text": "восприятия",
+          "startMs": 47734,
+          "endMs": 48294,
+          "charStart": 34,
+          "charEnd": 44
+        },
+        {
+          "text": "созерцатель",
+          "startMs": 48534,
+          "endMs": 49044,
+          "charStart": 46,
+          "charEnd": 57
+        },
+        {
+          "text": "обретает",
+          "startMs": 49044,
+          "endMs": 49384,
+          "charStart": 58,
+          "charEnd": 66
+        },
+        {
+          "text": "внутреннее",
+          "startMs": 49384,
+          "endMs": 49874,
+          "charStart": 67,
+          "charEnd": 77
+        },
+        {
+          "text": "умиротворение",
+          "startMs": 49874,
+          "endMs": 50494,
+          "charStart": 78,
+          "charEnd": 91
+        },
+        {
+          "text": "перед",
+          "startMs": 50494,
+          "endMs": 50674,
+          "charStart": 92,
+          "charEnd": 97
+        },
+        {
+          "text": "лицом",
+          "startMs": 50674,
+          "endMs": 50994,
+          "charStart": 98,
+          "charEnd": 103
+        },
+        {
+          "text": "неизбежного",
+          "startMs": 50994,
+          "endMs": 51454,
+          "charStart": 104,
+          "charEnd": 115
+        },
+        {
+          "text": "забвения",
+          "startMs": 51454,
+          "endMs": 52044,
+          "charStart": 116,
+          "charEnd": 124
+        }
+      ]
+    },
+    {
+      "text": "Лишь гармоничное слияние с динамикой вселенского бытия позволяет преодолеть трагизм бренного мира.",
+      "startMs": 53034,
+      "endMs": 58338,
+      "words": [
+        {
+          "text": "Лишь",
+          "startMs": 53134,
+          "endMs": 53474,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "гармоничное",
+          "startMs": 53474,
+          "endMs": 53994,
+          "charStart": 5,
+          "charEnd": 16
+        },
+        {
+          "text": "слияние",
+          "startMs": 53994,
+          "endMs": 54394,
+          "charStart": 17,
+          "charEnd": 24
+        },
+        {
+          "text": "с",
+          "startMs": 54394,
+          "endMs": 54434,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "динамикой",
+          "startMs": 54434,
+          "endMs": 54824,
+          "charStart": 27,
+          "charEnd": 36
+        },
+        {
+          "text": "вселенского",
+          "startMs": 54824,
+          "endMs": 55244,
+          "charStart": 37,
+          "charEnd": 48
+        },
+        {
+          "text": "бытия",
+          "startMs": 55244,
+          "endMs": 55564,
+          "charStart": 49,
+          "charEnd": 54
+        },
+        {
+          "text": "позволяет",
+          "startMs": 55564,
+          "endMs": 55974,
+          "charStart": 55,
+          "charEnd": 64
+        },
+        {
+          "text": "преодолеть",
+          "startMs": 55974,
+          "endMs": 56394,
+          "charStart": 65,
+          "charEnd": 75
+        },
+        {
+          "text": "трагизм",
+          "startMs": 56394,
+          "endMs": 56864,
+          "charStart": 76,
+          "charEnd": 83
+        },
+        {
+          "text": "бренного",
+          "startMs": 56864,
+          "endMs": 57214,
+          "charStart": 84,
+          "charEnd": 92
+        },
+        {
+          "text": "мира",
+          "startMs": 57214,
+          "endMs": 57604,
+          "charStart": 93,
+          "charEnd": 97
+        }
+      ]
+    }
+  ]
+}

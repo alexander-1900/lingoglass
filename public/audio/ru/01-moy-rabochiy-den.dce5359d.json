@@ -1,0 +1,522 @@
+{
+  "version": 3,
+  "lang": "ru",
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 28554,
+  "sentences": [
+    {
+      "text": "Меня зовут Антон.",
+      "startMs": 0,
+      "endMs": 2064,
+      "words": [
+        {
+          "text": "Меня",
+          "startMs": 100,
+          "endMs": 470,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "зовут",
+          "startMs": 470,
+          "endMs": 860,
+          "charStart": 5,
+          "charEnd": 10
+        },
+        {
+          "text": "Антон",
+          "startMs": 860,
+          "endMs": 1340,
+          "charStart": 11,
+          "charEnd": 16
+        }
+      ]
+    },
+    {
+      "text": "Я живу в Санкт-Петербурге.",
+      "startMs": 2314,
+      "endMs": 4570,
+      "words": [
+        {
+          "text": "Я",
+          "startMs": 2414,
+          "endMs": 2704,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "живу",
+          "startMs": 2704,
+          "endMs": 2944,
+          "charStart": 2,
+          "charEnd": 6
+        },
+        {
+          "text": "в",
+          "startMs": 2944,
+          "endMs": 2994,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "Санкт-Петербурге",
+          "startMs": 2994,
+          "endMs": 3844,
+          "charStart": 9,
+          "charEnd": 25
+        }
+      ]
+    },
+    {
+      "text": "Я работаю программистом в офисе.",
+      "startMs": 4820,
+      "endMs": 7220,
+      "words": [
+        {
+          "text": "Я",
+          "startMs": 4920,
+          "endMs": 5180,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "работаю",
+          "startMs": 5180,
+          "endMs": 5520,
+          "charStart": 2,
+          "charEnd": 9
+        },
+        {
+          "text": "программистом",
+          "startMs": 5520,
+          "endMs": 6080,
+          "charStart": 10,
+          "charEnd": 23
+        },
+        {
+          "text": "в",
+          "startMs": 6080,
+          "endMs": 6110,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "офисе",
+          "startMs": 6110,
+          "endMs": 6530,
+          "charStart": 26,
+          "charEnd": 31
+        }
+      ]
+    },
+    {
+      "text": "Утром я встаю в семь часов.",
+      "startMs": 7470,
+      "endMs": 9822,
+      "words": [
+        {
+          "text": "Утром",
+          "startMs": 7570,
+          "endMs": 7950,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "я",
+          "startMs": 7950,
+          "endMs": 8080,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "встаю",
+          "startMs": 8080,
+          "endMs": 8390,
+          "charStart": 8,
+          "charEnd": 13
+        },
+        {
+          "text": "в",
+          "startMs": 8390,
+          "endMs": 8440,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "семь",
+          "startMs": 8440,
+          "endMs": 8630,
+          "charStart": 16,
+          "charEnd": 20
+        },
+        {
+          "text": "часов",
+          "startMs": 8630,
+          "endMs": 9090,
+          "charStart": 21,
+          "charEnd": 26
+        }
+      ]
+    },
+    {
+      "text": "Я пью горячий чай и ем кашу.",
+      "startMs": 10072,
+      "endMs": 12808,
+      "words": [
+        {
+          "text": "Я",
+          "startMs": 10172,
+          "endMs": 10472,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "пью",
+          "startMs": 10472,
+          "endMs": 10682,
+          "charStart": 2,
+          "charEnd": 5
+        },
+        {
+          "text": "горячий",
+          "startMs": 10682,
+          "endMs": 11042,
+          "charStart": 6,
+          "charEnd": 13
+        },
+        {
+          "text": "чай",
+          "startMs": 11042,
+          "endMs": 11312,
+          "charStart": 14,
+          "charEnd": 17
+        },
+        {
+          "text": "и",
+          "startMs": 11312,
+          "endMs": 11452,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "ем",
+          "startMs": 11452,
+          "endMs": 11662,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "кашу",
+          "startMs": 11662,
+          "endMs": 12082,
+          "charStart": 23,
+          "charEnd": 27
+        }
+      ]
+    },
+    {
+      "text": "В восемь часов я еду на работу на метро.",
+      "startMs": 13058,
+      "endMs": 15986,
+      "words": [
+        {
+          "text": "В",
+          "startMs": 13158,
+          "endMs": 13308,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "восемь",
+          "startMs": 13308,
+          "endMs": 13708,
+          "charStart": 2,
+          "charEnd": 8
+        },
+        {
+          "text": "часов",
+          "startMs": 13708,
+          "endMs": 14098,
+          "charStart": 9,
+          "charEnd": 14
+        },
+        {
+          "text": "я",
+          "startMs": 14098,
+          "endMs": 14278,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "еду",
+          "startMs": 14278,
+          "endMs": 14448,
+          "charStart": 17,
+          "charEnd": 20
+        },
+        {
+          "text": "на",
+          "startMs": 14448,
+          "endMs": 14518,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "работу",
+          "startMs": 14518,
+          "endMs": 14788,
+          "charStart": 24,
+          "charEnd": 30
+        },
+        {
+          "text": "на",
+          "startMs": 14788,
+          "endMs": 14858,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "метро",
+          "startMs": 14858,
+          "endMs": 15238,
+          "charStart": 34,
+          "charEnd": 39
+        }
+      ]
+    },
+    {
+      "text": "В офисе я пишу код и говорю с коллегами.",
+      "startMs": 16236,
+      "endMs": 19284,
+      "words": [
+        {
+          "text": "В",
+          "startMs": 16336,
+          "endMs": 16556,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "офисе",
+          "startMs": 16556,
+          "endMs": 16876,
+          "charStart": 2,
+          "charEnd": 7
+        },
+        {
+          "text": "я",
+          "startMs": 16876,
+          "endMs": 17016,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "пишу",
+          "startMs": 17016,
+          "endMs": 17306,
+          "charStart": 10,
+          "charEnd": 14
+        },
+        {
+          "text": "код",
+          "startMs": 17306,
+          "endMs": 17616,
+          "charStart": 15,
+          "charEnd": 18
+        },
+        {
+          "text": "и",
+          "startMs": 17616,
+          "endMs": 17696,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "говорю",
+          "startMs": 17696,
+          "endMs": 17976,
+          "charStart": 21,
+          "charEnd": 27
+        },
+        {
+          "text": "с",
+          "startMs": 17976,
+          "endMs": 18016,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "коллегами",
+          "startMs": 18016,
+          "endMs": 18556,
+          "charStart": 30,
+          "charEnd": 39
+        }
+      ]
+    },
+    {
+      "text": "В час дня мы вместе обедаем в кафе.",
+      "startMs": 19534,
+      "endMs": 22294,
+      "words": [
+        {
+          "text": "В",
+          "startMs": 19634,
+          "endMs": 19724,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "час",
+          "startMs": 19724,
+          "endMs": 20014,
+          "charStart": 2,
+          "charEnd": 5
+        },
+        {
+          "text": "дня",
+          "startMs": 20014,
+          "endMs": 20224,
+          "charStart": 6,
+          "charEnd": 9
+        },
+        {
+          "text": "мы",
+          "startMs": 20224,
+          "endMs": 20384,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "вместе",
+          "startMs": 20384,
+          "endMs": 20744,
+          "charStart": 13,
+          "charEnd": 19
+        },
+        {
+          "text": "обедаем",
+          "startMs": 20744,
+          "endMs": 21094,
+          "charStart": 20,
+          "charEnd": 27
+        },
+        {
+          "text": "в",
+          "startMs": 21094,
+          "endMs": 21134,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "кафе",
+          "startMs": 21134,
+          "endMs": 21564,
+          "charStart": 30,
+          "charEnd": 34
+        }
+      ]
+    },
+    {
+      "text": "Вечером я возвращаюсь домой и отдыхаю.",
+      "startMs": 22544,
+      "endMs": 25616,
+      "words": [
+        {
+          "text": "Вечером",
+          "startMs": 22644,
+          "endMs": 23164,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "я",
+          "startMs": 23164,
+          "endMs": 23274,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "возвращаюсь",
+          "startMs": 23274,
+          "endMs": 23794,
+          "charStart": 10,
+          "charEnd": 21
+        },
+        {
+          "text": "домой",
+          "startMs": 23794,
+          "endMs": 24144,
+          "charStart": 22,
+          "charEnd": 27
+        },
+        {
+          "text": "и",
+          "startMs": 24144,
+          "endMs": 24304,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "отдыхаю",
+          "startMs": 24304,
+          "endMs": 24874,
+          "charStart": 30,
+          "charEnd": 37
+        }
+      ]
+    },
+    {
+      "text": "Я ложусь спать в одиннадцать часов.",
+      "startMs": 25866,
+      "endMs": 28554,
+      "words": [
+        {
+          "text": "Я",
+          "startMs": 25966,
+          "endMs": 26226,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "ложусь",
+          "startMs": 26226,
+          "endMs": 26526,
+          "charStart": 2,
+          "charEnd": 8
+        },
+        {
+          "text": "спать",
+          "startMs": 26526,
+          "endMs": 26856,
+          "charStart": 9,
+          "charEnd": 14
+        },
+        {
+          "text": "в",
+          "startMs": 26856,
+          "endMs": 26966,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "одиннадцать",
+          "startMs": 26966,
+          "endMs": 27376,
+          "charStart": 17,
+          "charEnd": 28
+        },
+        {
+          "text": "часов",
+          "startMs": 27376,
+          "endMs": 27816,
+          "charStart": 29,
+          "charEnd": 34
+        }
+      ]
+    }
+  ]
+}

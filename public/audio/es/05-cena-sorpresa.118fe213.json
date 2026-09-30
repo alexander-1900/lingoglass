@@ -1,0 +1,921 @@
+{
+  "version": 3,
+  "lang": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 42666,
+  "sentences": [
+    {
+      "text": "El viernes pasado fue el cumpleaños número treinta de mi hermano mayor.",
+      "startMs": 0,
+      "endMs": 3720,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 95,
+          "endMs": 255,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "viernes",
+          "startMs": 265,
+          "endMs": 545,
+          "charStart": 3,
+          "charEnd": 10
+        },
+        {
+          "text": "pasado",
+          "startMs": 555,
+          "endMs": 915,
+          "charStart": 11,
+          "charEnd": 17
+        },
+        {
+          "text": "fue",
+          "startMs": 925,
+          "endMs": 1075,
+          "charStart": 18,
+          "charEnd": 21
+        },
+        {
+          "text": "el",
+          "startMs": 1085,
+          "endMs": 1135,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "cumpleaños",
+          "startMs": 1145,
+          "endMs": 1635,
+          "charStart": 25,
+          "charEnd": 35
+        },
+        {
+          "text": "número",
+          "startMs": 1645,
+          "endMs": 1875,
+          "charStart": 36,
+          "charEnd": 42
+        },
+        {
+          "text": "treinta",
+          "startMs": 1885,
+          "endMs": 2135,
+          "charStart": 43,
+          "charEnd": 50
+        },
+        {
+          "text": "de",
+          "startMs": 2145,
+          "endMs": 2225,
+          "charStart": 51,
+          "charEnd": 53
+        },
+        {
+          "text": "mi",
+          "startMs": 2235,
+          "endMs": 2325,
+          "charStart": 54,
+          "charEnd": 56
+        },
+        {
+          "text": "hermano",
+          "startMs": 2335,
+          "endMs": 2595,
+          "charStart": 57,
+          "charEnd": 64
+        },
+        {
+          "text": "mayor",
+          "startMs": 2605,
+          "endMs": 3015,
+          "charStart": 65,
+          "charEnd": 70
+        }
+      ]
+    },
+    {
+      "text": "Mi madre y yo decidimos organizar una cena sorpresa en nuestra casa.",
+      "startMs": 3970,
+      "endMs": 7738,
+      "words": [
+        {
+          "text": "Mi",
+          "startMs": 4070,
+          "endMs": 4280,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "madre",
+          "startMs": 4290,
+          "endMs": 4500,
+          "charStart": 3,
+          "charEnd": 8
+        },
+        {
+          "text": "y",
+          "startMs": 4510,
+          "endMs": 4550,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "yo",
+          "startMs": 4560,
+          "endMs": 4660,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "decidimos",
+          "startMs": 4670,
+          "endMs": 5110,
+          "charStart": 14,
+          "charEnd": 23
+        },
+        {
+          "text": "organizar",
+          "startMs": 5120,
+          "endMs": 5520,
+          "charStart": 24,
+          "charEnd": 33
+        },
+        {
+          "text": "una",
+          "startMs": 5530,
+          "endMs": 5670,
+          "charStart": 34,
+          "charEnd": 37
+        },
+        {
+          "text": "cena",
+          "startMs": 5680,
+          "endMs": 5880,
+          "charStart": 38,
+          "charEnd": 42
+        },
+        {
+          "text": "sorpresa",
+          "startMs": 5890,
+          "endMs": 6310,
+          "charStart": 43,
+          "charEnd": 51
+        },
+        {
+          "text": "en",
+          "startMs": 6320,
+          "endMs": 6390,
+          "charStart": 52,
+          "charEnd": 54
+        },
+        {
+          "text": "nuestra",
+          "startMs": 6400,
+          "endMs": 6600,
+          "charStart": 55,
+          "charEnd": 62
+        },
+        {
+          "text": "casa",
+          "startMs": 6610,
+          "endMs": 7040,
+          "charStart": 63,
+          "charEnd": 67
+        }
+      ]
+    },
+    {
+      "text": "Por la mañana, fuimos al supermercado para comprar todos los ingredientes frescos.",
+      "startMs": 7988,
+      "endMs": 12284,
+      "words": [
+        {
+          "text": "Por",
+          "startMs": 8088,
+          "endMs": 8268,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "la",
+          "startMs": 8278,
+          "endMs": 8338,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "mañana",
+          "startMs": 8348,
+          "endMs": 8678,
+          "charStart": 7,
+          "charEnd": 13
+        },
+        {
+          "text": "fuimos",
+          "startMs": 8868,
+          "endMs": 9138,
+          "charStart": 15,
+          "charEnd": 21
+        },
+        {
+          "text": "al",
+          "startMs": 9148,
+          "endMs": 9228,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "supermercado",
+          "startMs": 9238,
+          "endMs": 9758,
+          "charStart": 25,
+          "charEnd": 37
+        },
+        {
+          "text": "para",
+          "startMs": 9768,
+          "endMs": 9918,
+          "charStart": 38,
+          "charEnd": 42
+        },
+        {
+          "text": "comprar",
+          "startMs": 9928,
+          "endMs": 10258,
+          "charStart": 43,
+          "charEnd": 50
+        },
+        {
+          "text": "todos",
+          "startMs": 10268,
+          "endMs": 10498,
+          "charStart": 51,
+          "charEnd": 56
+        },
+        {
+          "text": "los",
+          "startMs": 10508,
+          "endMs": 10628,
+          "charStart": 57,
+          "charEnd": 60
+        },
+        {
+          "text": "ingredientes",
+          "startMs": 10638,
+          "endMs": 11098,
+          "charStart": 61,
+          "charEnd": 73
+        },
+        {
+          "text": "frescos",
+          "startMs": 11108,
+          "endMs": 11598,
+          "charStart": 74,
+          "charEnd": 81
+        }
+      ]
+    },
+    {
+      "text": "Cocinamos una gran paella de mariscos con arroz, gambas y verduras variadas.",
+      "startMs": 12534,
+      "endMs": 16878,
+      "words": [
+        {
+          "text": "Cocinamos",
+          "startMs": 12629,
+          "endMs": 13129,
+          "charStart": 0,
+          "charEnd": 9
+        },
+        {
+          "text": "una",
+          "startMs": 13139,
+          "endMs": 13259,
+          "charStart": 10,
+          "charEnd": 13
+        },
+        {
+          "text": "gran",
+          "startMs": 13269,
+          "endMs": 13449,
+          "charStart": 14,
+          "charEnd": 18
+        },
+        {
+          "text": "paella",
+          "startMs": 13459,
+          "endMs": 13729,
+          "charStart": 19,
+          "charEnd": 25
+        },
+        {
+          "text": "de",
+          "startMs": 13739,
+          "endMs": 13799,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "mariscos",
+          "startMs": 13809,
+          "endMs": 14219,
+          "charStart": 29,
+          "charEnd": 37
+        },
+        {
+          "text": "con",
+          "startMs": 14229,
+          "endMs": 14349,
+          "charStart": 38,
+          "charEnd": 41
+        },
+        {
+          "text": "arroz",
+          "startMs": 14359,
+          "endMs": 14649,
+          "charStart": 42,
+          "charEnd": 47
+        },
+        {
+          "text": "gambas",
+          "startMs": 14859,
+          "endMs": 15159,
+          "charStart": 49,
+          "charEnd": 55
+        },
+        {
+          "text": "y",
+          "startMs": 15169,
+          "endMs": 15209,
+          "charStart": 56,
+          "charEnd": 57
+        },
+        {
+          "text": "verduras",
+          "startMs": 15219,
+          "endMs": 15569,
+          "charStart": 58,
+          "charEnd": 66
+        },
+        {
+          "text": "variadas",
+          "startMs": 15579,
+          "endMs": 16179,
+          "charStart": 67,
+          "charEnd": 75
+        }
+      ]
+    },
+    {
+      "text": "Mi madre también preparó una deliciosa tarta casera de fresas y nata.",
+      "startMs": 17128,
+      "endMs": 20968,
+      "words": [
+        {
+          "text": "Mi",
+          "startMs": 17228,
+          "endMs": 17428,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "madre",
+          "startMs": 17438,
+          "endMs": 17648,
+          "charStart": 3,
+          "charEnd": 8
+        },
+        {
+          "text": "también",
+          "startMs": 17658,
+          "endMs": 17968,
+          "charStart": 9,
+          "charEnd": 16
+        },
+        {
+          "text": "preparó",
+          "startMs": 17978,
+          "endMs": 18248,
+          "charStart": 17,
+          "charEnd": 24
+        },
+        {
+          "text": "una",
+          "startMs": 18258,
+          "endMs": 18388,
+          "charStart": 25,
+          "charEnd": 28
+        },
+        {
+          "text": "deliciosa",
+          "startMs": 18398,
+          "endMs": 18828,
+          "charStart": 29,
+          "charEnd": 38
+        },
+        {
+          "text": "tarta",
+          "startMs": 18838,
+          "endMs": 19068,
+          "charStart": 39,
+          "charEnd": 44
+        },
+        {
+          "text": "casera",
+          "startMs": 19078,
+          "endMs": 19378,
+          "charStart": 45,
+          "charEnd": 51
+        },
+        {
+          "text": "de",
+          "startMs": 19388,
+          "endMs": 19488,
+          "charStart": 52,
+          "charEnd": 54
+        },
+        {
+          "text": "fresas",
+          "startMs": 19498,
+          "endMs": 19808,
+          "charStart": 55,
+          "charEnd": 61
+        },
+        {
+          "text": "y",
+          "startMs": 19818,
+          "endMs": 19858,
+          "charStart": 62,
+          "charEnd": 63
+        },
+        {
+          "text": "nata",
+          "startMs": 19868,
+          "endMs": 20268,
+          "charStart": 64,
+          "charEnd": 68
+        }
+      ]
+    },
+    {
+      "text": "A las ocho de la tarde, los amigos íntimos llegaron en completo silencio.",
+      "startMs": 21218,
+      "endMs": 25202,
+      "words": [
+        {
+          "text": "A",
+          "startMs": 21318,
+          "endMs": 21448,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "las",
+          "startMs": 21458,
+          "endMs": 21608,
+          "charStart": 2,
+          "charEnd": 5
+        },
+        {
+          "text": "ocho",
+          "startMs": 21618,
+          "endMs": 21778,
+          "charStart": 6,
+          "charEnd": 10
+        },
+        {
+          "text": "de",
+          "startMs": 21788,
+          "endMs": 21848,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "la",
+          "startMs": 21858,
+          "endMs": 21938,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "tarde",
+          "startMs": 21948,
+          "endMs": 22238,
+          "charStart": 17,
+          "charEnd": 22
+        },
+        {
+          "text": "los",
+          "startMs": 22478,
+          "endMs": 22598,
+          "charStart": 24,
+          "charEnd": 27
+        },
+        {
+          "text": "amigos",
+          "startMs": 22608,
+          "endMs": 22898,
+          "charStart": 28,
+          "charEnd": 34
+        },
+        {
+          "text": "íntimos",
+          "startMs": 22908,
+          "endMs": 23218,
+          "charStart": 35,
+          "charEnd": 42
+        },
+        {
+          "text": "llegaron",
+          "startMs": 23228,
+          "endMs": 23498,
+          "charStart": 43,
+          "charEnd": 51
+        },
+        {
+          "text": "en",
+          "startMs": 23508,
+          "endMs": 23588,
+          "charStart": 52,
+          "charEnd": 54
+        },
+        {
+          "text": "completo",
+          "startMs": 23598,
+          "endMs": 23938,
+          "charStart": 55,
+          "charEnd": 63
+        },
+        {
+          "text": "silencio",
+          "startMs": 23948,
+          "endMs": 24518,
+          "charStart": 64,
+          "charEnd": 72
+        }
+      ]
+    },
+    {
+      "text": "Cuando mi hermano abrió la puerta principal, todos gritaron con alegría desbordante.",
+      "startMs": 25452,
+      "endMs": 29868,
+      "words": [
+        {
+          "text": "Cuando",
+          "startMs": 25552,
+          "endMs": 25832,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "mi",
+          "startMs": 25842,
+          "endMs": 25932,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "hermano",
+          "startMs": 25942,
+          "endMs": 26252,
+          "charStart": 10,
+          "charEnd": 17
+        },
+        {
+          "text": "abrió",
+          "startMs": 26262,
+          "endMs": 26442,
+          "charStart": 18,
+          "charEnd": 23
+        },
+        {
+          "text": "la",
+          "startMs": 26452,
+          "endMs": 26542,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "puerta",
+          "startMs": 26552,
+          "endMs": 26782,
+          "charStart": 27,
+          "charEnd": 33
+        },
+        {
+          "text": "principal",
+          "startMs": 26792,
+          "endMs": 27272,
+          "charStart": 34,
+          "charEnd": 43
+        },
+        {
+          "text": "todos",
+          "startMs": 27492,
+          "endMs": 27722,
+          "charStart": 45,
+          "charEnd": 50
+        },
+        {
+          "text": "gritaron",
+          "startMs": 27732,
+          "endMs": 28072,
+          "charStart": 51,
+          "charEnd": 59
+        },
+        {
+          "text": "con",
+          "startMs": 28082,
+          "endMs": 28202,
+          "charStart": 60,
+          "charEnd": 63
+        },
+        {
+          "text": "alegría",
+          "startMs": 28212,
+          "endMs": 28512,
+          "charStart": 64,
+          "charEnd": 71
+        },
+        {
+          "text": "desbordante",
+          "startMs": 28522,
+          "endMs": 29172,
+          "charStart": 72,
+          "charEnd": 83
+        }
+      ]
+    },
+    {
+      "text": "Él se sorprendió muchísimo porque no esperaba ninguna fiesta en ese momento.",
+      "startMs": 30118,
+      "endMs": 34006,
+      "words": [
+        {
+          "text": "Él",
+          "startMs": 30228,
+          "endMs": 30348,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "se",
+          "startMs": 30358,
+          "endMs": 30448,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "sorprendió",
+          "startMs": 30458,
+          "endMs": 30848,
+          "charStart": 6,
+          "charEnd": 16
+        },
+        {
+          "text": "muchísimo",
+          "startMs": 30858,
+          "endMs": 31308,
+          "charStart": 17,
+          "charEnd": 26
+        },
+        {
+          "text": "porque",
+          "startMs": 31318,
+          "endMs": 31558,
+          "charStart": 27,
+          "charEnd": 33
+        },
+        {
+          "text": "no",
+          "startMs": 31568,
+          "endMs": 31648,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "esperaba",
+          "startMs": 31658,
+          "endMs": 31968,
+          "charStart": 37,
+          "charEnd": 45
+        },
+        {
+          "text": "ninguna",
+          "startMs": 31978,
+          "endMs": 32298,
+          "charStart": 46,
+          "charEnd": 53
+        },
+        {
+          "text": "fiesta",
+          "startMs": 32308,
+          "endMs": 32568,
+          "charStart": 54,
+          "charEnd": 60
+        },
+        {
+          "text": "en",
+          "startMs": 32578,
+          "endMs": 32648,
+          "charStart": 61,
+          "charEnd": 63
+        },
+        {
+          "text": "ese",
+          "startMs": 32658,
+          "endMs": 32788,
+          "charStart": 64,
+          "charEnd": 67
+        },
+        {
+          "text": "momento",
+          "startMs": 32798,
+          "endMs": 33318,
+          "charStart": 68,
+          "charEnd": 75
+        }
+      ]
+    },
+    {
+      "text": "Cenamos juntos en el jardín mientras compartíamos anécdotas divertidas del pasado.",
+      "startMs": 34256,
+      "endMs": 38504,
+      "words": [
+        {
+          "text": "Cenamos",
+          "startMs": 34356,
+          "endMs": 34816,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "juntos",
+          "startMs": 34826,
+          "endMs": 35146,
+          "charStart": 8,
+          "charEnd": 14
+        },
+        {
+          "text": "en",
+          "startMs": 35156,
+          "endMs": 35226,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "el",
+          "startMs": 35236,
+          "endMs": 35316,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "jardín",
+          "startMs": 35326,
+          "endMs": 35576,
+          "charStart": 21,
+          "charEnd": 27
+        },
+        {
+          "text": "mientras",
+          "startMs": 35586,
+          "endMs": 35856,
+          "charStart": 28,
+          "charEnd": 36
+        },
+        {
+          "text": "compartíamos",
+          "startMs": 35866,
+          "endMs": 36436,
+          "charStart": 37,
+          "charEnd": 49
+        },
+        {
+          "text": "anécdotas",
+          "startMs": 36446,
+          "endMs": 36836,
+          "charStart": 50,
+          "charEnd": 59
+        },
+        {
+          "text": "divertidas",
+          "startMs": 36846,
+          "endMs": 37246,
+          "charStart": 60,
+          "charEnd": 70
+        },
+        {
+          "text": "del",
+          "startMs": 37256,
+          "endMs": 37356,
+          "charStart": 71,
+          "charEnd": 74
+        },
+        {
+          "text": "pasado",
+          "startMs": 37366,
+          "endMs": 37826,
+          "charStart": 75,
+          "charEnd": 81
+        }
+      ]
+    },
+    {
+      "text": "Fue una velada verdaderamente inolvidable para toda la familia y los invitados.",
+      "startMs": 38754,
+      "endMs": 42666,
+      "words": [
+        {
+          "text": "Fue",
+          "startMs": 38849,
+          "endMs": 39039,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "una",
+          "startMs": 39049,
+          "endMs": 39159,
+          "charStart": 4,
+          "charEnd": 7
+        },
+        {
+          "text": "velada",
+          "startMs": 39169,
+          "endMs": 39419,
+          "charStart": 8,
+          "charEnd": 14
+        },
+        {
+          "text": "verdaderamente",
+          "startMs": 39429,
+          "endMs": 39989,
+          "charStart": 15,
+          "charEnd": 29
+        },
+        {
+          "text": "inolvidable",
+          "startMs": 39999,
+          "endMs": 40449,
+          "charStart": 30,
+          "charEnd": 41
+        },
+        {
+          "text": "para",
+          "startMs": 40459,
+          "endMs": 40639,
+          "charStart": 42,
+          "charEnd": 46
+        },
+        {
+          "text": "toda",
+          "startMs": 40649,
+          "endMs": 40809,
+          "charStart": 47,
+          "charEnd": 51
+        },
+        {
+          "text": "la",
+          "startMs": 40819,
+          "endMs": 40899,
+          "charStart": 52,
+          "charEnd": 54
+        },
+        {
+          "text": "familia",
+          "startMs": 40909,
+          "endMs": 41209,
+          "charStart": 55,
+          "charEnd": 62
+        },
+        {
+          "text": "y",
+          "startMs": 41219,
+          "endMs": 41249,
+          "charStart": 63,
+          "charEnd": 64
+        },
+        {
+          "text": "los",
+          "startMs": 41259,
+          "endMs": 41389,
+          "charStart": 65,
+          "charEnd": 68
+        },
+        {
+          "text": "invitados",
+          "startMs": 41399,
+          "endMs": 41979,
+          "charStart": 69,
+          "charEnd": 78
+        }
+      ]
+    }
+  ]
+}

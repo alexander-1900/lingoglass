@@ -1,0 +1,816 @@
+{
+  "version": 3,
+  "lang": "ru",
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 54306,
+  "sentences": [
+    {
+      "text": "Молодая предпринимательница решила основать независимый стартап в области биотехнологий.",
+      "startMs": 0,
+      "endMs": 4752,
+      "words": [
+        {
+          "text": "Молодая",
+          "startMs": 100,
+          "endMs": 540,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "предпринимательница",
+          "startMs": 540,
+          "endMs": 1310,
+          "charStart": 8,
+          "charEnd": 27
+        },
+        {
+          "text": "решила",
+          "startMs": 1310,
+          "endMs": 1600,
+          "charStart": 28,
+          "charEnd": 34
+        },
+        {
+          "text": "основать",
+          "startMs": 1600,
+          "endMs": 1970,
+          "charStart": 35,
+          "charEnd": 43
+        },
+        {
+          "text": "независимый",
+          "startMs": 1970,
+          "endMs": 2460,
+          "charStart": 44,
+          "charEnd": 55
+        },
+        {
+          "text": "стартап",
+          "startMs": 2460,
+          "endMs": 2850,
+          "charStart": 56,
+          "charEnd": 63
+        },
+        {
+          "text": "в",
+          "startMs": 2850,
+          "endMs": 2970,
+          "charStart": 64,
+          "charEnd": 65
+        },
+        {
+          "text": "области",
+          "startMs": 2970,
+          "endMs": 3320,
+          "charStart": 66,
+          "charEnd": 73
+        },
+        {
+          "text": "биотехнологий",
+          "startMs": 3320,
+          "endMs": 4080,
+          "charStart": 74,
+          "charEnd": 87
+        }
+      ]
+    },
+    {
+      "text": "Нехватка начального капитала создавала серьёзные препятствия на пути к реализации идеи.",
+      "startMs": 5002,
+      "endMs": 9778,
+      "words": [
+        {
+          "text": "Нехватка",
+          "startMs": 5102,
+          "endMs": 5592,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "начального",
+          "startMs": 5592,
+          "endMs": 5962,
+          "charStart": 9,
+          "charEnd": 19
+        },
+        {
+          "text": "капитала",
+          "startMs": 5962,
+          "endMs": 6352,
+          "charStart": 20,
+          "charEnd": 28
+        },
+        {
+          "text": "создавала",
+          "startMs": 6352,
+          "endMs": 6752,
+          "charStart": 29,
+          "charEnd": 38
+        },
+        {
+          "text": "серьёзные",
+          "startMs": 6752,
+          "endMs": 7212,
+          "charStart": 39,
+          "charEnd": 48
+        },
+        {
+          "text": "препятствия",
+          "startMs": 7212,
+          "endMs": 7662,
+          "charStart": 49,
+          "charEnd": 60
+        },
+        {
+          "text": "на",
+          "startMs": 7662,
+          "endMs": 7762,
+          "charStart": 61,
+          "charEnd": 63
+        },
+        {
+          "text": "пути",
+          "startMs": 7762,
+          "endMs": 8012,
+          "charStart": 64,
+          "charEnd": 68
+        },
+        {
+          "text": "к",
+          "startMs": 8012,
+          "endMs": 8062,
+          "charStart": 69,
+          "charEnd": 70
+        },
+        {
+          "text": "реализации",
+          "startMs": 8062,
+          "endMs": 8682,
+          "charStart": 71,
+          "charEnd": 81
+        },
+        {
+          "text": "идеи",
+          "startMs": 8682,
+          "endMs": 9102,
+          "charStart": 82,
+          "charEnd": 86
+        }
+      ]
+    },
+    {
+      "text": "Грамотно составленный бизнес-план помог привлечь внимание нескольких влиятельных венчурных инвесторов.",
+      "startMs": 10028,
+      "endMs": 15404,
+      "words": [
+        {
+          "text": "Грамотно",
+          "startMs": 10128,
+          "endMs": 10638,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "составленный",
+          "startMs": 10638,
+          "endMs": 11138,
+          "charStart": 9,
+          "charEnd": 21
+        },
+        {
+          "text": "бизнес-план",
+          "startMs": 11138,
+          "endMs": 11628,
+          "charStart": 22,
+          "charEnd": 33
+        },
+        {
+          "text": "помог",
+          "startMs": 11628,
+          "endMs": 11928,
+          "charStart": 34,
+          "charEnd": 39
+        },
+        {
+          "text": "привлечь",
+          "startMs": 11928,
+          "endMs": 12288,
+          "charStart": 40,
+          "charEnd": 48
+        },
+        {
+          "text": "внимание",
+          "startMs": 12288,
+          "endMs": 12748,
+          "charStart": 49,
+          "charEnd": 57
+        },
+        {
+          "text": "нескольких",
+          "startMs": 12748,
+          "endMs": 13228,
+          "charStart": 58,
+          "charEnd": 68
+        },
+        {
+          "text": "влиятельных",
+          "startMs": 13228,
+          "endMs": 13748,
+          "charStart": 69,
+          "charEnd": 80
+        },
+        {
+          "text": "венчурных",
+          "startMs": 13748,
+          "endMs": 14178,
+          "charStart": 81,
+          "charEnd": 90
+        },
+        {
+          "text": "инвесторов",
+          "startMs": 14178,
+          "endMs": 14678,
+          "charStart": 91,
+          "charEnd": 101
+        }
+      ]
+    },
+    {
+      "text": "Команда столкнулась с жёсткой конкуренцией со стороны признанных лидеров мирового рынка.",
+      "startMs": 15654,
+      "endMs": 20406,
+      "words": [
+        {
+          "text": "Команда",
+          "startMs": 15754,
+          "endMs": 16194,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "столкнулась",
+          "startMs": 16194,
+          "endMs": 16704,
+          "charStart": 8,
+          "charEnd": 19
+        },
+        {
+          "text": "с",
+          "startMs": 16704,
+          "endMs": 16764,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "жёсткой",
+          "startMs": 16764,
+          "endMs": 17144,
+          "charStart": 22,
+          "charEnd": 29
+        },
+        {
+          "text": "конкуренцией",
+          "startMs": 17144,
+          "endMs": 17694,
+          "charStart": 30,
+          "charEnd": 42
+        },
+        {
+          "text": "со",
+          "startMs": 17694,
+          "endMs": 17824,
+          "charStart": 43,
+          "charEnd": 45
+        },
+        {
+          "text": "стороны",
+          "startMs": 17824,
+          "endMs": 18134,
+          "charStart": 46,
+          "charEnd": 53
+        },
+        {
+          "text": "признанных",
+          "startMs": 18134,
+          "endMs": 18564,
+          "charStart": 54,
+          "charEnd": 64
+        },
+        {
+          "text": "лидеров",
+          "startMs": 18564,
+          "endMs": 18904,
+          "charStart": 65,
+          "charEnd": 72
+        },
+        {
+          "text": "мирового",
+          "startMs": 18904,
+          "endMs": 19274,
+          "charStart": 73,
+          "charEnd": 81
+        },
+        {
+          "text": "рынка",
+          "startMs": 19274,
+          "endMs": 19674,
+          "charStart": 82,
+          "charEnd": 87
+        }
+      ]
+    },
+    {
+      "text": "Проявив невероятную гибкость мышления, партнёры оперативно скорректировали первоначальную маркетинговую стратегию.",
+      "startMs": 20656,
+      "endMs": 26536,
+      "words": [
+        {
+          "text": "Проявив",
+          "startMs": 20756,
+          "endMs": 21156,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "невероятную",
+          "startMs": 21156,
+          "endMs": 21646,
+          "charStart": 8,
+          "charEnd": 19
+        },
+        {
+          "text": "гибкость",
+          "startMs": 21646,
+          "endMs": 21976,
+          "charStart": 20,
+          "charEnd": 28
+        },
+        {
+          "text": "мышления",
+          "startMs": 21976,
+          "endMs": 22436,
+          "charStart": 29,
+          "charEnd": 37
+        },
+        {
+          "text": "партнёры",
+          "startMs": 22646,
+          "endMs": 23016,
+          "charStart": 39,
+          "charEnd": 47
+        },
+        {
+          "text": "оперативно",
+          "startMs": 23016,
+          "endMs": 23486,
+          "charStart": 48,
+          "charEnd": 58
+        },
+        {
+          "text": "скорректировали",
+          "startMs": 23486,
+          "endMs": 24036,
+          "charStart": 59,
+          "charEnd": 74
+        },
+        {
+          "text": "первоначальную",
+          "startMs": 24036,
+          "endMs": 24676,
+          "charStart": 75,
+          "charEnd": 89
+        },
+        {
+          "text": "маркетинговую",
+          "startMs": 24676,
+          "endMs": 25226,
+          "charStart": 90,
+          "charEnd": 103
+        },
+        {
+          "text": "стратегию",
+          "startMs": 25226,
+          "endMs": 25796,
+          "charStart": 104,
+          "charEnd": 113
+        }
+      ]
+    },
+    {
+      "text": "Успешное проведение клинических испытаний рассеяло последние сомнения скептически настроенных экспертов.",
+      "startMs": 26786,
+      "endMs": 32354,
+      "words": [
+        {
+          "text": "Успешное",
+          "startMs": 26886,
+          "endMs": 27426,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "проведение",
+          "startMs": 27426,
+          "endMs": 27836,
+          "charStart": 9,
+          "charEnd": 19
+        },
+        {
+          "text": "клинических",
+          "startMs": 27836,
+          "endMs": 28346,
+          "charStart": 20,
+          "charEnd": 31
+        },
+        {
+          "text": "испытаний",
+          "startMs": 28346,
+          "endMs": 28806,
+          "charStart": 32,
+          "charEnd": 41
+        },
+        {
+          "text": "рассеяло",
+          "startMs": 28806,
+          "endMs": 29246,
+          "charStart": 42,
+          "charEnd": 50
+        },
+        {
+          "text": "последние",
+          "startMs": 29246,
+          "endMs": 29706,
+          "charStart": 51,
+          "charEnd": 60
+        },
+        {
+          "text": "сомнения",
+          "startMs": 29706,
+          "endMs": 30096,
+          "charStart": 61,
+          "charEnd": 69
+        },
+        {
+          "text": "скептически",
+          "startMs": 30096,
+          "endMs": 30646,
+          "charStart": 70,
+          "charEnd": 81
+        },
+        {
+          "text": "настроенных",
+          "startMs": 30646,
+          "endMs": 31126,
+          "charStart": 82,
+          "charEnd": 93
+        },
+        {
+          "text": "экспертов",
+          "startMs": 31126,
+          "endMs": 31626,
+          "charStart": 94,
+          "charEnd": 103
+        }
+      ]
+    },
+    {
+      "text": "Новый продукт позволил существенно сократить затраты на производство экологически чистой упаковки.",
+      "startMs": 32604,
+      "endMs": 37932,
+      "words": [
+        {
+          "text": "Новый",
+          "startMs": 32704,
+          "endMs": 33064,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "продукт",
+          "startMs": 33064,
+          "endMs": 33404,
+          "charStart": 6,
+          "charEnd": 13
+        },
+        {
+          "text": "позволил",
+          "startMs": 33404,
+          "endMs": 33814,
+          "charStart": 14,
+          "charEnd": 22
+        },
+        {
+          "text": "существенно",
+          "startMs": 33814,
+          "endMs": 34344,
+          "charStart": 23,
+          "charEnd": 34
+        },
+        {
+          "text": "сократить",
+          "startMs": 34344,
+          "endMs": 34734,
+          "charStart": 35,
+          "charEnd": 44
+        },
+        {
+          "text": "затраты",
+          "startMs": 34734,
+          "endMs": 35104,
+          "charStart": 45,
+          "charEnd": 52
+        },
+        {
+          "text": "на",
+          "startMs": 35104,
+          "endMs": 35194,
+          "charStart": 53,
+          "charEnd": 55
+        },
+        {
+          "text": "производство",
+          "startMs": 35194,
+          "endMs": 35734,
+          "charStart": 56,
+          "charEnd": 68
+        },
+        {
+          "text": "экологически",
+          "startMs": 35734,
+          "endMs": 36354,
+          "charStart": 69,
+          "charEnd": 81
+        },
+        {
+          "text": "чистой",
+          "startMs": 36354,
+          "endMs": 36624,
+          "charStart": 82,
+          "charEnd": 88
+        },
+        {
+          "text": "упаковки",
+          "startMs": 36624,
+          "endMs": 37204,
+          "charStart": 89,
+          "charEnd": 97
+        }
+      ]
+    },
+    {
+      "text": "Заключив ряд выгодных международных контрактов, предприятие стремительно вышло на операционную окупаемость.",
+      "startMs": 38182,
+      "endMs": 43870,
+      "words": [
+        {
+          "text": "Заключив",
+          "startMs": 38282,
+          "endMs": 38832,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "ряд",
+          "startMs": 38832,
+          "endMs": 39032,
+          "charStart": 9,
+          "charEnd": 12
+        },
+        {
+          "text": "выгодных",
+          "startMs": 39032,
+          "endMs": 39422,
+          "charStart": 13,
+          "charEnd": 21
+        },
+        {
+          "text": "международных",
+          "startMs": 39422,
+          "endMs": 39932,
+          "charStart": 22,
+          "charEnd": 35
+        },
+        {
+          "text": "контрактов",
+          "startMs": 39932,
+          "endMs": 40442,
+          "charStart": 36,
+          "charEnd": 46
+        },
+        {
+          "text": "предприятие",
+          "startMs": 40632,
+          "endMs": 41112,
+          "charStart": 48,
+          "charEnd": 59
+        },
+        {
+          "text": "стремительно",
+          "startMs": 41112,
+          "endMs": 41592,
+          "charStart": 60,
+          "charEnd": 72
+        },
+        {
+          "text": "вышло",
+          "startMs": 41592,
+          "endMs": 41872,
+          "charStart": 73,
+          "charEnd": 78
+        },
+        {
+          "text": "на",
+          "startMs": 41872,
+          "endMs": 41972,
+          "charStart": 79,
+          "charEnd": 81
+        },
+        {
+          "text": "операционную",
+          "startMs": 41972,
+          "endMs": 42532,
+          "charStart": 82,
+          "charEnd": 94
+        },
+        {
+          "text": "окупаемость",
+          "startMs": 42532,
+          "endMs": 43202,
+          "charStart": 95,
+          "charEnd": 106
+        }
+      ]
+    },
+    {
+      "text": "Этот пример наглядно доказал жизнеспособность смелых идей в эпоху глобальных перемен.",
+      "startMs": 44120,
+      "endMs": 48752,
+      "words": [
+        {
+          "text": "Этот",
+          "startMs": 44220,
+          "endMs": 44510,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "пример",
+          "startMs": 44510,
+          "endMs": 44770,
+          "charStart": 5,
+          "charEnd": 11
+        },
+        {
+          "text": "наглядно",
+          "startMs": 44770,
+          "endMs": 45180,
+          "charStart": 12,
+          "charEnd": 20
+        },
+        {
+          "text": "доказал",
+          "startMs": 45180,
+          "endMs": 45530,
+          "charStart": 21,
+          "charEnd": 28
+        },
+        {
+          "text": "жизнеспособность",
+          "startMs": 45530,
+          "endMs": 46250,
+          "charStart": 29,
+          "charEnd": 45
+        },
+        {
+          "text": "смелых",
+          "startMs": 46250,
+          "endMs": 46610,
+          "charStart": 46,
+          "charEnd": 52
+        },
+        {
+          "text": "идей",
+          "startMs": 46610,
+          "endMs": 46840,
+          "charStart": 53,
+          "charEnd": 57
+        },
+        {
+          "text": "в",
+          "startMs": 46840,
+          "endMs": 46890,
+          "charStart": 58,
+          "charEnd": 59
+        },
+        {
+          "text": "эпоху",
+          "startMs": 46890,
+          "endMs": 47220,
+          "charStart": 60,
+          "charEnd": 65
+        },
+        {
+          "text": "глобальных",
+          "startMs": 47220,
+          "endMs": 47640,
+          "charStart": 66,
+          "charEnd": 76
+        },
+        {
+          "text": "перемен",
+          "startMs": 47640,
+          "endMs": 48020,
+          "charStart": 77,
+          "charEnd": 84
+        }
+      ]
+    },
+    {
+      "text": "Упорный труд и готовность рисковать остаются ключевыми факторами любого коммерческого триумфа.",
+      "startMs": 49002,
+      "endMs": 54306,
+      "words": [
+        {
+          "text": "Упорный",
+          "startMs": 49102,
+          "endMs": 49562,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "труд",
+          "startMs": 49562,
+          "endMs": 49882,
+          "charStart": 8,
+          "charEnd": 12
+        },
+        {
+          "text": "и",
+          "startMs": 49882,
+          "endMs": 49942,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "готовность",
+          "startMs": 49942,
+          "endMs": 50432,
+          "charStart": 15,
+          "charEnd": 25
+        },
+        {
+          "text": "рисковать",
+          "startMs": 50432,
+          "endMs": 50852,
+          "charStart": 26,
+          "charEnd": 35
+        },
+        {
+          "text": "остаются",
+          "startMs": 50852,
+          "endMs": 51322,
+          "charStart": 36,
+          "charEnd": 44
+        },
+        {
+          "text": "ключевыми",
+          "startMs": 51322,
+          "endMs": 51792,
+          "charStart": 45,
+          "charEnd": 54
+        },
+        {
+          "text": "факторами",
+          "startMs": 51792,
+          "endMs": 52202,
+          "charStart": 55,
+          "charEnd": 64
+        },
+        {
+          "text": "любого",
+          "startMs": 52202,
+          "endMs": 52562,
+          "charStart": 65,
+          "charEnd": 71
+        },
+        {
+          "text": "коммерческого",
+          "startMs": 52562,
+          "endMs": 53082,
+          "charStart": 72,
+          "charEnd": 85
+        },
+        {
+          "text": "триумфа",
+          "startMs": 53082,
+          "endMs": 53582,
+          "charStart": 86,
+          "charEnd": 93
+        }
+      ]
+    }
+  ]
+}

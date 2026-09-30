@@ -1,0 +1,655 @@
+{
+  "version": 3,
+  "lang": "ru",
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 38082,
+  "sentences": [
+    {
+      "text": "Анна решила посвятить свои выходные благотворительному фонду.",
+      "startMs": 0,
+      "endMs": 3552,
+      "words": [
+        {
+          "text": "Анна",
+          "startMs": 100,
+          "endMs": 410,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "решила",
+          "startMs": 410,
+          "endMs": 720,
+          "charStart": 5,
+          "charEnd": 11
+        },
+        {
+          "text": "посвятить",
+          "startMs": 720,
+          "endMs": 1110,
+          "charStart": 12,
+          "charEnd": 21
+        },
+        {
+          "text": "свои",
+          "startMs": 1110,
+          "endMs": 1340,
+          "charStart": 22,
+          "charEnd": 26
+        },
+        {
+          "text": "выходные",
+          "startMs": 1340,
+          "endMs": 1750,
+          "charStart": 27,
+          "charEnd": 35
+        },
+        {
+          "text": "благотворительному",
+          "startMs": 1750,
+          "endMs": 2420,
+          "charStart": 36,
+          "charEnd": 54
+        },
+        {
+          "text": "фонду",
+          "startMs": 2420,
+          "endMs": 2820,
+          "charStart": 55,
+          "charEnd": 60
+        }
+      ]
+    },
+    {
+      "text": "Она давно хотела помогать бездомным городским животным.",
+      "startMs": 3802,
+      "endMs": 7210,
+      "words": [
+        {
+          "text": "Она",
+          "startMs": 3902,
+          "endMs": 4202,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "давно",
+          "startMs": 4202,
+          "endMs": 4452,
+          "charStart": 4,
+          "charEnd": 9
+        },
+        {
+          "text": "хотела",
+          "startMs": 4452,
+          "endMs": 4792,
+          "charStart": 10,
+          "charEnd": 16
+        },
+        {
+          "text": "помогать",
+          "startMs": 4792,
+          "endMs": 5162,
+          "charStart": 17,
+          "charEnd": 25
+        },
+        {
+          "text": "бездомным",
+          "startMs": 5162,
+          "endMs": 5702,
+          "charStart": 26,
+          "charEnd": 35
+        },
+        {
+          "text": "городским",
+          "startMs": 5702,
+          "endMs": 6072,
+          "charStart": 36,
+          "charEnd": 45
+        },
+        {
+          "text": "животным",
+          "startMs": 6072,
+          "endMs": 6542,
+          "charStart": 46,
+          "charEnd": 54
+        }
+      ]
+    },
+    {
+      "text": "Приют находился за городом, поэтому девушка поехала на автобусе.",
+      "startMs": 7460,
+      "endMs": 11348,
+      "words": [
+        {
+          "text": "Приют",
+          "startMs": 7560,
+          "endMs": 7930,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "находился",
+          "startMs": 7930,
+          "endMs": 8370,
+          "charStart": 6,
+          "charEnd": 15
+        },
+        {
+          "text": "за",
+          "startMs": 8370,
+          "endMs": 8490,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "городом",
+          "startMs": 8490,
+          "endMs": 8810,
+          "charStart": 19,
+          "charEnd": 26
+        },
+        {
+          "text": "поэтому",
+          "startMs": 9000,
+          "endMs": 9330,
+          "charStart": 28,
+          "charEnd": 35
+        },
+        {
+          "text": "девушка",
+          "startMs": 9330,
+          "endMs": 9670,
+          "charStart": 36,
+          "charEnd": 43
+        },
+        {
+          "text": "поехала",
+          "startMs": 9670,
+          "endMs": 10040,
+          "charStart": 44,
+          "charEnd": 51
+        },
+        {
+          "text": "на",
+          "startMs": 10040,
+          "endMs": 10120,
+          "charStart": 52,
+          "charEnd": 54
+        },
+        {
+          "text": "автобусе",
+          "startMs": 10120,
+          "endMs": 10660,
+          "charStart": 55,
+          "charEnd": 63
+        }
+      ]
+    },
+    {
+      "text": "Волонтёры встретили её дружелюбно и объяснили главные правила.",
+      "startMs": 11598,
+      "endMs": 15510,
+      "words": [
+        {
+          "text": "Волонтёры",
+          "startMs": 11698,
+          "endMs": 12218,
+          "charStart": 0,
+          "charEnd": 9
+        },
+        {
+          "text": "встретили",
+          "startMs": 12218,
+          "endMs": 12638,
+          "charStart": 10,
+          "charEnd": 19
+        },
+        {
+          "text": "её",
+          "startMs": 12638,
+          "endMs": 12778,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "дружелюбно",
+          "startMs": 12778,
+          "endMs": 13448,
+          "charStart": 23,
+          "charEnd": 33
+        },
+        {
+          "text": "и",
+          "startMs": 13448,
+          "endMs": 13548,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "объяснили",
+          "startMs": 13548,
+          "endMs": 13998,
+          "charStart": 36,
+          "charEnd": 45
+        },
+        {
+          "text": "главные",
+          "startMs": 13998,
+          "endMs": 14368,
+          "charStart": 46,
+          "charEnd": 53
+        },
+        {
+          "text": "правила",
+          "startMs": 14368,
+          "endMs": 14798,
+          "charStart": 54,
+          "charEnd": 61
+        }
+      ]
+    },
+    {
+      "text": "Анна кормила собак и убирала просторные вольеры.",
+      "startMs": 15760,
+      "endMs": 19048,
+      "words": [
+        {
+          "text": "Анна",
+          "startMs": 15860,
+          "endMs": 16200,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "кормила",
+          "startMs": 16200,
+          "endMs": 16520,
+          "charStart": 5,
+          "charEnd": 12
+        },
+        {
+          "text": "собак",
+          "startMs": 16520,
+          "endMs": 16960,
+          "charStart": 13,
+          "charEnd": 18
+        },
+        {
+          "text": "и",
+          "startMs": 16960,
+          "endMs": 17030,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "убирала",
+          "startMs": 17030,
+          "endMs": 17390,
+          "charStart": 21,
+          "charEnd": 28
+        },
+        {
+          "text": "просторные",
+          "startMs": 17390,
+          "endMs": 17860,
+          "charStart": 29,
+          "charEnd": 39
+        },
+        {
+          "text": "вольеры",
+          "startMs": 17860,
+          "endMs": 18310,
+          "charStart": 40,
+          "charEnd": 47
+        }
+      ]
+    },
+    {
+      "text": "Особенно ей понравился пёс, который грустно смотрел на гостей.",
+      "startMs": 19298,
+      "endMs": 23186,
+      "words": [
+        {
+          "text": "Особенно",
+          "startMs": 19398,
+          "endMs": 19888,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "ей",
+          "startMs": 19888,
+          "endMs": 20038,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "понравился",
+          "startMs": 20038,
+          "endMs": 20528,
+          "charStart": 12,
+          "charEnd": 22
+        },
+        {
+          "text": "пёс",
+          "startMs": 20528,
+          "endMs": 20798,
+          "charStart": 23,
+          "charEnd": 26
+        },
+        {
+          "text": "который",
+          "startMs": 20968,
+          "endMs": 21298,
+          "charStart": 28,
+          "charEnd": 35
+        },
+        {
+          "text": "грустно",
+          "startMs": 21298,
+          "endMs": 21638,
+          "charStart": 36,
+          "charEnd": 43
+        },
+        {
+          "text": "смотрел",
+          "startMs": 21638,
+          "endMs": 21988,
+          "charStart": 44,
+          "charEnd": 51
+        },
+        {
+          "text": "на",
+          "startMs": 21988,
+          "endMs": 22048,
+          "charStart": 52,
+          "charEnd": 54
+        },
+        {
+          "text": "гостей",
+          "startMs": 22048,
+          "endMs": 22498,
+          "charStart": 55,
+          "charEnd": 61
+        }
+      ]
+    },
+    {
+      "text": "Девушка долго гуляла с ним по осеннему лесу.",
+      "startMs": 23436,
+      "endMs": 26532,
+      "words": [
+        {
+          "text": "Девушка",
+          "startMs": 23536,
+          "endMs": 24076,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "долго",
+          "startMs": 24076,
+          "endMs": 24346,
+          "charStart": 8,
+          "charEnd": 13
+        },
+        {
+          "text": "гуляла",
+          "startMs": 24346,
+          "endMs": 24656,
+          "charStart": 14,
+          "charEnd": 20
+        },
+        {
+          "text": "с",
+          "startMs": 24656,
+          "endMs": 24706,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "ним",
+          "startMs": 24706,
+          "endMs": 24896,
+          "charStart": 23,
+          "charEnd": 26
+        },
+        {
+          "text": "по",
+          "startMs": 24896,
+          "endMs": 24996,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "осеннему",
+          "startMs": 24996,
+          "endMs": 25406,
+          "charStart": 30,
+          "charEnd": 38
+        },
+        {
+          "text": "лесу",
+          "startMs": 25406,
+          "endMs": 25796,
+          "charStart": 39,
+          "charEnd": 43
+        }
+      ]
+    },
+    {
+      "text": "Если бы у неё была возможность, она забрала бы пса домой.",
+      "startMs": 26782,
+      "endMs": 30454,
+      "words": [
+        {
+          "text": "Если",
+          "startMs": 26882,
+          "endMs": 27272,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "бы",
+          "startMs": 27272,
+          "endMs": 27352,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "у",
+          "startMs": 27352,
+          "endMs": 27422,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "неё",
+          "startMs": 27422,
+          "endMs": 27612,
+          "charStart": 10,
+          "charEnd": 13
+        },
+        {
+          "text": "была",
+          "startMs": 27612,
+          "endMs": 27762,
+          "charStart": 14,
+          "charEnd": 18
+        },
+        {
+          "text": "возможность",
+          "startMs": 27762,
+          "endMs": 28272,
+          "charStart": 19,
+          "charEnd": 30
+        },
+        {
+          "text": "она",
+          "startMs": 28452,
+          "endMs": 28642,
+          "charStart": 32,
+          "charEnd": 35
+        },
+        {
+          "text": "забрала",
+          "startMs": 28642,
+          "endMs": 28992,
+          "charStart": 36,
+          "charEnd": 43
+        },
+        {
+          "text": "бы",
+          "startMs": 28992,
+          "endMs": 29102,
+          "charStart": 44,
+          "charEnd": 46
+        },
+        {
+          "text": "пса",
+          "startMs": 29102,
+          "endMs": 29312,
+          "charStart": 47,
+          "charEnd": 50
+        },
+        {
+          "text": "домой",
+          "startMs": 29312,
+          "endMs": 29732,
+          "charStart": 51,
+          "charEnd": 56
+        }
+      ]
+    },
+    {
+      "text": "Однако Анна пообещала регулярно навещать своего нового друга.",
+      "startMs": 30704,
+      "endMs": 34544,
+      "words": [
+        {
+          "text": "Однако",
+          "startMs": 30804,
+          "endMs": 31304,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "Анна",
+          "startMs": 31304,
+          "endMs": 31624,
+          "charStart": 7,
+          "charEnd": 11
+        },
+        {
+          "text": "пообещала",
+          "startMs": 31624,
+          "endMs": 32094,
+          "charStart": 12,
+          "charEnd": 21
+        },
+        {
+          "text": "регулярно",
+          "startMs": 32094,
+          "endMs": 32504,
+          "charStart": 22,
+          "charEnd": 31
+        },
+        {
+          "text": "навещать",
+          "startMs": 32504,
+          "endMs": 32864,
+          "charStart": 32,
+          "charEnd": 40
+        },
+        {
+          "text": "своего",
+          "startMs": 32864,
+          "endMs": 33134,
+          "charStart": 41,
+          "charEnd": 47
+        },
+        {
+          "text": "нового",
+          "startMs": 33134,
+          "endMs": 33434,
+          "charStart": 48,
+          "charEnd": 54
+        },
+        {
+          "text": "друга",
+          "startMs": 33434,
+          "endMs": 33824,
+          "charStart": 55,
+          "charEnd": 60
+        }
+      ]
+    },
+    {
+      "text": "Этот полезный опыт научил её ценить чужую жизнь.",
+      "startMs": 34794,
+      "endMs": 38082,
+      "words": [
+        {
+          "text": "Этот",
+          "startMs": 34894,
+          "endMs": 35204,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "полезный",
+          "startMs": 35204,
+          "endMs": 35544,
+          "charStart": 5,
+          "charEnd": 13
+        },
+        {
+          "text": "опыт",
+          "startMs": 35544,
+          "endMs": 35804,
+          "charStart": 14,
+          "charEnd": 18
+        },
+        {
+          "text": "научил",
+          "startMs": 35804,
+          "endMs": 36144,
+          "charStart": 19,
+          "charEnd": 25
+        },
+        {
+          "text": "её",
+          "startMs": 36144,
+          "endMs": 36314,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "ценить",
+          "startMs": 36314,
+          "endMs": 36664,
+          "charStart": 29,
+          "charEnd": 35
+        },
+        {
+          "text": "чужую",
+          "startMs": 36664,
+          "endMs": 37034,
+          "charStart": 36,
+          "charEnd": 41
+        },
+        {
+          "text": "жизнь",
+          "startMs": 37034,
+          "endMs": 37354,
+          "charStart": 42,
+          "charEnd": 47
+        }
+      ]
+    }
+  ]
+}

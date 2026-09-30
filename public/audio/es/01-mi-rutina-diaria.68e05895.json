@@ -1,0 +1,508 @@
+{
+  "version": 3,
+  "lang": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 26034,
+  "sentences": [
+    {
+      "text": "Me llamo Carlos y vivo en Madrid.",
+      "startMs": 0,
+      "endMs": 2184,
+      "words": [
+        {
+          "text": "Me",
+          "startMs": 95,
+          "endMs": 275,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "llamo",
+          "startMs": 285,
+          "endMs": 485,
+          "charStart": 3,
+          "charEnd": 8
+        },
+        {
+          "text": "Carlos",
+          "startMs": 495,
+          "endMs": 835,
+          "charStart": 9,
+          "charEnd": 15
+        },
+        {
+          "text": "y",
+          "startMs": 845,
+          "endMs": 885,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "vivo",
+          "startMs": 895,
+          "endMs": 1085,
+          "charStart": 18,
+          "charEnd": 22
+        },
+        {
+          "text": "en",
+          "startMs": 1095,
+          "endMs": 1145,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "Madrid",
+          "startMs": 1155,
+          "endMs": 1485,
+          "charStart": 26,
+          "charEnd": 32
+        }
+      ]
+    },
+    {
+      "text": "Tengo veinticinco años y soy estudiante.",
+      "startMs": 2434,
+      "endMs": 5074,
+      "words": [
+        {
+          "text": "Tengo",
+          "startMs": 2534,
+          "endMs": 2794,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "veinticinco",
+          "startMs": 2804,
+          "endMs": 3284,
+          "charStart": 6,
+          "charEnd": 17
+        },
+        {
+          "text": "años",
+          "startMs": 3294,
+          "endMs": 3544,
+          "charStart": 18,
+          "charEnd": 22
+        },
+        {
+          "text": "y",
+          "startMs": 3554,
+          "endMs": 3604,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "soy",
+          "startMs": 3614,
+          "endMs": 3774,
+          "charStart": 25,
+          "charEnd": 28
+        },
+        {
+          "text": "estudiante",
+          "startMs": 3784,
+          "endMs": 4384,
+          "charStart": 29,
+          "charEnd": 39
+        }
+      ]
+    },
+    {
+      "text": "Todos los días me levanto temprano.",
+      "startMs": 5324,
+      "endMs": 7676,
+      "words": [
+        {
+          "text": "Todos",
+          "startMs": 5419,
+          "endMs": 5689,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "los",
+          "startMs": 5699,
+          "endMs": 5819,
+          "charStart": 6,
+          "charEnd": 9
+        },
+        {
+          "text": "días",
+          "startMs": 5829,
+          "endMs": 6029,
+          "charStart": 10,
+          "charEnd": 14
+        },
+        {
+          "text": "me",
+          "startMs": 6039,
+          "endMs": 6119,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "levanto",
+          "startMs": 6129,
+          "endMs": 6429,
+          "charStart": 18,
+          "charEnd": 25
+        },
+        {
+          "text": "temprano",
+          "startMs": 6439,
+          "endMs": 6979,
+          "charStart": 26,
+          "charEnd": 34
+        }
+      ]
+    },
+    {
+      "text": "Desayuno pan tostado con café caliente.",
+      "startMs": 7926,
+      "endMs": 10638,
+      "words": [
+        {
+          "text": "Desayuno",
+          "startMs": 8026,
+          "endMs": 8516,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "pan",
+          "startMs": 8526,
+          "endMs": 8696,
+          "charStart": 9,
+          "charEnd": 12
+        },
+        {
+          "text": "tostado",
+          "startMs": 8706,
+          "endMs": 9056,
+          "charStart": 13,
+          "charEnd": 20
+        },
+        {
+          "text": "con",
+          "startMs": 9066,
+          "endMs": 9206,
+          "charStart": 21,
+          "charEnd": 24
+        },
+        {
+          "text": "café",
+          "startMs": 9216,
+          "endMs": 9426,
+          "charStart": 25,
+          "charEnd": 29
+        },
+        {
+          "text": "caliente",
+          "startMs": 9436,
+          "endMs": 9956,
+          "charStart": 30,
+          "charEnd": 38
+        }
+      ]
+    },
+    {
+      "text": "A las ocho tomo el autobús.",
+      "startMs": 10888,
+      "endMs": 12952,
+      "words": [
+        {
+          "text": "A",
+          "startMs": 10983,
+          "endMs": 11093,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "las",
+          "startMs": 11103,
+          "endMs": 11253,
+          "charStart": 2,
+          "charEnd": 5
+        },
+        {
+          "text": "ocho",
+          "startMs": 11263,
+          "endMs": 11463,
+          "charStart": 6,
+          "charEnd": 10
+        },
+        {
+          "text": "tomo",
+          "startMs": 11473,
+          "endMs": 11683,
+          "charStart": 11,
+          "charEnd": 15
+        },
+        {
+          "text": "el",
+          "startMs": 11693,
+          "endMs": 11743,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "autobús",
+          "startMs": 11753,
+          "endMs": 12253,
+          "charStart": 19,
+          "charEnd": 26
+        }
+      ]
+    },
+    {
+      "text": "Estudio español e historia en la universidad.",
+      "startMs": 13202,
+      "endMs": 15842,
+      "words": [
+        {
+          "text": "Estudio",
+          "startMs": 13297,
+          "endMs": 13657,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "español",
+          "startMs": 13667,
+          "endMs": 14017,
+          "charStart": 8,
+          "charEnd": 15
+        },
+        {
+          "text": "e",
+          "startMs": 14027,
+          "endMs": 14067,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "historia",
+          "startMs": 14077,
+          "endMs": 14437,
+          "charStart": 18,
+          "charEnd": 26
+        },
+        {
+          "text": "en",
+          "startMs": 14447,
+          "endMs": 14517,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "la",
+          "startMs": 14527,
+          "endMs": 14597,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "universidad",
+          "startMs": 14607,
+          "endMs": 15137,
+          "charStart": 33,
+          "charEnd": 44
+        }
+      ]
+    },
+    {
+      "text": "Como un sándwich con mis amigos.",
+      "startMs": 16092,
+      "endMs": 18300,
+      "words": [
+        {
+          "text": "Como",
+          "startMs": 16187,
+          "endMs": 16407,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "un",
+          "startMs": 16417,
+          "endMs": 16527,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "sándwich",
+          "startMs": 16537,
+          "endMs": 16857,
+          "charStart": 8,
+          "charEnd": 16
+        },
+        {
+          "text": "con",
+          "startMs": 16867,
+          "endMs": 16977,
+          "charStart": 17,
+          "charEnd": 20
+        },
+        {
+          "text": "mis",
+          "startMs": 16987,
+          "endMs": 17117,
+          "charStart": 21,
+          "charEnd": 24
+        },
+        {
+          "text": "amigos",
+          "startMs": 17127,
+          "endMs": 17617,
+          "charStart": 25,
+          "charEnd": 31
+        }
+      ]
+    },
+    {
+      "text": "Por la tarde regreso a casa.",
+      "startMs": 18550,
+      "endMs": 20686,
+      "words": [
+        {
+          "text": "Por",
+          "startMs": 18645,
+          "endMs": 18815,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "la",
+          "startMs": 18825,
+          "endMs": 18915,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "tarde",
+          "startMs": 18925,
+          "endMs": 19155,
+          "charStart": 7,
+          "charEnd": 12
+        },
+        {
+          "text": "regreso",
+          "startMs": 19165,
+          "endMs": 19515,
+          "charStart": 13,
+          "charEnd": 20
+        },
+        {
+          "text": "a",
+          "startMs": 19525,
+          "endMs": 19555,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "casa",
+          "startMs": 19565,
+          "endMs": 19985,
+          "charStart": 23,
+          "charEnd": 27
+        }
+      ]
+    },
+    {
+      "text": "Escucho música relajante en mi habitación.",
+      "startMs": 20936,
+      "endMs": 23624,
+      "words": [
+        {
+          "text": "Escucho",
+          "startMs": 21031,
+          "endMs": 21451,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "música",
+          "startMs": 21461,
+          "endMs": 21751,
+          "charStart": 8,
+          "charEnd": 14
+        },
+        {
+          "text": "relajante",
+          "startMs": 21761,
+          "endMs": 22181,
+          "charStart": 15,
+          "charEnd": 24
+        },
+        {
+          "text": "en",
+          "startMs": 22191,
+          "endMs": 22251,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "mi",
+          "startMs": 22261,
+          "endMs": 22331,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "habitación",
+          "startMs": 22341,
+          "endMs": 22931,
+          "charStart": 31,
+          "charEnd": 41
+        }
+      ]
+    },
+    {
+      "text": "Duermo ocho horas cada noche.",
+      "startMs": 23874,
+      "endMs": 26034,
+      "words": [
+        {
+          "text": "Duermo",
+          "startMs": 23974,
+          "endMs": 24334,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "ocho",
+          "startMs": 24344,
+          "endMs": 24534,
+          "charStart": 7,
+          "charEnd": 11
+        },
+        {
+          "text": "horas",
+          "startMs": 24544,
+          "endMs": 24734,
+          "charStart": 12,
+          "charEnd": 17
+        },
+        {
+          "text": "cada",
+          "startMs": 24744,
+          "endMs": 24904,
+          "charStart": 18,
+          "charEnd": 22
+        },
+        {
+          "text": "noche",
+          "startMs": 24914,
+          "endMs": 25334,
+          "charStart": 23,
+          "charEnd": 28
+        }
+      ]
+    }
+  ]
+}

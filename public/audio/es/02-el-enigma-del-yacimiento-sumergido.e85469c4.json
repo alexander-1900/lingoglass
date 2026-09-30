@@ -1,0 +1,1306 @@
+{
+  "version": 3,
+  "lang": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 71082,
+  "sentences": [
+    {
+      "text": "Una expedición oceanográfica halló los vestigios sumergidos de una próspera civilización mediterránea olvidada por la historiografía oficial.",
+      "startMs": 0,
+      "endMs": 6888,
+      "words": [
+        {
+          "text": "Una",
+          "startMs": 95,
+          "endMs": 285,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "expedición",
+          "startMs": 295,
+          "endMs": 775,
+          "charStart": 4,
+          "charEnd": 14
+        },
+        {
+          "text": "oceanográfica",
+          "startMs": 785,
+          "endMs": 1375,
+          "charStart": 15,
+          "charEnd": 28
+        },
+        {
+          "text": "halló",
+          "startMs": 1385,
+          "endMs": 1555,
+          "charStart": 29,
+          "charEnd": 34
+        },
+        {
+          "text": "los",
+          "startMs": 1565,
+          "endMs": 1685,
+          "charStart": 35,
+          "charEnd": 38
+        },
+        {
+          "text": "vestigios",
+          "startMs": 1695,
+          "endMs": 2105,
+          "charStart": 39,
+          "charEnd": 48
+        },
+        {
+          "text": "sumergidos",
+          "startMs": 2115,
+          "endMs": 2615,
+          "charStart": 49,
+          "charEnd": 59
+        },
+        {
+          "text": "de",
+          "startMs": 2625,
+          "endMs": 2685,
+          "charStart": 60,
+          "charEnd": 62
+        },
+        {
+          "text": "una",
+          "startMs": 2695,
+          "endMs": 2835,
+          "charStart": 63,
+          "charEnd": 66
+        },
+        {
+          "text": "próspera",
+          "startMs": 2845,
+          "endMs": 3195,
+          "charStart": 67,
+          "charEnd": 75
+        },
+        {
+          "text": "civilización",
+          "startMs": 3205,
+          "endMs": 3695,
+          "charStart": 76,
+          "charEnd": 88
+        },
+        {
+          "text": "mediterránea",
+          "startMs": 3705,
+          "endMs": 4345,
+          "charStart": 89,
+          "charEnd": 101
+        },
+        {
+          "text": "olvidada",
+          "startMs": 4465,
+          "endMs": 4915,
+          "charStart": 102,
+          "charEnd": 110
+        },
+        {
+          "text": "por",
+          "startMs": 4925,
+          "endMs": 5045,
+          "charStart": 111,
+          "charEnd": 114
+        },
+        {
+          "text": "la",
+          "startMs": 5055,
+          "endMs": 5105,
+          "charStart": 115,
+          "charEnd": 117
+        },
+        {
+          "text": "historiografía",
+          "startMs": 5115,
+          "endMs": 5655,
+          "charStart": 118,
+          "charEnd": 132
+        },
+        {
+          "text": "oficial",
+          "startMs": 5665,
+          "endMs": 6175,
+          "charStart": 133,
+          "charEnd": 140
+        }
+      ]
+    },
+    {
+      "text": "Las estructuras megalíticas, cubiertas por sedimentos milenarios, suscitaron un acalorado debate entre los arqueólogos más renombrados.",
+      "startMs": 7138,
+      "endMs": 14218,
+      "words": [
+        {
+          "text": "Las",
+          "startMs": 7238,
+          "endMs": 7498,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "estructuras",
+          "startMs": 7508,
+          "endMs": 7958,
+          "charStart": 4,
+          "charEnd": 15
+        },
+        {
+          "text": "megalíticas",
+          "startMs": 7968,
+          "endMs": 8548,
+          "charStart": 16,
+          "charEnd": 27
+        },
+        {
+          "text": "cubiertas",
+          "startMs": 8728,
+          "endMs": 9138,
+          "charStart": 29,
+          "charEnd": 38
+        },
+        {
+          "text": "por",
+          "startMs": 9148,
+          "endMs": 9278,
+          "charStart": 39,
+          "charEnd": 42
+        },
+        {
+          "text": "sedimentos",
+          "startMs": 9288,
+          "endMs": 9728,
+          "charStart": 43,
+          "charEnd": 53
+        },
+        {
+          "text": "milenarios",
+          "startMs": 9738,
+          "endMs": 10238,
+          "charStart": 54,
+          "charEnd": 64
+        },
+        {
+          "text": "suscitaron",
+          "startMs": 10493,
+          "endMs": 11053,
+          "charStart": 66,
+          "charEnd": 76
+        },
+        {
+          "text": "un",
+          "startMs": 11063,
+          "endMs": 11133,
+          "charStart": 77,
+          "charEnd": 79
+        },
+        {
+          "text": "acalorado",
+          "startMs": 11143,
+          "endMs": 11543,
+          "charStart": 80,
+          "charEnd": 89
+        },
+        {
+          "text": "debate",
+          "startMs": 11553,
+          "endMs": 11893,
+          "charStart": 90,
+          "charEnd": 96
+        },
+        {
+          "text": "entre",
+          "startMs": 11903,
+          "endMs": 12063,
+          "charStart": 97,
+          "charEnd": 102
+        },
+        {
+          "text": "los",
+          "startMs": 12073,
+          "endMs": 12203,
+          "charStart": 103,
+          "charEnd": 106
+        },
+        {
+          "text": "arqueólogos",
+          "startMs": 12213,
+          "endMs": 12703,
+          "charStart": 107,
+          "charEnd": 118
+        },
+        {
+          "text": "más",
+          "startMs": 12713,
+          "endMs": 12853,
+          "charStart": 119,
+          "charEnd": 122
+        },
+        {
+          "text": "renombrados",
+          "startMs": 12863,
+          "endMs": 13523,
+          "charStart": 123,
+          "charEnd": 134
+        }
+      ]
+    },
+    {
+      "text": "Habida cuenta de la singularidad del hallazgo, las instituciones gubernamentales autorizaron una minuciosa prospección submarina.",
+      "startMs": 14468,
+      "endMs": 20684,
+      "words": [
+        {
+          "text": "Habida",
+          "startMs": 14563,
+          "endMs": 14873,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "cuenta",
+          "startMs": 14883,
+          "endMs": 15123,
+          "charStart": 7,
+          "charEnd": 13
+        },
+        {
+          "text": "de",
+          "startMs": 15133,
+          "endMs": 15193,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "la",
+          "startMs": 15203,
+          "endMs": 15263,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "singularidad",
+          "startMs": 15273,
+          "endMs": 15733,
+          "charStart": 20,
+          "charEnd": 32
+        },
+        {
+          "text": "del",
+          "startMs": 15743,
+          "endMs": 15843,
+          "charStart": 33,
+          "charEnd": 36
+        },
+        {
+          "text": "hallazgo",
+          "startMs": 15853,
+          "endMs": 16213,
+          "charStart": 37,
+          "charEnd": 45
+        },
+        {
+          "text": "las",
+          "startMs": 16398,
+          "endMs": 16668,
+          "charStart": 47,
+          "charEnd": 50
+        },
+        {
+          "text": "instituciones",
+          "startMs": 16678,
+          "endMs": 17228,
+          "charStart": 51,
+          "charEnd": 64
+        },
+        {
+          "text": "gubernamentales",
+          "startMs": 17238,
+          "endMs": 17888,
+          "charStart": 65,
+          "charEnd": 80
+        },
+        {
+          "text": "autorizaron",
+          "startMs": 17898,
+          "endMs": 18388,
+          "charStart": 81,
+          "charEnd": 92
+        },
+        {
+          "text": "una",
+          "startMs": 18398,
+          "endMs": 18498,
+          "charStart": 93,
+          "charEnd": 96
+        },
+        {
+          "text": "minuciosa",
+          "startMs": 18508,
+          "endMs": 18928,
+          "charStart": 97,
+          "charEnd": 106
+        },
+        {
+          "text": "prospección",
+          "startMs": 18938,
+          "endMs": 19408,
+          "charStart": 107,
+          "charEnd": 118
+        },
+        {
+          "text": "submarina",
+          "startMs": 19418,
+          "endMs": 19978,
+          "charStart": 119,
+          "charEnd": 128
+        }
+      ]
+    },
+    {
+      "text": "Los buzos descendieron a profundidades abisales munidos de sofisticados escáneres capaces de mapear el lecho marino con precisión milimétrica.",
+      "startMs": 20934,
+      "endMs": 27894,
+      "words": [
+        {
+          "text": "Los",
+          "startMs": 21034,
+          "endMs": 21294,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "buzos",
+          "startMs": 21304,
+          "endMs": 21544,
+          "charStart": 4,
+          "charEnd": 9
+        },
+        {
+          "text": "descendieron",
+          "startMs": 21554,
+          "endMs": 22004,
+          "charStart": 10,
+          "charEnd": 22
+        },
+        {
+          "text": "a",
+          "startMs": 22014,
+          "endMs": 22044,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "profundidades",
+          "startMs": 22054,
+          "endMs": 22604,
+          "charStart": 25,
+          "charEnd": 38
+        },
+        {
+          "text": "abisales",
+          "startMs": 22614,
+          "endMs": 22984,
+          "charStart": 39,
+          "charEnd": 47
+        },
+        {
+          "text": "munidos",
+          "startMs": 22994,
+          "endMs": 23284,
+          "charStart": 48,
+          "charEnd": 55
+        },
+        {
+          "text": "de",
+          "startMs": 23294,
+          "endMs": 23344,
+          "charStart": 56,
+          "charEnd": 58
+        },
+        {
+          "text": "sofisticados",
+          "startMs": 23354,
+          "endMs": 23924,
+          "charStart": 59,
+          "charEnd": 71
+        },
+        {
+          "text": "escáneres",
+          "startMs": 23934,
+          "endMs": 24344,
+          "charStart": 72,
+          "charEnd": 81
+        },
+        {
+          "text": "capaces",
+          "startMs": 24354,
+          "endMs": 24714,
+          "charStart": 82,
+          "charEnd": 89
+        },
+        {
+          "text": "de",
+          "startMs": 24724,
+          "endMs": 24774,
+          "charStart": 90,
+          "charEnd": 92
+        },
+        {
+          "text": "mapear",
+          "startMs": 24784,
+          "endMs": 25044,
+          "charStart": 93,
+          "charEnd": 99
+        },
+        {
+          "text": "el",
+          "startMs": 25054,
+          "endMs": 25114,
+          "charStart": 100,
+          "charEnd": 102
+        },
+        {
+          "text": "lecho",
+          "startMs": 25124,
+          "endMs": 25484,
+          "charStart": 103,
+          "charEnd": 108
+        },
+        {
+          "text": "marino",
+          "startMs": 25604,
+          "endMs": 26004,
+          "charStart": 109,
+          "charEnd": 115
+        },
+        {
+          "text": "con",
+          "startMs": 26014,
+          "endMs": 26154,
+          "charStart": 116,
+          "charEnd": 119
+        },
+        {
+          "text": "precisión",
+          "startMs": 26164,
+          "endMs": 26534,
+          "charStart": 120,
+          "charEnd": 129
+        },
+        {
+          "text": "milimétrica",
+          "startMs": 26544,
+          "endMs": 27184,
+          "charStart": 130,
+          "charEnd": 141
+        }
+      ]
+    },
+    {
+      "text": "A medida que emergían estatuas marmóreas y ánforas intactas, se desmoronaban las hipótesis cronológicas sostenidas tradicionalmente por la academia.",
+      "startMs": 28144,
+      "endMs": 35392,
+      "words": [
+        {
+          "text": "A",
+          "startMs": 28239,
+          "endMs": 28359,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "medida",
+          "startMs": 28369,
+          "endMs": 28639,
+          "charStart": 2,
+          "charEnd": 8
+        },
+        {
+          "text": "que",
+          "startMs": 28649,
+          "endMs": 28729,
+          "charStart": 9,
+          "charEnd": 12
+        },
+        {
+          "text": "emergían",
+          "startMs": 28739,
+          "endMs": 29109,
+          "charStart": 13,
+          "charEnd": 21
+        },
+        {
+          "text": "estatuas",
+          "startMs": 29119,
+          "endMs": 29489,
+          "charStart": 22,
+          "charEnd": 30
+        },
+        {
+          "text": "marmóreas",
+          "startMs": 29499,
+          "endMs": 29909,
+          "charStart": 31,
+          "charEnd": 40
+        },
+        {
+          "text": "y",
+          "startMs": 29919,
+          "endMs": 29959,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "ánforas",
+          "startMs": 29969,
+          "endMs": 30289,
+          "charStart": 43,
+          "charEnd": 50
+        },
+        {
+          "text": "intactas",
+          "startMs": 30299,
+          "endMs": 30789,
+          "charStart": 51,
+          "charEnd": 59
+        },
+        {
+          "text": "se",
+          "startMs": 31004,
+          "endMs": 31214,
+          "charStart": 61,
+          "charEnd": 63
+        },
+        {
+          "text": "desmoronaban",
+          "startMs": 31224,
+          "endMs": 31694,
+          "charStart": 64,
+          "charEnd": 76
+        },
+        {
+          "text": "las",
+          "startMs": 31704,
+          "endMs": 31834,
+          "charStart": 77,
+          "charEnd": 80
+        },
+        {
+          "text": "hipótesis",
+          "startMs": 31844,
+          "endMs": 32254,
+          "charStart": 81,
+          "charEnd": 90
+        },
+        {
+          "text": "cronológicas",
+          "startMs": 32264,
+          "endMs": 32814,
+          "charStart": 91,
+          "charEnd": 103
+        },
+        {
+          "text": "sostenidas",
+          "startMs": 32824,
+          "endMs": 33264,
+          "charStart": 104,
+          "charEnd": 114
+        },
+        {
+          "text": "tradicionalmente",
+          "startMs": 33274,
+          "endMs": 33954,
+          "charStart": 115,
+          "charEnd": 131
+        },
+        {
+          "text": "por",
+          "startMs": 33964,
+          "endMs": 34084,
+          "charStart": 132,
+          "charEnd": 135
+        },
+        {
+          "text": "la",
+          "startMs": 34094,
+          "endMs": 34164,
+          "charStart": 136,
+          "charEnd": 138
+        },
+        {
+          "text": "academia",
+          "startMs": 34174,
+          "endMs": 34704,
+          "charStart": 139,
+          "charEnd": 147
+        }
+      ]
+    },
+    {
+      "text": "Era inverosímil que una urbe tan avanzada hubiese sucumbido a un cataclismo sísmico sin dejar constancia en las crónicas clásicas.",
+      "startMs": 35642,
+      "endMs": 42194,
+      "words": [
+        {
+          "text": "Era",
+          "startMs": 35742,
+          "endMs": 35932,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "inverosímil",
+          "startMs": 35942,
+          "endMs": 36452,
+          "charStart": 4,
+          "charEnd": 15
+        },
+        {
+          "text": "que",
+          "startMs": 36462,
+          "endMs": 36542,
+          "charStart": 16,
+          "charEnd": 19
+        },
+        {
+          "text": "una",
+          "startMs": 36552,
+          "endMs": 36682,
+          "charStart": 20,
+          "charEnd": 23
+        },
+        {
+          "text": "urbe",
+          "startMs": 36692,
+          "endMs": 36892,
+          "charStart": 24,
+          "charEnd": 28
+        },
+        {
+          "text": "tan",
+          "startMs": 36902,
+          "endMs": 37022,
+          "charStart": 29,
+          "charEnd": 32
+        },
+        {
+          "text": "avanzada",
+          "startMs": 37032,
+          "endMs": 37392,
+          "charStart": 33,
+          "charEnd": 41
+        },
+        {
+          "text": "hubiese",
+          "startMs": 37402,
+          "endMs": 37662,
+          "charStart": 42,
+          "charEnd": 49
+        },
+        {
+          "text": "sucumbido",
+          "startMs": 37672,
+          "endMs": 38082,
+          "charStart": 50,
+          "charEnd": 59
+        },
+        {
+          "text": "a",
+          "startMs": 38092,
+          "endMs": 38112,
+          "charStart": 60,
+          "charEnd": 61
+        },
+        {
+          "text": "un",
+          "startMs": 38122,
+          "endMs": 38212,
+          "charStart": 62,
+          "charEnd": 64
+        },
+        {
+          "text": "cataclismo",
+          "startMs": 38222,
+          "endMs": 38672,
+          "charStart": 65,
+          "charEnd": 75
+        },
+        {
+          "text": "sísmico",
+          "startMs": 38682,
+          "endMs": 39072,
+          "charStart": 76,
+          "charEnd": 83
+        },
+        {
+          "text": "sin",
+          "startMs": 39082,
+          "endMs": 39222,
+          "charStart": 84,
+          "charEnd": 87
+        },
+        {
+          "text": "dejar",
+          "startMs": 39232,
+          "endMs": 39462,
+          "charStart": 88,
+          "charEnd": 93
+        },
+        {
+          "text": "constancia",
+          "startMs": 39472,
+          "endMs": 39912,
+          "charStart": 94,
+          "charEnd": 104
+        },
+        {
+          "text": "en",
+          "startMs": 39922,
+          "endMs": 39962,
+          "charStart": 105,
+          "charEnd": 107
+        },
+        {
+          "text": "las",
+          "startMs": 39972,
+          "endMs": 40292,
+          "charStart": 108,
+          "charEnd": 111
+        },
+        {
+          "text": "crónicas",
+          "startMs": 40412,
+          "endMs": 40872,
+          "charStart": 112,
+          "charEnd": 120
+        },
+        {
+          "text": "clásicas",
+          "startMs": 40882,
+          "endMs": 41492,
+          "charStart": 121,
+          "charEnd": 129
+        }
+      ]
+    },
+    {
+      "text": "El desciframiento de las inscripciones epigráficas reveló un complejo sistema teocrático cuyas leyes regulaban rígidamente la navegación marítima.",
+      "startMs": 42444,
+      "endMs": 49740,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 42539,
+          "endMs": 42699,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "desciframiento",
+          "startMs": 42709,
+          "endMs": 43229,
+          "charStart": 3,
+          "charEnd": 17
+        },
+        {
+          "text": "de",
+          "startMs": 43239,
+          "endMs": 43299,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "las",
+          "startMs": 43309,
+          "endMs": 43429,
+          "charStart": 21,
+          "charEnd": 24
+        },
+        {
+          "text": "inscripciones",
+          "startMs": 43439,
+          "endMs": 43969,
+          "charStart": 25,
+          "charEnd": 38
+        },
+        {
+          "text": "epigráficas",
+          "startMs": 43979,
+          "endMs": 44529,
+          "charStart": 39,
+          "charEnd": 50
+        },
+        {
+          "text": "reveló",
+          "startMs": 44539,
+          "endMs": 44799,
+          "charStart": 51,
+          "charEnd": 57
+        },
+        {
+          "text": "un",
+          "startMs": 44809,
+          "endMs": 44899,
+          "charStart": 58,
+          "charEnd": 60
+        },
+        {
+          "text": "complejo",
+          "startMs": 44909,
+          "endMs": 45279,
+          "charStart": 61,
+          "charEnd": 69
+        },
+        {
+          "text": "sistema",
+          "startMs": 45289,
+          "endMs": 45629,
+          "charStart": 70,
+          "charEnd": 77
+        },
+        {
+          "text": "teocrático",
+          "startMs": 45639,
+          "endMs": 46129,
+          "charStart": 78,
+          "charEnd": 88
+        },
+        {
+          "text": "cuyas",
+          "startMs": 46139,
+          "endMs": 46409,
+          "charStart": 89,
+          "charEnd": 94
+        },
+        {
+          "text": "leyes",
+          "startMs": 46419,
+          "endMs": 46659,
+          "charStart": 95,
+          "charEnd": 100
+        },
+        {
+          "text": "regulaban",
+          "startMs": 46669,
+          "endMs": 47209,
+          "charStart": 101,
+          "charEnd": 110
+        },
+        {
+          "text": "rígidamente",
+          "startMs": 47329,
+          "endMs": 47959,
+          "charStart": 111,
+          "charEnd": 122
+        },
+        {
+          "text": "la",
+          "startMs": 47969,
+          "endMs": 48039,
+          "charStart": 123,
+          "charEnd": 125
+        },
+        {
+          "text": "navegación",
+          "startMs": 48049,
+          "endMs": 48469,
+          "charStart": 126,
+          "charEnd": 136
+        },
+        {
+          "text": "marítima",
+          "startMs": 48479,
+          "endMs": 49029,
+          "charStart": 137,
+          "charEnd": 145
+        }
+      ]
+    },
+    {
+      "text": "Por desfavorables que fuesen las condiciones batimétricas, los investigadores continuaron extrayendo reliquias de incalculable valor patrimonial.",
+      "startMs": 49990,
+      "endMs": 56974,
+      "words": [
+        {
+          "text": "Por",
+          "startMs": 50090,
+          "endMs": 50270,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "desfavorables",
+          "startMs": 50280,
+          "endMs": 50820,
+          "charStart": 4,
+          "charEnd": 17
+        },
+        {
+          "text": "que",
+          "startMs": 50830,
+          "endMs": 50930,
+          "charStart": 18,
+          "charEnd": 21
+        },
+        {
+          "text": "fuesen",
+          "startMs": 50940,
+          "endMs": 51180,
+          "charStart": 22,
+          "charEnd": 28
+        },
+        {
+          "text": "las",
+          "startMs": 51190,
+          "endMs": 51310,
+          "charStart": 29,
+          "charEnd": 32
+        },
+        {
+          "text": "condiciones",
+          "startMs": 51320,
+          "endMs": 51770,
+          "charStart": 33,
+          "charEnd": 44
+        },
+        {
+          "text": "batimétricas",
+          "startMs": 51780,
+          "endMs": 52400,
+          "charStart": 45,
+          "charEnd": 57
+        },
+        {
+          "text": "los",
+          "startMs": 52620,
+          "endMs": 52880,
+          "charStart": 59,
+          "charEnd": 62
+        },
+        {
+          "text": "investigadores",
+          "startMs": 52890,
+          "endMs": 53480,
+          "charStart": 63,
+          "charEnd": 77
+        },
+        {
+          "text": "continuaron",
+          "startMs": 53490,
+          "endMs": 53940,
+          "charStart": 78,
+          "charEnd": 89
+        },
+        {
+          "text": "extrayendo",
+          "startMs": 53950,
+          "endMs": 54390,
+          "charStart": 90,
+          "charEnd": 100
+        },
+        {
+          "text": "reliquias",
+          "startMs": 54400,
+          "endMs": 54780,
+          "charStart": 101,
+          "charEnd": 110
+        },
+        {
+          "text": "de",
+          "startMs": 54790,
+          "endMs": 54850,
+          "charStart": 111,
+          "charEnd": 113
+        },
+        {
+          "text": "incalculable",
+          "startMs": 54860,
+          "endMs": 55380,
+          "charStart": 114,
+          "charEnd": 126
+        },
+        {
+          "text": "valor",
+          "startMs": 55390,
+          "endMs": 55620,
+          "charStart": 127,
+          "charEnd": 132
+        },
+        {
+          "text": "patrimonial",
+          "startMs": 55630,
+          "endMs": 56270,
+          "charStart": 133,
+          "charEnd": 144
+        }
+      ]
+    },
+    {
+      "text": "Este descubrimiento obligará a replantear los modelos convencionales sobre la difusión cultural en el Mediterráneo oriental antiguo.",
+      "startMs": 57224,
+      "endMs": 63680,
+      "words": [
+        {
+          "text": "Este",
+          "startMs": 57324,
+          "endMs": 57594,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "descubrimiento",
+          "startMs": 57604,
+          "endMs": 58194,
+          "charStart": 5,
+          "charEnd": 19
+        },
+        {
+          "text": "obligará",
+          "startMs": 58204,
+          "endMs": 58544,
+          "charStart": 20,
+          "charEnd": 28
+        },
+        {
+          "text": "a",
+          "startMs": 58554,
+          "endMs": 58594,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "replantear",
+          "startMs": 58604,
+          "endMs": 59064,
+          "charStart": 31,
+          "charEnd": 41
+        },
+        {
+          "text": "los",
+          "startMs": 59074,
+          "endMs": 59194,
+          "charStart": 42,
+          "charEnd": 45
+        },
+        {
+          "text": "modelos",
+          "startMs": 59204,
+          "endMs": 59524,
+          "charStart": 46,
+          "charEnd": 53
+        },
+        {
+          "text": "convencionales",
+          "startMs": 59534,
+          "endMs": 60104,
+          "charStart": 54,
+          "charEnd": 68
+        },
+        {
+          "text": "sobre",
+          "startMs": 60114,
+          "endMs": 60274,
+          "charStart": 69,
+          "charEnd": 74
+        },
+        {
+          "text": "la",
+          "startMs": 60284,
+          "endMs": 60344,
+          "charStart": 75,
+          "charEnd": 77
+        },
+        {
+          "text": "difusión",
+          "startMs": 60354,
+          "endMs": 60714,
+          "charStart": 78,
+          "charEnd": 86
+        },
+        {
+          "text": "cultural",
+          "startMs": 60724,
+          "endMs": 61054,
+          "charStart": 87,
+          "charEnd": 95
+        },
+        {
+          "text": "en",
+          "startMs": 61064,
+          "endMs": 61134,
+          "charStart": 96,
+          "charEnd": 98
+        },
+        {
+          "text": "el",
+          "startMs": 61144,
+          "endMs": 61384,
+          "charStart": 99,
+          "charEnd": 101
+        },
+        {
+          "text": "Mediterráneo",
+          "startMs": 61504,
+          "endMs": 62154,
+          "charStart": 102,
+          "charEnd": 114
+        },
+        {
+          "text": "oriental",
+          "startMs": 62164,
+          "endMs": 62504,
+          "charStart": 115,
+          "charEnd": 123
+        },
+        {
+          "text": "antiguo",
+          "startMs": 62514,
+          "endMs": 62984,
+          "charStart": 124,
+          "charEnd": 131
+        }
+      ]
+    },
+    {
+      "text": "El océano custodió celosamente aquel enigma pretérito, demostrando cuán fragmentario e incompleto continúa siendo nuestro conocimiento del pasado.",
+      "startMs": 63930,
+      "endMs": 71082,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 64025,
+          "endMs": 64185,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "océano",
+          "startMs": 64195,
+          "endMs": 64475,
+          "charStart": 3,
+          "charEnd": 9
+        },
+        {
+          "text": "custodió",
+          "startMs": 64485,
+          "endMs": 64855,
+          "charStart": 10,
+          "charEnd": 18
+        },
+        {
+          "text": "celosamente",
+          "startMs": 64865,
+          "endMs": 65405,
+          "charStart": 19,
+          "charEnd": 30
+        },
+        {
+          "text": "aquel",
+          "startMs": 65415,
+          "endMs": 65615,
+          "charStart": 31,
+          "charEnd": 36
+        },
+        {
+          "text": "enigma",
+          "startMs": 65625,
+          "endMs": 65875,
+          "charStart": 37,
+          "charEnd": 43
+        },
+        {
+          "text": "pretérito",
+          "startMs": 65885,
+          "endMs": 66355,
+          "charStart": 44,
+          "charEnd": 53
+        },
+        {
+          "text": "demostrando",
+          "startMs": 66595,
+          "endMs": 67145,
+          "charStart": 55,
+          "charEnd": 66
+        },
+        {
+          "text": "cuán",
+          "startMs": 67155,
+          "endMs": 67335,
+          "charStart": 67,
+          "charEnd": 71
+        },
+        {
+          "text": "fragmentario",
+          "startMs": 67345,
+          "endMs": 67915,
+          "charStart": 72,
+          "charEnd": 84
+        },
+        {
+          "text": "e",
+          "startMs": 67925,
+          "endMs": 67955,
+          "charStart": 85,
+          "charEnd": 86
+        },
+        {
+          "text": "incompleto",
+          "startMs": 67965,
+          "endMs": 68405,
+          "charStart": 87,
+          "charEnd": 97
+        },
+        {
+          "text": "continúa",
+          "startMs": 68415,
+          "endMs": 68825,
+          "charStart": 98,
+          "charEnd": 106
+        },
+        {
+          "text": "siendo",
+          "startMs": 68835,
+          "endMs": 69065,
+          "charStart": 107,
+          "charEnd": 113
+        },
+        {
+          "text": "nuestro",
+          "startMs": 69075,
+          "endMs": 69285,
+          "charStart": 114,
+          "charEnd": 121
+        },
+        {
+          "text": "conocimiento",
+          "startMs": 69295,
+          "endMs": 69795,
+          "charStart": 122,
+          "charEnd": 134
+        },
+        {
+          "text": "del",
+          "startMs": 69805,
+          "endMs": 69905,
+          "charStart": 135,
+          "charEnd": 138
+        },
+        {
+          "text": "pasado",
+          "startMs": 69915,
+          "endMs": 70385,
+          "charStart": 139,
+          "charEnd": 145
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,991 @@
+{
+  "version": 3,
+  "lang": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 47778,
+  "sentences": [
+    {
+      "text": "Tras trabajar varios años como contable en un banco, David decidió cambiar de profesión.",
+      "startMs": 0,
+      "endMs": 4560,
+      "words": [
+        {
+          "text": "Tras",
+          "startMs": 100,
+          "endMs": 310,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "trabajar",
+          "startMs": 320,
+          "endMs": 690,
+          "charStart": 5,
+          "charEnd": 13
+        },
+        {
+          "text": "varios",
+          "startMs": 700,
+          "endMs": 980,
+          "charStart": 14,
+          "charEnd": 20
+        },
+        {
+          "text": "años",
+          "startMs": 990,
+          "endMs": 1180,
+          "charStart": 21,
+          "charEnd": 25
+        },
+        {
+          "text": "como",
+          "startMs": 1190,
+          "endMs": 1350,
+          "charStart": 26,
+          "charEnd": 30
+        },
+        {
+          "text": "contable",
+          "startMs": 1360,
+          "endMs": 1710,
+          "charStart": 31,
+          "charEnd": 39
+        },
+        {
+          "text": "en",
+          "startMs": 1720,
+          "endMs": 1790,
+          "charStart": 40,
+          "charEnd": 42
+        },
+        {
+          "text": "un",
+          "startMs": 1800,
+          "endMs": 1890,
+          "charStart": 43,
+          "charEnd": 45
+        },
+        {
+          "text": "banco",
+          "startMs": 1900,
+          "endMs": 2210,
+          "charStart": 46,
+          "charEnd": 51
+        },
+        {
+          "text": "David",
+          "startMs": 2370,
+          "endMs": 2570,
+          "charStart": 53,
+          "charEnd": 58
+        },
+        {
+          "text": "decidió",
+          "startMs": 2580,
+          "endMs": 2900,
+          "charStart": 59,
+          "charEnd": 66
+        },
+        {
+          "text": "cambiar",
+          "startMs": 2910,
+          "endMs": 3200,
+          "charStart": 67,
+          "charEnd": 74
+        },
+        {
+          "text": "de",
+          "startMs": 3210,
+          "endMs": 3270,
+          "charStart": 75,
+          "charEnd": 77
+        },
+        {
+          "text": "profesión",
+          "startMs": 3280,
+          "endMs": 3870,
+          "charStart": 78,
+          "charEnd": 87
+        }
+      ]
+    },
+    {
+      "text": "Aunque ganaba un sueldo razonable, sentía que su verdadera vocación era la cocina tradicional.",
+      "startMs": 4810,
+      "endMs": 9586,
+      "words": [
+        {
+          "text": "Aunque",
+          "startMs": 4905,
+          "endMs": 5195,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "ganaba",
+          "startMs": 5205,
+          "endMs": 5465,
+          "charStart": 7,
+          "charEnd": 13
+        },
+        {
+          "text": "un",
+          "startMs": 5475,
+          "endMs": 5585,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "sueldo",
+          "startMs": 5595,
+          "endMs": 5815,
+          "charStart": 17,
+          "charEnd": 23
+        },
+        {
+          "text": "razonable",
+          "startMs": 5825,
+          "endMs": 6315,
+          "charStart": 24,
+          "charEnd": 33
+        },
+        {
+          "text": "sentía",
+          "startMs": 6485,
+          "endMs": 6795,
+          "charStart": 35,
+          "charEnd": 41
+        },
+        {
+          "text": "que",
+          "startMs": 6805,
+          "endMs": 6875,
+          "charStart": 42,
+          "charEnd": 45
+        },
+        {
+          "text": "su",
+          "startMs": 6885,
+          "endMs": 6985,
+          "charStart": 46,
+          "charEnd": 48
+        },
+        {
+          "text": "verdadera",
+          "startMs": 6995,
+          "endMs": 7335,
+          "charStart": 49,
+          "charEnd": 58
+        },
+        {
+          "text": "vocación",
+          "startMs": 7345,
+          "endMs": 7725,
+          "charStart": 59,
+          "charEnd": 67
+        },
+        {
+          "text": "era",
+          "startMs": 7735,
+          "endMs": 7845,
+          "charStart": 68,
+          "charEnd": 71
+        },
+        {
+          "text": "la",
+          "startMs": 7855,
+          "endMs": 7945,
+          "charStart": 72,
+          "charEnd": 74
+        },
+        {
+          "text": "cocina",
+          "startMs": 7955,
+          "endMs": 8265,
+          "charStart": 75,
+          "charEnd": 81
+        },
+        {
+          "text": "tradicional",
+          "startMs": 8275,
+          "endMs": 8895,
+          "charStart": 82,
+          "charEnd": 93
+        }
+      ]
+    },
+    {
+      "text": "Para alcanzar su meta, se matriculó en una prestigiosa escuela gastronómica de Barcelona.",
+      "startMs": 9836,
+      "endMs": 14372,
+      "words": [
+        {
+          "text": "Para",
+          "startMs": 9936,
+          "endMs": 10126,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "alcanzar",
+          "startMs": 10136,
+          "endMs": 10526,
+          "charStart": 5,
+          "charEnd": 13
+        },
+        {
+          "text": "su",
+          "startMs": 10536,
+          "endMs": 10626,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "meta",
+          "startMs": 10636,
+          "endMs": 10906,
+          "charStart": 17,
+          "charEnd": 21
+        },
+        {
+          "text": "se",
+          "startMs": 11086,
+          "endMs": 11186,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "matriculó",
+          "startMs": 11196,
+          "endMs": 11576,
+          "charStart": 26,
+          "charEnd": 35
+        },
+        {
+          "text": "en",
+          "startMs": 11586,
+          "endMs": 11646,
+          "charStart": 36,
+          "charEnd": 38
+        },
+        {
+          "text": "una",
+          "startMs": 11656,
+          "endMs": 11776,
+          "charStart": 39,
+          "charEnd": 42
+        },
+        {
+          "text": "prestigiosa",
+          "startMs": 11786,
+          "endMs": 12266,
+          "charStart": 43,
+          "charEnd": 54
+        },
+        {
+          "text": "escuela",
+          "startMs": 12276,
+          "endMs": 12546,
+          "charStart": 55,
+          "charEnd": 62
+        },
+        {
+          "text": "gastronómica",
+          "startMs": 12556,
+          "endMs": 13056,
+          "charStart": 63,
+          "charEnd": 75
+        },
+        {
+          "text": "de",
+          "startMs": 13066,
+          "endMs": 13126,
+          "charStart": 76,
+          "charEnd": 78
+        },
+        {
+          "text": "Barcelona",
+          "startMs": 13136,
+          "endMs": 13686,
+          "charStart": 79,
+          "charEnd": 88
+        }
+      ]
+    },
+    {
+      "text": "Sus padres temían que fuera una decisión precipitada, pero él confiaba en sus habilidades.",
+      "startMs": 14622,
+      "endMs": 19302,
+      "words": [
+        {
+          "text": "Sus",
+          "startMs": 14722,
+          "endMs": 14982,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "padres",
+          "startMs": 14992,
+          "endMs": 15242,
+          "charStart": 4,
+          "charEnd": 10
+        },
+        {
+          "text": "temían",
+          "startMs": 15252,
+          "endMs": 15582,
+          "charStart": 11,
+          "charEnd": 17
+        },
+        {
+          "text": "que",
+          "startMs": 15592,
+          "endMs": 15692,
+          "charStart": 18,
+          "charEnd": 21
+        },
+        {
+          "text": "fuera",
+          "startMs": 15702,
+          "endMs": 15892,
+          "charStart": 22,
+          "charEnd": 27
+        },
+        {
+          "text": "una",
+          "startMs": 15902,
+          "endMs": 16022,
+          "charStart": 28,
+          "charEnd": 31
+        },
+        {
+          "text": "decisión",
+          "startMs": 16032,
+          "endMs": 16392,
+          "charStart": 32,
+          "charEnd": 40
+        },
+        {
+          "text": "precipitada",
+          "startMs": 16402,
+          "endMs": 16942,
+          "charStart": 41,
+          "charEnd": 52
+        },
+        {
+          "text": "pero",
+          "startMs": 17142,
+          "endMs": 17282,
+          "charStart": 54,
+          "charEnd": 58
+        },
+        {
+          "text": "él",
+          "startMs": 17292,
+          "endMs": 17352,
+          "charStart": 59,
+          "charEnd": 61
+        },
+        {
+          "text": "confiaba",
+          "startMs": 17362,
+          "endMs": 17762,
+          "charStart": 62,
+          "charEnd": 70
+        },
+        {
+          "text": "en",
+          "startMs": 17772,
+          "endMs": 17842,
+          "charStart": 71,
+          "charEnd": 73
+        },
+        {
+          "text": "sus",
+          "startMs": 17852,
+          "endMs": 17982,
+          "charStart": 74,
+          "charEnd": 77
+        },
+        {
+          "text": "habilidades",
+          "startMs": 17992,
+          "endMs": 18602,
+          "charStart": 78,
+          "charEnd": 89
+        }
+      ]
+    },
+    {
+      "text": "Durante el curso intensivo, aprendió a elaborar platos complejos y a gestionar restaurantes.",
+      "startMs": 19552,
+      "endMs": 24400,
+      "words": [
+        {
+          "text": "Durante",
+          "startMs": 19652,
+          "endMs": 19992,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "el",
+          "startMs": 20002,
+          "endMs": 20072,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "curso",
+          "startMs": 20082,
+          "endMs": 20332,
+          "charStart": 11,
+          "charEnd": 16
+        },
+        {
+          "text": "intensivo",
+          "startMs": 20342,
+          "endMs": 20832,
+          "charStart": 17,
+          "charEnd": 26
+        },
+        {
+          "text": "aprendió",
+          "startMs": 21042,
+          "endMs": 21372,
+          "charStart": 28,
+          "charEnd": 36
+        },
+        {
+          "text": "a",
+          "startMs": 21382,
+          "endMs": 21412,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "elaborar",
+          "startMs": 21422,
+          "endMs": 21762,
+          "charStart": 39,
+          "charEnd": 47
+        },
+        {
+          "text": "platos",
+          "startMs": 21772,
+          "endMs": 22052,
+          "charStart": 48,
+          "charEnd": 54
+        },
+        {
+          "text": "complejos",
+          "startMs": 22062,
+          "endMs": 22512,
+          "charStart": 55,
+          "charEnd": 64
+        },
+        {
+          "text": "y",
+          "startMs": 22522,
+          "endMs": 22562,
+          "charStart": 65,
+          "charEnd": 66
+        },
+        {
+          "text": "a",
+          "startMs": 22572,
+          "endMs": 22612,
+          "charStart": 67,
+          "charEnd": 68
+        },
+        {
+          "text": "gestionar",
+          "startMs": 22622,
+          "endMs": 23012,
+          "charStart": 69,
+          "charEnd": 78
+        },
+        {
+          "text": "restaurantes",
+          "startMs": 23022,
+          "endMs": 23722,
+          "charStart": 79,
+          "charEnd": 91
+        }
+      ]
+    },
+    {
+      "text": "A menudo volvía a casa agotado porque las clases prácticas exigían mucha disciplina.",
+      "startMs": 24650,
+      "endMs": 29138,
+      "words": [
+        {
+          "text": "A",
+          "startMs": 24745,
+          "endMs": 24875,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "menudo",
+          "startMs": 24885,
+          "endMs": 25165,
+          "charStart": 2,
+          "charEnd": 8
+        },
+        {
+          "text": "volvía",
+          "startMs": 25175,
+          "endMs": 25465,
+          "charStart": 9,
+          "charEnd": 15
+        },
+        {
+          "text": "a",
+          "startMs": 25475,
+          "endMs": 25505,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "casa",
+          "startMs": 25515,
+          "endMs": 25735,
+          "charStart": 18,
+          "charEnd": 22
+        },
+        {
+          "text": "agotado",
+          "startMs": 25745,
+          "endMs": 26115,
+          "charStart": 23,
+          "charEnd": 30
+        },
+        {
+          "text": "porque",
+          "startMs": 26125,
+          "endMs": 26355,
+          "charStart": 31,
+          "charEnd": 37
+        },
+        {
+          "text": "las",
+          "startMs": 26365,
+          "endMs": 26495,
+          "charStart": 38,
+          "charEnd": 41
+        },
+        {
+          "text": "clases",
+          "startMs": 26505,
+          "endMs": 26795,
+          "charStart": 42,
+          "charEnd": 48
+        },
+        {
+          "text": "prácticas",
+          "startMs": 26805,
+          "endMs": 27235,
+          "charStart": 49,
+          "charEnd": 58
+        },
+        {
+          "text": "exigían",
+          "startMs": 27245,
+          "endMs": 27635,
+          "charStart": 59,
+          "charEnd": 66
+        },
+        {
+          "text": "mucha",
+          "startMs": 27645,
+          "endMs": 27865,
+          "charStart": 67,
+          "charEnd": 72
+        },
+        {
+          "text": "disciplina",
+          "startMs": 27875,
+          "endMs": 28445,
+          "charStart": 73,
+          "charEnd": 83
+        }
+      ]
+    },
+    {
+      "text": "Cuando terminó sus estudios, sus antiguos compañeros lo felicitaron con entusiasmo sincero.",
+      "startMs": 29388,
+      "endMs": 34260,
+      "words": [
+        {
+          "text": "Cuando",
+          "startMs": 29488,
+          "endMs": 29778,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "terminó",
+          "startMs": 29788,
+          "endMs": 30058,
+          "charStart": 7,
+          "charEnd": 14
+        },
+        {
+          "text": "sus",
+          "startMs": 30068,
+          "endMs": 30218,
+          "charStart": 15,
+          "charEnd": 18
+        },
+        {
+          "text": "estudios",
+          "startMs": 30228,
+          "endMs": 30698,
+          "charStart": 19,
+          "charEnd": 27
+        },
+        {
+          "text": "sus",
+          "startMs": 30858,
+          "endMs": 31048,
+          "charStart": 29,
+          "charEnd": 32
+        },
+        {
+          "text": "antiguos",
+          "startMs": 31058,
+          "endMs": 31408,
+          "charStart": 33,
+          "charEnd": 41
+        },
+        {
+          "text": "compañeros",
+          "startMs": 31418,
+          "endMs": 31878,
+          "charStart": 42,
+          "charEnd": 52
+        },
+        {
+          "text": "lo",
+          "startMs": 31888,
+          "endMs": 31968,
+          "charStart": 53,
+          "charEnd": 55
+        },
+        {
+          "text": "felicitaron",
+          "startMs": 31978,
+          "endMs": 32458,
+          "charStart": 56,
+          "charEnd": 67
+        },
+        {
+          "text": "con",
+          "startMs": 32468,
+          "endMs": 32588,
+          "charStart": 68,
+          "charEnd": 71
+        },
+        {
+          "text": "entusiasmo",
+          "startMs": 32598,
+          "endMs": 33048,
+          "charStart": 72,
+          "charEnd": 82
+        },
+        {
+          "text": "sincero",
+          "startMs": 33058,
+          "endMs": 33578,
+          "charStart": 83,
+          "charEnd": 90
+        }
+      ]
+    },
+    {
+      "text": "Poco después, un famoso chef le ofreció un puesto de cocinero en su restaurante.",
+      "startMs": 34510,
+      "endMs": 38758,
+      "words": [
+        {
+          "text": "Poco",
+          "startMs": 34610,
+          "endMs": 34860,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "después",
+          "startMs": 34870,
+          "endMs": 35280,
+          "charStart": 5,
+          "charEnd": 12
+        },
+        {
+          "text": "un",
+          "startMs": 35480,
+          "endMs": 35560,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "famoso",
+          "startMs": 35570,
+          "endMs": 35890,
+          "charStart": 17,
+          "charEnd": 23
+        },
+        {
+          "text": "chef",
+          "startMs": 35900,
+          "endMs": 36090,
+          "charStart": 24,
+          "charEnd": 28
+        },
+        {
+          "text": "le",
+          "startMs": 36100,
+          "endMs": 36170,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "ofreció",
+          "startMs": 36180,
+          "endMs": 36470,
+          "charStart": 32,
+          "charEnd": 39
+        },
+        {
+          "text": "un",
+          "startMs": 36480,
+          "endMs": 36580,
+          "charStart": 40,
+          "charEnd": 42
+        },
+        {
+          "text": "puesto",
+          "startMs": 36590,
+          "endMs": 36800,
+          "charStart": 43,
+          "charEnd": 49
+        },
+        {
+          "text": "de",
+          "startMs": 36810,
+          "endMs": 36870,
+          "charStart": 50,
+          "charEnd": 52
+        },
+        {
+          "text": "cocinero",
+          "startMs": 36880,
+          "endMs": 37260,
+          "charStart": 53,
+          "charEnd": 61
+        },
+        {
+          "text": "en",
+          "startMs": 37270,
+          "endMs": 37340,
+          "charStart": 62,
+          "charEnd": 64
+        },
+        {
+          "text": "su",
+          "startMs": 37350,
+          "endMs": 37440,
+          "charStart": 65,
+          "charEnd": 67
+        },
+        {
+          "text": "restaurante",
+          "startMs": 37450,
+          "endMs": 38070,
+          "charStart": 68,
+          "charEnd": 79
+        }
+      ]
+    },
+    {
+      "text": "David aceptó la propuesta inmediatamente porque deseaba adquirir más experiencia práctica.",
+      "startMs": 39008,
+      "endMs": 43568,
+      "words": [
+        {
+          "text": "David",
+          "startMs": 39108,
+          "endMs": 39438,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "aceptó",
+          "startMs": 39448,
+          "endMs": 39718,
+          "charStart": 6,
+          "charEnd": 12
+        },
+        {
+          "text": "la",
+          "startMs": 39728,
+          "endMs": 39798,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "propuesta",
+          "startMs": 39808,
+          "endMs": 40158,
+          "charStart": 16,
+          "charEnd": 25
+        },
+        {
+          "text": "inmediatamente",
+          "startMs": 40168,
+          "endMs": 40828,
+          "charStart": 26,
+          "charEnd": 40
+        },
+        {
+          "text": "porque",
+          "startMs": 40838,
+          "endMs": 41058,
+          "charStart": 41,
+          "charEnd": 47
+        },
+        {
+          "text": "deseaba",
+          "startMs": 41068,
+          "endMs": 41378,
+          "charStart": 48,
+          "charEnd": 55
+        },
+        {
+          "text": "adquirir",
+          "startMs": 41388,
+          "endMs": 41678,
+          "charStart": 56,
+          "charEnd": 64
+        },
+        {
+          "text": "más",
+          "startMs": 41688,
+          "endMs": 41838,
+          "charStart": 65,
+          "charEnd": 68
+        },
+        {
+          "text": "experiencia",
+          "startMs": 41848,
+          "endMs": 42328,
+          "charStart": 69,
+          "charEnd": 80
+        },
+        {
+          "text": "práctica",
+          "startMs": 42338,
+          "endMs": 42868,
+          "charStart": 81,
+          "charEnd": 89
+        }
+      ]
+    },
+    {
+      "text": "Ahora sueña con abrir su propio local cuando haya ahorrado suficiente dinero.",
+      "startMs": 43818,
+      "endMs": 47778,
+      "words": [
+        {
+          "text": "Ahora",
+          "startMs": 43913,
+          "endMs": 44203,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "sueña",
+          "startMs": 44213,
+          "endMs": 44493,
+          "charStart": 6,
+          "charEnd": 11
+        },
+        {
+          "text": "con",
+          "startMs": 44503,
+          "endMs": 44623,
+          "charStart": 12,
+          "charEnd": 15
+        },
+        {
+          "text": "abrir",
+          "startMs": 44633,
+          "endMs": 44823,
+          "charStart": 16,
+          "charEnd": 21
+        },
+        {
+          "text": "su",
+          "startMs": 44833,
+          "endMs": 44923,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "propio",
+          "startMs": 44933,
+          "endMs": 45153,
+          "charStart": 25,
+          "charEnd": 31
+        },
+        {
+          "text": "local",
+          "startMs": 45163,
+          "endMs": 45453,
+          "charStart": 32,
+          "charEnd": 37
+        },
+        {
+          "text": "cuando",
+          "startMs": 45463,
+          "endMs": 45693,
+          "charStart": 38,
+          "charEnd": 44
+        },
+        {
+          "text": "haya",
+          "startMs": 45703,
+          "endMs": 45863,
+          "charStart": 45,
+          "charEnd": 49
+        },
+        {
+          "text": "ahorrado",
+          "startMs": 45873,
+          "endMs": 46183,
+          "charStart": 50,
+          "charEnd": 58
+        },
+        {
+          "text": "suficiente",
+          "startMs": 46193,
+          "endMs": 46633,
+          "charStart": 59,
+          "charEnd": 69
+        },
+        {
+          "text": "dinero",
+          "startMs": 46643,
+          "endMs": 47073,
+          "charStart": 70,
+          "charEnd": 76
+        }
+      ]
+    }
+  ]
+}

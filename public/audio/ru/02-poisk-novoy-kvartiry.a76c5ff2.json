@@ -1,0 +1,655 @@
+{
+  "version": 3,
+  "lang": "ru",
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 39210,
+  "sentences": [
+    {
+      "text": "Елена давно мечтала переехать в более просторную квартиру.",
+      "startMs": 0,
+      "endMs": 3600,
+      "words": [
+        {
+          "text": "Елена",
+          "startMs": 100,
+          "endMs": 560,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "давно",
+          "startMs": 560,
+          "endMs": 800,
+          "charStart": 6,
+          "charEnd": 11
+        },
+        {
+          "text": "мечтала",
+          "startMs": 800,
+          "endMs": 1160,
+          "charStart": 12,
+          "charEnd": 19
+        },
+        {
+          "text": "переехать",
+          "startMs": 1160,
+          "endMs": 1590,
+          "charStart": 20,
+          "charEnd": 29
+        },
+        {
+          "text": "в",
+          "startMs": 1590,
+          "endMs": 1660,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "более",
+          "startMs": 1660,
+          "endMs": 1970,
+          "charStart": 32,
+          "charEnd": 37
+        },
+        {
+          "text": "просторную",
+          "startMs": 1970,
+          "endMs": 2420,
+          "charStart": 38,
+          "charEnd": 48
+        },
+        {
+          "text": "квартиру",
+          "startMs": 2420,
+          "endMs": 2880,
+          "charStart": 49,
+          "charEnd": 57
+        }
+      ]
+    },
+    {
+      "text": "Старая студия стала для неё слишком тесной и шумной.",
+      "startMs": 3850,
+      "endMs": 7258,
+      "words": [
+        {
+          "text": "Старая",
+          "startMs": 3950,
+          "endMs": 4350,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "студия",
+          "startMs": 4350,
+          "endMs": 4690,
+          "charStart": 7,
+          "charEnd": 13
+        },
+        {
+          "text": "стала",
+          "startMs": 4690,
+          "endMs": 4970,
+          "charStart": 14,
+          "charEnd": 19
+        },
+        {
+          "text": "для",
+          "startMs": 4970,
+          "endMs": 5080,
+          "charStart": 20,
+          "charEnd": 23
+        },
+        {
+          "text": "неё",
+          "startMs": 5080,
+          "endMs": 5240,
+          "charStart": 24,
+          "charEnd": 27
+        },
+        {
+          "text": "слишком",
+          "startMs": 5240,
+          "endMs": 5660,
+          "charStart": 28,
+          "charEnd": 35
+        },
+        {
+          "text": "тесной",
+          "startMs": 5660,
+          "endMs": 6040,
+          "charStart": 36,
+          "charEnd": 42
+        },
+        {
+          "text": "и",
+          "startMs": 6040,
+          "endMs": 6130,
+          "charStart": 43,
+          "charEnd": 44
+        },
+        {
+          "text": "шумной",
+          "startMs": 6130,
+          "endMs": 6570,
+          "charStart": 45,
+          "charEnd": 51
+        }
+      ]
+    },
+    {
+      "text": "Каждый вечер она внимательно смотрела свежие объявления в интернете.",
+      "startMs": 7508,
+      "endMs": 11636,
+      "words": [
+        {
+          "text": "Каждый",
+          "startMs": 7608,
+          "endMs": 7978,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "вечер",
+          "startMs": 7978,
+          "endMs": 8308,
+          "charStart": 7,
+          "charEnd": 12
+        },
+        {
+          "text": "она",
+          "startMs": 8308,
+          "endMs": 8548,
+          "charStart": 13,
+          "charEnd": 16
+        },
+        {
+          "text": "внимательно",
+          "startMs": 8548,
+          "endMs": 9018,
+          "charStart": 17,
+          "charEnd": 28
+        },
+        {
+          "text": "смотрела",
+          "startMs": 9018,
+          "endMs": 9438,
+          "charStart": 29,
+          "charEnd": 37
+        },
+        {
+          "text": "свежие",
+          "startMs": 9438,
+          "endMs": 9818,
+          "charStart": 38,
+          "charEnd": 44
+        },
+        {
+          "text": "объявления",
+          "startMs": 9818,
+          "endMs": 10328,
+          "charStart": 45,
+          "charEnd": 55
+        },
+        {
+          "text": "в",
+          "startMs": 10328,
+          "endMs": 10358,
+          "charStart": 56,
+          "charEnd": 57
+        },
+        {
+          "text": "интернете",
+          "startMs": 10358,
+          "endMs": 10918,
+          "charStart": 58,
+          "charEnd": 67
+        }
+      ]
+    },
+    {
+      "text": "Наконец Елена нашла отличный вариант недалеко от метро.",
+      "startMs": 11886,
+      "endMs": 15558,
+      "words": [
+        {
+          "text": "Наконец",
+          "startMs": 11986,
+          "endMs": 12486,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "Елена",
+          "startMs": 12486,
+          "endMs": 12806,
+          "charStart": 8,
+          "charEnd": 13
+        },
+        {
+          "text": "нашла",
+          "startMs": 12806,
+          "endMs": 13116,
+          "charStart": 14,
+          "charEnd": 19
+        },
+        {
+          "text": "отличный",
+          "startMs": 13116,
+          "endMs": 13596,
+          "charStart": 20,
+          "charEnd": 28
+        },
+        {
+          "text": "вариант",
+          "startMs": 13596,
+          "endMs": 13956,
+          "charStart": 29,
+          "charEnd": 36
+        },
+        {
+          "text": "недалеко",
+          "startMs": 13956,
+          "endMs": 14356,
+          "charStart": 37,
+          "charEnd": 45
+        },
+        {
+          "text": "от",
+          "startMs": 14356,
+          "endMs": 14436,
+          "charStart": 46,
+          "charEnd": 48
+        },
+        {
+          "text": "метро",
+          "startMs": 14436,
+          "endMs": 14816,
+          "charStart": 49,
+          "charEnd": 54
+        }
+      ]
+    },
+    {
+      "text": "На следующий день она сразу позвонила доброму хозяину.",
+      "startMs": 15808,
+      "endMs": 19288,
+      "words": [
+        {
+          "text": "На",
+          "startMs": 15908,
+          "endMs": 16128,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "следующий",
+          "startMs": 16128,
+          "endMs": 16528,
+          "charStart": 3,
+          "charEnd": 12
+        },
+        {
+          "text": "день",
+          "startMs": 16528,
+          "endMs": 16718,
+          "charStart": 13,
+          "charEnd": 17
+        },
+        {
+          "text": "она",
+          "startMs": 16718,
+          "endMs": 16978,
+          "charStart": 18,
+          "charEnd": 21
+        },
+        {
+          "text": "сразу",
+          "startMs": 16978,
+          "endMs": 17288,
+          "charStart": 22,
+          "charEnd": 27
+        },
+        {
+          "text": "позвонила",
+          "startMs": 17288,
+          "endMs": 17718,
+          "charStart": 28,
+          "charEnd": 37
+        },
+        {
+          "text": "доброму",
+          "startMs": 17718,
+          "endMs": 18038,
+          "charStart": 38,
+          "charEnd": 45
+        },
+        {
+          "text": "хозяину",
+          "startMs": 18038,
+          "endMs": 18548,
+          "charStart": 46,
+          "charEnd": 53
+        }
+      ]
+    },
+    {
+      "text": "Вечером они договорились встретиться около высокого дома.",
+      "startMs": 19538,
+      "endMs": 23138,
+      "words": [
+        {
+          "text": "Вечером",
+          "startMs": 19638,
+          "endMs": 20148,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "они",
+          "startMs": 20148,
+          "endMs": 20298,
+          "charStart": 8,
+          "charEnd": 11
+        },
+        {
+          "text": "договорились",
+          "startMs": 20298,
+          "endMs": 20778,
+          "charStart": 12,
+          "charEnd": 24
+        },
+        {
+          "text": "встретиться",
+          "startMs": 20778,
+          "endMs": 21368,
+          "charStart": 25,
+          "charEnd": 36
+        },
+        {
+          "text": "около",
+          "startMs": 21368,
+          "endMs": 21698,
+          "charStart": 37,
+          "charEnd": 42
+        },
+        {
+          "text": "высокого",
+          "startMs": 21698,
+          "endMs": 22088,
+          "charStart": 43,
+          "charEnd": 51
+        },
+        {
+          "text": "дома",
+          "startMs": 22088,
+          "endMs": 22438,
+          "charStart": 52,
+          "charEnd": 56
+        }
+      ]
+    },
+    {
+      "text": "Квартира находилась на пятом этаже современного здания.",
+      "startMs": 23388,
+      "endMs": 26868,
+      "words": [
+        {
+          "text": "Квартира",
+          "startMs": 23488,
+          "endMs": 23968,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "находилась",
+          "startMs": 23968,
+          "endMs": 24388,
+          "charStart": 9,
+          "charEnd": 19
+        },
+        {
+          "text": "на",
+          "startMs": 24388,
+          "endMs": 24548,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "пятом",
+          "startMs": 24548,
+          "endMs": 24808,
+          "charStart": 23,
+          "charEnd": 28
+        },
+        {
+          "text": "этаже",
+          "startMs": 24808,
+          "endMs": 25098,
+          "charStart": 29,
+          "charEnd": 34
+        },
+        {
+          "text": "современного",
+          "startMs": 25098,
+          "endMs": 25598,
+          "charStart": 35,
+          "charEnd": 47
+        },
+        {
+          "text": "здания",
+          "startMs": 25598,
+          "endMs": 26138,
+          "charStart": 48,
+          "charEnd": 54
+        }
+      ]
+    },
+    {
+      "text": "Внутри были светлая кухня, уютная спальня и большой балкон.",
+      "startMs": 27118,
+      "endMs": 31078,
+      "words": [
+        {
+          "text": "Внутри",
+          "startMs": 27218,
+          "endMs": 27668,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "были",
+          "startMs": 27668,
+          "endMs": 27828,
+          "charStart": 7,
+          "charEnd": 11
+        },
+        {
+          "text": "светлая",
+          "startMs": 27828,
+          "endMs": 28178,
+          "charStart": 12,
+          "charEnd": 19
+        },
+        {
+          "text": "кухня",
+          "startMs": 28178,
+          "endMs": 28518,
+          "charStart": 20,
+          "charEnd": 25
+        },
+        {
+          "text": "уютная",
+          "startMs": 28688,
+          "endMs": 29098,
+          "charStart": 27,
+          "charEnd": 33
+        },
+        {
+          "text": "спальня",
+          "startMs": 29098,
+          "endMs": 29538,
+          "charStart": 34,
+          "charEnd": 41
+        },
+        {
+          "text": "и",
+          "startMs": 29538,
+          "endMs": 29618,
+          "charStart": 42,
+          "charEnd": 43
+        },
+        {
+          "text": "большой",
+          "startMs": 29618,
+          "endMs": 29928,
+          "charStart": 44,
+          "charEnd": 51
+        },
+        {
+          "text": "балкон",
+          "startMs": 29928,
+          "endMs": 30338,
+          "charStart": 52,
+          "charEnd": 58
+        }
+      ]
+    },
+    {
+      "text": "Арендная плата оказалась вполне разумной для центра города.",
+      "startMs": 31328,
+      "endMs": 35000,
+      "words": [
+        {
+          "text": "Арендная",
+          "startMs": 31428,
+          "endMs": 31878,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "плата",
+          "startMs": 31878,
+          "endMs": 32148,
+          "charStart": 9,
+          "charEnd": 14
+        },
+        {
+          "text": "оказалась",
+          "startMs": 32148,
+          "endMs": 32598,
+          "charStart": 15,
+          "charEnd": 24
+        },
+        {
+          "text": "вполне",
+          "startMs": 32598,
+          "endMs": 33008,
+          "charStart": 25,
+          "charEnd": 31
+        },
+        {
+          "text": "разумной",
+          "startMs": 33008,
+          "endMs": 33418,
+          "charStart": 32,
+          "charEnd": 40
+        },
+        {
+          "text": "для",
+          "startMs": 33418,
+          "endMs": 33568,
+          "charStart": 41,
+          "charEnd": 44
+        },
+        {
+          "text": "центра",
+          "startMs": 33568,
+          "endMs": 33858,
+          "charStart": 45,
+          "charEnd": 51
+        },
+        {
+          "text": "города",
+          "startMs": 33858,
+          "endMs": 34268,
+          "charStart": 52,
+          "charEnd": 58
+        }
+      ]
+    },
+    {
+      "text": "Девушка с радостью подписала договор и получила заветные ключи.",
+      "startMs": 35250,
+      "endMs": 39210,
+      "words": [
+        {
+          "text": "Девушка",
+          "startMs": 35350,
+          "endMs": 35880,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "с",
+          "startMs": 35880,
+          "endMs": 35940,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "радостью",
+          "startMs": 35940,
+          "endMs": 36290,
+          "charStart": 10,
+          "charEnd": 18
+        },
+        {
+          "text": "подписала",
+          "startMs": 36290,
+          "endMs": 36690,
+          "charStart": 19,
+          "charEnd": 28
+        },
+        {
+          "text": "договор",
+          "startMs": 36690,
+          "endMs": 37090,
+          "charStart": 29,
+          "charEnd": 36
+        },
+        {
+          "text": "и",
+          "startMs": 37090,
+          "endMs": 37220,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "получила",
+          "startMs": 37220,
+          "endMs": 37580,
+          "charStart": 39,
+          "charEnd": 47
+        },
+        {
+          "text": "заветные",
+          "startMs": 37580,
+          "endMs": 38050,
+          "charStart": 48,
+          "charEnd": 56
+        },
+        {
+          "text": "ключи",
+          "startMs": 38050,
+          "endMs": 38470,
+          "charStart": 57,
+          "charEnd": 62
+        }
+      ]
+    }
+  ]
+}

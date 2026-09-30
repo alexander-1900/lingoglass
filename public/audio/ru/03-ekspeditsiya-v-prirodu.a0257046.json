@@ -1,0 +1,809 @@
+{
+  "version": 3,
+  "lang": "ru",
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 54570,
+  "sentences": [
+    {
+      "text": "Научная экспедиция отправилась в труднодоступный высокогорный заповедник для изучения местной фауны.",
+      "startMs": 0,
+      "endMs": 5352,
+      "words": [
+        {
+          "text": "Научная",
+          "startMs": 100,
+          "endMs": 620,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "экспедиция",
+          "startMs": 620,
+          "endMs": 1190,
+          "charStart": 8,
+          "charEnd": 18
+        },
+        {
+          "text": "отправилась",
+          "startMs": 1190,
+          "endMs": 1690,
+          "charStart": 19,
+          "charEnd": 30
+        },
+        {
+          "text": "в",
+          "startMs": 1690,
+          "endMs": 1740,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "труднодоступный",
+          "startMs": 1740,
+          "endMs": 2340,
+          "charStart": 33,
+          "charEnd": 48
+        },
+        {
+          "text": "высокогорный",
+          "startMs": 2340,
+          "endMs": 2880,
+          "charStart": 49,
+          "charEnd": 61
+        },
+        {
+          "text": "заповедник",
+          "startMs": 2880,
+          "endMs": 3360,
+          "charStart": 62,
+          "charEnd": 72
+        },
+        {
+          "text": "для",
+          "startMs": 3360,
+          "endMs": 3480,
+          "charStart": 73,
+          "charEnd": 76
+        },
+        {
+          "text": "изучения",
+          "startMs": 3480,
+          "endMs": 3920,
+          "charStart": 77,
+          "charEnd": 85
+        },
+        {
+          "text": "местной",
+          "startMs": 3920,
+          "endMs": 4220,
+          "charStart": 86,
+          "charEnd": 93
+        },
+        {
+          "text": "фауны",
+          "startMs": 4220,
+          "endMs": 4620,
+          "charStart": 94,
+          "charEnd": 99
+        }
+      ]
+    },
+    {
+      "text": "Участники похода заранее подготовили надёжное снаряжение, способное выдержать непредсказуемые капризы погоды.",
+      "startMs": 5602,
+      "endMs": 11722,
+      "words": [
+        {
+          "text": "Участники",
+          "startMs": 5702,
+          "endMs": 6252,
+          "charStart": 0,
+          "charEnd": 9
+        },
+        {
+          "text": "похода",
+          "startMs": 6252,
+          "endMs": 6572,
+          "charStart": 10,
+          "charEnd": 16
+        },
+        {
+          "text": "заранее",
+          "startMs": 6572,
+          "endMs": 6952,
+          "charStart": 17,
+          "charEnd": 24
+        },
+        {
+          "text": "подготовили",
+          "startMs": 6952,
+          "endMs": 7402,
+          "charStart": 25,
+          "charEnd": 36
+        },
+        {
+          "text": "надёжное",
+          "startMs": 7402,
+          "endMs": 7792,
+          "charStart": 37,
+          "charEnd": 45
+        },
+        {
+          "text": "снаряжение",
+          "startMs": 7792,
+          "endMs": 8302,
+          "charStart": 46,
+          "charEnd": 56
+        },
+        {
+          "text": "способное",
+          "startMs": 8552,
+          "endMs": 9022,
+          "charStart": 58,
+          "charEnd": 67
+        },
+        {
+          "text": "выдержать",
+          "startMs": 9022,
+          "endMs": 9462,
+          "charStart": 68,
+          "charEnd": 77
+        },
+        {
+          "text": "непредсказуемые",
+          "startMs": 9462,
+          "endMs": 10202,
+          "charStart": 78,
+          "charEnd": 93
+        },
+        {
+          "text": "капризы",
+          "startMs": 10202,
+          "endMs": 10562,
+          "charStart": 94,
+          "charEnd": 101
+        },
+        {
+          "text": "погоды",
+          "startMs": 10562,
+          "endMs": 11002,
+          "charStart": 102,
+          "charEnd": 108
+        }
+      ]
+    },
+    {
+      "text": "Преодолевая бурные горные реки, учёные продвигались вглубь неизведанных таёжных территорий.",
+      "startMs": 11972,
+      "endMs": 16940,
+      "words": [
+        {
+          "text": "Преодолевая",
+          "startMs": 12072,
+          "endMs": 12552,
+          "charStart": 0,
+          "charEnd": 11
+        },
+        {
+          "text": "бурные",
+          "startMs": 12552,
+          "endMs": 12902,
+          "charStart": 12,
+          "charEnd": 18
+        },
+        {
+          "text": "горные",
+          "startMs": 12902,
+          "endMs": 13212,
+          "charStart": 19,
+          "charEnd": 25
+        },
+        {
+          "text": "реки",
+          "startMs": 13212,
+          "endMs": 13452,
+          "charStart": 26,
+          "charEnd": 30
+        },
+        {
+          "text": "учёные",
+          "startMs": 13722,
+          "endMs": 14032,
+          "charStart": 32,
+          "charEnd": 38
+        },
+        {
+          "text": "продвигались",
+          "startMs": 14032,
+          "endMs": 14492,
+          "charStart": 39,
+          "charEnd": 51
+        },
+        {
+          "text": "вглубь",
+          "startMs": 14492,
+          "endMs": 14852,
+          "charStart": 52,
+          "charEnd": 58
+        },
+        {
+          "text": "неизведанных",
+          "startMs": 14852,
+          "endMs": 15382,
+          "charStart": 59,
+          "charEnd": 71
+        },
+        {
+          "text": "таёжных",
+          "startMs": 15382,
+          "endMs": 15752,
+          "charStart": 72,
+          "charEnd": 79
+        },
+        {
+          "text": "территорий",
+          "startMs": 15752,
+          "endMs": 16252,
+          "charStart": 80,
+          "charEnd": 90
+        }
+      ]
+    },
+    {
+      "text": "Биологи установили скрытые фотоловушки с целью круглосуточного отслеживания редких хищников.",
+      "startMs": 17190,
+      "endMs": 22398,
+      "words": [
+        {
+          "text": "Биологи",
+          "startMs": 17290,
+          "endMs": 17800,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "установили",
+          "startMs": 17800,
+          "endMs": 18200,
+          "charStart": 8,
+          "charEnd": 18
+        },
+        {
+          "text": "скрытые",
+          "startMs": 18200,
+          "endMs": 18550,
+          "charStart": 19,
+          "charEnd": 26
+        },
+        {
+          "text": "фотоловушки",
+          "startMs": 18550,
+          "endMs": 19120,
+          "charStart": 27,
+          "charEnd": 38
+        },
+        {
+          "text": "с",
+          "startMs": 19120,
+          "endMs": 19190,
+          "charStart": 39,
+          "charEnd": 40
+        },
+        {
+          "text": "целью",
+          "startMs": 19190,
+          "endMs": 19530,
+          "charStart": 41,
+          "charEnd": 46
+        },
+        {
+          "text": "круглосуточного",
+          "startMs": 19530,
+          "endMs": 20260,
+          "charStart": 47,
+          "charEnd": 62
+        },
+        {
+          "text": "отслеживания",
+          "startMs": 20260,
+          "endMs": 20830,
+          "charStart": 63,
+          "charEnd": 75
+        },
+        {
+          "text": "редких",
+          "startMs": 20830,
+          "endMs": 21120,
+          "charStart": 76,
+          "charEnd": 82
+        },
+        {
+          "text": "хищников",
+          "startMs": 21120,
+          "endMs": 21660,
+          "charStart": 83,
+          "charEnd": 91
+        }
+      ]
+    },
+    {
+      "text": "Собранные полевые образцы представляли огромную ценность для дальнейших лабораторных исследований.",
+      "startMs": 22648,
+      "endMs": 27688,
+      "words": [
+        {
+          "text": "Собранные",
+          "startMs": 22748,
+          "endMs": 23268,
+          "charStart": 0,
+          "charEnd": 9
+        },
+        {
+          "text": "полевые",
+          "startMs": 23268,
+          "endMs": 23588,
+          "charStart": 10,
+          "charEnd": 17
+        },
+        {
+          "text": "образцы",
+          "startMs": 23588,
+          "endMs": 23998,
+          "charStart": 18,
+          "charEnd": 25
+        },
+        {
+          "text": "представляли",
+          "startMs": 23998,
+          "endMs": 24518,
+          "charStart": 26,
+          "charEnd": 38
+        },
+        {
+          "text": "огромную",
+          "startMs": 24518,
+          "endMs": 24968,
+          "charStart": 39,
+          "charEnd": 47
+        },
+        {
+          "text": "ценность",
+          "startMs": 24968,
+          "endMs": 25358,
+          "charStart": 48,
+          "charEnd": 56
+        },
+        {
+          "text": "для",
+          "startMs": 25358,
+          "endMs": 25488,
+          "charStart": 57,
+          "charEnd": 60
+        },
+        {
+          "text": "дальнейших",
+          "startMs": 25488,
+          "endMs": 25958,
+          "charStart": 61,
+          "charEnd": 71
+        },
+        {
+          "text": "лабораторных",
+          "startMs": 25958,
+          "endMs": 26428,
+          "charStart": 72,
+          "charEnd": 84
+        },
+        {
+          "text": "исследований",
+          "startMs": 26428,
+          "endMs": 26988,
+          "charStart": 85,
+          "charEnd": 97
+        }
+      ]
+    },
+    {
+      "text": "Вечером у костра исследователи оживлённо обсуждали результаты дневных наблюдений и планировали маршрут.",
+      "startMs": 27938,
+      "endMs": 33698,
+      "words": [
+        {
+          "text": "Вечером",
+          "startMs": 28038,
+          "endMs": 28538,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "у",
+          "startMs": 28538,
+          "endMs": 28638,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "костра",
+          "startMs": 28638,
+          "endMs": 29018,
+          "charStart": 10,
+          "charEnd": 16
+        },
+        {
+          "text": "исследователи",
+          "startMs": 29018,
+          "endMs": 29638,
+          "charStart": 17,
+          "charEnd": 30
+        },
+        {
+          "text": "оживлённо",
+          "startMs": 29638,
+          "endMs": 30158,
+          "charStart": 31,
+          "charEnd": 40
+        },
+        {
+          "text": "обсуждали",
+          "startMs": 30158,
+          "endMs": 30668,
+          "charStart": 41,
+          "charEnd": 50
+        },
+        {
+          "text": "результаты",
+          "startMs": 30668,
+          "endMs": 31078,
+          "charStart": 51,
+          "charEnd": 61
+        },
+        {
+          "text": "дневных",
+          "startMs": 31078,
+          "endMs": 31408,
+          "charStart": 62,
+          "charEnd": 69
+        },
+        {
+          "text": "наблюдений",
+          "startMs": 31408,
+          "endMs": 31898,
+          "charStart": 70,
+          "charEnd": 80
+        },
+        {
+          "text": "и",
+          "startMs": 31898,
+          "endMs": 32048,
+          "charStart": 81,
+          "charEnd": 82
+        },
+        {
+          "text": "планировали",
+          "startMs": 32048,
+          "endMs": 32508,
+          "charStart": 83,
+          "charEnd": 94
+        },
+        {
+          "text": "маршрут",
+          "startMs": 32508,
+          "endMs": 32988,
+          "charStart": 95,
+          "charEnd": 102
+        }
+      ]
+    },
+    {
+      "text": "Внезапное ухудшение климатических условий вынудило группу задержаться в базовом лагере.",
+      "startMs": 33948,
+      "endMs": 38844,
+      "words": [
+        {
+          "text": "Внезапное",
+          "startMs": 34048,
+          "endMs": 34658,
+          "charStart": 0,
+          "charEnd": 9
+        },
+        {
+          "text": "ухудшение",
+          "startMs": 34658,
+          "endMs": 35178,
+          "charStart": 10,
+          "charEnd": 19
+        },
+        {
+          "text": "климатических",
+          "startMs": 35178,
+          "endMs": 35748,
+          "charStart": 20,
+          "charEnd": 33
+        },
+        {
+          "text": "условий",
+          "startMs": 35748,
+          "endMs": 36098,
+          "charStart": 34,
+          "charEnd": 41
+        },
+        {
+          "text": "вынудило",
+          "startMs": 36098,
+          "endMs": 36508,
+          "charStart": 42,
+          "charEnd": 50
+        },
+        {
+          "text": "группу",
+          "startMs": 36508,
+          "endMs": 36798,
+          "charStart": 51,
+          "charEnd": 57
+        },
+        {
+          "text": "задержаться",
+          "startMs": 36798,
+          "endMs": 37318,
+          "charStart": 58,
+          "charEnd": 69
+        },
+        {
+          "text": "в",
+          "startMs": 37318,
+          "endMs": 37368,
+          "charStart": 70,
+          "charEnd": 71
+        },
+        {
+          "text": "базовом",
+          "startMs": 37368,
+          "endMs": 37718,
+          "charStart": 72,
+          "charEnd": 79
+        },
+        {
+          "text": "лагере",
+          "startMs": 37718,
+          "endMs": 38148,
+          "charStart": 80,
+          "charEnd": 86
+        }
+      ]
+    },
+    {
+      "text": "Несмотря на накопившуюся усталость, энтузиазм молодых исследователей нисколько не угасал.",
+      "startMs": 39094,
+      "endMs": 44014,
+      "words": [
+        {
+          "text": "Несмотря",
+          "startMs": 39194,
+          "endMs": 39664,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "на",
+          "startMs": 39664,
+          "endMs": 39724,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "накопившуюся",
+          "startMs": 39724,
+          "endMs": 40284,
+          "charStart": 12,
+          "charEnd": 24
+        },
+        {
+          "text": "усталость",
+          "startMs": 40284,
+          "endMs": 40694,
+          "charStart": 25,
+          "charEnd": 34
+        },
+        {
+          "text": "энтузиазм",
+          "startMs": 40914,
+          "endMs": 41374,
+          "charStart": 36,
+          "charEnd": 45
+        },
+        {
+          "text": "молодых",
+          "startMs": 41374,
+          "endMs": 41694,
+          "charStart": 46,
+          "charEnd": 53
+        },
+        {
+          "text": "исследователей",
+          "startMs": 41694,
+          "endMs": 42254,
+          "charStart": 54,
+          "charEnd": 68
+        },
+        {
+          "text": "нисколько",
+          "startMs": 42254,
+          "endMs": 42704,
+          "charStart": 69,
+          "charEnd": 78
+        },
+        {
+          "text": "не",
+          "startMs": 42704,
+          "endMs": 42794,
+          "charStart": 79,
+          "charEnd": 81
+        },
+        {
+          "text": "угасал",
+          "startMs": 42794,
+          "endMs": 43284,
+          "charStart": 82,
+          "charEnd": 88
+        }
+      ]
+    },
+    {
+      "text": "Экспедиция увенчалась обнаружением ранее неизвестного науке эндемичного подвида бабочек.",
+      "startMs": 44264,
+      "endMs": 49232,
+      "words": [
+        {
+          "text": "Экспедиция",
+          "startMs": 44364,
+          "endMs": 45034,
+          "charStart": 0,
+          "charEnd": 10
+        },
+        {
+          "text": "увенчалась",
+          "startMs": 45034,
+          "endMs": 45494,
+          "charStart": 11,
+          "charEnd": 21
+        },
+        {
+          "text": "обнаружением",
+          "startMs": 45494,
+          "endMs": 46024,
+          "charStart": 22,
+          "charEnd": 34
+        },
+        {
+          "text": "ранее",
+          "startMs": 46024,
+          "endMs": 46314,
+          "charStart": 35,
+          "charEnd": 40
+        },
+        {
+          "text": "неизвестного",
+          "startMs": 46314,
+          "endMs": 46774,
+          "charStart": 41,
+          "charEnd": 53
+        },
+        {
+          "text": "науке",
+          "startMs": 46774,
+          "endMs": 47154,
+          "charStart": 54,
+          "charEnd": 59
+        },
+        {
+          "text": "эндемичного",
+          "startMs": 47154,
+          "endMs": 47694,
+          "charStart": 60,
+          "charEnd": 71
+        },
+        {
+          "text": "подвида",
+          "startMs": 47694,
+          "endMs": 48034,
+          "charStart": 72,
+          "charEnd": 79
+        },
+        {
+          "text": "бабочек",
+          "startMs": 48034,
+          "endMs": 48534,
+          "charStart": 80,
+          "charEnd": 87
+        }
+      ]
+    },
+    {
+      "text": "Данное открытие внесло неоценимый вклад в сохранение хрупкого экологического баланса региона.",
+      "startMs": 49482,
+      "endMs": 54570,
+      "words": [
+        {
+          "text": "Данное",
+          "startMs": 49582,
+          "endMs": 50032,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "открытие",
+          "startMs": 50032,
+          "endMs": 50392,
+          "charStart": 7,
+          "charEnd": 15
+        },
+        {
+          "text": "внесло",
+          "startMs": 50392,
+          "endMs": 50742,
+          "charStart": 16,
+          "charEnd": 22
+        },
+        {
+          "text": "неоценимый",
+          "startMs": 50742,
+          "endMs": 51202,
+          "charStart": 23,
+          "charEnd": 33
+        },
+        {
+          "text": "вклад",
+          "startMs": 51202,
+          "endMs": 51482,
+          "charStart": 34,
+          "charEnd": 39
+        },
+        {
+          "text": "в",
+          "startMs": 51482,
+          "endMs": 51522,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "сохранение",
+          "startMs": 51522,
+          "endMs": 52002,
+          "charStart": 42,
+          "charEnd": 52
+        },
+        {
+          "text": "хрупкого",
+          "startMs": 52002,
+          "endMs": 52472,
+          "charStart": 53,
+          "charEnd": 61
+        },
+        {
+          "text": "экологического",
+          "startMs": 52472,
+          "endMs": 53082,
+          "charStart": 62,
+          "charEnd": 76
+        },
+        {
+          "text": "баланса",
+          "startMs": 53082,
+          "endMs": 53422,
+          "charStart": 77,
+          "charEnd": 84
+        },
+        {
+          "text": "региона",
+          "startMs": 53422,
+          "endMs": 53882,
+          "charStart": 85,
+          "charEnd": 92
+        }
+      ]
+    }
+  ]
+}

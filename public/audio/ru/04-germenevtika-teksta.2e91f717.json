@@ -1,0 +1,809 @@
+{
+  "version": 3,
+  "lang": "ru",
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 59898,
+  "sentences": [
+    {
+      "text": "Интерпретация древнего сакрального манускрипта неизменно наталкивается на герменевтический круг смысловой неопределённости.",
+      "startMs": 0,
+      "endMs": 6048,
+      "words": [
+        {
+          "text": "Интерпретация",
+          "startMs": 100,
+          "endMs": 810,
+          "charStart": 0,
+          "charEnd": 13
+        },
+        {
+          "text": "древнего",
+          "startMs": 810,
+          "endMs": 1160,
+          "charStart": 14,
+          "charEnd": 22
+        },
+        {
+          "text": "сакрального",
+          "startMs": 1160,
+          "endMs": 1570,
+          "charStart": 23,
+          "charEnd": 34
+        },
+        {
+          "text": "манускрипта",
+          "startMs": 1570,
+          "endMs": 2080,
+          "charStart": 35,
+          "charEnd": 46
+        },
+        {
+          "text": "неизменно",
+          "startMs": 2080,
+          "endMs": 2530,
+          "charStart": 47,
+          "charEnd": 56
+        },
+        {
+          "text": "наталкивается",
+          "startMs": 2530,
+          "endMs": 3100,
+          "charStart": 57,
+          "charEnd": 70
+        },
+        {
+          "text": "на",
+          "startMs": 3100,
+          "endMs": 3210,
+          "charStart": 71,
+          "charEnd": 73
+        },
+        {
+          "text": "герменевтический",
+          "startMs": 3210,
+          "endMs": 3910,
+          "charStart": 74,
+          "charEnd": 90
+        },
+        {
+          "text": "круг",
+          "startMs": 3910,
+          "endMs": 4120,
+          "charStart": 91,
+          "charEnd": 95
+        },
+        {
+          "text": "смысловой",
+          "startMs": 4120,
+          "endMs": 4590,
+          "charStart": 96,
+          "charEnd": 105
+        },
+        {
+          "text": "неопределённости",
+          "startMs": 4590,
+          "endMs": 5340,
+          "charStart": 106,
+          "charEnd": 122
+        }
+      ]
+    },
+    {
+      "text": "Архаичные лексические пласты ускользают от прямолинейной трансляции на язык современной цивилизации.",
+      "startMs": 6298,
+      "endMs": 11746,
+      "words": [
+        {
+          "text": "Архаичные",
+          "startMs": 6398,
+          "endMs": 6998,
+          "charStart": 0,
+          "charEnd": 9
+        },
+        {
+          "text": "лексические",
+          "startMs": 6998,
+          "endMs": 7498,
+          "charStart": 10,
+          "charEnd": 21
+        },
+        {
+          "text": "пласты",
+          "startMs": 7498,
+          "endMs": 7848,
+          "charStart": 22,
+          "charEnd": 28
+        },
+        {
+          "text": "ускользают",
+          "startMs": 7848,
+          "endMs": 8438,
+          "charStart": 29,
+          "charEnd": 39
+        },
+        {
+          "text": "от",
+          "startMs": 8438,
+          "endMs": 8558,
+          "charStart": 40,
+          "charEnd": 42
+        },
+        {
+          "text": "прямолинейной",
+          "startMs": 8558,
+          "endMs": 9048,
+          "charStart": 43,
+          "charEnd": 56
+        },
+        {
+          "text": "трансляции",
+          "startMs": 9048,
+          "endMs": 9578,
+          "charStart": 57,
+          "charEnd": 67
+        },
+        {
+          "text": "на",
+          "startMs": 9578,
+          "endMs": 9668,
+          "charStart": 68,
+          "charEnd": 70
+        },
+        {
+          "text": "язык",
+          "startMs": 9668,
+          "endMs": 9918,
+          "charStart": 71,
+          "charEnd": 75
+        },
+        {
+          "text": "современной",
+          "startMs": 9918,
+          "endMs": 10378,
+          "charStart": 76,
+          "charEnd": 87
+        },
+        {
+          "text": "цивилизации",
+          "startMs": 10378,
+          "endMs": 11068,
+          "charStart": 88,
+          "charEnd": 99
+        }
+      ]
+    },
+    {
+      "text": "Пытаясь дешифровать завуалированные аллегории, филолог вынужден реконструировать ментальный универсум исчезнувшей культуры.",
+      "startMs": 11996,
+      "endMs": 18284,
+      "words": [
+        {
+          "text": "Пытаясь",
+          "startMs": 12096,
+          "endMs": 12466,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "дешифровать",
+          "startMs": 12466,
+          "endMs": 12926,
+          "charStart": 8,
+          "charEnd": 19
+        },
+        {
+          "text": "завуалированные",
+          "startMs": 12926,
+          "endMs": 13526,
+          "charStart": 20,
+          "charEnd": 35
+        },
+        {
+          "text": "аллегории",
+          "startMs": 13526,
+          "endMs": 14016,
+          "charStart": 36,
+          "charEnd": 45
+        },
+        {
+          "text": "филолог",
+          "startMs": 14256,
+          "endMs": 14606,
+          "charStart": 47,
+          "charEnd": 54
+        },
+        {
+          "text": "вынужден",
+          "startMs": 14606,
+          "endMs": 15006,
+          "charStart": 55,
+          "charEnd": 63
+        },
+        {
+          "text": "реконструировать",
+          "startMs": 15006,
+          "endMs": 15616,
+          "charStart": 64,
+          "charEnd": 80
+        },
+        {
+          "text": "ментальный",
+          "startMs": 15616,
+          "endMs": 16066,
+          "charStart": 81,
+          "charEnd": 91
+        },
+        {
+          "text": "универсум",
+          "startMs": 16066,
+          "endMs": 16556,
+          "charStart": 92,
+          "charEnd": 101
+        },
+        {
+          "text": "исчезнувшей",
+          "startMs": 16556,
+          "endMs": 17096,
+          "charStart": 102,
+          "charEnd": 113
+        },
+        {
+          "text": "культуры",
+          "startMs": 17096,
+          "endMs": 17536,
+          "charStart": 114,
+          "charEnd": 122
+        }
+      ]
+    },
+    {
+      "text": "Метафорическая плотность сакрального текста порождает множественность взаимоисключающих экзегетических прочтений.",
+      "startMs": 18534,
+      "endMs": 24438,
+      "words": [
+        {
+          "text": "Метафорическая",
+          "startMs": 18634,
+          "endMs": 19354,
+          "charStart": 0,
+          "charEnd": 14
+        },
+        {
+          "text": "плотность",
+          "startMs": 19354,
+          "endMs": 19714,
+          "charStart": 15,
+          "charEnd": 24
+        },
+        {
+          "text": "сакрального",
+          "startMs": 19714,
+          "endMs": 20184,
+          "charStart": 25,
+          "charEnd": 36
+        },
+        {
+          "text": "текста",
+          "startMs": 20184,
+          "endMs": 20494,
+          "charStart": 37,
+          "charEnd": 43
+        },
+        {
+          "text": "порождает",
+          "startMs": 20494,
+          "endMs": 20904,
+          "charStart": 44,
+          "charEnd": 53
+        },
+        {
+          "text": "множественность",
+          "startMs": 20904,
+          "endMs": 21534,
+          "charStart": 54,
+          "charEnd": 69
+        },
+        {
+          "text": "взаимоисключающих",
+          "startMs": 21534,
+          "endMs": 22554,
+          "charStart": 70,
+          "charEnd": 87
+        },
+        {
+          "text": "экзегетических",
+          "startMs": 22554,
+          "endMs": 23164,
+          "charStart": 88,
+          "charEnd": 102
+        },
+        {
+          "text": "прочтений",
+          "startMs": 23164,
+          "endMs": 23754,
+          "charStart": 103,
+          "charEnd": 112
+        }
+      ]
+    },
+    {
+      "text": "Буквальный подстрочник, претендующий на объективность, безвозвратно уничтожает глубинную поэтическую суггестию оригинала.",
+      "startMs": 24688,
+      "endMs": 31120,
+      "words": [
+        {
+          "text": "Буквальный",
+          "startMs": 24788,
+          "endMs": 25328,
+          "charStart": 0,
+          "charEnd": 10
+        },
+        {
+          "text": "подстрочник",
+          "startMs": 25328,
+          "endMs": 25908,
+          "charStart": 11,
+          "charEnd": 22
+        },
+        {
+          "text": "претендующий",
+          "startMs": 25998,
+          "endMs": 26528,
+          "charStart": 24,
+          "charEnd": 36
+        },
+        {
+          "text": "на",
+          "startMs": 26528,
+          "endMs": 26608,
+          "charStart": 37,
+          "charEnd": 39
+        },
+        {
+          "text": "объективность",
+          "startMs": 26608,
+          "endMs": 27138,
+          "charStart": 40,
+          "charEnd": 53
+        },
+        {
+          "text": "безвозвратно",
+          "startMs": 27298,
+          "endMs": 27818,
+          "charStart": 55,
+          "charEnd": 67
+        },
+        {
+          "text": "уничтожает",
+          "startMs": 27818,
+          "endMs": 28338,
+          "charStart": 68,
+          "charEnd": 78
+        },
+        {
+          "text": "глубинную",
+          "startMs": 28338,
+          "endMs": 28808,
+          "charStart": 79,
+          "charEnd": 88
+        },
+        {
+          "text": "поэтическую",
+          "startMs": 28808,
+          "endMs": 29308,
+          "charStart": 89,
+          "charEnd": 100
+        },
+        {
+          "text": "суггестию",
+          "startMs": 29308,
+          "endMs": 29788,
+          "charStart": 101,
+          "charEnd": 110
+        },
+        {
+          "text": "оригинала",
+          "startMs": 29788,
+          "endMs": 30408,
+          "charStart": 111,
+          "charEnd": 120
+        }
+      ]
+    },
+    {
+      "text": "Переводчик оказывается канатоходцем, балансирующим над зияющей пропастью неизбежной семантической энтропии.",
+      "startMs": 31370,
+      "endMs": 37106,
+      "words": [
+        {
+          "text": "Переводчик",
+          "startMs": 31470,
+          "endMs": 31900,
+          "charStart": 0,
+          "charEnd": 10
+        },
+        {
+          "text": "оказывается",
+          "startMs": 31900,
+          "endMs": 32380,
+          "charStart": 11,
+          "charEnd": 22
+        },
+        {
+          "text": "канатоходцем",
+          "startMs": 32380,
+          "endMs": 32980,
+          "charStart": 23,
+          "charEnd": 35
+        },
+        {
+          "text": "балансирующим",
+          "startMs": 33210,
+          "endMs": 33780,
+          "charStart": 37,
+          "charEnd": 50
+        },
+        {
+          "text": "над",
+          "startMs": 33780,
+          "endMs": 33900,
+          "charStart": 51,
+          "charEnd": 54
+        },
+        {
+          "text": "зияющей",
+          "startMs": 33900,
+          "endMs": 34340,
+          "charStart": 55,
+          "charEnd": 62
+        },
+        {
+          "text": "пропастью",
+          "startMs": 34340,
+          "endMs": 34750,
+          "charStart": 63,
+          "charEnd": 72
+        },
+        {
+          "text": "неизбежной",
+          "startMs": 34750,
+          "endMs": 35260,
+          "charStart": 73,
+          "charEnd": 83
+        },
+        {
+          "text": "семантической",
+          "startMs": 35260,
+          "endMs": 35840,
+          "charStart": 84,
+          "charEnd": 97
+        },
+        {
+          "text": "энтропии",
+          "startMs": 35840,
+          "endMs": 36430,
+          "charStart": 98,
+          "charEnd": 106
+        }
+      ]
+    },
+    {
+      "text": "Лишь проявив предельную филологическую чуткость, можно нащупать неуловимый авторский импульс.",
+      "startMs": 37356,
+      "endMs": 42612,
+      "words": [
+        {
+          "text": "Лишь",
+          "startMs": 37456,
+          "endMs": 37796,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "проявив",
+          "startMs": 37796,
+          "endMs": 38126,
+          "charStart": 5,
+          "charEnd": 12
+        },
+        {
+          "text": "предельную",
+          "startMs": 38126,
+          "endMs": 38556,
+          "charStart": 13,
+          "charEnd": 23
+        },
+        {
+          "text": "филологическую",
+          "startMs": 38556,
+          "endMs": 39156,
+          "charStart": 24,
+          "charEnd": 38
+        },
+        {
+          "text": "чуткость",
+          "startMs": 39156,
+          "endMs": 39536,
+          "charStart": 39,
+          "charEnd": 47
+        },
+        {
+          "text": "можно",
+          "startMs": 39736,
+          "endMs": 40006,
+          "charStart": 49,
+          "charEnd": 54
+        },
+        {
+          "text": "нащупать",
+          "startMs": 40006,
+          "endMs": 40436,
+          "charStart": 55,
+          "charEnd": 63
+        },
+        {
+          "text": "неуловимый",
+          "startMs": 40436,
+          "endMs": 41056,
+          "charStart": 64,
+          "charEnd": 74
+        },
+        {
+          "text": "авторский",
+          "startMs": 41056,
+          "endMs": 41466,
+          "charStart": 75,
+          "charEnd": 84
+        },
+        {
+          "text": "импульс",
+          "startMs": 41466,
+          "endMs": 41926,
+          "charStart": 85,
+          "charEnd": 92
+        }
+      ]
+    },
+    {
+      "text": "Каждая эпоха проецирует собственные аксиологические установки на прочитанные сквозь века страницы.",
+      "startMs": 42862,
+      "endMs": 48094,
+      "words": [
+        {
+          "text": "Каждая",
+          "startMs": 42962,
+          "endMs": 43382,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "эпоха",
+          "startMs": 43382,
+          "endMs": 43722,
+          "charStart": 7,
+          "charEnd": 12
+        },
+        {
+          "text": "проецирует",
+          "startMs": 43722,
+          "endMs": 44172,
+          "charStart": 13,
+          "charEnd": 23
+        },
+        {
+          "text": "собственные",
+          "startMs": 44172,
+          "endMs": 44622,
+          "charStart": 24,
+          "charEnd": 35
+        },
+        {
+          "text": "аксиологические",
+          "startMs": 44622,
+          "endMs": 45352,
+          "charStart": 36,
+          "charEnd": 51
+        },
+        {
+          "text": "установки",
+          "startMs": 45352,
+          "endMs": 45792,
+          "charStart": 52,
+          "charEnd": 61
+        },
+        {
+          "text": "на",
+          "startMs": 45792,
+          "endMs": 45882,
+          "charStart": 62,
+          "charEnd": 64
+        },
+        {
+          "text": "прочитанные",
+          "startMs": 45882,
+          "endMs": 46362,
+          "charStart": 65,
+          "charEnd": 76
+        },
+        {
+          "text": "сквозь",
+          "startMs": 46362,
+          "endMs": 46622,
+          "charStart": 77,
+          "charEnd": 83
+        },
+        {
+          "text": "века",
+          "startMs": 46622,
+          "endMs": 46832,
+          "charStart": 84,
+          "charEnd": 88
+        },
+        {
+          "text": "страницы",
+          "startMs": 46832,
+          "endMs": 47372,
+          "charStart": 89,
+          "charEnd": 97
+        }
+      ]
+    },
+    {
+      "text": "Бесконечная реинтерпретация классического наследия свидетельствует о неисчерпаемом потенциале человеческого слова.",
+      "startMs": 48344,
+      "endMs": 54296,
+      "words": [
+        {
+          "text": "Бесконечная",
+          "startMs": 48444,
+          "endMs": 49154,
+          "charStart": 0,
+          "charEnd": 11
+        },
+        {
+          "text": "реинтерпретация",
+          "startMs": 49154,
+          "endMs": 49894,
+          "charStart": 12,
+          "charEnd": 27
+        },
+        {
+          "text": "классического",
+          "startMs": 49894,
+          "endMs": 50394,
+          "charStart": 28,
+          "charEnd": 41
+        },
+        {
+          "text": "наследия",
+          "startMs": 50394,
+          "endMs": 50834,
+          "charStart": 42,
+          "charEnd": 50
+        },
+        {
+          "text": "свидетельствует",
+          "startMs": 50834,
+          "endMs": 51494,
+          "charStart": 51,
+          "charEnd": 66
+        },
+        {
+          "text": "о",
+          "startMs": 51494,
+          "endMs": 51554,
+          "charStart": 67,
+          "charEnd": 68
+        },
+        {
+          "text": "неисчерпаемом",
+          "startMs": 51554,
+          "endMs": 52174,
+          "charStart": 69,
+          "charEnd": 82
+        },
+        {
+          "text": "потенциале",
+          "startMs": 52174,
+          "endMs": 52664,
+          "charStart": 83,
+          "charEnd": 93
+        },
+        {
+          "text": "человеческого",
+          "startMs": 52664,
+          "endMs": 53174,
+          "charStart": 94,
+          "charEnd": 107
+        },
+        {
+          "text": "слова",
+          "startMs": 53174,
+          "endMs": 53564,
+          "charStart": 108,
+          "charEnd": 113
+        }
+      ]
+    },
+    {
+      "text": "Диалог культур через тысячелетия оказывается возможным вопреки фундаментальной полисемии языка.",
+      "startMs": 54546,
+      "endMs": 59898,
+      "words": [
+        {
+          "text": "Диалог",
+          "startMs": 54646,
+          "endMs": 55116,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "культур",
+          "startMs": 55116,
+          "endMs": 55476,
+          "charStart": 7,
+          "charEnd": 14
+        },
+        {
+          "text": "через",
+          "startMs": 55476,
+          "endMs": 55716,
+          "charStart": 15,
+          "charEnd": 20
+        },
+        {
+          "text": "тысячелетия",
+          "startMs": 55716,
+          "endMs": 56296,
+          "charStart": 21,
+          "charEnd": 32
+        },
+        {
+          "text": "оказывается",
+          "startMs": 56296,
+          "endMs": 56836,
+          "charStart": 33,
+          "charEnd": 44
+        },
+        {
+          "text": "возможным",
+          "startMs": 56836,
+          "endMs": 57276,
+          "charStart": 45,
+          "charEnd": 54
+        },
+        {
+          "text": "вопреки",
+          "startMs": 57276,
+          "endMs": 57626,
+          "charStart": 55,
+          "charEnd": 62
+        },
+        {
+          "text": "фундаментальной",
+          "startMs": 57626,
+          "endMs": 58256,
+          "charStart": 63,
+          "charEnd": 78
+        },
+        {
+          "text": "полисемии",
+          "startMs": 58256,
+          "endMs": 58696,
+          "charStart": 79,
+          "charEnd": 88
+        },
+        {
+          "text": "языка",
+          "startMs": 58696,
+          "endMs": 59156,
+          "charStart": 89,
+          "charEnd": 94
+        }
+      ]
+    }
+  ]
+}

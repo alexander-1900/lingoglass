@@ -1,0 +1,634 @@
+{
+  "version": 3,
+  "lang": "ru",
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 41226,
+  "sentences": [
+    {
+      "text": "Через две недели Алине предстояло сдать сложный международный экзамен.",
+      "startMs": 0,
+      "endMs": 3984,
+      "words": [
+        {
+          "text": "Через",
+          "startMs": 100,
+          "endMs": 390,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "две",
+          "startMs": 390,
+          "endMs": 530,
+          "charStart": 6,
+          "charEnd": 9
+        },
+        {
+          "text": "недели",
+          "startMs": 530,
+          "endMs": 870,
+          "charStart": 10,
+          "charEnd": 16
+        },
+        {
+          "text": "Алине",
+          "startMs": 870,
+          "endMs": 1260,
+          "charStart": 17,
+          "charEnd": 22
+        },
+        {
+          "text": "предстояло",
+          "startMs": 1260,
+          "endMs": 1720,
+          "charStart": 23,
+          "charEnd": 33
+        },
+        {
+          "text": "сдать",
+          "startMs": 1720,
+          "endMs": 1940,
+          "charStart": 34,
+          "charEnd": 39
+        },
+        {
+          "text": "сложный",
+          "startMs": 1940,
+          "endMs": 2340,
+          "charStart": 40,
+          "charEnd": 47
+        },
+        {
+          "text": "международный",
+          "startMs": 2340,
+          "endMs": 2860,
+          "charStart": 48,
+          "charEnd": 61
+        },
+        {
+          "text": "экзамен",
+          "startMs": 2860,
+          "endMs": 3260,
+          "charStart": 62,
+          "charEnd": 69
+        }
+      ]
+    },
+    {
+      "text": "Она составила подробный график, чтобы успеть повторить материал.",
+      "startMs": 4234,
+      "endMs": 8122,
+      "words": [
+        {
+          "text": "Она",
+          "startMs": 4334,
+          "endMs": 4614,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "составила",
+          "startMs": 4614,
+          "endMs": 5064,
+          "charStart": 4,
+          "charEnd": 13
+        },
+        {
+          "text": "подробный",
+          "startMs": 5064,
+          "endMs": 5464,
+          "charStart": 14,
+          "charEnd": 23
+        },
+        {
+          "text": "график",
+          "startMs": 5464,
+          "endMs": 5794,
+          "charStart": 24,
+          "charEnd": 30
+        },
+        {
+          "text": "чтобы",
+          "startMs": 5944,
+          "endMs": 6184,
+          "charStart": 32,
+          "charEnd": 37
+        },
+        {
+          "text": "успеть",
+          "startMs": 6184,
+          "endMs": 6534,
+          "charStart": 38,
+          "charEnd": 44
+        },
+        {
+          "text": "повторить",
+          "startMs": 6534,
+          "endMs": 6944,
+          "charStart": 45,
+          "charEnd": 54
+        },
+        {
+          "text": "материал",
+          "startMs": 6944,
+          "endMs": 7454,
+          "charStart": 55,
+          "charEnd": 63
+        }
+      ]
+    },
+    {
+      "text": "Девушка ежедневно занималась чтением и грамматическими упражнениями.",
+      "startMs": 8372,
+      "endMs": 12620,
+      "words": [
+        {
+          "text": "Девушка",
+          "startMs": 8472,
+          "endMs": 8972,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "ежедневно",
+          "startMs": 8972,
+          "endMs": 9442,
+          "charStart": 8,
+          "charEnd": 17
+        },
+        {
+          "text": "занималась",
+          "startMs": 9442,
+          "endMs": 9842,
+          "charStart": 18,
+          "charEnd": 28
+        },
+        {
+          "text": "чтением",
+          "startMs": 9842,
+          "endMs": 10342,
+          "charStart": 29,
+          "charEnd": 36
+        },
+        {
+          "text": "и",
+          "startMs": 10342,
+          "endMs": 10482,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "грамматическими",
+          "startMs": 10482,
+          "endMs": 11132,
+          "charStart": 39,
+          "charEnd": 54
+        },
+        {
+          "text": "упражнениями",
+          "startMs": 11132,
+          "endMs": 11912,
+          "charStart": 55,
+          "charEnd": 67
+        }
+      ]
+    },
+    {
+      "text": "Преподаватель посоветовал ей обращать больше внимания на разговорную практику.",
+      "startMs": 12870,
+      "endMs": 17022,
+      "words": [
+        {
+          "text": "Преподаватель",
+          "startMs": 12970,
+          "endMs": 13550,
+          "charStart": 0,
+          "charEnd": 13
+        },
+        {
+          "text": "посоветовал",
+          "startMs": 13550,
+          "endMs": 14050,
+          "charStart": 14,
+          "charEnd": 25
+        },
+        {
+          "text": "ей",
+          "startMs": 14050,
+          "endMs": 14190,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "обращать",
+          "startMs": 14190,
+          "endMs": 14620,
+          "charStart": 29,
+          "charEnd": 37
+        },
+        {
+          "text": "больше",
+          "startMs": 14620,
+          "endMs": 14930,
+          "charStart": 38,
+          "charEnd": 44
+        },
+        {
+          "text": "внимания",
+          "startMs": 14930,
+          "endMs": 15320,
+          "charStart": 45,
+          "charEnd": 53
+        },
+        {
+          "text": "на",
+          "startMs": 15320,
+          "endMs": 15400,
+          "charStart": 54,
+          "charEnd": 56
+        },
+        {
+          "text": "разговорную",
+          "startMs": 15400,
+          "endMs": 15850,
+          "charStart": 57,
+          "charEnd": 68
+        },
+        {
+          "text": "практику",
+          "startMs": 15850,
+          "endMs": 16300,
+          "charStart": 69,
+          "charEnd": 77
+        }
+      ]
+    },
+    {
+      "text": "Алина боялась, что не сможет запомнить все новые термины.",
+      "startMs": 17272,
+      "endMs": 20896,
+      "words": [
+        {
+          "text": "Алина",
+          "startMs": 17372,
+          "endMs": 17732,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "боялась",
+          "startMs": 17732,
+          "endMs": 18142,
+          "charStart": 6,
+          "charEnd": 13
+        },
+        {
+          "text": "что",
+          "startMs": 18282,
+          "endMs": 18462,
+          "charStart": 15,
+          "charEnd": 18
+        },
+        {
+          "text": "не",
+          "startMs": 18462,
+          "endMs": 18552,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "сможет",
+          "startMs": 18552,
+          "endMs": 18822,
+          "charStart": 22,
+          "charEnd": 28
+        },
+        {
+          "text": "запомнить",
+          "startMs": 18822,
+          "endMs": 19252,
+          "charStart": 29,
+          "charEnd": 38
+        },
+        {
+          "text": "все",
+          "startMs": 19252,
+          "endMs": 19472,
+          "charStart": 39,
+          "charEnd": 42
+        },
+        {
+          "text": "новые",
+          "startMs": 19472,
+          "endMs": 19742,
+          "charStart": 43,
+          "charEnd": 48
+        },
+        {
+          "text": "термины",
+          "startMs": 19742,
+          "endMs": 20172,
+          "charStart": 49,
+          "charEnd": 56
+        }
+      ]
+    },
+    {
+      "text": "Однако систематическая подготовка постепенно принесла хорошие результаты.",
+      "startMs": 21146,
+      "endMs": 25370,
+      "words": [
+        {
+          "text": "Однако",
+          "startMs": 21246,
+          "endMs": 21686,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "систематическая",
+          "startMs": 21686,
+          "endMs": 22356,
+          "charStart": 7,
+          "charEnd": 22
+        },
+        {
+          "text": "подготовка",
+          "startMs": 22356,
+          "endMs": 22846,
+          "charStart": 23,
+          "charEnd": 33
+        },
+        {
+          "text": "постепенно",
+          "startMs": 22846,
+          "endMs": 23336,
+          "charStart": 34,
+          "charEnd": 44
+        },
+        {
+          "text": "принесла",
+          "startMs": 23336,
+          "endMs": 23716,
+          "charStart": 45,
+          "charEnd": 53
+        },
+        {
+          "text": "хорошие",
+          "startMs": 23716,
+          "endMs": 24116,
+          "charStart": 54,
+          "charEnd": 61
+        },
+        {
+          "text": "результаты",
+          "startMs": 24116,
+          "endMs": 24646,
+          "charStart": 62,
+          "charEnd": 72
+        }
+      ]
+    },
+    {
+      "text": "Накануне экзамена она решила хорошо выспаться и отдохнуть.",
+      "startMs": 25620,
+      "endMs": 29316,
+      "words": [
+        {
+          "text": "Накануне",
+          "startMs": 25720,
+          "endMs": 26220,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "экзамена",
+          "startMs": 26220,
+          "endMs": 26640,
+          "charStart": 9,
+          "charEnd": 17
+        },
+        {
+          "text": "она",
+          "startMs": 26640,
+          "endMs": 26860,
+          "charStart": 18,
+          "charEnd": 21
+        },
+        {
+          "text": "решила",
+          "startMs": 26860,
+          "endMs": 27170,
+          "charStart": 22,
+          "charEnd": 28
+        },
+        {
+          "text": "хорошо",
+          "startMs": 27170,
+          "endMs": 27480,
+          "charStart": 29,
+          "charEnd": 35
+        },
+        {
+          "text": "выспаться",
+          "startMs": 27480,
+          "endMs": 28020,
+          "charStart": 36,
+          "charEnd": 45
+        },
+        {
+          "text": "и",
+          "startMs": 28020,
+          "endMs": 28110,
+          "charStart": 46,
+          "charEnd": 47
+        },
+        {
+          "text": "отдохнуть",
+          "startMs": 28110,
+          "endMs": 28620,
+          "charStart": 48,
+          "charEnd": 57
+        }
+      ]
+    },
+    {
+      "text": "Тестовые задания оказались легче, чем она ожидала.",
+      "startMs": 29566,
+      "endMs": 33094,
+      "words": [
+        {
+          "text": "Тестовые",
+          "startMs": 29666,
+          "endMs": 30066,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "задания",
+          "startMs": 30066,
+          "endMs": 30496,
+          "charStart": 9,
+          "charEnd": 16
+        },
+        {
+          "text": "оказались",
+          "startMs": 30496,
+          "endMs": 30976,
+          "charStart": 17,
+          "charEnd": 26
+        },
+        {
+          "text": "легче",
+          "startMs": 30976,
+          "endMs": 31376,
+          "charStart": 27,
+          "charEnd": 32
+        },
+        {
+          "text": "чем",
+          "startMs": 31526,
+          "endMs": 31706,
+          "charStart": 34,
+          "charEnd": 37
+        },
+        {
+          "text": "она",
+          "startMs": 31706,
+          "endMs": 31866,
+          "charStart": 38,
+          "charEnd": 41
+        },
+        {
+          "text": "ожидала",
+          "startMs": 31866,
+          "endMs": 32366,
+          "charStart": 42,
+          "charEnd": 49
+        }
+      ]
+    },
+    {
+      "text": "Через неделю студентка получила долгожданный высокий балл.",
+      "startMs": 33344,
+      "endMs": 36896,
+      "words": [
+        {
+          "text": "Через",
+          "startMs": 33444,
+          "endMs": 33724,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "неделю",
+          "startMs": 33724,
+          "endMs": 34054,
+          "charStart": 6,
+          "charEnd": 12
+        },
+        {
+          "text": "студентка",
+          "startMs": 34054,
+          "endMs": 34514,
+          "charStart": 13,
+          "charEnd": 22
+        },
+        {
+          "text": "получила",
+          "startMs": 34514,
+          "endMs": 34894,
+          "charStart": 23,
+          "charEnd": 31
+        },
+        {
+          "text": "долгожданный",
+          "startMs": 34894,
+          "endMs": 35514,
+          "charStart": 32,
+          "charEnd": 44
+        },
+        {
+          "text": "высокий",
+          "startMs": 35514,
+          "endMs": 35854,
+          "charStart": 45,
+          "charEnd": 52
+        },
+        {
+          "text": "балл",
+          "startMs": 35854,
+          "endMs": 36174,
+          "charStart": 53,
+          "charEnd": 57
+        }
+      ]
+    },
+    {
+      "text": "Благодаря своему упорству Алина поступила в престижный университет.",
+      "startMs": 37146,
+      "endMs": 41226,
+      "words": [
+        {
+          "text": "Благодаря",
+          "startMs": 37246,
+          "endMs": 37706,
+          "charStart": 0,
+          "charEnd": 9
+        },
+        {
+          "text": "своему",
+          "startMs": 37706,
+          "endMs": 38016,
+          "charStart": 10,
+          "charEnd": 16
+        },
+        {
+          "text": "упорству",
+          "startMs": 38016,
+          "endMs": 38466,
+          "charStart": 17,
+          "charEnd": 25
+        },
+        {
+          "text": "Алина",
+          "startMs": 38466,
+          "endMs": 38846,
+          "charStart": 26,
+          "charEnd": 31
+        },
+        {
+          "text": "поступила",
+          "startMs": 38846,
+          "endMs": 39266,
+          "charStart": 32,
+          "charEnd": 41
+        },
+        {
+          "text": "в",
+          "startMs": 39266,
+          "endMs": 39336,
+          "charStart": 42,
+          "charEnd": 43
+        },
+        {
+          "text": "престижный",
+          "startMs": 39336,
+          "endMs": 39856,
+          "charStart": 44,
+          "charEnd": 54
+        },
+        {
+          "text": "университет",
+          "startMs": 39856,
+          "endMs": 40496,
+          "charStart": 55,
+          "charEnd": 66
+        }
+      ]
+    }
+  ]
+}

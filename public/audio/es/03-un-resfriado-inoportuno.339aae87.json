@@ -1,0 +1,963 @@
+{
+  "version": 3,
+  "lang": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 41250,
+  "sentences": [
+    {
+      "text": "El lunes pasado, Javier se despertó con un fuerte dolor de garganta.",
+      "startMs": 0,
+      "endMs": 3960,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 100,
+          "endMs": 280,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "lunes",
+          "startMs": 290,
+          "endMs": 530,
+          "charStart": 3,
+          "charEnd": 8
+        },
+        {
+          "text": "pasado",
+          "startMs": 540,
+          "endMs": 940,
+          "charStart": 9,
+          "charEnd": 15
+        },
+        {
+          "text": "Javier",
+          "startMs": 1160,
+          "endMs": 1420,
+          "charStart": 17,
+          "charEnd": 23
+        },
+        {
+          "text": "se",
+          "startMs": 1430,
+          "endMs": 1520,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "despertó",
+          "startMs": 1530,
+          "endMs": 1910,
+          "charStart": 27,
+          "charEnd": 35
+        },
+        {
+          "text": "con",
+          "startMs": 1920,
+          "endMs": 2040,
+          "charStart": 36,
+          "charEnd": 39
+        },
+        {
+          "text": "un",
+          "startMs": 2050,
+          "endMs": 2150,
+          "charStart": 40,
+          "charEnd": 42
+        },
+        {
+          "text": "fuerte",
+          "startMs": 2160,
+          "endMs": 2400,
+          "charStart": 43,
+          "charEnd": 49
+        },
+        {
+          "text": "dolor",
+          "startMs": 2410,
+          "endMs": 2640,
+          "charStart": 50,
+          "charEnd": 55
+        },
+        {
+          "text": "de",
+          "startMs": 2650,
+          "endMs": 2700,
+          "charStart": 56,
+          "charEnd": 58
+        },
+        {
+          "text": "garganta",
+          "startMs": 2710,
+          "endMs": 3280,
+          "charStart": 59,
+          "charEnd": 67
+        }
+      ]
+    },
+    {
+      "text": "Su cuerpo se sentía muy cansado y tenía treinta y ocho grados de fiebre.",
+      "startMs": 4210,
+      "endMs": 8074,
+      "words": [
+        {
+          "text": "Su",
+          "startMs": 4310,
+          "endMs": 4530,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "cuerpo",
+          "startMs": 4540,
+          "endMs": 4800,
+          "charStart": 3,
+          "charEnd": 9
+        },
+        {
+          "text": "se",
+          "startMs": 4810,
+          "endMs": 4900,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "sentía",
+          "startMs": 4910,
+          "endMs": 5210,
+          "charStart": 13,
+          "charEnd": 19
+        },
+        {
+          "text": "muy",
+          "startMs": 5220,
+          "endMs": 5350,
+          "charStart": 20,
+          "charEnd": 23
+        },
+        {
+          "text": "cansado",
+          "startMs": 5360,
+          "endMs": 5760,
+          "charStart": 24,
+          "charEnd": 31
+        },
+        {
+          "text": "y",
+          "startMs": 5770,
+          "endMs": 5800,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "tenía",
+          "startMs": 5810,
+          "endMs": 6070,
+          "charStart": 34,
+          "charEnd": 39
+        },
+        {
+          "text": "treinta",
+          "startMs": 6080,
+          "endMs": 6330,
+          "charStart": 40,
+          "charEnd": 47
+        },
+        {
+          "text": "y",
+          "startMs": 6340,
+          "endMs": 6400,
+          "charStart": 48,
+          "charEnd": 49
+        },
+        {
+          "text": "ocho",
+          "startMs": 6410,
+          "endMs": 6610,
+          "charStart": 50,
+          "charEnd": 54
+        },
+        {
+          "text": "grados",
+          "startMs": 6620,
+          "endMs": 6890,
+          "charStart": 55,
+          "charEnd": 61
+        },
+        {
+          "text": "de",
+          "startMs": 6900,
+          "endMs": 6980,
+          "charStart": 62,
+          "charEnd": 64
+        },
+        {
+          "text": "fiebre",
+          "startMs": 6990,
+          "endMs": 7380,
+          "charStart": 65,
+          "charEnd": 71
+        }
+      ]
+    },
+    {
+      "text": "Por eso, llamó a su oficina para avisar que no podía trabajar.",
+      "startMs": 8324,
+      "endMs": 11924,
+      "words": [
+        {
+          "text": "Por",
+          "startMs": 8419,
+          "endMs": 8599,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "eso",
+          "startMs": 8609,
+          "endMs": 8829,
+          "charStart": 4,
+          "charEnd": 7
+        },
+        {
+          "text": "llamó",
+          "startMs": 9059,
+          "endMs": 9259,
+          "charStart": 9,
+          "charEnd": 14
+        },
+        {
+          "text": "a",
+          "startMs": 9269,
+          "endMs": 9309,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "su",
+          "startMs": 9319,
+          "endMs": 9419,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "oficina",
+          "startMs": 9429,
+          "endMs": 9789,
+          "charStart": 20,
+          "charEnd": 27
+        },
+        {
+          "text": "para",
+          "startMs": 9799,
+          "endMs": 9939,
+          "charStart": 28,
+          "charEnd": 32
+        },
+        {
+          "text": "avisar",
+          "startMs": 9949,
+          "endMs": 10239,
+          "charStart": 33,
+          "charEnd": 39
+        },
+        {
+          "text": "que",
+          "startMs": 10249,
+          "endMs": 10339,
+          "charStart": 40,
+          "charEnd": 43
+        },
+        {
+          "text": "no",
+          "startMs": 10349,
+          "endMs": 10439,
+          "charStart": 44,
+          "charEnd": 46
+        },
+        {
+          "text": "podía",
+          "startMs": 10449,
+          "endMs": 10699,
+          "charStart": 47,
+          "charEnd": 52
+        },
+        {
+          "text": "trabajar",
+          "startMs": 10709,
+          "endMs": 11229,
+          "charStart": 53,
+          "charEnd": 61
+        }
+      ]
+    },
+    {
+      "text": "Después del desayuno, fue al centro médico de su barrio a pie.",
+      "startMs": 12174,
+      "endMs": 15702,
+      "words": [
+        {
+          "text": "Después",
+          "startMs": 12269,
+          "endMs": 12669,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "del",
+          "startMs": 12679,
+          "endMs": 12779,
+          "charStart": 8,
+          "charEnd": 11
+        },
+        {
+          "text": "desayuno",
+          "startMs": 12789,
+          "endMs": 13229,
+          "charStart": 12,
+          "charEnd": 20
+        },
+        {
+          "text": "fue",
+          "startMs": 13419,
+          "endMs": 13549,
+          "charStart": 22,
+          "charEnd": 25
+        },
+        {
+          "text": "al",
+          "startMs": 13559,
+          "endMs": 13649,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "centro",
+          "startMs": 13659,
+          "endMs": 13899,
+          "charStart": 29,
+          "charEnd": 35
+        },
+        {
+          "text": "médico",
+          "startMs": 13909,
+          "endMs": 14199,
+          "charStart": 36,
+          "charEnd": 42
+        },
+        {
+          "text": "de",
+          "startMs": 14209,
+          "endMs": 14279,
+          "charStart": 43,
+          "charEnd": 45
+        },
+        {
+          "text": "su",
+          "startMs": 14289,
+          "endMs": 14389,
+          "charStart": 46,
+          "charEnd": 48
+        },
+        {
+          "text": "barrio",
+          "startMs": 14399,
+          "endMs": 14639,
+          "charStart": 49,
+          "charEnd": 55
+        },
+        {
+          "text": "a",
+          "startMs": 14649,
+          "endMs": 14689,
+          "charStart": 56,
+          "charEnd": 57
+        },
+        {
+          "text": "pie",
+          "startMs": 14699,
+          "endMs": 15019,
+          "charStart": 58,
+          "charEnd": 61
+        }
+      ]
+    },
+    {
+      "text": "La doctora Martínez lo atendió amablemente en su consulta limpia y tranquila.",
+      "startMs": 15952,
+      "endMs": 19960,
+      "words": [
+        {
+          "text": "La",
+          "startMs": 16047,
+          "endMs": 16217,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "doctora",
+          "startMs": 16227,
+          "endMs": 16517,
+          "charStart": 3,
+          "charEnd": 10
+        },
+        {
+          "text": "Martínez",
+          "startMs": 16527,
+          "endMs": 16957,
+          "charStart": 11,
+          "charEnd": 19
+        },
+        {
+          "text": "lo",
+          "startMs": 16967,
+          "endMs": 17047,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "atendió",
+          "startMs": 17057,
+          "endMs": 17327,
+          "charStart": 23,
+          "charEnd": 30
+        },
+        {
+          "text": "amablemente",
+          "startMs": 17337,
+          "endMs": 17797,
+          "charStart": 31,
+          "charEnd": 42
+        },
+        {
+          "text": "en",
+          "startMs": 17807,
+          "endMs": 17877,
+          "charStart": 43,
+          "charEnd": 45
+        },
+        {
+          "text": "su",
+          "startMs": 17887,
+          "endMs": 17967,
+          "charStart": 46,
+          "charEnd": 48
+        },
+        {
+          "text": "consulta",
+          "startMs": 17977,
+          "endMs": 18357,
+          "charStart": 49,
+          "charEnd": 57
+        },
+        {
+          "text": "limpia",
+          "startMs": 18367,
+          "endMs": 18637,
+          "charStart": 58,
+          "charEnd": 64
+        },
+        {
+          "text": "y",
+          "startMs": 18647,
+          "endMs": 18677,
+          "charStart": 65,
+          "charEnd": 66
+        },
+        {
+          "text": "tranquila",
+          "startMs": 18687,
+          "endMs": 19257,
+          "charStart": 67,
+          "charEnd": 76
+        }
+      ]
+    },
+    {
+      "text": "Ella le revisó los oídos, la garganta roja y escuchó sus pulmones con atención.",
+      "startMs": 20210,
+      "endMs": 24770,
+      "words": [
+        {
+          "text": "Ella",
+          "startMs": 20305,
+          "endMs": 20545,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "le",
+          "startMs": 20555,
+          "endMs": 20635,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "revisó",
+          "startMs": 20645,
+          "endMs": 20945,
+          "charStart": 8,
+          "charEnd": 14
+        },
+        {
+          "text": "los",
+          "startMs": 20955,
+          "endMs": 21105,
+          "charStart": 15,
+          "charEnd": 18
+        },
+        {
+          "text": "oídos",
+          "startMs": 21115,
+          "endMs": 21465,
+          "charStart": 19,
+          "charEnd": 24
+        },
+        {
+          "text": "la",
+          "startMs": 21645,
+          "endMs": 21755,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "garganta",
+          "startMs": 21765,
+          "endMs": 22125,
+          "charStart": 29,
+          "charEnd": 37
+        },
+        {
+          "text": "roja",
+          "startMs": 22135,
+          "endMs": 22425,
+          "charStart": 38,
+          "charEnd": 42
+        },
+        {
+          "text": "y",
+          "startMs": 22435,
+          "endMs": 22485,
+          "charStart": 43,
+          "charEnd": 44
+        },
+        {
+          "text": "escuchó",
+          "startMs": 22495,
+          "endMs": 22835,
+          "charStart": 45,
+          "charEnd": 52
+        },
+        {
+          "text": "sus",
+          "startMs": 22845,
+          "endMs": 23005,
+          "charStart": 53,
+          "charEnd": 56
+        },
+        {
+          "text": "pulmones",
+          "startMs": 23015,
+          "endMs": 23395,
+          "charStart": 57,
+          "charEnd": 65
+        },
+        {
+          "text": "con",
+          "startMs": 23405,
+          "endMs": 23515,
+          "charStart": 66,
+          "charEnd": 69
+        },
+        {
+          "text": "atención",
+          "startMs": 23525,
+          "endMs": 24085,
+          "charStart": 70,
+          "charEnd": 78
+        }
+      ]
+    },
+    {
+      "text": "La médica le diagnosticó una gripe estacional común y le recetó analgésicos.",
+      "startMs": 25020,
+      "endMs": 29220,
+      "words": [
+        {
+          "text": "La",
+          "startMs": 25115,
+          "endMs": 25305,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "médica",
+          "startMs": 25315,
+          "endMs": 25605,
+          "charStart": 3,
+          "charEnd": 9
+        },
+        {
+          "text": "le",
+          "startMs": 25615,
+          "endMs": 25695,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "diagnosticó",
+          "startMs": 25705,
+          "endMs": 26245,
+          "charStart": 13,
+          "charEnd": 24
+        },
+        {
+          "text": "una",
+          "startMs": 26255,
+          "endMs": 26385,
+          "charStart": 25,
+          "charEnd": 28
+        },
+        {
+          "text": "gripe",
+          "startMs": 26395,
+          "endMs": 26625,
+          "charStart": 29,
+          "charEnd": 34
+        },
+        {
+          "text": "estacional",
+          "startMs": 26635,
+          "endMs": 27045,
+          "charStart": 35,
+          "charEnd": 45
+        },
+        {
+          "text": "común",
+          "startMs": 27055,
+          "endMs": 27335,
+          "charStart": 46,
+          "charEnd": 51
+        },
+        {
+          "text": "y",
+          "startMs": 27345,
+          "endMs": 27365,
+          "charStart": 52,
+          "charEnd": 53
+        },
+        {
+          "text": "le",
+          "startMs": 27375,
+          "endMs": 27455,
+          "charStart": 54,
+          "charEnd": 56
+        },
+        {
+          "text": "recetó",
+          "startMs": 27465,
+          "endMs": 27765,
+          "charStart": 57,
+          "charEnd": 63
+        },
+        {
+          "text": "analgésicos",
+          "startMs": 27775,
+          "endMs": 28515,
+          "charStart": 64,
+          "charEnd": 75
+        }
+      ]
+    },
+    {
+      "text": "También le recomendó beber mucha agua tibia con miel y descansar tres días.",
+      "startMs": 29470,
+      "endMs": 33430,
+      "words": [
+        {
+          "text": "También",
+          "startMs": 29565,
+          "endMs": 29865,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "le",
+          "startMs": 29875,
+          "endMs": 29955,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "recomendó",
+          "startMs": 29965,
+          "endMs": 30355,
+          "charStart": 11,
+          "charEnd": 20
+        },
+        {
+          "text": "beber",
+          "startMs": 30365,
+          "endMs": 30595,
+          "charStart": 21,
+          "charEnd": 26
+        },
+        {
+          "text": "mucha",
+          "startMs": 30605,
+          "endMs": 30835,
+          "charStart": 27,
+          "charEnd": 32
+        },
+        {
+          "text": "agua",
+          "startMs": 30845,
+          "endMs": 31005,
+          "charStart": 33,
+          "charEnd": 37
+        },
+        {
+          "text": "tibia",
+          "startMs": 31015,
+          "endMs": 31265,
+          "charStart": 38,
+          "charEnd": 43
+        },
+        {
+          "text": "con",
+          "startMs": 31275,
+          "endMs": 31425,
+          "charStart": 44,
+          "charEnd": 47
+        },
+        {
+          "text": "miel",
+          "startMs": 31435,
+          "endMs": 31605,
+          "charStart": 48,
+          "charEnd": 52
+        },
+        {
+          "text": "y",
+          "startMs": 31615,
+          "endMs": 31635,
+          "charStart": 53,
+          "charEnd": 54
+        },
+        {
+          "text": "descansar",
+          "startMs": 31645,
+          "endMs": 32105,
+          "charStart": 55,
+          "charEnd": 64
+        },
+        {
+          "text": "tres",
+          "startMs": 32115,
+          "endMs": 32305,
+          "charStart": 65,
+          "charEnd": 69
+        },
+        {
+          "text": "días",
+          "startMs": 32315,
+          "endMs": 32745,
+          "charStart": 70,
+          "charEnd": 74
+        }
+      ]
+    },
+    {
+      "text": "Javier compró las medicinas en la farmacia de la esquina antes de volver.",
+      "startMs": 33680,
+      "endMs": 37376,
+      "words": [
+        {
+          "text": "Javier",
+          "startMs": 33775,
+          "endMs": 34105,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "compró",
+          "startMs": 34115,
+          "endMs": 34375,
+          "charStart": 7,
+          "charEnd": 13
+        },
+        {
+          "text": "las",
+          "startMs": 34385,
+          "endMs": 34515,
+          "charStart": 14,
+          "charEnd": 17
+        },
+        {
+          "text": "medicinas",
+          "startMs": 34525,
+          "endMs": 34975,
+          "charStart": 18,
+          "charEnd": 27
+        },
+        {
+          "text": "en",
+          "startMs": 34985,
+          "endMs": 35045,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "la",
+          "startMs": 35055,
+          "endMs": 35135,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "farmacia",
+          "startMs": 35145,
+          "endMs": 35505,
+          "charStart": 34,
+          "charEnd": 42
+        },
+        {
+          "text": "de",
+          "startMs": 35515,
+          "endMs": 35575,
+          "charStart": 43,
+          "charEnd": 45
+        },
+        {
+          "text": "la",
+          "startMs": 35585,
+          "endMs": 35645,
+          "charStart": 46,
+          "charEnd": 48
+        },
+        {
+          "text": "esquina",
+          "startMs": 35655,
+          "endMs": 35955,
+          "charStart": 49,
+          "charEnd": 56
+        },
+        {
+          "text": "antes",
+          "startMs": 35965,
+          "endMs": 36205,
+          "charStart": 57,
+          "charEnd": 62
+        },
+        {
+          "text": "de",
+          "startMs": 36215,
+          "endMs": 36275,
+          "charStart": 63,
+          "charEnd": 65
+        },
+        {
+          "text": "volver",
+          "startMs": 36285,
+          "endMs": 36685,
+          "charStart": 66,
+          "charEnd": 72
+        }
+      ]
+    },
+    {
+      "text": "En casa, se acostó temprano en la cama y se durmió enseguida.",
+      "startMs": 37626,
+      "endMs": 41250,
+      "words": [
+        {
+          "text": "En",
+          "startMs": 37721,
+          "endMs": 37901,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "casa",
+          "startMs": 37911,
+          "endMs": 38211,
+          "charStart": 3,
+          "charEnd": 7
+        },
+        {
+          "text": "se",
+          "startMs": 38401,
+          "endMs": 38481,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "acostó",
+          "startMs": 38491,
+          "endMs": 38771,
+          "charStart": 12,
+          "charEnd": 18
+        },
+        {
+          "text": "temprano",
+          "startMs": 38781,
+          "endMs": 39161,
+          "charStart": 19,
+          "charEnd": 27
+        },
+        {
+          "text": "en",
+          "startMs": 39171,
+          "endMs": 39221,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "la",
+          "startMs": 39231,
+          "endMs": 39301,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "cama",
+          "startMs": 39311,
+          "endMs": 39551,
+          "charStart": 34,
+          "charEnd": 38
+        },
+        {
+          "text": "y",
+          "startMs": 39561,
+          "endMs": 39611,
+          "charStart": 39,
+          "charEnd": 40
+        },
+        {
+          "text": "se",
+          "startMs": 39621,
+          "endMs": 39711,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "durmió",
+          "startMs": 39721,
+          "endMs": 40011,
+          "charStart": 44,
+          "charEnd": 50
+        },
+        {
+          "text": "enseguida",
+          "startMs": 40021,
+          "endMs": 40561,
+          "charStart": 51,
+          "charEnd": 60
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1040 @@
+{
+  "version": 3,
+  "lang": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 45306,
+  "sentences": [
+    {
+      "text": "El viernes pasado, Andrés conducía hacia la montaña para desconectar del estrés laboral.",
+      "startMs": 0,
+      "endMs": 4680,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 95,
+          "endMs": 265,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "viernes",
+          "startMs": 275,
+          "endMs": 555,
+          "charStart": 3,
+          "charEnd": 10
+        },
+        {
+          "text": "pasado",
+          "startMs": 565,
+          "endMs": 945,
+          "charStart": 11,
+          "charEnd": 17
+        },
+        {
+          "text": "Andrés",
+          "startMs": 1155,
+          "endMs": 1465,
+          "charStart": 19,
+          "charEnd": 25
+        },
+        {
+          "text": "conducía",
+          "startMs": 1475,
+          "endMs": 1885,
+          "charStart": 26,
+          "charEnd": 34
+        },
+        {
+          "text": "hacia",
+          "startMs": 1895,
+          "endMs": 2055,
+          "charStart": 35,
+          "charEnd": 40
+        },
+        {
+          "text": "la",
+          "startMs": 2065,
+          "endMs": 2135,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "montaña",
+          "startMs": 2145,
+          "endMs": 2515,
+          "charStart": 44,
+          "charEnd": 51
+        },
+        {
+          "text": "para",
+          "startMs": 2525,
+          "endMs": 2665,
+          "charStart": 52,
+          "charEnd": 56
+        },
+        {
+          "text": "desconectar",
+          "startMs": 2675,
+          "endMs": 3135,
+          "charStart": 57,
+          "charEnd": 68
+        },
+        {
+          "text": "del",
+          "startMs": 3145,
+          "endMs": 3245,
+          "charStart": 69,
+          "charEnd": 72
+        },
+        {
+          "text": "estrés",
+          "startMs": 3255,
+          "endMs": 3515,
+          "charStart": 73,
+          "charEnd": 79
+        },
+        {
+          "text": "laboral",
+          "startMs": 3525,
+          "endMs": 3995,
+          "charStart": 80,
+          "charEnd": 87
+        }
+      ]
+    },
+    {
+      "text": "De repente, el motor del coche empezó a emitir un sonido extraño y metálico.",
+      "startMs": 4930,
+      "endMs": 9202,
+      "words": [
+        {
+          "text": "De",
+          "startMs": 5025,
+          "endMs": 5195,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "repente",
+          "startMs": 5205,
+          "endMs": 5625,
+          "charStart": 3,
+          "charEnd": 10
+        },
+        {
+          "text": "el",
+          "startMs": 5825,
+          "endMs": 5895,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "motor",
+          "startMs": 5905,
+          "endMs": 6145,
+          "charStart": 15,
+          "charEnd": 20
+        },
+        {
+          "text": "del",
+          "startMs": 6155,
+          "endMs": 6265,
+          "charStart": 21,
+          "charEnd": 24
+        },
+        {
+          "text": "coche",
+          "startMs": 6275,
+          "endMs": 6525,
+          "charStart": 25,
+          "charEnd": 30
+        },
+        {
+          "text": "empezó",
+          "startMs": 6535,
+          "endMs": 6825,
+          "charStart": 31,
+          "charEnd": 37
+        },
+        {
+          "text": "a",
+          "startMs": 6835,
+          "endMs": 6875,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "emitir",
+          "startMs": 6885,
+          "endMs": 7155,
+          "charStart": 40,
+          "charEnd": 46
+        },
+        {
+          "text": "un",
+          "startMs": 7165,
+          "endMs": 7265,
+          "charStart": 47,
+          "charEnd": 49
+        },
+        {
+          "text": "sonido",
+          "startMs": 7275,
+          "endMs": 7525,
+          "charStart": 50,
+          "charEnd": 56
+        },
+        {
+          "text": "extraño",
+          "startMs": 7535,
+          "endMs": 7885,
+          "charStart": 57,
+          "charEnd": 64
+        },
+        {
+          "text": "y",
+          "startMs": 7895,
+          "endMs": 7925,
+          "charStart": 65,
+          "charEnd": 66
+        },
+        {
+          "text": "metálico",
+          "startMs": 7935,
+          "endMs": 8505,
+          "charStart": 67,
+          "charEnd": 75
+        }
+      ]
+    },
+    {
+      "text": "Se detuvo en el arcén inmediatamente para evitar un accidente en la autopista.",
+      "startMs": 9452,
+      "endMs": 13436,
+      "words": [
+        {
+          "text": "Se",
+          "startMs": 9552,
+          "endMs": 9752,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "detuvo",
+          "startMs": 9762,
+          "endMs": 10042,
+          "charStart": 3,
+          "charEnd": 9
+        },
+        {
+          "text": "en",
+          "startMs": 10052,
+          "endMs": 10102,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "el",
+          "startMs": 10112,
+          "endMs": 10192,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "arcén",
+          "startMs": 10202,
+          "endMs": 10442,
+          "charStart": 16,
+          "charEnd": 21
+        },
+        {
+          "text": "inmediatamente",
+          "startMs": 10452,
+          "endMs": 11132,
+          "charStart": 22,
+          "charEnd": 36
+        },
+        {
+          "text": "para",
+          "startMs": 11142,
+          "endMs": 11292,
+          "charStart": 37,
+          "charEnd": 41
+        },
+        {
+          "text": "evitar",
+          "startMs": 11302,
+          "endMs": 11542,
+          "charStart": 42,
+          "charEnd": 48
+        },
+        {
+          "text": "un",
+          "startMs": 11552,
+          "endMs": 11622,
+          "charStart": 49,
+          "charEnd": 51
+        },
+        {
+          "text": "accidente",
+          "startMs": 11632,
+          "endMs": 12022,
+          "charStart": 52,
+          "charEnd": 61
+        },
+        {
+          "text": "en",
+          "startMs": 12032,
+          "endMs": 12092,
+          "charStart": 62,
+          "charEnd": 64
+        },
+        {
+          "text": "la",
+          "startMs": 12102,
+          "endMs": 12152,
+          "charStart": 65,
+          "charEnd": 67
+        },
+        {
+          "text": "autopista",
+          "startMs": 12162,
+          "endMs": 12752,
+          "charStart": 68,
+          "charEnd": 77
+        }
+      ]
+    },
+    {
+      "text": "Cuando abrió el capó del vehículo, vio que salía un humo denso y grisáceo.",
+      "startMs": 13686,
+      "endMs": 17550,
+      "words": [
+        {
+          "text": "Cuando",
+          "startMs": 13786,
+          "endMs": 14066,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "abrió",
+          "startMs": 14076,
+          "endMs": 14246,
+          "charStart": 7,
+          "charEnd": 12
+        },
+        {
+          "text": "el",
+          "startMs": 14256,
+          "endMs": 14316,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "capó",
+          "startMs": 14326,
+          "endMs": 14546,
+          "charStart": 16,
+          "charEnd": 20
+        },
+        {
+          "text": "del",
+          "startMs": 14556,
+          "endMs": 14666,
+          "charStart": 21,
+          "charEnd": 24
+        },
+        {
+          "text": "vehículo",
+          "startMs": 14676,
+          "endMs": 15076,
+          "charStart": 25,
+          "charEnd": 33
+        },
+        {
+          "text": "vio",
+          "startMs": 15256,
+          "endMs": 15376,
+          "charStart": 35,
+          "charEnd": 38
+        },
+        {
+          "text": "que",
+          "startMs": 15386,
+          "endMs": 15466,
+          "charStart": 39,
+          "charEnd": 42
+        },
+        {
+          "text": "salía",
+          "startMs": 15476,
+          "endMs": 15726,
+          "charStart": 43,
+          "charEnd": 48
+        },
+        {
+          "text": "un",
+          "startMs": 15736,
+          "endMs": 15826,
+          "charStart": 49,
+          "charEnd": 51
+        },
+        {
+          "text": "humo",
+          "startMs": 15836,
+          "endMs": 15976,
+          "charStart": 52,
+          "charEnd": 56
+        },
+        {
+          "text": "denso",
+          "startMs": 15986,
+          "endMs": 16256,
+          "charStart": 57,
+          "charEnd": 62
+        },
+        {
+          "text": "y",
+          "startMs": 16266,
+          "endMs": 16296,
+          "charStart": 63,
+          "charEnd": 64
+        },
+        {
+          "text": "grisáceo",
+          "startMs": 16306,
+          "endMs": 16866,
+          "charStart": 65,
+          "charEnd": 73
+        }
+      ]
+    },
+    {
+      "text": "Como no tenía cobertura en el móvil, tuvo que caminar hasta una gasolinera cercana.",
+      "startMs": 17800,
+      "endMs": 22120,
+      "words": [
+        {
+          "text": "Como",
+          "startMs": 17900,
+          "endMs": 18140,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "no",
+          "startMs": 18150,
+          "endMs": 18240,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "tenía",
+          "startMs": 18250,
+          "endMs": 18500,
+          "charStart": 8,
+          "charEnd": 13
+        },
+        {
+          "text": "cobertura",
+          "startMs": 18510,
+          "endMs": 18920,
+          "charStart": 14,
+          "charEnd": 23
+        },
+        {
+          "text": "en",
+          "startMs": 18930,
+          "endMs": 18990,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "el",
+          "startMs": 19000,
+          "endMs": 19080,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "móvil",
+          "startMs": 19090,
+          "endMs": 19410,
+          "charStart": 30,
+          "charEnd": 35
+        },
+        {
+          "text": "tuvo",
+          "startMs": 19580,
+          "endMs": 19750,
+          "charStart": 37,
+          "charEnd": 41
+        },
+        {
+          "text": "que",
+          "startMs": 19760,
+          "endMs": 19840,
+          "charStart": 42,
+          "charEnd": 45
+        },
+        {
+          "text": "caminar",
+          "startMs": 19850,
+          "endMs": 20160,
+          "charStart": 46,
+          "charEnd": 53
+        },
+        {
+          "text": "hasta",
+          "startMs": 20170,
+          "endMs": 20330,
+          "charStart": 54,
+          "charEnd": 59
+        },
+        {
+          "text": "una",
+          "startMs": 20340,
+          "endMs": 20480,
+          "charStart": 60,
+          "charEnd": 63
+        },
+        {
+          "text": "gasolinera",
+          "startMs": 20490,
+          "endMs": 20940,
+          "charStart": 64,
+          "charEnd": 74
+        },
+        {
+          "text": "cercana",
+          "startMs": 20950,
+          "endMs": 21440,
+          "charStart": 75,
+          "charEnd": 82
+        }
+      ]
+    },
+    {
+      "text": "Afortunadamente, el empleado del establecimiento fue muy amable y llamó a la grúa.",
+      "startMs": 22370,
+      "endMs": 26762,
+      "words": [
+        {
+          "text": "Afortunadamente",
+          "startMs": 22465,
+          "endMs": 23315,
+          "charStart": 0,
+          "charEnd": 15
+        },
+        {
+          "text": "el",
+          "startMs": 23515,
+          "endMs": 23585,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "empleado",
+          "startMs": 23595,
+          "endMs": 23925,
+          "charStart": 20,
+          "charEnd": 28
+        },
+        {
+          "text": "del",
+          "startMs": 23935,
+          "endMs": 24045,
+          "charStart": 29,
+          "charEnd": 32
+        },
+        {
+          "text": "establecimiento",
+          "startMs": 24055,
+          "endMs": 24735,
+          "charStart": 33,
+          "charEnd": 48
+        },
+        {
+          "text": "fue",
+          "startMs": 24745,
+          "endMs": 24905,
+          "charStart": 49,
+          "charEnd": 52
+        },
+        {
+          "text": "muy",
+          "startMs": 24915,
+          "endMs": 25045,
+          "charStart": 53,
+          "charEnd": 56
+        },
+        {
+          "text": "amable",
+          "startMs": 25055,
+          "endMs": 25345,
+          "charStart": 57,
+          "charEnd": 63
+        },
+        {
+          "text": "y",
+          "startMs": 25355,
+          "endMs": 25385,
+          "charStart": 64,
+          "charEnd": 65
+        },
+        {
+          "text": "llamó",
+          "startMs": 25395,
+          "endMs": 25615,
+          "charStart": 66,
+          "charEnd": 71
+        },
+        {
+          "text": "a",
+          "startMs": 25625,
+          "endMs": 25655,
+          "charStart": 72,
+          "charEnd": 73
+        },
+        {
+          "text": "la",
+          "startMs": 25665,
+          "endMs": 25735,
+          "charStart": 74,
+          "charEnd": 76
+        },
+        {
+          "text": "grúa",
+          "startMs": 25745,
+          "endMs": 26075,
+          "charStart": 77,
+          "charEnd": 81
+        }
+      ]
+    },
+    {
+      "text": "Mientras esperaba la asistencia en carretera, se tomó un café con leche caliente.",
+      "startMs": 27012,
+      "endMs": 31260,
+      "words": [
+        {
+          "text": "Mientras",
+          "startMs": 27107,
+          "endMs": 27467,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "esperaba",
+          "startMs": 27477,
+          "endMs": 27787,
+          "charStart": 9,
+          "charEnd": 17
+        },
+        {
+          "text": "la",
+          "startMs": 27797,
+          "endMs": 27857,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "asistencia",
+          "startMs": 27867,
+          "endMs": 28327,
+          "charStart": 21,
+          "charEnd": 31
+        },
+        {
+          "text": "en",
+          "startMs": 28337,
+          "endMs": 28397,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "carretera",
+          "startMs": 28407,
+          "endMs": 28837,
+          "charStart": 35,
+          "charEnd": 44
+        },
+        {
+          "text": "se",
+          "startMs": 29017,
+          "endMs": 29127,
+          "charStart": 46,
+          "charEnd": 48
+        },
+        {
+          "text": "tomó",
+          "startMs": 29137,
+          "endMs": 29327,
+          "charStart": 49,
+          "charEnd": 53
+        },
+        {
+          "text": "un",
+          "startMs": 29337,
+          "endMs": 29427,
+          "charStart": 54,
+          "charEnd": 56
+        },
+        {
+          "text": "café",
+          "startMs": 29437,
+          "endMs": 29657,
+          "charStart": 57,
+          "charEnd": 61
+        },
+        {
+          "text": "con",
+          "startMs": 29667,
+          "endMs": 29807,
+          "charStart": 62,
+          "charEnd": 65
+        },
+        {
+          "text": "leche",
+          "startMs": 29817,
+          "endMs": 30027,
+          "charStart": 66,
+          "charEnd": 71
+        },
+        {
+          "text": "caliente",
+          "startMs": 30037,
+          "endMs": 30557,
+          "charStart": 72,
+          "charEnd": 80
+        }
+      ]
+    },
+    {
+      "text": "El mecánico le explicó que una pieza esencial del motor se había roto por completo.",
+      "startMs": 31510,
+      "endMs": 35758,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 31605,
+          "endMs": 31765,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "mecánico",
+          "startMs": 31775,
+          "endMs": 32155,
+          "charStart": 3,
+          "charEnd": 11
+        },
+        {
+          "text": "le",
+          "startMs": 32165,
+          "endMs": 32245,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "explicó",
+          "startMs": 32255,
+          "endMs": 32605,
+          "charStart": 15,
+          "charEnd": 22
+        },
+        {
+          "text": "que",
+          "startMs": 32615,
+          "endMs": 32705,
+          "charStart": 23,
+          "charEnd": 26
+        },
+        {
+          "text": "una",
+          "startMs": 32715,
+          "endMs": 32845,
+          "charStart": 27,
+          "charEnd": 30
+        },
+        {
+          "text": "pieza",
+          "startMs": 32855,
+          "endMs": 33075,
+          "charStart": 31,
+          "charEnd": 36
+        },
+        {
+          "text": "esencial",
+          "startMs": 33085,
+          "endMs": 33455,
+          "charStart": 37,
+          "charEnd": 45
+        },
+        {
+          "text": "del",
+          "startMs": 33465,
+          "endMs": 33565,
+          "charStart": 46,
+          "charEnd": 49
+        },
+        {
+          "text": "motor",
+          "startMs": 33575,
+          "endMs": 33855,
+          "charStart": 50,
+          "charEnd": 55
+        },
+        {
+          "text": "se",
+          "startMs": 33865,
+          "endMs": 33965,
+          "charStart": 56,
+          "charEnd": 58
+        },
+        {
+          "text": "había",
+          "startMs": 33975,
+          "endMs": 34145,
+          "charStart": 59,
+          "charEnd": 64
+        },
+        {
+          "text": "roto",
+          "startMs": 34155,
+          "endMs": 34375,
+          "charStart": 65,
+          "charEnd": 69
+        },
+        {
+          "text": "por",
+          "startMs": 34385,
+          "endMs": 34515,
+          "charStart": 70,
+          "charEnd": 73
+        },
+        {
+          "text": "completo",
+          "startMs": 34525,
+          "endMs": 35065,
+          "charStart": 74,
+          "charEnd": 82
+        }
+      ]
+    },
+    {
+      "text": "Aunque la reparación le costó bastante dinero, Andrés mantuvo la calma y el optimismo.",
+      "startMs": 36008,
+      "endMs": 40544,
+      "words": [
+        {
+          "text": "Aunque",
+          "startMs": 36103,
+          "endMs": 36363,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "la",
+          "startMs": 36373,
+          "endMs": 36443,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "reparación",
+          "startMs": 36453,
+          "endMs": 36863,
+          "charStart": 10,
+          "charEnd": 20
+        },
+        {
+          "text": "le",
+          "startMs": 36873,
+          "endMs": 36943,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "costó",
+          "startMs": 36953,
+          "endMs": 37193,
+          "charStart": 24,
+          "charEnd": 29
+        },
+        {
+          "text": "bastante",
+          "startMs": 37203,
+          "endMs": 37573,
+          "charStart": 30,
+          "charEnd": 38
+        },
+        {
+          "text": "dinero",
+          "startMs": 37583,
+          "endMs": 37913,
+          "charStart": 39,
+          "charEnd": 45
+        },
+        {
+          "text": "Andrés",
+          "startMs": 38093,
+          "endMs": 38383,
+          "charStart": 47,
+          "charEnd": 53
+        },
+        {
+          "text": "mantuvo",
+          "startMs": 38393,
+          "endMs": 38723,
+          "charStart": 54,
+          "charEnd": 61
+        },
+        {
+          "text": "la",
+          "startMs": 38733,
+          "endMs": 38823,
+          "charStart": 62,
+          "charEnd": 64
+        },
+        {
+          "text": "calma",
+          "startMs": 38833,
+          "endMs": 39103,
+          "charStart": 65,
+          "charEnd": 70
+        },
+        {
+          "text": "y",
+          "startMs": 39113,
+          "endMs": 39173,
+          "charStart": 71,
+          "charEnd": 72
+        },
+        {
+          "text": "el",
+          "startMs": 39183,
+          "endMs": 39253,
+          "charStart": 73,
+          "charEnd": 75
+        },
+        {
+          "text": "optimismo",
+          "startMs": 39263,
+          "endMs": 39853,
+          "charStart": 76,
+          "charEnd": 85
+        }
+      ]
+    },
+    {
+      "text": "Al final, regresó en autobús pensando que la seguridad siempre es lo más importante.",
+      "startMs": 40794,
+      "endMs": 45306,
+      "words": [
+        {
+          "text": "Al",
+          "startMs": 40894,
+          "endMs": 41084,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "final",
+          "startMs": 41094,
+          "endMs": 41394,
+          "charStart": 3,
+          "charEnd": 8
+        },
+        {
+          "text": "regresó",
+          "startMs": 41554,
+          "endMs": 41914,
+          "charStart": 10,
+          "charEnd": 17
+        },
+        {
+          "text": "en",
+          "startMs": 41924,
+          "endMs": 41984,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "autobús",
+          "startMs": 41994,
+          "endMs": 42324,
+          "charStart": 21,
+          "charEnd": 28
+        },
+        {
+          "text": "pensando",
+          "startMs": 42334,
+          "endMs": 42704,
+          "charStart": 29,
+          "charEnd": 37
+        },
+        {
+          "text": "que",
+          "startMs": 42714,
+          "endMs": 42794,
+          "charStart": 38,
+          "charEnd": 41
+        },
+        {
+          "text": "la",
+          "startMs": 42804,
+          "endMs": 42874,
+          "charStart": 42,
+          "charEnd": 44
+        },
+        {
+          "text": "seguridad",
+          "startMs": 42884,
+          "endMs": 43294,
+          "charStart": 45,
+          "charEnd": 54
+        },
+        {
+          "text": "siempre",
+          "startMs": 43304,
+          "endMs": 43614,
+          "charStart": 55,
+          "charEnd": 62
+        },
+        {
+          "text": "es",
+          "startMs": 43624,
+          "endMs": 43724,
+          "charStart": 63,
+          "charEnd": 65
+        },
+        {
+          "text": "lo",
+          "startMs": 43734,
+          "endMs": 43824,
+          "charStart": 66,
+          "charEnd": 68
+        },
+        {
+          "text": "más",
+          "startMs": 43834,
+          "endMs": 44004,
+          "charStart": 69,
+          "charEnd": 72
+        },
+        {
+          "text": "importante",
+          "startMs": 44014,
+          "endMs": 44624,
+          "charStart": 73,
+          "charEnd": 83
+        }
+      ]
+    }
+  ]
+}

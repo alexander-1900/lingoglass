@@ -1,0 +1,1201 @@
+{
+  "version": 3,
+  "lang": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 56298,
+  "sentences": [
+    {
+      "text": "Consagró su vida a descifrar los códices gnósticos custodiados en los polvorientos anaqueles del monasterio trapense.",
+      "startMs": 0,
+      "endMs": 4848,
+      "words": [
+        {
+          "text": "Consagró",
+          "startMs": 100,
+          "endMs": 530,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "su",
+          "startMs": 540,
+          "endMs": 650,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "vida",
+          "startMs": 660,
+          "endMs": 830,
+          "charStart": 12,
+          "charEnd": 16
+        },
+        {
+          "text": "a",
+          "startMs": 840,
+          "endMs": 870,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "descifrar",
+          "startMs": 880,
+          "endMs": 1280,
+          "charStart": 19,
+          "charEnd": 28
+        },
+        {
+          "text": "los",
+          "startMs": 1290,
+          "endMs": 1410,
+          "charStart": 29,
+          "charEnd": 32
+        },
+        {
+          "text": "códices",
+          "startMs": 1420,
+          "endMs": 1740,
+          "charStart": 33,
+          "charEnd": 40
+        },
+        {
+          "text": "gnósticos",
+          "startMs": 1750,
+          "endMs": 2090,
+          "charStart": 41,
+          "charEnd": 50
+        },
+        {
+          "text": "custodiados",
+          "startMs": 2100,
+          "endMs": 2590,
+          "charStart": 51,
+          "charEnd": 62
+        },
+        {
+          "text": "en",
+          "startMs": 2600,
+          "endMs": 2660,
+          "charStart": 63,
+          "charEnd": 65
+        },
+        {
+          "text": "los",
+          "startMs": 2670,
+          "endMs": 2790,
+          "charStart": 66,
+          "charEnd": 69
+        },
+        {
+          "text": "polvorientos",
+          "startMs": 2800,
+          "endMs": 3300,
+          "charStart": 70,
+          "charEnd": 82
+        },
+        {
+          "text": "anaqueles",
+          "startMs": 3310,
+          "endMs": 3670,
+          "charStart": 83,
+          "charEnd": 92
+        },
+        {
+          "text": "del",
+          "startMs": 3680,
+          "endMs": 3780,
+          "charStart": 93,
+          "charEnd": 96
+        },
+        {
+          "text": "monasterio",
+          "startMs": 3790,
+          "endMs": 4180,
+          "charStart": 97,
+          "charEnd": 107
+        },
+        {
+          "text": "trapense",
+          "startMs": 4190,
+          "endMs": 4720,
+          "charStart": 108,
+          "charEnd": 116
+        }
+      ]
+    },
+    {
+      "text": "Suponía ingenuamente que en la filigrana textual de aquellos pergaminos carcomidos latía la revelación divina definitiva.",
+      "startMs": 5098,
+      "endMs": 10162,
+      "words": [
+        {
+          "text": "Suponía",
+          "startMs": 5198,
+          "endMs": 5658,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "ingenuamente",
+          "startMs": 5668,
+          "endMs": 6268,
+          "charStart": 8,
+          "charEnd": 20
+        },
+        {
+          "text": "que",
+          "startMs": 6278,
+          "endMs": 6368,
+          "charStart": 21,
+          "charEnd": 24
+        },
+        {
+          "text": "en",
+          "startMs": 6378,
+          "endMs": 6428,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "la",
+          "startMs": 6438,
+          "endMs": 6518,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "filigrana",
+          "startMs": 6528,
+          "endMs": 6878,
+          "charStart": 31,
+          "charEnd": 40
+        },
+        {
+          "text": "textual",
+          "startMs": 6888,
+          "endMs": 7228,
+          "charStart": 41,
+          "charEnd": 48
+        },
+        {
+          "text": "de",
+          "startMs": 7238,
+          "endMs": 7298,
+          "charStart": 49,
+          "charEnd": 51
+        },
+        {
+          "text": "aquellos",
+          "startMs": 7308,
+          "endMs": 7588,
+          "charStart": 52,
+          "charEnd": 60
+        },
+        {
+          "text": "pergaminos",
+          "startMs": 7598,
+          "endMs": 8008,
+          "charStart": 61,
+          "charEnd": 71
+        },
+        {
+          "text": "carcomidos",
+          "startMs": 8018,
+          "endMs": 8458,
+          "charStart": 72,
+          "charEnd": 82
+        },
+        {
+          "text": "latía",
+          "startMs": 8468,
+          "endMs": 8708,
+          "charStart": 83,
+          "charEnd": 88
+        },
+        {
+          "text": "la",
+          "startMs": 8718,
+          "endMs": 8798,
+          "charStart": 89,
+          "charEnd": 91
+        },
+        {
+          "text": "revelación",
+          "startMs": 8808,
+          "endMs": 9198,
+          "charStart": 92,
+          "charEnd": 102
+        },
+        {
+          "text": "divina",
+          "startMs": 9208,
+          "endMs": 9448,
+          "charStart": 103,
+          "charEnd": 109
+        },
+        {
+          "text": "definitiva",
+          "startMs": 9458,
+          "endMs": 10028,
+          "charStart": 110,
+          "charEnd": 120
+        }
+      ]
+    },
+    {
+      "text": "Tras décadas de minucioso cotejo filológico, el anciano paleógrafo no halló sino interpolaciones apócrifas y erratas copistas.",
+      "startMs": 10412,
+      "endMs": 16796,
+      "words": [
+        {
+          "text": "Tras",
+          "startMs": 10512,
+          "endMs": 10722,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "décadas",
+          "startMs": 10732,
+          "endMs": 11002,
+          "charStart": 5,
+          "charEnd": 12
+        },
+        {
+          "text": "de",
+          "startMs": 11012,
+          "endMs": 11072,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "minucioso",
+          "startMs": 11082,
+          "endMs": 11492,
+          "charStart": 16,
+          "charEnd": 25
+        },
+        {
+          "text": "cotejo",
+          "startMs": 11502,
+          "endMs": 11812,
+          "charStart": 26,
+          "charEnd": 32
+        },
+        {
+          "text": "filológico",
+          "startMs": 11822,
+          "endMs": 12382,
+          "charStart": 33,
+          "charEnd": 43
+        },
+        {
+          "text": "el",
+          "startMs": 12587,
+          "endMs": 12747,
+          "charStart": 45,
+          "charEnd": 47
+        },
+        {
+          "text": "anciano",
+          "startMs": 12757,
+          "endMs": 13067,
+          "charStart": 48,
+          "charEnd": 55
+        },
+        {
+          "text": "paleógrafo",
+          "startMs": 13077,
+          "endMs": 13547,
+          "charStart": 56,
+          "charEnd": 66
+        },
+        {
+          "text": "no",
+          "startMs": 13557,
+          "endMs": 13637,
+          "charStart": 67,
+          "charEnd": 69
+        },
+        {
+          "text": "halló",
+          "startMs": 13647,
+          "endMs": 13827,
+          "charStart": 70,
+          "charEnd": 75
+        },
+        {
+          "text": "sino",
+          "startMs": 13837,
+          "endMs": 14027,
+          "charStart": 76,
+          "charEnd": 80
+        },
+        {
+          "text": "interpolaciones",
+          "startMs": 14037,
+          "endMs": 14667,
+          "charStart": 81,
+          "charEnd": 96
+        },
+        {
+          "text": "apócrifas",
+          "startMs": 14677,
+          "endMs": 15137,
+          "charStart": 97,
+          "charEnd": 106
+        },
+        {
+          "text": "y",
+          "startMs": 15147,
+          "endMs": 15177,
+          "charStart": 107,
+          "charEnd": 108
+        },
+        {
+          "text": "erratas",
+          "startMs": 15187,
+          "endMs": 15497,
+          "charStart": 109,
+          "charEnd": 116
+        },
+        {
+          "text": "copistas",
+          "startMs": 15507,
+          "endMs": 16097,
+          "charStart": 117,
+          "charEnd": 125
+        }
+      ]
+    },
+    {
+      "text": "Cada pretendido misterio teológico disolvíase en meras pugnas doctrinales de sectas heréticas bizantinas ya extintas.",
+      "startMs": 17046,
+      "endMs": 22278,
+      "words": [
+        {
+          "text": "Cada",
+          "startMs": 17146,
+          "endMs": 17386,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "pretendido",
+          "startMs": 17396,
+          "endMs": 17806,
+          "charStart": 5,
+          "charEnd": 15
+        },
+        {
+          "text": "misterio",
+          "startMs": 17816,
+          "endMs": 18156,
+          "charStart": 16,
+          "charEnd": 24
+        },
+        {
+          "text": "teológico",
+          "startMs": 18166,
+          "endMs": 18576,
+          "charStart": 25,
+          "charEnd": 34
+        },
+        {
+          "text": "disolvíase",
+          "startMs": 18586,
+          "endMs": 19086,
+          "charStart": 35,
+          "charEnd": 45
+        },
+        {
+          "text": "en",
+          "startMs": 19096,
+          "endMs": 19176,
+          "charStart": 46,
+          "charEnd": 48
+        },
+        {
+          "text": "meras",
+          "startMs": 19186,
+          "endMs": 19406,
+          "charStart": 49,
+          "charEnd": 54
+        },
+        {
+          "text": "pugnas",
+          "startMs": 19416,
+          "endMs": 19706,
+          "charStart": 55,
+          "charEnd": 61
+        },
+        {
+          "text": "doctrinales",
+          "startMs": 19716,
+          "endMs": 20166,
+          "charStart": 62,
+          "charEnd": 73
+        },
+        {
+          "text": "de",
+          "startMs": 20176,
+          "endMs": 20246,
+          "charStart": 74,
+          "charEnd": 76
+        },
+        {
+          "text": "sectas",
+          "startMs": 20256,
+          "endMs": 20556,
+          "charStart": 77,
+          "charEnd": 83
+        },
+        {
+          "text": "heréticas",
+          "startMs": 20566,
+          "endMs": 20946,
+          "charStart": 84,
+          "charEnd": 93
+        },
+        {
+          "text": "bizantinas",
+          "startMs": 20956,
+          "endMs": 21406,
+          "charStart": 94,
+          "charEnd": 104
+        },
+        {
+          "text": "ya",
+          "startMs": 21416,
+          "endMs": 21526,
+          "charStart": 105,
+          "charEnd": 107
+        },
+        {
+          "text": "extintas",
+          "startMs": 21536,
+          "endMs": 22146,
+          "charStart": 108,
+          "charEnd": 116
+        }
+      ]
+    },
+    {
+      "text": "Abrumado por el peso de la lucidez amarga, el estudioso redactó su postrera y desengañada palinodia doctrinal.",
+      "startMs": 22528,
+      "endMs": 28264,
+      "words": [
+        {
+          "text": "Abrumado",
+          "startMs": 22628,
+          "endMs": 23078,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "por",
+          "startMs": 23088,
+          "endMs": 23208,
+          "charStart": 9,
+          "charEnd": 12
+        },
+        {
+          "text": "el",
+          "startMs": 23218,
+          "endMs": 23308,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "peso",
+          "startMs": 23318,
+          "endMs": 23518,
+          "charStart": 16,
+          "charEnd": 20
+        },
+        {
+          "text": "de",
+          "startMs": 23528,
+          "endMs": 23598,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "la",
+          "startMs": 23608,
+          "endMs": 23668,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "lucidez",
+          "startMs": 23678,
+          "endMs": 24028,
+          "charStart": 27,
+          "charEnd": 34
+        },
+        {
+          "text": "amarga",
+          "startMs": 24038,
+          "endMs": 24398,
+          "charStart": 35,
+          "charEnd": 41
+        },
+        {
+          "text": "el",
+          "startMs": 24573,
+          "endMs": 24733,
+          "charStart": 43,
+          "charEnd": 45
+        },
+        {
+          "text": "estudioso",
+          "startMs": 24743,
+          "endMs": 25193,
+          "charStart": 46,
+          "charEnd": 55
+        },
+        {
+          "text": "redactó",
+          "startMs": 25203,
+          "endMs": 25533,
+          "charStart": 56,
+          "charEnd": 63
+        },
+        {
+          "text": "su",
+          "startMs": 25543,
+          "endMs": 25663,
+          "charStart": 64,
+          "charEnd": 66
+        },
+        {
+          "text": "postrera",
+          "startMs": 25673,
+          "endMs": 26063,
+          "charStart": 67,
+          "charEnd": 75
+        },
+        {
+          "text": "y",
+          "startMs": 26073,
+          "endMs": 26113,
+          "charStart": 76,
+          "charEnd": 77
+        },
+        {
+          "text": "desengañada",
+          "startMs": 26123,
+          "endMs": 26603,
+          "charStart": 78,
+          "charEnd": 89
+        },
+        {
+          "text": "palinodia",
+          "startMs": 26613,
+          "endMs": 26983,
+          "charStart": 90,
+          "charEnd": 99
+        },
+        {
+          "text": "doctrinal",
+          "startMs": 26993,
+          "endMs": 27563,
+          "charStart": 100,
+          "charEnd": 109
+        }
+      ]
+    },
+    {
+      "text": "Quemar los manuscritos no habría servido para exorcizar la desilusión grabada indeleblemente en su alma marchita.",
+      "startMs": 28514,
+      "endMs": 33362,
+      "words": [
+        {
+          "text": "Quemar",
+          "startMs": 28609,
+          "endMs": 28889,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "los",
+          "startMs": 28899,
+          "endMs": 29019,
+          "charStart": 7,
+          "charEnd": 10
+        },
+        {
+          "text": "manuscritos",
+          "startMs": 29029,
+          "endMs": 29529,
+          "charStart": 11,
+          "charEnd": 22
+        },
+        {
+          "text": "no",
+          "startMs": 29539,
+          "endMs": 29629,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "habría",
+          "startMs": 29639,
+          "endMs": 29839,
+          "charStart": 26,
+          "charEnd": 32
+        },
+        {
+          "text": "servido",
+          "startMs": 29849,
+          "endMs": 30199,
+          "charStart": 33,
+          "charEnd": 40
+        },
+        {
+          "text": "para",
+          "startMs": 30209,
+          "endMs": 30349,
+          "charStart": 41,
+          "charEnd": 45
+        },
+        {
+          "text": "exorcizar",
+          "startMs": 30359,
+          "endMs": 30829,
+          "charStart": 46,
+          "charEnd": 55
+        },
+        {
+          "text": "la",
+          "startMs": 30839,
+          "endMs": 30899,
+          "charStart": 56,
+          "charEnd": 58
+        },
+        {
+          "text": "desilusión",
+          "startMs": 30909,
+          "endMs": 31359,
+          "charStart": 59,
+          "charEnd": 69
+        },
+        {
+          "text": "grabada",
+          "startMs": 31369,
+          "endMs": 31649,
+          "charStart": 70,
+          "charEnd": 77
+        },
+        {
+          "text": "indeleblemente",
+          "startMs": 31659,
+          "endMs": 32269,
+          "charStart": 78,
+          "charEnd": 92
+        },
+        {
+          "text": "en",
+          "startMs": 32279,
+          "endMs": 32379,
+          "charStart": 93,
+          "charEnd": 95
+        },
+        {
+          "text": "su",
+          "startMs": 32389,
+          "endMs": 32499,
+          "charStart": 96,
+          "charEnd": 98
+        },
+        {
+          "text": "alma",
+          "startMs": 32509,
+          "endMs": 32659,
+          "charStart": 99,
+          "charEnd": 103
+        },
+        {
+          "text": "marchita",
+          "startMs": 32669,
+          "endMs": 33219,
+          "charStart": 104,
+          "charEnd": 112
+        }
+      ]
+    },
+    {
+      "text": "La fe ciega en el texto sagrado revelóse como un biombo para encubrir el horror ante la nada.",
+      "startMs": 33612,
+      "endMs": 38028,
+      "words": [
+        {
+          "text": "La",
+          "startMs": 33712,
+          "endMs": 33932,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "fe",
+          "startMs": 33942,
+          "endMs": 34052,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "ciega",
+          "startMs": 34062,
+          "endMs": 34262,
+          "charStart": 6,
+          "charEnd": 11
+        },
+        {
+          "text": "en",
+          "startMs": 34272,
+          "endMs": 34332,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "el",
+          "startMs": 34342,
+          "endMs": 34432,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "texto",
+          "startMs": 34442,
+          "endMs": 34692,
+          "charStart": 18,
+          "charEnd": 23
+        },
+        {
+          "text": "sagrado",
+          "startMs": 34702,
+          "endMs": 35032,
+          "charStart": 24,
+          "charEnd": 31
+        },
+        {
+          "text": "revelóse",
+          "startMs": 35042,
+          "endMs": 35422,
+          "charStart": 32,
+          "charEnd": 40
+        },
+        {
+          "text": "como",
+          "startMs": 35432,
+          "endMs": 35602,
+          "charStart": 41,
+          "charEnd": 45
+        },
+        {
+          "text": "un",
+          "startMs": 35612,
+          "endMs": 35702,
+          "charStart": 46,
+          "charEnd": 48
+        },
+        {
+          "text": "biombo",
+          "startMs": 35712,
+          "endMs": 35982,
+          "charStart": 49,
+          "charEnd": 55
+        },
+        {
+          "text": "para",
+          "startMs": 35992,
+          "endMs": 36142,
+          "charStart": 56,
+          "charEnd": 60
+        },
+        {
+          "text": "encubrir",
+          "startMs": 36152,
+          "endMs": 36462,
+          "charStart": 61,
+          "charEnd": 69
+        },
+        {
+          "text": "el",
+          "startMs": 36472,
+          "endMs": 36542,
+          "charStart": 70,
+          "charEnd": 72
+        },
+        {
+          "text": "horror",
+          "startMs": 36552,
+          "endMs": 36752,
+          "charStart": 73,
+          "charEnd": 79
+        },
+        {
+          "text": "ante",
+          "startMs": 36762,
+          "endMs": 36902,
+          "charStart": 80,
+          "charEnd": 84
+        },
+        {
+          "text": "la",
+          "startMs": 36912,
+          "endMs": 36972,
+          "charStart": 85,
+          "charEnd": 87
+        },
+        {
+          "text": "nada",
+          "startMs": 36982,
+          "endMs": 37332,
+          "charStart": 88,
+          "charEnd": 92
+        }
+      ]
+    },
+    {
+      "text": "Despojado de certezas trascendentes, descubrió la sublime serenidad que concede la ignorancia voluntariamente asumida.",
+      "startMs": 38278,
+      "endMs": 44494,
+      "words": [
+        {
+          "text": "Despojado",
+          "startMs": 38378,
+          "endMs": 38918,
+          "charStart": 0,
+          "charEnd": 9
+        },
+        {
+          "text": "de",
+          "startMs": 38928,
+          "endMs": 39028,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "certezas",
+          "startMs": 39038,
+          "endMs": 39458,
+          "charStart": 13,
+          "charEnd": 21
+        },
+        {
+          "text": "trascendentes",
+          "startMs": 39468,
+          "endMs": 40128,
+          "charStart": 22,
+          "charEnd": 35
+        },
+        {
+          "text": "descubrió",
+          "startMs": 40323,
+          "endMs": 40813,
+          "charStart": 37,
+          "charEnd": 46
+        },
+        {
+          "text": "la",
+          "startMs": 40823,
+          "endMs": 40893,
+          "charStart": 47,
+          "charEnd": 49
+        },
+        {
+          "text": "sublime",
+          "startMs": 40903,
+          "endMs": 41213,
+          "charStart": 50,
+          "charEnd": 57
+        },
+        {
+          "text": "serenidad",
+          "startMs": 41223,
+          "endMs": 41663,
+          "charStart": 58,
+          "charEnd": 67
+        },
+        {
+          "text": "que",
+          "startMs": 41673,
+          "endMs": 41773,
+          "charStart": 68,
+          "charEnd": 71
+        },
+        {
+          "text": "concede",
+          "startMs": 41783,
+          "endMs": 42113,
+          "charStart": 72,
+          "charEnd": 79
+        },
+        {
+          "text": "la",
+          "startMs": 42123,
+          "endMs": 42183,
+          "charStart": 80,
+          "charEnd": 82
+        },
+        {
+          "text": "ignorancia",
+          "startMs": 42193,
+          "endMs": 42603,
+          "charStart": 83,
+          "charEnd": 93
+        },
+        {
+          "text": "voluntariamente",
+          "startMs": 42613,
+          "endMs": 43243,
+          "charStart": 94,
+          "charEnd": 109
+        },
+        {
+          "text": "asumida",
+          "startMs": 43253,
+          "endMs": 43783,
+          "charStart": 110,
+          "charEnd": 117
+        }
+      ]
+    },
+    {
+      "text": "Cerró pesadamente los infolios amarillentos y contempló la lluvia nocturnal golpeando los ventanales góticos desvencijados.",
+      "startMs": 44744,
+      "endMs": 50216,
+      "words": [
+        {
+          "text": "Cerró",
+          "startMs": 44839,
+          "endMs": 45179,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "pesadamente",
+          "startMs": 45189,
+          "endMs": 45729,
+          "charStart": 6,
+          "charEnd": 17
+        },
+        {
+          "text": "los",
+          "startMs": 45739,
+          "endMs": 45869,
+          "charStart": 18,
+          "charEnd": 21
+        },
+        {
+          "text": "infolios",
+          "startMs": 45879,
+          "endMs": 46239,
+          "charStart": 22,
+          "charEnd": 30
+        },
+        {
+          "text": "amarillentos",
+          "startMs": 46249,
+          "endMs": 46789,
+          "charStart": 31,
+          "charEnd": 43
+        },
+        {
+          "text": "y",
+          "startMs": 46799,
+          "endMs": 46839,
+          "charStart": 44,
+          "charEnd": 45
+        },
+        {
+          "text": "contempló",
+          "startMs": 46849,
+          "endMs": 47259,
+          "charStart": 46,
+          "charEnd": 55
+        },
+        {
+          "text": "la",
+          "startMs": 47269,
+          "endMs": 47349,
+          "charStart": 56,
+          "charEnd": 58
+        },
+        {
+          "text": "lluvia",
+          "startMs": 47359,
+          "endMs": 47579,
+          "charStart": 59,
+          "charEnd": 65
+        },
+        {
+          "text": "nocturnal",
+          "startMs": 47589,
+          "endMs": 47989,
+          "charStart": 66,
+          "charEnd": 75
+        },
+        {
+          "text": "golpeando",
+          "startMs": 47999,
+          "endMs": 48409,
+          "charStart": 76,
+          "charEnd": 85
+        },
+        {
+          "text": "los",
+          "startMs": 48419,
+          "endMs": 48539,
+          "charStart": 86,
+          "charEnd": 89
+        },
+        {
+          "text": "ventanales",
+          "startMs": 48549,
+          "endMs": 48979,
+          "charStart": 90,
+          "charEnd": 100
+        },
+        {
+          "text": "góticos",
+          "startMs": 48989,
+          "endMs": 49329,
+          "charStart": 101,
+          "charEnd": 108
+        },
+        {
+          "text": "desvencijados",
+          "startMs": 49339,
+          "endMs": 50089,
+          "charStart": 109,
+          "charEnd": 122
+        }
+      ]
+    },
+    {
+      "text": "En el postrer aliento de su vigilia académica, bendijo el abismo insondable del escepticismo radical emancipador.",
+      "startMs": 50466,
+      "endMs": 56298,
+      "words": [
+        {
+          "text": "En",
+          "startMs": 50561,
+          "endMs": 50721,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "el",
+          "startMs": 50731,
+          "endMs": 50811,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "postrer",
+          "startMs": 50821,
+          "endMs": 51111,
+          "charStart": 6,
+          "charEnd": 13
+        },
+        {
+          "text": "aliento",
+          "startMs": 51121,
+          "endMs": 51411,
+          "charStart": 14,
+          "charEnd": 21
+        },
+        {
+          "text": "de",
+          "startMs": 51421,
+          "endMs": 51491,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "su",
+          "startMs": 51501,
+          "endMs": 51601,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "vigilia",
+          "startMs": 51611,
+          "endMs": 51941,
+          "charStart": 28,
+          "charEnd": 35
+        },
+        {
+          "text": "académica",
+          "startMs": 51951,
+          "endMs": 52441,
+          "charStart": 36,
+          "charEnd": 45
+        },
+        {
+          "text": "bendijo",
+          "startMs": 52661,
+          "endMs": 53111,
+          "charStart": 47,
+          "charEnd": 54
+        },
+        {
+          "text": "el",
+          "startMs": 53121,
+          "endMs": 53181,
+          "charStart": 55,
+          "charEnd": 57
+        },
+        {
+          "text": "abismo",
+          "startMs": 53191,
+          "endMs": 53451,
+          "charStart": 58,
+          "charEnd": 64
+        },
+        {
+          "text": "insondable",
+          "startMs": 53461,
+          "endMs": 53891,
+          "charStart": 65,
+          "charEnd": 75
+        },
+        {
+          "text": "del",
+          "startMs": 53901,
+          "endMs": 54001,
+          "charStart": 76,
+          "charEnd": 79
+        },
+        {
+          "text": "escepticismo",
+          "startMs": 54011,
+          "endMs": 54591,
+          "charStart": 80,
+          "charEnd": 92
+        },
+        {
+          "text": "radical",
+          "startMs": 54601,
+          "endMs": 54941,
+          "charStart": 93,
+          "charEnd": 100
+        },
+        {
+          "text": "emancipador",
+          "startMs": 54951,
+          "endMs": 55601,
+          "charStart": 101,
+          "charEnd": 112
+        }
+      ]
+    }
+  ]
+}

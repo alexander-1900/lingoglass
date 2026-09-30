@@ -1,0 +1,1159 @@
+{
+  "version": 3,
+  "lang": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 55362,
+  "sentences": [
+    {
+      "text": "Durante el último verano, una ola de calor sin precedentes asoló los bosques del norte.",
+      "startMs": 0,
+      "endMs": 4536,
+      "words": [
+        {
+          "text": "Durante",
+          "startMs": 95,
+          "endMs": 445,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "el",
+          "startMs": 455,
+          "endMs": 505,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "último",
+          "startMs": 515,
+          "endMs": 765,
+          "charStart": 11,
+          "charEnd": 17
+        },
+        {
+          "text": "verano",
+          "startMs": 775,
+          "endMs": 1105,
+          "charStart": 18,
+          "charEnd": 24
+        },
+        {
+          "text": "una",
+          "startMs": 1335,
+          "endMs": 1455,
+          "charStart": 26,
+          "charEnd": 29
+        },
+        {
+          "text": "ola",
+          "startMs": 1465,
+          "endMs": 1605,
+          "charStart": 30,
+          "charEnd": 33
+        },
+        {
+          "text": "de",
+          "startMs": 1615,
+          "endMs": 1695,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "calor",
+          "startMs": 1705,
+          "endMs": 1955,
+          "charStart": 37,
+          "charEnd": 42
+        },
+        {
+          "text": "sin",
+          "startMs": 1965,
+          "endMs": 2105,
+          "charStart": 43,
+          "charEnd": 46
+        },
+        {
+          "text": "precedentes",
+          "startMs": 2115,
+          "endMs": 2625,
+          "charStart": 47,
+          "charEnd": 58
+        },
+        {
+          "text": "asoló",
+          "startMs": 2635,
+          "endMs": 2865,
+          "charStart": 59,
+          "charEnd": 64
+        },
+        {
+          "text": "los",
+          "startMs": 2875,
+          "endMs": 3005,
+          "charStart": 65,
+          "charEnd": 68
+        },
+        {
+          "text": "bosques",
+          "startMs": 3015,
+          "endMs": 3295,
+          "charStart": 69,
+          "charEnd": 76
+        },
+        {
+          "text": "del",
+          "startMs": 3305,
+          "endMs": 3405,
+          "charStart": 77,
+          "charEnd": 80
+        },
+        {
+          "text": "norte",
+          "startMs": 3415,
+          "endMs": 3835,
+          "charStart": 81,
+          "charEnd": 86
+        }
+      ]
+    },
+    {
+      "text": "Los brigadistas lucharon incansablemente contra las llamas durante más de tres semanas consecutivas.",
+      "startMs": 4786,
+      "endMs": 9730,
+      "words": [
+        {
+          "text": "Los",
+          "startMs": 4886,
+          "endMs": 5116,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "brigadistas",
+          "startMs": 5126,
+          "endMs": 5586,
+          "charStart": 4,
+          "charEnd": 15
+        },
+        {
+          "text": "lucharon",
+          "startMs": 5596,
+          "endMs": 5926,
+          "charStart": 16,
+          "charEnd": 24
+        },
+        {
+          "text": "incansablemente",
+          "startMs": 5936,
+          "endMs": 6606,
+          "charStart": 25,
+          "charEnd": 40
+        },
+        {
+          "text": "contra",
+          "startMs": 6616,
+          "endMs": 6846,
+          "charStart": 41,
+          "charEnd": 47
+        },
+        {
+          "text": "las",
+          "startMs": 6856,
+          "endMs": 6976,
+          "charStart": 48,
+          "charEnd": 51
+        },
+        {
+          "text": "llamas",
+          "startMs": 6986,
+          "endMs": 7236,
+          "charStart": 52,
+          "charEnd": 58
+        },
+        {
+          "text": "durante",
+          "startMs": 7246,
+          "endMs": 7526,
+          "charStart": 59,
+          "charEnd": 66
+        },
+        {
+          "text": "más",
+          "startMs": 7536,
+          "endMs": 7676,
+          "charStart": 67,
+          "charEnd": 70
+        },
+        {
+          "text": "de",
+          "startMs": 7686,
+          "endMs": 7776,
+          "charStart": 71,
+          "charEnd": 73
+        },
+        {
+          "text": "tres",
+          "startMs": 7786,
+          "endMs": 7966,
+          "charStart": 74,
+          "charEnd": 78
+        },
+        {
+          "text": "semanas",
+          "startMs": 7976,
+          "endMs": 8296,
+          "charStart": 79,
+          "charEnd": 86
+        },
+        {
+          "text": "consecutivas",
+          "startMs": 8306,
+          "endMs": 9036,
+          "charStart": 87,
+          "charEnd": 99
+        }
+      ]
+    },
+    {
+      "text": "Tan pronto como se extinguió el fuego, un equipo de biólogos comenzó a evaluar los daños ecológicos.",
+      "startMs": 9980,
+      "endMs": 15044,
+      "words": [
+        {
+          "text": "Tan",
+          "startMs": 10080,
+          "endMs": 10290,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "pronto",
+          "startMs": 10300,
+          "endMs": 10540,
+          "charStart": 4,
+          "charEnd": 10
+        },
+        {
+          "text": "como",
+          "startMs": 10550,
+          "endMs": 10730,
+          "charStart": 11,
+          "charEnd": 15
+        },
+        {
+          "text": "se",
+          "startMs": 10740,
+          "endMs": 10840,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "extinguió",
+          "startMs": 10850,
+          "endMs": 11240,
+          "charStart": 19,
+          "charEnd": 28
+        },
+        {
+          "text": "el",
+          "startMs": 11250,
+          "endMs": 11320,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "fuego",
+          "startMs": 11330,
+          "endMs": 11630,
+          "charStart": 32,
+          "charEnd": 37
+        },
+        {
+          "text": "un",
+          "startMs": 11840,
+          "endMs": 11910,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "equipo",
+          "startMs": 11920,
+          "endMs": 12160,
+          "charStart": 42,
+          "charEnd": 48
+        },
+        {
+          "text": "de",
+          "startMs": 12170,
+          "endMs": 12240,
+          "charStart": 49,
+          "charEnd": 51
+        },
+        {
+          "text": "biólogos",
+          "startMs": 12250,
+          "endMs": 12590,
+          "charStart": 52,
+          "charEnd": 60
+        },
+        {
+          "text": "comenzó",
+          "startMs": 12600,
+          "endMs": 12960,
+          "charStart": 61,
+          "charEnd": 68
+        },
+        {
+          "text": "a",
+          "startMs": 12970,
+          "endMs": 13010,
+          "charStart": 69,
+          "charEnd": 70
+        },
+        {
+          "text": "evaluar",
+          "startMs": 13020,
+          "endMs": 13350,
+          "charStart": 71,
+          "charEnd": 78
+        },
+        {
+          "text": "los",
+          "startMs": 13360,
+          "endMs": 13470,
+          "charStart": 79,
+          "charEnd": 82
+        },
+        {
+          "text": "daños",
+          "startMs": 13480,
+          "endMs": 13690,
+          "charStart": 83,
+          "charEnd": 88
+        },
+        {
+          "text": "ecológicos",
+          "startMs": 13700,
+          "endMs": 14360,
+          "charStart": 89,
+          "charEnd": 99
+        }
+      ]
+    },
+    {
+      "text": "Aunque el paisaje parecía completamente desolado, los expertos afirmaron que el ecosistema poseía capacidad de regeneración.",
+      "startMs": 15294,
+      "endMs": 21822,
+      "words": [
+        {
+          "text": "Aunque",
+          "startMs": 15394,
+          "endMs": 15694,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "el",
+          "startMs": 15704,
+          "endMs": 15774,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "paisaje",
+          "startMs": 15784,
+          "endMs": 16174,
+          "charStart": 10,
+          "charEnd": 17
+        },
+        {
+          "text": "parecía",
+          "startMs": 16184,
+          "endMs": 16524,
+          "charStart": 18,
+          "charEnd": 25
+        },
+        {
+          "text": "completamente",
+          "startMs": 16534,
+          "endMs": 17094,
+          "charStart": 26,
+          "charEnd": 39
+        },
+        {
+          "text": "desolado",
+          "startMs": 17104,
+          "endMs": 17564,
+          "charStart": 40,
+          "charEnd": 48
+        },
+        {
+          "text": "los",
+          "startMs": 17819,
+          "endMs": 18039,
+          "charStart": 50,
+          "charEnd": 53
+        },
+        {
+          "text": "expertos",
+          "startMs": 18049,
+          "endMs": 18429,
+          "charStart": 54,
+          "charEnd": 62
+        },
+        {
+          "text": "afirmaron",
+          "startMs": 18439,
+          "endMs": 18889,
+          "charStart": 63,
+          "charEnd": 72
+        },
+        {
+          "text": "que",
+          "startMs": 18899,
+          "endMs": 18989,
+          "charStart": 73,
+          "charEnd": 76
+        },
+        {
+          "text": "el",
+          "startMs": 18999,
+          "endMs": 19059,
+          "charStart": 77,
+          "charEnd": 79
+        },
+        {
+          "text": "ecosistema",
+          "startMs": 19069,
+          "endMs": 19539,
+          "charStart": 80,
+          "charEnd": 90
+        },
+        {
+          "text": "poseía",
+          "startMs": 19549,
+          "endMs": 19909,
+          "charStart": 91,
+          "charEnd": 97
+        },
+        {
+          "text": "capacidad",
+          "startMs": 19919,
+          "endMs": 20319,
+          "charStart": 98,
+          "charEnd": 107
+        },
+        {
+          "text": "de",
+          "startMs": 20329,
+          "endMs": 20389,
+          "charStart": 108,
+          "charEnd": 110
+        },
+        {
+          "text": "regeneración",
+          "startMs": 20399,
+          "endMs": 21119,
+          "charStart": 111,
+          "charEnd": 123
+        }
+      ]
+    },
+    {
+      "text": "Para que el suelo no sufra una erosión irreversible, es necesario retirar la madera quemada con urgencia.",
+      "startMs": 22072,
+      "endMs": 27232,
+      "words": [
+        {
+          "text": "Para",
+          "startMs": 22167,
+          "endMs": 22377,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "que",
+          "startMs": 22387,
+          "endMs": 22467,
+          "charStart": 5,
+          "charEnd": 8
+        },
+        {
+          "text": "el",
+          "startMs": 22477,
+          "endMs": 22547,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "suelo",
+          "startMs": 22557,
+          "endMs": 22767,
+          "charStart": 12,
+          "charEnd": 17
+        },
+        {
+          "text": "no",
+          "startMs": 22777,
+          "endMs": 22887,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "sufra",
+          "startMs": 22897,
+          "endMs": 23157,
+          "charStart": 21,
+          "charEnd": 26
+        },
+        {
+          "text": "una",
+          "startMs": 23167,
+          "endMs": 23307,
+          "charStart": 27,
+          "charEnd": 30
+        },
+        {
+          "text": "erosión",
+          "startMs": 23317,
+          "endMs": 23597,
+          "charStart": 31,
+          "charEnd": 38
+        },
+        {
+          "text": "irreversible",
+          "startMs": 23607,
+          "endMs": 24157,
+          "charStart": 39,
+          "charEnd": 51
+        },
+        {
+          "text": "es",
+          "startMs": 24367,
+          "endMs": 24447,
+          "charStart": 53,
+          "charEnd": 55
+        },
+        {
+          "text": "necesario",
+          "startMs": 24457,
+          "endMs": 24857,
+          "charStart": 56,
+          "charEnd": 65
+        },
+        {
+          "text": "retirar",
+          "startMs": 24867,
+          "endMs": 25197,
+          "charStart": 66,
+          "charEnd": 73
+        },
+        {
+          "text": "la",
+          "startMs": 25207,
+          "endMs": 25267,
+          "charStart": 74,
+          "charEnd": 76
+        },
+        {
+          "text": "madera",
+          "startMs": 25277,
+          "endMs": 25527,
+          "charStart": 77,
+          "charEnd": 83
+        },
+        {
+          "text": "quemada",
+          "startMs": 25537,
+          "endMs": 25807,
+          "charStart": 84,
+          "charEnd": 91
+        },
+        {
+          "text": "con",
+          "startMs": 25817,
+          "endMs": 25947,
+          "charStart": 92,
+          "charEnd": 95
+        },
+        {
+          "text": "urgencia",
+          "startMs": 25957,
+          "endMs": 26527,
+          "charStart": 96,
+          "charEnd": 104
+        }
+      ]
+    },
+    {
+      "text": "Si se hubieran limpiado los matorrales durante el invierno, las llamas no se habrían propagado tan rápidamente.",
+      "startMs": 27482,
+      "endMs": 32786,
+      "words": [
+        {
+          "text": "Si",
+          "startMs": 27577,
+          "endMs": 27787,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "se",
+          "startMs": 27797,
+          "endMs": 27897,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "hubieran",
+          "startMs": 27907,
+          "endMs": 28127,
+          "charStart": 6,
+          "charEnd": 14
+        },
+        {
+          "text": "limpiado",
+          "startMs": 28137,
+          "endMs": 28477,
+          "charStart": 15,
+          "charEnd": 23
+        },
+        {
+          "text": "los",
+          "startMs": 28487,
+          "endMs": 28617,
+          "charStart": 24,
+          "charEnd": 27
+        },
+        {
+          "text": "matorrales",
+          "startMs": 28627,
+          "endMs": 29057,
+          "charStart": 28,
+          "charEnd": 38
+        },
+        {
+          "text": "durante",
+          "startMs": 29067,
+          "endMs": 29317,
+          "charStart": 39,
+          "charEnd": 46
+        },
+        {
+          "text": "el",
+          "startMs": 29327,
+          "endMs": 29377,
+          "charStart": 47,
+          "charEnd": 49
+        },
+        {
+          "text": "invierno",
+          "startMs": 29387,
+          "endMs": 29767,
+          "charStart": 50,
+          "charEnd": 58
+        },
+        {
+          "text": "las",
+          "startMs": 29987,
+          "endMs": 30097,
+          "charStart": 60,
+          "charEnd": 63
+        },
+        {
+          "text": "llamas",
+          "startMs": 30107,
+          "endMs": 30347,
+          "charStart": 64,
+          "charEnd": 70
+        },
+        {
+          "text": "no",
+          "startMs": 30357,
+          "endMs": 30457,
+          "charStart": 71,
+          "charEnd": 73
+        },
+        {
+          "text": "se",
+          "startMs": 30467,
+          "endMs": 30567,
+          "charStart": 74,
+          "charEnd": 76
+        },
+        {
+          "text": "habrían",
+          "startMs": 30577,
+          "endMs": 30817,
+          "charStart": 77,
+          "charEnd": 84
+        },
+        {
+          "text": "propagado",
+          "startMs": 30827,
+          "endMs": 31217,
+          "charStart": 85,
+          "charEnd": 94
+        },
+        {
+          "text": "tan",
+          "startMs": 31227,
+          "endMs": 31387,
+          "charStart": 95,
+          "charEnd": 98
+        },
+        {
+          "text": "rápidamente",
+          "startMs": 31397,
+          "endMs": 32097,
+          "charStart": 99,
+          "charEnd": 110
+        }
+      ]
+    },
+    {
+      "text": "Numerosos voluntarios acudieron a la zona afectada a fin de plantar especies autóctonas más resistentes.",
+      "startMs": 33036,
+      "endMs": 38316,
+      "words": [
+        {
+          "text": "Numerosos",
+          "startMs": 33131,
+          "endMs": 33631,
+          "charStart": 0,
+          "charEnd": 9
+        },
+        {
+          "text": "voluntarios",
+          "startMs": 33641,
+          "endMs": 34131,
+          "charStart": 10,
+          "charEnd": 21
+        },
+        {
+          "text": "acudieron",
+          "startMs": 34141,
+          "endMs": 34501,
+          "charStart": 22,
+          "charEnd": 31
+        },
+        {
+          "text": "a",
+          "startMs": 34511,
+          "endMs": 34531,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "la",
+          "startMs": 34541,
+          "endMs": 34621,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "zona",
+          "startMs": 34631,
+          "endMs": 34821,
+          "charStart": 37,
+          "charEnd": 41
+        },
+        {
+          "text": "afectada",
+          "startMs": 34831,
+          "endMs": 35221,
+          "charStart": 42,
+          "charEnd": 50
+        },
+        {
+          "text": "a",
+          "startMs": 35231,
+          "endMs": 35291,
+          "charStart": 51,
+          "charEnd": 52
+        },
+        {
+          "text": "fin",
+          "startMs": 35301,
+          "endMs": 35461,
+          "charStart": 53,
+          "charEnd": 56
+        },
+        {
+          "text": "de",
+          "startMs": 35471,
+          "endMs": 35541,
+          "charStart": 57,
+          "charEnd": 59
+        },
+        {
+          "text": "plantar",
+          "startMs": 35551,
+          "endMs": 35831,
+          "charStart": 60,
+          "charEnd": 67
+        },
+        {
+          "text": "especies",
+          "startMs": 35841,
+          "endMs": 36211,
+          "charStart": 68,
+          "charEnd": 76
+        },
+        {
+          "text": "autóctonas",
+          "startMs": 36221,
+          "endMs": 36731,
+          "charStart": 77,
+          "charEnd": 87
+        },
+        {
+          "text": "más",
+          "startMs": 36741,
+          "endMs": 36881,
+          "charStart": 88,
+          "charEnd": 91
+        },
+        {
+          "text": "resistentes",
+          "startMs": 36891,
+          "endMs": 37611,
+          "charStart": 92,
+          "charEnd": 103
+        }
+      ]
+    },
+    {
+      "text": "A pesar de las dificultades orográficas, la comunidad rural demostró una admirable solidaridad.",
+      "startMs": 38566,
+      "endMs": 43462,
+      "words": [
+        {
+          "text": "A",
+          "startMs": 38661,
+          "endMs": 38801,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "pesar",
+          "startMs": 38811,
+          "endMs": 39061,
+          "charStart": 2,
+          "charEnd": 7
+        },
+        {
+          "text": "de",
+          "startMs": 39071,
+          "endMs": 39131,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "las",
+          "startMs": 39141,
+          "endMs": 39251,
+          "charStart": 11,
+          "charEnd": 14
+        },
+        {
+          "text": "dificultades",
+          "startMs": 39261,
+          "endMs": 39791,
+          "charStart": 15,
+          "charEnd": 27
+        },
+        {
+          "text": "orográficas",
+          "startMs": 39801,
+          "endMs": 40381,
+          "charStart": 28,
+          "charEnd": 39
+        },
+        {
+          "text": "la",
+          "startMs": 40561,
+          "endMs": 40651,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "comunidad",
+          "startMs": 40661,
+          "endMs": 41051,
+          "charStart": 44,
+          "charEnd": 53
+        },
+        {
+          "text": "rural",
+          "startMs": 41061,
+          "endMs": 41311,
+          "charStart": 54,
+          "charEnd": 59
+        },
+        {
+          "text": "demostró",
+          "startMs": 41321,
+          "endMs": 41691,
+          "charStart": 60,
+          "charEnd": 68
+        },
+        {
+          "text": "una",
+          "startMs": 41701,
+          "endMs": 41831,
+          "charStart": 69,
+          "charEnd": 72
+        },
+        {
+          "text": "admirable",
+          "startMs": 41841,
+          "endMs": 42201,
+          "charStart": 73,
+          "charEnd": 82
+        },
+        {
+          "text": "solidaridad",
+          "startMs": 42211,
+          "endMs": 42771,
+          "charStart": 83,
+          "charEnd": 94
+        }
+      ]
+    },
+    {
+      "text": "Las administraciones públicas deben invertir más recursos en políticas preventivas en lugar de actuar únicamente tras la catástrofe.",
+      "startMs": 43712,
+      "endMs": 50168,
+      "words": [
+        {
+          "text": "Las",
+          "startMs": 43812,
+          "endMs": 44052,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "administraciones",
+          "startMs": 44062,
+          "endMs": 44692,
+          "charStart": 4,
+          "charEnd": 20
+        },
+        {
+          "text": "públicas",
+          "startMs": 44702,
+          "endMs": 45062,
+          "charStart": 21,
+          "charEnd": 29
+        },
+        {
+          "text": "deben",
+          "startMs": 45072,
+          "endMs": 45242,
+          "charStart": 30,
+          "charEnd": 35
+        },
+        {
+          "text": "invertir",
+          "startMs": 45252,
+          "endMs": 45582,
+          "charStart": 36,
+          "charEnd": 44
+        },
+        {
+          "text": "más",
+          "startMs": 45592,
+          "endMs": 45722,
+          "charStart": 45,
+          "charEnd": 48
+        },
+        {
+          "text": "recursos",
+          "startMs": 45732,
+          "endMs": 46122,
+          "charStart": 49,
+          "charEnd": 57
+        },
+        {
+          "text": "en",
+          "startMs": 46132,
+          "endMs": 46212,
+          "charStart": 58,
+          "charEnd": 60
+        },
+        {
+          "text": "políticas",
+          "startMs": 46222,
+          "endMs": 46642,
+          "charStart": 61,
+          "charEnd": 70
+        },
+        {
+          "text": "preventivas",
+          "startMs": 46652,
+          "endMs": 47132,
+          "charStart": 71,
+          "charEnd": 82
+        },
+        {
+          "text": "en",
+          "startMs": 47142,
+          "endMs": 47212,
+          "charStart": 83,
+          "charEnd": 85
+        },
+        {
+          "text": "lugar",
+          "startMs": 47222,
+          "endMs": 47432,
+          "charStart": 86,
+          "charEnd": 91
+        },
+        {
+          "text": "de",
+          "startMs": 47442,
+          "endMs": 47492,
+          "charStart": 92,
+          "charEnd": 94
+        },
+        {
+          "text": "actuar",
+          "startMs": 47502,
+          "endMs": 47942,
+          "charStart": 95,
+          "charEnd": 101
+        },
+        {
+          "text": "únicamente",
+          "startMs": 48062,
+          "endMs": 48652,
+          "charStart": 102,
+          "charEnd": 112
+        },
+        {
+          "text": "tras",
+          "startMs": 48662,
+          "endMs": 48812,
+          "charStart": 113,
+          "charEnd": 117
+        },
+        {
+          "text": "la",
+          "startMs": 48822,
+          "endMs": 48882,
+          "charStart": 118,
+          "charEnd": 120
+        },
+        {
+          "text": "catástrofe",
+          "startMs": 48892,
+          "endMs": 49472,
+          "charStart": 121,
+          "charEnd": 131
+        }
+      ]
+    },
+    {
+      "text": "La recuperación del valioso bosque tardará décadas, pero la esperanza colectiva sigue intacta.",
+      "startMs": 50418,
+      "endMs": 55362,
+      "words": [
+        {
+          "text": "La",
+          "startMs": 50518,
+          "endMs": 50718,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "recuperación",
+          "startMs": 50728,
+          "endMs": 51238,
+          "charStart": 3,
+          "charEnd": 15
+        },
+        {
+          "text": "del",
+          "startMs": 51248,
+          "endMs": 51348,
+          "charStart": 16,
+          "charEnd": 19
+        },
+        {
+          "text": "valioso",
+          "startMs": 51358,
+          "endMs": 51718,
+          "charStart": 20,
+          "charEnd": 27
+        },
+        {
+          "text": "bosque",
+          "startMs": 51728,
+          "endMs": 51988,
+          "charStart": 28,
+          "charEnd": 34
+        },
+        {
+          "text": "tardará",
+          "startMs": 51998,
+          "endMs": 52258,
+          "charStart": 35,
+          "charEnd": 42
+        },
+        {
+          "text": "décadas",
+          "startMs": 52268,
+          "endMs": 52658,
+          "charStart": 43,
+          "charEnd": 50
+        },
+        {
+          "text": "pero",
+          "startMs": 52848,
+          "endMs": 52998,
+          "charStart": 52,
+          "charEnd": 56
+        },
+        {
+          "text": "la",
+          "startMs": 53008,
+          "endMs": 53078,
+          "charStart": 57,
+          "charEnd": 59
+        },
+        {
+          "text": "esperanza",
+          "startMs": 53088,
+          "endMs": 53468,
+          "charStart": 60,
+          "charEnd": 69
+        },
+        {
+          "text": "colectiva",
+          "startMs": 53478,
+          "endMs": 53918,
+          "charStart": 70,
+          "charEnd": 79
+        },
+        {
+          "text": "sigue",
+          "startMs": 53928,
+          "endMs": 54138,
+          "charStart": 80,
+          "charEnd": 85
+        },
+        {
+          "text": "intacta",
+          "startMs": 54148,
+          "endMs": 54678,
+          "charStart": 86,
+          "charEnd": 93
+        }
+      ]
+    }
+  ]
+}

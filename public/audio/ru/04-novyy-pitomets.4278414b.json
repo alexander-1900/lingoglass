@@ -1,0 +1,557 @@
+{
+  "version": 3,
+  "lang": "ru",
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 31866,
+  "sentences": [
+    {
+      "text": "У маленького мальчика Миши сегодня праздник.",
+      "startMs": 0,
+      "endMs": 2880,
+      "words": [
+        {
+          "text": "У",
+          "startMs": 100,
+          "endMs": 260,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "маленького",
+          "startMs": 260,
+          "endMs": 660,
+          "charStart": 2,
+          "charEnd": 12
+        },
+        {
+          "text": "мальчика",
+          "startMs": 660,
+          "endMs": 1060,
+          "charStart": 13,
+          "charEnd": 21
+        },
+        {
+          "text": "Миши",
+          "startMs": 1060,
+          "endMs": 1370,
+          "charStart": 22,
+          "charEnd": 26
+        },
+        {
+          "text": "сегодня",
+          "startMs": 1370,
+          "endMs": 1760,
+          "charStart": 27,
+          "charEnd": 34
+        },
+        {
+          "text": "праздник",
+          "startMs": 1760,
+          "endMs": 2210,
+          "charStart": 35,
+          "charEnd": 43
+        }
+      ]
+    },
+    {
+      "text": "Родители подарили ему маленького рыжего щенка.",
+      "startMs": 3130,
+      "endMs": 6202,
+      "words": [
+        {
+          "text": "Родители",
+          "startMs": 3230,
+          "endMs": 3760,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "подарили",
+          "startMs": 3760,
+          "endMs": 4130,
+          "charStart": 9,
+          "charEnd": 17
+        },
+        {
+          "text": "ему",
+          "startMs": 4130,
+          "endMs": 4290,
+          "charStart": 18,
+          "charEnd": 21
+        },
+        {
+          "text": "маленького",
+          "startMs": 4290,
+          "endMs": 4760,
+          "charStart": 22,
+          "charEnd": 32
+        },
+        {
+          "text": "рыжего",
+          "startMs": 4760,
+          "endMs": 5010,
+          "charStart": 33,
+          "charEnd": 39
+        },
+        {
+          "text": "щенка",
+          "startMs": 5010,
+          "endMs": 5480,
+          "charStart": 40,
+          "charEnd": 45
+        }
+      ]
+    },
+    {
+      "text": "Щенка зовут Дружок, и он очень весёлый.",
+      "startMs": 6452,
+      "endMs": 9572,
+      "words": [
+        {
+          "text": "Щенка",
+          "startMs": 6552,
+          "endMs": 6992,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "зовут",
+          "startMs": 6992,
+          "endMs": 7242,
+          "charStart": 6,
+          "charEnd": 11
+        },
+        {
+          "text": "Дружок",
+          "startMs": 7242,
+          "endMs": 7642,
+          "charStart": 12,
+          "charEnd": 18
+        },
+        {
+          "text": "и",
+          "startMs": 7862,
+          "endMs": 7942,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "он",
+          "startMs": 7942,
+          "endMs": 8112,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "очень",
+          "startMs": 8112,
+          "endMs": 8382,
+          "charStart": 25,
+          "charEnd": 30
+        },
+        {
+          "text": "весёлый",
+          "startMs": 8382,
+          "endMs": 8852,
+          "charStart": 31,
+          "charEnd": 38
+        }
+      ]
+    },
+    {
+      "text": "У Дружка большие уши и короткий хвост.",
+      "startMs": 9822,
+      "endMs": 12678,
+      "words": [
+        {
+          "text": "У",
+          "startMs": 9922,
+          "endMs": 10102,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "Дружка",
+          "startMs": 10102,
+          "endMs": 10452,
+          "charStart": 2,
+          "charEnd": 8
+        },
+        {
+          "text": "большие",
+          "startMs": 10452,
+          "endMs": 10812,
+          "charStart": 9,
+          "charEnd": 16
+        },
+        {
+          "text": "уши",
+          "startMs": 10812,
+          "endMs": 11142,
+          "charStart": 17,
+          "charEnd": 20
+        },
+        {
+          "text": "и",
+          "startMs": 11142,
+          "endMs": 11262,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "короткий",
+          "startMs": 11262,
+          "endMs": 11602,
+          "charStart": 23,
+          "charEnd": 31
+        },
+        {
+          "text": "хвост",
+          "startMs": 11602,
+          "endMs": 11992,
+          "charStart": 32,
+          "charEnd": 37
+        }
+      ]
+    },
+    {
+      "text": "Миша наливает чистую воду в миску.",
+      "startMs": 12928,
+      "endMs": 15544,
+      "words": [
+        {
+          "text": "Миша",
+          "startMs": 13028,
+          "endMs": 13438,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "наливает",
+          "startMs": 13438,
+          "endMs": 13788,
+          "charStart": 5,
+          "charEnd": 13
+        },
+        {
+          "text": "чистую",
+          "startMs": 13788,
+          "endMs": 14158,
+          "charStart": 14,
+          "charEnd": 20
+        },
+        {
+          "text": "воду",
+          "startMs": 14158,
+          "endMs": 14388,
+          "charStart": 21,
+          "charEnd": 25
+        },
+        {
+          "text": "в",
+          "startMs": 14388,
+          "endMs": 14428,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "миску",
+          "startMs": 14428,
+          "endMs": 14818,
+          "charStart": 28,
+          "charEnd": 33
+        }
+      ]
+    },
+    {
+      "text": "Щенок с аппетитом ест вкусный сухой корм.",
+      "startMs": 15794,
+      "endMs": 18818,
+      "words": [
+        {
+          "text": "Щенок",
+          "startMs": 15894,
+          "endMs": 16324,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "с",
+          "startMs": 16324,
+          "endMs": 16394,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "аппетитом",
+          "startMs": 16394,
+          "endMs": 16794,
+          "charStart": 8,
+          "charEnd": 17
+        },
+        {
+          "text": "ест",
+          "startMs": 16794,
+          "endMs": 17054,
+          "charStart": 18,
+          "charEnd": 21
+        },
+        {
+          "text": "вкусный",
+          "startMs": 17054,
+          "endMs": 17474,
+          "charStart": 22,
+          "charEnd": 29
+        },
+        {
+          "text": "сухой",
+          "startMs": 17474,
+          "endMs": 17764,
+          "charStart": 30,
+          "charEnd": 35
+        },
+        {
+          "text": "корм",
+          "startMs": 17764,
+          "endMs": 18084,
+          "charStart": 36,
+          "charEnd": 40
+        }
+      ]
+    },
+    {
+      "text": "Потом они долго бегают по комнате с мячом.",
+      "startMs": 19068,
+      "endMs": 21924,
+      "words": [
+        {
+          "text": "Потом",
+          "startMs": 19168,
+          "endMs": 19488,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "они",
+          "startMs": 19488,
+          "endMs": 19638,
+          "charStart": 6,
+          "charEnd": 9
+        },
+        {
+          "text": "долго",
+          "startMs": 19638,
+          "endMs": 19928,
+          "charStart": 10,
+          "charEnd": 15
+        },
+        {
+          "text": "бегают",
+          "startMs": 19928,
+          "endMs": 20288,
+          "charStart": 16,
+          "charEnd": 22
+        },
+        {
+          "text": "по",
+          "startMs": 20288,
+          "endMs": 20408,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "комнате",
+          "startMs": 20408,
+          "endMs": 20738,
+          "charStart": 26,
+          "charEnd": 33
+        },
+        {
+          "text": "с",
+          "startMs": 20738,
+          "endMs": 20788,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "мячом",
+          "startMs": 20788,
+          "endMs": 21188,
+          "charStart": 36,
+          "charEnd": 41
+        }
+      ]
+    },
+    {
+      "text": "Дружок радостно лает и машет хвостом.",
+      "startMs": 22174,
+      "endMs": 25054,
+      "words": [
+        {
+          "text": "Дружок",
+          "startMs": 22274,
+          "endMs": 22784,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "радостно",
+          "startMs": 22784,
+          "endMs": 23154,
+          "charStart": 7,
+          "charEnd": 15
+        },
+        {
+          "text": "лает",
+          "startMs": 23154,
+          "endMs": 23524,
+          "charStart": 16,
+          "charEnd": 20
+        },
+        {
+          "text": "и",
+          "startMs": 23524,
+          "endMs": 23594,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "машет",
+          "startMs": 23594,
+          "endMs": 23874,
+          "charStart": 23,
+          "charEnd": 28
+        },
+        {
+          "text": "хвостом",
+          "startMs": 23874,
+          "endMs": 24354,
+          "charStart": 29,
+          "charEnd": 36
+        }
+      ]
+    },
+    {
+      "text": "Вечером щенок сладко засыпает на коврике.",
+      "startMs": 25304,
+      "endMs": 28352,
+      "words": [
+        {
+          "text": "Вечером",
+          "startMs": 25404,
+          "endMs": 25924,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "щенок",
+          "startMs": 25924,
+          "endMs": 26254,
+          "charStart": 8,
+          "charEnd": 13
+        },
+        {
+          "text": "сладко",
+          "startMs": 26254,
+          "endMs": 26644,
+          "charStart": 14,
+          "charEnd": 20
+        },
+        {
+          "text": "засыпает",
+          "startMs": 26644,
+          "endMs": 27094,
+          "charStart": 21,
+          "charEnd": 29
+        },
+        {
+          "text": "на",
+          "startMs": 27094,
+          "endMs": 27184,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "коврике",
+          "startMs": 27184,
+          "endMs": 27664,
+          "charStart": 33,
+          "charEnd": 40
+        }
+      ]
+    },
+    {
+      "text": "Миша очень счастлив, потому что у него есть друг.",
+      "startMs": 28602,
+      "endMs": 31866,
+      "words": [
+        {
+          "text": "Миша",
+          "startMs": 28702,
+          "endMs": 29192,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "очень",
+          "startMs": 29192,
+          "endMs": 29492,
+          "charStart": 5,
+          "charEnd": 10
+        },
+        {
+          "text": "счастлив",
+          "startMs": 29492,
+          "endMs": 29922,
+          "charStart": 11,
+          "charEnd": 19
+        },
+        {
+          "text": "потому",
+          "startMs": 30092,
+          "endMs": 30322,
+          "charStart": 21,
+          "charEnd": 27
+        },
+        {
+          "text": "что",
+          "startMs": 30322,
+          "endMs": 30462,
+          "charStart": 28,
+          "charEnd": 31
+        },
+        {
+          "text": "у",
+          "startMs": 30462,
+          "endMs": 30512,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "него",
+          "startMs": 30512,
+          "endMs": 30692,
+          "charStart": 34,
+          "charEnd": 38
+        },
+        {
+          "text": "есть",
+          "startMs": 30692,
+          "endMs": 30842,
+          "charStart": 39,
+          "charEnd": 43
+        },
+        {
+          "text": "друг",
+          "startMs": 30842,
+          "endMs": 31172,
+          "charStart": 44,
+          "charEnd": 48
+        }
+      ]
+    }
+  ]
+}

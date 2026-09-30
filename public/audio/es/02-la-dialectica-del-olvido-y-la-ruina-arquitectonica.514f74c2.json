@@ -1,0 +1,1110 @@
+{
+  "version": 3,
+  "lang": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 54642,
+  "sentences": [
+    {
+      "text": "La suntuosa basílica barroca yace consumida por la herrumbre implacable del tiempo devorador.",
+      "startMs": 0,
+      "endMs": 4776,
+      "words": [
+        {
+          "text": "La",
+          "startMs": 100,
+          "endMs": 310,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "suntuosa",
+          "startMs": 320,
+          "endMs": 710,
+          "charStart": 3,
+          "charEnd": 11
+        },
+        {
+          "text": "basílica",
+          "startMs": 720,
+          "endMs": 1130,
+          "charStart": 12,
+          "charEnd": 20
+        },
+        {
+          "text": "barroca",
+          "startMs": 1140,
+          "endMs": 1490,
+          "charStart": 21,
+          "charEnd": 28
+        },
+        {
+          "text": "yace",
+          "startMs": 1500,
+          "endMs": 1710,
+          "charStart": 29,
+          "charEnd": 33
+        },
+        {
+          "text": "consumida",
+          "startMs": 1720,
+          "endMs": 2140,
+          "charStart": 34,
+          "charEnd": 43
+        },
+        {
+          "text": "por",
+          "startMs": 2150,
+          "endMs": 2280,
+          "charStart": 44,
+          "charEnd": 47
+        },
+        {
+          "text": "la",
+          "startMs": 2290,
+          "endMs": 2360,
+          "charStart": 48,
+          "charEnd": 50
+        },
+        {
+          "text": "herrumbre",
+          "startMs": 2370,
+          "endMs": 2690,
+          "charStart": 51,
+          "charEnd": 60
+        },
+        {
+          "text": "implacable",
+          "startMs": 2700,
+          "endMs": 3130,
+          "charStart": 61,
+          "charEnd": 71
+        },
+        {
+          "text": "del",
+          "startMs": 3140,
+          "endMs": 3290,
+          "charStart": 72,
+          "charEnd": 75
+        },
+        {
+          "text": "tiempo",
+          "startMs": 3300,
+          "endMs": 3550,
+          "charStart": 76,
+          "charEnd": 82
+        },
+        {
+          "text": "devorador",
+          "startMs": 3560,
+          "endMs": 4090,
+          "charStart": 83,
+          "charEnd": 92
+        }
+      ]
+    },
+    {
+      "text": "Donde antaño resonaban salmodias litúrgicas solemnes, ahora impera un silencio lúgubre y desolador.",
+      "startMs": 5026,
+      "endMs": 10186,
+      "words": [
+        {
+          "text": "Donde",
+          "startMs": 5126,
+          "endMs": 5416,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "antaño",
+          "startMs": 5426,
+          "endMs": 5696,
+          "charStart": 6,
+          "charEnd": 12
+        },
+        {
+          "text": "resonaban",
+          "startMs": 5706,
+          "endMs": 6126,
+          "charStart": 13,
+          "charEnd": 22
+        },
+        {
+          "text": "salmodias",
+          "startMs": 6136,
+          "endMs": 6536,
+          "charStart": 23,
+          "charEnd": 32
+        },
+        {
+          "text": "litúrgicas",
+          "startMs": 6546,
+          "endMs": 7016,
+          "charStart": 33,
+          "charEnd": 43
+        },
+        {
+          "text": "solemnes",
+          "startMs": 7026,
+          "endMs": 7466,
+          "charStart": 44,
+          "charEnd": 52
+        },
+        {
+          "text": "ahora",
+          "startMs": 7636,
+          "endMs": 7816,
+          "charStart": 54,
+          "charEnd": 59
+        },
+        {
+          "text": "impera",
+          "startMs": 7826,
+          "endMs": 8096,
+          "charStart": 60,
+          "charEnd": 66
+        },
+        {
+          "text": "un",
+          "startMs": 8106,
+          "endMs": 8206,
+          "charStart": 67,
+          "charEnd": 69
+        },
+        {
+          "text": "silencio",
+          "startMs": 8216,
+          "endMs": 8576,
+          "charStart": 70,
+          "charEnd": 78
+        },
+        {
+          "text": "lúgubre",
+          "startMs": 8586,
+          "endMs": 8876,
+          "charStart": 79,
+          "charEnd": 86
+        },
+        {
+          "text": "y",
+          "startMs": 8886,
+          "endMs": 8906,
+          "charStart": 87,
+          "charEnd": 88
+        },
+        {
+          "text": "desolador",
+          "startMs": 8916,
+          "endMs": 9486,
+          "charStart": 89,
+          "charEnd": 98
+        }
+      ]
+    },
+    {
+      "text": "Las hiedras trepadoras sofocan las cornisas marmóreas, desdibujando los vestigios del esplendor imperial pretérito.",
+      "startMs": 10436,
+      "endMs": 16292,
+      "words": [
+        {
+          "text": "Las",
+          "startMs": 10536,
+          "endMs": 10786,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "hiedras",
+          "startMs": 10796,
+          "endMs": 11026,
+          "charStart": 4,
+          "charEnd": 11
+        },
+        {
+          "text": "trepadoras",
+          "startMs": 11036,
+          "endMs": 11456,
+          "charStart": 12,
+          "charEnd": 22
+        },
+        {
+          "text": "sofocan",
+          "startMs": 11466,
+          "endMs": 11816,
+          "charStart": 23,
+          "charEnd": 30
+        },
+        {
+          "text": "las",
+          "startMs": 11826,
+          "endMs": 11946,
+          "charStart": 31,
+          "charEnd": 34
+        },
+        {
+          "text": "cornisas",
+          "startMs": 11956,
+          "endMs": 12336,
+          "charStart": 35,
+          "charEnd": 43
+        },
+        {
+          "text": "marmóreas",
+          "startMs": 12346,
+          "endMs": 12826,
+          "charStart": 44,
+          "charEnd": 53
+        },
+        {
+          "text": "desdibujando",
+          "startMs": 13061,
+          "endMs": 13651,
+          "charStart": 55,
+          "charEnd": 67
+        },
+        {
+          "text": "los",
+          "startMs": 13661,
+          "endMs": 13771,
+          "charStart": 68,
+          "charEnd": 71
+        },
+        {
+          "text": "vestigios",
+          "startMs": 13781,
+          "endMs": 14171,
+          "charStart": 72,
+          "charEnd": 81
+        },
+        {
+          "text": "del",
+          "startMs": 14181,
+          "endMs": 14281,
+          "charStart": 82,
+          "charEnd": 85
+        },
+        {
+          "text": "esplendor",
+          "startMs": 14291,
+          "endMs": 14661,
+          "charStart": 86,
+          "charEnd": 95
+        },
+        {
+          "text": "imperial",
+          "startMs": 14671,
+          "endMs": 15001,
+          "charStart": 96,
+          "charEnd": 104
+        },
+        {
+          "text": "pretérito",
+          "startMs": 15011,
+          "endMs": 15591,
+          "charStart": 105,
+          "charEnd": 114
+        }
+      ]
+    },
+    {
+      "text": "Todo intento de restauración monumental parece condenado a petrificar un anacronismo meramente nostálgico.",
+      "startMs": 16542,
+      "endMs": 21726,
+      "words": [
+        {
+          "text": "Todo",
+          "startMs": 16642,
+          "endMs": 16862,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "intento",
+          "startMs": 16872,
+          "endMs": 17182,
+          "charStart": 5,
+          "charEnd": 12
+        },
+        {
+          "text": "de",
+          "startMs": 17192,
+          "endMs": 17262,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "restauración",
+          "startMs": 17272,
+          "endMs": 17752,
+          "charStart": 16,
+          "charEnd": 28
+        },
+        {
+          "text": "monumental",
+          "startMs": 17762,
+          "endMs": 18232,
+          "charStart": 29,
+          "charEnd": 39
+        },
+        {
+          "text": "parece",
+          "startMs": 18242,
+          "endMs": 18532,
+          "charStart": 40,
+          "charEnd": 46
+        },
+        {
+          "text": "condenado",
+          "startMs": 18542,
+          "endMs": 18922,
+          "charStart": 47,
+          "charEnd": 56
+        },
+        {
+          "text": "a",
+          "startMs": 18932,
+          "endMs": 18962,
+          "charStart": 57,
+          "charEnd": 58
+        },
+        {
+          "text": "petrificar",
+          "startMs": 18972,
+          "endMs": 19432,
+          "charStart": 59,
+          "charEnd": 69
+        },
+        {
+          "text": "un",
+          "startMs": 19442,
+          "endMs": 19512,
+          "charStart": 70,
+          "charEnd": 72
+        },
+        {
+          "text": "anacronismo",
+          "startMs": 19522,
+          "endMs": 19972,
+          "charStart": 73,
+          "charEnd": 84
+        },
+        {
+          "text": "meramente",
+          "startMs": 19982,
+          "endMs": 20372,
+          "charStart": 85,
+          "charEnd": 94
+        },
+        {
+          "text": "nostálgico",
+          "startMs": 20382,
+          "endMs": 21042,
+          "charStart": 95,
+          "charEnd": 105
+        }
+      ]
+    },
+    {
+      "text": "El paseante contemplativo advierte en cada sillar derruido la elocuente victoria de la entropía universal.",
+      "startMs": 21976,
+      "endMs": 27040,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 22071,
+          "endMs": 22251,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "paseante",
+          "startMs": 22261,
+          "endMs": 22631,
+          "charStart": 3,
+          "charEnd": 11
+        },
+        {
+          "text": "contemplativo",
+          "startMs": 22641,
+          "endMs": 23211,
+          "charStart": 12,
+          "charEnd": 25
+        },
+        {
+          "text": "advierte",
+          "startMs": 23221,
+          "endMs": 23551,
+          "charStart": 26,
+          "charEnd": 34
+        },
+        {
+          "text": "en",
+          "startMs": 23561,
+          "endMs": 23641,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "cada",
+          "startMs": 23651,
+          "endMs": 23821,
+          "charStart": 38,
+          "charEnd": 42
+        },
+        {
+          "text": "sillar",
+          "startMs": 23831,
+          "endMs": 24101,
+          "charStart": 43,
+          "charEnd": 49
+        },
+        {
+          "text": "derruido",
+          "startMs": 24111,
+          "endMs": 24471,
+          "charStart": 50,
+          "charEnd": 58
+        },
+        {
+          "text": "la",
+          "startMs": 24481,
+          "endMs": 24561,
+          "charStart": 59,
+          "charEnd": 61
+        },
+        {
+          "text": "elocuente",
+          "startMs": 24571,
+          "endMs": 24911,
+          "charStart": 62,
+          "charEnd": 71
+        },
+        {
+          "text": "victoria",
+          "startMs": 24921,
+          "endMs": 25271,
+          "charStart": 72,
+          "charEnd": 80
+        },
+        {
+          "text": "de",
+          "startMs": 25281,
+          "endMs": 25341,
+          "charStart": 81,
+          "charEnd": 83
+        },
+        {
+          "text": "la",
+          "startMs": 25351,
+          "endMs": 25411,
+          "charStart": 84,
+          "charEnd": 86
+        },
+        {
+          "text": "entropía",
+          "startMs": 25421,
+          "endMs": 25781,
+          "charStart": 87,
+          "charEnd": 95
+        },
+        {
+          "text": "universal",
+          "startMs": 25791,
+          "endMs": 26351,
+          "charStart": 96,
+          "charEnd": 105
+        }
+      ]
+    },
+    {
+      "text": "Desprovista de su sacralidad originaria, la arquitectura se transfigura en testimonio mudo de la vanitas humana.",
+      "startMs": 27290,
+      "endMs": 32930,
+      "words": [
+        {
+          "text": "Desprovista",
+          "startMs": 27390,
+          "endMs": 27980,
+          "charStart": 0,
+          "charEnd": 11
+        },
+        {
+          "text": "de",
+          "startMs": 27990,
+          "endMs": 28060,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "su",
+          "startMs": 28070,
+          "endMs": 28170,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "sacralidad",
+          "startMs": 28180,
+          "endMs": 28600,
+          "charStart": 18,
+          "charEnd": 28
+        },
+        {
+          "text": "originaria",
+          "startMs": 28610,
+          "endMs": 29140,
+          "charStart": 29,
+          "charEnd": 39
+        },
+        {
+          "text": "la",
+          "startMs": 29395,
+          "endMs": 29565,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "arquitectura",
+          "startMs": 29575,
+          "endMs": 30035,
+          "charStart": 44,
+          "charEnd": 56
+        },
+        {
+          "text": "se",
+          "startMs": 30045,
+          "endMs": 30145,
+          "charStart": 57,
+          "charEnd": 59
+        },
+        {
+          "text": "transfigura",
+          "startMs": 30155,
+          "endMs": 30585,
+          "charStart": 60,
+          "charEnd": 71
+        },
+        {
+          "text": "en",
+          "startMs": 30595,
+          "endMs": 30665,
+          "charStart": 72,
+          "charEnd": 74
+        },
+        {
+          "text": "testimonio",
+          "startMs": 30675,
+          "endMs": 31105,
+          "charStart": 75,
+          "charEnd": 85
+        },
+        {
+          "text": "mudo",
+          "startMs": 31115,
+          "endMs": 31305,
+          "charStart": 86,
+          "charEnd": 90
+        },
+        {
+          "text": "de",
+          "startMs": 31315,
+          "endMs": 31385,
+          "charStart": 91,
+          "charEnd": 93
+        },
+        {
+          "text": "la",
+          "startMs": 31395,
+          "endMs": 31455,
+          "charStart": 94,
+          "charEnd": 96
+        },
+        {
+          "text": "vanitas",
+          "startMs": 31465,
+          "endMs": 31785,
+          "charStart": 97,
+          "charEnd": 104
+        },
+        {
+          "text": "humana",
+          "startMs": 31795,
+          "endMs": 32215,
+          "charStart": 105,
+          "charEnd": 111
+        }
+      ]
+    },
+    {
+      "text": "Resulta vano lamentar la consunción de los muros cuando la propia historia exige su incesante transmutación.",
+      "startMs": 33180,
+      "endMs": 38460,
+      "words": [
+        {
+          "text": "Resulta",
+          "startMs": 33275,
+          "endMs": 33695,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "vano",
+          "startMs": 33705,
+          "endMs": 33895,
+          "charStart": 8,
+          "charEnd": 12
+        },
+        {
+          "text": "lamentar",
+          "startMs": 33905,
+          "endMs": 34265,
+          "charStart": 13,
+          "charEnd": 21
+        },
+        {
+          "text": "la",
+          "startMs": 34275,
+          "endMs": 34335,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "consunción",
+          "startMs": 34345,
+          "endMs": 34775,
+          "charStart": 25,
+          "charEnd": 35
+        },
+        {
+          "text": "de",
+          "startMs": 34785,
+          "endMs": 34845,
+          "charStart": 36,
+          "charEnd": 38
+        },
+        {
+          "text": "los",
+          "startMs": 34855,
+          "endMs": 34975,
+          "charStart": 39,
+          "charEnd": 42
+        },
+        {
+          "text": "muros",
+          "startMs": 34985,
+          "endMs": 35245,
+          "charStart": 43,
+          "charEnd": 48
+        },
+        {
+          "text": "cuando",
+          "startMs": 35255,
+          "endMs": 35445,
+          "charStart": 49,
+          "charEnd": 55
+        },
+        {
+          "text": "la",
+          "startMs": 35455,
+          "endMs": 35535,
+          "charStart": 56,
+          "charEnd": 58
+        },
+        {
+          "text": "propia",
+          "startMs": 35545,
+          "endMs": 35785,
+          "charStart": 59,
+          "charEnd": 65
+        },
+        {
+          "text": "historia",
+          "startMs": 35795,
+          "endMs": 36115,
+          "charStart": 66,
+          "charEnd": 74
+        },
+        {
+          "text": "exige",
+          "startMs": 36125,
+          "endMs": 36445,
+          "charStart": 75,
+          "charEnd": 80
+        },
+        {
+          "text": "su",
+          "startMs": 36455,
+          "endMs": 36565,
+          "charStart": 81,
+          "charEnd": 83
+        },
+        {
+          "text": "incesante",
+          "startMs": 36575,
+          "endMs": 37005,
+          "charStart": 84,
+          "charEnd": 93
+        },
+        {
+          "text": "transmutación",
+          "startMs": 37015,
+          "endMs": 37765,
+          "charStart": 94,
+          "charEnd": 107
+        }
+      ]
+    },
+    {
+      "text": "En los intersticios de la piedra carcomida germina paradójicamente una belleza crepuscular inmarcesible.",
+      "startMs": 38710,
+      "endMs": 43822,
+      "words": [
+        {
+          "text": "En",
+          "startMs": 38810,
+          "endMs": 38970,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "los",
+          "startMs": 38980,
+          "endMs": 39110,
+          "charStart": 3,
+          "charEnd": 6
+        },
+        {
+          "text": "intersticios",
+          "startMs": 39120,
+          "endMs": 39620,
+          "charStart": 7,
+          "charEnd": 19
+        },
+        {
+          "text": "de",
+          "startMs": 39630,
+          "endMs": 39680,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "la",
+          "startMs": 39690,
+          "endMs": 39780,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "piedra",
+          "startMs": 39790,
+          "endMs": 40020,
+          "charStart": 26,
+          "charEnd": 32
+        },
+        {
+          "text": "carcomida",
+          "startMs": 40030,
+          "endMs": 40480,
+          "charStart": 33,
+          "charEnd": 42
+        },
+        {
+          "text": "germina",
+          "startMs": 40490,
+          "endMs": 40850,
+          "charStart": 43,
+          "charEnd": 50
+        },
+        {
+          "text": "paradójicamente",
+          "startMs": 40860,
+          "endMs": 41550,
+          "charStart": 51,
+          "charEnd": 66
+        },
+        {
+          "text": "una",
+          "startMs": 41560,
+          "endMs": 41670,
+          "charStart": 67,
+          "charEnd": 70
+        },
+        {
+          "text": "belleza",
+          "startMs": 41680,
+          "endMs": 41990,
+          "charStart": 71,
+          "charEnd": 78
+        },
+        {
+          "text": "crepuscular",
+          "startMs": 42000,
+          "endMs": 42480,
+          "charStart": 79,
+          "charEnd": 90
+        },
+        {
+          "text": "inmarcesible",
+          "startMs": 42490,
+          "endMs": 43130,
+          "charStart": 91,
+          "charEnd": 103
+        }
+      ]
+    },
+    {
+      "text": "Asumir la fugacidad de las creaciones humanas mitiga la angustia ante la caducidad ineludible de la carne.",
+      "startMs": 44072,
+      "endMs": 49136,
+      "words": [
+        {
+          "text": "Asumir",
+          "startMs": 44167,
+          "endMs": 44557,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "la",
+          "startMs": 44567,
+          "endMs": 44647,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "fugacidad",
+          "startMs": 44657,
+          "endMs": 45057,
+          "charStart": 10,
+          "charEnd": 19
+        },
+        {
+          "text": "de",
+          "startMs": 45067,
+          "endMs": 45137,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "las",
+          "startMs": 45147,
+          "endMs": 45277,
+          "charStart": 23,
+          "charEnd": 26
+        },
+        {
+          "text": "creaciones",
+          "startMs": 45287,
+          "endMs": 45717,
+          "charStart": 27,
+          "charEnd": 37
+        },
+        {
+          "text": "humanas",
+          "startMs": 45727,
+          "endMs": 46057,
+          "charStart": 38,
+          "charEnd": 45
+        },
+        {
+          "text": "mitiga",
+          "startMs": 46067,
+          "endMs": 46357,
+          "charStart": 46,
+          "charEnd": 52
+        },
+        {
+          "text": "la",
+          "startMs": 46367,
+          "endMs": 46447,
+          "charStart": 53,
+          "charEnd": 55
+        },
+        {
+          "text": "angustia",
+          "startMs": 46457,
+          "endMs": 46817,
+          "charStart": 56,
+          "charEnd": 64
+        },
+        {
+          "text": "ante",
+          "startMs": 46827,
+          "endMs": 46997,
+          "charStart": 65,
+          "charEnd": 69
+        },
+        {
+          "text": "la",
+          "startMs": 47007,
+          "endMs": 47077,
+          "charStart": 70,
+          "charEnd": 72
+        },
+        {
+          "text": "caducidad",
+          "startMs": 47087,
+          "endMs": 47467,
+          "charStart": 73,
+          "charEnd": 82
+        },
+        {
+          "text": "ineludible",
+          "startMs": 47477,
+          "endMs": 47857,
+          "charStart": 83,
+          "charEnd": 93
+        },
+        {
+          "text": "de",
+          "startMs": 47867,
+          "endMs": 47927,
+          "charStart": 94,
+          "charEnd": 96
+        },
+        {
+          "text": "la",
+          "startMs": 47937,
+          "endMs": 48007,
+          "charStart": 97,
+          "charEnd": 99
+        },
+        {
+          "text": "carne",
+          "startMs": 48017,
+          "endMs": 48447,
+          "charStart": 100,
+          "charEnd": 105
+        }
+      ]
+    },
+    {
+      "text": "La ruina no atestigua un fracaso, sino la apoteosis de una materia devuelta al caos cósmico originario.",
+      "startMs": 49386,
+      "endMs": 54642,
+      "words": [
+        {
+          "text": "La",
+          "startMs": 49486,
+          "endMs": 49696,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "ruina",
+          "startMs": 49706,
+          "endMs": 49936,
+          "charStart": 3,
+          "charEnd": 8
+        },
+        {
+          "text": "no",
+          "startMs": 49946,
+          "endMs": 50036,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "atestigua",
+          "startMs": 50046,
+          "endMs": 50446,
+          "charStart": 12,
+          "charEnd": 21
+        },
+        {
+          "text": "un",
+          "startMs": 50456,
+          "endMs": 50536,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "fracaso",
+          "startMs": 50546,
+          "endMs": 50986,
+          "charStart": 25,
+          "charEnd": 32
+        },
+        {
+          "text": "sino",
+          "startMs": 51196,
+          "endMs": 51376,
+          "charStart": 34,
+          "charEnd": 38
+        },
+        {
+          "text": "la",
+          "startMs": 51386,
+          "endMs": 51446,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "apoteosis",
+          "startMs": 51456,
+          "endMs": 51896,
+          "charStart": 42,
+          "charEnd": 51
+        },
+        {
+          "text": "de",
+          "startMs": 51906,
+          "endMs": 51966,
+          "charStart": 52,
+          "charEnd": 54
+        },
+        {
+          "text": "una",
+          "startMs": 51976,
+          "endMs": 52086,
+          "charStart": 55,
+          "charEnd": 58
+        },
+        {
+          "text": "materia",
+          "startMs": 52096,
+          "endMs": 52386,
+          "charStart": 59,
+          "charEnd": 66
+        },
+        {
+          "text": "devuelta",
+          "startMs": 52396,
+          "endMs": 52706,
+          "charStart": 67,
+          "charEnd": 75
+        },
+        {
+          "text": "al",
+          "startMs": 52716,
+          "endMs": 52796,
+          "charStart": 76,
+          "charEnd": 78
+        },
+        {
+          "text": "caos",
+          "startMs": 52806,
+          "endMs": 53036,
+          "charStart": 79,
+          "charEnd": 83
+        },
+        {
+          "text": "cósmico",
+          "startMs": 53046,
+          "endMs": 53356,
+          "charStart": 84,
+          "charEnd": 91
+        },
+        {
+          "text": "originario",
+          "startMs": 53366,
+          "endMs": 53946,
+          "charStart": 92,
+          "charEnd": 102
+        }
+      ]
+    }
+  ]
+}

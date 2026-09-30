@@ -1,0 +1,704 @@
+{
+  "version": 3,
+  "lang": "ru",
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 37602,
+  "sentences": [
+    {
+      "text": "В прошлую субботу Максим решил поехать в другой город.",
+      "startMs": 0,
+      "endMs": 3360,
+      "words": [
+        {
+          "text": "В",
+          "startMs": 100,
+          "endMs": 240,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "прошлую",
+          "startMs": 240,
+          "endMs": 590,
+          "charStart": 2,
+          "charEnd": 9
+        },
+        {
+          "text": "субботу",
+          "startMs": 590,
+          "endMs": 940,
+          "charStart": 10,
+          "charEnd": 17
+        },
+        {
+          "text": "Максим",
+          "startMs": 940,
+          "endMs": 1300,
+          "charStart": 18,
+          "charEnd": 24
+        },
+        {
+          "text": "решил",
+          "startMs": 1300,
+          "endMs": 1560,
+          "charStart": 25,
+          "charEnd": 30
+        },
+        {
+          "text": "поехать",
+          "startMs": 1560,
+          "endMs": 1930,
+          "charStart": 31,
+          "charEnd": 38
+        },
+        {
+          "text": "в",
+          "startMs": 1930,
+          "endMs": 1990,
+          "charStart": 39,
+          "charEnd": 40
+        },
+        {
+          "text": "другой",
+          "startMs": 1990,
+          "endMs": 2260,
+          "charStart": 41,
+          "charEnd": 47
+        },
+        {
+          "text": "город",
+          "startMs": 2260,
+          "endMs": 2630,
+          "charStart": 48,
+          "charEnd": 53
+        }
+      ]
+    },
+    {
+      "text": "Он заранее купил билет на скорый поезд через интернет.",
+      "startMs": 3610,
+      "endMs": 6994,
+      "words": [
+        {
+          "text": "Он",
+          "startMs": 3710,
+          "endMs": 3950,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "заранее",
+          "startMs": 3950,
+          "endMs": 4320,
+          "charStart": 3,
+          "charEnd": 10
+        },
+        {
+          "text": "купил",
+          "startMs": 4320,
+          "endMs": 4630,
+          "charStart": 11,
+          "charEnd": 16
+        },
+        {
+          "text": "билет",
+          "startMs": 4630,
+          "endMs": 4910,
+          "charStart": 17,
+          "charEnd": 22
+        },
+        {
+          "text": "на",
+          "startMs": 4910,
+          "endMs": 5020,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "скорый",
+          "startMs": 5020,
+          "endMs": 5280,
+          "charStart": 26,
+          "charEnd": 32
+        },
+        {
+          "text": "поезд",
+          "startMs": 5280,
+          "endMs": 5560,
+          "charStart": 33,
+          "charEnd": 38
+        },
+        {
+          "text": "через",
+          "startMs": 5560,
+          "endMs": 5810,
+          "charStart": 39,
+          "charEnd": 44
+        },
+        {
+          "text": "интернет",
+          "startMs": 5810,
+          "endMs": 6270,
+          "charStart": 45,
+          "charEnd": 53
+        }
+      ]
+    },
+    {
+      "text": "Рано утром Максим собрал свой чемодан и вызвал такси.",
+      "startMs": 7244,
+      "endMs": 10796,
+      "words": [
+        {
+          "text": "Рано",
+          "startMs": 7344,
+          "endMs": 7734,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "утром",
+          "startMs": 7734,
+          "endMs": 8014,
+          "charStart": 5,
+          "charEnd": 10
+        },
+        {
+          "text": "Максим",
+          "startMs": 8014,
+          "endMs": 8354,
+          "charStart": 11,
+          "charEnd": 17
+        },
+        {
+          "text": "собрал",
+          "startMs": 8354,
+          "endMs": 8654,
+          "charStart": 18,
+          "charEnd": 24
+        },
+        {
+          "text": "свой",
+          "startMs": 8654,
+          "endMs": 8814,
+          "charStart": 25,
+          "charEnd": 29
+        },
+        {
+          "text": "чемодан",
+          "startMs": 8814,
+          "endMs": 9264,
+          "charStart": 30,
+          "charEnd": 37
+        },
+        {
+          "text": "и",
+          "startMs": 9264,
+          "endMs": 9354,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "вызвал",
+          "startMs": 9354,
+          "endMs": 9654,
+          "charStart": 40,
+          "charEnd": 46
+        },
+        {
+          "text": "такси",
+          "startMs": 9654,
+          "endMs": 10064,
+          "charStart": 47,
+          "charEnd": 52
+        }
+      ]
+    },
+    {
+      "text": "На вокзале было очень много шумных пассажиров.",
+      "startMs": 11046,
+      "endMs": 14190,
+      "words": [
+        {
+          "text": "На",
+          "startMs": 11146,
+          "endMs": 11326,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "вокзале",
+          "startMs": 11326,
+          "endMs": 11676,
+          "charStart": 3,
+          "charEnd": 10
+        },
+        {
+          "text": "было",
+          "startMs": 11676,
+          "endMs": 11896,
+          "charStart": 11,
+          "charEnd": 15
+        },
+        {
+          "text": "очень",
+          "startMs": 11896,
+          "endMs": 12236,
+          "charStart": 16,
+          "charEnd": 21
+        },
+        {
+          "text": "много",
+          "startMs": 12236,
+          "endMs": 12556,
+          "charStart": 22,
+          "charEnd": 27
+        },
+        {
+          "text": "шумных",
+          "startMs": 12556,
+          "endMs": 12886,
+          "charStart": 28,
+          "charEnd": 34
+        },
+        {
+          "text": "пассажиров",
+          "startMs": 12886,
+          "endMs": 13456,
+          "charStart": 35,
+          "charEnd": 45
+        }
+      ]
+    },
+    {
+      "text": "Поезд подошёл к третьей платформе ровно в девять часов.",
+      "startMs": 14440,
+      "endMs": 17680,
+      "words": [
+        {
+          "text": "Поезд",
+          "startMs": 14540,
+          "endMs": 14860,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "подошёл",
+          "startMs": 14860,
+          "endMs": 15210,
+          "charStart": 6,
+          "charEnd": 13
+        },
+        {
+          "text": "к",
+          "startMs": 15210,
+          "endMs": 15260,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "третьей",
+          "startMs": 15260,
+          "endMs": 15540,
+          "charStart": 16,
+          "charEnd": 23
+        },
+        {
+          "text": "платформе",
+          "startMs": 15540,
+          "endMs": 15960,
+          "charStart": 24,
+          "charEnd": 33
+        },
+        {
+          "text": "ровно",
+          "startMs": 15960,
+          "endMs": 16250,
+          "charStart": 34,
+          "charEnd": 39
+        },
+        {
+          "text": "в",
+          "startMs": 16250,
+          "endMs": 16300,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "девять",
+          "startMs": 16300,
+          "endMs": 16510,
+          "charStart": 42,
+          "charEnd": 48
+        },
+        {
+          "text": "часов",
+          "startMs": 16510,
+          "endMs": 16950,
+          "charStart": 49,
+          "charEnd": 54
+        }
+      ]
+    },
+    {
+      "text": "Проводник проверил паспорт Максима и пожелал ему счастливого пути.",
+      "startMs": 17930,
+      "endMs": 21914,
+      "words": [
+        {
+          "text": "Проводник",
+          "startMs": 18030,
+          "endMs": 18480,
+          "charStart": 0,
+          "charEnd": 9
+        },
+        {
+          "text": "проверил",
+          "startMs": 18480,
+          "endMs": 18840,
+          "charStart": 10,
+          "charEnd": 18
+        },
+        {
+          "text": "паспорт",
+          "startMs": 18840,
+          "endMs": 19180,
+          "charStart": 19,
+          "charEnd": 26
+        },
+        {
+          "text": "Максима",
+          "startMs": 19180,
+          "endMs": 19680,
+          "charStart": 27,
+          "charEnd": 34
+        },
+        {
+          "text": "и",
+          "startMs": 19680,
+          "endMs": 19820,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "пожелал",
+          "startMs": 19820,
+          "endMs": 20160,
+          "charStart": 37,
+          "charEnd": 44
+        },
+        {
+          "text": "ему",
+          "startMs": 20160,
+          "endMs": 20340,
+          "charStart": 45,
+          "charEnd": 48
+        },
+        {
+          "text": "счастливого",
+          "startMs": 20340,
+          "endMs": 20800,
+          "charStart": 49,
+          "charEnd": 60
+        },
+        {
+          "text": "пути",
+          "startMs": 20800,
+          "endMs": 21190,
+          "charStart": 61,
+          "charEnd": 65
+        }
+      ]
+    },
+    {
+      "text": "Максим нашёл своё место возле окна и снял куртку.",
+      "startMs": 22164,
+      "endMs": 25716,
+      "words": [
+        {
+          "text": "Максим",
+          "startMs": 22264,
+          "endMs": 22684,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "нашёл",
+          "startMs": 22684,
+          "endMs": 22954,
+          "charStart": 7,
+          "charEnd": 12
+        },
+        {
+          "text": "своё",
+          "startMs": 22954,
+          "endMs": 23134,
+          "charStart": 13,
+          "charEnd": 17
+        },
+        {
+          "text": "место",
+          "startMs": 23134,
+          "endMs": 23414,
+          "charStart": 18,
+          "charEnd": 23
+        },
+        {
+          "text": "возле",
+          "startMs": 23414,
+          "endMs": 23684,
+          "charStart": 24,
+          "charEnd": 29
+        },
+        {
+          "text": "окна",
+          "startMs": 23684,
+          "endMs": 24154,
+          "charStart": 30,
+          "charEnd": 34
+        },
+        {
+          "text": "и",
+          "startMs": 24154,
+          "endMs": 24264,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "снял",
+          "startMs": 24264,
+          "endMs": 24544,
+          "charStart": 37,
+          "charEnd": 41
+        },
+        {
+          "text": "куртку",
+          "startMs": 24544,
+          "endMs": 24994,
+          "charStart": 42,
+          "charEnd": 48
+        }
+      ]
+    },
+    {
+      "text": "Во время поездки он пил горячий чай с печеньем.",
+      "startMs": 25966,
+      "endMs": 29206,
+      "words": [
+        {
+          "text": "Во",
+          "startMs": 26066,
+          "endMs": 26296,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "время",
+          "startMs": 26296,
+          "endMs": 26526,
+          "charStart": 3,
+          "charEnd": 8
+        },
+        {
+          "text": "поездки",
+          "startMs": 26526,
+          "endMs": 26956,
+          "charStart": 9,
+          "charEnd": 16
+        },
+        {
+          "text": "он",
+          "startMs": 26956,
+          "endMs": 27186,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "пил",
+          "startMs": 27186,
+          "endMs": 27396,
+          "charStart": 20,
+          "charEnd": 23
+        },
+        {
+          "text": "горячий",
+          "startMs": 27396,
+          "endMs": 27776,
+          "charStart": 24,
+          "charEnd": 31
+        },
+        {
+          "text": "чай",
+          "startMs": 27776,
+          "endMs": 27966,
+          "charStart": 32,
+          "charEnd": 35
+        },
+        {
+          "text": "с",
+          "startMs": 27966,
+          "endMs": 28016,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "печеньем",
+          "startMs": 28016,
+          "endMs": 28516,
+          "charStart": 38,
+          "charEnd": 46
+        }
+      ]
+    },
+    {
+      "text": "За окном мелькали зелёные леса, широкие реки и маленькие деревни.",
+      "startMs": 29456,
+      "endMs": 33680,
+      "words": [
+        {
+          "text": "За",
+          "startMs": 29556,
+          "endMs": 29786,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "окном",
+          "startMs": 29786,
+          "endMs": 30056,
+          "charStart": 3,
+          "charEnd": 8
+        },
+        {
+          "text": "мелькали",
+          "startMs": 30056,
+          "endMs": 30406,
+          "charStart": 9,
+          "charEnd": 17
+        },
+        {
+          "text": "зелёные",
+          "startMs": 30406,
+          "endMs": 30766,
+          "charStart": 18,
+          "charEnd": 25
+        },
+        {
+          "text": "леса",
+          "startMs": 30766,
+          "endMs": 31056,
+          "charStart": 26,
+          "charEnd": 30
+        },
+        {
+          "text": "широкие",
+          "startMs": 31276,
+          "endMs": 31676,
+          "charStart": 32,
+          "charEnd": 39
+        },
+        {
+          "text": "реки",
+          "startMs": 31676,
+          "endMs": 31966,
+          "charStart": 40,
+          "charEnd": 44
+        },
+        {
+          "text": "и",
+          "startMs": 31966,
+          "endMs": 32096,
+          "charStart": 45,
+          "charEnd": 46
+        },
+        {
+          "text": "маленькие",
+          "startMs": 32096,
+          "endMs": 32506,
+          "charStart": 47,
+          "charEnd": 56
+        },
+        {
+          "text": "деревни",
+          "startMs": 32506,
+          "endMs": 32946,
+          "charStart": 57,
+          "charEnd": 64
+        }
+      ]
+    },
+    {
+      "text": "Через три часа поезд благополучно прибыл на центральный вокзал.",
+      "startMs": 33930,
+      "endMs": 37602,
+      "words": [
+        {
+          "text": "Через",
+          "startMs": 34030,
+          "endMs": 34330,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "три",
+          "startMs": 34330,
+          "endMs": 34480,
+          "charStart": 6,
+          "charEnd": 9
+        },
+        {
+          "text": "часа",
+          "startMs": 34480,
+          "endMs": 34770,
+          "charStart": 10,
+          "charEnd": 14
+        },
+        {
+          "text": "поезд",
+          "startMs": 34770,
+          "endMs": 35120,
+          "charStart": 15,
+          "charEnd": 20
+        },
+        {
+          "text": "благополучно",
+          "startMs": 35120,
+          "endMs": 35730,
+          "charStart": 21,
+          "charEnd": 33
+        },
+        {
+          "text": "прибыл",
+          "startMs": 35730,
+          "endMs": 36030,
+          "charStart": 34,
+          "charEnd": 40
+        },
+        {
+          "text": "на",
+          "startMs": 36030,
+          "endMs": 36120,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "центральный",
+          "startMs": 36120,
+          "endMs": 36510,
+          "charStart": 44,
+          "charEnd": 55
+        },
+        {
+          "text": "вокзал",
+          "startMs": 36510,
+          "endMs": 36930,
+          "charStart": 56,
+          "charEnd": 62
+        }
+      ]
+    }
+  ]
+}

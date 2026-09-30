@@ -1,0 +1,1586 @@
+{
+  "version": 3,
+  "lang": "ja",
+  "voice": "ja-JP-NanamiNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 63882,
+  "sentences": [
+    {
+      "text": "猛暑と豪雨が日常化するなか、地方の農山村は気候変動の最前線に立たされている。",
+      "startMs": 0,
+      "endMs": 6384,
+      "words": [
+        {
+          "text": "猛暑",
+          "startMs": 110,
+          "endMs": 420,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "と",
+          "startMs": 430,
+          "endMs": 540,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "豪雨",
+          "startMs": 550,
+          "endMs": 820,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "が",
+          "startMs": 830,
+          "endMs": 920,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "日常化",
+          "startMs": 930,
+          "endMs": 1470,
+          "charStart": 6,
+          "charEnd": 9
+        },
+        {
+          "text": "する",
+          "startMs": 1480,
+          "endMs": 1690,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "なか",
+          "startMs": 1700,
+          "endMs": 2010,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "地方",
+          "startMs": 2150,
+          "endMs": 2490,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "の",
+          "startMs": 2500,
+          "endMs": 2590,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "農山",
+          "startMs": 2600,
+          "endMs": 2970,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "村",
+          "startMs": 2980,
+          "endMs": 3180,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "は",
+          "startMs": 3190,
+          "endMs": 3380,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "気候",
+          "startMs": 3430,
+          "endMs": 3740,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "変動",
+          "startMs": 3750,
+          "endMs": 4090,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "の",
+          "startMs": 4100,
+          "endMs": 4190,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "最前線",
+          "startMs": 4200,
+          "endMs": 4770,
+          "charStart": 26,
+          "charEnd": 29
+        },
+        {
+          "text": "に",
+          "startMs": 4780,
+          "endMs": 4910,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "立た",
+          "startMs": 4920,
+          "endMs": 5100,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "さ",
+          "startMs": 5110,
+          "endMs": 5220,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "れ",
+          "startMs": 5230,
+          "endMs": 5320,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "て",
+          "startMs": 5330,
+          "endMs": 5400,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "いる",
+          "startMs": 5410,
+          "endMs": 5690,
+          "charStart": 35,
+          "charEnd": 37
+        }
+      ]
+    },
+    {
+      "text": "かつては予測可能だった季節の移ろいが、今や読めない賭けへと変質しつつある。",
+      "startMs": 6634,
+      "endMs": 12226,
+      "words": [
+        {
+          "text": "かつて",
+          "startMs": 6774,
+          "endMs": 7044,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "は",
+          "startMs": 7054,
+          "endMs": 7144,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "予測",
+          "startMs": 7164,
+          "endMs": 7524,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "可能",
+          "startMs": 7534,
+          "endMs": 7794,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "だっ",
+          "startMs": 7804,
+          "endMs": 7954,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "た",
+          "startMs": 7964,
+          "endMs": 8054,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "季節",
+          "startMs": 8064,
+          "endMs": 8374,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "の",
+          "startMs": 8384,
+          "endMs": 8454,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "移ろい",
+          "startMs": 8464,
+          "endMs": 8834,
+          "charStart": 14,
+          "charEnd": 17
+        },
+        {
+          "text": "が",
+          "startMs": 8844,
+          "endMs": 9064,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "今",
+          "startMs": 9324,
+          "endMs": 9504,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "や",
+          "startMs": 9514,
+          "endMs": 9654,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "読め",
+          "startMs": 9694,
+          "endMs": 9934,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "ない",
+          "startMs": 9944,
+          "endMs": 10124,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "賭け",
+          "startMs": 10134,
+          "endMs": 10334,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "へ",
+          "startMs": 10344,
+          "endMs": 10414,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "と",
+          "startMs": 10424,
+          "endMs": 10514,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "変質",
+          "startMs": 10524,
+          "endMs": 10944,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "し",
+          "startMs": 10954,
+          "endMs": 11034,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "つつ",
+          "startMs": 11044,
+          "endMs": 11244,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "ある",
+          "startMs": 11254,
+          "endMs": 11534,
+          "charStart": 34,
+          "charEnd": 36
+        }
+      ]
+    },
+    {
+      "text": "高齢化と担い手不足にあえぐ集落にとって、異常気象は存続を揺るがす追い打ちだ。",
+      "startMs": 12476,
+      "endMs": 18428,
+      "words": [
+        {
+          "text": "高齢化",
+          "startMs": 12616,
+          "endMs": 13026,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "と",
+          "startMs": 13036,
+          "endMs": 13126,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "担い手",
+          "startMs": 13136,
+          "endMs": 13526,
+          "charStart": 4,
+          "charEnd": 7
+        },
+        {
+          "text": "不足",
+          "startMs": 13536,
+          "endMs": 13826,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "に",
+          "startMs": 13836,
+          "endMs": 13946,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "あえぐ",
+          "startMs": 13956,
+          "endMs": 14256,
+          "charStart": 10,
+          "charEnd": 13
+        },
+        {
+          "text": "集落",
+          "startMs": 14266,
+          "endMs": 14656,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "に",
+          "startMs": 14666,
+          "endMs": 14786,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "とっ",
+          "startMs": 14796,
+          "endMs": 14966,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "て",
+          "startMs": 14976,
+          "endMs": 15136,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "異常",
+          "startMs": 15436,
+          "endMs": 15706,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "気象",
+          "startMs": 15716,
+          "endMs": 15986,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "は",
+          "startMs": 15996,
+          "endMs": 16136,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "存続",
+          "startMs": 16186,
+          "endMs": 16606,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "を",
+          "startMs": 16616,
+          "endMs": 16716,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "揺るがす",
+          "startMs": 16726,
+          "endMs": 17156,
+          "charStart": 28,
+          "charEnd": 32
+        },
+        {
+          "text": "追い打ち",
+          "startMs": 17166,
+          "endMs": 17546,
+          "charStart": 32,
+          "charEnd": 36
+        },
+        {
+          "text": "だ",
+          "startMs": 17556,
+          "endMs": 17736,
+          "charStart": 36,
+          "charEnd": 37
+        }
+      ]
+    },
+    {
+      "text": "それでも、棚田の保全や里山の再生に挑む若い移住者たちの姿が各地で見られる。",
+      "startMs": 18678,
+      "endMs": 25014,
+      "words": [
+        {
+          "text": "それ",
+          "startMs": 18788,
+          "endMs": 19018,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "で",
+          "startMs": 19028,
+          "endMs": 19118,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "も",
+          "startMs": 19128,
+          "endMs": 19308,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "棚田",
+          "startMs": 19558,
+          "endMs": 19868,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "の",
+          "startMs": 19878,
+          "endMs": 19978,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "保全",
+          "startMs": 19988,
+          "endMs": 20288,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "や",
+          "startMs": 20298,
+          "endMs": 20428,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "里山",
+          "startMs": 20438,
+          "endMs": 20878,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "の",
+          "startMs": 20888,
+          "endMs": 20978,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "再生",
+          "startMs": 20988,
+          "endMs": 21378,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "に",
+          "startMs": 21388,
+          "endMs": 21588,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "挑む",
+          "startMs": 21628,
+          "endMs": 21888,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "若い",
+          "startMs": 21898,
+          "endMs": 22278,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "移住者",
+          "startMs": 22288,
+          "endMs": 22638,
+          "charStart": 21,
+          "charEnd": 24
+        },
+        {
+          "text": "たち",
+          "startMs": 22648,
+          "endMs": 22848,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "の",
+          "startMs": 22858,
+          "endMs": 22928,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "姿",
+          "startMs": 22938,
+          "endMs": 23258,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "が",
+          "startMs": 23268,
+          "endMs": 23418,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "各地",
+          "startMs": 23438,
+          "endMs": 23758,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "で",
+          "startMs": 23768,
+          "endMs": 23838,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "見",
+          "startMs": 23848,
+          "endMs": 23948,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "ら",
+          "startMs": 23958,
+          "endMs": 24038,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "れる",
+          "startMs": 24048,
+          "endMs": 24318,
+          "charStart": 34,
+          "charEnd": 36
+        }
+      ]
+    },
+    {
+      "text": "彼らが持ち込むのは、単なる労働力ではなく、都市とは異なる価値観そのものだ。",
+      "startMs": 25264,
+      "endMs": 30952,
+      "words": [
+        {
+          "text": "彼ら",
+          "startMs": 25404,
+          "endMs": 25644,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "が",
+          "startMs": 25654,
+          "endMs": 25754,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "持ち込む",
+          "startMs": 25764,
+          "endMs": 26174,
+          "charStart": 3,
+          "charEnd": 7
+        },
+        {
+          "text": "の",
+          "startMs": 26184,
+          "endMs": 26264,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "は",
+          "startMs": 26274,
+          "endMs": 26474,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "単",
+          "startMs": 26724,
+          "endMs": 26904,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "なる",
+          "startMs": 26914,
+          "endMs": 27114,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "労働力",
+          "startMs": 27124,
+          "endMs": 27644,
+          "charStart": 13,
+          "charEnd": 16
+        },
+        {
+          "text": "で",
+          "startMs": 27654,
+          "endMs": 27734,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "は",
+          "startMs": 27744,
+          "endMs": 27834,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "なく",
+          "startMs": 27844,
+          "endMs": 28164,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "都市",
+          "startMs": 28414,
+          "endMs": 28624,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "と",
+          "startMs": 28634,
+          "endMs": 28704,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "は",
+          "startMs": 28714,
+          "endMs": 28814,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "異なる",
+          "startMs": 28824,
+          "endMs": 29234,
+          "charStart": 25,
+          "charEnd": 28
+        },
+        {
+          "text": "価値観",
+          "startMs": 29244,
+          "endMs": 29644,
+          "charStart": 28,
+          "charEnd": 31
+        },
+        {
+          "text": "そのもの",
+          "startMs": 29654,
+          "endMs": 30064,
+          "charStart": 31,
+          "charEnd": 35
+        },
+        {
+          "text": "だ",
+          "startMs": 30074,
+          "endMs": 30264,
+          "charStart": 35,
+          "charEnd": 36
+        }
+      ]
+    },
+    {
+      "text": "再生可能エネルギーの地産地消や、空き家を活用した交流拠点の整備も進みつつある。",
+      "startMs": 31202,
+      "endMs": 37658,
+      "words": [
+        {
+          "text": "再生",
+          "startMs": 31312,
+          "endMs": 31732,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "可能",
+          "startMs": 31742,
+          "endMs": 32002,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "エネルギー",
+          "startMs": 32012,
+          "endMs": 32452,
+          "charStart": 4,
+          "charEnd": 9
+        },
+        {
+          "text": "の",
+          "startMs": 32462,
+          "endMs": 32622,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "地産",
+          "startMs": 32712,
+          "endMs": 33012,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "地消",
+          "startMs": 33022,
+          "endMs": 33342,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "や",
+          "startMs": 33352,
+          "endMs": 33562,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "空き家",
+          "startMs": 33732,
+          "endMs": 34002,
+          "charStart": 16,
+          "charEnd": 19
+        },
+        {
+          "text": "を",
+          "startMs": 34012,
+          "endMs": 34102,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "活用",
+          "startMs": 34112,
+          "endMs": 34512,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "し",
+          "startMs": 34522,
+          "endMs": 34602,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "た",
+          "startMs": 34612,
+          "endMs": 34752,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "交流",
+          "startMs": 34772,
+          "endMs": 35142,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "拠点",
+          "startMs": 35152,
+          "endMs": 35432,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "の",
+          "startMs": 35442,
+          "endMs": 35532,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "整備",
+          "startMs": 35542,
+          "endMs": 35852,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "も",
+          "startMs": 35862,
+          "endMs": 36042,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "進み",
+          "startMs": 36102,
+          "endMs": 36452,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "つつ",
+          "startMs": 36462,
+          "endMs": 36652,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "ある",
+          "startMs": 36662,
+          "endMs": 36952,
+          "charStart": 36,
+          "charEnd": 38
+        }
+      ]
+    },
+    {
+      "text": "行政の支援策も欠かせないが、現場の知恵なくして持続可能な仕組みは築けない。",
+      "startMs": 37908,
+      "endMs": 43572,
+      "words": [
+        {
+          "text": "行政",
+          "startMs": 38018,
+          "endMs": 38428,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "の",
+          "startMs": 38438,
+          "endMs": 38518,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "支援",
+          "startMs": 38528,
+          "endMs": 38798,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "策",
+          "startMs": 38808,
+          "endMs": 39018,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "も",
+          "startMs": 39028,
+          "endMs": 39118,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "欠か",
+          "startMs": 39128,
+          "endMs": 39328,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "せ",
+          "startMs": 39338,
+          "endMs": 39438,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "ない",
+          "startMs": 39448,
+          "endMs": 39618,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "が",
+          "startMs": 39628,
+          "endMs": 39808,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "現場",
+          "startMs": 40088,
+          "endMs": 40368,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "の",
+          "startMs": 40378,
+          "endMs": 40468,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "知恵",
+          "startMs": 40478,
+          "endMs": 40718,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "なく",
+          "startMs": 40728,
+          "endMs": 40938,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "し",
+          "startMs": 40948,
+          "endMs": 41038,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "て",
+          "startMs": 41048,
+          "endMs": 41148,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "持続",
+          "startMs": 41158,
+          "endMs": 41488,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "可能",
+          "startMs": 41498,
+          "endMs": 41748,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "な",
+          "startMs": 41758,
+          "endMs": 41838,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "仕組み",
+          "startMs": 41848,
+          "endMs": 42138,
+          "charStart": 28,
+          "charEnd": 31
+        },
+        {
+          "text": "は",
+          "startMs": 42148,
+          "endMs": 42238,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "築け",
+          "startMs": 42248,
+          "endMs": 42598,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "ない",
+          "startMs": 42608,
+          "endMs": 42868,
+          "charStart": 34,
+          "charEnd": 36
+        }
+      ]
+    },
+    {
+      "text": "気候危機への適応は、技術の問題であると同時に、共同体の結び直しの問題でもある。",
+      "startMs": 43822,
+      "endMs": 50206,
+      "words": [
+        {
+          "text": "気候",
+          "startMs": 43962,
+          "endMs": 44262,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "危機",
+          "startMs": 44272,
+          "endMs": 44462,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "へ",
+          "startMs": 44472,
+          "endMs": 44552,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "の",
+          "startMs": 44562,
+          "endMs": 44662,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "適応",
+          "startMs": 44672,
+          "endMs": 45062,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "は",
+          "startMs": 45072,
+          "endMs": 45252,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "技術",
+          "startMs": 45532,
+          "endMs": 45862,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "の",
+          "startMs": 45872,
+          "endMs": 45962,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "問題",
+          "startMs": 45972,
+          "endMs": 46332,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "で",
+          "startMs": 46342,
+          "endMs": 46412,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "ある",
+          "startMs": 46422,
+          "endMs": 46592,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "と",
+          "startMs": 46602,
+          "endMs": 46692,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "同時",
+          "startMs": 46702,
+          "endMs": 46992,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "に",
+          "startMs": 47002,
+          "endMs": 47172,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "共同体",
+          "startMs": 47312,
+          "endMs": 47872,
+          "charStart": 23,
+          "charEnd": 26
+        },
+        {
+          "text": "の",
+          "startMs": 47882,
+          "endMs": 47972,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "結び直し",
+          "startMs": 47982,
+          "endMs": 48592,
+          "charStart": 27,
+          "charEnd": 31
+        },
+        {
+          "text": "の",
+          "startMs": 48602,
+          "endMs": 48692,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "問題",
+          "startMs": 48702,
+          "endMs": 49022,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "で",
+          "startMs": 49032,
+          "endMs": 49102,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "も",
+          "startMs": 49112,
+          "endMs": 49202,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "ある",
+          "startMs": 49212,
+          "endMs": 49492,
+          "charStart": 36,
+          "charEnd": 38
+        }
+      ]
+    },
+    {
+      "text": "過疎を嘆くかわりに、人口減少を前提とした新たな豊かさを構想すべき時が来ている。",
+      "startMs": 50456,
+      "endMs": 56720,
+      "words": [
+        {
+          "text": "過疎",
+          "startMs": 50606,
+          "endMs": 50806,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "を",
+          "startMs": 50816,
+          "endMs": 50896,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "嘆く",
+          "startMs": 50906,
+          "endMs": 51236,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "かわり",
+          "startMs": 51246,
+          "endMs": 51536,
+          "charStart": 5,
+          "charEnd": 8
+        },
+        {
+          "text": "に",
+          "startMs": 51546,
+          "endMs": 51726,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "人口",
+          "startMs": 51866,
+          "endMs": 52266,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "減少",
+          "startMs": 52276,
+          "endMs": 52666,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "を",
+          "startMs": 52676,
+          "endMs": 52756,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "前提",
+          "startMs": 52766,
+          "endMs": 53136,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "と",
+          "startMs": 53146,
+          "endMs": 53226,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "し",
+          "startMs": 53236,
+          "endMs": 53326,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "た",
+          "startMs": 53336,
+          "endMs": 53426,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "新た",
+          "startMs": 53436,
+          "endMs": 53806,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "な",
+          "startMs": 53816,
+          "endMs": 53886,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "豊かさ",
+          "startMs": 53896,
+          "endMs": 54336,
+          "charStart": 23,
+          "charEnd": 26
+        },
+        {
+          "text": "を",
+          "startMs": 54346,
+          "endMs": 54496,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "構想",
+          "startMs": 54526,
+          "endMs": 54896,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "す",
+          "startMs": 54906,
+          "endMs": 55016,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "べき",
+          "startMs": 55026,
+          "endMs": 55216,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "時",
+          "startMs": 55226,
+          "endMs": 55406,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "が",
+          "startMs": 55416,
+          "endMs": 55506,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "来",
+          "startMs": 55516,
+          "endMs": 55636,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "て",
+          "startMs": 55646,
+          "endMs": 55696,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "いる",
+          "startMs": 55706,
+          "endMs": 56016,
+          "charStart": 36,
+          "charEnd": 38
+        }
+      ]
+    },
+    {
+      "text": "地方の再生は、東京への対抗ではなく、多様な生き方を許容する社会への転換にほかならない。",
+      "startMs": 56970,
+      "endMs": 63882,
+      "words": [
+        {
+          "text": "地方",
+          "startMs": 57110,
+          "endMs": 57430,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "の",
+          "startMs": 57440,
+          "endMs": 57520,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "再生",
+          "startMs": 57530,
+          "endMs": 57930,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "は",
+          "startMs": 57940,
+          "endMs": 58130,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "東京",
+          "startMs": 58380,
+          "endMs": 58760,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "へ",
+          "startMs": 58770,
+          "endMs": 58840,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "の",
+          "startMs": 58850,
+          "endMs": 58960,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "対抗",
+          "startMs": 58970,
+          "endMs": 59350,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "で",
+          "startMs": 59360,
+          "endMs": 59440,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "は",
+          "startMs": 59450,
+          "endMs": 59550,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "なく",
+          "startMs": 59560,
+          "endMs": 59880,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "多様",
+          "startMs": 60020,
+          "endMs": 60320,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "な",
+          "startMs": 60330,
+          "endMs": 60400,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "生き方",
+          "startMs": 60410,
+          "endMs": 60790,
+          "charStart": 21,
+          "charEnd": 24
+        },
+        {
+          "text": "を",
+          "startMs": 60800,
+          "endMs": 60890,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "許容",
+          "startMs": 60900,
+          "endMs": 61220,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "する",
+          "startMs": 61230,
+          "endMs": 61430,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "社会",
+          "startMs": 61440,
+          "endMs": 61780,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "へ",
+          "startMs": 61790,
+          "endMs": 61840,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "の",
+          "startMs": 61850,
+          "endMs": 61960,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "転換",
+          "startMs": 61970,
+          "endMs": 62340,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "に",
+          "startMs": 62350,
+          "endMs": 62470,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "ほか",
+          "startMs": 62480,
+          "endMs": 62710,
+          "charStart": 36,
+          "charEnd": 38
+        },
+        {
+          "text": "なら",
+          "startMs": 62720,
+          "endMs": 62900,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "ない",
+          "startMs": 62910,
+          "endMs": 63170,
+          "charStart": 40,
+          "charEnd": 42
+        }
+      ]
+    }
+  ]
+}

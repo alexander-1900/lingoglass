@@ -1,0 +1,1705 @@
+{
+  "version": 3,
+  "lang": "ja",
+  "voice": "ja-JP-NanamiNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 60906,
+  "sentences": [
+    {
+      "text": "昔、心優しい貧しいおじいさんとおばあさんが小さな小屋で暮らしていました。",
+      "startMs": 0,
+      "endMs": 5568,
+      "words": [
+        {
+          "text": "昔",
+          "startMs": 110,
+          "endMs": 600,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "心",
+          "startMs": 870,
+          "endMs": 1180,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "優しい",
+          "startMs": 1190,
+          "endMs": 1650,
+          "charStart": 3,
+          "charEnd": 6
+        },
+        {
+          "text": "貧しい",
+          "startMs": 1660,
+          "endMs": 2050,
+          "charStart": 6,
+          "charEnd": 9
+        },
+        {
+          "text": "お",
+          "startMs": 2060,
+          "endMs": 2160,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "じいさん",
+          "startMs": 2170,
+          "endMs": 2520,
+          "charStart": 10,
+          "charEnd": 14
+        },
+        {
+          "text": "と",
+          "startMs": 2530,
+          "endMs": 2620,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "お",
+          "startMs": 2630,
+          "endMs": 2750,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "ばあさん",
+          "startMs": 2760,
+          "endMs": 3110,
+          "charStart": 16,
+          "charEnd": 20
+        },
+        {
+          "text": "が",
+          "startMs": 3120,
+          "endMs": 3250,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "小さな",
+          "startMs": 3280,
+          "endMs": 3720,
+          "charStart": 21,
+          "charEnd": 24
+        },
+        {
+          "text": "小屋",
+          "startMs": 3730,
+          "endMs": 3930,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "で",
+          "startMs": 3940,
+          "endMs": 4030,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "暮らし",
+          "startMs": 4040,
+          "endMs": 4340,
+          "charStart": 27,
+          "charEnd": 30
+        },
+        {
+          "text": "て",
+          "startMs": 4350,
+          "endMs": 4400,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "いま",
+          "startMs": 4410,
+          "endMs": 4580,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "し",
+          "startMs": 4590,
+          "endMs": 4680,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "た",
+          "startMs": 4690,
+          "endMs": 4880,
+          "charStart": 34,
+          "charEnd": 35
+        }
+      ]
+    },
+    {
+      "text": "大晦日の日、おじいさんは正月のお餅を買うために、手作りの笠を売りに町へ出かけました。",
+      "startMs": 5818,
+      "endMs": 12226,
+      "words": [
+        {
+          "text": "大晦日",
+          "startMs": 5958,
+          "endMs": 6418,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "の",
+          "startMs": 6428,
+          "endMs": 6498,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "日",
+          "startMs": 6508,
+          "endMs": 6708,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "お",
+          "startMs": 6958,
+          "endMs": 7058,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "じいさん",
+          "startMs": 7068,
+          "endMs": 7418,
+          "charStart": 7,
+          "charEnd": 11
+        },
+        {
+          "text": "は",
+          "startMs": 7428,
+          "endMs": 7558,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "正月",
+          "startMs": 7578,
+          "endMs": 7998,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "の",
+          "startMs": 8008,
+          "endMs": 8078,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "お",
+          "startMs": 8088,
+          "endMs": 8148,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "餅",
+          "startMs": 8158,
+          "endMs": 8368,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "を",
+          "startMs": 8378,
+          "endMs": 8468,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "買う",
+          "startMs": 8478,
+          "endMs": 8678,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "ため",
+          "startMs": 8688,
+          "endMs": 8868,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "に",
+          "startMs": 8878,
+          "endMs": 9098,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "手作り",
+          "startMs": 9348,
+          "endMs": 9748,
+          "charStart": 24,
+          "charEnd": 27
+        },
+        {
+          "text": "の",
+          "startMs": 9758,
+          "endMs": 9848,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "笠",
+          "startMs": 9858,
+          "endMs": 10088,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "を",
+          "startMs": 10098,
+          "endMs": 10198,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "売り",
+          "startMs": 10208,
+          "endMs": 10388,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "に",
+          "startMs": 10398,
+          "endMs": 10498,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "町",
+          "startMs": 10548,
+          "endMs": 10748,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "へ",
+          "startMs": 10758,
+          "endMs": 10838,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "出かけ",
+          "startMs": 10848,
+          "endMs": 11128,
+          "charStart": 35,
+          "charEnd": 38
+        },
+        {
+          "text": "まし",
+          "startMs": 11138,
+          "endMs": 11328,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "た",
+          "startMs": 11338,
+          "endMs": 11518,
+          "charStart": 40,
+          "charEnd": 41
+        }
+      ]
+    },
+    {
+      "text": "しかし、寒い雪の日だったので、笠は一つも売れませんでした。",
+      "startMs": 12476,
+      "endMs": 17132,
+      "words": [
+        {
+          "text": "しかし",
+          "startMs": 12586,
+          "endMs": 13036,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "寒い",
+          "startMs": 13306,
+          "endMs": 13636,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "雪",
+          "startMs": 13646,
+          "endMs": 13856,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "の",
+          "startMs": 13866,
+          "endMs": 13936,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "日",
+          "startMs": 13946,
+          "endMs": 14056,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "だっ",
+          "startMs": 14066,
+          "endMs": 14216,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "た",
+          "startMs": 14226,
+          "endMs": 14296,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "の",
+          "startMs": 14306,
+          "endMs": 14396,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "で",
+          "startMs": 14406,
+          "endMs": 14586,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "笠",
+          "startMs": 14846,
+          "endMs": 15076,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "は",
+          "startMs": 15086,
+          "endMs": 15166,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "一つ",
+          "startMs": 15176,
+          "endMs": 15516,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "も",
+          "startMs": 15526,
+          "endMs": 15596,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "売れ",
+          "startMs": 15606,
+          "endMs": 15766,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "ませ",
+          "startMs": 15776,
+          "endMs": 15986,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "ん",
+          "startMs": 15996,
+          "endMs": 16046,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "でし",
+          "startMs": 16056,
+          "endMs": 16246,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "た",
+          "startMs": 16256,
+          "endMs": 16426,
+          "charStart": 27,
+          "charEnd": 28
+        }
+      ]
+    },
+    {
+      "text": "帰り道、おじいさんは雪をかぶって凍えている六体の石の地蔵様を見かけました。",
+      "startMs": 17382,
+      "endMs": 22902,
+      "words": [
+        {
+          "text": "帰り道",
+          "startMs": 17522,
+          "endMs": 18042,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "お",
+          "startMs": 18272,
+          "endMs": 18372,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "じいさん",
+          "startMs": 18382,
+          "endMs": 18722,
+          "charStart": 5,
+          "charEnd": 9
+        },
+        {
+          "text": "は",
+          "startMs": 18732,
+          "endMs": 18832,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "雪",
+          "startMs": 18852,
+          "endMs": 19092,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "を",
+          "startMs": 19102,
+          "endMs": 19202,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "かぶっ",
+          "startMs": 19212,
+          "endMs": 19492,
+          "charStart": 12,
+          "charEnd": 15
+        },
+        {
+          "text": "て",
+          "startMs": 19502,
+          "endMs": 19572,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "凍え",
+          "startMs": 19582,
+          "endMs": 19892,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "て",
+          "startMs": 19902,
+          "endMs": 19972,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "いる",
+          "startMs": 19982,
+          "endMs": 20162,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "六体",
+          "startMs": 20172,
+          "endMs": 20542,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "の",
+          "startMs": 20552,
+          "endMs": 20612,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "石",
+          "startMs": 20622,
+          "endMs": 20812,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "の",
+          "startMs": 20822,
+          "endMs": 20912,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "地蔵",
+          "startMs": 20922,
+          "endMs": 21192,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "様",
+          "startMs": 21202,
+          "endMs": 21382,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "を",
+          "startMs": 21392,
+          "endMs": 21472,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "見かけ",
+          "startMs": 21482,
+          "endMs": 21792,
+          "charStart": 30,
+          "charEnd": 33
+        },
+        {
+          "text": "まし",
+          "startMs": 21802,
+          "endMs": 21992,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "た",
+          "startMs": 22002,
+          "endMs": 22192,
+          "charStart": 35,
+          "charEnd": 36
+        }
+      ]
+    },
+    {
+      "text": "「雪が降って寒そうですね」と言って、おじいさんは売れ残った笠を地蔵様にかぶせました。",
+      "startMs": 23152,
+      "endMs": 28960,
+      "words": [
+        {
+          "text": "雪",
+          "startMs": 23262,
+          "endMs": 23502,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "が",
+          "startMs": 23512,
+          "endMs": 23602,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "降っ",
+          "startMs": 23612,
+          "endMs": 23792,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "て",
+          "startMs": 23802,
+          "endMs": 23882,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "寒",
+          "startMs": 23892,
+          "endMs": 24122,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "そう",
+          "startMs": 24132,
+          "endMs": 24322,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "です",
+          "startMs": 24332,
+          "endMs": 24522,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "ね",
+          "startMs": 24532,
+          "endMs": 24652,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "と",
+          "startMs": 24742,
+          "endMs": 24832,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "言っ",
+          "startMs": 24842,
+          "endMs": 25002,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "て",
+          "startMs": 25012,
+          "endMs": 25182,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "お",
+          "startMs": 25442,
+          "endMs": 25592,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "じいさん",
+          "startMs": 25602,
+          "endMs": 25952,
+          "charStart": 19,
+          "charEnd": 23
+        },
+        {
+          "text": "は",
+          "startMs": 25962,
+          "endMs": 26052,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "売れ",
+          "startMs": 26062,
+          "endMs": 26242,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "残っ",
+          "startMs": 26252,
+          "endMs": 26512,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "た",
+          "startMs": 26522,
+          "endMs": 26612,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "笠",
+          "startMs": 26622,
+          "endMs": 26832,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "を",
+          "startMs": 26842,
+          "endMs": 26942,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "地蔵",
+          "startMs": 26952,
+          "endMs": 27242,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "様",
+          "startMs": 27252,
+          "endMs": 27432,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "に",
+          "startMs": 27442,
+          "endMs": 27562,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "かぶせまし",
+          "startMs": 27572,
+          "endMs": 28082,
+          "charStart": 35,
+          "charEnd": 40
+        },
+        {
+          "text": "た",
+          "startMs": 28092,
+          "endMs": 28262,
+          "charStart": 40,
+          "charEnd": 41
+        }
+      ]
+    },
+    {
+      "text": "笠が一つ足りなかったので、おじいさんは自分の手ぬぐいを最後の地蔵様に巻いてあげました。",
+      "startMs": 29210,
+      "endMs": 35114,
+      "words": [
+        {
+          "text": "笠",
+          "startMs": 29320,
+          "endMs": 29540,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "が",
+          "startMs": 29550,
+          "endMs": 29630,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "一つ",
+          "startMs": 29640,
+          "endMs": 29950,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "足り",
+          "startMs": 29960,
+          "endMs": 30120,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "なかっ",
+          "startMs": 30130,
+          "endMs": 30390,
+          "charStart": 6,
+          "charEnd": 9
+        },
+        {
+          "text": "た",
+          "startMs": 30400,
+          "endMs": 30480,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "の",
+          "startMs": 30490,
+          "endMs": 30580,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "で",
+          "startMs": 30590,
+          "endMs": 30760,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "お",
+          "startMs": 31000,
+          "endMs": 31140,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "じいさん",
+          "startMs": 31150,
+          "endMs": 31500,
+          "charStart": 14,
+          "charEnd": 18
+        },
+        {
+          "text": "は",
+          "startMs": 31510,
+          "endMs": 31620,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "自分",
+          "startMs": 31630,
+          "endMs": 31900,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "の",
+          "startMs": 31910,
+          "endMs": 32000,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "手ぬぐい",
+          "startMs": 32010,
+          "endMs": 32420,
+          "charStart": 22,
+          "charEnd": 26
+        },
+        {
+          "text": "を",
+          "startMs": 32430,
+          "endMs": 32550,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "最後",
+          "startMs": 32570,
+          "endMs": 32870,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "の",
+          "startMs": 32880,
+          "endMs": 32980,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "地蔵",
+          "startMs": 32990,
+          "endMs": 33260,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "様",
+          "startMs": 33270,
+          "endMs": 33450,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "に",
+          "startMs": 33460,
+          "endMs": 33570,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "巻い",
+          "startMs": 33580,
+          "endMs": 33770,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "て",
+          "startMs": 33780,
+          "endMs": 33840,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "あげ",
+          "startMs": 33850,
+          "endMs": 34010,
+          "charStart": 37,
+          "charEnd": 39
+        },
+        {
+          "text": "まし",
+          "startMs": 34020,
+          "endMs": 34220,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "た",
+          "startMs": 34230,
+          "endMs": 34420,
+          "charStart": 41,
+          "charEnd": 42
+        }
+      ]
+    },
+    {
+      "text": "家に帰っておばあさんにその話をすると、おばあさんは「良いことをしましたね」と笑顔で言いました。",
+      "startMs": 35364,
+      "endMs": 41796,
+      "words": [
+        {
+          "text": "家",
+          "startMs": 35504,
+          "endMs": 35674,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "に",
+          "startMs": 35684,
+          "endMs": 35814,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "帰っ",
+          "startMs": 35824,
+          "endMs": 36074,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "て",
+          "startMs": 36084,
+          "endMs": 36154,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "お",
+          "startMs": 36164,
+          "endMs": 36264,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "ばあさん",
+          "startMs": 36274,
+          "endMs": 36614,
+          "charStart": 6,
+          "charEnd": 10
+        },
+        {
+          "text": "に",
+          "startMs": 36624,
+          "endMs": 36744,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "その",
+          "startMs": 36754,
+          "endMs": 36954,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "話",
+          "startMs": 36964,
+          "endMs": 37284,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "を",
+          "startMs": 37294,
+          "endMs": 37364,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "する",
+          "startMs": 37374,
+          "endMs": 37604,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "と",
+          "startMs": 37614,
+          "endMs": 37714,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "お",
+          "startMs": 37814,
+          "endMs": 38024,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "ばあさん",
+          "startMs": 38034,
+          "endMs": 38404,
+          "charStart": 20,
+          "charEnd": 24
+        },
+        {
+          "text": "は",
+          "startMs": 38414,
+          "endMs": 38644,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "良い",
+          "startMs": 38814,
+          "endMs": 39014,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "こと",
+          "startMs": 39024,
+          "endMs": 39224,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "を",
+          "startMs": 39234,
+          "endMs": 39304,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "し",
+          "startMs": 39314,
+          "endMs": 39444,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "まし",
+          "startMs": 39454,
+          "endMs": 39624,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "た",
+          "startMs": 39634,
+          "endMs": 39704,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "ね",
+          "startMs": 39714,
+          "endMs": 39924,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "と",
+          "startMs": 40094,
+          "endMs": 40134,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "笑顔",
+          "startMs": 40144,
+          "endMs": 40474,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "で",
+          "startMs": 40484,
+          "endMs": 40544,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "言い",
+          "startMs": 40554,
+          "endMs": 40714,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "まし",
+          "startMs": 40724,
+          "endMs": 40904,
+          "charStart": 43,
+          "charEnd": 45
+        },
+        {
+          "text": "た",
+          "startMs": 40914,
+          "endMs": 41094,
+          "charStart": 45,
+          "charEnd": 46
+        }
+      ]
+    },
+    {
+      "text": "その夜、外から「よいしょ、よいしょ」という重い荷物を運ぶ不思議な声が聞こえてきました。",
+      "startMs": 42046,
+      "endMs": 48598,
+      "words": [
+        {
+          "text": "その",
+          "startMs": 42156,
+          "endMs": 42396,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "夜",
+          "startMs": 42406,
+          "endMs": 42726,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "外",
+          "startMs": 42986,
+          "endMs": 43206,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "から",
+          "startMs": 43216,
+          "endMs": 43446,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "よい",
+          "startMs": 43646,
+          "endMs": 43846,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "しょ",
+          "startMs": 43856,
+          "endMs": 44006,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "よい",
+          "startMs": 44226,
+          "endMs": 44436,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "しょ",
+          "startMs": 44446,
+          "endMs": 44636,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "と",
+          "startMs": 44896,
+          "endMs": 44986,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "いう",
+          "startMs": 44996,
+          "endMs": 45166,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "重い",
+          "startMs": 45176,
+          "endMs": 45556,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "荷物",
+          "startMs": 45566,
+          "endMs": 45896,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "を",
+          "startMs": 45906,
+          "endMs": 45976,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "運ぶ",
+          "startMs": 45986,
+          "endMs": 46326,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "不思議",
+          "startMs": 46336,
+          "endMs": 46636,
+          "charStart": 28,
+          "charEnd": 31
+        },
+        {
+          "text": "な",
+          "startMs": 46646,
+          "endMs": 46736,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "声",
+          "startMs": 46746,
+          "endMs": 46916,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "が",
+          "startMs": 46926,
+          "endMs": 47016,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "聞こえ",
+          "startMs": 47026,
+          "endMs": 47326,
+          "charStart": 34,
+          "charEnd": 37
+        },
+        {
+          "text": "て",
+          "startMs": 47336,
+          "endMs": 47416,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "き",
+          "startMs": 47426,
+          "endMs": 47526,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "まし",
+          "startMs": 47536,
+          "endMs": 47716,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "た",
+          "startMs": 47726,
+          "endMs": 47896,
+          "charStart": 41,
+          "charEnd": 42
+        }
+      ]
+    },
+    {
+      "text": "戸を開けてみると、玄関の前にお米や小判やごちそうがたくさん置かれていました。",
+      "startMs": 48848,
+      "endMs": 54272,
+      "words": [
+        {
+          "text": "戸",
+          "startMs": 48988,
+          "endMs": 49038,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "を",
+          "startMs": 49048,
+          "endMs": 49128,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "開け",
+          "startMs": 49138,
+          "endMs": 49328,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "て",
+          "startMs": 49338,
+          "endMs": 49428,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "みる",
+          "startMs": 49438,
+          "endMs": 49638,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "と",
+          "startMs": 49648,
+          "endMs": 49818,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "玄関",
+          "startMs": 50118,
+          "endMs": 50488,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "の",
+          "startMs": 50498,
+          "endMs": 50588,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "前",
+          "startMs": 50598,
+          "endMs": 50758,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "に",
+          "startMs": 50768,
+          "endMs": 50878,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "お",
+          "startMs": 50898,
+          "endMs": 50988,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "米",
+          "startMs": 50998,
+          "endMs": 51188,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "や",
+          "startMs": 51198,
+          "endMs": 51338,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "小判",
+          "startMs": 51348,
+          "endMs": 51638,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "や",
+          "startMs": 51648,
+          "endMs": 51788,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "ごちそう",
+          "startMs": 51838,
+          "endMs": 52238,
+          "charStart": 20,
+          "charEnd": 24
+        },
+        {
+          "text": "が",
+          "startMs": 52248,
+          "endMs": 52348,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "たくさん",
+          "startMs": 52358,
+          "endMs": 52728,
+          "charStart": 25,
+          "charEnd": 29
+        },
+        {
+          "text": "置か",
+          "startMs": 52738,
+          "endMs": 52918,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "れ",
+          "startMs": 52928,
+          "endMs": 53008,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "て",
+          "startMs": 53018,
+          "endMs": 53088,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "いま",
+          "startMs": 53098,
+          "endMs": 53278,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "し",
+          "startMs": 53288,
+          "endMs": 53378,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "た",
+          "startMs": 53388,
+          "endMs": 53568,
+          "charStart": 36,
+          "charEnd": 37
+        }
+      ]
+    },
+    {
+      "text": "遠くを見ると、笠をかぶった六人の地蔵様が雪の中を静かに歩き去っていくところでした。",
+      "startMs": 54522,
+      "endMs": 60906,
+      "words": [
+        {
+          "text": "遠く",
+          "startMs": 54632,
+          "endMs": 54892,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "を",
+          "startMs": 54902,
+          "endMs": 54992,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "見る",
+          "startMs": 55002,
+          "endMs": 55222,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "と",
+          "startMs": 55232,
+          "endMs": 55402,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "笠",
+          "startMs": 55672,
+          "endMs": 55922,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "を",
+          "startMs": 55932,
+          "endMs": 56022,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "かぶっ",
+          "startMs": 56032,
+          "endMs": 56312,
+          "charStart": 9,
+          "charEnd": 12
+        },
+        {
+          "text": "た",
+          "startMs": 56322,
+          "endMs": 56412,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "六人",
+          "startMs": 56422,
+          "endMs": 56812,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "の",
+          "startMs": 56822,
+          "endMs": 56922,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "地蔵",
+          "startMs": 56932,
+          "endMs": 57202,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "様",
+          "startMs": 57212,
+          "endMs": 57412,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "が",
+          "startMs": 57422,
+          "endMs": 57542,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "雪",
+          "startMs": 57592,
+          "endMs": 57852,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "の",
+          "startMs": 57862,
+          "endMs": 57942,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "中",
+          "startMs": 57952,
+          "endMs": 58132,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "を",
+          "startMs": 58142,
+          "endMs": 58332,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "静か",
+          "startMs": 58382,
+          "endMs": 58712,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "に",
+          "startMs": 58722,
+          "endMs": 58832,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "歩き",
+          "startMs": 58842,
+          "endMs": 59112,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "去っ",
+          "startMs": 59122,
+          "endMs": 59292,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "て",
+          "startMs": 59302,
+          "endMs": 59362,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "いく",
+          "startMs": 59372,
+          "endMs": 59552,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "ところ",
+          "startMs": 59562,
+          "endMs": 59822,
+          "charStart": 34,
+          "charEnd": 37
+        },
+        {
+          "text": "でし",
+          "startMs": 59832,
+          "endMs": 60012,
+          "charStart": 37,
+          "charEnd": 39
+        },
+        {
+          "text": "た",
+          "startMs": 60022,
+          "endMs": 60202,
+          "charStart": 39,
+          "charEnd": 40
+        }
+      ]
+    }
+  ]
+}

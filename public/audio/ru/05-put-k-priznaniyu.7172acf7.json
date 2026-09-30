@@ -1,0 +1,865 @@
+{
+  "version": 3,
+  "lang": "ru",
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 52962,
+  "sentences": [
+    {
+      "text": "Молодой писатель провёл несколько бессонных месяцев за созданием своего дебютного романа.",
+      "startMs": 0,
+      "endMs": 4848,
+      "words": [
+        {
+          "text": "Молодой",
+          "startMs": 100,
+          "endMs": 490,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "писатель",
+          "startMs": 490,
+          "endMs": 880,
+          "charStart": 8,
+          "charEnd": 16
+        },
+        {
+          "text": "провёл",
+          "startMs": 880,
+          "endMs": 1210,
+          "charStart": 17,
+          "charEnd": 23
+        },
+        {
+          "text": "несколько",
+          "startMs": 1210,
+          "endMs": 1580,
+          "charStart": 24,
+          "charEnd": 33
+        },
+        {
+          "text": "бессонных",
+          "startMs": 1580,
+          "endMs": 2000,
+          "charStart": 34,
+          "charEnd": 43
+        },
+        {
+          "text": "месяцев",
+          "startMs": 2000,
+          "endMs": 2440,
+          "charStart": 44,
+          "charEnd": 51
+        },
+        {
+          "text": "за",
+          "startMs": 2440,
+          "endMs": 2570,
+          "charStart": 52,
+          "charEnd": 54
+        },
+        {
+          "text": "созданием",
+          "startMs": 2570,
+          "endMs": 3020,
+          "charStart": 55,
+          "charEnd": 64
+        },
+        {
+          "text": "своего",
+          "startMs": 3020,
+          "endMs": 3310,
+          "charStart": 65,
+          "charEnd": 71
+        },
+        {
+          "text": "дебютного",
+          "startMs": 3310,
+          "endMs": 3690,
+          "charStart": 72,
+          "charEnd": 81
+        },
+        {
+          "text": "романа",
+          "startMs": 3690,
+          "endMs": 4130,
+          "charStart": 82,
+          "charEnd": 88
+        }
+      ]
+    },
+    {
+      "text": "Закончив черновую рукопись, автор отправил её во все ведущие столичные издательства.",
+      "startMs": 5098,
+      "endMs": 10018,
+      "words": [
+        {
+          "text": "Закончив",
+          "startMs": 5198,
+          "endMs": 5758,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "черновую",
+          "startMs": 5758,
+          "endMs": 6168,
+          "charStart": 9,
+          "charEnd": 17
+        },
+        {
+          "text": "рукопись",
+          "startMs": 6168,
+          "endMs": 6558,
+          "charStart": 18,
+          "charEnd": 26
+        },
+        {
+          "text": "автор",
+          "startMs": 6808,
+          "endMs": 7018,
+          "charStart": 28,
+          "charEnd": 33
+        },
+        {
+          "text": "отправил",
+          "startMs": 7018,
+          "endMs": 7378,
+          "charStart": 34,
+          "charEnd": 42
+        },
+        {
+          "text": "её",
+          "startMs": 7378,
+          "endMs": 7558,
+          "charStart": 43,
+          "charEnd": 45
+        },
+        {
+          "text": "во",
+          "startMs": 7558,
+          "endMs": 7668,
+          "charStart": 46,
+          "charEnd": 48
+        },
+        {
+          "text": "все",
+          "startMs": 7668,
+          "endMs": 7858,
+          "charStart": 49,
+          "charEnd": 52
+        },
+        {
+          "text": "ведущие",
+          "startMs": 7858,
+          "endMs": 8258,
+          "charStart": 53,
+          "charEnd": 60
+        },
+        {
+          "text": "столичные",
+          "startMs": 8258,
+          "endMs": 8738,
+          "charStart": 61,
+          "charEnd": 70
+        },
+        {
+          "text": "издательства",
+          "startMs": 8738,
+          "endMs": 9308,
+          "charStart": 71,
+          "charEnd": 83
+        }
+      ]
+    },
+    {
+      "text": "Поначалу он сталкивался лишь с равнодушными отказами и шаблонными формулировками редакторов.",
+      "startMs": 10268,
+      "endMs": 15212,
+      "words": [
+        {
+          "text": "Поначалу",
+          "startMs": 10368,
+          "endMs": 10838,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "он",
+          "startMs": 10838,
+          "endMs": 10968,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "сталкивался",
+          "startMs": 10968,
+          "endMs": 11448,
+          "charStart": 12,
+          "charEnd": 23
+        },
+        {
+          "text": "лишь",
+          "startMs": 11448,
+          "endMs": 11648,
+          "charStart": 24,
+          "charEnd": 28
+        },
+        {
+          "text": "с",
+          "startMs": 11648,
+          "endMs": 11738,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "равнодушными",
+          "startMs": 11738,
+          "endMs": 12298,
+          "charStart": 31,
+          "charEnd": 43
+        },
+        {
+          "text": "отказами",
+          "startMs": 12298,
+          "endMs": 12768,
+          "charStart": 44,
+          "charEnd": 52
+        },
+        {
+          "text": "и",
+          "startMs": 12768,
+          "endMs": 12878,
+          "charStart": 53,
+          "charEnd": 54
+        },
+        {
+          "text": "шаблонными",
+          "startMs": 12878,
+          "endMs": 13408,
+          "charStart": 55,
+          "charEnd": 65
+        },
+        {
+          "text": "формулировками",
+          "startMs": 13408,
+          "endMs": 13998,
+          "charStart": 66,
+          "charEnd": 80
+        },
+        {
+          "text": "редакторов",
+          "startMs": 13998,
+          "endMs": 14478,
+          "charStart": 81,
+          "charEnd": 91
+        }
+      ]
+    },
+    {
+      "text": "Критика, содержавшаяся в отдельных ответах, порой казалась чересчур язвительной и несправедливой.",
+      "startMs": 15462,
+      "endMs": 20862,
+      "words": [
+        {
+          "text": "Критика",
+          "startMs": 15562,
+          "endMs": 16002,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "содержавшаяся",
+          "startMs": 16172,
+          "endMs": 16822,
+          "charStart": 9,
+          "charEnd": 22
+        },
+        {
+          "text": "в",
+          "startMs": 16822,
+          "endMs": 16852,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "отдельных",
+          "startMs": 16852,
+          "endMs": 17202,
+          "charStart": 25,
+          "charEnd": 34
+        },
+        {
+          "text": "ответах",
+          "startMs": 17202,
+          "endMs": 17582,
+          "charStart": 35,
+          "charEnd": 42
+        },
+        {
+          "text": "порой",
+          "startMs": 17792,
+          "endMs": 18022,
+          "charStart": 44,
+          "charEnd": 49
+        },
+        {
+          "text": "казалась",
+          "startMs": 18022,
+          "endMs": 18372,
+          "charStart": 50,
+          "charEnd": 58
+        },
+        {
+          "text": "чересчур",
+          "startMs": 18372,
+          "endMs": 18772,
+          "charStart": 59,
+          "charEnd": 67
+        },
+        {
+          "text": "язвительной",
+          "startMs": 18772,
+          "endMs": 19402,
+          "charStart": 68,
+          "charEnd": 79
+        },
+        {
+          "text": "и",
+          "startMs": 19402,
+          "endMs": 19532,
+          "charStart": 80,
+          "charEnd": 81
+        },
+        {
+          "text": "несправедливой",
+          "startMs": 19532,
+          "endMs": 20182,
+          "charStart": 82,
+          "charEnd": 96
+        }
+      ]
+    },
+    {
+      "text": "Не поддаваясь унынию, литератор продолжал неустанно совершенствовать свой индивидуальный авторский стиль.",
+      "startMs": 21112,
+      "endMs": 26512,
+      "words": [
+        {
+          "text": "Не",
+          "startMs": 21212,
+          "endMs": 21442,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "поддаваясь",
+          "startMs": 21442,
+          "endMs": 21852,
+          "charStart": 3,
+          "charEnd": 13
+        },
+        {
+          "text": "унынию",
+          "startMs": 21852,
+          "endMs": 22182,
+          "charStart": 14,
+          "charEnd": 20
+        },
+        {
+          "text": "литератор",
+          "startMs": 22452,
+          "endMs": 22822,
+          "charStart": 22,
+          "charEnd": 31
+        },
+        {
+          "text": "продолжал",
+          "startMs": 22822,
+          "endMs": 23252,
+          "charStart": 32,
+          "charEnd": 41
+        },
+        {
+          "text": "неустанно",
+          "startMs": 23252,
+          "endMs": 23682,
+          "charStart": 42,
+          "charEnd": 51
+        },
+        {
+          "text": "совершенствовать",
+          "startMs": 23682,
+          "endMs": 24272,
+          "charStart": 52,
+          "charEnd": 68
+        },
+        {
+          "text": "свой",
+          "startMs": 24272,
+          "endMs": 24512,
+          "charStart": 69,
+          "charEnd": 73
+        },
+        {
+          "text": "индивидуальный",
+          "startMs": 24512,
+          "endMs": 25152,
+          "charStart": 74,
+          "charEnd": 88
+        },
+        {
+          "text": "авторский",
+          "startMs": 25152,
+          "endMs": 25512,
+          "charStart": 89,
+          "charEnd": 98
+        },
+        {
+          "text": "стиль",
+          "startMs": 25512,
+          "endMs": 25842,
+          "charStart": 99,
+          "charEnd": 104
+        }
+      ]
+    },
+    {
+      "text": "Случайное знакомство с авторитетным литературным критиком круто изменило дальнейший ход событий.",
+      "startMs": 26762,
+      "endMs": 31874,
+      "words": [
+        {
+          "text": "Случайное",
+          "startMs": 26862,
+          "endMs": 27402,
+          "charStart": 0,
+          "charEnd": 9
+        },
+        {
+          "text": "знакомство",
+          "startMs": 27402,
+          "endMs": 27872,
+          "charStart": 10,
+          "charEnd": 20
+        },
+        {
+          "text": "с",
+          "startMs": 27872,
+          "endMs": 27922,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "авторитетным",
+          "startMs": 27922,
+          "endMs": 28422,
+          "charStart": 23,
+          "charEnd": 35
+        },
+        {
+          "text": "литературным",
+          "startMs": 28422,
+          "endMs": 28902,
+          "charStart": 36,
+          "charEnd": 48
+        },
+        {
+          "text": "критиком",
+          "startMs": 28902,
+          "endMs": 29242,
+          "charStart": 49,
+          "charEnd": 57
+        },
+        {
+          "text": "круто",
+          "startMs": 29242,
+          "endMs": 29662,
+          "charStart": 58,
+          "charEnd": 63
+        },
+        {
+          "text": "изменило",
+          "startMs": 29662,
+          "endMs": 30112,
+          "charStart": 64,
+          "charEnd": 72
+        },
+        {
+          "text": "дальнейший",
+          "startMs": 30112,
+          "endMs": 30562,
+          "charStart": 73,
+          "charEnd": 83
+        },
+        {
+          "text": "ход",
+          "startMs": 30562,
+          "endMs": 30732,
+          "charStart": 84,
+          "charEnd": 87
+        },
+        {
+          "text": "событий",
+          "startMs": 30732,
+          "endMs": 31202,
+          "charStart": 88,
+          "charEnd": 95
+        }
+      ]
+    },
+    {
+      "text": "Прочитав произведение на одном дыхании, опытный рецензент отметил его глубину и поэтичность.",
+      "startMs": 32124,
+      "endMs": 37332,
+      "words": [
+        {
+          "text": "Прочитав",
+          "startMs": 32224,
+          "endMs": 32664,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "произведение",
+          "startMs": 32664,
+          "endMs": 33164,
+          "charStart": 9,
+          "charEnd": 21
+        },
+        {
+          "text": "на",
+          "startMs": 33164,
+          "endMs": 33254,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "одном",
+          "startMs": 33254,
+          "endMs": 33474,
+          "charStart": 25,
+          "charEnd": 30
+        },
+        {
+          "text": "дыхании",
+          "startMs": 33474,
+          "endMs": 33864,
+          "charStart": 31,
+          "charEnd": 38
+        },
+        {
+          "text": "опытный",
+          "startMs": 34094,
+          "endMs": 34434,
+          "charStart": 40,
+          "charEnd": 47
+        },
+        {
+          "text": "рецензент",
+          "startMs": 34434,
+          "endMs": 34974,
+          "charStart": 48,
+          "charEnd": 57
+        },
+        {
+          "text": "отметил",
+          "startMs": 34974,
+          "endMs": 35344,
+          "charStart": 58,
+          "charEnd": 65
+        },
+        {
+          "text": "его",
+          "startMs": 35344,
+          "endMs": 35514,
+          "charStart": 66,
+          "charEnd": 69
+        },
+        {
+          "text": "глубину",
+          "startMs": 35514,
+          "endMs": 35914,
+          "charStart": 70,
+          "charEnd": 77
+        },
+        {
+          "text": "и",
+          "startMs": 35914,
+          "endMs": 36054,
+          "charStart": 78,
+          "charEnd": 79
+        },
+        {
+          "text": "поэтичность",
+          "startMs": 36054,
+          "endMs": 36674,
+          "charStart": 80,
+          "charEnd": 91
+        }
+      ]
+    },
+    {
+      "text": "Вскоре роман опубликовали огромным тиражом, вызвавшим оживлённые споры в читательской среде.",
+      "startMs": 37582,
+      "endMs": 42886,
+      "words": [
+        {
+          "text": "Вскоре",
+          "startMs": 37682,
+          "endMs": 38102,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "роман",
+          "startMs": 38102,
+          "endMs": 38392,
+          "charStart": 7,
+          "charEnd": 12
+        },
+        {
+          "text": "опубликовали",
+          "startMs": 38392,
+          "endMs": 38982,
+          "charStart": 13,
+          "charEnd": 25
+        },
+        {
+          "text": "огромным",
+          "startMs": 38982,
+          "endMs": 39412,
+          "charStart": 26,
+          "charEnd": 34
+        },
+        {
+          "text": "тиражом",
+          "startMs": 39412,
+          "endMs": 39792,
+          "charStart": 35,
+          "charEnd": 42
+        },
+        {
+          "text": "вызвавшим",
+          "startMs": 40022,
+          "endMs": 40582,
+          "charStart": 44,
+          "charEnd": 53
+        },
+        {
+          "text": "оживлённые",
+          "startMs": 40582,
+          "endMs": 41032,
+          "charStart": 54,
+          "charEnd": 64
+        },
+        {
+          "text": "споры",
+          "startMs": 41032,
+          "endMs": 41312,
+          "charStart": 65,
+          "charEnd": 70
+        },
+        {
+          "text": "в",
+          "startMs": 41312,
+          "endMs": 41352,
+          "charStart": 71,
+          "charEnd": 72
+        },
+        {
+          "text": "читательской",
+          "startMs": 41352,
+          "endMs": 41822,
+          "charStart": 73,
+          "charEnd": 85
+        },
+        {
+          "text": "среде",
+          "startMs": 41822,
+          "endMs": 42202,
+          "charStart": 86,
+          "charEnd": 91
+        }
+      ]
+    },
+    {
+      "text": "Автор был удостоен престижной литературной премии за выдающийся вклад в современную словесность.",
+      "startMs": 43136,
+      "endMs": 47984,
+      "words": [
+        {
+          "text": "Автор",
+          "startMs": 43236,
+          "endMs": 43596,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "был",
+          "startMs": 43596,
+          "endMs": 43736,
+          "charStart": 6,
+          "charEnd": 9
+        },
+        {
+          "text": "удостоен",
+          "startMs": 43736,
+          "endMs": 44126,
+          "charStart": 10,
+          "charEnd": 18
+        },
+        {
+          "text": "престижной",
+          "startMs": 44126,
+          "endMs": 44586,
+          "charStart": 19,
+          "charEnd": 29
+        },
+        {
+          "text": "литературной",
+          "startMs": 44586,
+          "endMs": 45066,
+          "charStart": 30,
+          "charEnd": 42
+        },
+        {
+          "text": "премии",
+          "startMs": 45066,
+          "endMs": 45386,
+          "charStart": 43,
+          "charEnd": 49
+        },
+        {
+          "text": "за",
+          "startMs": 45386,
+          "endMs": 45476,
+          "charStart": 50,
+          "charEnd": 52
+        },
+        {
+          "text": "выдающийся",
+          "startMs": 45476,
+          "endMs": 45976,
+          "charStart": 53,
+          "charEnd": 63
+        },
+        {
+          "text": "вклад",
+          "startMs": 45976,
+          "endMs": 46236,
+          "charStart": 64,
+          "charEnd": 69
+        },
+        {
+          "text": "в",
+          "startMs": 46236,
+          "endMs": 46276,
+          "charStart": 70,
+          "charEnd": 71
+        },
+        {
+          "text": "современную",
+          "startMs": 46276,
+          "endMs": 46756,
+          "charStart": 72,
+          "charEnd": 83
+        },
+        {
+          "text": "словесность",
+          "startMs": 46756,
+          "endMs": 47316,
+          "charStart": 84,
+          "charEnd": 95
+        }
+      ]
+    },
+    {
+      "text": "Истинное творчество требует беззаветной преданности искусству и непреклонной веры в себя.",
+      "startMs": 48234,
+      "endMs": 52962,
+      "words": [
+        {
+          "text": "Истинное",
+          "startMs": 48334,
+          "endMs": 48774,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "творчество",
+          "startMs": 48774,
+          "endMs": 49204,
+          "charStart": 9,
+          "charEnd": 19
+        },
+        {
+          "text": "требует",
+          "startMs": 49204,
+          "endMs": 49544,
+          "charStart": 20,
+          "charEnd": 27
+        },
+        {
+          "text": "беззаветной",
+          "startMs": 49544,
+          "endMs": 50054,
+          "charStart": 28,
+          "charEnd": 39
+        },
+        {
+          "text": "преданности",
+          "startMs": 50054,
+          "endMs": 50454,
+          "charStart": 40,
+          "charEnd": 51
+        },
+        {
+          "text": "искусству",
+          "startMs": 50454,
+          "endMs": 50934,
+          "charStart": 52,
+          "charEnd": 61
+        },
+        {
+          "text": "и",
+          "startMs": 50934,
+          "endMs": 51084,
+          "charStart": 62,
+          "charEnd": 63
+        },
+        {
+          "text": "непреклонной",
+          "startMs": 51084,
+          "endMs": 51644,
+          "charStart": 64,
+          "charEnd": 76
+        },
+        {
+          "text": "веры",
+          "startMs": 51644,
+          "endMs": 51824,
+          "charStart": 77,
+          "charEnd": 81
+        },
+        {
+          "text": "в",
+          "startMs": 51824,
+          "endMs": 51864,
+          "charStart": 82,
+          "charEnd": 83
+        },
+        {
+          "text": "себя",
+          "startMs": 51864,
+          "endMs": 52224,
+          "charStart": 84,
+          "charEnd": 88
+        }
+      ]
+    }
+  ]
+}

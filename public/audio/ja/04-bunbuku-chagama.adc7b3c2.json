@@ -1,0 +1,1075 @@
+{
+  "version": 3,
+  "lang": "ja",
+  "voice": "ja-JP-NanamiNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 40602,
+  "sentences": [
+    {
+      "text": "静かなお寺に優しいお坊さんが住んでいました。",
+      "startMs": 0,
+      "endMs": 3384,
+      "words": [
+        {
+          "text": "静か",
+          "startMs": 110,
+          "endMs": 470,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "な",
+          "startMs": 480,
+          "endMs": 560,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "お",
+          "startMs": 570,
+          "endMs": 650,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "寺",
+          "startMs": 660,
+          "endMs": 840,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "に",
+          "startMs": 850,
+          "endMs": 990,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "優しい",
+          "startMs": 1010,
+          "endMs": 1390,
+          "charStart": 6,
+          "charEnd": 9
+        },
+        {
+          "text": "お",
+          "startMs": 1400,
+          "endMs": 1490,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "坊さん",
+          "startMs": 1500,
+          "endMs": 1840,
+          "charStart": 10,
+          "charEnd": 13
+        },
+        {
+          "text": "が",
+          "startMs": 1850,
+          "endMs": 1940,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "住ん",
+          "startMs": 1950,
+          "endMs": 2150,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "で",
+          "startMs": 2160,
+          "endMs": 2220,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "いま",
+          "startMs": 2230,
+          "endMs": 2410,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "し",
+          "startMs": 2420,
+          "endMs": 2510,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "た",
+          "startMs": 2520,
+          "endMs": 2690,
+          "charStart": 20,
+          "charEnd": 21
+        }
+      ]
+    },
+    {
+      "text": "お坊さんは罠にかかった一匹の狸を逃がしてあげました。",
+      "startMs": 3634,
+      "endMs": 7714,
+      "words": [
+        {
+          "text": "お",
+          "startMs": 3774,
+          "endMs": 3824,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "坊さん",
+          "startMs": 3834,
+          "endMs": 4214,
+          "charStart": 1,
+          "charEnd": 4
+        },
+        {
+          "text": "は",
+          "startMs": 4224,
+          "endMs": 4374,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "罠",
+          "startMs": 4394,
+          "endMs": 4594,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "に",
+          "startMs": 4604,
+          "endMs": 4734,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "かかっ",
+          "startMs": 4744,
+          "endMs": 5024,
+          "charStart": 7,
+          "charEnd": 10
+        },
+        {
+          "text": "た",
+          "startMs": 5034,
+          "endMs": 5124,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "一匹",
+          "startMs": 5134,
+          "endMs": 5524,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "の",
+          "startMs": 5534,
+          "endMs": 5634,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "狸",
+          "startMs": 5644,
+          "endMs": 5964,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "を",
+          "startMs": 5974,
+          "endMs": 6054,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "逃がし",
+          "startMs": 6064,
+          "endMs": 6394,
+          "charStart": 16,
+          "charEnd": 19
+        },
+        {
+          "text": "て",
+          "startMs": 6404,
+          "endMs": 6464,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "あげ",
+          "startMs": 6474,
+          "endMs": 6634,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "まし",
+          "startMs": 6644,
+          "endMs": 6834,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "た",
+          "startMs": 6844,
+          "endMs": 7024,
+          "charStart": 24,
+          "charEnd": 25
+        }
+      ]
+    },
+    {
+      "text": "次の日の夜、お寺の前に金色の茶釜がありました。",
+      "startMs": 7964,
+      "endMs": 12116,
+      "words": [
+        {
+          "text": "次",
+          "startMs": 8074,
+          "endMs": 8314,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "の",
+          "startMs": 8324,
+          "endMs": 8384,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "日",
+          "startMs": 8394,
+          "endMs": 8514,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "の",
+          "startMs": 8524,
+          "endMs": 8604,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "夜",
+          "startMs": 8614,
+          "endMs": 8894,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "お",
+          "startMs": 9164,
+          "endMs": 9274,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "寺の前",
+          "startMs": 9284,
+          "endMs": 9744,
+          "charStart": 7,
+          "charEnd": 10
+        },
+        {
+          "text": "に",
+          "startMs": 9754,
+          "endMs": 9964,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "金色",
+          "startMs": 9994,
+          "endMs": 10374,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "の",
+          "startMs": 10384,
+          "endMs": 10464,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "茶釜",
+          "startMs": 10474,
+          "endMs": 10794,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "が",
+          "startMs": 10804,
+          "endMs": 10884,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "あり",
+          "startMs": 10894,
+          "endMs": 11044,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "まし",
+          "startMs": 11054,
+          "endMs": 11234,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "た",
+          "startMs": 11244,
+          "endMs": 11424,
+          "charStart": 21,
+          "charEnd": 22
+        }
+      ]
+    },
+    {
+      "text": "お坊さんはその茶釜を部屋に持って入りました。",
+      "startMs": 12366,
+      "endMs": 15678,
+      "words": [
+        {
+          "text": "お",
+          "startMs": 12506,
+          "endMs": 12566,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "坊さん",
+          "startMs": 12576,
+          "endMs": 12936,
+          "charStart": 1,
+          "charEnd": 4
+        },
+        {
+          "text": "は",
+          "startMs": 12946,
+          "endMs": 13056,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "その",
+          "startMs": 13076,
+          "endMs": 13286,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "茶釜",
+          "startMs": 13296,
+          "endMs": 13616,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "を",
+          "startMs": 13626,
+          "endMs": 13716,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "部屋",
+          "startMs": 13726,
+          "endMs": 13936,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "に",
+          "startMs": 13946,
+          "endMs": 14066,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "持っ",
+          "startMs": 14076,
+          "endMs": 14236,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "て",
+          "startMs": 14246,
+          "endMs": 14326,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "入り",
+          "startMs": 14336,
+          "endMs": 14606,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "まし",
+          "startMs": 14616,
+          "endMs": 14806,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "た",
+          "startMs": 14816,
+          "endMs": 14986,
+          "charStart": 20,
+          "charEnd": 21
+        }
+      ]
+    },
+    {
+      "text": "お茶を入れるために、茶釜を火の上に置きました。",
+      "startMs": 15928,
+      "endMs": 19528,
+      "words": [
+        {
+          "text": "お",
+          "startMs": 16068,
+          "endMs": 16108,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "茶",
+          "startMs": 16118,
+          "endMs": 16278,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "を",
+          "startMs": 16288,
+          "endMs": 16388,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "入れる",
+          "startMs": 16398,
+          "endMs": 16658,
+          "charStart": 3,
+          "charEnd": 6
+        },
+        {
+          "text": "ため",
+          "startMs": 16668,
+          "endMs": 16838,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "に",
+          "startMs": 16848,
+          "endMs": 17078,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "茶釜",
+          "startMs": 17308,
+          "endMs": 17638,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "を",
+          "startMs": 17648,
+          "endMs": 17728,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "火",
+          "startMs": 17738,
+          "endMs": 17888,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "の",
+          "startMs": 17898,
+          "endMs": 17978,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "上",
+          "startMs": 17988,
+          "endMs": 18128,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "に",
+          "startMs": 18138,
+          "endMs": 18238,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "置き",
+          "startMs": 18248,
+          "endMs": 18438,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "まし",
+          "startMs": 18448,
+          "endMs": 18628,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "た",
+          "startMs": 18638,
+          "endMs": 18828,
+          "charStart": 21,
+          "charEnd": 22
+        }
+      ]
+    },
+    {
+      "text": "すると、茶釜から狸の頭と足と尻尾が出ました。",
+      "startMs": 19778,
+      "endMs": 24098,
+      "words": [
+        {
+          "text": "する",
+          "startMs": 19888,
+          "endMs": 20138,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "と",
+          "startMs": 20148,
+          "endMs": 20328,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "茶釜",
+          "startMs": 20538,
+          "endMs": 20878,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "から",
+          "startMs": 20888,
+          "endMs": 21078,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "狸",
+          "startMs": 21088,
+          "endMs": 21408,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "の",
+          "startMs": 21418,
+          "endMs": 21498,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "頭",
+          "startMs": 21508,
+          "endMs": 21788,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "と",
+          "startMs": 21798,
+          "endMs": 21888,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "足",
+          "startMs": 21898,
+          "endMs": 22238,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "と",
+          "startMs": 22248,
+          "endMs": 22418,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "尻尾",
+          "startMs": 22508,
+          "endMs": 22818,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "が",
+          "startMs": 22828,
+          "endMs": 22918,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "出まし",
+          "startMs": 22928,
+          "endMs": 23208,
+          "charStart": 17,
+          "charEnd": 20
+        },
+        {
+          "text": "た",
+          "startMs": 23218,
+          "endMs": 23398,
+          "charStart": 20,
+          "charEnd": 21
+        }
+      ]
+    },
+    {
+      "text": "「熱い、熱い！」と茶釜は叫んで走りました。",
+      "startMs": 24348,
+      "endMs": 28020,
+      "words": [
+        {
+          "text": "熱い",
+          "startMs": 24488,
+          "endMs": 24818,
+          "charStart": 1,
+          "charEnd": 3
+        },
+        {
+          "text": "熱い",
+          "startMs": 25028,
+          "endMs": 25408,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "と",
+          "startMs": 25608,
+          "endMs": 25708,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "茶釜",
+          "startMs": 25718,
+          "endMs": 26068,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "は",
+          "startMs": 26078,
+          "endMs": 26178,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "叫ん",
+          "startMs": 26188,
+          "endMs": 26518,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "で",
+          "startMs": 26528,
+          "endMs": 26598,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "走り",
+          "startMs": 26608,
+          "endMs": 26948,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "まし",
+          "startMs": 26958,
+          "endMs": 27138,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "た",
+          "startMs": 27148,
+          "endMs": 27328,
+          "charStart": 19,
+          "charEnd": 20
+        }
+      ]
+    },
+    {
+      "text": "お坊さんはすぐに火を消して、茶釜を冷やしました。",
+      "startMs": 28270,
+      "endMs": 31942,
+      "words": [
+        {
+          "text": "お",
+          "startMs": 28410,
+          "endMs": 28460,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "坊さん",
+          "startMs": 28470,
+          "endMs": 28840,
+          "charStart": 1,
+          "charEnd": 4
+        },
+        {
+          "text": "は",
+          "startMs": 28850,
+          "endMs": 28940,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "すぐ",
+          "startMs": 28950,
+          "endMs": 29190,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "に",
+          "startMs": 29200,
+          "endMs": 29290,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "火",
+          "startMs": 29300,
+          "endMs": 29440,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "を",
+          "startMs": 29450,
+          "endMs": 29530,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "消し",
+          "startMs": 29540,
+          "endMs": 29770,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "て",
+          "startMs": 29780,
+          "endMs": 29960,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "茶釜",
+          "startMs": 30160,
+          "endMs": 30480,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "を",
+          "startMs": 30490,
+          "endMs": 30560,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "冷やし",
+          "startMs": 30570,
+          "endMs": 30890,
+          "charStart": 17,
+          "charEnd": 20
+        },
+        {
+          "text": "まし",
+          "startMs": 30900,
+          "endMs": 31080,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "た",
+          "startMs": 31090,
+          "endMs": 31250,
+          "charStart": 22,
+          "charEnd": 23
+        }
+      ]
+    },
+    {
+      "text": "狸はお礼に、綱の上で楽しく踊って見せました。",
+      "startMs": 32192,
+      "endMs": 36152,
+      "words": [
+        {
+          "text": "狸",
+          "startMs": 32302,
+          "endMs": 32622,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "は",
+          "startMs": 32632,
+          "endMs": 32722,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "お礼",
+          "startMs": 32732,
+          "endMs": 33032,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "に",
+          "startMs": 33042,
+          "endMs": 33242,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "綱",
+          "startMs": 33392,
+          "endMs": 33602,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "の",
+          "startMs": 33612,
+          "endMs": 33702,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "上",
+          "startMs": 33712,
+          "endMs": 33862,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "で",
+          "startMs": 33872,
+          "endMs": 34032,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "楽しく",
+          "startMs": 34082,
+          "endMs": 34472,
+          "charStart": 10,
+          "charEnd": 13
+        },
+        {
+          "text": "踊っ",
+          "startMs": 34482,
+          "endMs": 34752,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "て",
+          "startMs": 34762,
+          "endMs": 34832,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "見せまし",
+          "startMs": 34842,
+          "endMs": 35252,
+          "charStart": 16,
+          "charEnd": 20
+        },
+        {
+          "text": "た",
+          "startMs": 35262,
+          "endMs": 35442,
+          "charStart": 20,
+          "charEnd": 21
+        }
+      ]
+    },
+    {
+      "text": "町の人たちはお寺に来て、その踊りを見て喜びました。",
+      "startMs": 36402,
+      "endMs": 40602,
+      "words": [
+        {
+          "text": "町",
+          "startMs": 36512,
+          "endMs": 36742,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "の",
+          "startMs": 36752,
+          "endMs": 36812,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "人",
+          "startMs": 36822,
+          "endMs": 37022,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "たち",
+          "startMs": 37032,
+          "endMs": 37252,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "は",
+          "startMs": 37262,
+          "endMs": 37342,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "お",
+          "startMs": 37352,
+          "endMs": 37452,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "寺",
+          "startMs": 37462,
+          "endMs": 37642,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "に",
+          "startMs": 37652,
+          "endMs": 37782,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "来",
+          "startMs": 37792,
+          "endMs": 37882,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "て",
+          "startMs": 37892,
+          "endMs": 38092,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "その",
+          "startMs": 38332,
+          "endMs": 38552,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "踊り",
+          "startMs": 38562,
+          "endMs": 38822,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "を",
+          "startMs": 38832,
+          "endMs": 38902,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "見",
+          "startMs": 38912,
+          "endMs": 39022,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "て",
+          "startMs": 39032,
+          "endMs": 39082,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "喜び",
+          "startMs": 39092,
+          "endMs": 39522,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "まし",
+          "startMs": 39532,
+          "endMs": 39722,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "た",
+          "startMs": 39732,
+          "endMs": 39912,
+          "charStart": 23,
+          "charEnd": 24
+        }
+      ]
+    }
+  ]
+}

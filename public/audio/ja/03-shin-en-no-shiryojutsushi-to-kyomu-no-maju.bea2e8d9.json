@@ -1,0 +1,2139 @@
+{
+  "version": 3,
+  "lang": "ja",
+  "voice": "ja-JP-NanamiNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 81426,
+  "sentences": [
+    {
+      "text": "地底深く広がる「忘却の迷宮」の最下層において、追放された死霊術士のヴァルガスは虚無の脅威に立ち向かっていた。",
+      "startMs": 0,
+      "endMs": 8136,
+      "words": [
+        {
+          "text": "地底",
+          "startMs": 110,
+          "endMs": 400,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "深く",
+          "startMs": 410,
+          "endMs": 700,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "広がる",
+          "startMs": 710,
+          "endMs": 1180,
+          "charStart": 4,
+          "charEnd": 7
+        },
+        {
+          "text": "忘却",
+          "startMs": 1430,
+          "endMs": 1820,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "の",
+          "startMs": 1830,
+          "endMs": 1930,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "迷宮",
+          "startMs": 1940,
+          "endMs": 2320,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "の",
+          "startMs": 2340,
+          "endMs": 2430,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "最下層",
+          "startMs": 2440,
+          "endMs": 2960,
+          "charStart": 15,
+          "charEnd": 18
+        },
+        {
+          "text": "に",
+          "startMs": 2970,
+          "endMs": 3060,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "おい",
+          "startMs": 3070,
+          "endMs": 3260,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "て",
+          "startMs": 3270,
+          "endMs": 3460,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "追放",
+          "startMs": 3630,
+          "endMs": 4010,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "さ",
+          "startMs": 4020,
+          "endMs": 4120,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "れ",
+          "startMs": 4130,
+          "endMs": 4210,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "た",
+          "startMs": 4220,
+          "endMs": 4330,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "死",
+          "startMs": 4340,
+          "endMs": 4470,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "霊術",
+          "startMs": 4480,
+          "endMs": 4840,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "士",
+          "startMs": 4850,
+          "endMs": 4960,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "の",
+          "startMs": 4970,
+          "endMs": 5060,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "ヴァルガス",
+          "startMs": 5070,
+          "endMs": 5480,
+          "charStart": 33,
+          "charEnd": 38
+        },
+        {
+          "text": "は",
+          "startMs": 5490,
+          "endMs": 5660,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "虚無",
+          "startMs": 5730,
+          "endMs": 5970,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "の",
+          "startMs": 5980,
+          "endMs": 6080,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "脅威",
+          "startMs": 6090,
+          "endMs": 6400,
+          "charStart": 42,
+          "charEnd": 44
+        },
+        {
+          "text": "に",
+          "startMs": 6410,
+          "endMs": 6530,
+          "charStart": 44,
+          "charEnd": 45
+        },
+        {
+          "text": "立ち向かっ",
+          "startMs": 6540,
+          "endMs": 7020,
+          "charStart": 45,
+          "charEnd": 50
+        },
+        {
+          "text": "て",
+          "startMs": 7030,
+          "endMs": 7100,
+          "charStart": 50,
+          "charEnd": 51
+        },
+        {
+          "text": "い",
+          "startMs": 7110,
+          "endMs": 7220,
+          "charStart": 51,
+          "charEnd": 52
+        },
+        {
+          "text": "た",
+          "startMs": 7230,
+          "endMs": 7440,
+          "charStart": 52,
+          "charEnd": 53
+        }
+      ]
+    },
+    {
+      "text": "次元に生じた亀裂から這い出てくる異形の影たちは、生物の生命力のみならず魂の質量さえも貪り食う存在であった。",
+      "startMs": 8386,
+      "endMs": 16882,
+      "words": [
+        {
+          "text": "次元",
+          "startMs": 8496,
+          "endMs": 8806,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "に",
+          "startMs": 8816,
+          "endMs": 8926,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "生じ",
+          "startMs": 8936,
+          "endMs": 9236,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "た",
+          "startMs": 9246,
+          "endMs": 9326,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "亀裂",
+          "startMs": 9336,
+          "endMs": 9656,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "から",
+          "startMs": 9666,
+          "endMs": 9846,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "這い",
+          "startMs": 9856,
+          "endMs": 10056,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "出",
+          "startMs": 10066,
+          "endMs": 10136,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "て",
+          "startMs": 10146,
+          "endMs": 10226,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "くる",
+          "startMs": 10236,
+          "endMs": 10446,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "異形",
+          "startMs": 10466,
+          "endMs": 10776,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "の",
+          "startMs": 10786,
+          "endMs": 10886,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "影",
+          "startMs": 10896,
+          "endMs": 11106,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "たち",
+          "startMs": 11116,
+          "endMs": 11336,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "は",
+          "startMs": 11346,
+          "endMs": 11516,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "生物",
+          "startMs": 11656,
+          "endMs": 12076,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "の",
+          "startMs": 12086,
+          "endMs": 12176,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "生命力",
+          "startMs": 12186,
+          "endMs": 12776,
+          "charStart": 27,
+          "charEnd": 30
+        },
+        {
+          "text": "のみ",
+          "startMs": 12786,
+          "endMs": 12976,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "なら",
+          "startMs": 12986,
+          "endMs": 13156,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "ず",
+          "startMs": 13166,
+          "endMs": 13306,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "魂",
+          "startMs": 13336,
+          "endMs": 13746,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "の",
+          "startMs": 13756,
+          "endMs": 13856,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "質量",
+          "startMs": 13866,
+          "endMs": 14256,
+          "charStart": 37,
+          "charEnd": 39
+        },
+        {
+          "text": "さえ",
+          "startMs": 14266,
+          "endMs": 14436,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "も",
+          "startMs": 14446,
+          "endMs": 14646,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "貪り",
+          "startMs": 14736,
+          "endMs": 15136,
+          "charStart": 42,
+          "charEnd": 44
+        },
+        {
+          "text": "食う",
+          "startMs": 15146,
+          "endMs": 15316,
+          "charStart": 44,
+          "charEnd": 46
+        },
+        {
+          "text": "存在",
+          "startMs": 15326,
+          "endMs": 15686,
+          "charStart": 46,
+          "charEnd": 48
+        },
+        {
+          "text": "で",
+          "startMs": 15696,
+          "endMs": 15766,
+          "charStart": 48,
+          "charEnd": 49
+        },
+        {
+          "text": "あっ",
+          "startMs": 15776,
+          "endMs": 15956,
+          "charStart": 49,
+          "charEnd": 51
+        },
+        {
+          "text": "た",
+          "startMs": 15966,
+          "endMs": 16166,
+          "charStart": 51,
+          "charEnd": 52
+        }
+      ]
+    },
+    {
+      "text": "彼は王国を追われた身であるにもかかわらず、世界の崩壊を阻止すべく、禁忌の骨霊術を展開した。",
+      "startMs": 17132,
+      "endMs": 24140,
+      "words": [
+        {
+          "text": "彼",
+          "startMs": 17272,
+          "endMs": 17442,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "は",
+          "startMs": 17452,
+          "endMs": 17542,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "王国",
+          "startMs": 17552,
+          "endMs": 17962,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "を",
+          "startMs": 17972,
+          "endMs": 18062,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "追わ",
+          "startMs": 18072,
+          "endMs": 18222,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "れ",
+          "startMs": 18232,
+          "endMs": 18312,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "た",
+          "startMs": 18322,
+          "endMs": 18412,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "身",
+          "startMs": 18422,
+          "endMs": 18532,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "で",
+          "startMs": 18542,
+          "endMs": 18612,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "ある",
+          "startMs": 18622,
+          "endMs": 18782,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "に",
+          "startMs": 18792,
+          "endMs": 18882,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "も",
+          "startMs": 18892,
+          "endMs": 18982,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "かかわら",
+          "startMs": 18992,
+          "endMs": 19402,
+          "charStart": 15,
+          "charEnd": 19
+        },
+        {
+          "text": "ず",
+          "startMs": 19412,
+          "endMs": 19602,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "世界",
+          "startMs": 19862,
+          "endMs": 20182,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "の",
+          "startMs": 20192,
+          "endMs": 20272,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "崩壊",
+          "startMs": 20282,
+          "endMs": 20672,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "を",
+          "startMs": 20682,
+          "endMs": 20762,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "阻止",
+          "startMs": 20772,
+          "endMs": 21032,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "すべ",
+          "startMs": 21042,
+          "endMs": 21252,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "く",
+          "startMs": 21262,
+          "endMs": 21472,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "禁忌",
+          "startMs": 21642,
+          "endMs": 21922,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "の",
+          "startMs": 21932,
+          "endMs": 22032,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "骨霊術",
+          "startMs": 22042,
+          "endMs": 22632,
+          "charStart": 36,
+          "charEnd": 39
+        },
+        {
+          "text": "を",
+          "startMs": 22642,
+          "endMs": 22722,
+          "charStart": 39,
+          "charEnd": 40
+        },
+        {
+          "text": "展開",
+          "startMs": 22732,
+          "endMs": 23122,
+          "charStart": 40,
+          "charEnd": 42
+        },
+        {
+          "text": "し",
+          "startMs": 23132,
+          "endMs": 23242,
+          "charStart": 42,
+          "charEnd": 43
+        },
+        {
+          "text": "た",
+          "startMs": 23252,
+          "endMs": 23432,
+          "charStart": 43,
+          "charEnd": 44
+        }
+      ]
+    },
+    {
+      "text": "黒く変色した杖を地面に突き立てると、無数の古代戦士の骸骨が紫色の燐光を纏って地中から蘇った。",
+      "startMs": 24390,
+      "endMs": 32334,
+      "words": [
+        {
+          "text": "黒く",
+          "startMs": 24540,
+          "endMs": 24800,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "変色",
+          "startMs": 24810,
+          "endMs": 25260,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "し",
+          "startMs": 25270,
+          "endMs": 25340,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "た",
+          "startMs": 25350,
+          "endMs": 25430,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "杖",
+          "startMs": 25440,
+          "endMs": 25650,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "を",
+          "startMs": 25660,
+          "endMs": 25770,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "地面",
+          "startMs": 25780,
+          "endMs": 26050,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "に",
+          "startMs": 26060,
+          "endMs": 26170,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "突き立てる",
+          "startMs": 26180,
+          "endMs": 26660,
+          "charStart": 11,
+          "charEnd": 16
+        },
+        {
+          "text": "と",
+          "startMs": 26670,
+          "endMs": 26870,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "無数",
+          "startMs": 27010,
+          "endMs": 27340,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "の",
+          "startMs": 27350,
+          "endMs": 27460,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "古代",
+          "startMs": 27470,
+          "endMs": 27740,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "戦士",
+          "startMs": 27750,
+          "endMs": 28050,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "の",
+          "startMs": 28060,
+          "endMs": 28150,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "骸骨",
+          "startMs": 28160,
+          "endMs": 28550,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "が",
+          "startMs": 28560,
+          "endMs": 28700,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "紫色",
+          "startMs": 28820,
+          "endMs": 29400,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "の",
+          "startMs": 29410,
+          "endMs": 29500,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "燐光",
+          "startMs": 29510,
+          "endMs": 29850,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "を",
+          "startMs": 29860,
+          "endMs": 29940,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "纏っ",
+          "startMs": 29950,
+          "endMs": 30230,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "て",
+          "startMs": 30240,
+          "endMs": 30350,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "地中",
+          "startMs": 30360,
+          "endMs": 30660,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "から",
+          "startMs": 30670,
+          "endMs": 30840,
+          "charStart": 40,
+          "charEnd": 42
+        },
+        {
+          "text": "蘇っ",
+          "startMs": 30890,
+          "endMs": 31410,
+          "charStart": 42,
+          "charEnd": 44
+        },
+        {
+          "text": "た",
+          "startMs": 31420,
+          "endMs": 31620,
+          "charStart": 44,
+          "charEnd": 45
+        }
+      ]
+    },
+    {
+      "text": "虚無の魔獣が咆哮とともに巨大な触手を振り下ろすと、前衛の骨騎兵たちは一瞬で粉砕されてしまった。",
+      "startMs": 32584,
+      "endMs": 39904,
+      "words": [
+        {
+          "text": "虚無",
+          "startMs": 32724,
+          "endMs": 32914,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "の",
+          "startMs": 32924,
+          "endMs": 33024,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "魔",
+          "startMs": 33034,
+          "endMs": 33144,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "獣",
+          "startMs": 33154,
+          "endMs": 33334,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "が",
+          "startMs": 33344,
+          "endMs": 33444,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "咆哮",
+          "startMs": 33454,
+          "endMs": 33864,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "と",
+          "startMs": 33874,
+          "endMs": 33954,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "とも",
+          "startMs": 33964,
+          "endMs": 34164,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "に",
+          "startMs": 34174,
+          "endMs": 34374,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "巨大",
+          "startMs": 34404,
+          "endMs": 34714,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "な",
+          "startMs": 34724,
+          "endMs": 34804,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "触手",
+          "startMs": 34814,
+          "endMs": 35144,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "を",
+          "startMs": 35154,
+          "endMs": 35214,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "振り",
+          "startMs": 35224,
+          "endMs": 35414,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "下ろす",
+          "startMs": 35424,
+          "endMs": 35714,
+          "charStart": 20,
+          "charEnd": 23
+        },
+        {
+          "text": "と",
+          "startMs": 35724,
+          "endMs": 35924,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "前衛",
+          "startMs": 36064,
+          "endMs": 36474,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "の",
+          "startMs": 36484,
+          "endMs": 36594,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "骨",
+          "startMs": 36604,
+          "endMs": 36774,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "騎兵",
+          "startMs": 36784,
+          "endMs": 37094,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "たち",
+          "startMs": 37104,
+          "endMs": 37294,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "は",
+          "startMs": 37304,
+          "endMs": 37514,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "一瞬",
+          "startMs": 37594,
+          "endMs": 37924,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "で",
+          "startMs": 37934,
+          "endMs": 38024,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "粉砕",
+          "startMs": 38034,
+          "endMs": 38414,
+          "charStart": 37,
+          "charEnd": 39
+        },
+        {
+          "text": "さ",
+          "startMs": 38424,
+          "endMs": 38514,
+          "charStart": 39,
+          "charEnd": 40
+        },
+        {
+          "text": "れ",
+          "startMs": 38524,
+          "endMs": 38604,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "て",
+          "startMs": 38614,
+          "endMs": 38704,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "しまっ",
+          "startMs": 38714,
+          "endMs": 39004,
+          "charStart": 42,
+          "charEnd": 45
+        },
+        {
+          "text": "た",
+          "startMs": 39014,
+          "endMs": 39204,
+          "charStart": 45,
+          "charEnd": 46
+        }
+      ]
+    },
+    {
+      "text": "押し寄せる敵の圧倒的な物量を前にして、ヴァルガスは自らの魂の一部を削って使役呪文の出力を引き上げた。",
+      "startMs": 40154,
+      "endMs": 48194,
+      "words": [
+        {
+          "text": "押し寄せる",
+          "startMs": 40294,
+          "endMs": 40794,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "敵",
+          "startMs": 40804,
+          "endMs": 40984,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "の",
+          "startMs": 40994,
+          "endMs": 41074,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "圧倒的",
+          "startMs": 41084,
+          "endMs": 41674,
+          "charStart": 7,
+          "charEnd": 10
+        },
+        {
+          "text": "な",
+          "startMs": 41684,
+          "endMs": 41774,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "物量",
+          "startMs": 41784,
+          "endMs": 42154,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "を",
+          "startMs": 42164,
+          "endMs": 42234,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "前",
+          "startMs": 42244,
+          "endMs": 42414,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "に",
+          "startMs": 42424,
+          "endMs": 42524,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "し",
+          "startMs": 42534,
+          "endMs": 42634,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "て",
+          "startMs": 42644,
+          "endMs": 42834,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "ヴァルガス",
+          "startMs": 42974,
+          "endMs": 43394,
+          "charStart": 19,
+          "charEnd": 24
+        },
+        {
+          "text": "は",
+          "startMs": 43404,
+          "endMs": 43534,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "自ら",
+          "startMs": 43564,
+          "endMs": 43974,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "の",
+          "startMs": 43984,
+          "endMs": 44094,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "魂",
+          "startMs": 44104,
+          "endMs": 44514,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "の",
+          "startMs": 44524,
+          "endMs": 44604,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "一部",
+          "startMs": 44614,
+          "endMs": 44884,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "を",
+          "startMs": 44894,
+          "endMs": 44984,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "削っ",
+          "startMs": 44994,
+          "endMs": 45304,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "て",
+          "startMs": 45314,
+          "endMs": 45514,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "使役",
+          "startMs": 45624,
+          "endMs": 45974,
+          "charStart": 36,
+          "charEnd": 38
+        },
+        {
+          "text": "呪文",
+          "startMs": 45984,
+          "endMs": 46234,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "の",
+          "startMs": 46244,
+          "endMs": 46334,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "出力",
+          "startMs": 46344,
+          "endMs": 46764,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "を",
+          "startMs": 46774,
+          "endMs": 46854,
+          "charStart": 43,
+          "charEnd": 44
+        },
+        {
+          "text": "引き上げ",
+          "startMs": 46864,
+          "endMs": 47274,
+          "charStart": 44,
+          "charEnd": 48
+        },
+        {
+          "text": "た",
+          "startMs": 47284,
+          "endMs": 47484,
+          "charStart": 48,
+          "charEnd": 49
+        }
+      ]
+    },
+    {
+      "text": "「灰は灰に、塵は塵に、冥府の軍勢よ我が盾となれ」と詠唱し、彼は漆黒の霊障壁を展開した。",
+      "startMs": 48444,
+      "endMs": 56052,
+      "words": [
+        {
+          "text": "灰",
+          "startMs": 48554,
+          "endMs": 48754,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "は",
+          "startMs": 48764,
+          "endMs": 48854,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "灰",
+          "startMs": 48864,
+          "endMs": 49084,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "に",
+          "startMs": 49094,
+          "endMs": 49284,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "塵",
+          "startMs": 49484,
+          "endMs": 49714,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "は",
+          "startMs": 49724,
+          "endMs": 49814,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "塵",
+          "startMs": 49824,
+          "endMs": 50084,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "に",
+          "startMs": 50094,
+          "endMs": 50244,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "冥府",
+          "startMs": 50514,
+          "endMs": 50784,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "の",
+          "startMs": 50794,
+          "endMs": 50904,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "軍勢",
+          "startMs": 50914,
+          "endMs": 51294,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "よ我",
+          "startMs": 51304,
+          "endMs": 51464,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "が",
+          "startMs": 51474,
+          "endMs": 51574,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "盾",
+          "startMs": 51584,
+          "endMs": 51774,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "と",
+          "startMs": 51784,
+          "endMs": 51874,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "なれ",
+          "startMs": 51884,
+          "endMs": 52094,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "と",
+          "startMs": 52264,
+          "endMs": 52344,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "詠唱",
+          "startMs": 52354,
+          "endMs": 52764,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "し",
+          "startMs": 52774,
+          "endMs": 53034,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "彼",
+          "startMs": 53174,
+          "endMs": 53364,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "は",
+          "startMs": 53374,
+          "endMs": 53474,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "漆黒",
+          "startMs": 53484,
+          "endMs": 53874,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "の",
+          "startMs": 53884,
+          "endMs": 53974,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "霊",
+          "startMs": 53984,
+          "endMs": 54144,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "障壁",
+          "startMs": 54154,
+          "endMs": 54544,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "を",
+          "startMs": 54554,
+          "endMs": 54644,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "展開",
+          "startMs": 54654,
+          "endMs": 55034,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "し",
+          "startMs": 55044,
+          "endMs": 55154,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "た",
+          "startMs": 55164,
+          "endMs": 55344,
+          "charStart": 41,
+          "charEnd": 42
+        }
+      ]
+    },
+    {
+      "text": "障壁が敵の突進を辛うじて受け止めている間に、彼は術式の全エネルギーを収束させた呪詛の槍を精製した。",
+      "startMs": 56302,
+      "endMs": 64270,
+      "words": [
+        {
+          "text": "障壁",
+          "startMs": 56412,
+          "endMs": 56852,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "が",
+          "startMs": 56862,
+          "endMs": 56962,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "敵",
+          "startMs": 56972,
+          "endMs": 57192,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "の",
+          "startMs": 57202,
+          "endMs": 57302,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "突進",
+          "startMs": 57312,
+          "endMs": 57702,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "を",
+          "startMs": 57712,
+          "endMs": 57792,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "辛うじて",
+          "startMs": 57802,
+          "endMs": 58292,
+          "charStart": 8,
+          "charEnd": 12
+        },
+        {
+          "text": "受け止め",
+          "startMs": 58312,
+          "endMs": 58752,
+          "charStart": 12,
+          "charEnd": 16
+        },
+        {
+          "text": "て",
+          "startMs": 58762,
+          "endMs": 58832,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "いる",
+          "startMs": 58842,
+          "endMs": 59002,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "間",
+          "startMs": 59012,
+          "endMs": 59262,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "に",
+          "startMs": 59272,
+          "endMs": 59482,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "彼",
+          "startMs": 59622,
+          "endMs": 59822,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "は",
+          "startMs": 59832,
+          "endMs": 59982,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "術式",
+          "startMs": 60012,
+          "endMs": 60442,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "の",
+          "startMs": 60452,
+          "endMs": 60552,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "全",
+          "startMs": 60562,
+          "endMs": 60732,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "エネルギー",
+          "startMs": 60742,
+          "endMs": 61252,
+          "charStart": 28,
+          "charEnd": 33
+        },
+        {
+          "text": "を",
+          "startMs": 61262,
+          "endMs": 61352,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "収束",
+          "startMs": 61362,
+          "endMs": 61752,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "さ",
+          "startMs": 61762,
+          "endMs": 61862,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "せ",
+          "startMs": 61872,
+          "endMs": 61972,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "た",
+          "startMs": 61982,
+          "endMs": 62142,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "呪詛",
+          "startMs": 62192,
+          "endMs": 62442,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "の",
+          "startMs": 62452,
+          "endMs": 62532,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "槍",
+          "startMs": 62542,
+          "endMs": 62752,
+          "charStart": 42,
+          "charEnd": 43
+        },
+        {
+          "text": "を",
+          "startMs": 62762,
+          "endMs": 62842,
+          "charStart": 43,
+          "charEnd": 44
+        },
+        {
+          "text": "精製",
+          "startMs": 62852,
+          "endMs": 63252,
+          "charStart": 44,
+          "charEnd": 46
+        },
+        {
+          "text": "し",
+          "startMs": 63262,
+          "endMs": 63372,
+          "charStart": 46,
+          "charEnd": 47
+        },
+        {
+          "text": "た",
+          "startMs": 63382,
+          "endMs": 63572,
+          "charStart": 47,
+          "charEnd": 48
+        }
+      ]
+    },
+    {
+      "text": "彼の放った破滅の槍が魔獣の中心核を貫くと、虚無の肉体は怨嗟の声を上げながら次元の裂け目へと吸い込まれていった。",
+      "startMs": 64520,
+      "endMs": 73112,
+      "words": [
+        {
+          "text": "彼",
+          "startMs": 64670,
+          "endMs": 64820,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "の",
+          "startMs": 64830,
+          "endMs": 64920,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "放っ",
+          "startMs": 64930,
+          "endMs": 65210,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "た",
+          "startMs": 65220,
+          "endMs": 65320,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "破滅",
+          "startMs": 65330,
+          "endMs": 65660,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "の",
+          "startMs": 65670,
+          "endMs": 65740,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "槍",
+          "startMs": 65750,
+          "endMs": 65940,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "が",
+          "startMs": 65950,
+          "endMs": 66100,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "魔獣",
+          "startMs": 66160,
+          "endMs": 66470,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "の",
+          "startMs": 66480,
+          "endMs": 66550,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "中心核",
+          "startMs": 66560,
+          "endMs": 67200,
+          "charStart": 13,
+          "charEnd": 16
+        },
+        {
+          "text": "を",
+          "startMs": 67210,
+          "endMs": 67300,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "貫く",
+          "startMs": 67310,
+          "endMs": 67770,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "と",
+          "startMs": 67780,
+          "endMs": 67980,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "虚無",
+          "startMs": 68120,
+          "endMs": 68330,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "の",
+          "startMs": 68340,
+          "endMs": 68420,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "肉体",
+          "startMs": 68430,
+          "endMs": 68810,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "は",
+          "startMs": 68820,
+          "endMs": 69050,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "怨嗟",
+          "startMs": 69180,
+          "endMs": 69480,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "の",
+          "startMs": 69490,
+          "endMs": 69600,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "声",
+          "startMs": 69610,
+          "endMs": 69820,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "を",
+          "startMs": 69830,
+          "endMs": 69920,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "上げ",
+          "startMs": 69930,
+          "endMs": 70130,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "ながら",
+          "startMs": 70140,
+          "endMs": 70460,
+          "charStart": 34,
+          "charEnd": 37
+        },
+        {
+          "text": "次元",
+          "startMs": 70500,
+          "endMs": 70790,
+          "charStart": 37,
+          "charEnd": 39
+        },
+        {
+          "text": "の",
+          "startMs": 70800,
+          "endMs": 70880,
+          "charStart": 39,
+          "charEnd": 40
+        },
+        {
+          "text": "裂け目",
+          "startMs": 70890,
+          "endMs": 71210,
+          "charStart": 40,
+          "charEnd": 43
+        },
+        {
+          "text": "へ",
+          "startMs": 71220,
+          "endMs": 71290,
+          "charStart": 43,
+          "charEnd": 44
+        },
+        {
+          "text": "と",
+          "startMs": 71300,
+          "endMs": 71410,
+          "charStart": 44,
+          "charEnd": 45
+        },
+        {
+          "text": "吸い込ま",
+          "startMs": 71420,
+          "endMs": 71820,
+          "charStart": 45,
+          "charEnd": 49
+        },
+        {
+          "text": "れ",
+          "startMs": 71830,
+          "endMs": 71910,
+          "charStart": 49,
+          "charEnd": 50
+        },
+        {
+          "text": "て",
+          "startMs": 71920,
+          "endMs": 71990,
+          "charStart": 50,
+          "charEnd": 51
+        },
+        {
+          "text": "いっ",
+          "startMs": 72000,
+          "endMs": 72190,
+          "charStart": 51,
+          "charEnd": 53
+        },
+        {
+          "text": "た",
+          "startMs": 72200,
+          "endMs": 72410,
+          "charStart": 53,
+          "charEnd": 54
+        }
+      ]
+    },
+    {
+      "text": "裂け目の完全封鎖に成功した術士は、白髪の混じった頭を垂れ、静まり返った暗闇の底で独り息を整えた。",
+      "startMs": 73362,
+      "endMs": 81426,
+      "words": [
+        {
+          "text": "裂け目",
+          "startMs": 73472,
+          "endMs": 73822,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "の",
+          "startMs": 73832,
+          "endMs": 73942,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "完全",
+          "startMs": 73952,
+          "endMs": 74312,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "封鎖",
+          "startMs": 74322,
+          "endMs": 74582,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "に",
+          "startMs": 74592,
+          "endMs": 74712,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "成功",
+          "startMs": 74722,
+          "endMs": 75112,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "し",
+          "startMs": 75122,
+          "endMs": 75182,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "た",
+          "startMs": 75192,
+          "endMs": 75272,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "術士",
+          "startMs": 75282,
+          "endMs": 75612,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "は",
+          "startMs": 75622,
+          "endMs": 75842,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "白髪",
+          "startMs": 76082,
+          "endMs": 76392,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "の",
+          "startMs": 76402,
+          "endMs": 76502,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "混じっ",
+          "startMs": 76512,
+          "endMs": 76792,
+          "charStart": 20,
+          "charEnd": 23
+        },
+        {
+          "text": "た",
+          "startMs": 76802,
+          "endMs": 76922,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "頭",
+          "startMs": 76932,
+          "endMs": 77222,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "を",
+          "startMs": 77232,
+          "endMs": 77322,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "垂れ",
+          "startMs": 77332,
+          "endMs": 77592,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "静まり返っ",
+          "startMs": 77732,
+          "endMs": 78432,
+          "charStart": 29,
+          "charEnd": 34
+        },
+        {
+          "text": "た",
+          "startMs": 78442,
+          "endMs": 78552,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "暗闇",
+          "startMs": 78562,
+          "endMs": 78962,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "の",
+          "startMs": 78972,
+          "endMs": 79052,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "底",
+          "startMs": 79062,
+          "endMs": 79272,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "で",
+          "startMs": 79282,
+          "endMs": 79492,
+          "charStart": 39,
+          "charEnd": 40
+        },
+        {
+          "text": "独り息",
+          "startMs": 79542,
+          "endMs": 80012,
+          "charStart": 40,
+          "charEnd": 43
+        },
+        {
+          "text": "を",
+          "startMs": 80022,
+          "endMs": 80112,
+          "charStart": 43,
+          "charEnd": 44
+        },
+        {
+          "text": "整え",
+          "startMs": 80122,
+          "endMs": 80502,
+          "charStart": 44,
+          "charEnd": 46
+        },
+        {
+          "text": "た",
+          "startMs": 80512,
+          "endMs": 80712,
+          "charStart": 46,
+          "charEnd": 47
+        }
+      ]
+    }
+  ]
+}

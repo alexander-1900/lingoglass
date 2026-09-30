@@ -1,0 +1,522 @@
+{
+  "version": 3,
+  "lang": "ru",
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 31122,
+  "sentences": [
+    {
+      "text": "Сегодня воскресенье, и у Анны выходной.",
+      "startMs": 0,
+      "endMs": 2976,
+      "words": [
+        {
+          "text": "Сегодня",
+          "startMs": 100,
+          "endMs": 530,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "воскресенье",
+          "startMs": 530,
+          "endMs": 1080,
+          "charStart": 8,
+          "charEnd": 19
+        },
+        {
+          "text": "и",
+          "startMs": 1280,
+          "endMs": 1440,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "у",
+          "startMs": 1440,
+          "endMs": 1530,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "Анны",
+          "startMs": 1530,
+          "endMs": 1740,
+          "charStart": 25,
+          "charEnd": 29
+        },
+        {
+          "text": "выходной",
+          "startMs": 1740,
+          "endMs": 2270,
+          "charStart": 30,
+          "charEnd": 38
+        }
+      ]
+    },
+    {
+      "text": "На улице тёплая и солнечная погода.",
+      "startMs": 3226,
+      "endMs": 6082,
+      "words": [
+        {
+          "text": "На",
+          "startMs": 3326,
+          "endMs": 3576,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "улице",
+          "startMs": 3576,
+          "endMs": 3906,
+          "charStart": 3,
+          "charEnd": 8
+        },
+        {
+          "text": "тёплая",
+          "startMs": 3906,
+          "endMs": 4356,
+          "charStart": 9,
+          "charEnd": 15
+        },
+        {
+          "text": "и",
+          "startMs": 4356,
+          "endMs": 4446,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "солнечная",
+          "startMs": 4446,
+          "endMs": 4926,
+          "charStart": 18,
+          "charEnd": 27
+        },
+        {
+          "text": "погода",
+          "startMs": 4926,
+          "endMs": 5356,
+          "charStart": 28,
+          "charEnd": 34
+        }
+      ]
+    },
+    {
+      "text": "Анна надевает джинсы и зелёную куртку.",
+      "startMs": 6332,
+      "endMs": 9188,
+      "words": [
+        {
+          "text": "Анна",
+          "startMs": 6432,
+          "endMs": 6762,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "надевает",
+          "startMs": 6762,
+          "endMs": 7112,
+          "charStart": 5,
+          "charEnd": 13
+        },
+        {
+          "text": "джинсы",
+          "startMs": 7112,
+          "endMs": 7522,
+          "charStart": 14,
+          "charEnd": 20
+        },
+        {
+          "text": "и",
+          "startMs": 7522,
+          "endMs": 7642,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "зелёную",
+          "startMs": 7642,
+          "endMs": 8042,
+          "charStart": 23,
+          "charEnd": 30
+        },
+        {
+          "text": "куртку",
+          "startMs": 8042,
+          "endMs": 8472,
+          "charStart": 31,
+          "charEnd": 37
+        }
+      ]
+    },
+    {
+      "text": "Она идёт в большой городской парк.",
+      "startMs": 9438,
+      "endMs": 11934,
+      "words": [
+        {
+          "text": "Она",
+          "startMs": 9538,
+          "endMs": 9838,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "идёт",
+          "startMs": 9838,
+          "endMs": 10068,
+          "charStart": 4,
+          "charEnd": 8
+        },
+        {
+          "text": "в",
+          "startMs": 10068,
+          "endMs": 10158,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "большой",
+          "startMs": 10158,
+          "endMs": 10548,
+          "charStart": 11,
+          "charEnd": 18
+        },
+        {
+          "text": "городской",
+          "startMs": 10548,
+          "endMs": 10928,
+          "charStart": 19,
+          "charEnd": 28
+        },
+        {
+          "text": "парк",
+          "startMs": 10928,
+          "endMs": 11258,
+          "charStart": 29,
+          "charEnd": 33
+        }
+      ]
+    },
+    {
+      "text": "В парке гуляет много людей с собаками.",
+      "startMs": 12184,
+      "endMs": 15016,
+      "words": [
+        {
+          "text": "В",
+          "startMs": 12284,
+          "endMs": 12454,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "парке",
+          "startMs": 12454,
+          "endMs": 12784,
+          "charStart": 2,
+          "charEnd": 7
+        },
+        {
+          "text": "гуляет",
+          "startMs": 12784,
+          "endMs": 13134,
+          "charStart": 8,
+          "charEnd": 14
+        },
+        {
+          "text": "много",
+          "startMs": 13134,
+          "endMs": 13444,
+          "charStart": 15,
+          "charEnd": 20
+        },
+        {
+          "text": "людей",
+          "startMs": 13444,
+          "endMs": 13704,
+          "charStart": 21,
+          "charEnd": 26
+        },
+        {
+          "text": "с",
+          "startMs": 13704,
+          "endMs": 13744,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "собаками",
+          "startMs": 13744,
+          "endMs": 14294,
+          "charStart": 29,
+          "charEnd": 37
+        }
+      ]
+    },
+    {
+      "text": "Анна покупает холодный лимонад в киоске.",
+      "startMs": 15266,
+      "endMs": 18002,
+      "words": [
+        {
+          "text": "Анна",
+          "startMs": 15366,
+          "endMs": 15696,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "покупает",
+          "startMs": 15696,
+          "endMs": 16076,
+          "charStart": 5,
+          "charEnd": 13
+        },
+        {
+          "text": "холодный",
+          "startMs": 16076,
+          "endMs": 16486,
+          "charStart": 14,
+          "charEnd": 22
+        },
+        {
+          "text": "лимонад",
+          "startMs": 16486,
+          "endMs": 16806,
+          "charStart": 23,
+          "charEnd": 30
+        },
+        {
+          "text": "в",
+          "startMs": 16806,
+          "endMs": 16856,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "киоске",
+          "startMs": 16856,
+          "endMs": 17326,
+          "charStart": 33,
+          "charEnd": 39
+        }
+      ]
+    },
+    {
+      "text": "Она садится на удобную деревянную скамейку.",
+      "startMs": 18252,
+      "endMs": 21228,
+      "words": [
+        {
+          "text": "Она",
+          "startMs": 18352,
+          "endMs": 18642,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "садится",
+          "startMs": 18642,
+          "endMs": 19062,
+          "charStart": 4,
+          "charEnd": 11
+        },
+        {
+          "text": "на",
+          "startMs": 19062,
+          "endMs": 19172,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "удобную",
+          "startMs": 19172,
+          "endMs": 19542,
+          "charStart": 15,
+          "charEnd": 22
+        },
+        {
+          "text": "деревянную",
+          "startMs": 19542,
+          "endMs": 19982,
+          "charStart": 23,
+          "charEnd": 33
+        },
+        {
+          "text": "скамейку",
+          "startMs": 19982,
+          "endMs": 20502,
+          "charStart": 34,
+          "charEnd": 42
+        }
+      ]
+    },
+    {
+      "text": "Девушка слушает спокойную музыку в наушниках.",
+      "startMs": 21478,
+      "endMs": 24646,
+      "words": [
+        {
+          "text": "Девушка",
+          "startMs": 21578,
+          "endMs": 22108,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "слушает",
+          "startMs": 22108,
+          "endMs": 22478,
+          "charStart": 8,
+          "charEnd": 15
+        },
+        {
+          "text": "спокойную",
+          "startMs": 22478,
+          "endMs": 22968,
+          "charStart": 16,
+          "charEnd": 25
+        },
+        {
+          "text": "музыку",
+          "startMs": 22968,
+          "endMs": 23308,
+          "charStart": 26,
+          "charEnd": 32
+        },
+        {
+          "text": "в",
+          "startMs": 23308,
+          "endMs": 23358,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "наушниках",
+          "startMs": 23358,
+          "endMs": 23958,
+          "charStart": 35,
+          "charEnd": 44
+        }
+      ]
+    },
+    {
+      "text": "В два часа дня она встречает подругу Лену.",
+      "startMs": 24896,
+      "endMs": 27944,
+      "words": [
+        {
+          "text": "В",
+          "startMs": 24996,
+          "endMs": 25166,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "два",
+          "startMs": 25166,
+          "endMs": 25366,
+          "charStart": 2,
+          "charEnd": 5
+        },
+        {
+          "text": "часа",
+          "startMs": 25366,
+          "endMs": 25596,
+          "charStart": 6,
+          "charEnd": 10
+        },
+        {
+          "text": "дня",
+          "startMs": 25596,
+          "endMs": 25856,
+          "charStart": 11,
+          "charEnd": 14
+        },
+        {
+          "text": "она",
+          "startMs": 25856,
+          "endMs": 26066,
+          "charStart": 15,
+          "charEnd": 18
+        },
+        {
+          "text": "встречает",
+          "startMs": 26066,
+          "endMs": 26526,
+          "charStart": 19,
+          "charEnd": 28
+        },
+        {
+          "text": "подругу",
+          "startMs": 26526,
+          "endMs": 26866,
+          "charStart": 29,
+          "charEnd": 36
+        },
+        {
+          "text": "Лену",
+          "startMs": 26866,
+          "endMs": 27206,
+          "charStart": 37,
+          "charEnd": 41
+        }
+      ]
+    },
+    {
+      "text": "Они долго гуляют и весело разговаривают.",
+      "startMs": 28194,
+      "endMs": 31122,
+      "words": [
+        {
+          "text": "Они",
+          "startMs": 28294,
+          "endMs": 28604,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "долго",
+          "startMs": 28604,
+          "endMs": 28864,
+          "charStart": 4,
+          "charEnd": 9
+        },
+        {
+          "text": "гуляют",
+          "startMs": 28864,
+          "endMs": 29354,
+          "charStart": 10,
+          "charEnd": 16
+        },
+        {
+          "text": "и",
+          "startMs": 29354,
+          "endMs": 29444,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "весело",
+          "startMs": 29444,
+          "endMs": 29754,
+          "charStart": 19,
+          "charEnd": 25
+        },
+        {
+          "text": "разговаривают",
+          "startMs": 29754,
+          "endMs": 30444,
+          "charStart": 26,
+          "charEnd": 39
+        }
+      ]
+    }
+  ]
+}

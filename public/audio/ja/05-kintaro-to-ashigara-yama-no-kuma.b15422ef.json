@@ -1,0 +1,1572 @@
+{
+  "version": 3,
+  "lang": "ja",
+  "voice": "ja-JP-NanamiNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 59394,
+  "sentences": [
+    {
+      "text": "足柄山に、生まれつき人並み外れた怪力を持つ金太郎という元気な男の子がいました。",
+      "startMs": 0,
+      "endMs": 5976,
+      "words": [
+        {
+          "text": "足柄",
+          "startMs": 140,
+          "endMs": 490,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "山",
+          "startMs": 500,
+          "endMs": 720,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "に",
+          "startMs": 730,
+          "endMs": 920,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "生まれつき",
+          "startMs": 1060,
+          "endMs": 1550,
+          "charStart": 5,
+          "charEnd": 10
+        },
+        {
+          "text": "人並み",
+          "startMs": 1560,
+          "endMs": 1940,
+          "charStart": 10,
+          "charEnd": 13
+        },
+        {
+          "text": "外れ",
+          "startMs": 1950,
+          "endMs": 2250,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "た",
+          "startMs": 2260,
+          "endMs": 2370,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "怪力",
+          "startMs": 2380,
+          "endMs": 2760,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "を",
+          "startMs": 2770,
+          "endMs": 2850,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "持つ",
+          "startMs": 2860,
+          "endMs": 3090,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "金太郎",
+          "startMs": 3100,
+          "endMs": 3520,
+          "charStart": 21,
+          "charEnd": 24
+        },
+        {
+          "text": "と",
+          "startMs": 3530,
+          "endMs": 3610,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "いう",
+          "startMs": 3620,
+          "endMs": 3810,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "元気",
+          "startMs": 3820,
+          "endMs": 4120,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "な",
+          "startMs": 4130,
+          "endMs": 4210,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "男",
+          "startMs": 4220,
+          "endMs": 4500,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "の",
+          "startMs": 4510,
+          "endMs": 4600,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "子",
+          "startMs": 4610,
+          "endMs": 4700,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "が",
+          "startMs": 4710,
+          "endMs": 4790,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "い",
+          "startMs": 4800,
+          "endMs": 4890,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "まし",
+          "startMs": 4900,
+          "endMs": 5080,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "た",
+          "startMs": 5090,
+          "endMs": 5260,
+          "charStart": 37,
+          "charEnd": 38
+        }
+      ]
+    },
+    {
+      "text": "金太郎は赤い前掛けをつけて、いつも大きな鉞を肩に担いでいました。",
+      "startMs": 6226,
+      "endMs": 11266,
+      "words": [
+        {
+          "text": "金太郎",
+          "startMs": 6366,
+          "endMs": 6796,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "は",
+          "startMs": 6806,
+          "endMs": 6906,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "赤い",
+          "startMs": 6916,
+          "endMs": 7246,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "前掛け",
+          "startMs": 7256,
+          "endMs": 7646,
+          "charStart": 6,
+          "charEnd": 9
+        },
+        {
+          "text": "を",
+          "startMs": 7656,
+          "endMs": 7746,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "つけ",
+          "startMs": 7756,
+          "endMs": 7936,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "て",
+          "startMs": 7946,
+          "endMs": 8106,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "いつも",
+          "startMs": 8346,
+          "endMs": 8616,
+          "charStart": 14,
+          "charEnd": 17
+        },
+        {
+          "text": "大きな",
+          "startMs": 8626,
+          "endMs": 9006,
+          "charStart": 17,
+          "charEnd": 20
+        },
+        {
+          "text": "鉞",
+          "startMs": 9016,
+          "endMs": 9256,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "を",
+          "startMs": 9266,
+          "endMs": 9356,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "肩",
+          "startMs": 9366,
+          "endMs": 9556,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "に",
+          "startMs": 9566,
+          "endMs": 9696,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "担い",
+          "startMs": 9706,
+          "endMs": 10016,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "で",
+          "startMs": 10026,
+          "endMs": 10076,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "いま",
+          "startMs": 10086,
+          "endMs": 10266,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "し",
+          "startMs": 10276,
+          "endMs": 10366,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "た",
+          "startMs": 10376,
+          "endMs": 10556,
+          "charStart": 30,
+          "charEnd": 31
+        }
+      ]
+    },
+    {
+      "text": "彼は森の動物たちと大の仲良しで、毎日相撲をとって遊んでいました。",
+      "startMs": 11516,
+      "endMs": 16748,
+      "words": [
+        {
+          "text": "彼",
+          "startMs": 11626,
+          "endMs": 11836,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "は",
+          "startMs": 11846,
+          "endMs": 11946,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "森",
+          "startMs": 11956,
+          "endMs": 12156,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "の",
+          "startMs": 12166,
+          "endMs": 12256,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "動物",
+          "startMs": 12266,
+          "endMs": 12616,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "たち",
+          "startMs": 12626,
+          "endMs": 12816,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "と",
+          "startMs": 12826,
+          "endMs": 12906,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "大",
+          "startMs": 12916,
+          "endMs": 13106,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "の",
+          "startMs": 13116,
+          "endMs": 13196,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "仲良し",
+          "startMs": 13206,
+          "endMs": 13626,
+          "charStart": 11,
+          "charEnd": 14
+        },
+        {
+          "text": "で",
+          "startMs": 13636,
+          "endMs": 13776,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "毎日",
+          "startMs": 14056,
+          "endMs": 14446,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "相撲",
+          "startMs": 14456,
+          "endMs": 14696,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "を",
+          "startMs": 14706,
+          "endMs": 14796,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "とっ",
+          "startMs": 14806,
+          "endMs": 14986,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "て",
+          "startMs": 14996,
+          "endMs": 15116,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "遊ん",
+          "startMs": 15136,
+          "endMs": 15496,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "で",
+          "startMs": 15506,
+          "endMs": 15566,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "いま",
+          "startMs": 15576,
+          "endMs": 15756,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "し",
+          "startMs": 15766,
+          "endMs": 15856,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "た",
+          "startMs": 15866,
+          "endMs": 16046,
+          "charStart": 30,
+          "charEnd": 31
+        }
+      ]
+    },
+    {
+      "text": "ある日、森で一番強い大きな黒熊が金太郎に相撲の勝負を挑んできました。",
+      "startMs": 16998,
+      "endMs": 22518,
+      "words": [
+        {
+          "text": "ある",
+          "startMs": 17108,
+          "endMs": 17278,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "日",
+          "startMs": 17288,
+          "endMs": 17458,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "森",
+          "startMs": 17738,
+          "endMs": 17908,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "で",
+          "startMs": 17918,
+          "endMs": 17978,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "一番",
+          "startMs": 17988,
+          "endMs": 18388,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "強い",
+          "startMs": 18398,
+          "endMs": 18688,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "大きな",
+          "startMs": 18698,
+          "endMs": 19098,
+          "charStart": 10,
+          "charEnd": 13
+        },
+        {
+          "text": "黒熊",
+          "startMs": 19108,
+          "endMs": 19478,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "が",
+          "startMs": 19488,
+          "endMs": 19618,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "金太郎",
+          "startMs": 19628,
+          "endMs": 20088,
+          "charStart": 16,
+          "charEnd": 19
+        },
+        {
+          "text": "に",
+          "startMs": 20098,
+          "endMs": 20208,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "相撲",
+          "startMs": 20218,
+          "endMs": 20508,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "の",
+          "startMs": 20518,
+          "endMs": 20598,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "勝負",
+          "startMs": 20608,
+          "endMs": 20888,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "を",
+          "startMs": 20898,
+          "endMs": 21008,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "挑ん",
+          "startMs": 21018,
+          "endMs": 21258,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "でき",
+          "startMs": 21268,
+          "endMs": 21438,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "まし",
+          "startMs": 21448,
+          "endMs": 21628,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "た",
+          "startMs": 21638,
+          "endMs": 21828,
+          "charStart": 32,
+          "charEnd": 33
+        }
+      ]
+    },
+    {
+      "text": "二人は力いっぱい組み合いましたが、金太郎は見事な技で大熊を投げ飛ばしました。",
+      "startMs": 22768,
+      "endMs": 28408,
+      "words": [
+        {
+          "text": "二人",
+          "startMs": 22878,
+          "endMs": 23148,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "は",
+          "startMs": 23158,
+          "endMs": 23238,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "力",
+          "startMs": 23248,
+          "endMs": 23538,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "いっぱい",
+          "startMs": 23548,
+          "endMs": 23938,
+          "charStart": 4,
+          "charEnd": 8
+        },
+        {
+          "text": "組み合い",
+          "startMs": 23948,
+          "endMs": 24298,
+          "charStart": 8,
+          "charEnd": 12
+        },
+        {
+          "text": "まし",
+          "startMs": 24308,
+          "endMs": 24478,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "た",
+          "startMs": 24488,
+          "endMs": 24558,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "が",
+          "startMs": 24568,
+          "endMs": 24768,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "金",
+          "startMs": 25018,
+          "endMs": 25208,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "太郎",
+          "startMs": 25218,
+          "endMs": 25478,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "は",
+          "startMs": 25488,
+          "endMs": 25568,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "見事",
+          "startMs": 25578,
+          "endMs": 25908,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "な",
+          "startMs": 25918,
+          "endMs": 26008,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "技",
+          "startMs": 26018,
+          "endMs": 26208,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "で",
+          "startMs": 26218,
+          "endMs": 26338,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "大熊",
+          "startMs": 26378,
+          "endMs": 26758,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "を",
+          "startMs": 26768,
+          "endMs": 26858,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "投げ飛ばし",
+          "startMs": 26868,
+          "endMs": 27348,
+          "charStart": 29,
+          "charEnd": 34
+        },
+        {
+          "text": "まし",
+          "startMs": 27358,
+          "endMs": 27538,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "た",
+          "startMs": 27548,
+          "endMs": 27718,
+          "charStart": 36,
+          "charEnd": 37
+        }
+      ]
+    },
+    {
+      "text": "負けた熊は金太郎の強さと優しさに感服して、彼の一番の家来になりました。",
+      "startMs": 28658,
+      "endMs": 34418,
+      "words": [
+        {
+          "text": "負け",
+          "startMs": 28768,
+          "endMs": 28988,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "た",
+          "startMs": 28998,
+          "endMs": 29108,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "熊",
+          "startMs": 29118,
+          "endMs": 29318,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "は",
+          "startMs": 29328,
+          "endMs": 29458,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "金太郎",
+          "startMs": 29478,
+          "endMs": 29958,
+          "charStart": 5,
+          "charEnd": 8
+        },
+        {
+          "text": "の",
+          "startMs": 29968,
+          "endMs": 30068,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "強さ",
+          "startMs": 30078,
+          "endMs": 30418,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "と",
+          "startMs": 30428,
+          "endMs": 30538,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "優しさ",
+          "startMs": 30558,
+          "endMs": 30938,
+          "charStart": 12,
+          "charEnd": 15
+        },
+        {
+          "text": "に",
+          "startMs": 30948,
+          "endMs": 31068,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "感服",
+          "startMs": 31078,
+          "endMs": 31448,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "し",
+          "startMs": 31458,
+          "endMs": 31558,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "て",
+          "startMs": 31568,
+          "endMs": 31738,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "彼",
+          "startMs": 31988,
+          "endMs": 32198,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "の",
+          "startMs": 32208,
+          "endMs": 32308,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "一番",
+          "startMs": 32318,
+          "endMs": 32678,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "の",
+          "startMs": 32688,
+          "endMs": 32778,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "家来",
+          "startMs": 32788,
+          "endMs": 33068,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "に",
+          "startMs": 33078,
+          "endMs": 33158,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "なり",
+          "startMs": 33168,
+          "endMs": 33328,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "まし",
+          "startMs": 33338,
+          "endMs": 33518,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "た",
+          "startMs": 33528,
+          "endMs": 33708,
+          "charStart": 33,
+          "charEnd": 34
+        }
+      ]
+    },
+    {
+      "text": "その後、動物たちと一緒に谷へ行くと、激しい雨で丸木橋が流されていました。",
+      "startMs": 34668,
+      "endMs": 40500,
+      "words": [
+        {
+          "text": "その",
+          "startMs": 34778,
+          "endMs": 35048,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "後",
+          "startMs": 35058,
+          "endMs": 35248,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "動物",
+          "startMs": 35518,
+          "endMs": 35898,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "たち",
+          "startMs": 35908,
+          "endMs": 36098,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "と",
+          "startMs": 36108,
+          "endMs": 36178,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "一緒に",
+          "startMs": 36188,
+          "endMs": 36588,
+          "charStart": 9,
+          "charEnd": 12
+        },
+        {
+          "text": "谷",
+          "startMs": 36598,
+          "endMs": 36778,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "へ",
+          "startMs": 36788,
+          "endMs": 36848,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "行く",
+          "startMs": 36858,
+          "endMs": 37048,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "と",
+          "startMs": 37058,
+          "endMs": 37248,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "激しい",
+          "startMs": 37528,
+          "endMs": 37918,
+          "charStart": 18,
+          "charEnd": 21
+        },
+        {
+          "text": "雨",
+          "startMs": 37928,
+          "endMs": 38118,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "で",
+          "startMs": 38128,
+          "endMs": 38208,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "丸木橋",
+          "startMs": 38218,
+          "endMs": 38728,
+          "charStart": 23,
+          "charEnd": 26
+        },
+        {
+          "text": "が",
+          "startMs": 38738,
+          "endMs": 38828,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "流さ",
+          "startMs": 38838,
+          "endMs": 39158,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "れ",
+          "startMs": 39168,
+          "endMs": 39248,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "て",
+          "startMs": 39258,
+          "endMs": 39328,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "いま",
+          "startMs": 39338,
+          "endMs": 39508,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "し",
+          "startMs": 39518,
+          "endMs": 39608,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "た",
+          "startMs": 39618,
+          "endMs": 39798,
+          "charStart": 34,
+          "charEnd": 35
+        }
+      ]
+    },
+    {
+      "text": "困っている動物たちのために、金太郎は近くの太い大木を根元から力づくで押し倒しました。",
+      "startMs": 40750,
+      "endMs": 47038,
+      "words": [
+        {
+          "text": "困っ",
+          "startMs": 40900,
+          "endMs": 41130,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "て",
+          "startMs": 41140,
+          "endMs": 41210,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "いる",
+          "startMs": 41220,
+          "endMs": 41410,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "動物",
+          "startMs": 41420,
+          "endMs": 41760,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "たち",
+          "startMs": 41770,
+          "endMs": 41970,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "の",
+          "startMs": 41980,
+          "endMs": 42070,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "ため",
+          "startMs": 42080,
+          "endMs": 42280,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "に",
+          "startMs": 42290,
+          "endMs": 42490,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "金太郎",
+          "startMs": 42660,
+          "endMs": 43080,
+          "charStart": 14,
+          "charEnd": 17
+        },
+        {
+          "text": "は",
+          "startMs": 43090,
+          "endMs": 43170,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "近く",
+          "startMs": 43180,
+          "endMs": 43510,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "の",
+          "startMs": 43520,
+          "endMs": 43610,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "太い",
+          "startMs": 43620,
+          "endMs": 43910,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "大木",
+          "startMs": 43920,
+          "endMs": 44280,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "を",
+          "startMs": 44290,
+          "endMs": 44390,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "根元",
+          "startMs": 44400,
+          "endMs": 44690,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "から",
+          "startMs": 44700,
+          "endMs": 44880,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "力づく",
+          "startMs": 44910,
+          "endMs": 45410,
+          "charStart": 30,
+          "charEnd": 33
+        },
+        {
+          "text": "で",
+          "startMs": 45420,
+          "endMs": 45470,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "押し",
+          "startMs": 45480,
+          "endMs": 45690,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "倒しまし",
+          "startMs": 45700,
+          "endMs": 46150,
+          "charStart": 36,
+          "charEnd": 40
+        },
+        {
+          "text": "た",
+          "startMs": 46160,
+          "endMs": 46330,
+          "charStart": 40,
+          "charEnd": 41
+        }
+      ]
+    },
+    {
+      "text": "倒した大木が立派な橋になって、動物たちは無事に谷を渡ることができました。",
+      "startMs": 47288,
+      "endMs": 52904,
+      "words": [
+        {
+          "text": "倒し",
+          "startMs": 47398,
+          "endMs": 47708,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "た",
+          "startMs": 47718,
+          "endMs": 47808,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "大木",
+          "startMs": 47818,
+          "endMs": 48198,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "が",
+          "startMs": 48208,
+          "endMs": 48288,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "立派",
+          "startMs": 48298,
+          "endMs": 48568,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "な",
+          "startMs": 48578,
+          "endMs": 48658,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "橋",
+          "startMs": 48668,
+          "endMs": 48888,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "に",
+          "startMs": 48898,
+          "endMs": 48988,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "なっ",
+          "startMs": 48998,
+          "endMs": 49168,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "て",
+          "startMs": 49178,
+          "endMs": 49358,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "動物",
+          "startMs": 49628,
+          "endMs": 49978,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "たち",
+          "startMs": 49988,
+          "endMs": 50178,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "は",
+          "startMs": 50188,
+          "endMs": 50318,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "無事",
+          "startMs": 50368,
+          "endMs": 50588,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "に",
+          "startMs": 50598,
+          "endMs": 50718,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "谷",
+          "startMs": 50728,
+          "endMs": 50928,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "を",
+          "startMs": 50938,
+          "endMs": 51018,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "渡る",
+          "startMs": 51028,
+          "endMs": 51318,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "こと",
+          "startMs": 51328,
+          "endMs": 51508,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "が",
+          "startMs": 51518,
+          "endMs": 51608,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "でき",
+          "startMs": 51618,
+          "endMs": 51818,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "まし",
+          "startMs": 51828,
+          "endMs": 52008,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "た",
+          "startMs": 52018,
+          "endMs": 52198,
+          "charStart": 34,
+          "charEnd": 35
+        }
+      ]
+    },
+    {
+      "text": "その怪力と優しい心を見た立派な武士が、金太郎を都へ連れて行って家臣にしました。",
+      "startMs": 53154,
+      "endMs": 59394,
+      "words": [
+        {
+          "text": "その",
+          "startMs": 53264,
+          "endMs": 53534,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "怪力",
+          "startMs": 53544,
+          "endMs": 53934,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "と",
+          "startMs": 53944,
+          "endMs": 54014,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "優しい",
+          "startMs": 54024,
+          "endMs": 54454,
+          "charStart": 5,
+          "charEnd": 8
+        },
+        {
+          "text": "心",
+          "startMs": 54464,
+          "endMs": 54734,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "を",
+          "startMs": 54744,
+          "endMs": 54804,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "見",
+          "startMs": 54814,
+          "endMs": 54924,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "た",
+          "startMs": 54934,
+          "endMs": 55014,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "立派",
+          "startMs": 55024,
+          "endMs": 55314,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "な",
+          "startMs": 55324,
+          "endMs": 55424,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "武士",
+          "startMs": 55434,
+          "endMs": 55654,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "が",
+          "startMs": 55664,
+          "endMs": 55844,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "金太郎",
+          "startMs": 56114,
+          "endMs": 56574,
+          "charStart": 19,
+          "charEnd": 22
+        },
+        {
+          "text": "を",
+          "startMs": 56584,
+          "endMs": 56664,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "都",
+          "startMs": 56674,
+          "endMs": 56974,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "へ",
+          "startMs": 56984,
+          "endMs": 57084,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "連れ",
+          "startMs": 57094,
+          "endMs": 57304,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "て",
+          "startMs": 57314,
+          "endMs": 57384,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "行っ",
+          "startMs": 57394,
+          "endMs": 57564,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "て",
+          "startMs": 57574,
+          "endMs": 57744,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "家臣",
+          "startMs": 57774,
+          "endMs": 58104,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "に",
+          "startMs": 58114,
+          "endMs": 58204,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "し",
+          "startMs": 58214,
+          "endMs": 58324,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "まし",
+          "startMs": 58334,
+          "endMs": 58514,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "た",
+          "startMs": 58524,
+          "endMs": 58704,
+          "charStart": 37,
+          "charEnd": 38
+        }
+      ]
+    }
+  ]
+}

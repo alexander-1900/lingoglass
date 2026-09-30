@@ -1,0 +1,427 @@
+{
+  "es/01-aporias-de-la-ontologia-del-lenguaje": {
+    "mp3": "/audio/es/01-aporias-de-la-ontologia-del-lenguaje.9b76dc8b.mp3",
+    "timing": "/audio/es/01-aporias-de-la-ontologia-del-lenguaje.9b76dc8b.json",
+    "duration": 55098
+  },
+  "es/01-cambio-de-rumbo": {
+    "mp3": "/audio/es/01-cambio-de-rumbo.7cc15339.mp3",
+    "timing": "/audio/es/01-cambio-de-rumbo.7cc15339.json",
+    "duration": 47778
+  },
+  "es/01-dilema-teletrabajo": {
+    "mp3": "/audio/es/01-dilema-teletrabajo.2492565c.mp3",
+    "timing": "/audio/es/01-dilema-teletrabajo.2492565c.json",
+    "duration": 51378
+  },
+  "es/01-la-paradoja-de-la-sobreinformacion-en-la-era-digital": {
+    "mp3": "/audio/es/01-la-paradoja-de-la-sobreinformacion-en-la-era-digital.0b1d0823.mp3",
+    "timing": "/audio/es/01-la-paradoja-de-la-sobreinformacion-en-la-era-digital.0b1d0823.json",
+    "duration": 61530
+  },
+  "es/01-mi-rutina-diaria": {
+    "mp3": "/audio/es/01-mi-rutina-diaria.68e05895.mp3",
+    "timing": "/audio/es/01-mi-rutina-diaria.68e05895.json",
+    "duration": 26034
+  },
+  "es/01-viaje-a-sevilla": {
+    "mp3": "/audio/es/01-viaje-a-sevilla.3d93ca0b.mp3",
+    "timing": "/audio/es/01-viaje-a-sevilla.3d93ca0b.json",
+    "duration": 42810
+  },
+  "es/02-casco-historico": {
+    "mp3": "/audio/es/02-casco-historico.a063fb0c.mp3",
+    "timing": "/audio/es/02-casco-historico.a063fb0c.json",
+    "duration": 54786
+  },
+  "es/02-el-enigma-del-yacimiento-sumergido": {
+    "mp3": "/audio/es/02-el-enigma-del-yacimiento-sumergido.e85469c4.mp3",
+    "timing": "/audio/es/02-el-enigma-del-yacimiento-sumergido.e85469c4.json",
+    "duration": 71082
+  },
+  "es/02-el-perro-de-sofia": {
+    "mp3": "/audio/es/02-el-perro-de-sofia.e1af8201.mp3",
+    "timing": "/audio/es/02-el-perro-de-sofia.e1af8201.json",
+    "duration": 25698
+  },
+  "es/02-intercambio-en-granada": {
+    "mp3": "/audio/es/02-intercambio-en-granada.5ee44981.mp3",
+    "timing": "/audio/es/02-intercambio-en-granada.5ee44981.json",
+    "duration": 46314
+  },
+  "es/02-la-dialectica-del-olvido-y-la-ruina-arquitectonica": {
+    "mp3": "/audio/es/02-la-dialectica-del-olvido-y-la-ruina-arquitectonica.514f74c2.mp3",
+    "timing": "/audio/es/02-la-dialectica-del-olvido-y-la-ruina-arquitectonica.514f74c2.json",
+    "duration": 54642
+  },
+  "es/02-la-mudanza": {
+    "mp3": "/audio/es/02-la-mudanza.e31b9193.mp3",
+    "timing": "/audio/es/02-la-mudanza.e31b9193.json",
+    "duration": 42042
+  },
+  "es/03-dilema-etico-ia": {
+    "mp3": "/audio/es/03-dilema-etico-ia.2712d04b.mp3",
+    "timing": "/audio/es/03-dilema-etico-ia.2712d04b.json",
+    "duration": 52434
+  },
+  "es/03-iniciativa-ecologica": {
+    "mp3": "/audio/es/03-iniciativa-ecologica.a868ef65.mp3",
+    "timing": "/audio/es/03-iniciativa-ecologica.a868ef65.json",
+    "duration": 48522
+  },
+  "es/03-la-gentrificacion-y-la-memoria-barrial": {
+    "mp3": "/audio/es/03-la-gentrificacion-y-la-memoria-barrial.999a373b.mp3",
+    "timing": "/audio/es/03-la-gentrificacion-y-la-memoria-barrial.999a373b.json",
+    "duration": 73842
+  },
+  "es/03-la-quimera-del-libre-albedrio-ante-el-determinismo-neurobiologico": {
+    "mp3": "/audio/es/03-la-quimera-del-libre-albedrio-ante-el-determinismo-neurobiologico.203f6e7a.mp3",
+    "timing": "/audio/es/03-la-quimera-del-libre-albedrio-ante-el-determinismo-neurobiologico.203f6e7a.json",
+    "duration": 62850
+  },
+  "es/03-un-resfriado-inoportuno": {
+    "mp3": "/audio/es/03-un-resfriado-inoportuno.339aae87.mp3",
+    "timing": "/audio/es/03-un-resfriado-inoportuno.339aae87.json",
+    "duration": 41250
+  },
+  "es/03-una-visita-al-mercado": {
+    "mp3": "/audio/es/03-una-visita-al-mercado.77a7827a.mp3",
+    "timing": "/audio/es/03-una-visita-al-mercado.77a7827a.json",
+    "duration": 26130
+  },
+  "es/04-averia-en-la-carretera": {
+    "mp3": "/audio/es/04-averia-en-la-carretera.b21965cc.mp3",
+    "timing": "/audio/es/04-averia-en-la-carretera.b21965cc.json",
+    "duration": 45306
+  },
+  "es/04-incendios-forestales": {
+    "mp3": "/audio/es/04-incendios-forestales.1ba66204.mp3",
+    "timing": "/audio/es/04-incendios-forestales.1ba66204.json",
+    "duration": 55362
+  },
+  "es/04-la-cafeteria-del-barrio": {
+    "mp3": "/audio/es/04-la-cafeteria-del-barrio.f712ee91.mp3",
+    "timing": "/audio/es/04-la-cafeteria-del-barrio.f712ee91.json",
+    "duration": 25938
+  },
+  "es/04-la-encrucijada-bioetica-de-la-edicion-genomica": {
+    "mp3": "/audio/es/04-la-encrucijada-bioetica-de-la-edicion-genomica.ea06324f.mp3",
+    "timing": "/audio/es/04-la-encrucijada-bioetica-de-la-edicion-genomica.ea06324f.json",
+    "duration": 71586
+  },
+  "es/04-la-palinodia-del-exegeta-desenganado": {
+    "mp3": "/audio/es/04-la-palinodia-del-exegeta-desenganado.3b23904b.mp3",
+    "timing": "/audio/es/04-la-palinodia-del-exegeta-desenganado.3b23904b.json",
+    "duration": 56298
+  },
+  "es/04-tarde-de-compras": {
+    "mp3": "/audio/es/04-tarde-de-compras.6b074976.mp3",
+    "timing": "/audio/es/04-tarde-de-compras.6b074976.json",
+    "duration": 41010
+  },
+  "es/05-cena-sorpresa": {
+    "mp3": "/audio/es/05-cena-sorpresa.118fe213.mp3",
+    "timing": "/audio/es/05-cena-sorpresa.118fe213.json",
+    "duration": 42666
+  },
+  "es/05-el-laberinto-hermeneutico-del-traductor-literario": {
+    "mp3": "/audio/es/05-el-laberinto-hermeneutico-del-traductor-literario.34166186.mp3",
+    "timing": "/audio/es/05-el-laberinto-hermeneutico-del-traductor-literario.34166186.json",
+    "duration": 69066
+  },
+  "es/05-el-reencuentro": {
+    "mp3": "/audio/es/05-el-reencuentro.d77fd2c6.mp3",
+    "timing": "/audio/es/05-el-reencuentro.d77fd2c6.json",
+    "duration": 47130
+  },
+  "es/05-espana-vaciada": {
+    "mp3": "/audio/es/05-espana-vaciada.69924a2a.mp3",
+    "timing": "/audio/es/05-espana-vaciada.69924a2a.json",
+    "duration": 57186
+  },
+  "es/05-la-apoteosis-de-la-vigilia-crepuscular-en-el-paramo": {
+    "mp3": "/audio/es/05-la-apoteosis-de-la-vigilia-crepuscular-en-el-paramo.db627417.mp3",
+    "timing": "/audio/es/05-la-apoteosis-de-la-vigilia-crepuscular-en-el-paramo.db627417.json",
+    "duration": 58986
+  },
+  "es/05-un-viaje-a-la-playa": {
+    "mp3": "/audio/es/05-un-viaje-a-la-playa.92d7c21c.mp3",
+    "timing": "/audio/es/05-un-viaje-a-la-playa.92d7c21c.json",
+    "duration": 26082
+  },
+  "ja/01-issun-boshi": {
+    "mp3": "/audio/ja/01-issun-boshi.e89b8666.mp3",
+    "timing": "/audio/ja/01-issun-boshi.e89b8666.json",
+    "duration": 74154
+  },
+  "ja/01-momotaro": {
+    "mp3": "/audio/ja/01-momotaro.990b48ac.mp3",
+    "timing": "/audio/ja/01-momotaro.990b48ac.json",
+    "duration": 39402
+  },
+  "ja/01-ryu-kishi-to-kodai-no-fuin": {
+    "mp3": "/audio/ja/01-ryu-kishi-to-kodai-no-fuin.d7d651cb.mp3",
+    "timing": "/audio/ja/01-ryu-kishi-to-kodai-no-fuin.d7d651cb.json",
+    "duration": 77922
+  },
+  "ja/01-toshi-no-kodoku-to-tsunagari": {
+    "mp3": "/audio/ja/01-toshi-no-kodoku-to-tsunagari.06d9e0b1.mp3",
+    "timing": "/audio/ja/01-toshi-no-kodoku-to-tsunagari.06d9e0b1.json",
+    "duration": 71418
+  },
+  "ja/01-urashima-taro-no-tabi": {
+    "mp3": "/audio/ja/01-urashima-taro-no-tabi.3fc1760a.mp3",
+    "timing": "/audio/ja/01-urashima-taro-no-tabi.3fc1760a.json",
+    "duration": 56898
+  },
+  "ja/02-ai-to-rodo-no-mirai": {
+    "mp3": "/audio/ja/02-ai-to-rodo-no-mirai.fe409146.mp3",
+    "timing": "/audio/ja/02-ai-to-rodo-no-mirai.fe409146.json",
+    "duration": 66666
+  },
+  "ja/02-renkinjutsushi-to-zenmai-jikake-no-shinzou": {
+    "mp3": "/audio/ja/02-renkinjutsushi-to-zenmai-jikake-no-shinzou.b37818af.mp3",
+    "timing": "/audio/ja/02-renkinjutsushi-to-zenmai-jikake-no-shinzou.b37818af.json",
+    "duration": 81642
+  },
+  "ja/02-taketori-monogatari": {
+    "mp3": "/audio/ja/02-taketori-monogatari.83a0bae0.mp3",
+    "timing": "/audio/ja/02-taketori-monogatari.83a0bae0.json",
+    "duration": 38874
+  },
+  "ja/02-tengu-no-kakuremino": {
+    "mp3": "/audio/ja/02-tengu-no-kakuremino.b528fe93.mp3",
+    "timing": "/audio/ja/02-tengu-no-kakuremino.b528fe93.json",
+    "duration": 58194
+  },
+  "ja/02-yamata-no-orochi-to-susanoo": {
+    "mp3": "/audio/ja/02-yamata-no-orochi-to-susanoo.1f31053b.mp3",
+    "timing": "/audio/ja/02-yamata-no-orochi-to-susanoo.1f31053b.json",
+    "duration": 77490
+  },
+  "ja/03-adachigahara-no-onibaba": {
+    "mp3": "/audio/ja/03-adachigahara-no-onibaba.507d6b07.mp3",
+    "timing": "/audio/ja/03-adachigahara-no-onibaba.507d6b07.json",
+    "duration": 69426
+  },
+  "ja/03-kasa-jizo": {
+    "mp3": "/audio/ja/03-kasa-jizo.2df47dbd.mp3",
+    "timing": "/audio/ja/03-kasa-jizo.2df47dbd.json",
+    "duration": 60906
+  },
+  "ja/03-kiko-hendo-to-chiho-no-saisei": {
+    "mp3": "/audio/ja/03-kiko-hendo-to-chiho-no-saisei.1af43afc.mp3",
+    "timing": "/audio/ja/03-kiko-hendo-to-chiho-no-saisei.1af43afc.json",
+    "duration": 63882
+  },
+  "ja/03-shin-en-no-shiryojutsushi-to-kyomu-no-maju": {
+    "mp3": "/audio/ja/03-shin-en-no-shiryojutsushi-to-kyomu-no-maju.bea2e8d9.mp3",
+    "timing": "/audio/ja/03-shin-en-no-shiryojutsushi-to-kyomu-no-maju.bea2e8d9.json",
+    "duration": 81426
+  },
+  "ja/03-tsuru-no-ongaeshi": {
+    "mp3": "/audio/ja/03-tsuru-no-ongaeshi.2da128cc.mp3",
+    "timing": "/audio/ja/03-tsuru-no-ongaeshi.2da128cc.json",
+    "duration": 40218
+  },
+  "ja/04-bunbuku-chagama": {
+    "mp3": "/audio/ja/04-bunbuku-chagama.adc7b3c2.mp3",
+    "timing": "/audio/ja/04-bunbuku-chagama.adc7b3c2.json",
+    "duration": 40602
+  },
+  "ja/04-dojoji-no-kiyohime": {
+    "mp3": "/audio/ja/04-dojoji-no-kiyohime.f0c71a57.mp3",
+    "timing": "/audio/ja/04-dojoji-no-kiyohime.f0c71a57.json",
+    "duration": 75090
+  },
+  "ja/04-kotoba-no-henyo": {
+    "mp3": "/audio/ja/04-kotoba-no-henyo.a959c8a8.mp3",
+    "timing": "/audio/ja/04-kotoba-no-henyo.a959c8a8.json",
+    "duration": 61026
+  },
+  "ja/04-mado-gakuen-no-hoshiyomi-to-seishin-no-gishiki": {
+    "mp3": "/audio/ja/04-mado-gakuen-no-hoshiyomi-to-seishin-no-gishiki.f18d95b4.mp3",
+    "timing": "/audio/ja/04-mado-gakuen-no-hoshiyomi-to-seishin-no-gishiki.f18d95b4.json",
+    "duration": 78762
+  },
+  "ja/04-shitakiri-suzume": {
+    "mp3": "/audio/ja/04-shitakiri-suzume.108625cf.mp3",
+    "timing": "/audio/ja/04-shitakiri-suzume.108625cf.json",
+    "duration": 61290
+  },
+  "ja/05-kintaro-to-ashigara-yama-no-kuma": {
+    "mp3": "/audio/ja/05-kintaro-to-ashigara-yama-no-kuma.b15422ef.mp3",
+    "timing": "/audio/ja/05-kintaro-to-ashigara-yama-no-kuma.b15422ef.json",
+    "duration": 59394
+  },
+  "ja/05-kioku-no-keisho": {
+    "mp3": "/audio/ja/05-kioku-no-keisho.239a1544.mp3",
+    "timing": "/audio/ja/05-kioku-no-keisho.239a1544.json",
+    "duration": 58890
+  },
+  "ja/05-kuchita-kyojin-to-saigo-no-jusei": {
+    "mp3": "/audio/ja/05-kuchita-kyojin-to-saigo-no-jusei.205531b7.mp3",
+    "timing": "/audio/ja/05-kuchita-kyojin-to-saigo-no-jusei.205531b7.json",
+    "duration": 78978
+  },
+  "ja/05-shutendoji-to-oeyama": {
+    "mp3": "/audio/ja/05-shutendoji-to-oeyama.9837d328.mp3",
+    "timing": "/audio/ja/05-shutendoji-to-oeyama.9837d328.json",
+    "duration": 76650
+  },
+  "ja/05-yuki-onna": {
+    "mp3": "/audio/ja/05-yuki-onna.24d342e0.mp3",
+    "timing": "/audio/ja/05-yuki-onna.24d342e0.json",
+    "duration": 38754
+  },
+  "ru/01-apofaticheskaya-estetika": {
+    "mp3": "/audio/ru/01-apofaticheskaya-estetika.910e448e.mp3",
+    "timing": "/audio/ru/01-apofaticheskaya-estetika.910e448e.json",
+    "duration": 50466
+  },
+  "ru/01-fenomenologiya-vremeni": {
+    "mp3": "/audio/ru/01-fenomenologiya-vremeni.38171d80.mp3",
+    "timing": "/audio/ru/01-fenomenologiya-vremeni.38171d80.json",
+    "duration": 58338
+  },
+  "ru/01-moy-rabochiy-den": {
+    "mp3": "/audio/ru/01-moy-rabochiy-den.dce5359d.mp3",
+    "timing": "/audio/ru/01-moy-rabochiy-den.dce5359d.json",
+    "duration": 28554
+  },
+  "ru/01-poezdka-na-poezde": {
+    "mp3": "/audio/ru/01-poezdka-na-poezde.01d28d90.mp3",
+    "timing": "/audio/ru/01-poezdka-na-poezde.01d28d90.json",
+    "duration": 37602
+  },
+  "ru/01-razvitie-ii": {
+    "mp3": "/audio/ru/01-razvitie-ii.411f2a54.mp3",
+    "timing": "/audio/ru/01-razvitie-ii.411f2a54.json",
+    "duration": 55122
+  },
+  "ru/01-smena-professii": {
+    "mp3": "/audio/ru/01-smena-professii.3d4e6b54.mp3",
+    "timing": "/audio/ru/01-smena-professii.3d4e6b54.json",
+    "duration": 38010
+  },
+  "ru/02-labirinty-istoriosofii": {
+    "mp3": "/audio/ru/02-labirinty-istoriosofii.ee65c94c.mp3",
+    "timing": "/audio/ru/02-labirinty-istoriosofii.ee65c94c.json",
+    "duration": 54810
+  },
+  "ru/02-palimpsest-megapolisa": {
+    "mp3": "/audio/ru/02-palimpsest-megapolisa.5d54e7e3.mp3",
+    "timing": "/audio/ru/02-palimpsest-megapolisa.5d54e7e3.json",
+    "duration": 60234
+  },
+  "ru/02-poisk-novoy-kvartiry": {
+    "mp3": "/audio/ru/02-poisk-novoy-kvartiry.a76c5ff2.mp3",
+    "timing": "/audio/ru/02-poisk-novoy-kvartiry.a76c5ff2.json",
+    "duration": 39210
+  },
+  "ru/02-restavratsiya-naslediya": {
+    "mp3": "/audio/ru/02-restavratsiya-naslediya.6c12e055.mp3",
+    "timing": "/audio/ru/02-restavratsiya-naslediya.6c12e055.json",
+    "duration": 56082
+  },
+  "ru/02-volontyerskiy-proekt": {
+    "mp3": "/audio/ru/02-volontyerskiy-proekt.bfdcbc14.mp3",
+    "timing": "/audio/ru/02-volontyerskiy-proekt.bfdcbc14.json",
+    "duration": 38082
+  },
+  "ru/02-vyhodnoy-v-parke": {
+    "mp3": "/audio/ru/02-vyhodnoy-v-parke.e01c48e6.mp3",
+    "timing": "/audio/ru/02-vyhodnoy-v-parke.e01c48e6.json",
+    "duration": 31122
+  },
+  "ru/03-ekspeditsiya-v-prirodu": {
+    "mp3": "/audio/ru/03-ekspeditsiya-v-prirodu.a0257046.mp3",
+    "timing": "/audio/ru/03-ekspeditsiya-v-prirodu.a0257046.json",
+    "duration": 54570
+  },
+  "ru/03-eticheskiy-krizis": {
+    "mp3": "/audio/ru/03-eticheskiy-krizis.5259e410.mp3",
+    "timing": "/audio/ru/03-eticheskiy-krizis.5259e410.json",
+    "duration": 63690
+  },
+  "ru/03-krakh-simulyakra": {
+    "mp3": "/audio/ru/03-krakh-simulyakra.92d8a00d.mp3",
+    "timing": "/audio/ru/03-krakh-simulyakra.92d8a00d.json",
+    "duration": 55770
+  },
+  "ru/03-puteshestvie-na-sever": {
+    "mp3": "/audio/ru/03-puteshestvie-na-sever.e220b48b.mp3",
+    "timing": "/audio/ru/03-puteshestvie-na-sever.e220b48b.json",
+    "duration": 40338
+  },
+  "ru/03-v-produktovom-magazine": {
+    "mp3": "/audio/ru/03-v-produktovom-magazine.08131ed3.mp3",
+    "timing": "/audio/ru/03-v-produktovom-magazine.08131ed3.json",
+    "duration": 32418
+  },
+  "ru/03-vizit-k-vrachu": {
+    "mp3": "/audio/ru/03-vizit-k-vrachu.295c07ac.mp3",
+    "timing": "/audio/ru/03-vizit-k-vrachu.295c07ac.json",
+    "duration": 39090
+  },
+  "ru/04-germenevtika-teksta": {
+    "mp3": "/audio/ru/04-germenevtika-teksta.2e91f717.mp3",
+    "timing": "/audio/ru/04-germenevtika-teksta.2e91f717.json",
+    "duration": 59898
+  },
+  "ru/04-metafizika-nostalgii": {
+    "mp3": "/audio/ru/04-metafizika-nostalgii.85623975.mp3",
+    "timing": "/audio/ru/04-metafizika-nostalgii.85623975.json",
+    "duration": 50202
+  },
+  "ru/04-neozhidannaya-vstrecha": {
+    "mp3": "/audio/ru/04-neozhidannaya-vstrecha.bc856708.mp3",
+    "timing": "/audio/ru/04-neozhidannaya-vstrecha.bc856708.json",
+    "duration": 41130
+  },
+  "ru/04-novyy-pitomets": {
+    "mp3": "/audio/ru/04-novyy-pitomets.4278414b.mp3",
+    "timing": "/audio/ru/04-novyy-pitomets.4278414b.json",
+    "duration": 31866
+  },
+  "ru/04-podgotovka-k-ekzamenu": {
+    "mp3": "/audio/ru/04-podgotovka-k-ekzamenu.5b9528ba.mp3",
+    "timing": "/audio/ru/04-podgotovka-k-ekzamenu.5b9528ba.json",
+    "duration": 41226
+  },
+  "ru/04-zapusk-startapa": {
+    "mp3": "/audio/ru/04-zapusk-startapa.d1c1e31e.mp3",
+    "timing": "/audio/ru/04-zapusk-startapa.d1c1e31e.json",
+    "duration": 54306
+  },
+  "ru/05-ekologicheskiy-eksperiment": {
+    "mp3": "/audio/ru/05-ekologicheskiy-eksperiment.c4a93792.mp3",
+    "timing": "/audio/ru/05-ekologicheskiy-eksperiment.c4a93792.json",
+    "duration": 41874
+  },
+  "ru/05-plan-na-letniy-otpusk": {
+    "mp3": "/audio/ru/05-plan-na-letniy-otpusk.a5f7ff82.mp3",
+    "timing": "/audio/ru/05-plan-na-letniy-otpusk.a5f7ff82.json",
+    "duration": 43986
+  },
+  "ru/05-polyarnoe-uedinenie": {
+    "mp3": "/audio/ru/05-polyarnoe-uedinenie.710ff6ed.mp3",
+    "timing": "/audio/ru/05-polyarnoe-uedinenie.710ff6ed.json",
+    "duration": 58194
+  },
+  "ru/05-put-k-priznaniyu": {
+    "mp3": "/audio/ru/05-put-k-priznaniyu.7172acf7.mp3",
+    "timing": "/audio/ru/05-put-k-priznaniyu.7172acf7.json",
+    "duration": 52962
+  },
+  "ru/05-tragediya-solipsizma": {
+    "mp3": "/audio/ru/05-tragediya-solipsizma.c739bad6.mp3",
+    "timing": "/audio/ru/05-tragediya-solipsizma.c739bad6.json",
+    "duration": 54522
+  },
+  "ru/05-uzhin-v-restorane": {
+    "mp3": "/audio/ru/05-uzhin-v-restorane.67937802.mp3",
+    "timing": "/audio/ru/05-uzhin-v-restorane.67937802.json",
+    "duration": 33642
+  }
+}

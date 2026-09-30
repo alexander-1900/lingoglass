@@ -1,0 +1,746 @@
+{
+  "version": 3,
+  "lang": "ru",
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 54810,
+  "sentences": [
+    {
+      "text": "Исторический процесс предстаёт грандиозным лабиринтом иррациональных флуктуаций.",
+      "startMs": 0,
+      "endMs": 4440,
+      "words": [
+        {
+          "text": "Исторический",
+          "startMs": 100,
+          "endMs": 710,
+          "charStart": 0,
+          "charEnd": 12
+        },
+        {
+          "text": "процесс",
+          "startMs": 710,
+          "endMs": 1070,
+          "charStart": 13,
+          "charEnd": 20
+        },
+        {
+          "text": "предстаёт",
+          "startMs": 1070,
+          "endMs": 1520,
+          "charStart": 21,
+          "charEnd": 30
+        },
+        {
+          "text": "грандиозным",
+          "startMs": 1520,
+          "endMs": 2040,
+          "charStart": 31,
+          "charEnd": 42
+        },
+        {
+          "text": "лабиринтом",
+          "startMs": 2040,
+          "endMs": 2510,
+          "charStart": 43,
+          "charEnd": 53
+        },
+        {
+          "text": "иррациональных",
+          "startMs": 2510,
+          "endMs": 3140,
+          "charStart": 54,
+          "charEnd": 68
+        },
+        {
+          "text": "флуктуаций",
+          "startMs": 3140,
+          "endMs": 3750,
+          "charStart": 69,
+          "charEnd": 79
+        }
+      ]
+    },
+    {
+      "text": "Наивный телеологический детерминизм пасует перед хаотической энтропией человеческих страстей.",
+      "startMs": 4690,
+      "endMs": 9850,
+      "words": [
+        {
+          "text": "Наивный",
+          "startMs": 4790,
+          "endMs": 5290,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "телеологический",
+          "startMs": 5290,
+          "endMs": 5920,
+          "charStart": 8,
+          "charEnd": 23
+        },
+        {
+          "text": "детерминизм",
+          "startMs": 5920,
+          "endMs": 6500,
+          "charStart": 24,
+          "charEnd": 35
+        },
+        {
+          "text": "пасует",
+          "startMs": 6500,
+          "endMs": 6970,
+          "charStart": 36,
+          "charEnd": 42
+        },
+        {
+          "text": "перед",
+          "startMs": 6970,
+          "endMs": 7150,
+          "charStart": 43,
+          "charEnd": 48
+        },
+        {
+          "text": "хаотической",
+          "startMs": 7150,
+          "endMs": 7700,
+          "charStart": 49,
+          "charEnd": 60
+        },
+        {
+          "text": "энтропией",
+          "startMs": 7700,
+          "endMs": 8150,
+          "charStart": 61,
+          "charEnd": 70
+        },
+        {
+          "text": "человеческих",
+          "startMs": 8150,
+          "endMs": 8680,
+          "charStart": 71,
+          "charEnd": 83
+        },
+        {
+          "text": "страстей",
+          "startMs": 8680,
+          "endMs": 9180,
+          "charStart": 84,
+          "charEnd": 92
+        }
+      ]
+    },
+    {
+      "text": "Анализируя роковые исторические разломы, исследователь отвергает упрощённые каузальные схемы.",
+      "startMs": 10100,
+      "endMs": 15548,
+      "words": [
+        {
+          "text": "Анализируя",
+          "startMs": 10200,
+          "endMs": 10760,
+          "charStart": 0,
+          "charEnd": 10
+        },
+        {
+          "text": "роковые",
+          "startMs": 10760,
+          "endMs": 11140,
+          "charStart": 11,
+          "charEnd": 18
+        },
+        {
+          "text": "исторические",
+          "startMs": 11140,
+          "endMs": 11710,
+          "charStart": 19,
+          "charEnd": 31
+        },
+        {
+          "text": "разломы",
+          "startMs": 11710,
+          "endMs": 12090,
+          "charStart": 32,
+          "charEnd": 39
+        },
+        {
+          "text": "исследователь",
+          "startMs": 12330,
+          "endMs": 12840,
+          "charStart": 41,
+          "charEnd": 54
+        },
+        {
+          "text": "отвергает",
+          "startMs": 12840,
+          "endMs": 13410,
+          "charStart": 55,
+          "charEnd": 64
+        },
+        {
+          "text": "упрощённые",
+          "startMs": 13410,
+          "endMs": 13960,
+          "charStart": 65,
+          "charEnd": 75
+        },
+        {
+          "text": "каузальные",
+          "startMs": 13960,
+          "endMs": 14440,
+          "charStart": 76,
+          "charEnd": 86
+        },
+        {
+          "text": "схемы",
+          "startMs": 14440,
+          "endMs": 14830,
+          "charStart": 87,
+          "charEnd": 92
+        }
+      ]
+    },
+    {
+      "text": "Империи неуклонно коллапсируют не столько из-за внешней экспансии, сколько вследствие внутренней инволюции.",
+      "startMs": 15798,
+      "endMs": 21438,
+      "words": [
+        {
+          "text": "Империи",
+          "startMs": 15898,
+          "endMs": 16408,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "неуклонно",
+          "startMs": 16408,
+          "endMs": 16848,
+          "charStart": 8,
+          "charEnd": 17
+        },
+        {
+          "text": "коллапсируют",
+          "startMs": 16848,
+          "endMs": 17318,
+          "charStart": 18,
+          "charEnd": 30
+        },
+        {
+          "text": "не",
+          "startMs": 17318,
+          "endMs": 17428,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "столько",
+          "startMs": 17428,
+          "endMs": 17738,
+          "charStart": 34,
+          "charEnd": 41
+        },
+        {
+          "text": "из-за",
+          "startMs": 17738,
+          "endMs": 17908,
+          "charStart": 42,
+          "charEnd": 47
+        },
+        {
+          "text": "внешней",
+          "startMs": 17908,
+          "endMs": 18208,
+          "charStart": 48,
+          "charEnd": 55
+        },
+        {
+          "text": "экспансии",
+          "startMs": 18208,
+          "endMs": 18668,
+          "charStart": 56,
+          "charEnd": 65
+        },
+        {
+          "text": "сколько",
+          "startMs": 18918,
+          "endMs": 19188,
+          "charStart": 67,
+          "charEnd": 74
+        },
+        {
+          "text": "вследствие",
+          "startMs": 19188,
+          "endMs": 19638,
+          "charStart": 75,
+          "charEnd": 85
+        },
+        {
+          "text": "внутренней",
+          "startMs": 19638,
+          "endMs": 20048,
+          "charStart": 86,
+          "charEnd": 96
+        },
+        {
+          "text": "инволюции",
+          "startMs": 20048,
+          "endMs": 20758,
+          "charStart": 97,
+          "charEnd": 106
+        }
+      ]
+    },
+    {
+      "text": "Утрата метафизического стержня неизбежно влечёт за собой всеобъемлющую аксиологическую деградацию.",
+      "startMs": 21688,
+      "endMs": 27064,
+      "words": [
+        {
+          "text": "Утрата",
+          "startMs": 21788,
+          "endMs": 22208,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "метафизического",
+          "startMs": 22208,
+          "endMs": 22858,
+          "charStart": 7,
+          "charEnd": 22
+        },
+        {
+          "text": "стержня",
+          "startMs": 22858,
+          "endMs": 23248,
+          "charStart": 23,
+          "charEnd": 30
+        },
+        {
+          "text": "неизбежно",
+          "startMs": 23248,
+          "endMs": 23678,
+          "charStart": 31,
+          "charEnd": 40
+        },
+        {
+          "text": "влечёт",
+          "startMs": 23678,
+          "endMs": 23958,
+          "charStart": 41,
+          "charEnd": 47
+        },
+        {
+          "text": "за",
+          "startMs": 23958,
+          "endMs": 24038,
+          "charStart": 48,
+          "charEnd": 50
+        },
+        {
+          "text": "собой",
+          "startMs": 24038,
+          "endMs": 24288,
+          "charStart": 51,
+          "charEnd": 56
+        },
+        {
+          "text": "всеобъемлющую",
+          "startMs": 24288,
+          "endMs": 24958,
+          "charStart": 57,
+          "charEnd": 70
+        },
+        {
+          "text": "аксиологическую",
+          "startMs": 24958,
+          "endMs": 25668,
+          "charStart": 71,
+          "charEnd": 86
+        },
+        {
+          "text": "деградацию",
+          "startMs": 25668,
+          "endMs": 26328,
+          "charStart": 87,
+          "charEnd": 97
+        }
+      ]
+    },
+    {
+      "text": "Ослеплённые сиюминутным триумфом, правители тщетно воображают себя полновластными демиургами будущего.",
+      "startMs": 27314,
+      "endMs": 32906,
+      "words": [
+        {
+          "text": "Ослеплённые",
+          "startMs": 27414,
+          "endMs": 28064,
+          "charStart": 0,
+          "charEnd": 11
+        },
+        {
+          "text": "сиюминутным",
+          "startMs": 28064,
+          "endMs": 28574,
+          "charStart": 12,
+          "charEnd": 23
+        },
+        {
+          "text": "триумфом",
+          "startMs": 28574,
+          "endMs": 29024,
+          "charStart": 24,
+          "charEnd": 32
+        },
+        {
+          "text": "правители",
+          "startMs": 29244,
+          "endMs": 29644,
+          "charStart": 34,
+          "charEnd": 43
+        },
+        {
+          "text": "тщетно",
+          "startMs": 29644,
+          "endMs": 29974,
+          "charStart": 44,
+          "charEnd": 50
+        },
+        {
+          "text": "воображают",
+          "startMs": 29974,
+          "endMs": 30384,
+          "charStart": 51,
+          "charEnd": 61
+        },
+        {
+          "text": "себя",
+          "startMs": 30384,
+          "endMs": 30584,
+          "charStart": 62,
+          "charEnd": 66
+        },
+        {
+          "text": "полновластными",
+          "startMs": 30584,
+          "endMs": 31224,
+          "charStart": 67,
+          "charEnd": 81
+        },
+        {
+          "text": "демиургами",
+          "startMs": 31224,
+          "endMs": 31684,
+          "charStart": 82,
+          "charEnd": 92
+        },
+        {
+          "text": "будущего",
+          "startMs": 31684,
+          "endMs": 32174,
+          "charStart": 93,
+          "charEnd": 101
+        }
+      ]
+    },
+    {
+      "text": "Однако хитрость исторического разума виртуозно оборачивает их амбиции в собственную противоположность.",
+      "startMs": 33156,
+      "endMs": 38484,
+      "words": [
+        {
+          "text": "Однако",
+          "startMs": 33256,
+          "endMs": 33676,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "хитрость",
+          "startMs": 33676,
+          "endMs": 34086,
+          "charStart": 7,
+          "charEnd": 15
+        },
+        {
+          "text": "исторического",
+          "startMs": 34086,
+          "endMs": 34606,
+          "charStart": 16,
+          "charEnd": 29
+        },
+        {
+          "text": "разума",
+          "startMs": 34606,
+          "endMs": 34886,
+          "charStart": 30,
+          "charEnd": 36
+        },
+        {
+          "text": "виртуозно",
+          "startMs": 34886,
+          "endMs": 35396,
+          "charStart": 37,
+          "charEnd": 46
+        },
+        {
+          "text": "оборачивает",
+          "startMs": 35396,
+          "endMs": 35986,
+          "charStart": 47,
+          "charEnd": 58
+        },
+        {
+          "text": "их",
+          "startMs": 35986,
+          "endMs": 36086,
+          "charStart": 59,
+          "charEnd": 61
+        },
+        {
+          "text": "амбиции",
+          "startMs": 36086,
+          "endMs": 36526,
+          "charStart": 62,
+          "charEnd": 69
+        },
+        {
+          "text": "в",
+          "startMs": 36526,
+          "endMs": 36566,
+          "charStart": 70,
+          "charEnd": 71
+        },
+        {
+          "text": "собственную",
+          "startMs": 36566,
+          "endMs": 37056,
+          "charStart": 72,
+          "charEnd": 83
+        },
+        {
+          "text": "противоположность",
+          "startMs": 37056,
+          "endMs": 37806,
+          "charStart": 84,
+          "charEnd": 101
+        }
+      ]
+    },
+    {
+      "text": "Внимая безмолвному ропоту эпох, философ распознаёт циклическую природу цивилизационных кризисов.",
+      "startMs": 38734,
+      "endMs": 44302,
+      "words": [
+        {
+          "text": "Внимая",
+          "startMs": 38834,
+          "endMs": 39274,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "безмолвному",
+          "startMs": 39274,
+          "endMs": 39734,
+          "charStart": 7,
+          "charEnd": 18
+        },
+        {
+          "text": "ропоту",
+          "startMs": 39734,
+          "endMs": 40064,
+          "charStart": 19,
+          "charEnd": 25
+        },
+        {
+          "text": "эпох",
+          "startMs": 40064,
+          "endMs": 40404,
+          "charStart": 26,
+          "charEnd": 30
+        },
+        {
+          "text": "философ",
+          "startMs": 40584,
+          "endMs": 41014,
+          "charStart": 32,
+          "charEnd": 39
+        },
+        {
+          "text": "распознаёт",
+          "startMs": 41014,
+          "endMs": 41484,
+          "charStart": 40,
+          "charEnd": 50
+        },
+        {
+          "text": "циклическую",
+          "startMs": 41484,
+          "endMs": 42034,
+          "charStart": 51,
+          "charEnd": 62
+        },
+        {
+          "text": "природу",
+          "startMs": 42034,
+          "endMs": 42404,
+          "charStart": 63,
+          "charEnd": 70
+        },
+        {
+          "text": "цивилизационных",
+          "startMs": 42404,
+          "endMs": 43074,
+          "charStart": 71,
+          "charEnd": 86
+        },
+        {
+          "text": "кризисов",
+          "startMs": 43074,
+          "endMs": 43574,
+          "charStart": 87,
+          "charEnd": 95
+        }
+      ]
+    },
+    {
+      "text": "Каждый мнимый прогресс оплачивается невосполнимой утратой сакральных онтологических оснований.",
+      "startMs": 44552,
+      "endMs": 49712,
+      "words": [
+        {
+          "text": "Каждый",
+          "startMs": 44652,
+          "endMs": 45002,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "мнимый",
+          "startMs": 45002,
+          "endMs": 45282,
+          "charStart": 7,
+          "charEnd": 13
+        },
+        {
+          "text": "прогресс",
+          "startMs": 45282,
+          "endMs": 45742,
+          "charStart": 14,
+          "charEnd": 22
+        },
+        {
+          "text": "оплачивается",
+          "startMs": 45742,
+          "endMs": 46312,
+          "charStart": 23,
+          "charEnd": 35
+        },
+        {
+          "text": "невосполнимой",
+          "startMs": 46312,
+          "endMs": 46892,
+          "charStart": 36,
+          "charEnd": 49
+        },
+        {
+          "text": "утратой",
+          "startMs": 46892,
+          "endMs": 47312,
+          "charStart": 50,
+          "charEnd": 57
+        },
+        {
+          "text": "сакральных",
+          "startMs": 47312,
+          "endMs": 47862,
+          "charStart": 58,
+          "charEnd": 68
+        },
+        {
+          "text": "онтологических",
+          "startMs": 47862,
+          "endMs": 48462,
+          "charStart": 69,
+          "charEnd": 83
+        },
+        {
+          "text": "оснований",
+          "startMs": 48462,
+          "endMs": 49022,
+          "charStart": 84,
+          "charEnd": 93
+        }
+      ]
+    },
+    {
+      "text": "Постижение этой трагической закономерности порождает величественное стоическое спокойствие.",
+      "startMs": 49962,
+      "endMs": 54810,
+      "words": [
+        {
+          "text": "Постижение",
+          "startMs": 50062,
+          "endMs": 50692,
+          "charStart": 0,
+          "charEnd": 10
+        },
+        {
+          "text": "этой",
+          "startMs": 50692,
+          "endMs": 50922,
+          "charStart": 11,
+          "charEnd": 15
+        },
+        {
+          "text": "трагической",
+          "startMs": 50922,
+          "endMs": 51402,
+          "charStart": 16,
+          "charEnd": 27
+        },
+        {
+          "text": "закономерности",
+          "startMs": 51402,
+          "endMs": 52012,
+          "charStart": 28,
+          "charEnd": 42
+        },
+        {
+          "text": "порождает",
+          "startMs": 52012,
+          "endMs": 52422,
+          "charStart": 43,
+          "charEnd": 52
+        },
+        {
+          "text": "величественное",
+          "startMs": 52422,
+          "endMs": 53042,
+          "charStart": 53,
+          "charEnd": 67
+        },
+        {
+          "text": "стоическое",
+          "startMs": 53042,
+          "endMs": 53532,
+          "charStart": 68,
+          "charEnd": 78
+        },
+        {
+          "text": "спокойствие",
+          "startMs": 53532,
+          "endMs": 54132,
+          "charStart": 79,
+          "charEnd": 90
+        }
+      ]
+    }
+  ]
+}

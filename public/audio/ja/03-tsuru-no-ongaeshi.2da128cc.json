@@ -1,0 +1,1068 @@
+{
+  "version": 3,
+  "lang": "ja",
+  "voice": "ja-JP-NanamiNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 40218,
+  "sentences": [
+    {
+      "text": "寒い冬の日に、若い男が罠にかかった鶴を助けました。",
+      "startMs": 0,
+      "endMs": 4488,
+      "words": [
+        {
+          "text": "寒い",
+          "startMs": 110,
+          "endMs": 460,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "冬",
+          "startMs": 470,
+          "endMs": 690,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "の",
+          "startMs": 700,
+          "endMs": 760,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "日",
+          "startMs": 770,
+          "endMs": 910,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "に",
+          "startMs": 920,
+          "endMs": 1090,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "若い",
+          "startMs": 1350,
+          "endMs": 1630,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "男",
+          "startMs": 1640,
+          "endMs": 1920,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "が",
+          "startMs": 1930,
+          "endMs": 2050,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "罠",
+          "startMs": 2050,
+          "endMs": 2260,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "に",
+          "startMs": 2270,
+          "endMs": 2380,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "かかっ",
+          "startMs": 2390,
+          "endMs": 2660,
+          "charStart": 13,
+          "charEnd": 16
+        },
+        {
+          "text": "た",
+          "startMs": 2670,
+          "endMs": 2770,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "鶴",
+          "startMs": 2780,
+          "endMs": 3010,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "を",
+          "startMs": 3020,
+          "endMs": 3100,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "助け",
+          "startMs": 3110,
+          "endMs": 3410,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "まし",
+          "startMs": 3420,
+          "endMs": 3610,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "た",
+          "startMs": 3620,
+          "endMs": 3800,
+          "charStart": 23,
+          "charEnd": 24
+        }
+      ]
+    },
+    {
+      "text": "鶴は空へ高く飛んで行きました。",
+      "startMs": 4738,
+      "endMs": 7330,
+      "words": [
+        {
+          "text": "鶴",
+          "startMs": 4848,
+          "endMs": 5078,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "は",
+          "startMs": 5088,
+          "endMs": 5188,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "空",
+          "startMs": 5198,
+          "endMs": 5398,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "へ",
+          "startMs": 5408,
+          "endMs": 5508,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "高く",
+          "startMs": 5518,
+          "endMs": 5818,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "飛ん",
+          "startMs": 5828,
+          "endMs": 5988,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "で",
+          "startMs": 5998,
+          "endMs": 6058,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "行き",
+          "startMs": 6068,
+          "endMs": 6258,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "まし",
+          "startMs": 6268,
+          "endMs": 6448,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "た",
+          "startMs": 6458,
+          "endMs": 6638,
+          "charStart": 13,
+          "charEnd": 14
+        }
+      ]
+    },
+    {
+      "text": "その夜、美しい女の人が男の家に来ました。",
+      "startMs": 7580,
+      "endMs": 11564,
+      "words": [
+        {
+          "text": "その",
+          "startMs": 7690,
+          "endMs": 7930,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "夜",
+          "startMs": 7940,
+          "endMs": 8230,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "美しい",
+          "startMs": 8490,
+          "endMs": 8950,
+          "charStart": 4,
+          "charEnd": 7
+        },
+        {
+          "text": "女",
+          "startMs": 8960,
+          "endMs": 9200,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "の",
+          "startMs": 9210,
+          "endMs": 9280,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "人",
+          "startMs": 9290,
+          "endMs": 9460,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "が",
+          "startMs": 9470,
+          "endMs": 9610,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "男",
+          "startMs": 9630,
+          "endMs": 9960,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "の",
+          "startMs": 9970,
+          "endMs": 10060,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "家",
+          "startMs": 10070,
+          "endMs": 10240,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "に",
+          "startMs": 10250,
+          "endMs": 10370,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "来",
+          "startMs": 10380,
+          "endMs": 10480,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "まし",
+          "startMs": 10490,
+          "endMs": 10670,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "た",
+          "startMs": 10680,
+          "endMs": 10860,
+          "charStart": 18,
+          "charEnd": 19
+        }
+      ]
+    },
+    {
+      "text": "女の人は男の妻になって、一緒に暮らし始めました。",
+      "startMs": 11814,
+      "endMs": 16110,
+      "words": [
+        {
+          "text": "女",
+          "startMs": 11954,
+          "endMs": 12174,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "の",
+          "startMs": 12184,
+          "endMs": 12254,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "人",
+          "startMs": 12264,
+          "endMs": 12464,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "は",
+          "startMs": 12474,
+          "endMs": 12654,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "男",
+          "startMs": 12694,
+          "endMs": 13014,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "の",
+          "startMs": 13024,
+          "endMs": 13124,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "妻",
+          "startMs": 13134,
+          "endMs": 13334,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "に",
+          "startMs": 13344,
+          "endMs": 13454,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "なっ",
+          "startMs": 13464,
+          "endMs": 13644,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "て",
+          "startMs": 13654,
+          "endMs": 13764,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "一緒に",
+          "startMs": 14004,
+          "endMs": 14434,
+          "charStart": 12,
+          "charEnd": 15
+        },
+        {
+          "text": "暮らし",
+          "startMs": 14444,
+          "endMs": 14724,
+          "charStart": 15,
+          "charEnd": 18
+        },
+        {
+          "text": "始め",
+          "startMs": 14734,
+          "endMs": 15004,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "まし",
+          "startMs": 15014,
+          "endMs": 15204,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "た",
+          "startMs": 15214,
+          "endMs": 15404,
+          "charStart": 22,
+          "charEnd": 23
+        }
+      ]
+    },
+    {
+      "text": "ある日、妻は綺麗な布を織ると言いました。",
+      "startMs": 16360,
+      "endMs": 19672,
+      "words": [
+        {
+          "text": "ある",
+          "startMs": 16470,
+          "endMs": 16640,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "日",
+          "startMs": 16650,
+          "endMs": 16850,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "妻",
+          "startMs": 17070,
+          "endMs": 17310,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "は",
+          "startMs": 17320,
+          "endMs": 17430,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "綺麗",
+          "startMs": 17440,
+          "endMs": 17740,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "な",
+          "startMs": 17750,
+          "endMs": 17830,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "布",
+          "startMs": 17840,
+          "endMs": 18040,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "を",
+          "startMs": 18050,
+          "endMs": 18100,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "織る",
+          "startMs": 18110,
+          "endMs": 18340,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "と",
+          "startMs": 18350,
+          "endMs": 18440,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "言い",
+          "startMs": 18450,
+          "endMs": 18600,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "まし",
+          "startMs": 18610,
+          "endMs": 18790,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "た",
+          "startMs": 18800,
+          "endMs": 18980,
+          "charStart": 18,
+          "charEnd": 19
+        }
+      ]
+    },
+    {
+      "text": "「布を織る間、部屋を決して見ないでください」。",
+      "startMs": 19922,
+      "endMs": 23306,
+      "words": [
+        {
+          "text": "布",
+          "startMs": 20062,
+          "endMs": 20262,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "を",
+          "startMs": 20272,
+          "endMs": 20342,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "織る",
+          "startMs": 20352,
+          "endMs": 20502,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "間",
+          "startMs": 20512,
+          "endMs": 20882,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "部屋",
+          "startMs": 21112,
+          "endMs": 21302,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "を",
+          "startMs": 21312,
+          "endMs": 21442,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "決し",
+          "startMs": 21452,
+          "endMs": 21752,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "て",
+          "startMs": 21762,
+          "endMs": 21832,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "見",
+          "startMs": 21842,
+          "endMs": 21942,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "ない",
+          "startMs": 21952,
+          "endMs": 22092,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "で",
+          "startMs": 22102,
+          "endMs": 22162,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "ください",
+          "startMs": 22172,
+          "endMs": 22612,
+          "charStart": 17,
+          "charEnd": 21
+        }
+      ]
+    },
+    {
+      "text": "男は約束を守って、静かに待ちました。",
+      "startMs": 23556,
+      "endMs": 27060,
+      "words": [
+        {
+          "text": "男",
+          "startMs": 23696,
+          "endMs": 23966,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "は",
+          "startMs": 23976,
+          "endMs": 24066,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "約束",
+          "startMs": 24076,
+          "endMs": 24486,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "を",
+          "startMs": 24496,
+          "endMs": 24576,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "守っ",
+          "startMs": 24586,
+          "endMs": 24866,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "て",
+          "startMs": 24876,
+          "endMs": 25096,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "静か",
+          "startMs": 25336,
+          "endMs": 25656,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "に",
+          "startMs": 25666,
+          "endMs": 25776,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "待ち",
+          "startMs": 25786,
+          "endMs": 25986,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "まし",
+          "startMs": 25996,
+          "endMs": 26176,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "た",
+          "startMs": 26186,
+          "endMs": 26366,
+          "charStart": 16,
+          "charEnd": 17
+        }
+      ]
+    },
+    {
+      "text": "しかし、男は気になって部屋を少し見ました。",
+      "startMs": 27310,
+      "endMs": 30934,
+      "words": [
+        {
+          "text": "しかし",
+          "startMs": 27420,
+          "endMs": 27830,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "男",
+          "startMs": 28080,
+          "endMs": 28410,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "は",
+          "startMs": 28420,
+          "endMs": 28510,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "気",
+          "startMs": 28520,
+          "endMs": 28670,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "に",
+          "startMs": 28680,
+          "endMs": 28780,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "なっ",
+          "startMs": 28790,
+          "endMs": 28940,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "て",
+          "startMs": 28950,
+          "endMs": 29030,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "部屋",
+          "startMs": 29040,
+          "endMs": 29280,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "を",
+          "startMs": 29290,
+          "endMs": 29410,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "少し",
+          "startMs": 29420,
+          "endMs": 29750,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "見まし",
+          "startMs": 29760,
+          "endMs": 30060,
+          "charStart": 16,
+          "charEnd": 19
+        },
+        {
+          "text": "た",
+          "startMs": 30070,
+          "endMs": 30240,
+          "charStart": 19,
+          "charEnd": 20
+        }
+      ]
+    },
+    {
+      "text": "部屋の中では、一羽の白い鶴が自分の羽で布を織っていました。",
+      "startMs": 31184,
+      "endMs": 35960,
+      "words": [
+        {
+          "text": "部屋",
+          "startMs": 31294,
+          "endMs": 31494,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "の",
+          "startMs": 31504,
+          "endMs": 31604,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "中",
+          "startMs": 31614,
+          "endMs": 31804,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "で",
+          "startMs": 31814,
+          "endMs": 31904,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "は",
+          "startMs": 31914,
+          "endMs": 32134,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "一羽",
+          "startMs": 32394,
+          "endMs": 32694,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "の",
+          "startMs": 32704,
+          "endMs": 32804,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "白い",
+          "startMs": 32814,
+          "endMs": 33134,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "鶴",
+          "startMs": 33144,
+          "endMs": 33344,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "が",
+          "startMs": 33354,
+          "endMs": 33474,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "自分",
+          "startMs": 33484,
+          "endMs": 33764,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "の",
+          "startMs": 33774,
+          "endMs": 33854,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "羽",
+          "startMs": 33864,
+          "endMs": 34064,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "で",
+          "startMs": 34074,
+          "endMs": 34184,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "布",
+          "startMs": 34214,
+          "endMs": 34424,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "を",
+          "startMs": 34434,
+          "endMs": 34494,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "織っ",
+          "startMs": 34504,
+          "endMs": 34704,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "て",
+          "startMs": 34714,
+          "endMs": 34784,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "いま",
+          "startMs": 34794,
+          "endMs": 34964,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "し",
+          "startMs": 34974,
+          "endMs": 35064,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "た",
+          "startMs": 35074,
+          "endMs": 35254,
+          "charStart": 27,
+          "charEnd": 28
+        }
+      ]
+    },
+    {
+      "text": "正体を知られた鶴は、静かに空へ飛んでいきました。",
+      "startMs": 36210,
+      "endMs": 40218,
+      "words": [
+        {
+          "text": "正体",
+          "startMs": 36320,
+          "endMs": 36740,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "を",
+          "startMs": 36750,
+          "endMs": 36820,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "知ら",
+          "startMs": 36830,
+          "endMs": 37030,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "れ",
+          "startMs": 37040,
+          "endMs": 37120,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "た",
+          "startMs": 37130,
+          "endMs": 37230,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "鶴",
+          "startMs": 37240,
+          "endMs": 37460,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "は",
+          "startMs": 37470,
+          "endMs": 37690,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "静か",
+          "startMs": 37910,
+          "endMs": 38240,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "に",
+          "startMs": 38250,
+          "endMs": 38370,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "空",
+          "startMs": 38380,
+          "endMs": 38580,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "へ",
+          "startMs": 38590,
+          "endMs": 38700,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "飛ん",
+          "startMs": 38710,
+          "endMs": 38890,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "で",
+          "startMs": 38900,
+          "endMs": 38960,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "いき",
+          "startMs": 38970,
+          "endMs": 39150,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "まし",
+          "startMs": 39160,
+          "endMs": 39340,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "た",
+          "startMs": 39350,
+          "endMs": 39520,
+          "charStart": 22,
+          "charEnd": 23
+        }
+      ]
+    }
+  ]
+}

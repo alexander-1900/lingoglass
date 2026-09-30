@@ -1,0 +1,501 @@
+{
+  "version": 3,
+  "lang": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 26130,
+  "sentences": [
+    {
+      "text": "Hoy es sábado por la mañana.",
+      "startMs": 0,
+      "endMs": 2088,
+      "words": [
+        {
+          "text": "Hoy",
+          "startMs": 95,
+          "endMs": 325,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "es",
+          "startMs": 335,
+          "endMs": 435,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "sábado",
+          "startMs": 445,
+          "endMs": 715,
+          "charStart": 7,
+          "charEnd": 13
+        },
+        {
+          "text": "por",
+          "startMs": 725,
+          "endMs": 845,
+          "charStart": 14,
+          "charEnd": 17
+        },
+        {
+          "text": "la",
+          "startMs": 855,
+          "endMs": 915,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "mañana",
+          "startMs": 925,
+          "endMs": 1395,
+          "charStart": 21,
+          "charEnd": 27
+        }
+      ]
+    },
+    {
+      "text": "Lucía va al mercado central grande.",
+      "startMs": 2338,
+      "endMs": 4786,
+      "words": [
+        {
+          "text": "Lucía",
+          "startMs": 2438,
+          "endMs": 2828,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "va",
+          "startMs": 2838,
+          "endMs": 2908,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "al",
+          "startMs": 2918,
+          "endMs": 2988,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "mercado",
+          "startMs": 2998,
+          "endMs": 3348,
+          "charStart": 12,
+          "charEnd": 19
+        },
+        {
+          "text": "central",
+          "startMs": 3358,
+          "endMs": 3658,
+          "charStart": 20,
+          "charEnd": 27
+        },
+        {
+          "text": "grande",
+          "startMs": 3668,
+          "endMs": 4088,
+          "charStart": 28,
+          "charEnd": 34
+        }
+      ]
+    },
+    {
+      "text": "Ella lleva una bolsa de tela.",
+      "startMs": 5036,
+      "endMs": 7124,
+      "words": [
+        {
+          "text": "Ella",
+          "startMs": 5131,
+          "endMs": 5381,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "lleva",
+          "startMs": 5391,
+          "endMs": 5571,
+          "charStart": 5,
+          "charEnd": 10
+        },
+        {
+          "text": "una",
+          "startMs": 5581,
+          "endMs": 5711,
+          "charStart": 11,
+          "charEnd": 14
+        },
+        {
+          "text": "bolsa",
+          "startMs": 5721,
+          "endMs": 5971,
+          "charStart": 15,
+          "charEnd": 20
+        },
+        {
+          "text": "de",
+          "startMs": 5981,
+          "endMs": 6071,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "tela",
+          "startMs": 6081,
+          "endMs": 6441,
+          "charStart": 24,
+          "charEnd": 28
+        }
+      ]
+    },
+    {
+      "text": "Primero compra manzanas rojas y plátanos.",
+      "startMs": 7374,
+      "endMs": 10062,
+      "words": [
+        {
+          "text": "Primero",
+          "startMs": 7474,
+          "endMs": 7834,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "compra",
+          "startMs": 7844,
+          "endMs": 8094,
+          "charStart": 8,
+          "charEnd": 14
+        },
+        {
+          "text": "manzanas",
+          "startMs": 8104,
+          "endMs": 8494,
+          "charStart": 15,
+          "charEnd": 23
+        },
+        {
+          "text": "rojas",
+          "startMs": 8504,
+          "endMs": 8794,
+          "charStart": 24,
+          "charEnd": 29
+        },
+        {
+          "text": "y",
+          "startMs": 8804,
+          "endMs": 8844,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "plátanos",
+          "startMs": 8854,
+          "endMs": 9384,
+          "charStart": 32,
+          "charEnd": 40
+        }
+      ]
+    },
+    {
+      "text": "Después pide un kilo de queso.",
+      "startMs": 10312,
+      "endMs": 12544,
+      "words": [
+        {
+          "text": "Después",
+          "startMs": 10407,
+          "endMs": 10857,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "pide",
+          "startMs": 10867,
+          "endMs": 11057,
+          "charStart": 8,
+          "charEnd": 12
+        },
+        {
+          "text": "un",
+          "startMs": 11067,
+          "endMs": 11167,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "kilo",
+          "startMs": 11177,
+          "endMs": 11357,
+          "charStart": 16,
+          "charEnd": 20
+        },
+        {
+          "text": "de",
+          "startMs": 11367,
+          "endMs": 11437,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "queso",
+          "startMs": 11447,
+          "endMs": 11857,
+          "charStart": 24,
+          "charEnd": 29
+        }
+      ]
+    },
+    {
+      "text": "Las frutas frescas huelen muy bien.",
+      "startMs": 12794,
+      "endMs": 15194,
+      "words": [
+        {
+          "text": "Las",
+          "startMs": 12889,
+          "endMs": 13139,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "frutas",
+          "startMs": 13149,
+          "endMs": 13429,
+          "charStart": 4,
+          "charEnd": 10
+        },
+        {
+          "text": "frescas",
+          "startMs": 13439,
+          "endMs": 13779,
+          "charStart": 11,
+          "charEnd": 18
+        },
+        {
+          "text": "huelen",
+          "startMs": 13789,
+          "endMs": 13999,
+          "charStart": 19,
+          "charEnd": 25
+        },
+        {
+          "text": "muy",
+          "startMs": 14009,
+          "endMs": 14129,
+          "charStart": 26,
+          "charEnd": 29
+        },
+        {
+          "text": "bien",
+          "startMs": 14139,
+          "endMs": 14509,
+          "charStart": 30,
+          "charEnd": 34
+        }
+      ]
+    },
+    {
+      "text": "El vendedor amable saluda a Lucía.",
+      "startMs": 15444,
+      "endMs": 17844,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 15539,
+          "endMs": 15699,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "vendedor",
+          "startMs": 15709,
+          "endMs": 16029,
+          "charStart": 3,
+          "charEnd": 11
+        },
+        {
+          "text": "amable",
+          "startMs": 16039,
+          "endMs": 16319,
+          "charStart": 12,
+          "charEnd": 18
+        },
+        {
+          "text": "saluda",
+          "startMs": 16329,
+          "endMs": 16619,
+          "charStart": 19,
+          "charEnd": 25
+        },
+        {
+          "text": "a",
+          "startMs": 16629,
+          "endMs": 16649,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "Lucía",
+          "startMs": 16659,
+          "endMs": 17139,
+          "charStart": 28,
+          "charEnd": 33
+        }
+      ]
+    },
+    {
+      "text": "Ella paga diez euros en efectivo.",
+      "startMs": 18094,
+      "endMs": 20494,
+      "words": [
+        {
+          "text": "Ella",
+          "startMs": 18189,
+          "endMs": 18449,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "paga",
+          "startMs": 18459,
+          "endMs": 18689,
+          "charStart": 5,
+          "charEnd": 9
+        },
+        {
+          "text": "diez",
+          "startMs": 18699,
+          "endMs": 18889,
+          "charStart": 10,
+          "charEnd": 14
+        },
+        {
+          "text": "euros",
+          "startMs": 18899,
+          "endMs": 19169,
+          "charStart": 15,
+          "charEnd": 20
+        },
+        {
+          "text": "en",
+          "startMs": 19179,
+          "endMs": 19249,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "efectivo",
+          "startMs": 19259,
+          "endMs": 19789,
+          "charStart": 24,
+          "charEnd": 32
+        }
+      ]
+    },
+    {
+      "text": "Lucía camina despacio con la bolsa.",
+      "startMs": 20744,
+      "endMs": 23240,
+      "words": [
+        {
+          "text": "Lucía",
+          "startMs": 20839,
+          "endMs": 21209,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "camina",
+          "startMs": 21219,
+          "endMs": 21489,
+          "charStart": 6,
+          "charEnd": 12
+        },
+        {
+          "text": "despacio",
+          "startMs": 21499,
+          "endMs": 21899,
+          "charStart": 13,
+          "charEnd": 21
+        },
+        {
+          "text": "con",
+          "startMs": 21909,
+          "endMs": 22029,
+          "charStart": 22,
+          "charEnd": 25
+        },
+        {
+          "text": "la",
+          "startMs": 22039,
+          "endMs": 22099,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "bolsa",
+          "startMs": 22109,
+          "endMs": 22549,
+          "charStart": 29,
+          "charEnd": 34
+        }
+      ]
+    },
+    {
+      "text": "En casa prepara una ensalada deliciosa.",
+      "startMs": 23490,
+      "endMs": 26130,
+      "words": [
+        {
+          "text": "En",
+          "startMs": 23585,
+          "endMs": 23755,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "casa",
+          "startMs": 23765,
+          "endMs": 23985,
+          "charStart": 3,
+          "charEnd": 7
+        },
+        {
+          "text": "prepara",
+          "startMs": 23995,
+          "endMs": 24315,
+          "charStart": 8,
+          "charEnd": 15
+        },
+        {
+          "text": "una",
+          "startMs": 24325,
+          "endMs": 24455,
+          "charStart": 16,
+          "charEnd": 19
+        },
+        {
+          "text": "ensalada",
+          "startMs": 24465,
+          "endMs": 24815,
+          "charStart": 20,
+          "charEnd": 28
+        },
+        {
+          "text": "deliciosa",
+          "startMs": 24825,
+          "endMs": 25445,
+          "charStart": 29,
+          "charEnd": 38
+        }
+      ]
+    }
+  ]
+}

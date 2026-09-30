@@ -1,0 +1,1075 @@
+{
+  "version": 3,
+  "lang": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 52434,
+  "sentences": [
+    {
+      "text": "El vertiginoso avance de los algoritmos ha suscitado intensos debates en el mundo académico.",
+      "startMs": 0,
+      "endMs": 4608,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 100,
+          "endMs": 290,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "vertiginoso",
+          "startMs": 300,
+          "endMs": 800,
+          "charStart": 3,
+          "charEnd": 14
+        },
+        {
+          "text": "avance",
+          "startMs": 810,
+          "endMs": 1070,
+          "charStart": 15,
+          "charEnd": 21
+        },
+        {
+          "text": "de",
+          "startMs": 1080,
+          "endMs": 1140,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "los",
+          "startMs": 1150,
+          "endMs": 1270,
+          "charStart": 25,
+          "charEnd": 28
+        },
+        {
+          "text": "algoritmos",
+          "startMs": 1280,
+          "endMs": 1720,
+          "charStart": 29,
+          "charEnd": 39
+        },
+        {
+          "text": "ha",
+          "startMs": 1730,
+          "endMs": 1770,
+          "charStart": 40,
+          "charEnd": 42
+        },
+        {
+          "text": "suscitado",
+          "startMs": 1780,
+          "endMs": 2190,
+          "charStart": 43,
+          "charEnd": 52
+        },
+        {
+          "text": "intensos",
+          "startMs": 2200,
+          "endMs": 2570,
+          "charStart": 53,
+          "charEnd": 61
+        },
+        {
+          "text": "debates",
+          "startMs": 2580,
+          "endMs": 2950,
+          "charStart": 62,
+          "charEnd": 69
+        },
+        {
+          "text": "en",
+          "startMs": 2960,
+          "endMs": 3030,
+          "charStart": 70,
+          "charEnd": 72
+        },
+        {
+          "text": "el",
+          "startMs": 3040,
+          "endMs": 3120,
+          "charStart": 73,
+          "charEnd": 75
+        },
+        {
+          "text": "mundo",
+          "startMs": 3130,
+          "endMs": 3330,
+          "charStart": 76,
+          "charEnd": 81
+        },
+        {
+          "text": "académico",
+          "startMs": 3340,
+          "endMs": 3910,
+          "charStart": 82,
+          "charEnd": 91
+        }
+      ]
+    },
+    {
+      "text": "Aunque estas herramientas optimizan el diagnóstico médico y la investigación científica, conllevan riesgos imprevisibles.",
+      "startMs": 4858,
+      "endMs": 10762,
+      "words": [
+        {
+          "text": "Aunque",
+          "startMs": 4953,
+          "endMs": 5213,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "estas",
+          "startMs": 5223,
+          "endMs": 5433,
+          "charStart": 7,
+          "charEnd": 12
+        },
+        {
+          "text": "herramientas",
+          "startMs": 5443,
+          "endMs": 5843,
+          "charStart": 13,
+          "charEnd": 25
+        },
+        {
+          "text": "optimizan",
+          "startMs": 5853,
+          "endMs": 6253,
+          "charStart": 26,
+          "charEnd": 35
+        },
+        {
+          "text": "el",
+          "startMs": 6263,
+          "endMs": 6343,
+          "charStart": 36,
+          "charEnd": 38
+        },
+        {
+          "text": "diagnóstico",
+          "startMs": 6353,
+          "endMs": 6803,
+          "charStart": 39,
+          "charEnd": 50
+        },
+        {
+          "text": "médico",
+          "startMs": 6813,
+          "endMs": 7123,
+          "charStart": 51,
+          "charEnd": 57
+        },
+        {
+          "text": "y",
+          "startMs": 7133,
+          "endMs": 7153,
+          "charStart": 58,
+          "charEnd": 59
+        },
+        {
+          "text": "la",
+          "startMs": 7163,
+          "endMs": 7223,
+          "charStart": 60,
+          "charEnd": 62
+        },
+        {
+          "text": "investigación",
+          "startMs": 7233,
+          "endMs": 7743,
+          "charStart": 63,
+          "charEnd": 76
+        },
+        {
+          "text": "científica",
+          "startMs": 7753,
+          "endMs": 8283,
+          "charStart": 77,
+          "charEnd": 87
+        },
+        {
+          "text": "conllevan",
+          "startMs": 8513,
+          "endMs": 8943,
+          "charStart": 89,
+          "charEnd": 98
+        },
+        {
+          "text": "riesgos",
+          "startMs": 8953,
+          "endMs": 9273,
+          "charStart": 99,
+          "charEnd": 106
+        },
+        {
+          "text": "imprevisibles",
+          "startMs": 9283,
+          "endMs": 10053,
+          "charStart": 107,
+          "charEnd": 120
+        }
+      ]
+    },
+    {
+      "text": "Varios filósofos advierten de que muchos sistemas automatizados reproducen sesgos sociales discriminatorios.",
+      "startMs": 11012,
+      "endMs": 16340,
+      "words": [
+        {
+          "text": "Varios",
+          "startMs": 11107,
+          "endMs": 11457,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "filósofos",
+          "startMs": 11467,
+          "endMs": 11927,
+          "charStart": 7,
+          "charEnd": 16
+        },
+        {
+          "text": "advierten",
+          "startMs": 11937,
+          "endMs": 12307,
+          "charStart": 17,
+          "charEnd": 26
+        },
+        {
+          "text": "de",
+          "startMs": 12317,
+          "endMs": 12387,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "que",
+          "startMs": 12397,
+          "endMs": 12477,
+          "charStart": 30,
+          "charEnd": 33
+        },
+        {
+          "text": "muchos",
+          "startMs": 12487,
+          "endMs": 12737,
+          "charStart": 34,
+          "charEnd": 40
+        },
+        {
+          "text": "sistemas",
+          "startMs": 12747,
+          "endMs": 13107,
+          "charStart": 41,
+          "charEnd": 49
+        },
+        {
+          "text": "automatizados",
+          "startMs": 13117,
+          "endMs": 13737,
+          "charStart": 50,
+          "charEnd": 63
+        },
+        {
+          "text": "reproducen",
+          "startMs": 13747,
+          "endMs": 14227,
+          "charStart": 64,
+          "charEnd": 74
+        },
+        {
+          "text": "sesgos",
+          "startMs": 14237,
+          "endMs": 14487,
+          "charStart": 75,
+          "charEnd": 81
+        },
+        {
+          "text": "sociales",
+          "startMs": 14497,
+          "endMs": 14817,
+          "charStart": 82,
+          "charEnd": 90
+        },
+        {
+          "text": "discriminatorios",
+          "startMs": 14827,
+          "endMs": 15647,
+          "charStart": 91,
+          "charEnd": 107
+        }
+      ]
+    },
+    {
+      "text": "Si no se supervisaran los datos de entrenamiento, las máquinas perpetuarían injusticias históricas.",
+      "startMs": 16590,
+      "endMs": 21606,
+      "words": [
+        {
+          "text": "Si",
+          "startMs": 16690,
+          "endMs": 16930,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "no",
+          "startMs": 16940,
+          "endMs": 17040,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "se",
+          "startMs": 17050,
+          "endMs": 17150,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "supervisaran",
+          "startMs": 17160,
+          "endMs": 17660,
+          "charStart": 9,
+          "charEnd": 21
+        },
+        {
+          "text": "los",
+          "startMs": 17670,
+          "endMs": 17790,
+          "charStart": 22,
+          "charEnd": 25
+        },
+        {
+          "text": "datos",
+          "startMs": 17800,
+          "endMs": 18020,
+          "charStart": 26,
+          "charEnd": 31
+        },
+        {
+          "text": "de",
+          "startMs": 18030,
+          "endMs": 18080,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "entrenamiento",
+          "startMs": 18090,
+          "endMs": 18640,
+          "charStart": 35,
+          "charEnd": 48
+        },
+        {
+          "text": "las",
+          "startMs": 18830,
+          "endMs": 18960,
+          "charStart": 50,
+          "charEnd": 53
+        },
+        {
+          "text": "máquinas",
+          "startMs": 18970,
+          "endMs": 19280,
+          "charStart": 54,
+          "charEnd": 62
+        },
+        {
+          "text": "perpetuarían",
+          "startMs": 19290,
+          "endMs": 19770,
+          "charStart": 63,
+          "charEnd": 75
+        },
+        {
+          "text": "injusticias",
+          "startMs": 19780,
+          "endMs": 20300,
+          "charStart": 76,
+          "charEnd": 87
+        },
+        {
+          "text": "históricas",
+          "startMs": 20310,
+          "endMs": 20920,
+          "charStart": 88,
+          "charEnd": 98
+        }
+      ]
+    },
+    {
+      "text": "Por consiguiente, la Unión Europea ha decidido redactar un marco jurídico pionero a escala mundial.",
+      "startMs": 21856,
+      "endMs": 26824,
+      "words": [
+        {
+          "text": "Por",
+          "startMs": 21951,
+          "endMs": 22111,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "consiguiente",
+          "startMs": 22121,
+          "endMs": 22661,
+          "charStart": 4,
+          "charEnd": 16
+        },
+        {
+          "text": "la",
+          "startMs": 22861,
+          "endMs": 22921,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "Unión",
+          "startMs": 22931,
+          "endMs": 23121,
+          "charStart": 21,
+          "charEnd": 26
+        },
+        {
+          "text": "Europea",
+          "startMs": 23131,
+          "endMs": 23471,
+          "charStart": 27,
+          "charEnd": 34
+        },
+        {
+          "text": "ha",
+          "startMs": 23481,
+          "endMs": 23521,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "decidido",
+          "startMs": 23531,
+          "endMs": 23881,
+          "charStart": 38,
+          "charEnd": 46
+        },
+        {
+          "text": "redactar",
+          "startMs": 23891,
+          "endMs": 24251,
+          "charStart": 47,
+          "charEnd": 55
+        },
+        {
+          "text": "un",
+          "startMs": 24261,
+          "endMs": 24351,
+          "charStart": 56,
+          "charEnd": 58
+        },
+        {
+          "text": "marco",
+          "startMs": 24361,
+          "endMs": 24601,
+          "charStart": 59,
+          "charEnd": 64
+        },
+        {
+          "text": "jurídico",
+          "startMs": 24611,
+          "endMs": 25001,
+          "charStart": 65,
+          "charEnd": 73
+        },
+        {
+          "text": "pionero",
+          "startMs": 25011,
+          "endMs": 25331,
+          "charStart": 74,
+          "charEnd": 81
+        },
+        {
+          "text": "a",
+          "startMs": 25341,
+          "endMs": 25381,
+          "charStart": 82,
+          "charEnd": 83
+        },
+        {
+          "text": "escala",
+          "startMs": 25391,
+          "endMs": 25641,
+          "charStart": 84,
+          "charEnd": 90
+        },
+        {
+          "text": "mundial",
+          "startMs": 25651,
+          "endMs": 26141,
+          "charStart": 91,
+          "charEnd": 98
+        }
+      ]
+    },
+    {
+      "text": "Este reglamento exige que las grandes tecnológicas garanticen la transparencia total de sus modelos.",
+      "startMs": 27074,
+      "endMs": 32090,
+      "words": [
+        {
+          "text": "Este",
+          "startMs": 27169,
+          "endMs": 27429,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "reglamento",
+          "startMs": 27439,
+          "endMs": 27899,
+          "charStart": 5,
+          "charEnd": 15
+        },
+        {
+          "text": "exige",
+          "startMs": 27909,
+          "endMs": 28239,
+          "charStart": 16,
+          "charEnd": 21
+        },
+        {
+          "text": "que",
+          "startMs": 28249,
+          "endMs": 28339,
+          "charStart": 22,
+          "charEnd": 25
+        },
+        {
+          "text": "las",
+          "startMs": 28349,
+          "endMs": 28469,
+          "charStart": 26,
+          "charEnd": 29
+        },
+        {
+          "text": "grandes",
+          "startMs": 28479,
+          "endMs": 28739,
+          "charStart": 30,
+          "charEnd": 37
+        },
+        {
+          "text": "tecnológicas",
+          "startMs": 28749,
+          "endMs": 29309,
+          "charStart": 38,
+          "charEnd": 50
+        },
+        {
+          "text": "garanticen",
+          "startMs": 29319,
+          "endMs": 29749,
+          "charStart": 51,
+          "charEnd": 61
+        },
+        {
+          "text": "la",
+          "startMs": 29759,
+          "endMs": 29839,
+          "charStart": 62,
+          "charEnd": 64
+        },
+        {
+          "text": "transparencia",
+          "startMs": 29849,
+          "endMs": 30389,
+          "charStart": 65,
+          "charEnd": 78
+        },
+        {
+          "text": "total",
+          "startMs": 30399,
+          "endMs": 30649,
+          "charStart": 79,
+          "charEnd": 84
+        },
+        {
+          "text": "de",
+          "startMs": 30659,
+          "endMs": 30729,
+          "charStart": 85,
+          "charEnd": 87
+        },
+        {
+          "text": "sus",
+          "startMs": 30739,
+          "endMs": 30869,
+          "charStart": 88,
+          "charEnd": 91
+        },
+        {
+          "text": "modelos",
+          "startMs": 30879,
+          "endMs": 31399,
+          "charStart": 92,
+          "charEnd": 99
+        }
+      ]
+    },
+    {
+      "text": "Dudo que las empresas privadas acaten estas restricciones sin oponer una férrea resistencia comercial.",
+      "startMs": 32340,
+      "endMs": 37260,
+      "words": [
+        {
+          "text": "Dudo",
+          "startMs": 32435,
+          "endMs": 32705,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "que",
+          "startMs": 32715,
+          "endMs": 32785,
+          "charStart": 5,
+          "charEnd": 8
+        },
+        {
+          "text": "las",
+          "startMs": 32795,
+          "endMs": 32915,
+          "charStart": 9,
+          "charEnd": 12
+        },
+        {
+          "text": "empresas",
+          "startMs": 32925,
+          "endMs": 33275,
+          "charStart": 13,
+          "charEnd": 21
+        },
+        {
+          "text": "privadas",
+          "startMs": 33285,
+          "endMs": 33635,
+          "charStart": 22,
+          "charEnd": 30
+        },
+        {
+          "text": "acaten",
+          "startMs": 33645,
+          "endMs": 33935,
+          "charStart": 31,
+          "charEnd": 37
+        },
+        {
+          "text": "estas",
+          "startMs": 33945,
+          "endMs": 34145,
+          "charStart": 38,
+          "charEnd": 43
+        },
+        {
+          "text": "restricciones",
+          "startMs": 34155,
+          "endMs": 34715,
+          "charStart": 44,
+          "charEnd": 57
+        },
+        {
+          "text": "sin",
+          "startMs": 34725,
+          "endMs": 34845,
+          "charStart": 58,
+          "charEnd": 61
+        },
+        {
+          "text": "oponer",
+          "startMs": 34855,
+          "endMs": 35105,
+          "charStart": 62,
+          "charEnd": 68
+        },
+        {
+          "text": "una",
+          "startMs": 35115,
+          "endMs": 35235,
+          "charStart": 69,
+          "charEnd": 72
+        },
+        {
+          "text": "férrea",
+          "startMs": 35245,
+          "endMs": 35495,
+          "charStart": 73,
+          "charEnd": 79
+        },
+        {
+          "text": "resistencia",
+          "startMs": 35505,
+          "endMs": 35975,
+          "charStart": 80,
+          "charEnd": 91
+        },
+        {
+          "text": "comercial",
+          "startMs": 35985,
+          "endMs": 36555,
+          "charStart": 92,
+          "charEnd": 101
+        }
+      ]
+    },
+    {
+      "text": "No obstante, es fundamental que la sociedad civil participe en el diseño de estos estándares éticos.",
+      "startMs": 37510,
+      "endMs": 42598,
+      "words": [
+        {
+          "text": "No",
+          "startMs": 37610,
+          "endMs": 37830,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "obstante",
+          "startMs": 37840,
+          "endMs": 38290,
+          "charStart": 3,
+          "charEnd": 11
+        },
+        {
+          "text": "es",
+          "startMs": 38480,
+          "endMs": 38560,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "fundamental",
+          "startMs": 38570,
+          "endMs": 39040,
+          "charStart": 16,
+          "charEnd": 27
+        },
+        {
+          "text": "que",
+          "startMs": 39050,
+          "endMs": 39130,
+          "charStart": 28,
+          "charEnd": 31
+        },
+        {
+          "text": "la",
+          "startMs": 39140,
+          "endMs": 39210,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "sociedad",
+          "startMs": 39220,
+          "endMs": 39560,
+          "charStart": 35,
+          "charEnd": 43
+        },
+        {
+          "text": "civil",
+          "startMs": 39570,
+          "endMs": 39800,
+          "charStart": 44,
+          "charEnd": 49
+        },
+        {
+          "text": "participe",
+          "startMs": 39810,
+          "endMs": 40210,
+          "charStart": 50,
+          "charEnd": 59
+        },
+        {
+          "text": "en",
+          "startMs": 40220,
+          "endMs": 40280,
+          "charStart": 60,
+          "charEnd": 62
+        },
+        {
+          "text": "el",
+          "startMs": 40290,
+          "endMs": 40360,
+          "charStart": 63,
+          "charEnd": 65
+        },
+        {
+          "text": "diseño",
+          "startMs": 40370,
+          "endMs": 40670,
+          "charStart": 66,
+          "charEnd": 72
+        },
+        {
+          "text": "de",
+          "startMs": 40680,
+          "endMs": 40750,
+          "charStart": 73,
+          "charEnd": 75
+        },
+        {
+          "text": "estos",
+          "startMs": 40760,
+          "endMs": 40980,
+          "charStart": 76,
+          "charEnd": 81
+        },
+        {
+          "text": "estándares",
+          "startMs": 40990,
+          "endMs": 41420,
+          "charStart": 82,
+          "charEnd": 92
+        },
+        {
+          "text": "éticos",
+          "startMs": 41430,
+          "endMs": 41920,
+          "charStart": 93,
+          "charEnd": 99
+        }
+      ]
+    },
+    {
+      "text": "De lo contrario, corremos el peligro de delegar juicios morales en sistemas carentes de empatía.",
+      "startMs": 42848,
+      "endMs": 47816,
+      "words": [
+        {
+          "text": "De",
+          "startMs": 42943,
+          "endMs": 43103,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "lo",
+          "startMs": 43113,
+          "endMs": 43183,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "contrario",
+          "startMs": 43193,
+          "endMs": 43663,
+          "charStart": 6,
+          "charEnd": 15
+        },
+        {
+          "text": "corremos",
+          "startMs": 43853,
+          "endMs": 44213,
+          "charStart": 17,
+          "charEnd": 25
+        },
+        {
+          "text": "el",
+          "startMs": 44223,
+          "endMs": 44303,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "peligro",
+          "startMs": 44313,
+          "endMs": 44613,
+          "charStart": 29,
+          "charEnd": 36
+        },
+        {
+          "text": "de",
+          "startMs": 44623,
+          "endMs": 44693,
+          "charStart": 37,
+          "charEnd": 39
+        },
+        {
+          "text": "delegar",
+          "startMs": 44703,
+          "endMs": 45013,
+          "charStart": 40,
+          "charEnd": 47
+        },
+        {
+          "text": "juicios",
+          "startMs": 45023,
+          "endMs": 45333,
+          "charStart": 48,
+          "charEnd": 55
+        },
+        {
+          "text": "morales",
+          "startMs": 45343,
+          "endMs": 45693,
+          "charStart": 56,
+          "charEnd": 63
+        },
+        {
+          "text": "en",
+          "startMs": 45703,
+          "endMs": 45783,
+          "charStart": 64,
+          "charEnd": 66
+        },
+        {
+          "text": "sistemas",
+          "startMs": 45793,
+          "endMs": 46173,
+          "charStart": 67,
+          "charEnd": 75
+        },
+        {
+          "text": "carentes",
+          "startMs": 46183,
+          "endMs": 46533,
+          "charStart": 76,
+          "charEnd": 84
+        },
+        {
+          "text": "de",
+          "startMs": 46543,
+          "endMs": 46603,
+          "charStart": 85,
+          "charEnd": 87
+        },
+        {
+          "text": "empatía",
+          "startMs": 46613,
+          "endMs": 47123,
+          "charStart": 88,
+          "charEnd": 95
+        }
+      ]
+    },
+    {
+      "text": "En definitiva, la tecnología debe estar al servicio de la humanidad y no al revés.",
+      "startMs": 48066,
+      "endMs": 52434,
+      "words": [
+        {
+          "text": "En",
+          "startMs": 48161,
+          "endMs": 48321,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "definitiva",
+          "startMs": 48331,
+          "endMs": 48821,
+          "charStart": 3,
+          "charEnd": 13
+        },
+        {
+          "text": "la",
+          "startMs": 49061,
+          "endMs": 49131,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "tecnología",
+          "startMs": 49141,
+          "endMs": 49621,
+          "charStart": 18,
+          "charEnd": 28
+        },
+        {
+          "text": "debe",
+          "startMs": 49631,
+          "endMs": 49771,
+          "charStart": 29,
+          "charEnd": 33
+        },
+        {
+          "text": "estar",
+          "startMs": 49781,
+          "endMs": 49991,
+          "charStart": 34,
+          "charEnd": 39
+        },
+        {
+          "text": "al",
+          "startMs": 50001,
+          "endMs": 50081,
+          "charStart": 40,
+          "charEnd": 42
+        },
+        {
+          "text": "servicio",
+          "startMs": 50091,
+          "endMs": 50471,
+          "charStart": 43,
+          "charEnd": 51
+        },
+        {
+          "text": "de",
+          "startMs": 50481,
+          "endMs": 50541,
+          "charStart": 52,
+          "charEnd": 54
+        },
+        {
+          "text": "la",
+          "startMs": 50551,
+          "endMs": 50621,
+          "charStart": 55,
+          "charEnd": 57
+        },
+        {
+          "text": "humanidad",
+          "startMs": 50631,
+          "endMs": 51021,
+          "charStart": 58,
+          "charEnd": 67
+        },
+        {
+          "text": "y",
+          "startMs": 51031,
+          "endMs": 51061,
+          "charStart": 68,
+          "charEnd": 69
+        },
+        {
+          "text": "no",
+          "startMs": 51071,
+          "endMs": 51191,
+          "charStart": 70,
+          "charEnd": 72
+        },
+        {
+          "text": "al",
+          "startMs": 51201,
+          "endMs": 51271,
+          "charStart": 73,
+          "charEnd": 75
+        },
+        {
+          "text": "revés",
+          "startMs": 51281,
+          "endMs": 51731,
+          "charStart": 76,
+          "charEnd": 81
+        }
+      ]
+    }
+  ]
+}

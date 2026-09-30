@@ -1,0 +1,956 @@
+{
+  "version": 3,
+  "lang": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 41010,
+  "sentences": [
+    {
+      "text": "Ayer por la tarde, Carmen fue al centro comercial con su hermana menor.",
+      "startMs": 0,
+      "endMs": 3912,
+      "words": [
+        {
+          "text": "Ayer",
+          "startMs": 100,
+          "endMs": 430,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "por",
+          "startMs": 440,
+          "endMs": 560,
+          "charStart": 5,
+          "charEnd": 8
+        },
+        {
+          "text": "la",
+          "startMs": 570,
+          "endMs": 650,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "tarde",
+          "startMs": 660,
+          "endMs": 970,
+          "charStart": 12,
+          "charEnd": 17
+        },
+        {
+          "text": "Carmen",
+          "startMs": 1150,
+          "endMs": 1450,
+          "charStart": 19,
+          "charEnd": 25
+        },
+        {
+          "text": "fue",
+          "startMs": 1460,
+          "endMs": 1590,
+          "charStart": 26,
+          "charEnd": 29
+        },
+        {
+          "text": "al",
+          "startMs": 1600,
+          "endMs": 1690,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "centro",
+          "startMs": 1700,
+          "endMs": 1920,
+          "charStart": 33,
+          "charEnd": 39
+        },
+        {
+          "text": "comercial",
+          "startMs": 1930,
+          "endMs": 2320,
+          "charStart": 40,
+          "charEnd": 49
+        },
+        {
+          "text": "con",
+          "startMs": 2330,
+          "endMs": 2490,
+          "charStart": 50,
+          "charEnd": 53
+        },
+        {
+          "text": "su",
+          "startMs": 2500,
+          "endMs": 2580,
+          "charStart": 54,
+          "charEnd": 56
+        },
+        {
+          "text": "hermana",
+          "startMs": 2590,
+          "endMs": 2820,
+          "charStart": 57,
+          "charEnd": 64
+        },
+        {
+          "text": "menor",
+          "startMs": 2830,
+          "endMs": 3220,
+          "charStart": 65,
+          "charEnd": 70
+        }
+      ]
+    },
+    {
+      "text": "Ella necesitaba comprar un vestido elegante para la boda de su prima.",
+      "startMs": 4162,
+      "endMs": 7786,
+      "words": [
+        {
+          "text": "Ella",
+          "startMs": 4257,
+          "endMs": 4497,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "necesitaba",
+          "startMs": 4507,
+          "endMs": 4987,
+          "charStart": 5,
+          "charEnd": 15
+        },
+        {
+          "text": "comprar",
+          "startMs": 4997,
+          "endMs": 5307,
+          "charStart": 16,
+          "charEnd": 23
+        },
+        {
+          "text": "un",
+          "startMs": 5317,
+          "endMs": 5387,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "vestido",
+          "startMs": 5397,
+          "endMs": 5707,
+          "charStart": 27,
+          "charEnd": 34
+        },
+        {
+          "text": "elegante",
+          "startMs": 5717,
+          "endMs": 6107,
+          "charStart": 35,
+          "charEnd": 43
+        },
+        {
+          "text": "para",
+          "startMs": 6117,
+          "endMs": 6247,
+          "charStart": 44,
+          "charEnd": 48
+        },
+        {
+          "text": "la",
+          "startMs": 6257,
+          "endMs": 6327,
+          "charStart": 49,
+          "charEnd": 51
+        },
+        {
+          "text": "boda",
+          "startMs": 6337,
+          "endMs": 6497,
+          "charStart": 52,
+          "charEnd": 56
+        },
+        {
+          "text": "de",
+          "startMs": 6507,
+          "endMs": 6577,
+          "charStart": 57,
+          "charEnd": 59
+        },
+        {
+          "text": "su",
+          "startMs": 6587,
+          "endMs": 6677,
+          "charStart": 60,
+          "charEnd": 62
+        },
+        {
+          "text": "prima",
+          "startMs": 6687,
+          "endMs": 7087,
+          "charStart": 63,
+          "charEnd": 68
+        }
+      ]
+    },
+    {
+      "text": "Entraron en una tienda de ropa moderna que tenía grandes descuentos especiales.",
+      "startMs": 8036,
+      "endMs": 12140,
+      "words": [
+        {
+          "text": "Entraron",
+          "startMs": 8131,
+          "endMs": 8551,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "en",
+          "startMs": 8561,
+          "endMs": 8641,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "una",
+          "startMs": 8651,
+          "endMs": 8791,
+          "charStart": 12,
+          "charEnd": 15
+        },
+        {
+          "text": "tienda",
+          "startMs": 8801,
+          "endMs": 9011,
+          "charStart": 16,
+          "charEnd": 22
+        },
+        {
+          "text": "de",
+          "startMs": 9021,
+          "endMs": 9101,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "ropa",
+          "startMs": 9111,
+          "endMs": 9341,
+          "charStart": 26,
+          "charEnd": 30
+        },
+        {
+          "text": "moderna",
+          "startMs": 9351,
+          "endMs": 9741,
+          "charStart": 31,
+          "charEnd": 38
+        },
+        {
+          "text": "que",
+          "startMs": 9751,
+          "endMs": 9861,
+          "charStart": 39,
+          "charEnd": 42
+        },
+        {
+          "text": "tenía",
+          "startMs": 9871,
+          "endMs": 10101,
+          "charStart": 43,
+          "charEnd": 48
+        },
+        {
+          "text": "grandes",
+          "startMs": 10111,
+          "endMs": 10381,
+          "charStart": 49,
+          "charEnd": 56
+        },
+        {
+          "text": "descuentos",
+          "startMs": 10391,
+          "endMs": 10791,
+          "charStart": 57,
+          "charEnd": 67
+        },
+        {
+          "text": "especiales",
+          "startMs": 10801,
+          "endMs": 11441,
+          "charStart": 68,
+          "charEnd": 78
+        }
+      ]
+    },
+    {
+      "text": "Carmen vio un vestido azul oscuro en el escaparate y decidió probárselo.",
+      "startMs": 12390,
+      "endMs": 16230,
+      "words": [
+        {
+          "text": "Carmen",
+          "startMs": 12485,
+          "endMs": 12815,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "vio",
+          "startMs": 12825,
+          "endMs": 12965,
+          "charStart": 7,
+          "charEnd": 10
+        },
+        {
+          "text": "un",
+          "startMs": 12975,
+          "endMs": 13045,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "vestido",
+          "startMs": 13055,
+          "endMs": 13345,
+          "charStart": 14,
+          "charEnd": 21
+        },
+        {
+          "text": "azul",
+          "startMs": 13355,
+          "endMs": 13575,
+          "charStart": 22,
+          "charEnd": 26
+        },
+        {
+          "text": "oscuro",
+          "startMs": 13585,
+          "endMs": 13885,
+          "charStart": 27,
+          "charEnd": 33
+        },
+        {
+          "text": "en",
+          "startMs": 13895,
+          "endMs": 13955,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "el",
+          "startMs": 13965,
+          "endMs": 14035,
+          "charStart": 37,
+          "charEnd": 39
+        },
+        {
+          "text": "escaparate",
+          "startMs": 14045,
+          "endMs": 14515,
+          "charStart": 40,
+          "charEnd": 50
+        },
+        {
+          "text": "y",
+          "startMs": 14525,
+          "endMs": 14565,
+          "charStart": 51,
+          "charEnd": 52
+        },
+        {
+          "text": "decidió",
+          "startMs": 14575,
+          "endMs": 14915,
+          "charStart": 53,
+          "charEnd": 60
+        },
+        {
+          "text": "probárselo",
+          "startMs": 14925,
+          "endMs": 15525,
+          "charStart": 61,
+          "charEnd": 71
+        }
+      ]
+    },
+    {
+      "text": "El dependiente amable le trajo una talla mediana del probador del fondo.",
+      "startMs": 16480,
+      "endMs": 20176,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 16580,
+          "endMs": 16760,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "dependiente",
+          "startMs": 16770,
+          "endMs": 17200,
+          "charStart": 3,
+          "charEnd": 14
+        },
+        {
+          "text": "amable",
+          "startMs": 17210,
+          "endMs": 17460,
+          "charStart": 15,
+          "charEnd": 21
+        },
+        {
+          "text": "le",
+          "startMs": 17470,
+          "endMs": 17570,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "trajo",
+          "startMs": 17580,
+          "endMs": 17830,
+          "charStart": 25,
+          "charEnd": 30
+        },
+        {
+          "text": "una",
+          "startMs": 17840,
+          "endMs": 17980,
+          "charStart": 31,
+          "charEnd": 34
+        },
+        {
+          "text": "talla",
+          "startMs": 17990,
+          "endMs": 18180,
+          "charStart": 35,
+          "charEnd": 40
+        },
+        {
+          "text": "mediana",
+          "startMs": 18190,
+          "endMs": 18500,
+          "charStart": 41,
+          "charEnd": 48
+        },
+        {
+          "text": "del",
+          "startMs": 18510,
+          "endMs": 18620,
+          "charStart": 49,
+          "charEnd": 52
+        },
+        {
+          "text": "probador",
+          "startMs": 18630,
+          "endMs": 18950,
+          "charStart": 53,
+          "charEnd": 61
+        },
+        {
+          "text": "del",
+          "startMs": 18960,
+          "endMs": 19080,
+          "charStart": 62,
+          "charEnd": 65
+        },
+        {
+          "text": "fondo",
+          "startMs": 19090,
+          "endMs": 19490,
+          "charStart": 66,
+          "charEnd": 71
+        }
+      ]
+    },
+    {
+      "text": "La prenda le quedaba perfecta, pero costaba un poco más de lo previsto.",
+      "startMs": 20426,
+      "endMs": 24314,
+      "words": [
+        {
+          "text": "La",
+          "startMs": 20521,
+          "endMs": 20711,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "prenda",
+          "startMs": 20721,
+          "endMs": 20941,
+          "charStart": 3,
+          "charEnd": 9
+        },
+        {
+          "text": "le",
+          "startMs": 20951,
+          "endMs": 21031,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "quedaba",
+          "startMs": 21041,
+          "endMs": 21301,
+          "charStart": 13,
+          "charEnd": 20
+        },
+        {
+          "text": "perfecta",
+          "startMs": 21311,
+          "endMs": 21791,
+          "charStart": 21,
+          "charEnd": 29
+        },
+        {
+          "text": "pero",
+          "startMs": 21991,
+          "endMs": 22141,
+          "charStart": 31,
+          "charEnd": 35
+        },
+        {
+          "text": "costaba",
+          "startMs": 22151,
+          "endMs": 22461,
+          "charStart": 36,
+          "charEnd": 43
+        },
+        {
+          "text": "un",
+          "startMs": 22471,
+          "endMs": 22581,
+          "charStart": 44,
+          "charEnd": 46
+        },
+        {
+          "text": "poco",
+          "startMs": 22591,
+          "endMs": 22791,
+          "charStart": 47,
+          "charEnd": 51
+        },
+        {
+          "text": "más",
+          "startMs": 22801,
+          "endMs": 22961,
+          "charStart": 52,
+          "charEnd": 55
+        },
+        {
+          "text": "de",
+          "startMs": 22971,
+          "endMs": 23011,
+          "charStart": 56,
+          "charEnd": 58
+        },
+        {
+          "text": "lo",
+          "startMs": 23021,
+          "endMs": 23091,
+          "charStart": 59,
+          "charEnd": 61
+        },
+        {
+          "text": "previsto",
+          "startMs": 23101,
+          "endMs": 23611,
+          "charStart": 62,
+          "charEnd": 70
+        }
+      ]
+    },
+    {
+      "text": "Su hermana le dijo que el color combinaba muy bien con sus ojos.",
+      "startMs": 24564,
+      "endMs": 28140,
+      "words": [
+        {
+          "text": "Su",
+          "startMs": 24664,
+          "endMs": 24884,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "hermana",
+          "startMs": 24894,
+          "endMs": 25144,
+          "charStart": 3,
+          "charEnd": 10
+        },
+        {
+          "text": "le",
+          "startMs": 25154,
+          "endMs": 25244,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "dijo",
+          "startMs": 25254,
+          "endMs": 25494,
+          "charStart": 14,
+          "charEnd": 18
+        },
+        {
+          "text": "que",
+          "startMs": 25504,
+          "endMs": 25604,
+          "charStart": 19,
+          "charEnd": 22
+        },
+        {
+          "text": "el",
+          "startMs": 25614,
+          "endMs": 25684,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "color",
+          "startMs": 25694,
+          "endMs": 25934,
+          "charStart": 26,
+          "charEnd": 31
+        },
+        {
+          "text": "combinaba",
+          "startMs": 25944,
+          "endMs": 26354,
+          "charStart": 32,
+          "charEnd": 41
+        },
+        {
+          "text": "muy",
+          "startMs": 26364,
+          "endMs": 26504,
+          "charStart": 42,
+          "charEnd": 45
+        },
+        {
+          "text": "bien",
+          "startMs": 26514,
+          "endMs": 26674,
+          "charStart": 46,
+          "charEnd": 50
+        },
+        {
+          "text": "con",
+          "startMs": 26684,
+          "endMs": 26824,
+          "charStart": 51,
+          "charEnd": 54
+        },
+        {
+          "text": "sus",
+          "startMs": 26834,
+          "endMs": 26974,
+          "charStart": 55,
+          "charEnd": 58
+        },
+        {
+          "text": "ojos",
+          "startMs": 26984,
+          "endMs": 27444,
+          "charStart": 59,
+          "charEnd": 63
+        }
+      ]
+    },
+    {
+      "text": "Entonces, Carmen decidió comprarlo junto con un bonito pañuelo de seda fina.",
+      "startMs": 28390,
+      "endMs": 32734,
+      "words": [
+        {
+          "text": "Entonces",
+          "startMs": 28485,
+          "endMs": 29065,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "Carmen",
+          "startMs": 29225,
+          "endMs": 29505,
+          "charStart": 10,
+          "charEnd": 16
+        },
+        {
+          "text": "decidió",
+          "startMs": 29515,
+          "endMs": 29835,
+          "charStart": 17,
+          "charEnd": 24
+        },
+        {
+          "text": "comprarlo",
+          "startMs": 29845,
+          "endMs": 30225,
+          "charStart": 25,
+          "charEnd": 34
+        },
+        {
+          "text": "junto",
+          "startMs": 30235,
+          "endMs": 30495,
+          "charStart": 35,
+          "charEnd": 40
+        },
+        {
+          "text": "con",
+          "startMs": 30505,
+          "endMs": 30625,
+          "charStart": 41,
+          "charEnd": 44
+        },
+        {
+          "text": "un",
+          "startMs": 30635,
+          "endMs": 30715,
+          "charStart": 45,
+          "charEnd": 47
+        },
+        {
+          "text": "bonito",
+          "startMs": 30725,
+          "endMs": 31005,
+          "charStart": 48,
+          "charEnd": 54
+        },
+        {
+          "text": "pañuelo",
+          "startMs": 31015,
+          "endMs": 31325,
+          "charStart": 55,
+          "charEnd": 62
+        },
+        {
+          "text": "de",
+          "startMs": 31335,
+          "endMs": 31425,
+          "charStart": 63,
+          "charEnd": 65
+        },
+        {
+          "text": "seda",
+          "startMs": 31435,
+          "endMs": 31645,
+          "charStart": 66,
+          "charEnd": 70
+        },
+        {
+          "text": "fina",
+          "startMs": 31655,
+          "endMs": 32045,
+          "charStart": 71,
+          "charEnd": 75
+        }
+      ]
+    },
+    {
+      "text": "Pagó la cuenta con su tarjeta de crédito y guardó el recibo oficial.",
+      "startMs": 32984,
+      "endMs": 36608,
+      "words": [
+        {
+          "text": "Pagó",
+          "startMs": 33084,
+          "endMs": 33334,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "la",
+          "startMs": 33344,
+          "endMs": 33434,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "cuenta",
+          "startMs": 33444,
+          "endMs": 33704,
+          "charStart": 8,
+          "charEnd": 14
+        },
+        {
+          "text": "con",
+          "startMs": 33714,
+          "endMs": 33844,
+          "charStart": 15,
+          "charEnd": 18
+        },
+        {
+          "text": "su",
+          "startMs": 33854,
+          "endMs": 33934,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "tarjeta",
+          "startMs": 33944,
+          "endMs": 34284,
+          "charStart": 22,
+          "charEnd": 29
+        },
+        {
+          "text": "de",
+          "startMs": 34294,
+          "endMs": 34374,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "crédito",
+          "startMs": 34384,
+          "endMs": 34734,
+          "charStart": 33,
+          "charEnd": 40
+        },
+        {
+          "text": "y",
+          "startMs": 34744,
+          "endMs": 34784,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "guardó",
+          "startMs": 34794,
+          "endMs": 35054,
+          "charStart": 43,
+          "charEnd": 49
+        },
+        {
+          "text": "el",
+          "startMs": 35064,
+          "endMs": 35134,
+          "charStart": 50,
+          "charEnd": 52
+        },
+        {
+          "text": "recibo",
+          "startMs": 35144,
+          "endMs": 35424,
+          "charStart": 53,
+          "charEnd": 59
+        },
+        {
+          "text": "oficial",
+          "startMs": 35434,
+          "endMs": 35924,
+          "charStart": 60,
+          "charEnd": 67
+        }
+      ]
+    },
+    {
+      "text": "Ambas salieron de la tienda muy satisfechas con sus compras útiles y elegantes.",
+      "startMs": 36858,
+      "endMs": 41010,
+      "words": [
+        {
+          "text": "Ambas",
+          "startMs": 36953,
+          "endMs": 37253,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "salieron",
+          "startMs": 37263,
+          "endMs": 37573,
+          "charStart": 6,
+          "charEnd": 14
+        },
+        {
+          "text": "de",
+          "startMs": 37583,
+          "endMs": 37643,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "la",
+          "startMs": 37653,
+          "endMs": 37743,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "tienda",
+          "startMs": 37753,
+          "endMs": 38003,
+          "charStart": 21,
+          "charEnd": 27
+        },
+        {
+          "text": "muy",
+          "startMs": 38013,
+          "endMs": 38143,
+          "charStart": 28,
+          "charEnd": 31
+        },
+        {
+          "text": "satisfechas",
+          "startMs": 38153,
+          "endMs": 38713,
+          "charStart": 32,
+          "charEnd": 43
+        },
+        {
+          "text": "con",
+          "startMs": 38723,
+          "endMs": 38853,
+          "charStart": 44,
+          "charEnd": 47
+        },
+        {
+          "text": "sus",
+          "startMs": 38863,
+          "endMs": 39003,
+          "charStart": 48,
+          "charEnd": 51
+        },
+        {
+          "text": "compras",
+          "startMs": 39013,
+          "endMs": 39343,
+          "charStart": 52,
+          "charEnd": 59
+        },
+        {
+          "text": "útiles",
+          "startMs": 39353,
+          "endMs": 39663,
+          "charStart": 60,
+          "charEnd": 66
+        },
+        {
+          "text": "y",
+          "startMs": 39673,
+          "endMs": 39693,
+          "charStart": 67,
+          "charEnd": 68
+        },
+        {
+          "text": "elegantes",
+          "startMs": 39703,
+          "endMs": 40323,
+          "charStart": 69,
+          "charEnd": 78
+        }
+      ]
+    }
+  ]
+}

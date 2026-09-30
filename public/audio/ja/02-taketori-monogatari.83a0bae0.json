@@ -1,0 +1,998 @@
+{
+  "version": 3,
+  "lang": "ja",
+  "voice": "ja-JP-NanamiNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 38874,
+  "sentences": [
+    {
+      "text": "昔、竹を取るおじいさんが山へ行きました。",
+      "startMs": 0,
+      "endMs": 3576,
+      "words": [
+        {
+          "text": "昔",
+          "startMs": 110,
+          "endMs": 590,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "竹",
+          "startMs": 880,
+          "endMs": 1110,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "を",
+          "startMs": 1120,
+          "endMs": 1210,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "取る",
+          "startMs": 1220,
+          "endMs": 1400,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "おじいさん",
+          "startMs": 1410,
+          "endMs": 1850,
+          "charStart": 6,
+          "charEnd": 11
+        },
+        {
+          "text": "が",
+          "startMs": 1860,
+          "endMs": 1930,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "山",
+          "startMs": 1940,
+          "endMs": 2170,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "へ",
+          "startMs": 2180,
+          "endMs": 2260,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "行き",
+          "startMs": 2270,
+          "endMs": 2470,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "まし",
+          "startMs": 2480,
+          "endMs": 2670,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "た",
+          "startMs": 2680,
+          "endMs": 2870,
+          "charStart": 18,
+          "charEnd": 19
+        }
+      ]
+    },
+    {
+      "text": "おじいさんは光っている一本の竹を見つけました。",
+      "startMs": 3826,
+      "endMs": 7258,
+      "words": [
+        {
+          "text": "お",
+          "startMs": 3966,
+          "endMs": 4036,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "じいさん",
+          "startMs": 4046,
+          "endMs": 4406,
+          "charStart": 1,
+          "charEnd": 5
+        },
+        {
+          "text": "は",
+          "startMs": 4416,
+          "endMs": 4496,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "光っ",
+          "startMs": 4506,
+          "endMs": 4826,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "て",
+          "startMs": 4836,
+          "endMs": 4906,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "いる",
+          "startMs": 4916,
+          "endMs": 5106,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "一本",
+          "startMs": 5116,
+          "endMs": 5456,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "の",
+          "startMs": 5466,
+          "endMs": 5556,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "竹",
+          "startMs": 5566,
+          "endMs": 5776,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "を",
+          "startMs": 5786,
+          "endMs": 5876,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "見つけ",
+          "startMs": 5886,
+          "endMs": 6166,
+          "charStart": 16,
+          "charEnd": 19
+        },
+        {
+          "text": "まし",
+          "startMs": 6176,
+          "endMs": 6366,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "た",
+          "startMs": 6376,
+          "endMs": 6556,
+          "charStart": 21,
+          "charEnd": 22
+        }
+      ]
+    },
+    {
+      "text": "竹を切ると、中に小さな女の子がいました。",
+      "startMs": 7508,
+      "endMs": 11132,
+      "words": [
+        {
+          "text": "竹",
+          "startMs": 7618,
+          "endMs": 7838,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "を",
+          "startMs": 7848,
+          "endMs": 7938,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "切る",
+          "startMs": 7948,
+          "endMs": 8168,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "と",
+          "startMs": 8178,
+          "endMs": 8328,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "中",
+          "startMs": 8598,
+          "endMs": 8788,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "に",
+          "startMs": 8798,
+          "endMs": 8948,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "小さな",
+          "startMs": 8968,
+          "endMs": 9388,
+          "charStart": 8,
+          "charEnd": 11
+        },
+        {
+          "text": "女",
+          "startMs": 9398,
+          "endMs": 9668,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "の",
+          "startMs": 9678,
+          "endMs": 9768,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "子",
+          "startMs": 9778,
+          "endMs": 9868,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "が",
+          "startMs": 9878,
+          "endMs": 9948,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "いまし",
+          "startMs": 9958,
+          "endMs": 10248,
+          "charStart": 15,
+          "charEnd": 18
+        },
+        {
+          "text": "た",
+          "startMs": 10258,
+          "endMs": 10428,
+          "charStart": 18,
+          "charEnd": 19
+        }
+      ]
+    },
+    {
+      "text": "おじいさんはその子を家に連れて帰りました。",
+      "startMs": 11382,
+      "endMs": 14622,
+      "words": [
+        {
+          "text": "お",
+          "startMs": 11522,
+          "endMs": 11592,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "じいさん",
+          "startMs": 11602,
+          "endMs": 11942,
+          "charStart": 1,
+          "charEnd": 5
+        },
+        {
+          "text": "は",
+          "startMs": 11952,
+          "endMs": 12132,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "その",
+          "startMs": 12212,
+          "endMs": 12462,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "子",
+          "startMs": 12472,
+          "endMs": 12572,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "を",
+          "startMs": 12582,
+          "endMs": 12662,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "家",
+          "startMs": 12672,
+          "endMs": 12842,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "に",
+          "startMs": 12852,
+          "endMs": 12962,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "連れ",
+          "startMs": 12972,
+          "endMs": 13162,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "て",
+          "startMs": 13172,
+          "endMs": 13262,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "帰り",
+          "startMs": 13272,
+          "endMs": 13552,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "まし",
+          "startMs": 13562,
+          "endMs": 13742,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "た",
+          "startMs": 13752,
+          "endMs": 13932,
+          "charStart": 19,
+          "charEnd": 20
+        }
+      ]
+    },
+    {
+      "text": "女の子は「かぐや姫」と呼ばれ、美しく育ちました。",
+      "startMs": 14872,
+      "endMs": 19000,
+      "words": [
+        {
+          "text": "女",
+          "startMs": 15012,
+          "endMs": 15232,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "の",
+          "startMs": 15242,
+          "endMs": 15342,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "子",
+          "startMs": 15352,
+          "endMs": 15452,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "は",
+          "startMs": 15462,
+          "endMs": 15652,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "かぐや姫",
+          "startMs": 15882,
+          "endMs": 16412,
+          "charStart": 5,
+          "charEnd": 9
+        },
+        {
+          "text": "と",
+          "startMs": 16432,
+          "endMs": 16512,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "呼ば",
+          "startMs": 16522,
+          "endMs": 16732,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "れ",
+          "startMs": 16742,
+          "endMs": 16852,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "美しく",
+          "startMs": 17102,
+          "endMs": 17602,
+          "charStart": 15,
+          "charEnd": 18
+        },
+        {
+          "text": "育ち",
+          "startMs": 17612,
+          "endMs": 17922,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "まし",
+          "startMs": 17932,
+          "endMs": 18112,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "た",
+          "startMs": 18122,
+          "endMs": 18302,
+          "charStart": 22,
+          "charEnd": 23
+        }
+      ]
+    },
+    {
+      "text": "たくさんの男の人が姫と結婚したいと言いました。",
+      "startMs": 19250,
+      "endMs": 23018,
+      "words": [
+        {
+          "text": "たくさん",
+          "startMs": 19360,
+          "endMs": 19750,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "の",
+          "startMs": 19760,
+          "endMs": 19840,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "男",
+          "startMs": 19850,
+          "endMs": 20110,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "の",
+          "startMs": 20120,
+          "endMs": 20200,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "人",
+          "startMs": 20210,
+          "endMs": 20390,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "が",
+          "startMs": 20400,
+          "endMs": 20570,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "姫",
+          "startMs": 20660,
+          "endMs": 20900,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "と",
+          "startMs": 20910,
+          "endMs": 21010,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "結婚",
+          "startMs": 21020,
+          "endMs": 21410,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "し",
+          "startMs": 21420,
+          "endMs": 21520,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "たい",
+          "startMs": 21530,
+          "endMs": 21700,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "と",
+          "startMs": 21710,
+          "endMs": 21790,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "言い",
+          "startMs": 21800,
+          "endMs": 21950,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "まし",
+          "startMs": 21960,
+          "endMs": 22140,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "た",
+          "startMs": 22150,
+          "endMs": 22320,
+          "charStart": 21,
+          "charEnd": 22
+        }
+      ]
+    },
+    {
+      "text": "しかし、かぐや姫は誰とも結婚しませんでした。",
+      "startMs": 23268,
+      "endMs": 27036,
+      "words": [
+        {
+          "text": "しかし",
+          "startMs": 23378,
+          "endMs": 23818,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "かぐや姫",
+          "startMs": 24068,
+          "endMs": 24608,
+          "charStart": 4,
+          "charEnd": 8
+        },
+        {
+          "text": "は",
+          "startMs": 24618,
+          "endMs": 24728,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "誰",
+          "startMs": 24738,
+          "endMs": 24928,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "と",
+          "startMs": 24938,
+          "endMs": 25028,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "も",
+          "startMs": 25038,
+          "endMs": 25148,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "結婚",
+          "startMs": 25158,
+          "endMs": 25538,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "し",
+          "startMs": 25548,
+          "endMs": 25668,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "ませ",
+          "startMs": 25678,
+          "endMs": 25878,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "ん",
+          "startMs": 25888,
+          "endMs": 25938,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "でし",
+          "startMs": 25948,
+          "endMs": 26138,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "た",
+          "startMs": 26148,
+          "endMs": 26328,
+          "charStart": 20,
+          "charEnd": 21
+        }
+      ]
+    },
+    {
+      "text": "夏の終わりに、姫は夜空の月を見て泣きました。",
+      "startMs": 27286,
+      "endMs": 31078,
+      "words": [
+        {
+          "text": "夏",
+          "startMs": 27396,
+          "endMs": 27636,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "の",
+          "startMs": 27646,
+          "endMs": 27736,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "終わり",
+          "startMs": 27746,
+          "endMs": 28016,
+          "charStart": 2,
+          "charEnd": 5
+        },
+        {
+          "text": "に",
+          "startMs": 28026,
+          "endMs": 28226,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "姫",
+          "startMs": 28466,
+          "endMs": 28686,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "は",
+          "startMs": 28696,
+          "endMs": 28816,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "夜空",
+          "startMs": 28826,
+          "endMs": 29156,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "の",
+          "startMs": 29166,
+          "endMs": 29266,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "月",
+          "startMs": 29276,
+          "endMs": 29476,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "を",
+          "startMs": 29486,
+          "endMs": 29566,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "見",
+          "startMs": 29576,
+          "endMs": 29686,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "て",
+          "startMs": 29696,
+          "endMs": 29776,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "泣き",
+          "startMs": 29786,
+          "endMs": 29996,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "まし",
+          "startMs": 30006,
+          "endMs": 30186,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "た",
+          "startMs": 30196,
+          "endMs": 30376,
+          "charStart": 20,
+          "charEnd": 21
+        }
+      ]
+    },
+    {
+      "text": "「私はもうすぐ月の世界へ帰らなければなりません」。",
+      "startMs": 31328,
+      "endMs": 35024,
+      "words": [
+        {
+          "text": "私",
+          "startMs": 31438,
+          "endMs": 31768,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "は",
+          "startMs": 31778,
+          "endMs": 31868,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "もう",
+          "startMs": 31878,
+          "endMs": 32048,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "すぐ",
+          "startMs": 32058,
+          "endMs": 32318,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "月",
+          "startMs": 32328,
+          "endMs": 32538,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "の",
+          "startMs": 32548,
+          "endMs": 32638,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "世界",
+          "startMs": 32648,
+          "endMs": 32968,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "へ",
+          "startMs": 32978,
+          "endMs": 33068,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "帰ら",
+          "startMs": 33078,
+          "endMs": 33358,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "なけれ",
+          "startMs": 33368,
+          "endMs": 33648,
+          "charStart": 14,
+          "charEnd": 17
+        },
+        {
+          "text": "ば",
+          "startMs": 33658,
+          "endMs": 33758,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "なり",
+          "startMs": 33768,
+          "endMs": 33948,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "ませ",
+          "startMs": 33958,
+          "endMs": 34168,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "ん",
+          "startMs": 34178,
+          "endMs": 34318,
+          "charStart": 22,
+          "charEnd": 23
+        }
+      ]
+    },
+    {
+      "text": "満月の夜に、姫は空へ帰っていきました。",
+      "startMs": 35274,
+      "endMs": 38874,
+      "words": [
+        {
+          "text": "満月",
+          "startMs": 35384,
+          "endMs": 35784,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "の",
+          "startMs": 35794,
+          "endMs": 35874,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "夜",
+          "startMs": 35884,
+          "endMs": 36094,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "に",
+          "startMs": 36104,
+          "endMs": 36314,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "姫",
+          "startMs": 36554,
+          "endMs": 36784,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "は",
+          "startMs": 36794,
+          "endMs": 36894,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "空",
+          "startMs": 36904,
+          "endMs": 37114,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "へ",
+          "startMs": 37124,
+          "endMs": 37244,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "帰っ",
+          "startMs": 37254,
+          "endMs": 37514,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "て",
+          "startMs": 37524,
+          "endMs": 37584,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "いき",
+          "startMs": 37594,
+          "endMs": 37784,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "まし",
+          "startMs": 37794,
+          "endMs": 37974,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "た",
+          "startMs": 37984,
+          "endMs": 38164,
+          "charStart": 17,
+          "charEnd": 18
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1166 @@
+{
+  "version": 3,
+  "lang": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 54786,
+  "sentences": [
+    {
+      "text": "En los últimos meses, los residentes del centro antiguo han manifestado su profunda preocupación.",
+      "startMs": 0,
+      "endMs": 4872,
+      "words": [
+        {
+          "text": "En",
+          "startMs": 95,
+          "endMs": 235,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "los",
+          "startMs": 245,
+          "endMs": 385,
+          "charStart": 3,
+          "charEnd": 6
+        },
+        {
+          "text": "últimos",
+          "startMs": 395,
+          "endMs": 705,
+          "charStart": 7,
+          "charEnd": 14
+        },
+        {
+          "text": "meses",
+          "startMs": 715,
+          "endMs": 1055,
+          "charStart": 15,
+          "charEnd": 20
+        },
+        {
+          "text": "los",
+          "startMs": 1225,
+          "endMs": 1345,
+          "charStart": 22,
+          "charEnd": 25
+        },
+        {
+          "text": "residentes",
+          "startMs": 1355,
+          "endMs": 1765,
+          "charStart": 26,
+          "charEnd": 36
+        },
+        {
+          "text": "del",
+          "startMs": 1775,
+          "endMs": 1895,
+          "charStart": 37,
+          "charEnd": 40
+        },
+        {
+          "text": "centro",
+          "startMs": 1905,
+          "endMs": 2145,
+          "charStart": 41,
+          "charEnd": 47
+        },
+        {
+          "text": "antiguo",
+          "startMs": 2155,
+          "endMs": 2475,
+          "charStart": 48,
+          "charEnd": 55
+        },
+        {
+          "text": "han",
+          "startMs": 2485,
+          "endMs": 2555,
+          "charStart": 56,
+          "charEnd": 59
+        },
+        {
+          "text": "manifestado",
+          "startMs": 2565,
+          "endMs": 3035,
+          "charStart": 60,
+          "charEnd": 71
+        },
+        {
+          "text": "su",
+          "startMs": 3045,
+          "endMs": 3145,
+          "charStart": 72,
+          "charEnd": 74
+        },
+        {
+          "text": "profunda",
+          "startMs": 3155,
+          "endMs": 3495,
+          "charStart": 75,
+          "charEnd": 83
+        },
+        {
+          "text": "preocupación",
+          "startMs": 3505,
+          "endMs": 4185,
+          "charStart": 84,
+          "charEnd": 96
+        }
+      ]
+    },
+    {
+      "text": "La proliferación descontrolada de viviendas turísticas ha provocado un incremento desmedido en los alquileres.",
+      "startMs": 5122,
+      "endMs": 10210,
+      "words": [
+        {
+          "text": "La",
+          "startMs": 5222,
+          "endMs": 5412,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "proliferación",
+          "startMs": 5422,
+          "endMs": 5922,
+          "charStart": 3,
+          "charEnd": 16
+        },
+        {
+          "text": "descontrolada",
+          "startMs": 5932,
+          "endMs": 6442,
+          "charStart": 17,
+          "charEnd": 30
+        },
+        {
+          "text": "de",
+          "startMs": 6452,
+          "endMs": 6522,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "viviendas",
+          "startMs": 6532,
+          "endMs": 6892,
+          "charStart": 34,
+          "charEnd": 43
+        },
+        {
+          "text": "turísticas",
+          "startMs": 6902,
+          "endMs": 7372,
+          "charStart": 44,
+          "charEnd": 54
+        },
+        {
+          "text": "ha",
+          "startMs": 7382,
+          "endMs": 7422,
+          "charStart": 55,
+          "charEnd": 57
+        },
+        {
+          "text": "provocado",
+          "startMs": 7432,
+          "endMs": 7832,
+          "charStart": 58,
+          "charEnd": 67
+        },
+        {
+          "text": "un",
+          "startMs": 7842,
+          "endMs": 7932,
+          "charStart": 68,
+          "charEnd": 70
+        },
+        {
+          "text": "incremento",
+          "startMs": 7942,
+          "endMs": 8352,
+          "charStart": 71,
+          "charEnd": 81
+        },
+        {
+          "text": "desmedido",
+          "startMs": 8362,
+          "endMs": 8742,
+          "charStart": 82,
+          "charEnd": 91
+        },
+        {
+          "text": "en",
+          "startMs": 8752,
+          "endMs": 8802,
+          "charStart": 92,
+          "charEnd": 94
+        },
+        {
+          "text": "los",
+          "startMs": 8812,
+          "endMs": 8942,
+          "charStart": 95,
+          "charEnd": 98
+        },
+        {
+          "text": "alquileres",
+          "startMs": 8952,
+          "endMs": 9522,
+          "charStart": 99,
+          "charEnd": 109
+        }
+      ]
+    },
+    {
+      "text": "Como consecuencia de esta situación, muchas familias se han visto obligadas a mudarse a la periferia.",
+      "startMs": 10460,
+      "endMs": 15380,
+      "words": [
+        {
+          "text": "Como",
+          "startMs": 10555,
+          "endMs": 10775,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "consecuencia",
+          "startMs": 10785,
+          "endMs": 11305,
+          "charStart": 5,
+          "charEnd": 17
+        },
+        {
+          "text": "de",
+          "startMs": 11315,
+          "endMs": 11385,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "esta",
+          "startMs": 11395,
+          "endMs": 11555,
+          "charStart": 21,
+          "charEnd": 25
+        },
+        {
+          "text": "situación",
+          "startMs": 11565,
+          "endMs": 12045,
+          "charStart": 26,
+          "charEnd": 35
+        },
+        {
+          "text": "muchas",
+          "startMs": 12235,
+          "endMs": 12465,
+          "charStart": 37,
+          "charEnd": 43
+        },
+        {
+          "text": "familias",
+          "startMs": 12475,
+          "endMs": 12825,
+          "charStart": 44,
+          "charEnd": 52
+        },
+        {
+          "text": "se",
+          "startMs": 12835,
+          "endMs": 12925,
+          "charStart": 53,
+          "charEnd": 55
+        },
+        {
+          "text": "han",
+          "startMs": 12935,
+          "endMs": 13015,
+          "charStart": 56,
+          "charEnd": 59
+        },
+        {
+          "text": "visto",
+          "startMs": 13025,
+          "endMs": 13245,
+          "charStart": 60,
+          "charEnd": 65
+        },
+        {
+          "text": "obligadas",
+          "startMs": 13255,
+          "endMs": 13655,
+          "charStart": 66,
+          "charEnd": 75
+        },
+        {
+          "text": "a",
+          "startMs": 13665,
+          "endMs": 13695,
+          "charStart": 76,
+          "charEnd": 77
+        },
+        {
+          "text": "mudarse",
+          "startMs": 13705,
+          "endMs": 14025,
+          "charStart": 78,
+          "charEnd": 85
+        },
+        {
+          "text": "a",
+          "startMs": 14035,
+          "endMs": 14045,
+          "charStart": 86,
+          "charEnd": 87
+        },
+        {
+          "text": "la",
+          "startMs": 14055,
+          "endMs": 14115,
+          "charStart": 88,
+          "charEnd": 90
+        },
+        {
+          "text": "periferia",
+          "startMs": 14125,
+          "endMs": 14695,
+          "charStart": 91,
+          "charEnd": 100
+        }
+      ]
+    },
+    {
+      "text": "Además, el comercio de proximidad está siendo sustituido por franquicias enfocadas exclusivamente al visitante extranjero.",
+      "startMs": 15630,
+      "endMs": 21486,
+      "words": [
+        {
+          "text": "Además",
+          "startMs": 15730,
+          "endMs": 16220,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "el",
+          "startMs": 16425,
+          "endMs": 16605,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "comercio",
+          "startMs": 16615,
+          "endMs": 16965,
+          "charStart": 11,
+          "charEnd": 19
+        },
+        {
+          "text": "de",
+          "startMs": 16975,
+          "endMs": 17055,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "proximidad",
+          "startMs": 17065,
+          "endMs": 17615,
+          "charStart": 23,
+          "charEnd": 33
+        },
+        {
+          "text": "está",
+          "startMs": 17625,
+          "endMs": 17815,
+          "charStart": 34,
+          "charEnd": 38
+        },
+        {
+          "text": "siendo",
+          "startMs": 17825,
+          "endMs": 18055,
+          "charStart": 39,
+          "charEnd": 45
+        },
+        {
+          "text": "sustituido",
+          "startMs": 18065,
+          "endMs": 18575,
+          "charStart": 46,
+          "charEnd": 56
+        },
+        {
+          "text": "por",
+          "startMs": 18585,
+          "endMs": 18715,
+          "charStart": 57,
+          "charEnd": 60
+        },
+        {
+          "text": "franquicias",
+          "startMs": 18725,
+          "endMs": 19175,
+          "charStart": 61,
+          "charEnd": 72
+        },
+        {
+          "text": "enfocadas",
+          "startMs": 19185,
+          "endMs": 19615,
+          "charStart": 73,
+          "charEnd": 82
+        },
+        {
+          "text": "exclusivamente",
+          "startMs": 19625,
+          "endMs": 20245,
+          "charStart": 83,
+          "charEnd": 97
+        },
+        {
+          "text": "al",
+          "startMs": 20255,
+          "endMs": 20315,
+          "charStart": 98,
+          "charEnd": 100
+        },
+        {
+          "text": "visitante",
+          "startMs": 20325,
+          "endMs": 20715,
+          "charStart": 101,
+          "charEnd": 110
+        },
+        {
+          "text": "extranjero",
+          "startMs": 20725,
+          "endMs": 21335,
+          "charStart": 111,
+          "charEnd": 121
+        }
+      ]
+    },
+    {
+      "text": "Si el gobierno municipal hubiera aprobado normativas más estrictas, se habría evitado este éxodo vecinal.",
+      "startMs": 21736,
+      "endMs": 27088,
+      "words": [
+        {
+          "text": "Si",
+          "startMs": 21831,
+          "endMs": 22031,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "el",
+          "startMs": 22041,
+          "endMs": 22101,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "gobierno",
+          "startMs": 22111,
+          "endMs": 22421,
+          "charStart": 6,
+          "charEnd": 14
+        },
+        {
+          "text": "municipal",
+          "startMs": 22431,
+          "endMs": 22891,
+          "charStart": 15,
+          "charEnd": 24
+        },
+        {
+          "text": "hubiera",
+          "startMs": 22901,
+          "endMs": 23131,
+          "charStart": 25,
+          "charEnd": 32
+        },
+        {
+          "text": "aprobado",
+          "startMs": 23141,
+          "endMs": 23451,
+          "charStart": 33,
+          "charEnd": 41
+        },
+        {
+          "text": "normativas",
+          "startMs": 23461,
+          "endMs": 23931,
+          "charStart": 42,
+          "charEnd": 52
+        },
+        {
+          "text": "más",
+          "startMs": 23941,
+          "endMs": 24091,
+          "charStart": 53,
+          "charEnd": 56
+        },
+        {
+          "text": "estrictas",
+          "startMs": 24101,
+          "endMs": 24591,
+          "charStart": 57,
+          "charEnd": 66
+        },
+        {
+          "text": "se",
+          "startMs": 24741,
+          "endMs": 24871,
+          "charStart": 68,
+          "charEnd": 70
+        },
+        {
+          "text": "habría",
+          "startMs": 24881,
+          "endMs": 25081,
+          "charStart": 71,
+          "charEnd": 77
+        },
+        {
+          "text": "evitado",
+          "startMs": 25091,
+          "endMs": 25431,
+          "charStart": 78,
+          "charEnd": 85
+        },
+        {
+          "text": "este",
+          "startMs": 25441,
+          "endMs": 25621,
+          "charStart": 86,
+          "charEnd": 90
+        },
+        {
+          "text": "éxodo",
+          "startMs": 25631,
+          "endMs": 25891,
+          "charStart": 91,
+          "charEnd": 96
+        },
+        {
+          "text": "vecinal",
+          "startMs": 25901,
+          "endMs": 26401,
+          "charStart": 97,
+          "charEnd": 104
+        }
+      ]
+    },
+    {
+      "text": "Una asociación ciudadana ha propuesto que se limite el número de licencias hoteleras en las zonas saturadas.",
+      "startMs": 27338,
+      "endMs": 32498,
+      "words": [
+        {
+          "text": "Una",
+          "startMs": 27438,
+          "endMs": 27658,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "asociación",
+          "startMs": 27668,
+          "endMs": 28148,
+          "charStart": 4,
+          "charEnd": 14
+        },
+        {
+          "text": "ciudadana",
+          "startMs": 28158,
+          "endMs": 28548,
+          "charStart": 15,
+          "charEnd": 24
+        },
+        {
+          "text": "ha",
+          "startMs": 28558,
+          "endMs": 28608,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "propuesto",
+          "startMs": 28618,
+          "endMs": 29008,
+          "charStart": 28,
+          "charEnd": 37
+        },
+        {
+          "text": "que",
+          "startMs": 29018,
+          "endMs": 29118,
+          "charStart": 38,
+          "charEnd": 41
+        },
+        {
+          "text": "se",
+          "startMs": 29128,
+          "endMs": 29218,
+          "charStart": 42,
+          "charEnd": 44
+        },
+        {
+          "text": "limite",
+          "startMs": 29228,
+          "endMs": 29498,
+          "charStart": 45,
+          "charEnd": 51
+        },
+        {
+          "text": "el",
+          "startMs": 29508,
+          "endMs": 29578,
+          "charStart": 52,
+          "charEnd": 54
+        },
+        {
+          "text": "número",
+          "startMs": 29588,
+          "endMs": 29828,
+          "charStart": 55,
+          "charEnd": 61
+        },
+        {
+          "text": "de",
+          "startMs": 29838,
+          "endMs": 29908,
+          "charStart": 62,
+          "charEnd": 64
+        },
+        {
+          "text": "licencias",
+          "startMs": 29918,
+          "endMs": 30328,
+          "charStart": 65,
+          "charEnd": 74
+        },
+        {
+          "text": "hoteleras",
+          "startMs": 30338,
+          "endMs": 30738,
+          "charStart": 75,
+          "charEnd": 84
+        },
+        {
+          "text": "en",
+          "startMs": 30748,
+          "endMs": 30808,
+          "charStart": 85,
+          "charEnd": 87
+        },
+        {
+          "text": "las",
+          "startMs": 30818,
+          "endMs": 30958,
+          "charStart": 88,
+          "charEnd": 91
+        },
+        {
+          "text": "zonas",
+          "startMs": 30968,
+          "endMs": 31178,
+          "charStart": 92,
+          "charEnd": 97
+        },
+        {
+          "text": "saturadas",
+          "startMs": 31188,
+          "endMs": 31808,
+          "charStart": 98,
+          "charEnd": 107
+        }
+      ]
+    },
+    {
+      "text": "A pesar de que el sector turístico genera inmensos beneficios económicos, no debe destruir el tejido social.",
+      "startMs": 32748,
+      "endMs": 38220,
+      "words": [
+        {
+          "text": "A",
+          "startMs": 32843,
+          "endMs": 32973,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "pesar",
+          "startMs": 32983,
+          "endMs": 33243,
+          "charStart": 2,
+          "charEnd": 7
+        },
+        {
+          "text": "de",
+          "startMs": 33253,
+          "endMs": 33323,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "que",
+          "startMs": 33333,
+          "endMs": 33413,
+          "charStart": 11,
+          "charEnd": 14
+        },
+        {
+          "text": "el",
+          "startMs": 33423,
+          "endMs": 33493,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "sector",
+          "startMs": 33503,
+          "endMs": 33783,
+          "charStart": 18,
+          "charEnd": 24
+        },
+        {
+          "text": "turístico",
+          "startMs": 33793,
+          "endMs": 34223,
+          "charStart": 25,
+          "charEnd": 34
+        },
+        {
+          "text": "genera",
+          "startMs": 34233,
+          "endMs": 34513,
+          "charStart": 35,
+          "charEnd": 41
+        },
+        {
+          "text": "inmensos",
+          "startMs": 34523,
+          "endMs": 34883,
+          "charStart": 42,
+          "charEnd": 50
+        },
+        {
+          "text": "beneficios",
+          "startMs": 34893,
+          "endMs": 35343,
+          "charStart": 51,
+          "charEnd": 61
+        },
+        {
+          "text": "económicos",
+          "startMs": 35353,
+          "endMs": 35893,
+          "charStart": 62,
+          "charEnd": 72
+        },
+        {
+          "text": "no",
+          "startMs": 36063,
+          "endMs": 36163,
+          "charStart": 74,
+          "charEnd": 76
+        },
+        {
+          "text": "debe",
+          "startMs": 36173,
+          "endMs": 36323,
+          "charStart": 77,
+          "charEnd": 81
+        },
+        {
+          "text": "destruir",
+          "startMs": 36333,
+          "endMs": 36683,
+          "charStart": 82,
+          "charEnd": 90
+        },
+        {
+          "text": "el",
+          "startMs": 36693,
+          "endMs": 36763,
+          "charStart": 91,
+          "charEnd": 93
+        },
+        {
+          "text": "tejido",
+          "startMs": 36773,
+          "endMs": 37053,
+          "charStart": 94,
+          "charEnd": 100
+        },
+        {
+          "text": "social",
+          "startMs": 37063,
+          "endMs": 37533,
+          "charStart": 101,
+          "charEnd": 107
+        }
+      ]
+    },
+    {
+      "text": "Es urgente que las autoridades implementen medidas sostenibles antes de que el patrimonio cultural pierda su autenticidad.",
+      "startMs": 38470,
+      "endMs": 43510,
+      "words": [
+        {
+          "text": "Es",
+          "startMs": 38570,
+          "endMs": 38780,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "urgente",
+          "startMs": 38790,
+          "endMs": 39160,
+          "charStart": 3,
+          "charEnd": 10
+        },
+        {
+          "text": "que",
+          "startMs": 39170,
+          "endMs": 39240,
+          "charStart": 11,
+          "charEnd": 14
+        },
+        {
+          "text": "las",
+          "startMs": 39250,
+          "endMs": 39370,
+          "charStart": 15,
+          "charEnd": 18
+        },
+        {
+          "text": "autoridades",
+          "startMs": 39380,
+          "endMs": 39850,
+          "charStart": 19,
+          "charEnd": 30
+        },
+        {
+          "text": "implementen",
+          "startMs": 39860,
+          "endMs": 40310,
+          "charStart": 31,
+          "charEnd": 42
+        },
+        {
+          "text": "medidas",
+          "startMs": 40320,
+          "endMs": 40630,
+          "charStart": 43,
+          "charEnd": 50
+        },
+        {
+          "text": "sostenibles",
+          "startMs": 40640,
+          "endMs": 41130,
+          "charStart": 51,
+          "charEnd": 62
+        },
+        {
+          "text": "antes",
+          "startMs": 41140,
+          "endMs": 41370,
+          "charStart": 63,
+          "charEnd": 68
+        },
+        {
+          "text": "de",
+          "startMs": 41380,
+          "endMs": 41450,
+          "charStart": 69,
+          "charEnd": 71
+        },
+        {
+          "text": "que",
+          "startMs": 41460,
+          "endMs": 41530,
+          "charStart": 72,
+          "charEnd": 75
+        },
+        {
+          "text": "el",
+          "startMs": 41540,
+          "endMs": 41610,
+          "charStart": 76,
+          "charEnd": 78
+        },
+        {
+          "text": "patrimonio",
+          "startMs": 41620,
+          "endMs": 42030,
+          "charStart": 79,
+          "charEnd": 89
+        },
+        {
+          "text": "cultural",
+          "startMs": 42040,
+          "endMs": 42410,
+          "charStart": 90,
+          "charEnd": 98
+        },
+        {
+          "text": "pierda",
+          "startMs": 42420,
+          "endMs": 42650,
+          "charStart": 99,
+          "charEnd": 105
+        },
+        {
+          "text": "su",
+          "startMs": 42660,
+          "endMs": 42770,
+          "charStart": 106,
+          "charEnd": 108
+        },
+        {
+          "text": "autenticidad",
+          "startMs": 42780,
+          "endMs": 43380,
+          "charStart": 109,
+          "charEnd": 121
+        }
+      ]
+    },
+    {
+      "text": "Por otra parte, los urbanistas sugieren descentralizar los atractivos culturales hacia otros barrios menos conocidos.",
+      "startMs": 43760,
+      "endMs": 49760,
+      "words": [
+        {
+          "text": "Por",
+          "startMs": 43860,
+          "endMs": 44040,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "otra",
+          "startMs": 44050,
+          "endMs": 44210,
+          "charStart": 4,
+          "charEnd": 8
+        },
+        {
+          "text": "parte",
+          "startMs": 44220,
+          "endMs": 44560,
+          "charStart": 9,
+          "charEnd": 14
+        },
+        {
+          "text": "los",
+          "startMs": 44790,
+          "endMs": 45050,
+          "charStart": 16,
+          "charEnd": 19
+        },
+        {
+          "text": "urbanistas",
+          "startMs": 45060,
+          "endMs": 45510,
+          "charStart": 20,
+          "charEnd": 30
+        },
+        {
+          "text": "sugieren",
+          "startMs": 45520,
+          "endMs": 45830,
+          "charStart": 31,
+          "charEnd": 39
+        },
+        {
+          "text": "descentralizar",
+          "startMs": 45840,
+          "endMs": 46410,
+          "charStart": 40,
+          "charEnd": 54
+        },
+        {
+          "text": "los",
+          "startMs": 46420,
+          "endMs": 46530,
+          "charStart": 55,
+          "charEnd": 58
+        },
+        {
+          "text": "atractivos",
+          "startMs": 46540,
+          "endMs": 46990,
+          "charStart": 59,
+          "charEnd": 69
+        },
+        {
+          "text": "culturales",
+          "startMs": 47000,
+          "endMs": 47480,
+          "charStart": 70,
+          "charEnd": 80
+        },
+        {
+          "text": "hacia",
+          "startMs": 47490,
+          "endMs": 47680,
+          "charStart": 81,
+          "charEnd": 86
+        },
+        {
+          "text": "otros",
+          "startMs": 47690,
+          "endMs": 47910,
+          "charStart": 87,
+          "charEnd": 92
+        },
+        {
+          "text": "barrios",
+          "startMs": 47920,
+          "endMs": 48230,
+          "charStart": 93,
+          "charEnd": 100
+        },
+        {
+          "text": "menos",
+          "startMs": 48240,
+          "endMs": 48450,
+          "charStart": 101,
+          "charEnd": 106
+        },
+        {
+          "text": "conocidos",
+          "startMs": 48460,
+          "endMs": 49060,
+          "charStart": 107,
+          "charEnd": 116
+        }
+      ]
+    },
+    {
+      "text": "Solo lograremos un equilibrio armonioso siempre que se priorice el bienestar de la comunidad local.",
+      "startMs": 50010,
+      "endMs": 54786,
+      "words": [
+        {
+          "text": "Solo",
+          "startMs": 50110,
+          "endMs": 50420,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "lograremos",
+          "startMs": 50430,
+          "endMs": 50890,
+          "charStart": 5,
+          "charEnd": 15
+        },
+        {
+          "text": "un",
+          "startMs": 50900,
+          "endMs": 50980,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "equilibrio",
+          "startMs": 50990,
+          "endMs": 51370,
+          "charStart": 19,
+          "charEnd": 29
+        },
+        {
+          "text": "armonioso",
+          "startMs": 51380,
+          "endMs": 51810,
+          "charStart": 30,
+          "charEnd": 39
+        },
+        {
+          "text": "siempre",
+          "startMs": 51820,
+          "endMs": 52110,
+          "charStart": 40,
+          "charEnd": 47
+        },
+        {
+          "text": "que",
+          "startMs": 52120,
+          "endMs": 52200,
+          "charStart": 48,
+          "charEnd": 51
+        },
+        {
+          "text": "se",
+          "startMs": 52210,
+          "endMs": 52300,
+          "charStart": 52,
+          "charEnd": 54
+        },
+        {
+          "text": "priorice",
+          "startMs": 52310,
+          "endMs": 52620,
+          "charStart": 55,
+          "charEnd": 63
+        },
+        {
+          "text": "el",
+          "startMs": 52630,
+          "endMs": 52680,
+          "charStart": 64,
+          "charEnd": 66
+        },
+        {
+          "text": "bienestar",
+          "startMs": 52690,
+          "endMs": 53070,
+          "charStart": 67,
+          "charEnd": 76
+        },
+        {
+          "text": "de",
+          "startMs": 53080,
+          "endMs": 53140,
+          "charStart": 77,
+          "charEnd": 79
+        },
+        {
+          "text": "la",
+          "startMs": 53150,
+          "endMs": 53220,
+          "charStart": 80,
+          "charEnd": 82
+        },
+        {
+          "text": "comunidad",
+          "startMs": 53230,
+          "endMs": 53630,
+          "charStart": 83,
+          "charEnd": 92
+        },
+        {
+          "text": "local",
+          "startMs": 53640,
+          "endMs": 54100,
+          "charStart": 93,
+          "charEnd": 98
+        }
+      ]
+    }
+  ]
+}

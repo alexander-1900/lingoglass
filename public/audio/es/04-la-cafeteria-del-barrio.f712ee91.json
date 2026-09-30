@@ -1,0 +1,501 @@
+{
+  "version": 3,
+  "lang": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 25938,
+  "sentences": [
+    {
+      "text": "Hay una cafetería cerca del parque.",
+      "startMs": 0,
+      "endMs": 2376,
+      "words": [
+        {
+          "text": "Hay",
+          "startMs": 95,
+          "endMs": 305,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "una",
+          "startMs": 315,
+          "endMs": 425,
+          "charStart": 4,
+          "charEnd": 7
+        },
+        {
+          "text": "cafetería",
+          "startMs": 435,
+          "endMs": 895,
+          "charStart": 8,
+          "charEnd": 17
+        },
+        {
+          "text": "cerca",
+          "startMs": 905,
+          "endMs": 1145,
+          "charStart": 18,
+          "charEnd": 23
+        },
+        {
+          "text": "del",
+          "startMs": 1155,
+          "endMs": 1265,
+          "charStart": 24,
+          "charEnd": 27
+        },
+        {
+          "text": "parque",
+          "startMs": 1275,
+          "endMs": 1685,
+          "charStart": 28,
+          "charEnd": 34
+        }
+      ]
+    },
+    {
+      "text": "El lugar es tranquilo y luminoso.",
+      "startMs": 2626,
+      "endMs": 4882,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 2721,
+          "endMs": 2881,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "lugar",
+          "startMs": 2891,
+          "endMs": 3101,
+          "charStart": 3,
+          "charEnd": 8
+        },
+        {
+          "text": "es",
+          "startMs": 3111,
+          "endMs": 3201,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "tranquilo",
+          "startMs": 3211,
+          "endMs": 3561,
+          "charStart": 12,
+          "charEnd": 21
+        },
+        {
+          "text": "y",
+          "startMs": 3571,
+          "endMs": 3591,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "luminoso",
+          "startMs": 3601,
+          "endMs": 4181,
+          "charStart": 24,
+          "charEnd": 32
+        }
+      ]
+    },
+    {
+      "text": "El camarero nuevo entrega la carta.",
+      "startMs": 5132,
+      "endMs": 7580,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 5227,
+          "endMs": 5417,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "camarero",
+          "startMs": 5427,
+          "endMs": 5767,
+          "charStart": 3,
+          "charEnd": 11
+        },
+        {
+          "text": "nuevo",
+          "startMs": 5777,
+          "endMs": 6007,
+          "charStart": 12,
+          "charEnd": 17
+        },
+        {
+          "text": "entrega",
+          "startMs": 6017,
+          "endMs": 6307,
+          "charStart": 18,
+          "charEnd": 25
+        },
+        {
+          "text": "la",
+          "startMs": 6317,
+          "endMs": 6407,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "carta",
+          "startMs": 6417,
+          "endMs": 6897,
+          "charStart": 29,
+          "charEnd": 34
+        }
+      ]
+    },
+    {
+      "text": "Mateo pide un café con leche.",
+      "startMs": 7830,
+      "endMs": 10134,
+      "words": [
+        {
+          "text": "Mateo",
+          "startMs": 7930,
+          "endMs": 8330,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "pide",
+          "startMs": 8340,
+          "endMs": 8530,
+          "charStart": 6,
+          "charEnd": 10
+        },
+        {
+          "text": "un",
+          "startMs": 8540,
+          "endMs": 8630,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "café",
+          "startMs": 8640,
+          "endMs": 8860,
+          "charStart": 14,
+          "charEnd": 18
+        },
+        {
+          "text": "con",
+          "startMs": 8870,
+          "endMs": 9000,
+          "charStart": 19,
+          "charEnd": 22
+        },
+        {
+          "text": "leche",
+          "startMs": 9010,
+          "endMs": 9440,
+          "charStart": 23,
+          "charEnd": 28
+        }
+      ]
+    },
+    {
+      "text": "Su hermana Elena prefiere té verde.",
+      "startMs": 10384,
+      "endMs": 12808,
+      "words": [
+        {
+          "text": "Su",
+          "startMs": 10479,
+          "endMs": 10689,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "hermana",
+          "startMs": 10699,
+          "endMs": 10979,
+          "charStart": 3,
+          "charEnd": 10
+        },
+        {
+          "text": "Elena",
+          "startMs": 10989,
+          "endMs": 11259,
+          "charStart": 11,
+          "charEnd": 16
+        },
+        {
+          "text": "prefiere",
+          "startMs": 11269,
+          "endMs": 11609,
+          "charStart": 17,
+          "charEnd": 25
+        },
+        {
+          "text": "té",
+          "startMs": 11619,
+          "endMs": 11699,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "verde",
+          "startMs": 11709,
+          "endMs": 12109,
+          "charStart": 29,
+          "charEnd": 34
+        }
+      ]
+    },
+    {
+      "text": "Ellos comen una tarta de chocolate.",
+      "startMs": 13058,
+      "endMs": 15458,
+      "words": [
+        {
+          "text": "Ellos",
+          "startMs": 13153,
+          "endMs": 13453,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "comen",
+          "startMs": 13463,
+          "endMs": 13683,
+          "charStart": 6,
+          "charEnd": 11
+        },
+        {
+          "text": "una",
+          "startMs": 13693,
+          "endMs": 13833,
+          "charStart": 12,
+          "charEnd": 15
+        },
+        {
+          "text": "tarta",
+          "startMs": 13843,
+          "endMs": 14093,
+          "charStart": 16,
+          "charEnd": 21
+        },
+        {
+          "text": "de",
+          "startMs": 14103,
+          "endMs": 14183,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "chocolate",
+          "startMs": 14193,
+          "endMs": 14773,
+          "charStart": 25,
+          "charEnd": 34
+        }
+      ]
+    },
+    {
+      "text": "La comida está fresca y dulce.",
+      "startMs": 15708,
+      "endMs": 17964,
+      "words": [
+        {
+          "text": "La",
+          "startMs": 15808,
+          "endMs": 16008,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "comida",
+          "startMs": 16018,
+          "endMs": 16308,
+          "charStart": 3,
+          "charEnd": 9
+        },
+        {
+          "text": "está",
+          "startMs": 16318,
+          "endMs": 16518,
+          "charStart": 10,
+          "charEnd": 14
+        },
+        {
+          "text": "fresca",
+          "startMs": 16528,
+          "endMs": 16798,
+          "charStart": 15,
+          "charEnd": 21
+        },
+        {
+          "text": "y",
+          "startMs": 16808,
+          "endMs": 16838,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "dulce",
+          "startMs": 16848,
+          "endMs": 17278,
+          "charStart": 24,
+          "charEnd": 29
+        }
+      ]
+    },
+    {
+      "text": "Mateo lee una revista de viajes.",
+      "startMs": 18214,
+      "endMs": 20686,
+      "words": [
+        {
+          "text": "Mateo",
+          "startMs": 18309,
+          "endMs": 18669,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "lee",
+          "startMs": 18679,
+          "endMs": 18849,
+          "charStart": 6,
+          "charEnd": 9
+        },
+        {
+          "text": "una",
+          "startMs": 18859,
+          "endMs": 18989,
+          "charStart": 10,
+          "charEnd": 13
+        },
+        {
+          "text": "revista",
+          "startMs": 18999,
+          "endMs": 19349,
+          "charStart": 14,
+          "charEnd": 21
+        },
+        {
+          "text": "de",
+          "startMs": 19359,
+          "endMs": 19429,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "viajes",
+          "startMs": 19439,
+          "endMs": 19989,
+          "charStart": 25,
+          "charEnd": 31
+        }
+      ]
+    },
+    {
+      "text": "Elena escribe un mensaje por teléfono.",
+      "startMs": 20936,
+      "endMs": 23504,
+      "words": [
+        {
+          "text": "Elena",
+          "startMs": 21031,
+          "endMs": 21351,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "escribe",
+          "startMs": 21361,
+          "endMs": 21671,
+          "charStart": 6,
+          "charEnd": 13
+        },
+        {
+          "text": "un",
+          "startMs": 21681,
+          "endMs": 21761,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "mensaje",
+          "startMs": 21771,
+          "endMs": 22161,
+          "charStart": 17,
+          "charEnd": 24
+        },
+        {
+          "text": "por",
+          "startMs": 22171,
+          "endMs": 22301,
+          "charStart": 25,
+          "charEnd": 28
+        },
+        {
+          "text": "teléfono",
+          "startMs": 22311,
+          "endMs": 22811,
+          "charStart": 29,
+          "charEnd": 37
+        }
+      ]
+    },
+    {
+      "text": "Ellos pagan la cuenta y salen.",
+      "startMs": 23754,
+      "endMs": 25938,
+      "words": [
+        {
+          "text": "Ellos",
+          "startMs": 23849,
+          "endMs": 24169,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "pagan",
+          "startMs": 24179,
+          "endMs": 24399,
+          "charStart": 6,
+          "charEnd": 11
+        },
+        {
+          "text": "la",
+          "startMs": 24409,
+          "endMs": 24499,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "cuenta",
+          "startMs": 24509,
+          "endMs": 24739,
+          "charStart": 15,
+          "charEnd": 21
+        },
+        {
+          "text": "y",
+          "startMs": 24749,
+          "endMs": 24789,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "salen",
+          "startMs": 24799,
+          "endMs": 25249,
+          "charStart": 24,
+          "charEnd": 29
+        }
+      ]
+    }
+  ]
+}

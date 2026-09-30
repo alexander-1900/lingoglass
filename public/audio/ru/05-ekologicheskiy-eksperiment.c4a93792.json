@@ -1,0 +1,606 @@
+{
+  "version": 3,
+  "lang": "ru",
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 41874,
+  "sentences": [
+    {
+      "text": "Жители небольшого района начали сортировать домашние отходы.",
+      "startMs": 0,
+      "endMs": 3720,
+      "words": [
+        {
+          "text": "Жители",
+          "startMs": 100,
+          "endMs": 570,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "небольшого",
+          "startMs": 570,
+          "endMs": 950,
+          "charStart": 7,
+          "charEnd": 17
+        },
+        {
+          "text": "района",
+          "startMs": 950,
+          "endMs": 1270,
+          "charStart": 18,
+          "charEnd": 24
+        },
+        {
+          "text": "начали",
+          "startMs": 1270,
+          "endMs": 1640,
+          "charStart": 25,
+          "charEnd": 31
+        },
+        {
+          "text": "сортировать",
+          "startMs": 1640,
+          "endMs": 2120,
+          "charStart": 32,
+          "charEnd": 43
+        },
+        {
+          "text": "домашние",
+          "startMs": 2120,
+          "endMs": 2560,
+          "charStart": 44,
+          "charEnd": 52
+        },
+        {
+          "text": "отходы",
+          "startMs": 2560,
+          "endMs": 2990,
+          "charStart": 53,
+          "charEnd": 59
+        }
+      ]
+    },
+    {
+      "text": "Местная администрация установила специальные разноцветные контейнеры.",
+      "startMs": 3970,
+      "endMs": 8026,
+      "words": [
+        {
+          "text": "Местная",
+          "startMs": 4070,
+          "endMs": 4530,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "администрация",
+          "startMs": 4530,
+          "endMs": 5140,
+          "charStart": 8,
+          "charEnd": 21
+        },
+        {
+          "text": "установила",
+          "startMs": 5140,
+          "endMs": 5620,
+          "charStart": 22,
+          "charEnd": 32
+        },
+        {
+          "text": "специальные",
+          "startMs": 5620,
+          "endMs": 6140,
+          "charStart": 33,
+          "charEnd": 44
+        },
+        {
+          "text": "разноцветные",
+          "startMs": 6140,
+          "endMs": 6720,
+          "charStart": 45,
+          "charEnd": 57
+        },
+        {
+          "text": "контейнеры",
+          "startMs": 6720,
+          "endMs": 7290,
+          "charStart": 58,
+          "charEnd": 68
+        }
+      ]
+    },
+    {
+      "text": "Организаторы объяснили гражданам важность переработки пластика.",
+      "startMs": 8276,
+      "endMs": 12068,
+      "words": [
+        {
+          "text": "Организаторы",
+          "startMs": 8376,
+          "endMs": 9006,
+          "charStart": 0,
+          "charEnd": 12
+        },
+        {
+          "text": "объяснили",
+          "startMs": 9006,
+          "endMs": 9506,
+          "charStart": 13,
+          "charEnd": 22
+        },
+        {
+          "text": "гражданам",
+          "startMs": 9506,
+          "endMs": 9946,
+          "charStart": 23,
+          "charEnd": 32
+        },
+        {
+          "text": "важность",
+          "startMs": 9946,
+          "endMs": 10336,
+          "charStart": 33,
+          "charEnd": 41
+        },
+        {
+          "text": "переработки",
+          "startMs": 10336,
+          "endMs": 10856,
+          "charStart": 42,
+          "charEnd": 53
+        },
+        {
+          "text": "пластика",
+          "startMs": 10856,
+          "endMs": 11346,
+          "charStart": 54,
+          "charEnd": 62
+        }
+      ]
+    },
+    {
+      "text": "Сначала многие соседи сомневались в успехе этого начинания.",
+      "startMs": 12318,
+      "endMs": 16254,
+      "words": [
+        {
+          "text": "Сначала",
+          "startMs": 12418,
+          "endMs": 12918,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "многие",
+          "startMs": 12918,
+          "endMs": 13248,
+          "charStart": 8,
+          "charEnd": 14
+        },
+        {
+          "text": "соседи",
+          "startMs": 13248,
+          "endMs": 13628,
+          "charStart": 15,
+          "charEnd": 21
+        },
+        {
+          "text": "сомневались",
+          "startMs": 13628,
+          "endMs": 14098,
+          "charStart": 22,
+          "charEnd": 33
+        },
+        {
+          "text": "в",
+          "startMs": 14098,
+          "endMs": 14168,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "успехе",
+          "startMs": 14168,
+          "endMs": 14628,
+          "charStart": 36,
+          "charEnd": 42
+        },
+        {
+          "text": "этого",
+          "startMs": 14628,
+          "endMs": 14858,
+          "charStart": 43,
+          "charEnd": 48
+        },
+        {
+          "text": "начинания",
+          "startMs": 14858,
+          "endMs": 15518,
+          "charStart": 49,
+          "charEnd": 58
+        }
+      ]
+    },
+    {
+      "text": "Однако активисты регулярно проводили интересные разъяснительные встречи.",
+      "startMs": 16504,
+      "endMs": 20632,
+      "words": [
+        {
+          "text": "Однако",
+          "startMs": 16604,
+          "endMs": 17064,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "активисты",
+          "startMs": 17064,
+          "endMs": 17484,
+          "charStart": 7,
+          "charEnd": 16
+        },
+        {
+          "text": "регулярно",
+          "startMs": 17484,
+          "endMs": 17904,
+          "charStart": 17,
+          "charEnd": 26
+        },
+        {
+          "text": "проводили",
+          "startMs": 17904,
+          "endMs": 18344,
+          "charStart": 27,
+          "charEnd": 36
+        },
+        {
+          "text": "интересные",
+          "startMs": 18344,
+          "endMs": 18894,
+          "charStart": 37,
+          "charEnd": 47
+        },
+        {
+          "text": "разъяснительные",
+          "startMs": 18894,
+          "endMs": 19474,
+          "charStart": 48,
+          "charEnd": 63
+        },
+        {
+          "text": "встречи",
+          "startMs": 19474,
+          "endMs": 19944,
+          "charStart": 64,
+          "charEnd": 71
+        }
+      ]
+    },
+    {
+      "text": "Люди постепенно научились правильно разделять стекло, бумагу и металл.",
+      "startMs": 20882,
+      "endMs": 25202,
+      "words": [
+        {
+          "text": "Люди",
+          "startMs": 20982,
+          "endMs": 21382,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "постепенно",
+          "startMs": 21382,
+          "endMs": 21792,
+          "charStart": 5,
+          "charEnd": 15
+        },
+        {
+          "text": "научились",
+          "startMs": 21792,
+          "endMs": 22192,
+          "charStart": 16,
+          "charEnd": 25
+        },
+        {
+          "text": "правильно",
+          "startMs": 22192,
+          "endMs": 22542,
+          "charStart": 26,
+          "charEnd": 35
+        },
+        {
+          "text": "разделять",
+          "startMs": 22542,
+          "endMs": 22872,
+          "charStart": 36,
+          "charEnd": 45
+        },
+        {
+          "text": "стекло",
+          "startMs": 22872,
+          "endMs": 23262,
+          "charStart": 46,
+          "charEnd": 52
+        },
+        {
+          "text": "бумагу",
+          "startMs": 23472,
+          "endMs": 23912,
+          "charStart": 54,
+          "charEnd": 60
+        },
+        {
+          "text": "и",
+          "startMs": 23912,
+          "endMs": 24032,
+          "charStart": 61,
+          "charEnd": 62
+        },
+        {
+          "text": "металл",
+          "startMs": 24032,
+          "endMs": 24472,
+          "charStart": 63,
+          "charEnd": 69
+        }
+      ]
+    },
+    {
+      "text": "Количество вывозимого мусора заметно сократилось за полгода.",
+      "startMs": 25452,
+      "endMs": 29124,
+      "words": [
+        {
+          "text": "Количество",
+          "startMs": 25552,
+          "endMs": 26092,
+          "charStart": 0,
+          "charEnd": 10
+        },
+        {
+          "text": "вывозимого",
+          "startMs": 26092,
+          "endMs": 26572,
+          "charStart": 11,
+          "charEnd": 21
+        },
+        {
+          "text": "мусора",
+          "startMs": 26572,
+          "endMs": 26902,
+          "charStart": 22,
+          "charEnd": 28
+        },
+        {
+          "text": "заметно",
+          "startMs": 26902,
+          "endMs": 27292,
+          "charStart": 29,
+          "charEnd": 36
+        },
+        {
+          "text": "сократилось",
+          "startMs": 27292,
+          "endMs": 27772,
+          "charStart": 37,
+          "charEnd": 48
+        },
+        {
+          "text": "за",
+          "startMs": 27772,
+          "endMs": 27892,
+          "charStart": 49,
+          "charEnd": 51
+        },
+        {
+          "text": "полгода",
+          "startMs": 27892,
+          "endMs": 28402,
+          "charStart": 52,
+          "charEnd": 59
+        }
+      ]
+    },
+    {
+      "text": "Чистые ухоженные улицы стали поводом для гордости всех жителей.",
+      "startMs": 29374,
+      "endMs": 33334,
+      "words": [
+        {
+          "text": "Чистые",
+          "startMs": 29474,
+          "endMs": 29914,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "ухоженные",
+          "startMs": 29914,
+          "endMs": 30424,
+          "charStart": 7,
+          "charEnd": 16
+        },
+        {
+          "text": "улицы",
+          "startMs": 30424,
+          "endMs": 30784,
+          "charStart": 17,
+          "charEnd": 22
+        },
+        {
+          "text": "стали",
+          "startMs": 30784,
+          "endMs": 31074,
+          "charStart": 23,
+          "charEnd": 28
+        },
+        {
+          "text": "поводом",
+          "startMs": 31074,
+          "endMs": 31394,
+          "charStart": 29,
+          "charEnd": 36
+        },
+        {
+          "text": "для",
+          "startMs": 31394,
+          "endMs": 31524,
+          "charStart": 37,
+          "charEnd": 40
+        },
+        {
+          "text": "гордости",
+          "startMs": 31524,
+          "endMs": 31924,
+          "charStart": 41,
+          "charEnd": 49
+        },
+        {
+          "text": "всех",
+          "startMs": 31924,
+          "endMs": 32174,
+          "charStart": 50,
+          "charEnd": 54
+        },
+        {
+          "text": "жителей",
+          "startMs": 32174,
+          "endMs": 32634,
+          "charStart": 55,
+          "charEnd": 62
+        }
+      ]
+    },
+    {
+      "text": "Соседние микрорайоны также решили перенять этот полезный опыт.",
+      "startMs": 33584,
+      "endMs": 37592,
+      "words": [
+        {
+          "text": "Соседние",
+          "startMs": 33684,
+          "endMs": 34244,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "микрорайоны",
+          "startMs": 34244,
+          "endMs": 34824,
+          "charStart": 9,
+          "charEnd": 20
+        },
+        {
+          "text": "также",
+          "startMs": 34824,
+          "endMs": 35144,
+          "charStart": 21,
+          "charEnd": 26
+        },
+        {
+          "text": "решили",
+          "startMs": 35144,
+          "endMs": 35464,
+          "charStart": 27,
+          "charEnd": 33
+        },
+        {
+          "text": "перенять",
+          "startMs": 35464,
+          "endMs": 35884,
+          "charStart": 34,
+          "charEnd": 42
+        },
+        {
+          "text": "этот",
+          "startMs": 35884,
+          "endMs": 36084,
+          "charStart": 43,
+          "charEnd": 47
+        },
+        {
+          "text": "полезный",
+          "startMs": 36084,
+          "endMs": 36454,
+          "charStart": 48,
+          "charEnd": 56
+        },
+        {
+          "text": "опыт",
+          "startMs": 36454,
+          "endMs": 36844,
+          "charStart": 57,
+          "charEnd": 61
+        }
+      ]
+    },
+    {
+      "text": "Экологический проект доказал, что совместные усилия меняют мир.",
+      "startMs": 37842,
+      "endMs": 41874,
+      "words": [
+        {
+          "text": "Экологический",
+          "startMs": 37942,
+          "endMs": 38602,
+          "charStart": 0,
+          "charEnd": 13
+        },
+        {
+          "text": "проект",
+          "startMs": 38602,
+          "endMs": 38892,
+          "charStart": 14,
+          "charEnd": 20
+        },
+        {
+          "text": "доказал",
+          "startMs": 38892,
+          "endMs": 39312,
+          "charStart": 21,
+          "charEnd": 28
+        },
+        {
+          "text": "что",
+          "startMs": 39512,
+          "endMs": 39682,
+          "charStart": 30,
+          "charEnd": 33
+        },
+        {
+          "text": "совместные",
+          "startMs": 39682,
+          "endMs": 40162,
+          "charStart": 34,
+          "charEnd": 44
+        },
+        {
+          "text": "усилия",
+          "startMs": 40162,
+          "endMs": 40502,
+          "charStart": 45,
+          "charEnd": 51
+        },
+        {
+          "text": "меняют",
+          "startMs": 40502,
+          "endMs": 40882,
+          "charStart": 52,
+          "charEnd": 58
+        },
+        {
+          "text": "мир",
+          "startMs": 40882,
+          "endMs": 41172,
+          "charStart": 59,
+          "charEnd": 62
+        }
+      ]
+    }
+  ]
+}

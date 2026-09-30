@@ -1,0 +1,2048 @@
+{
+  "version": 3,
+  "lang": "ja",
+  "voice": "ja-JP-NanamiNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 78762,
+  "sentences": [
+    {
+      "text": "雲海の上にそびえ立つ大魔導学園の天体観測塔で、若き星詠みのセリアは不穏な星の運行を観測していた。",
+      "startMs": 0,
+      "endMs": 8040,
+      "words": [
+        {
+          "text": "雲海",
+          "startMs": 140,
+          "endMs": 480,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "の",
+          "startMs": 490,
+          "endMs": 570,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "上",
+          "startMs": 580,
+          "endMs": 720,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "に",
+          "startMs": 730,
+          "endMs": 900,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "そびえ",
+          "startMs": 960,
+          "endMs": 1280,
+          "charStart": 5,
+          "charEnd": 8
+        },
+        {
+          "text": "立つ",
+          "startMs": 1290,
+          "endMs": 1510,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "大",
+          "startMs": 1520,
+          "endMs": 1670,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "魔",
+          "startMs": 1680,
+          "endMs": 1760,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "導",
+          "startMs": 1770,
+          "endMs": 1940,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "学",
+          "startMs": 1950,
+          "endMs": 2130,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "園",
+          "startMs": 2140,
+          "endMs": 2320,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "の",
+          "startMs": 2330,
+          "endMs": 2470,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "天体",
+          "startMs": 2490,
+          "endMs": 2880,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "観測",
+          "startMs": 2890,
+          "endMs": 3270,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "塔",
+          "startMs": 3280,
+          "endMs": 3440,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "で",
+          "startMs": 3450,
+          "endMs": 3620,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "若き",
+          "startMs": 3750,
+          "endMs": 4090,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "星",
+          "startMs": 4100,
+          "endMs": 4340,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "詠み",
+          "startMs": 4350,
+          "endMs": 4520,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "の",
+          "startMs": 4530,
+          "endMs": 4610,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "セリア",
+          "startMs": 4620,
+          "endMs": 4920,
+          "charStart": 29,
+          "charEnd": 32
+        },
+        {
+          "text": "は",
+          "startMs": 4930,
+          "endMs": 5160,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "不穏",
+          "startMs": 5290,
+          "endMs": 5550,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "な",
+          "startMs": 5560,
+          "endMs": 5650,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "星",
+          "startMs": 5660,
+          "endMs": 5880,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "の",
+          "startMs": 5890,
+          "endMs": 5980,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "運行",
+          "startMs": 5990,
+          "endMs": 6340,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "を",
+          "startMs": 6350,
+          "endMs": 6440,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "観測",
+          "startMs": 6450,
+          "endMs": 6860,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "し",
+          "startMs": 6870,
+          "endMs": 6960,
+          "charStart": 43,
+          "charEnd": 44
+        },
+        {
+          "text": "て",
+          "startMs": 6970,
+          "endMs": 7020,
+          "charStart": 44,
+          "charEnd": 45
+        },
+        {
+          "text": "い",
+          "startMs": 7030,
+          "endMs": 7140,
+          "charStart": 45,
+          "charEnd": 46
+        },
+        {
+          "text": "た",
+          "startMs": 7150,
+          "endMs": 7330,
+          "charStart": 46,
+          "charEnd": 47
+        }
+      ]
+    },
+    {
+      "text": "千年に一度巡ってくる紅き彗星の接近に伴い、学園を覆う多層防護結界に亀裂が入りつつあった。",
+      "startMs": 8290,
+      "endMs": 16018,
+      "words": [
+        {
+          "text": "千年",
+          "startMs": 8400,
+          "endMs": 8800,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "に",
+          "startMs": 8810,
+          "endMs": 8920,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "一度",
+          "startMs": 8930,
+          "endMs": 9200,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "巡っ",
+          "startMs": 9210,
+          "endMs": 9490,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "て",
+          "startMs": 9500,
+          "endMs": 9580,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "くる",
+          "startMs": 9590,
+          "endMs": 9800,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "紅き",
+          "startMs": 9840,
+          "endMs": 10200,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "彗星",
+          "startMs": 10210,
+          "endMs": 10590,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "の",
+          "startMs": 10600,
+          "endMs": 10670,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "接近",
+          "startMs": 10680,
+          "endMs": 11070,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "に",
+          "startMs": 11080,
+          "endMs": 11200,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "伴い",
+          "startMs": 11210,
+          "endMs": 11660,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "学園",
+          "startMs": 11800,
+          "endMs": 12240,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "を",
+          "startMs": 12250,
+          "endMs": 12320,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "覆う",
+          "startMs": 12330,
+          "endMs": 12610,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "多層",
+          "startMs": 12620,
+          "endMs": 12930,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "防護",
+          "startMs": 12940,
+          "endMs": 13200,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "結界",
+          "startMs": 13210,
+          "endMs": 13590,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "に",
+          "startMs": 13600,
+          "endMs": 13820,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "亀裂",
+          "startMs": 13920,
+          "endMs": 14230,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "が",
+          "startMs": 14240,
+          "endMs": 14360,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "入りつつ",
+          "startMs": 14380,
+          "endMs": 14880,
+          "charStart": 36,
+          "charEnd": 40
+        },
+        {
+          "text": "あっ",
+          "startMs": 14890,
+          "endMs": 15080,
+          "charStart": 40,
+          "charEnd": 42
+        },
+        {
+          "text": "た",
+          "startMs": 15090,
+          "endMs": 15300,
+          "charStart": 42,
+          "charEnd": 43
+        }
+      ]
+    },
+    {
+      "text": "彗星から降り注ぐ異常な宇宙魔力は、生徒たちの精神を狂わせ、幻覚を引き起こす性質を帯びていた。",
+      "startMs": 16268,
+      "endMs": 23804,
+      "words": [
+        {
+          "text": "彗星",
+          "startMs": 16378,
+          "endMs": 16818,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "から",
+          "startMs": 16828,
+          "endMs": 16998,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "降り注ぐ",
+          "startMs": 17008,
+          "endMs": 17548,
+          "charStart": 4,
+          "charEnd": 8
+        },
+        {
+          "text": "異常",
+          "startMs": 17558,
+          "endMs": 17868,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "な",
+          "startMs": 17878,
+          "endMs": 17948,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "宇宙",
+          "startMs": 17958,
+          "endMs": 18268,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "魔",
+          "startMs": 18278,
+          "endMs": 18348,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "力",
+          "startMs": 18358,
+          "endMs": 18588,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "は",
+          "startMs": 18598,
+          "endMs": 18818,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "生徒",
+          "startMs": 19068,
+          "endMs": 19368,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "たち",
+          "startMs": 19378,
+          "endMs": 19588,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "の",
+          "startMs": 19598,
+          "endMs": 19688,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "精神",
+          "startMs": 19698,
+          "endMs": 20148,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "を",
+          "startMs": 20158,
+          "endMs": 20248,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "狂わせ",
+          "startMs": 20258,
+          "endMs": 20788,
+          "charStart": 25,
+          "charEnd": 28
+        },
+        {
+          "text": "幻覚",
+          "startMs": 20928,
+          "endMs": 21308,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "を",
+          "startMs": 21318,
+          "endMs": 21418,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "引き起こす",
+          "startMs": 21428,
+          "endMs": 21978,
+          "charStart": 32,
+          "charEnd": 37
+        },
+        {
+          "text": "性質",
+          "startMs": 21988,
+          "endMs": 22398,
+          "charStart": 37,
+          "charEnd": 39
+        },
+        {
+          "text": "を",
+          "startMs": 22408,
+          "endMs": 22468,
+          "charStart": 39,
+          "charEnd": 40
+        },
+        {
+          "text": "帯び",
+          "startMs": 22478,
+          "endMs": 22688,
+          "charStart": 40,
+          "charEnd": 42
+        },
+        {
+          "text": "て",
+          "startMs": 22698,
+          "endMs": 22748,
+          "charStart": 42,
+          "charEnd": 43
+        },
+        {
+          "text": "い",
+          "startMs": 22758,
+          "endMs": 22878,
+          "charStart": 43,
+          "charEnd": 44
+        },
+        {
+          "text": "た",
+          "startMs": 22888,
+          "endMs": 23088,
+          "charStart": 44,
+          "charEnd": 45
+        }
+      ]
+    },
+    {
+      "text": "教授陣の多くが精神汚染を受けて倒れる中、彼女は星辰の加護を持つ唯一の術者として塔の最上階へ駆け上がった。",
+      "startMs": 24054,
+      "endMs": 32526,
+      "words": [
+        {
+          "text": "教授陣",
+          "startMs": 24204,
+          "endMs": 24664,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "の",
+          "startMs": 24674,
+          "endMs": 24764,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "多く",
+          "startMs": 24774,
+          "endMs": 25064,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "が",
+          "startMs": 25074,
+          "endMs": 25224,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "精神",
+          "startMs": 25264,
+          "endMs": 25694,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "汚染",
+          "startMs": 25704,
+          "endMs": 26004,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "を",
+          "startMs": 26014,
+          "endMs": 26074,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "受け",
+          "startMs": 26084,
+          "endMs": 26284,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "て",
+          "startMs": 26294,
+          "endMs": 26404,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "倒れる",
+          "startMs": 26414,
+          "endMs": 26794,
+          "charStart": 15,
+          "charEnd": 18
+        },
+        {
+          "text": "中",
+          "startMs": 26804,
+          "endMs": 27114,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "彼女",
+          "startMs": 27284,
+          "endMs": 27564,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "は",
+          "startMs": 27574,
+          "endMs": 27724,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "星辰",
+          "startMs": 27754,
+          "endMs": 28174,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "の",
+          "startMs": 28184,
+          "endMs": 28284,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "加護",
+          "startMs": 28294,
+          "endMs": 28504,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "を",
+          "startMs": 28514,
+          "endMs": 28594,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "持つ",
+          "startMs": 28604,
+          "endMs": 28834,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "唯一",
+          "startMs": 28844,
+          "endMs": 29234,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "の",
+          "startMs": 29244,
+          "endMs": 29334,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "術者",
+          "startMs": 29344,
+          "endMs": 29654,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "と",
+          "startMs": 29664,
+          "endMs": 29764,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "し",
+          "startMs": 29774,
+          "endMs": 29874,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "て",
+          "startMs": 29884,
+          "endMs": 30024,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "塔",
+          "startMs": 30084,
+          "endMs": 30294,
+          "charStart": 39,
+          "charEnd": 40
+        },
+        {
+          "text": "の",
+          "startMs": 30304,
+          "endMs": 30384,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "最上階",
+          "startMs": 30394,
+          "endMs": 30974,
+          "charStart": 41,
+          "charEnd": 44
+        },
+        {
+          "text": "へ",
+          "startMs": 30984,
+          "endMs": 31084,
+          "charStart": 44,
+          "charEnd": 45
+        },
+        {
+          "text": "駆け上がっ",
+          "startMs": 31094,
+          "endMs": 31604,
+          "charStart": 45,
+          "charEnd": 50
+        },
+        {
+          "text": "た",
+          "startMs": 31614,
+          "endMs": 31824,
+          "charStart": 50,
+          "charEnd": 51
+        }
+      ]
+    },
+    {
+      "text": "セリアは宙に浮かぶ巨大な天球儀に手をかざし、星座の配置を模した古代の詠唱を紡ぎ始めた。",
+      "startMs": 32776,
+      "endMs": 39688,
+      "words": [
+        {
+          "text": "セリア",
+          "startMs": 32886,
+          "endMs": 33196,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "は",
+          "startMs": 33206,
+          "endMs": 33416,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "宙",
+          "startMs": 33476,
+          "endMs": 33716,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "に",
+          "startMs": 33726,
+          "endMs": 33826,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "浮かぶ",
+          "startMs": 33836,
+          "endMs": 34156,
+          "charStart": 6,
+          "charEnd": 9
+        },
+        {
+          "text": "巨大",
+          "startMs": 34166,
+          "endMs": 34436,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "な",
+          "startMs": 34446,
+          "endMs": 34546,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "天球",
+          "startMs": 34556,
+          "endMs": 34926,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "儀",
+          "startMs": 34936,
+          "endMs": 35046,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "に",
+          "startMs": 35056,
+          "endMs": 35206,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "手",
+          "startMs": 35216,
+          "endMs": 35306,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "を",
+          "startMs": 35316,
+          "endMs": 35416,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "かざし",
+          "startMs": 35426,
+          "endMs": 35906,
+          "charStart": 18,
+          "charEnd": 21
+        },
+        {
+          "text": "星座",
+          "startMs": 36046,
+          "endMs": 36356,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "の",
+          "startMs": 36366,
+          "endMs": 36456,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "配置",
+          "startMs": 36466,
+          "endMs": 36776,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "を",
+          "startMs": 36786,
+          "endMs": 36866,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "模",
+          "startMs": 36876,
+          "endMs": 36976,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "し",
+          "startMs": 36986,
+          "endMs": 37076,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "た",
+          "startMs": 37086,
+          "endMs": 37196,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "古代",
+          "startMs": 37206,
+          "endMs": 37506,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "の",
+          "startMs": 37516,
+          "endMs": 37576,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "詠唱",
+          "startMs": 37586,
+          "endMs": 37976,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "を",
+          "startMs": 37986,
+          "endMs": 38076,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "紡ぎ",
+          "startMs": 38086,
+          "endMs": 38426,
+          "charStart": 37,
+          "charEnd": 39
+        },
+        {
+          "text": "始め",
+          "startMs": 38436,
+          "endMs": 38756,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "た",
+          "startMs": 38766,
+          "endMs": 38976,
+          "charStart": 41,
+          "charEnd": 42
+        }
+      ]
+    },
+    {
+      "text": "窓の外からは狂乱した魔獣の群れが塔を包囲し、ステンドグラスを破って侵入しようと迫っていた。",
+      "startMs": 39938,
+      "endMs": 46778,
+      "words": [
+        {
+          "text": "窓",
+          "startMs": 40048,
+          "endMs": 40258,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "の",
+          "startMs": 40268,
+          "endMs": 40368,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "外",
+          "startMs": 40378,
+          "endMs": 40598,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "から",
+          "startMs": 40608,
+          "endMs": 40798,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "は",
+          "startMs": 40808,
+          "endMs": 40988,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "狂乱",
+          "startMs": 41048,
+          "endMs": 41408,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "し",
+          "startMs": 41418,
+          "endMs": 41508,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "た",
+          "startMs": 41518,
+          "endMs": 41608,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "魔獣",
+          "startMs": 41618,
+          "endMs": 41928,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "の",
+          "startMs": 41938,
+          "endMs": 42028,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "群れ",
+          "startMs": 42038,
+          "endMs": 42198,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "が",
+          "startMs": 42208,
+          "endMs": 42318,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "塔",
+          "startMs": 42328,
+          "endMs": 42518,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "を",
+          "startMs": 42528,
+          "endMs": 42598,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "包囲",
+          "startMs": 42608,
+          "endMs": 42918,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "し",
+          "startMs": 42928,
+          "endMs": 43188,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "ステンド",
+          "startMs": 43328,
+          "endMs": 43708,
+          "charStart": 22,
+          "charEnd": 26
+        },
+        {
+          "text": "グラス",
+          "startMs": 43718,
+          "endMs": 44018,
+          "charStart": 26,
+          "charEnd": 29
+        },
+        {
+          "text": "を",
+          "startMs": 44028,
+          "endMs": 44088,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "破っ",
+          "startMs": 44098,
+          "endMs": 44408,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "て",
+          "startMs": 44418,
+          "endMs": 44568,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "侵入",
+          "startMs": 44598,
+          "endMs": 44998,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "し",
+          "startMs": 45008,
+          "endMs": 45128,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "よう",
+          "startMs": 45138,
+          "endMs": 45298,
+          "charStart": 36,
+          "charEnd": 38
+        },
+        {
+          "text": "と",
+          "startMs": 45308,
+          "endMs": 45378,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "迫っ",
+          "startMs": 45388,
+          "endMs": 45688,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "て",
+          "startMs": 45698,
+          "endMs": 45768,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "い",
+          "startMs": 45778,
+          "endMs": 45878,
+          "charStart": 42,
+          "charEnd": 43
+        },
+        {
+          "text": "た",
+          "startMs": 45888,
+          "endMs": 46078,
+          "charStart": 43,
+          "charEnd": 44
+        }
+      ]
+    },
+    {
+      "text": "「星々よ、虚空を照らす青き灯火となって我が導きに従え」と、彼女は手にした白銀の杖を掲げた。",
+      "startMs": 47028,
+      "endMs": 54444,
+      "words": [
+        {
+          "text": "星",
+          "startMs": 47138,
+          "endMs": 47348,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "々",
+          "startMs": 47358,
+          "endMs": 47708,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "よ",
+          "startMs": 47718,
+          "endMs": 47888,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "虚空",
+          "startMs": 48108,
+          "endMs": 48408,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "を",
+          "startMs": 48418,
+          "endMs": 48508,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "照らす",
+          "startMs": 48518,
+          "endMs": 48858,
+          "charStart": 8,
+          "charEnd": 11
+        },
+        {
+          "text": "青き",
+          "startMs": 48868,
+          "endMs": 49258,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "灯火",
+          "startMs": 49268,
+          "endMs": 49498,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "と",
+          "startMs": 49508,
+          "endMs": 49598,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "なっ",
+          "startMs": 49608,
+          "endMs": 49778,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "て",
+          "startMs": 49788,
+          "endMs": 49908,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "我が導き",
+          "startMs": 49918,
+          "endMs": 50548,
+          "charStart": 19,
+          "charEnd": 23
+        },
+        {
+          "text": "に",
+          "startMs": 50558,
+          "endMs": 50658,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "従え",
+          "startMs": 50668,
+          "endMs": 51068,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "と",
+          "startMs": 51168,
+          "endMs": 51378,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "彼女",
+          "startMs": 51518,
+          "endMs": 51838,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "は",
+          "startMs": 51848,
+          "endMs": 51948,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "手",
+          "startMs": 51958,
+          "endMs": 52058,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "に",
+          "startMs": 52068,
+          "endMs": 52178,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "し",
+          "startMs": 52188,
+          "endMs": 52278,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "た",
+          "startMs": 52288,
+          "endMs": 52358,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "白銀",
+          "startMs": 52368,
+          "endMs": 52758,
+          "charStart": 36,
+          "charEnd": 38
+        },
+        {
+          "text": "の",
+          "startMs": 52768,
+          "endMs": 52868,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "杖",
+          "startMs": 52878,
+          "endMs": 53098,
+          "charStart": 39,
+          "charEnd": 40
+        },
+        {
+          "text": "を",
+          "startMs": 53108,
+          "endMs": 53208,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "掲げ",
+          "startMs": 53218,
+          "endMs": 53528,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "た",
+          "startMs": 53538,
+          "endMs": 53748,
+          "charStart": 43,
+          "charEnd": 44
+        }
+      ]
+    },
+    {
+      "text": "彼女の魔力と共鳴した天球儀から七色の光の帯が解き放たれ、塔全体を包み込む光芒のドームが形成された。",
+      "startMs": 54694,
+      "endMs": 62686,
+      "words": [
+        {
+          "text": "彼女",
+          "startMs": 54834,
+          "endMs": 55114,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "の",
+          "startMs": 55124,
+          "endMs": 55214,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "魔力",
+          "startMs": 55224,
+          "endMs": 55514,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "と",
+          "startMs": 55524,
+          "endMs": 55624,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "共鳴",
+          "startMs": 55634,
+          "endMs": 56034,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "し",
+          "startMs": 56044,
+          "endMs": 56114,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "た",
+          "startMs": 56124,
+          "endMs": 56234,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "天球儀",
+          "startMs": 56244,
+          "endMs": 56724,
+          "charStart": 10,
+          "charEnd": 13
+        },
+        {
+          "text": "から",
+          "startMs": 56734,
+          "endMs": 56944,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "七色",
+          "startMs": 57024,
+          "endMs": 57404,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "の",
+          "startMs": 57414,
+          "endMs": 57504,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "光",
+          "startMs": 57514,
+          "endMs": 57834,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "の",
+          "startMs": 57844,
+          "endMs": 57924,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "帯",
+          "startMs": 57934,
+          "endMs": 58114,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "が",
+          "startMs": 58124,
+          "endMs": 58224,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "解き放た",
+          "startMs": 58234,
+          "endMs": 58764,
+          "charStart": 22,
+          "charEnd": 26
+        },
+        {
+          "text": "れ",
+          "startMs": 58774,
+          "endMs": 58934,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "塔",
+          "startMs": 59074,
+          "endMs": 59254,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "全体",
+          "startMs": 59264,
+          "endMs": 59644,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "を",
+          "startMs": 59654,
+          "endMs": 59744,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "包み",
+          "startMs": 59754,
+          "endMs": 60074,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "込む",
+          "startMs": 60084,
+          "endMs": 60314,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "光芒",
+          "startMs": 60324,
+          "endMs": 60674,
+          "charStart": 36,
+          "charEnd": 38
+        },
+        {
+          "text": "の",
+          "startMs": 60684,
+          "endMs": 60764,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "ドーム",
+          "startMs": 60774,
+          "endMs": 61044,
+          "charStart": 39,
+          "charEnd": 42
+        },
+        {
+          "text": "が",
+          "startMs": 61054,
+          "endMs": 61164,
+          "charStart": 42,
+          "charEnd": 43
+        },
+        {
+          "text": "形成",
+          "startMs": 61174,
+          "endMs": 61564,
+          "charStart": 43,
+          "charEnd": 45
+        },
+        {
+          "text": "さ",
+          "startMs": 61574,
+          "endMs": 61684,
+          "charStart": 45,
+          "charEnd": 46
+        },
+        {
+          "text": "れ",
+          "startMs": 61694,
+          "endMs": 61764,
+          "charStart": 46,
+          "charEnd": 47
+        },
+        {
+          "text": "た",
+          "startMs": 61774,
+          "endMs": 61984,
+          "charStart": 47,
+          "charEnd": 48
+        }
+      ]
+    },
+    {
+      "text": "その純粋な星光は狂気の霧を一瞬で浄化し、襲来していた魔獣たちを静謐な光の塵へと還元した。",
+      "startMs": 62936,
+      "endMs": 70760,
+      "words": [
+        {
+          "text": "その",
+          "startMs": 63046,
+          "endMs": 63316,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "純粋",
+          "startMs": 63326,
+          "endMs": 63716,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "な",
+          "startMs": 63726,
+          "endMs": 63816,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "星光",
+          "startMs": 63826,
+          "endMs": 64226,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "は",
+          "startMs": 64236,
+          "endMs": 64416,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "狂気",
+          "startMs": 64476,
+          "endMs": 64786,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "の",
+          "startMs": 64796,
+          "endMs": 64886,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "霧",
+          "startMs": 64896,
+          "endMs": 65146,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "を",
+          "startMs": 65156,
+          "endMs": 65306,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "一瞬",
+          "startMs": 65336,
+          "endMs": 65696,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "で",
+          "startMs": 65706,
+          "endMs": 65816,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "浄化",
+          "startMs": 65826,
+          "endMs": 66136,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "し",
+          "startMs": 66146,
+          "endMs": 66406,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "襲来",
+          "startMs": 66546,
+          "endMs": 66966,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "し",
+          "startMs": 66976,
+          "endMs": 67056,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "て",
+          "startMs": 67066,
+          "endMs": 67116,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "い",
+          "startMs": 67126,
+          "endMs": 67216,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "た",
+          "startMs": 67226,
+          "endMs": 67306,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "魔獣",
+          "startMs": 67316,
+          "endMs": 67616,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "たち",
+          "startMs": 67626,
+          "endMs": 67836,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "を",
+          "startMs": 67846,
+          "endMs": 67986,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "静謐",
+          "startMs": 68036,
+          "endMs": 68436,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "な",
+          "startMs": 68446,
+          "endMs": 68516,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "光",
+          "startMs": 68526,
+          "endMs": 68836,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "の",
+          "startMs": 68846,
+          "endMs": 68926,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "塵",
+          "startMs": 68936,
+          "endMs": 69156,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "へ",
+          "startMs": 69166,
+          "endMs": 69236,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "と",
+          "startMs": 69246,
+          "endMs": 69366,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "還元",
+          "startMs": 69376,
+          "endMs": 69726,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "し",
+          "startMs": 69736,
+          "endMs": 69856,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "た",
+          "startMs": 69866,
+          "endMs": 70056,
+          "charStart": 42,
+          "charEnd": 43
+        }
+      ]
+    },
+    {
+      "text": "朝の光が差し込む中、彗星の軌道修正を見届けた少女は、安堵の微笑みを浮かべながら静かに倒れ込んだ。",
+      "startMs": 71010,
+      "endMs": 78762,
+      "words": [
+        {
+          "text": "朝",
+          "startMs": 71150,
+          "endMs": 71330,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "の",
+          "startMs": 71340,
+          "endMs": 71430,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "光",
+          "startMs": 71440,
+          "endMs": 71740,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "が",
+          "startMs": 71750,
+          "endMs": 71850,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "差し込む",
+          "startMs": 71860,
+          "endMs": 72300,
+          "charStart": 4,
+          "charEnd": 8
+        },
+        {
+          "text": "中",
+          "startMs": 72310,
+          "endMs": 72580,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "彗星",
+          "startMs": 72800,
+          "endMs": 73190,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "の",
+          "startMs": 73200,
+          "endMs": 73360,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "軌道",
+          "startMs": 73420,
+          "endMs": 73750,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "修正",
+          "startMs": 73760,
+          "endMs": 74130,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "を",
+          "startMs": 74140,
+          "endMs": 74230,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "見届け",
+          "startMs": 74240,
+          "endMs": 74630,
+          "charStart": 18,
+          "charEnd": 21
+        },
+        {
+          "text": "た",
+          "startMs": 74640,
+          "endMs": 74740,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "少女",
+          "startMs": 74750,
+          "endMs": 75090,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "は",
+          "startMs": 75100,
+          "endMs": 75290,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "安堵",
+          "startMs": 75460,
+          "endMs": 75700,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "の",
+          "startMs": 75710,
+          "endMs": 75790,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "微笑み",
+          "startMs": 75800,
+          "endMs": 76230,
+          "charStart": 29,
+          "charEnd": 32
+        },
+        {
+          "text": "を",
+          "startMs": 76240,
+          "endMs": 76310,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "浮かべ",
+          "startMs": 76320,
+          "endMs": 76590,
+          "charStart": 33,
+          "charEnd": 36
+        },
+        {
+          "text": "ながら",
+          "startMs": 76600,
+          "endMs": 76900,
+          "charStart": 36,
+          "charEnd": 39
+        },
+        {
+          "text": "静か",
+          "startMs": 76920,
+          "endMs": 77260,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "に",
+          "startMs": 77270,
+          "endMs": 77390,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "倒れ",
+          "startMs": 77400,
+          "endMs": 77660,
+          "charStart": 42,
+          "charEnd": 44
+        },
+        {
+          "text": "込ん",
+          "startMs": 77670,
+          "endMs": 77870,
+          "charStart": 44,
+          "charEnd": 46
+        },
+        {
+          "text": "だ",
+          "startMs": 77880,
+          "endMs": 78050,
+          "charStart": 46,
+          "charEnd": 47
+        }
+      ]
+    }
+  ]
+}

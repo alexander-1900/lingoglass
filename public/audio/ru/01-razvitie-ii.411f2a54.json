@@ -1,0 +1,823 @@
+{
+  "version": 3,
+  "lang": "ru",
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 55122,
+  "sentences": [
+    {
+      "text": "Бурное развитие современных технологий кардинально меняет привычную структуру рынка труда.",
+      "startMs": 0,
+      "endMs": 4872,
+      "words": [
+        {
+          "text": "Бурное",
+          "startMs": 100,
+          "endMs": 550,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "развитие",
+          "startMs": 550,
+          "endMs": 930,
+          "charStart": 7,
+          "charEnd": 15
+        },
+        {
+          "text": "современных",
+          "startMs": 930,
+          "endMs": 1390,
+          "charStart": 16,
+          "charEnd": 27
+        },
+        {
+          "text": "технологий",
+          "startMs": 1390,
+          "endMs": 1830,
+          "charStart": 28,
+          "charEnd": 38
+        },
+        {
+          "text": "кардинально",
+          "startMs": 1830,
+          "endMs": 2290,
+          "charStart": 39,
+          "charEnd": 50
+        },
+        {
+          "text": "меняет",
+          "startMs": 2290,
+          "endMs": 2610,
+          "charStart": 51,
+          "charEnd": 57
+        },
+        {
+          "text": "привычную",
+          "startMs": 2610,
+          "endMs": 3090,
+          "charStart": 58,
+          "charEnd": 67
+        },
+        {
+          "text": "структуру",
+          "startMs": 3090,
+          "endMs": 3510,
+          "charStart": 68,
+          "charEnd": 77
+        },
+        {
+          "text": "рынка",
+          "startMs": 3510,
+          "endMs": 3760,
+          "charStart": 78,
+          "charEnd": 83
+        },
+        {
+          "text": "труда",
+          "startMs": 3760,
+          "endMs": 4140,
+          "charStart": 84,
+          "charEnd": 89
+        }
+      ]
+    },
+    {
+      "text": "Учёные, занимающиеся исследованием нейросетей, предупреждают общество о возможных этических рисках.",
+      "startMs": 5122,
+      "endMs": 11098,
+      "words": [
+        {
+          "text": "Учёные",
+          "startMs": 5222,
+          "endMs": 5732,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "занимающиеся",
+          "startMs": 5942,
+          "endMs": 6602,
+          "charStart": 8,
+          "charEnd": 20
+        },
+        {
+          "text": "исследованием",
+          "startMs": 6602,
+          "endMs": 7152,
+          "charStart": 21,
+          "charEnd": 34
+        },
+        {
+          "text": "нейросетей",
+          "startMs": 7152,
+          "endMs": 7702,
+          "charStart": 35,
+          "charEnd": 45
+        },
+        {
+          "text": "предупреждают",
+          "startMs": 7932,
+          "endMs": 8522,
+          "charStart": 47,
+          "charEnd": 60
+        },
+        {
+          "text": "общество",
+          "startMs": 8522,
+          "endMs": 8942,
+          "charStart": 61,
+          "charEnd": 69
+        },
+        {
+          "text": "о",
+          "startMs": 8942,
+          "endMs": 9032,
+          "charStart": 70,
+          "charEnd": 71
+        },
+        {
+          "text": "возможных",
+          "startMs": 9032,
+          "endMs": 9602,
+          "charStart": 72,
+          "charEnd": 81
+        },
+        {
+          "text": "этических",
+          "startMs": 9602,
+          "endMs": 10022,
+          "charStart": 82,
+          "charEnd": 91
+        },
+        {
+          "text": "рисках",
+          "startMs": 10022,
+          "endMs": 10422,
+          "charStart": 92,
+          "charEnd": 98
+        }
+      ]
+    },
+    {
+      "text": "Автоматизация рутинных процессов позволяет существенно повысить общую производительность любого предприятия.",
+      "startMs": 11348,
+      "endMs": 17060,
+      "words": [
+        {
+          "text": "Автоматизация",
+          "startMs": 11448,
+          "endMs": 12168,
+          "charStart": 0,
+          "charEnd": 13
+        },
+        {
+          "text": "рутинных",
+          "startMs": 12168,
+          "endMs": 12528,
+          "charStart": 14,
+          "charEnd": 22
+        },
+        {
+          "text": "процессов",
+          "startMs": 12528,
+          "endMs": 13018,
+          "charStart": 23,
+          "charEnd": 32
+        },
+        {
+          "text": "позволяет",
+          "startMs": 13018,
+          "endMs": 13378,
+          "charStart": 33,
+          "charEnd": 42
+        },
+        {
+          "text": "существенно",
+          "startMs": 13378,
+          "endMs": 13888,
+          "charStart": 43,
+          "charEnd": 54
+        },
+        {
+          "text": "повысить",
+          "startMs": 13888,
+          "endMs": 14348,
+          "charStart": 55,
+          "charEnd": 63
+        },
+        {
+          "text": "общую",
+          "startMs": 14348,
+          "endMs": 14628,
+          "charStart": 64,
+          "charEnd": 69
+        },
+        {
+          "text": "производительность",
+          "startMs": 14628,
+          "endMs": 15258,
+          "charStart": 70,
+          "charEnd": 88
+        },
+        {
+          "text": "любого",
+          "startMs": 15258,
+          "endMs": 15588,
+          "charStart": 89,
+          "charEnd": 95
+        },
+        {
+          "text": "предприятия",
+          "startMs": 15588,
+          "endMs": 16328,
+          "charStart": 96,
+          "charEnd": 107
+        }
+      ]
+    },
+    {
+      "text": "Тем не менее многие специалисты всерьёз опасаются неизбежной потери своих рабочих мест.",
+      "startMs": 17310,
+      "endMs": 22182,
+      "words": [
+        {
+          "text": "Тем",
+          "startMs": 17410,
+          "endMs": 17610,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "не",
+          "startMs": 17610,
+          "endMs": 17700,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "менее",
+          "startMs": 17700,
+          "endMs": 17960,
+          "charStart": 7,
+          "charEnd": 12
+        },
+        {
+          "text": "многие",
+          "startMs": 17960,
+          "endMs": 18310,
+          "charStart": 13,
+          "charEnd": 19
+        },
+        {
+          "text": "специалисты",
+          "startMs": 18310,
+          "endMs": 18810,
+          "charStart": 20,
+          "charEnd": 31
+        },
+        {
+          "text": "всерьёз",
+          "startMs": 18810,
+          "endMs": 19220,
+          "charStart": 32,
+          "charEnd": 39
+        },
+        {
+          "text": "опасаются",
+          "startMs": 19220,
+          "endMs": 19700,
+          "charStart": 40,
+          "charEnd": 49
+        },
+        {
+          "text": "неизбежной",
+          "startMs": 19700,
+          "endMs": 20200,
+          "charStart": 50,
+          "charEnd": 60
+        },
+        {
+          "text": "потери",
+          "startMs": 20200,
+          "endMs": 20520,
+          "charStart": 61,
+          "charEnd": 67
+        },
+        {
+          "text": "своих",
+          "startMs": 20520,
+          "endMs": 20800,
+          "charStart": 68,
+          "charEnd": 73
+        },
+        {
+          "text": "рабочих",
+          "startMs": 20800,
+          "endMs": 21160,
+          "charStart": 74,
+          "charEnd": 81
+        },
+        {
+          "text": "мест",
+          "startMs": 21160,
+          "endMs": 21500,
+          "charStart": 82,
+          "charEnd": 86
+        }
+      ]
+    },
+    {
+      "text": "Философы утверждают, что алгоритмы не способны обладать подлинным человеческим сознанием.",
+      "startMs": 22432,
+      "endMs": 27256,
+      "words": [
+        {
+          "text": "Философы",
+          "startMs": 22532,
+          "endMs": 23032,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "утверждают",
+          "startMs": 23032,
+          "endMs": 23522,
+          "charStart": 9,
+          "charEnd": 19
+        },
+        {
+          "text": "что",
+          "startMs": 23692,
+          "endMs": 23872,
+          "charStart": 21,
+          "charEnd": 24
+        },
+        {
+          "text": "алгоритмы",
+          "startMs": 23872,
+          "endMs": 24282,
+          "charStart": 25,
+          "charEnd": 34
+        },
+        {
+          "text": "не",
+          "startMs": 24282,
+          "endMs": 24372,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "способны",
+          "startMs": 24372,
+          "endMs": 24782,
+          "charStart": 38,
+          "charEnd": 46
+        },
+        {
+          "text": "обладать",
+          "startMs": 24782,
+          "endMs": 25142,
+          "charStart": 47,
+          "charEnd": 55
+        },
+        {
+          "text": "подлинным",
+          "startMs": 25142,
+          "endMs": 25532,
+          "charStart": 56,
+          "charEnd": 65
+        },
+        {
+          "text": "человеческим",
+          "startMs": 25532,
+          "endMs": 26042,
+          "charStart": 66,
+          "charEnd": 78
+        },
+        {
+          "text": "сознанием",
+          "startMs": 26042,
+          "endMs": 26552,
+          "charStart": 79,
+          "charEnd": 88
+        }
+      ]
+    },
+    {
+      "text": "Анализируя огромные массивы информации, цифровые системы мгновенно находят скрытые закономерности.",
+      "startMs": 27506,
+      "endMs": 33146,
+      "words": [
+        {
+          "text": "Анализируя",
+          "startMs": 27606,
+          "endMs": 28226,
+          "charStart": 0,
+          "charEnd": 10
+        },
+        {
+          "text": "огромные",
+          "startMs": 28226,
+          "endMs": 28656,
+          "charStart": 11,
+          "charEnd": 19
+        },
+        {
+          "text": "массивы",
+          "startMs": 28656,
+          "endMs": 28986,
+          "charStart": 20,
+          "charEnd": 27
+        },
+        {
+          "text": "информации",
+          "startMs": 28986,
+          "endMs": 29526,
+          "charStart": 28,
+          "charEnd": 38
+        },
+        {
+          "text": "цифровые",
+          "startMs": 29736,
+          "endMs": 30096,
+          "charStart": 40,
+          "charEnd": 48
+        },
+        {
+          "text": "системы",
+          "startMs": 30096,
+          "endMs": 30486,
+          "charStart": 49,
+          "charEnd": 56
+        },
+        {
+          "text": "мгновенно",
+          "startMs": 30486,
+          "endMs": 30996,
+          "charStart": 57,
+          "charEnd": 66
+        },
+        {
+          "text": "находят",
+          "startMs": 30996,
+          "endMs": 31346,
+          "charStart": 67,
+          "charEnd": 74
+        },
+        {
+          "text": "скрытые",
+          "startMs": 31346,
+          "endMs": 31726,
+          "charStart": 75,
+          "charEnd": 82
+        },
+        {
+          "text": "закономерности",
+          "startMs": 31726,
+          "endMs": 32446,
+          "charStart": 83,
+          "charEnd": 97
+        }
+      ]
+    },
+    {
+      "text": "Руководители передовых корпораций стремятся внедрять инновационные решения во все производственные сферы.",
+      "startMs": 33396,
+      "endMs": 38772,
+      "words": [
+        {
+          "text": "Руководители",
+          "startMs": 33496,
+          "endMs": 34116,
+          "charStart": 0,
+          "charEnd": 12
+        },
+        {
+          "text": "передовых",
+          "startMs": 34116,
+          "endMs": 34476,
+          "charStart": 13,
+          "charEnd": 22
+        },
+        {
+          "text": "корпораций",
+          "startMs": 34476,
+          "endMs": 34976,
+          "charStart": 23,
+          "charEnd": 33
+        },
+        {
+          "text": "стремятся",
+          "startMs": 34976,
+          "endMs": 35406,
+          "charStart": 34,
+          "charEnd": 43
+        },
+        {
+          "text": "внедрять",
+          "startMs": 35406,
+          "endMs": 35856,
+          "charStart": 44,
+          "charEnd": 52
+        },
+        {
+          "text": "инновационные",
+          "startMs": 35856,
+          "endMs": 36336,
+          "charStart": 53,
+          "charEnd": 66
+        },
+        {
+          "text": "решения",
+          "startMs": 36336,
+          "endMs": 36736,
+          "charStart": 67,
+          "charEnd": 74
+        },
+        {
+          "text": "во",
+          "startMs": 36736,
+          "endMs": 36856,
+          "charStart": 75,
+          "charEnd": 77
+        },
+        {
+          "text": "все",
+          "startMs": 36856,
+          "endMs": 37076,
+          "charStart": 78,
+          "charEnd": 81
+        },
+        {
+          "text": "производственные",
+          "startMs": 37076,
+          "endMs": 37676,
+          "charStart": 82,
+          "charEnd": 98
+        },
+        {
+          "text": "сферы",
+          "startMs": 37676,
+          "endMs": 38046,
+          "charStart": 99,
+          "charEnd": 104
+        }
+      ]
+    },
+    {
+      "text": "Государству необходимо своевременно разработать чёткую законодательную базу для регулирования этой отрасли.",
+      "startMs": 39022,
+      "endMs": 44470,
+      "words": [
+        {
+          "text": "Государству",
+          "startMs": 39122,
+          "endMs": 39732,
+          "charStart": 0,
+          "charEnd": 11
+        },
+        {
+          "text": "необходимо",
+          "startMs": 39732,
+          "endMs": 40142,
+          "charStart": 12,
+          "charEnd": 22
+        },
+        {
+          "text": "своевременно",
+          "startMs": 40142,
+          "endMs": 40652,
+          "charStart": 23,
+          "charEnd": 35
+        },
+        {
+          "text": "разработать",
+          "startMs": 40652,
+          "endMs": 41122,
+          "charStart": 36,
+          "charEnd": 47
+        },
+        {
+          "text": "чёткую",
+          "startMs": 41122,
+          "endMs": 41462,
+          "charStart": 48,
+          "charEnd": 54
+        },
+        {
+          "text": "законодательную",
+          "startMs": 41462,
+          "endMs": 42032,
+          "charStart": 55,
+          "charEnd": 70
+        },
+        {
+          "text": "базу",
+          "startMs": 42032,
+          "endMs": 42322,
+          "charStart": 71,
+          "charEnd": 75
+        },
+        {
+          "text": "для",
+          "startMs": 42322,
+          "endMs": 42462,
+          "charStart": 76,
+          "charEnd": 79
+        },
+        {
+          "text": "регулирования",
+          "startMs": 42462,
+          "endMs": 43022,
+          "charStart": 80,
+          "charEnd": 93
+        },
+        {
+          "text": "этой",
+          "startMs": 43022,
+          "endMs": 43262,
+          "charStart": 94,
+          "charEnd": 98
+        },
+        {
+          "text": "отрасли",
+          "startMs": 43262,
+          "endMs": 43742,
+          "charStart": 99,
+          "charEnd": 106
+        }
+      ]
+    },
+    {
+      "text": "В конечном счёте будущее зависит от нашей готовности разумно контролировать технологический прогресс.",
+      "startMs": 44720,
+      "endMs": 49976,
+      "words": [
+        {
+          "text": "В",
+          "startMs": 44820,
+          "endMs": 44940,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "конечном",
+          "startMs": 44940,
+          "endMs": 45340,
+          "charStart": 2,
+          "charEnd": 10
+        },
+        {
+          "text": "счёте",
+          "startMs": 45340,
+          "endMs": 45610,
+          "charStart": 11,
+          "charEnd": 16
+        },
+        {
+          "text": "будущее",
+          "startMs": 45610,
+          "endMs": 46030,
+          "charStart": 17,
+          "charEnd": 24
+        },
+        {
+          "text": "зависит",
+          "startMs": 46030,
+          "endMs": 46450,
+          "charStart": 25,
+          "charEnd": 32
+        },
+        {
+          "text": "от",
+          "startMs": 46450,
+          "endMs": 46560,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "нашей",
+          "startMs": 46560,
+          "endMs": 46790,
+          "charStart": 36,
+          "charEnd": 41
+        },
+        {
+          "text": "готовности",
+          "startMs": 46790,
+          "endMs": 47280,
+          "charStart": 42,
+          "charEnd": 52
+        },
+        {
+          "text": "разумно",
+          "startMs": 47280,
+          "endMs": 47660,
+          "charStart": 53,
+          "charEnd": 60
+        },
+        {
+          "text": "контролировать",
+          "startMs": 47660,
+          "endMs": 48220,
+          "charStart": 61,
+          "charEnd": 75
+        },
+        {
+          "text": "технологический",
+          "startMs": 48220,
+          "endMs": 48860,
+          "charStart": 76,
+          "charEnd": 91
+        },
+        {
+          "text": "прогресс",
+          "startMs": 48860,
+          "endMs": 49290,
+          "charStart": 92,
+          "charEnd": 100
+        }
+      ]
+    },
+    {
+      "text": "Человечество должно научиться гармонично сосуществовать с созданными им сложными машинами.",
+      "startMs": 50226,
+      "endMs": 55122,
+      "words": [
+        {
+          "text": "Человечество",
+          "startMs": 50326,
+          "endMs": 50886,
+          "charStart": 0,
+          "charEnd": 12
+        },
+        {
+          "text": "должно",
+          "startMs": 50886,
+          "endMs": 51166,
+          "charStart": 13,
+          "charEnd": 19
+        },
+        {
+          "text": "научиться",
+          "startMs": 51166,
+          "endMs": 51586,
+          "charStart": 20,
+          "charEnd": 29
+        },
+        {
+          "text": "гармонично",
+          "startMs": 51586,
+          "endMs": 52086,
+          "charStart": 30,
+          "charEnd": 40
+        },
+        {
+          "text": "сосуществовать",
+          "startMs": 52086,
+          "endMs": 52706,
+          "charStart": 41,
+          "charEnd": 55
+        },
+        {
+          "text": "с",
+          "startMs": 52706,
+          "endMs": 52766,
+          "charStart": 56,
+          "charEnd": 57
+        },
+        {
+          "text": "созданными",
+          "startMs": 52766,
+          "endMs": 53276,
+          "charStart": 58,
+          "charEnd": 68
+        },
+        {
+          "text": "им",
+          "startMs": 53276,
+          "endMs": 53446,
+          "charStart": 69,
+          "charEnd": 71
+        },
+        {
+          "text": "сложными",
+          "startMs": 53446,
+          "endMs": 53856,
+          "charStart": 72,
+          "charEnd": 80
+        },
+        {
+          "text": "машинами",
+          "startMs": 53856,
+          "endMs": 54386,
+          "charStart": 81,
+          "charEnd": 89
+        }
+      ]
+    }
+  ]
+}

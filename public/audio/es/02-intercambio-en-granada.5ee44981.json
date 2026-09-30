@@ -1,0 +1,1019 @@
+{
+  "version": 3,
+  "lang": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 46314,
+  "sentences": [
+    {
+      "text": "Cuando Claudia recibió la confirmación de su beca, apenas podía creer su buena suerte.",
+      "startMs": 0,
+      "endMs": 4536,
+      "words": [
+        {
+          "text": "Cuando",
+          "startMs": 100,
+          "endMs": 400,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "Claudia",
+          "startMs": 410,
+          "endMs": 670,
+          "charStart": 7,
+          "charEnd": 14
+        },
+        {
+          "text": "recibió",
+          "startMs": 680,
+          "endMs": 980,
+          "charStart": 15,
+          "charEnd": 22
+        },
+        {
+          "text": "la",
+          "startMs": 990,
+          "endMs": 1060,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "confirmación",
+          "startMs": 1070,
+          "endMs": 1580,
+          "charStart": 26,
+          "charEnd": 38
+        },
+        {
+          "text": "de",
+          "startMs": 1590,
+          "endMs": 1660,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "su",
+          "startMs": 1670,
+          "endMs": 1770,
+          "charStart": 42,
+          "charEnd": 44
+        },
+        {
+          "text": "beca",
+          "startMs": 1780,
+          "endMs": 2040,
+          "charStart": 45,
+          "charEnd": 49
+        },
+        {
+          "text": "apenas",
+          "startMs": 2230,
+          "endMs": 2550,
+          "charStart": 51,
+          "charEnd": 57
+        },
+        {
+          "text": "podía",
+          "startMs": 2560,
+          "endMs": 2810,
+          "charStart": 58,
+          "charEnd": 63
+        },
+        {
+          "text": "creer",
+          "startMs": 2820,
+          "endMs": 3050,
+          "charStart": 64,
+          "charEnd": 69
+        },
+        {
+          "text": "su",
+          "startMs": 3060,
+          "endMs": 3160,
+          "charStart": 70,
+          "charEnd": 72
+        },
+        {
+          "text": "buena",
+          "startMs": 3170,
+          "endMs": 3370,
+          "charStart": 73,
+          "charEnd": 78
+        },
+        {
+          "text": "suerte",
+          "startMs": 3380,
+          "endMs": 3850,
+          "charStart": 79,
+          "charEnd": 85
+        }
+      ]
+    },
+    {
+      "text": "Había elegido la Universidad de Granada para mejorar su fluidez en lengua española.",
+      "startMs": 4786,
+      "endMs": 9010,
+      "words": [
+        {
+          "text": "Había",
+          "startMs": 4881,
+          "endMs": 5171,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "elegido",
+          "startMs": 5181,
+          "endMs": 5501,
+          "charStart": 6,
+          "charEnd": 13
+        },
+        {
+          "text": "la",
+          "startMs": 5511,
+          "endMs": 5591,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "Universidad",
+          "startMs": 5601,
+          "endMs": 6061,
+          "charStart": 17,
+          "charEnd": 28
+        },
+        {
+          "text": "de",
+          "startMs": 6071,
+          "endMs": 6141,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "Granada",
+          "startMs": 6151,
+          "endMs": 6501,
+          "charStart": 32,
+          "charEnd": 39
+        },
+        {
+          "text": "para",
+          "startMs": 6511,
+          "endMs": 6661,
+          "charStart": 40,
+          "charEnd": 44
+        },
+        {
+          "text": "mejorar",
+          "startMs": 6671,
+          "endMs": 6991,
+          "charStart": 45,
+          "charEnd": 52
+        },
+        {
+          "text": "su",
+          "startMs": 7001,
+          "endMs": 7111,
+          "charStart": 53,
+          "charEnd": 55
+        },
+        {
+          "text": "fluidez",
+          "startMs": 7121,
+          "endMs": 7471,
+          "charStart": 56,
+          "charEnd": 63
+        },
+        {
+          "text": "en",
+          "startMs": 7481,
+          "endMs": 7541,
+          "charStart": 64,
+          "charEnd": 66
+        },
+        {
+          "text": "lengua",
+          "startMs": 7551,
+          "endMs": 7781,
+          "charStart": 67,
+          "charEnd": 73
+        },
+        {
+          "text": "española",
+          "startMs": 7791,
+          "endMs": 8321,
+          "charStart": 74,
+          "charEnd": 82
+        }
+      ]
+    },
+    {
+      "text": "Al principio le costó acostumbrarse al acento andaluz y al ritmo de vida local.",
+      "startMs": 9260,
+      "endMs": 13364,
+      "words": [
+        {
+          "text": "Al",
+          "startMs": 9360,
+          "endMs": 9550,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "principio",
+          "startMs": 9560,
+          "endMs": 9960,
+          "charStart": 3,
+          "charEnd": 12
+        },
+        {
+          "text": "le",
+          "startMs": 9970,
+          "endMs": 10050,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "costó",
+          "startMs": 10060,
+          "endMs": 10290,
+          "charStart": 16,
+          "charEnd": 21
+        },
+        {
+          "text": "acostumbrarse",
+          "startMs": 10300,
+          "endMs": 10880,
+          "charStart": 22,
+          "charEnd": 35
+        },
+        {
+          "text": "al",
+          "startMs": 10890,
+          "endMs": 10940,
+          "charStart": 36,
+          "charEnd": 38
+        },
+        {
+          "text": "acento",
+          "startMs": 10950,
+          "endMs": 11220,
+          "charStart": 39,
+          "charEnd": 45
+        },
+        {
+          "text": "andaluz",
+          "startMs": 11230,
+          "endMs": 11600,
+          "charStart": 46,
+          "charEnd": 53
+        },
+        {
+          "text": "y",
+          "startMs": 11610,
+          "endMs": 11640,
+          "charStart": 54,
+          "charEnd": 55
+        },
+        {
+          "text": "al",
+          "startMs": 11650,
+          "endMs": 11730,
+          "charStart": 56,
+          "charEnd": 58
+        },
+        {
+          "text": "ritmo",
+          "startMs": 11740,
+          "endMs": 11950,
+          "charStart": 59,
+          "charEnd": 64
+        },
+        {
+          "text": "de",
+          "startMs": 11960,
+          "endMs": 12030,
+          "charStart": 65,
+          "charEnd": 67
+        },
+        {
+          "text": "vida",
+          "startMs": 12040,
+          "endMs": 12200,
+          "charStart": 68,
+          "charEnd": 72
+        },
+        {
+          "text": "local",
+          "startMs": 12210,
+          "endMs": 12670,
+          "charStart": 73,
+          "charEnd": 78
+        }
+      ]
+    },
+    {
+      "text": "Sin embargo, sus compañeros de piso la ayudaron a integrarse rápidamente en el barrio.",
+      "startMs": 13614,
+      "endMs": 18054,
+      "words": [
+        {
+          "text": "Sin",
+          "startMs": 13709,
+          "endMs": 13949,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "embargo",
+          "startMs": 13959,
+          "endMs": 14329,
+          "charStart": 4,
+          "charEnd": 11
+        },
+        {
+          "text": "sus",
+          "startMs": 14529,
+          "endMs": 14659,
+          "charStart": 13,
+          "charEnd": 16
+        },
+        {
+          "text": "compañeros",
+          "startMs": 14669,
+          "endMs": 15079,
+          "charStart": 17,
+          "charEnd": 27
+        },
+        {
+          "text": "de",
+          "startMs": 15089,
+          "endMs": 15159,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "piso",
+          "startMs": 15169,
+          "endMs": 15389,
+          "charStart": 31,
+          "charEnd": 35
+        },
+        {
+          "text": "la",
+          "startMs": 15399,
+          "endMs": 15469,
+          "charStart": 36,
+          "charEnd": 38
+        },
+        {
+          "text": "ayudaron",
+          "startMs": 15479,
+          "endMs": 15809,
+          "charStart": 39,
+          "charEnd": 47
+        },
+        {
+          "text": "a",
+          "startMs": 15819,
+          "endMs": 15839,
+          "charStart": 48,
+          "charEnd": 49
+        },
+        {
+          "text": "integrarse",
+          "startMs": 15849,
+          "endMs": 16259,
+          "charStart": 50,
+          "charEnd": 60
+        },
+        {
+          "text": "rápidamente",
+          "startMs": 16269,
+          "endMs": 16779,
+          "charStart": 61,
+          "charEnd": 72
+        },
+        {
+          "text": "en",
+          "startMs": 16789,
+          "endMs": 16849,
+          "charStart": 73,
+          "charEnd": 75
+        },
+        {
+          "text": "el",
+          "startMs": 16859,
+          "endMs": 16929,
+          "charStart": 76,
+          "charEnd": 78
+        },
+        {
+          "text": "barrio",
+          "startMs": 16939,
+          "endMs": 17369,
+          "charStart": 79,
+          "charEnd": 85
+        }
+      ]
+    },
+    {
+      "text": "Todos los fines de semana exploraban la Alhambra o hacían senderismo por Sierra Nevada.",
+      "startMs": 18304,
+      "endMs": 22648,
+      "words": [
+        {
+          "text": "Todos",
+          "startMs": 18404,
+          "endMs": 18684,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "los",
+          "startMs": 18694,
+          "endMs": 18814,
+          "charStart": 6,
+          "charEnd": 9
+        },
+        {
+          "text": "fines",
+          "startMs": 18824,
+          "endMs": 19034,
+          "charStart": 10,
+          "charEnd": 15
+        },
+        {
+          "text": "de",
+          "startMs": 19044,
+          "endMs": 19104,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "semana",
+          "startMs": 19114,
+          "endMs": 19434,
+          "charStart": 19,
+          "charEnd": 25
+        },
+        {
+          "text": "exploraban",
+          "startMs": 19444,
+          "endMs": 19884,
+          "charStart": 26,
+          "charEnd": 36
+        },
+        {
+          "text": "la",
+          "startMs": 19894,
+          "endMs": 19954,
+          "charStart": 37,
+          "charEnd": 39
+        },
+        {
+          "text": "Alhambra",
+          "startMs": 19964,
+          "endMs": 20274,
+          "charStart": 40,
+          "charEnd": 48
+        },
+        {
+          "text": "o",
+          "startMs": 20284,
+          "endMs": 20354,
+          "charStart": 49,
+          "charEnd": 50
+        },
+        {
+          "text": "hacían",
+          "startMs": 20364,
+          "endMs": 20634,
+          "charStart": 51,
+          "charEnd": 57
+        },
+        {
+          "text": "senderismo",
+          "startMs": 20644,
+          "endMs": 21104,
+          "charStart": 58,
+          "charEnd": 68
+        },
+        {
+          "text": "por",
+          "startMs": 21114,
+          "endMs": 21254,
+          "charStart": 69,
+          "charEnd": 72
+        },
+        {
+          "text": "Sierra",
+          "startMs": 21264,
+          "endMs": 21494,
+          "charStart": 73,
+          "charEnd": 79
+        },
+        {
+          "text": "Nevada",
+          "startMs": 21504,
+          "endMs": 21964,
+          "charStart": 80,
+          "charEnd": 86
+        }
+      ]
+    },
+    {
+      "text": "Claudia descubrió que la cultura española era mucho más diversa de lo que pensaba.",
+      "startMs": 22898,
+      "endMs": 27002,
+      "words": [
+        {
+          "text": "Claudia",
+          "startMs": 22998,
+          "endMs": 23328,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "descubrió",
+          "startMs": 23338,
+          "endMs": 23728,
+          "charStart": 8,
+          "charEnd": 17
+        },
+        {
+          "text": "que",
+          "startMs": 23738,
+          "endMs": 23818,
+          "charStart": 18,
+          "charEnd": 21
+        },
+        {
+          "text": "la",
+          "startMs": 23828,
+          "endMs": 23898,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "cultura",
+          "startMs": 23908,
+          "endMs": 24208,
+          "charStart": 25,
+          "charEnd": 32
+        },
+        {
+          "text": "española",
+          "startMs": 24218,
+          "endMs": 24668,
+          "charStart": 33,
+          "charEnd": 41
+        },
+        {
+          "text": "era",
+          "startMs": 24678,
+          "endMs": 24828,
+          "charStart": 42,
+          "charEnd": 45
+        },
+        {
+          "text": "mucho",
+          "startMs": 24838,
+          "endMs": 25078,
+          "charStart": 46,
+          "charEnd": 51
+        },
+        {
+          "text": "más",
+          "startMs": 25088,
+          "endMs": 25248,
+          "charStart": 52,
+          "charEnd": 55
+        },
+        {
+          "text": "diversa",
+          "startMs": 25258,
+          "endMs": 25538,
+          "charStart": 56,
+          "charEnd": 63
+        },
+        {
+          "text": "de",
+          "startMs": 25548,
+          "endMs": 25608,
+          "charStart": 64,
+          "charEnd": 66
+        },
+        {
+          "text": "lo",
+          "startMs": 25618,
+          "endMs": 25688,
+          "charStart": 67,
+          "charEnd": 69
+        },
+        {
+          "text": "que",
+          "startMs": 25698,
+          "endMs": 25778,
+          "charStart": 70,
+          "charEnd": 73
+        },
+        {
+          "text": "pensaba",
+          "startMs": 25788,
+          "endMs": 26318,
+          "charStart": 74,
+          "charEnd": 81
+        }
+      ]
+    },
+    {
+      "text": "En las clases participaba activamente para que sus profesores corrigieran sus errores gramaticales.",
+      "startMs": 27252,
+      "endMs": 32100,
+      "words": [
+        {
+          "text": "En",
+          "startMs": 27347,
+          "endMs": 27487,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "las",
+          "startMs": 27497,
+          "endMs": 27637,
+          "charStart": 3,
+          "charEnd": 6
+        },
+        {
+          "text": "clases",
+          "startMs": 27647,
+          "endMs": 27937,
+          "charStart": 7,
+          "charEnd": 13
+        },
+        {
+          "text": "participaba",
+          "startMs": 27947,
+          "endMs": 28417,
+          "charStart": 14,
+          "charEnd": 25
+        },
+        {
+          "text": "activamente",
+          "startMs": 28427,
+          "endMs": 28947,
+          "charStart": 26,
+          "charEnd": 37
+        },
+        {
+          "text": "para",
+          "startMs": 28957,
+          "endMs": 29107,
+          "charStart": 38,
+          "charEnd": 42
+        },
+        {
+          "text": "que",
+          "startMs": 29117,
+          "endMs": 29197,
+          "charStart": 43,
+          "charEnd": 46
+        },
+        {
+          "text": "sus",
+          "startMs": 29207,
+          "endMs": 29347,
+          "charStart": 47,
+          "charEnd": 50
+        },
+        {
+          "text": "profesores",
+          "startMs": 29357,
+          "endMs": 29807,
+          "charStart": 51,
+          "charEnd": 61
+        },
+        {
+          "text": "corrigieran",
+          "startMs": 29817,
+          "endMs": 30237,
+          "charStart": 62,
+          "charEnd": 73
+        },
+        {
+          "text": "sus",
+          "startMs": 30247,
+          "endMs": 30397,
+          "charStart": 74,
+          "charEnd": 77
+        },
+        {
+          "text": "errores",
+          "startMs": 30407,
+          "endMs": 30677,
+          "charStart": 78,
+          "charEnd": 85
+        },
+        {
+          "text": "gramaticales",
+          "startMs": 30687,
+          "endMs": 31397,
+          "charStart": 86,
+          "charEnd": 98
+        }
+      ]
+    },
+    {
+      "text": "Ojalá pudiera quedarse un año entero en esta hermosa y acogedora ciudad andaluza.",
+      "startMs": 32350,
+      "endMs": 36598,
+      "words": [
+        {
+          "text": "Ojalá",
+          "startMs": 32445,
+          "endMs": 32775,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "pudiera",
+          "startMs": 32785,
+          "endMs": 33085,
+          "charStart": 6,
+          "charEnd": 13
+        },
+        {
+          "text": "quedarse",
+          "startMs": 33095,
+          "endMs": 33435,
+          "charStart": 14,
+          "charEnd": 22
+        },
+        {
+          "text": "un",
+          "startMs": 33445,
+          "endMs": 33535,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "año",
+          "startMs": 33545,
+          "endMs": 33685,
+          "charStart": 26,
+          "charEnd": 29
+        },
+        {
+          "text": "entero",
+          "startMs": 33695,
+          "endMs": 34005,
+          "charStart": 30,
+          "charEnd": 36
+        },
+        {
+          "text": "en",
+          "startMs": 34015,
+          "endMs": 34085,
+          "charStart": 37,
+          "charEnd": 39
+        },
+        {
+          "text": "esta",
+          "startMs": 34095,
+          "endMs": 34265,
+          "charStart": 40,
+          "charEnd": 44
+        },
+        {
+          "text": "hermosa",
+          "startMs": 34275,
+          "endMs": 34625,
+          "charStart": 45,
+          "charEnd": 52
+        },
+        {
+          "text": "y",
+          "startMs": 34635,
+          "endMs": 34685,
+          "charStart": 53,
+          "charEnd": 54
+        },
+        {
+          "text": "acogedora",
+          "startMs": 34695,
+          "endMs": 35115,
+          "charStart": 55,
+          "charEnd": 64
+        },
+        {
+          "text": "ciudad",
+          "startMs": 35125,
+          "endMs": 35375,
+          "charStart": 65,
+          "charEnd": 71
+        },
+        {
+          "text": "andaluza",
+          "startMs": 35385,
+          "endMs": 35915,
+          "charStart": 72,
+          "charEnd": 80
+        }
+      ]
+    },
+    {
+      "text": "Durante esa estancia inolvidable, hizo amistades profundas con personas de diferentes países.",
+      "startMs": 36848,
+      "endMs": 41720,
+      "words": [
+        {
+          "text": "Durante",
+          "startMs": 36948,
+          "endMs": 37328,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "esa",
+          "startMs": 37338,
+          "endMs": 37488,
+          "charStart": 8,
+          "charEnd": 11
+        },
+        {
+          "text": "estancia",
+          "startMs": 37498,
+          "endMs": 37838,
+          "charStart": 12,
+          "charEnd": 20
+        },
+        {
+          "text": "inolvidable",
+          "startMs": 37848,
+          "endMs": 38368,
+          "charStart": 21,
+          "charEnd": 32
+        },
+        {
+          "text": "hizo",
+          "startMs": 38588,
+          "endMs": 38718,
+          "charStart": 34,
+          "charEnd": 38
+        },
+        {
+          "text": "amistades",
+          "startMs": 38728,
+          "endMs": 39108,
+          "charStart": 39,
+          "charEnd": 48
+        },
+        {
+          "text": "profundas",
+          "startMs": 39118,
+          "endMs": 39538,
+          "charStart": 49,
+          "charEnd": 58
+        },
+        {
+          "text": "con",
+          "startMs": 39548,
+          "endMs": 39678,
+          "charStart": 59,
+          "charEnd": 62
+        },
+        {
+          "text": "personas",
+          "startMs": 39688,
+          "endMs": 40028,
+          "charStart": 63,
+          "charEnd": 71
+        },
+        {
+          "text": "de",
+          "startMs": 40038,
+          "endMs": 40098,
+          "charStart": 72,
+          "charEnd": 74
+        },
+        {
+          "text": "diferentes",
+          "startMs": 40108,
+          "endMs": 40498,
+          "charStart": 75,
+          "charEnd": 85
+        },
+        {
+          "text": "países",
+          "startMs": 40508,
+          "endMs": 41038,
+          "charStart": 86,
+          "charEnd": 92
+        }
+      ]
+    },
+    {
+      "text": "Esta experiencia enriquecedora cambió su perspectiva sobre el mundo y su futuro laboral.",
+      "startMs": 41970,
+      "endMs": 46314,
+      "words": [
+        {
+          "text": "Esta",
+          "startMs": 42065,
+          "endMs": 42305,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "experiencia",
+          "startMs": 42315,
+          "endMs": 42775,
+          "charStart": 5,
+          "charEnd": 16
+        },
+        {
+          "text": "enriquecedora",
+          "startMs": 42785,
+          "endMs": 43335,
+          "charStart": 17,
+          "charEnd": 30
+        },
+        {
+          "text": "cambió",
+          "startMs": 43345,
+          "endMs": 43605,
+          "charStart": 31,
+          "charEnd": 37
+        },
+        {
+          "text": "su",
+          "startMs": 43615,
+          "endMs": 43715,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "perspectiva",
+          "startMs": 43725,
+          "endMs": 44205,
+          "charStart": 41,
+          "charEnd": 52
+        },
+        {
+          "text": "sobre",
+          "startMs": 44215,
+          "endMs": 44405,
+          "charStart": 53,
+          "charEnd": 58
+        },
+        {
+          "text": "el",
+          "startMs": 44415,
+          "endMs": 44475,
+          "charStart": 59,
+          "charEnd": 61
+        },
+        {
+          "text": "mundo",
+          "startMs": 44485,
+          "endMs": 44715,
+          "charStart": 62,
+          "charEnd": 67
+        },
+        {
+          "text": "y",
+          "startMs": 44725,
+          "endMs": 44765,
+          "charStart": 68,
+          "charEnd": 69
+        },
+        {
+          "text": "su",
+          "startMs": 44775,
+          "endMs": 44865,
+          "charStart": 70,
+          "charEnd": 72
+        },
+        {
+          "text": "futuro",
+          "startMs": 44875,
+          "endMs": 45155,
+          "charStart": 73,
+          "charEnd": 79
+        },
+        {
+          "text": "laboral",
+          "startMs": 45165,
+          "endMs": 45625,
+          "charStart": 80,
+          "charEnd": 87
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,872 @@
+{
+  "version": 3,
+  "lang": "ru",
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 63690,
+  "sentences": [
+    {
+      "text": "Беспрецедентное делегирование правовых и этических полномочий автономным алгоритмам порождает неразрешимые моральные дилеммы.",
+      "startMs": 0,
+      "endMs": 6456,
+      "words": [
+        {
+          "text": "Беспрецедентное",
+          "startMs": 100,
+          "endMs": 870,
+          "charStart": 0,
+          "charEnd": 15
+        },
+        {
+          "text": "делегирование",
+          "startMs": 870,
+          "endMs": 1400,
+          "charStart": 16,
+          "charEnd": 29
+        },
+        {
+          "text": "правовых",
+          "startMs": 1400,
+          "endMs": 1830,
+          "charStart": 30,
+          "charEnd": 38
+        },
+        {
+          "text": "и",
+          "startMs": 1830,
+          "endMs": 1950,
+          "charStart": 39,
+          "charEnd": 40
+        },
+        {
+          "text": "этических",
+          "startMs": 1950,
+          "endMs": 2390,
+          "charStart": 41,
+          "charEnd": 50
+        },
+        {
+          "text": "полномочий",
+          "startMs": 2390,
+          "endMs": 2860,
+          "charStart": 51,
+          "charEnd": 61
+        },
+        {
+          "text": "автономным",
+          "startMs": 2860,
+          "endMs": 3390,
+          "charStart": 62,
+          "charEnd": 72
+        },
+        {
+          "text": "алгоритмам",
+          "startMs": 3390,
+          "endMs": 3840,
+          "charStart": 73,
+          "charEnd": 83
+        },
+        {
+          "text": "порождает",
+          "startMs": 3840,
+          "endMs": 4270,
+          "charStart": 84,
+          "charEnd": 93
+        },
+        {
+          "text": "неразрешимые",
+          "startMs": 4270,
+          "endMs": 4890,
+          "charStart": 94,
+          "charEnd": 106
+        },
+        {
+          "text": "моральные",
+          "startMs": 4890,
+          "endMs": 5300,
+          "charStart": 107,
+          "charEnd": 116
+        },
+        {
+          "text": "дилеммы",
+          "startMs": 5300,
+          "endMs": 5720,
+          "charStart": 117,
+          "charEnd": 124
+        }
+      ]
+    },
+    {
+      "text": "Разработчики сложнейших программных комплексов сталкиваются с невозможностью алгоритмизировать субъективную природу совести.",
+      "startMs": 6706,
+      "endMs": 12898,
+      "words": [
+        {
+          "text": "Разработчики",
+          "startMs": 6806,
+          "endMs": 7426,
+          "charStart": 0,
+          "charEnd": 12
+        },
+        {
+          "text": "сложнейших",
+          "startMs": 7426,
+          "endMs": 7926,
+          "charStart": 13,
+          "charEnd": 23
+        },
+        {
+          "text": "программных",
+          "startMs": 7926,
+          "endMs": 8366,
+          "charStart": 24,
+          "charEnd": 35
+        },
+        {
+          "text": "комплексов",
+          "startMs": 8366,
+          "endMs": 8816,
+          "charStart": 36,
+          "charEnd": 46
+        },
+        {
+          "text": "сталкиваются",
+          "startMs": 8816,
+          "endMs": 9366,
+          "charStart": 47,
+          "charEnd": 59
+        },
+        {
+          "text": "с",
+          "startMs": 9366,
+          "endMs": 9406,
+          "charStart": 60,
+          "charEnd": 61
+        },
+        {
+          "text": "невозможностью",
+          "startMs": 9406,
+          "endMs": 10066,
+          "charStart": 62,
+          "charEnd": 76
+        },
+        {
+          "text": "алгоритмизировать",
+          "startMs": 10066,
+          "endMs": 10746,
+          "charStart": 77,
+          "charEnd": 94
+        },
+        {
+          "text": "субъективную",
+          "startMs": 10746,
+          "endMs": 11366,
+          "charStart": 95,
+          "charEnd": 107
+        },
+        {
+          "text": "природу",
+          "startMs": 11366,
+          "endMs": 11696,
+          "charStart": 108,
+          "charEnd": 115
+        },
+        {
+          "text": "совести",
+          "startMs": 11696,
+          "endMs": 12196,
+          "charStart": 116,
+          "charEnd": 123
+        }
+      ]
+    },
+    {
+      "text": "В условиях когнитивной неопределённости машинный интеллект неизбежно опирается на утилитарные критерии оптимизации.",
+      "startMs": 13148,
+      "endMs": 19052,
+      "words": [
+        {
+          "text": "В",
+          "startMs": 13248,
+          "endMs": 13398,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "условиях",
+          "startMs": 13398,
+          "endMs": 13798,
+          "charStart": 2,
+          "charEnd": 10
+        },
+        {
+          "text": "когнитивной",
+          "startMs": 13798,
+          "endMs": 14298,
+          "charStart": 11,
+          "charEnd": 22
+        },
+        {
+          "text": "неопределённости",
+          "startMs": 14298,
+          "endMs": 14938,
+          "charStart": 23,
+          "charEnd": 39
+        },
+        {
+          "text": "машинный",
+          "startMs": 14938,
+          "endMs": 15288,
+          "charStart": 40,
+          "charEnd": 48
+        },
+        {
+          "text": "интеллект",
+          "startMs": 15288,
+          "endMs": 15748,
+          "charStart": 49,
+          "charEnd": 58
+        },
+        {
+          "text": "неизбежно",
+          "startMs": 15748,
+          "endMs": 16198,
+          "charStart": 59,
+          "charEnd": 68
+        },
+        {
+          "text": "опирается",
+          "startMs": 16198,
+          "endMs": 16598,
+          "charStart": 69,
+          "charEnd": 78
+        },
+        {
+          "text": "на",
+          "startMs": 16598,
+          "endMs": 16678,
+          "charStart": 79,
+          "charEnd": 81
+        },
+        {
+          "text": "утилитарные",
+          "startMs": 16678,
+          "endMs": 17188,
+          "charStart": 82,
+          "charEnd": 93
+        },
+        {
+          "text": "критерии",
+          "startMs": 17188,
+          "endMs": 17598,
+          "charStart": 94,
+          "charEnd": 102
+        },
+        {
+          "text": "оптимизации",
+          "startMs": 17598,
+          "endMs": 18368,
+          "charStart": 103,
+          "charEnd": 114
+        }
+      ]
+    },
+    {
+      "text": "Пренебрегая деонтологическими императивами, автоматизированная система рискует пожертвовать меньшинством ради иллюзорного блага большинства.",
+      "startMs": 19302,
+      "endMs": 26286,
+      "words": [
+        {
+          "text": "Пренебрегая",
+          "startMs": 19402,
+          "endMs": 19902,
+          "charStart": 0,
+          "charEnd": 11
+        },
+        {
+          "text": "деонтологическими",
+          "startMs": 19902,
+          "endMs": 20702,
+          "charStart": 12,
+          "charEnd": 29
+        },
+        {
+          "text": "императивами",
+          "startMs": 20702,
+          "endMs": 21312,
+          "charStart": 30,
+          "charEnd": 42
+        },
+        {
+          "text": "автоматизированная",
+          "startMs": 21492,
+          "endMs": 22222,
+          "charStart": 44,
+          "charEnd": 62
+        },
+        {
+          "text": "система",
+          "startMs": 22222,
+          "endMs": 22612,
+          "charStart": 63,
+          "charEnd": 70
+        },
+        {
+          "text": "рискует",
+          "startMs": 22612,
+          "endMs": 22932,
+          "charStart": 71,
+          "charEnd": 78
+        },
+        {
+          "text": "пожертвовать",
+          "startMs": 22932,
+          "endMs": 23412,
+          "charStart": 79,
+          "charEnd": 91
+        },
+        {
+          "text": "меньшинством",
+          "startMs": 23412,
+          "endMs": 23932,
+          "charStart": 92,
+          "charEnd": 104
+        },
+        {
+          "text": "ради",
+          "startMs": 23932,
+          "endMs": 24222,
+          "charStart": 105,
+          "charEnd": 109
+        },
+        {
+          "text": "иллюзорного",
+          "startMs": 24222,
+          "endMs": 24742,
+          "charStart": 110,
+          "charEnd": 121
+        },
+        {
+          "text": "блага",
+          "startMs": 24742,
+          "endMs": 24992,
+          "charStart": 122,
+          "charEnd": 127
+        },
+        {
+          "text": "большинства",
+          "startMs": 24992,
+          "endMs": 25552,
+          "charStart": 128,
+          "charEnd": 139
+        }
+      ]
+    },
+    {
+      "text": "Юристы и правоведы тщетно пытаются атрибутировать юридическую субъектность самообучающимся нейросетевым агентам.",
+      "startMs": 26536,
+      "endMs": 32512,
+      "words": [
+        {
+          "text": "Юристы",
+          "startMs": 26636,
+          "endMs": 27156,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "и",
+          "startMs": 27156,
+          "endMs": 27286,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "правоведы",
+          "startMs": 27286,
+          "endMs": 27706,
+          "charStart": 9,
+          "charEnd": 18
+        },
+        {
+          "text": "тщетно",
+          "startMs": 27706,
+          "endMs": 28056,
+          "charStart": 19,
+          "charEnd": 25
+        },
+        {
+          "text": "пытаются",
+          "startMs": 28056,
+          "endMs": 28456,
+          "charStart": 26,
+          "charEnd": 34
+        },
+        {
+          "text": "атрибутировать",
+          "startMs": 28456,
+          "endMs": 29016,
+          "charStart": 35,
+          "charEnd": 49
+        },
+        {
+          "text": "юридическую",
+          "startMs": 29016,
+          "endMs": 29536,
+          "charStart": 50,
+          "charEnd": 61
+        },
+        {
+          "text": "субъектность",
+          "startMs": 29536,
+          "endMs": 30026,
+          "charStart": 62,
+          "charEnd": 74
+        },
+        {
+          "text": "самообучающимся",
+          "startMs": 30026,
+          "endMs": 30816,
+          "charStart": 75,
+          "charEnd": 90
+        },
+        {
+          "text": "нейросетевым",
+          "startMs": 30816,
+          "endMs": 31356,
+          "charStart": 91,
+          "charEnd": 103
+        },
+        {
+          "text": "агентам",
+          "startMs": 31356,
+          "endMs": 31806,
+          "charStart": 104,
+          "charEnd": 111
+        }
+      ]
+    },
+    {
+      "text": "Кто должен нести субсидиарную ответственность за фатальную ошибку, совершённую автономным программным кодом?",
+      "startMs": 32762,
+      "endMs": 38330,
+      "words": [
+        {
+          "text": "Кто",
+          "startMs": 32862,
+          "endMs": 33112,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "должен",
+          "startMs": 33112,
+          "endMs": 33372,
+          "charStart": 4,
+          "charEnd": 10
+        },
+        {
+          "text": "нести",
+          "startMs": 33372,
+          "endMs": 33662,
+          "charStart": 11,
+          "charEnd": 16
+        },
+        {
+          "text": "субсидиарную",
+          "startMs": 33662,
+          "endMs": 34222,
+          "charStart": 17,
+          "charEnd": 29
+        },
+        {
+          "text": "ответственность",
+          "startMs": 34222,
+          "endMs": 34742,
+          "charStart": 30,
+          "charEnd": 45
+        },
+        {
+          "text": "за",
+          "startMs": 34742,
+          "endMs": 34862,
+          "charStart": 46,
+          "charEnd": 48
+        },
+        {
+          "text": "фатальную",
+          "startMs": 34862,
+          "endMs": 35262,
+          "charStart": 49,
+          "charEnd": 58
+        },
+        {
+          "text": "ошибку",
+          "startMs": 35262,
+          "endMs": 35602,
+          "charStart": 59,
+          "charEnd": 65
+        },
+        {
+          "text": "совершённую",
+          "startMs": 35842,
+          "endMs": 36352,
+          "charStart": 67,
+          "charEnd": 78
+        },
+        {
+          "text": "автономным",
+          "startMs": 36352,
+          "endMs": 36882,
+          "charStart": 79,
+          "charEnd": 89
+        },
+        {
+          "text": "программным",
+          "startMs": 36882,
+          "endMs": 37302,
+          "charStart": 90,
+          "charEnd": 101
+        },
+        {
+          "text": "кодом",
+          "startMs": 37302,
+          "endMs": 37652,
+          "charStart": 102,
+          "charEnd": 107
+        }
+      ]
+    },
+    {
+      "text": "Непрозрачность глубинных механизмов принятия решений формирует непреодолимый барьер для верификации правосудия.",
+      "startMs": 38580,
+      "endMs": 44484,
+      "words": [
+        {
+          "text": "Непрозрачность",
+          "startMs": 38680,
+          "endMs": 39420,
+          "charStart": 0,
+          "charEnd": 14
+        },
+        {
+          "text": "глубинных",
+          "startMs": 39420,
+          "endMs": 39850,
+          "charStart": 15,
+          "charEnd": 24
+        },
+        {
+          "text": "механизмов",
+          "startMs": 39850,
+          "endMs": 40300,
+          "charStart": 25,
+          "charEnd": 35
+        },
+        {
+          "text": "принятия",
+          "startMs": 40300,
+          "endMs": 40680,
+          "charStart": 36,
+          "charEnd": 44
+        },
+        {
+          "text": "решений",
+          "startMs": 40680,
+          "endMs": 41020,
+          "charStart": 45,
+          "charEnd": 52
+        },
+        {
+          "text": "формирует",
+          "startMs": 41020,
+          "endMs": 41480,
+          "charStart": 53,
+          "charEnd": 62
+        },
+        {
+          "text": "непреодолимый",
+          "startMs": 41480,
+          "endMs": 42050,
+          "charStart": 63,
+          "charEnd": 76
+        },
+        {
+          "text": "барьер",
+          "startMs": 42050,
+          "endMs": 42410,
+          "charStart": 77,
+          "charEnd": 83
+        },
+        {
+          "text": "для",
+          "startMs": 42410,
+          "endMs": 42560,
+          "charStart": 84,
+          "charEnd": 87
+        },
+        {
+          "text": "верификации",
+          "startMs": 42560,
+          "endMs": 43090,
+          "charStart": 88,
+          "charEnd": 99
+        },
+        {
+          "text": "правосудия",
+          "startMs": 43090,
+          "endMs": 43760,
+          "charStart": 100,
+          "charEnd": 110
+        }
+      ]
+    },
+    {
+      "text": "Технократическая элита, ослеплённая технологическим детерминизмом, игнорирует экзистенциальные предостережения гуманитарных мыслителей.",
+      "startMs": 44734,
+      "endMs": 51862,
+      "words": [
+        {
+          "text": "Технократическая",
+          "startMs": 44834,
+          "endMs": 45684,
+          "charStart": 0,
+          "charEnd": 16
+        },
+        {
+          "text": "элита",
+          "startMs": 45684,
+          "endMs": 46054,
+          "charStart": 17,
+          "charEnd": 22
+        },
+        {
+          "text": "ослеплённая",
+          "startMs": 46234,
+          "endMs": 46804,
+          "charStart": 24,
+          "charEnd": 35
+        },
+        {
+          "text": "технологическим",
+          "startMs": 46804,
+          "endMs": 47424,
+          "charStart": 36,
+          "charEnd": 51
+        },
+        {
+          "text": "детерминизмом",
+          "startMs": 47424,
+          "endMs": 47984,
+          "charStart": 52,
+          "charEnd": 65
+        },
+        {
+          "text": "игнорирует",
+          "startMs": 48234,
+          "endMs": 48794,
+          "charStart": 67,
+          "charEnd": 77
+        },
+        {
+          "text": "экзистенциальные",
+          "startMs": 48794,
+          "endMs": 49504,
+          "charStart": 78,
+          "charEnd": 94
+        },
+        {
+          "text": "предостережения",
+          "startMs": 49504,
+          "endMs": 50134,
+          "charStart": 95,
+          "charEnd": 110
+        },
+        {
+          "text": "гуманитарных",
+          "startMs": 50134,
+          "endMs": 50644,
+          "charStart": 111,
+          "charEnd": 123
+        },
+        {
+          "text": "мыслителей",
+          "startMs": 50644,
+          "endMs": 51174,
+          "charStart": 124,
+          "charEnd": 134
+        }
+      ]
+    },
+    {
+      "text": "Человек рискует превратиться из демиурга искусственного разума в бесправный объект алгоритмической манипуляции.",
+      "startMs": 52112,
+      "endMs": 57824,
+      "words": [
+        {
+          "text": "Человек",
+          "startMs": 52212,
+          "endMs": 52622,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "рискует",
+          "startMs": 52622,
+          "endMs": 52932,
+          "charStart": 8,
+          "charEnd": 15
+        },
+        {
+          "text": "превратиться",
+          "startMs": 52932,
+          "endMs": 53482,
+          "charStart": 16,
+          "charEnd": 28
+        },
+        {
+          "text": "из",
+          "startMs": 53482,
+          "endMs": 53632,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "демиурга",
+          "startMs": 53632,
+          "endMs": 54142,
+          "charStart": 32,
+          "charEnd": 40
+        },
+        {
+          "text": "искусственного",
+          "startMs": 54142,
+          "endMs": 54692,
+          "charStart": 41,
+          "charEnd": 55
+        },
+        {
+          "text": "разума",
+          "startMs": 54692,
+          "endMs": 54992,
+          "charStart": 56,
+          "charEnd": 62
+        },
+        {
+          "text": "в",
+          "startMs": 54992,
+          "endMs": 55042,
+          "charStart": 63,
+          "charEnd": 64
+        },
+        {
+          "text": "бесправный",
+          "startMs": 55042,
+          "endMs": 55482,
+          "charStart": 65,
+          "charEnd": 75
+        },
+        {
+          "text": "объект",
+          "startMs": 55482,
+          "endMs": 55852,
+          "charStart": 76,
+          "charEnd": 82
+        },
+        {
+          "text": "алгоритмической",
+          "startMs": 55852,
+          "endMs": 56452,
+          "charStart": 83,
+          "charEnd": 98
+        },
+        {
+          "text": "манипуляции",
+          "startMs": 56452,
+          "endMs": 57142,
+          "charStart": 99,
+          "charEnd": 110
+        }
+      ]
+    },
+    {
+      "text": "Подлинная автономия субъекта требует неустанного сопротивления тотальной алгоритмизации социальной реальности.",
+      "startMs": 58074,
+      "endMs": 63690,
+      "words": [
+        {
+          "text": "Подлинная",
+          "startMs": 58174,
+          "endMs": 58614,
+          "charStart": 0,
+          "charEnd": 9
+        },
+        {
+          "text": "автономия",
+          "startMs": 58614,
+          "endMs": 59064,
+          "charStart": 10,
+          "charEnd": 19
+        },
+        {
+          "text": "субъекта",
+          "startMs": 59064,
+          "endMs": 59454,
+          "charStart": 20,
+          "charEnd": 28
+        },
+        {
+          "text": "требует",
+          "startMs": 59454,
+          "endMs": 59824,
+          "charStart": 29,
+          "charEnd": 36
+        },
+        {
+          "text": "неустанного",
+          "startMs": 59824,
+          "endMs": 60324,
+          "charStart": 37,
+          "charEnd": 48
+        },
+        {
+          "text": "сопротивления",
+          "startMs": 60324,
+          "endMs": 60914,
+          "charStart": 49,
+          "charEnd": 62
+        },
+        {
+          "text": "тотальной",
+          "startMs": 60914,
+          "endMs": 61304,
+          "charStart": 63,
+          "charEnd": 72
+        },
+        {
+          "text": "алгоритмизации",
+          "startMs": 61304,
+          "endMs": 62044,
+          "charStart": 73,
+          "charEnd": 87
+        },
+        {
+          "text": "социальной",
+          "startMs": 62044,
+          "endMs": 62454,
+          "charStart": 88,
+          "charEnd": 98
+        },
+        {
+          "text": "реальности",
+          "startMs": 62454,
+          "endMs": 62984,
+          "charStart": 99,
+          "charEnd": 109
+        }
+      ]
+    }
+  ]
+}

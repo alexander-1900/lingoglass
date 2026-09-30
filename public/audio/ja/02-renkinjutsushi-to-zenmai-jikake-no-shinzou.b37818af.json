@@ -1,0 +1,2090 @@
+{
+  "version": 3,
+  "lang": "ja",
+  "voice": "ja-JP-NanamiNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 81642,
+  "sentences": [
+    {
+      "text": "蒸気と歯車の音が鳴り響く霧深き工業都市の片隅で、錬金術師のレイは禁忌とされる人工生命の創造に没頭していた。",
+      "startMs": 0,
+      "endMs": 8832,
+      "words": [
+        {
+          "text": "蒸気",
+          "startMs": 110,
+          "endMs": 430,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "と",
+          "startMs": 440,
+          "endMs": 530,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "歯車",
+          "startMs": 540,
+          "endMs": 930,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "の",
+          "startMs": 940,
+          "endMs": 1030,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "音",
+          "startMs": 1040,
+          "endMs": 1210,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "が",
+          "startMs": 1220,
+          "endMs": 1340,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "鳴り響く",
+          "startMs": 1380,
+          "endMs": 1950,
+          "charStart": 8,
+          "charEnd": 12
+        },
+        {
+          "text": "霧深き",
+          "startMs": 1960,
+          "endMs": 2510,
+          "charStart": 12,
+          "charEnd": 15
+        },
+        {
+          "text": "工業",
+          "startMs": 2520,
+          "endMs": 2910,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "都市",
+          "startMs": 2920,
+          "endMs": 3130,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "の",
+          "startMs": 3140,
+          "endMs": 3230,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "片隅",
+          "startMs": 3240,
+          "endMs": 3670,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "で",
+          "startMs": 3680,
+          "endMs": 3860,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "錬金術師",
+          "startMs": 4000,
+          "endMs": 4710,
+          "charStart": 24,
+          "charEnd": 28
+        },
+        {
+          "text": "の",
+          "startMs": 4720,
+          "endMs": 4810,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "レイ",
+          "startMs": 4820,
+          "endMs": 4980,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "は",
+          "startMs": 4990,
+          "endMs": 5140,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "禁忌",
+          "startMs": 5160,
+          "endMs": 5480,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "と",
+          "startMs": 5490,
+          "endMs": 5570,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "さ",
+          "startMs": 5580,
+          "endMs": 5690,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "れる",
+          "startMs": 5700,
+          "endMs": 5900,
+          "charStart": 36,
+          "charEnd": 38
+        },
+        {
+          "text": "人工",
+          "startMs": 5910,
+          "endMs": 6310,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "生命",
+          "startMs": 6320,
+          "endMs": 6660,
+          "charStart": 40,
+          "charEnd": 42
+        },
+        {
+          "text": "の",
+          "startMs": 6670,
+          "endMs": 6750,
+          "charStart": 42,
+          "charEnd": 43
+        },
+        {
+          "text": "創造",
+          "startMs": 6760,
+          "endMs": 7150,
+          "charStart": 43,
+          "charEnd": 45
+        },
+        {
+          "text": "に",
+          "startMs": 7160,
+          "endMs": 7250,
+          "charStart": 45,
+          "charEnd": 46
+        },
+        {
+          "text": "没頭",
+          "startMs": 7260,
+          "endMs": 7630,
+          "charStart": 46,
+          "charEnd": 48
+        },
+        {
+          "text": "し",
+          "startMs": 7640,
+          "endMs": 7730,
+          "charStart": 48,
+          "charEnd": 49
+        },
+        {
+          "text": "て",
+          "startMs": 7740,
+          "endMs": 7790,
+          "charStart": 49,
+          "charEnd": 50
+        },
+        {
+          "text": "い",
+          "startMs": 7800,
+          "endMs": 7920,
+          "charStart": 50,
+          "charEnd": 51
+        },
+        {
+          "text": "た",
+          "startMs": 7930,
+          "endMs": 8120,
+          "charStart": 51,
+          "charEnd": 52
+        }
+      ]
+    },
+    {
+      "text": "彼は精緻に設計された真鍮のオートマタの胸元に、純度の高い魔導鉱石を核とした特殊な心臓を組み込もうとしていた。",
+      "startMs": 9082,
+      "endMs": 17434,
+      "words": [
+        {
+          "text": "彼",
+          "startMs": 9222,
+          "endMs": 9392,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "は",
+          "startMs": 9402,
+          "endMs": 9502,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "精緻",
+          "startMs": 9512,
+          "endMs": 9812,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "に",
+          "startMs": 9822,
+          "endMs": 9912,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "設計",
+          "startMs": 9922,
+          "endMs": 10282,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "さ",
+          "startMs": 10292,
+          "endMs": 10382,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "れ",
+          "startMs": 10392,
+          "endMs": 10462,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "た",
+          "startMs": 10472,
+          "endMs": 10582,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "真鍮",
+          "startMs": 10592,
+          "endMs": 11022,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "の",
+          "startMs": 11032,
+          "endMs": 11122,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "オートマタ",
+          "startMs": 11132,
+          "endMs": 11682,
+          "charStart": 13,
+          "charEnd": 18
+        },
+        {
+          "text": "の",
+          "startMs": 11692,
+          "endMs": 11792,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "胸元",
+          "startMs": 11802,
+          "endMs": 12212,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "に",
+          "startMs": 12222,
+          "endMs": 12412,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "純度",
+          "startMs": 12552,
+          "endMs": 12842,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "の",
+          "startMs": 12852,
+          "endMs": 12952,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "高い",
+          "startMs": 12962,
+          "endMs": 13282,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "魔導",
+          "startMs": 13292,
+          "endMs": 13582,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "鉱石",
+          "startMs": 13592,
+          "endMs": 13962,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "を",
+          "startMs": 13972,
+          "endMs": 14062,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "核",
+          "startMs": 14072,
+          "endMs": 14272,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "と",
+          "startMs": 14282,
+          "endMs": 14362,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "し",
+          "startMs": 14372,
+          "endMs": 14462,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "た",
+          "startMs": 14472,
+          "endMs": 14602,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "特殊",
+          "startMs": 14662,
+          "endMs": 14982,
+          "charStart": 37,
+          "charEnd": 39
+        },
+        {
+          "text": "な",
+          "startMs": 14992,
+          "endMs": 15082,
+          "charStart": 39,
+          "charEnd": 40
+        },
+        {
+          "text": "心臓",
+          "startMs": 15092,
+          "endMs": 15472,
+          "charStart": 40,
+          "charEnd": 42
+        },
+        {
+          "text": "を",
+          "startMs": 15482,
+          "endMs": 15622,
+          "charStart": 42,
+          "charEnd": 43
+        },
+        {
+          "text": "組み込もう",
+          "startMs": 15642,
+          "endMs": 16152,
+          "charStart": 43,
+          "charEnd": 48
+        },
+        {
+          "text": "と",
+          "startMs": 16162,
+          "endMs": 16232,
+          "charStart": 48,
+          "charEnd": 49
+        },
+        {
+          "text": "し",
+          "startMs": 16242,
+          "endMs": 16352,
+          "charStart": 49,
+          "charEnd": 50
+        },
+        {
+          "text": "て",
+          "startMs": 16362,
+          "endMs": 16412,
+          "charStart": 50,
+          "charEnd": 51
+        },
+        {
+          "text": "い",
+          "startMs": 16422,
+          "endMs": 16522,
+          "charStart": 51,
+          "charEnd": 52
+        },
+        {
+          "text": "た",
+          "startMs": 16532,
+          "endMs": 16722,
+          "charStart": 52,
+          "charEnd": 53
+        }
+      ]
+    },
+    {
+      "text": "この実験は学会の規範に背く行為にほかならなかったが、亡き妹の魂を宿す器を作るという情熱を抑えきれなかった。",
+      "startMs": 17684,
+      "endMs": 26156,
+      "words": [
+        {
+          "text": "この",
+          "startMs": 17824,
+          "endMs": 18004,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "実験",
+          "startMs": 18014,
+          "endMs": 18374,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "は",
+          "startMs": 18384,
+          "endMs": 18534,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "学会",
+          "startMs": 18544,
+          "endMs": 18914,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "の",
+          "startMs": 18924,
+          "endMs": 19004,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "規範",
+          "startMs": 19014,
+          "endMs": 19324,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "に",
+          "startMs": 19334,
+          "endMs": 19424,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "背く",
+          "startMs": 19434,
+          "endMs": 19784,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "行為",
+          "startMs": 19794,
+          "endMs": 20044,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "に",
+          "startMs": 20054,
+          "endMs": 20134,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "ほか",
+          "startMs": 20144,
+          "endMs": 20374,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "なら",
+          "startMs": 20384,
+          "endMs": 20564,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "なかっ",
+          "startMs": 20574,
+          "endMs": 20844,
+          "charStart": 20,
+          "charEnd": 23
+        },
+        {
+          "text": "た",
+          "startMs": 20854,
+          "endMs": 20944,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "が",
+          "startMs": 20954,
+          "endMs": 21144,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "亡き",
+          "startMs": 21284,
+          "endMs": 21544,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "妹",
+          "startMs": 21554,
+          "endMs": 21904,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "の",
+          "startMs": 21914,
+          "endMs": 22014,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "魂",
+          "startMs": 22024,
+          "endMs": 22414,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "を",
+          "startMs": 22424,
+          "endMs": 22504,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "宿す",
+          "startMs": 22514,
+          "endMs": 22874,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "器",
+          "startMs": 22884,
+          "endMs": 23154,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "を",
+          "startMs": 23164,
+          "endMs": 23254,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "作る",
+          "startMs": 23264,
+          "endMs": 23534,
+          "charStart": 36,
+          "charEnd": 38
+        },
+        {
+          "text": "と",
+          "startMs": 23544,
+          "endMs": 23604,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "いう",
+          "startMs": 23614,
+          "endMs": 23834,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "情熱",
+          "startMs": 23844,
+          "endMs": 24284,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "を",
+          "startMs": 24294,
+          "endMs": 24354,
+          "charStart": 43,
+          "charEnd": 44
+        },
+        {
+          "text": "抑え",
+          "startMs": 24364,
+          "endMs": 24764,
+          "charStart": 44,
+          "charEnd": 46
+        },
+        {
+          "text": "きれ",
+          "startMs": 24774,
+          "endMs": 24954,
+          "charStart": 46,
+          "charEnd": 48
+        },
+        {
+          "text": "なかっ",
+          "startMs": 24964,
+          "endMs": 25244,
+          "charStart": 48,
+          "charEnd": 51
+        },
+        {
+          "text": "た",
+          "startMs": 25254,
+          "endMs": 25454,
+          "charStart": 51,
+          "charEnd": 52
+        }
+      ]
+    },
+    {
+      "text": "複雑に入り組んだエーテル導管に霊薬を流し込むにつれて、冷たい金属の骨格がかすかに脈動し始めた。",
+      "startMs": 26406,
+      "endMs": 33582,
+      "words": [
+        {
+          "text": "複雑",
+          "startMs": 26516,
+          "endMs": 26936,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "に",
+          "startMs": 26946,
+          "endMs": 27046,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "入り組ん",
+          "startMs": 27056,
+          "endMs": 27386,
+          "charStart": 3,
+          "charEnd": 7
+        },
+        {
+          "text": "だ",
+          "startMs": 27396,
+          "endMs": 27466,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "エーテル",
+          "startMs": 27476,
+          "endMs": 27836,
+          "charStart": 8,
+          "charEnd": 12
+        },
+        {
+          "text": "導管",
+          "startMs": 27846,
+          "endMs": 28176,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "に",
+          "startMs": 28186,
+          "endMs": 28336,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "霊薬",
+          "startMs": 28356,
+          "endMs": 28696,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "を",
+          "startMs": 28706,
+          "endMs": 28806,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "流し",
+          "startMs": 28816,
+          "endMs": 29116,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "込む",
+          "startMs": 29126,
+          "endMs": 29296,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "に",
+          "startMs": 29306,
+          "endMs": 29406,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "つれ",
+          "startMs": 29416,
+          "endMs": 29606,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "て",
+          "startMs": 29616,
+          "endMs": 29836,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "冷たい",
+          "startMs": 29976,
+          "endMs": 30396,
+          "charStart": 27,
+          "charEnd": 30
+        },
+        {
+          "text": "金属",
+          "startMs": 30406,
+          "endMs": 30776,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "の",
+          "startMs": 30786,
+          "endMs": 30886,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "骨格",
+          "startMs": 30896,
+          "endMs": 31276,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "が",
+          "startMs": 31286,
+          "endMs": 31436,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "かすか",
+          "startMs": 31466,
+          "endMs": 31766,
+          "charStart": 36,
+          "charEnd": 39
+        },
+        {
+          "text": "に",
+          "startMs": 31776,
+          "endMs": 31886,
+          "charStart": 39,
+          "charEnd": 40
+        },
+        {
+          "text": "脈動",
+          "startMs": 31896,
+          "endMs": 32266,
+          "charStart": 40,
+          "charEnd": 42
+        },
+        {
+          "text": "し",
+          "startMs": 32276,
+          "endMs": 32366,
+          "charStart": 42,
+          "charEnd": 43
+        },
+        {
+          "text": "始め",
+          "startMs": 32376,
+          "endMs": 32656,
+          "charStart": 43,
+          "charEnd": 45
+        },
+        {
+          "text": "た",
+          "startMs": 32666,
+          "endMs": 32876,
+          "charStart": 45,
+          "charEnd": 46
+        }
+      ]
+    },
+    {
+      "text": "しかし次の瞬間、回路の過負荷によって激しい放電現象が起き、工房内の計器が一斉に火花を散らした。",
+      "startMs": 33832,
+      "endMs": 41536,
+      "words": [
+        {
+          "text": "しかし",
+          "startMs": 33942,
+          "endMs": 34322,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "次",
+          "startMs": 34342,
+          "endMs": 34582,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "の",
+          "startMs": 34592,
+          "endMs": 34682,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "瞬間",
+          "startMs": 34692,
+          "endMs": 35142,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "回路",
+          "startMs": 35392,
+          "endMs": 35662,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "の",
+          "startMs": 35672,
+          "endMs": 35782,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "過負荷",
+          "startMs": 35792,
+          "endMs": 36092,
+          "charStart": 11,
+          "charEnd": 14
+        },
+        {
+          "text": "に",
+          "startMs": 36102,
+          "endMs": 36202,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "よっ",
+          "startMs": 36212,
+          "endMs": 36362,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "て",
+          "startMs": 36372,
+          "endMs": 36512,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "激しい",
+          "startMs": 36542,
+          "endMs": 37002,
+          "charStart": 18,
+          "charEnd": 21
+        },
+        {
+          "text": "放電",
+          "startMs": 37012,
+          "endMs": 37362,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "現象",
+          "startMs": 37372,
+          "endMs": 37742,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "が",
+          "startMs": 37752,
+          "endMs": 37812,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "起き",
+          "startMs": 37822,
+          "endMs": 38152,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "工房",
+          "startMs": 38292,
+          "endMs": 38652,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "内",
+          "startMs": 38662,
+          "endMs": 38812,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "の",
+          "startMs": 38822,
+          "endMs": 38912,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "計器",
+          "startMs": 38922,
+          "endMs": 39222,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "が",
+          "startMs": 39232,
+          "endMs": 39372,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "一斉",
+          "startMs": 39382,
+          "endMs": 39722,
+          "charStart": 36,
+          "charEnd": 38
+        },
+        {
+          "text": "に",
+          "startMs": 39732,
+          "endMs": 39872,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "火花",
+          "startMs": 39902,
+          "endMs": 40232,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "を",
+          "startMs": 40242,
+          "endMs": 40312,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "散らし",
+          "startMs": 40322,
+          "endMs": 40662,
+          "charStart": 42,
+          "charEnd": 45
+        },
+        {
+          "text": "た",
+          "startMs": 40672,
+          "endMs": 40842,
+          "charStart": 45,
+          "charEnd": 46
+        }
+      ]
+    },
+    {
+      "text": "失敗したかに思われたものの、レイは諦めることなく、自らの掌をナイフで傷つけて術式陣に魔力を注ぎ足した。",
+      "startMs": 41786,
+      "endMs": 49946,
+      "words": [
+        {
+          "text": "失敗",
+          "startMs": 41896,
+          "endMs": 42326,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "し",
+          "startMs": 42336,
+          "endMs": 42406,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "た",
+          "startMs": 42416,
+          "endMs": 42496,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "か",
+          "startMs": 42506,
+          "endMs": 42596,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "に",
+          "startMs": 42606,
+          "endMs": 42716,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "思わ",
+          "startMs": 42726,
+          "endMs": 42996,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "れ",
+          "startMs": 43006,
+          "endMs": 43086,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "た",
+          "startMs": 43096,
+          "endMs": 43186,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "もの",
+          "startMs": 43196,
+          "endMs": 43386,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "の",
+          "startMs": 43396,
+          "endMs": 43536,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "レイ",
+          "startMs": 43756,
+          "endMs": 43926,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "は",
+          "startMs": 43936,
+          "endMs": 44066,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "諦める",
+          "startMs": 44076,
+          "endMs": 44596,
+          "charStart": 17,
+          "charEnd": 20
+        },
+        {
+          "text": "こと",
+          "startMs": 44606,
+          "endMs": 44796,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "なく",
+          "startMs": 44806,
+          "endMs": 45126,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "自ら",
+          "startMs": 45266,
+          "endMs": 45686,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "の",
+          "startMs": 45696,
+          "endMs": 45806,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "掌",
+          "startMs": 45816,
+          "endMs": 46206,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "を",
+          "startMs": 46216,
+          "endMs": 46306,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "ナイフ",
+          "startMs": 46316,
+          "endMs": 46616,
+          "charStart": 30,
+          "charEnd": 33
+        },
+        {
+          "text": "で",
+          "startMs": 46626,
+          "endMs": 46706,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "傷つけ",
+          "startMs": 46716,
+          "endMs": 47126,
+          "charStart": 34,
+          "charEnd": 37
+        },
+        {
+          "text": "て",
+          "startMs": 47136,
+          "endMs": 47306,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "術式",
+          "startMs": 47346,
+          "endMs": 47766,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "陣",
+          "startMs": 47776,
+          "endMs": 47946,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "に",
+          "startMs": 47956,
+          "endMs": 48066,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "魔力",
+          "startMs": 48086,
+          "endMs": 48396,
+          "charStart": 42,
+          "charEnd": 44
+        },
+        {
+          "text": "を",
+          "startMs": 48406,
+          "endMs": 48496,
+          "charStart": 44,
+          "charEnd": 45
+        },
+        {
+          "text": "注ぎ足",
+          "startMs": 48506,
+          "endMs": 48946,
+          "charStart": 45,
+          "charEnd": 48
+        },
+        {
+          "text": "し",
+          "startMs": 48956,
+          "endMs": 49046,
+          "charStart": 48,
+          "charEnd": 49
+        },
+        {
+          "text": "た",
+          "startMs": 49056,
+          "endMs": 49236,
+          "charStart": 49,
+          "charEnd": 50
+        }
+      ]
+    },
+    {
+      "text": "彼の生体エネルギーを媒体として起動したゼンマイ仕掛けの心臓は、次第に規則正しい鼓動を刻み始めた。",
+      "startMs": 50196,
+      "endMs": 57396,
+      "words": [
+        {
+          "text": "彼",
+          "startMs": 50306,
+          "endMs": 50496,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "の",
+          "startMs": 50506,
+          "endMs": 50606,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "生体",
+          "startMs": 50616,
+          "endMs": 51026,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "エネルギー",
+          "startMs": 51036,
+          "endMs": 51456,
+          "charStart": 4,
+          "charEnd": 9
+        },
+        {
+          "text": "を",
+          "startMs": 51466,
+          "endMs": 51546,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "媒体",
+          "startMs": 51556,
+          "endMs": 51916,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "と",
+          "startMs": 51926,
+          "endMs": 51996,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "し",
+          "startMs": 52006,
+          "endMs": 52086,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "て",
+          "startMs": 52096,
+          "endMs": 52186,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "起動",
+          "startMs": 52196,
+          "endMs": 52486,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "し",
+          "startMs": 52496,
+          "endMs": 52566,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "た",
+          "startMs": 52576,
+          "endMs": 52666,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "ゼンマイ",
+          "startMs": 52676,
+          "endMs": 53056,
+          "charStart": 19,
+          "charEnd": 23
+        },
+        {
+          "text": "仕掛け",
+          "startMs": 53066,
+          "endMs": 53326,
+          "charStart": 23,
+          "charEnd": 26
+        },
+        {
+          "text": "の",
+          "startMs": 53336,
+          "endMs": 53426,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "心臓",
+          "startMs": 53436,
+          "endMs": 53866,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "は",
+          "startMs": 53876,
+          "endMs": 54066,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "次第",
+          "startMs": 54206,
+          "endMs": 54556,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "に",
+          "startMs": 54566,
+          "endMs": 54716,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "規則",
+          "startMs": 54726,
+          "endMs": 55026,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "正しい",
+          "startMs": 55036,
+          "endMs": 55446,
+          "charStart": 36,
+          "charEnd": 39
+        },
+        {
+          "text": "鼓動",
+          "startMs": 55456,
+          "endMs": 55716,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "を",
+          "startMs": 55726,
+          "endMs": 55806,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "刻み",
+          "startMs": 55816,
+          "endMs": 56136,
+          "charStart": 42,
+          "charEnd": 44
+        },
+        {
+          "text": "始め",
+          "startMs": 56146,
+          "endMs": 56456,
+          "charStart": 44,
+          "charEnd": 46
+        },
+        {
+          "text": "た",
+          "startMs": 56466,
+          "endMs": 56686,
+          "charStart": 46,
+          "charEnd": 47
+        }
+      ]
+    },
+    {
+      "text": "やがて静かに目を開いた機械仕掛けの少女は、ぎこちない動きで手を伸ばし、創造主の頬にそっと触れた。",
+      "startMs": 57646,
+      "endMs": 64750,
+      "words": [
+        {
+          "text": "やがて",
+          "startMs": 57786,
+          "endMs": 58086,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "静か",
+          "startMs": 58096,
+          "endMs": 58416,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "に",
+          "startMs": 58426,
+          "endMs": 58546,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "目",
+          "startMs": 58556,
+          "endMs": 58636,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "を",
+          "startMs": 58646,
+          "endMs": 58716,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "開い",
+          "startMs": 58726,
+          "endMs": 59026,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "た",
+          "startMs": 59036,
+          "endMs": 59136,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "機械",
+          "startMs": 59146,
+          "endMs": 59436,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "仕掛け",
+          "startMs": 59446,
+          "endMs": 59716,
+          "charStart": 13,
+          "charEnd": 16
+        },
+        {
+          "text": "の",
+          "startMs": 59726,
+          "endMs": 59826,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "少女",
+          "startMs": 59836,
+          "endMs": 60156,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "は",
+          "startMs": 60166,
+          "endMs": 60346,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "ぎこち",
+          "startMs": 60596,
+          "endMs": 60946,
+          "charStart": 21,
+          "charEnd": 24
+        },
+        {
+          "text": "ない",
+          "startMs": 60956,
+          "endMs": 61116,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "動き",
+          "startMs": 61126,
+          "endMs": 61396,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "で",
+          "startMs": 61406,
+          "endMs": 61506,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "手",
+          "startMs": 61516,
+          "endMs": 61636,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "を",
+          "startMs": 61646,
+          "endMs": 61736,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "伸ばし",
+          "startMs": 61746,
+          "endMs": 62206,
+          "charStart": 31,
+          "charEnd": 34
+        },
+        {
+          "text": "創造",
+          "startMs": 62346,
+          "endMs": 62776,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "主",
+          "startMs": 62786,
+          "endMs": 62896,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "の",
+          "startMs": 62906,
+          "endMs": 62976,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "頬",
+          "startMs": 62986,
+          "endMs": 63166,
+          "charStart": 39,
+          "charEnd": 40
+        },
+        {
+          "text": "に",
+          "startMs": 63176,
+          "endMs": 63296,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "そっと",
+          "startMs": 63306,
+          "endMs": 63616,
+          "charStart": 41,
+          "charEnd": 44
+        },
+        {
+          "text": "触れ",
+          "startMs": 63626,
+          "endMs": 63816,
+          "charStart": 44,
+          "charEnd": 46
+        },
+        {
+          "text": "た",
+          "startMs": 63826,
+          "endMs": 64036,
+          "charStart": 46,
+          "charEnd": 47
+        }
+      ]
+    },
+    {
+      "text": "その水晶の瞳には単なるプログラムを超えた感情の輝きが宿っており、彼女は「兄さん」と小さく呟いた。",
+      "startMs": 65000,
+      "endMs": 72848,
+      "words": [
+        {
+          "text": "その",
+          "startMs": 65110,
+          "endMs": 65360,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "水晶",
+          "startMs": 65370,
+          "endMs": 65810,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "の",
+          "startMs": 65820,
+          "endMs": 65880,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "瞳",
+          "startMs": 65890,
+          "endMs": 66200,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "に",
+          "startMs": 66210,
+          "endMs": 66300,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "は",
+          "startMs": 66310,
+          "endMs": 66470,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "単",
+          "startMs": 66500,
+          "endMs": 66680,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "なる",
+          "startMs": 66690,
+          "endMs": 66900,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "プログラム",
+          "startMs": 66910,
+          "endMs": 67380,
+          "charStart": 11,
+          "charEnd": 16
+        },
+        {
+          "text": "を",
+          "startMs": 67390,
+          "endMs": 67480,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "超え",
+          "startMs": 67490,
+          "endMs": 67680,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "た",
+          "startMs": 67690,
+          "endMs": 67800,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "感情",
+          "startMs": 67810,
+          "endMs": 68170,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "の",
+          "startMs": 68180,
+          "endMs": 68280,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "輝き",
+          "startMs": 68290,
+          "endMs": 68690,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "が",
+          "startMs": 68700,
+          "endMs": 68770,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "宿っ",
+          "startMs": 68780,
+          "endMs": 69080,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "て",
+          "startMs": 69090,
+          "endMs": 69160,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "おり",
+          "startMs": 69170,
+          "endMs": 69470,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "彼女",
+          "startMs": 69720,
+          "endMs": 70040,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "は",
+          "startMs": 70050,
+          "endMs": 70220,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "兄",
+          "startMs": 70360,
+          "endMs": 70550,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "さん",
+          "startMs": 70560,
+          "endMs": 70780,
+          "charStart": 37,
+          "charEnd": 39
+        },
+        {
+          "text": "と",
+          "startMs": 70940,
+          "endMs": 71040,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "小さく",
+          "startMs": 71050,
+          "endMs": 71500,
+          "charStart": 41,
+          "charEnd": 44
+        },
+        {
+          "text": "呟い",
+          "startMs": 71510,
+          "endMs": 71950,
+          "charStart": 44,
+          "charEnd": 46
+        },
+        {
+          "text": "た",
+          "startMs": 71960,
+          "endMs": 72140,
+          "charStart": 46,
+          "charEnd": 47
+        }
+      ]
+    },
+    {
+      "text": "禁断の境界を踏み越えた錬金術師は、自らの選択がもたらすであろう過酷な運命を覚悟しつつ、彼女を優しく抱きしめた。",
+      "startMs": 73098,
+      "endMs": 81642,
+      "words": [
+        {
+          "text": "禁断",
+          "startMs": 73238,
+          "endMs": 73568,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "の",
+          "startMs": 73578,
+          "endMs": 73668,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "境界",
+          "startMs": 73678,
+          "endMs": 74058,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "を",
+          "startMs": 74068,
+          "endMs": 74138,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "踏み越え",
+          "startMs": 74148,
+          "endMs": 74558,
+          "charStart": 6,
+          "charEnd": 10
+        },
+        {
+          "text": "た",
+          "startMs": 74568,
+          "endMs": 74708,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "錬金術師",
+          "startMs": 74748,
+          "endMs": 75448,
+          "charStart": 11,
+          "charEnd": 15
+        },
+        {
+          "text": "は",
+          "startMs": 75458,
+          "endMs": 75628,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "自ら",
+          "startMs": 75768,
+          "endMs": 76188,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "の",
+          "startMs": 76198,
+          "endMs": 76298,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "選択",
+          "startMs": 76308,
+          "endMs": 76708,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "が",
+          "startMs": 76718,
+          "endMs": 76808,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "もたらす",
+          "startMs": 76818,
+          "endMs": 77238,
+          "charStart": 23,
+          "charEnd": 27
+        },
+        {
+          "text": "で",
+          "startMs": 77248,
+          "endMs": 77328,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "あろう",
+          "startMs": 77338,
+          "endMs": 77638,
+          "charStart": 28,
+          "charEnd": 31
+        },
+        {
+          "text": "過酷",
+          "startMs": 77648,
+          "endMs": 77938,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "な",
+          "startMs": 77948,
+          "endMs": 78018,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "運命",
+          "startMs": 78028,
+          "endMs": 78358,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "を",
+          "startMs": 78368,
+          "endMs": 78488,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "覚悟",
+          "startMs": 78508,
+          "endMs": 78838,
+          "charStart": 37,
+          "charEnd": 39
+        },
+        {
+          "text": "し",
+          "startMs": 78848,
+          "endMs": 78948,
+          "charStart": 39,
+          "charEnd": 40
+        },
+        {
+          "text": "つつ",
+          "startMs": 78958,
+          "endMs": 79278,
+          "charStart": 40,
+          "charEnd": 42
+        },
+        {
+          "text": "彼女",
+          "startMs": 79528,
+          "endMs": 79858,
+          "charStart": 43,
+          "charEnd": 45
+        },
+        {
+          "text": "を",
+          "startMs": 79868,
+          "endMs": 79918,
+          "charStart": 45,
+          "charEnd": 46
+        },
+        {
+          "text": "優しく",
+          "startMs": 79928,
+          "endMs": 80328,
+          "charStart": 46,
+          "charEnd": 49
+        },
+        {
+          "text": "抱き",
+          "startMs": 80338,
+          "endMs": 80518,
+          "charStart": 49,
+          "charEnd": 51
+        },
+        {
+          "text": "しめ",
+          "startMs": 80528,
+          "endMs": 80718,
+          "charStart": 51,
+          "charEnd": 53
+        },
+        {
+          "text": "た",
+          "startMs": 80728,
+          "endMs": 80938,
+          "charStart": 53,
+          "charEnd": 54
+        }
+      ]
+    }
+  ]
+}

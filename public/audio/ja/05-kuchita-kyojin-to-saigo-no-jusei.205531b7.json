@@ -1,0 +1,2111 @@
+{
+  "version": 3,
+  "lang": "ja",
+  "voice": "ja-JP-NanamiNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 78978,
+  "sentences": [
+    {
+      "text": "魔導戦争によって文明が崩壊してから数百年、荒涼たる瓦礫の平原を一体の古代ゴーレムが彷徨い続けていた。",
+      "startMs": 0,
+      "endMs": 8016,
+      "words": [
+        {
+          "text": "魔導",
+          "startMs": 110,
+          "endMs": 410,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "戦争",
+          "startMs": 420,
+          "endMs": 800,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "に",
+          "startMs": 810,
+          "endMs": 880,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "よっ",
+          "startMs": 890,
+          "endMs": 1050,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "て",
+          "startMs": 1060,
+          "endMs": 1180,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "文明",
+          "startMs": 1210,
+          "endMs": 1560,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "が",
+          "startMs": 1570,
+          "endMs": 1660,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "崩壊",
+          "startMs": 1670,
+          "endMs": 2050,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "し",
+          "startMs": 2060,
+          "endMs": 2130,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "て",
+          "startMs": 2140,
+          "endMs": 2210,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "から",
+          "startMs": 2220,
+          "endMs": 2430,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "数",
+          "startMs": 2440,
+          "endMs": 2650,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "百年",
+          "startMs": 2660,
+          "endMs": 3150,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "荒涼",
+          "startMs": 3320,
+          "endMs": 3650,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "たる",
+          "startMs": 3660,
+          "endMs": 3880,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "瓦礫",
+          "startMs": 3900,
+          "endMs": 4210,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "の",
+          "startMs": 4220,
+          "endMs": 4300,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "平原",
+          "startMs": 4310,
+          "endMs": 4690,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "を",
+          "startMs": 4700,
+          "endMs": 4790,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "一体",
+          "startMs": 4800,
+          "endMs": 5140,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "の",
+          "startMs": 5150,
+          "endMs": 5280,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "古代",
+          "startMs": 5300,
+          "endMs": 5600,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "ゴーレム",
+          "startMs": 5610,
+          "endMs": 5980,
+          "charStart": 36,
+          "charEnd": 40
+        },
+        {
+          "text": "が",
+          "startMs": 5990,
+          "endMs": 6120,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "彷徨",
+          "startMs": 6130,
+          "endMs": 6550,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "い",
+          "startMs": 6560,
+          "endMs": 6630,
+          "charStart": 43,
+          "charEnd": 44
+        },
+        {
+          "text": "続け",
+          "startMs": 6640,
+          "endMs": 6920,
+          "charStart": 44,
+          "charEnd": 46
+        },
+        {
+          "text": "て",
+          "startMs": 6930,
+          "endMs": 7000,
+          "charStart": 46,
+          "charEnd": 47
+        },
+        {
+          "text": "い",
+          "startMs": 7010,
+          "endMs": 7130,
+          "charStart": 47,
+          "charEnd": 48
+        },
+        {
+          "text": "た",
+          "startMs": 7140,
+          "endMs": 7320,
+          "charStart": 48,
+          "charEnd": 49
+        }
+      ]
+    },
+    {
+      "text": "全身を苔と風化に覆われたその巨人は、かつて都を護衛するために製造された戦闘用兵器にほかならなかった。",
+      "startMs": 8266,
+      "endMs": 15802,
+      "words": [
+        {
+          "text": "全身",
+          "startMs": 8376,
+          "endMs": 8826,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "を",
+          "startMs": 8836,
+          "endMs": 8926,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "苔",
+          "startMs": 8936,
+          "endMs": 9156,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "と",
+          "startMs": 9166,
+          "endMs": 9266,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "風化",
+          "startMs": 9276,
+          "endMs": 9576,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "に",
+          "startMs": 9586,
+          "endMs": 9706,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "覆わ",
+          "startMs": 9716,
+          "endMs": 9966,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "れ",
+          "startMs": 9976,
+          "endMs": 10056,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "た",
+          "startMs": 10066,
+          "endMs": 10206,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "その",
+          "startMs": 10216,
+          "endMs": 10456,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "巨人",
+          "startMs": 10466,
+          "endMs": 10786,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "は",
+          "startMs": 10796,
+          "endMs": 10996,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "かつて",
+          "startMs": 11136,
+          "endMs": 11436,
+          "charStart": 18,
+          "charEnd": 21
+        },
+        {
+          "text": "都",
+          "startMs": 11446,
+          "endMs": 11556,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "を",
+          "startMs": 11566,
+          "endMs": 11646,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "護衛",
+          "startMs": 11656,
+          "endMs": 11946,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "する",
+          "startMs": 11956,
+          "endMs": 12146,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "ため",
+          "startMs": 12156,
+          "endMs": 12326,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "に",
+          "startMs": 12336,
+          "endMs": 12456,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "製造",
+          "startMs": 12466,
+          "endMs": 12836,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "さ",
+          "startMs": 12846,
+          "endMs": 12946,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "れ",
+          "startMs": 12956,
+          "endMs": 13036,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "た",
+          "startMs": 13046,
+          "endMs": 13156,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "戦闘",
+          "startMs": 13166,
+          "endMs": 13586,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "用兵器",
+          "startMs": 13596,
+          "endMs": 14056,
+          "charStart": 37,
+          "charEnd": 40
+        },
+        {
+          "text": "に",
+          "startMs": 14066,
+          "endMs": 14166,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "ほか",
+          "startMs": 14176,
+          "endMs": 14396,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "なら",
+          "startMs": 14406,
+          "endMs": 14586,
+          "charStart": 43,
+          "charEnd": 45
+        },
+        {
+          "text": "なかっ",
+          "startMs": 14596,
+          "endMs": 14876,
+          "charStart": 45,
+          "charEnd": 48
+        },
+        {
+          "text": "た",
+          "startMs": 14886,
+          "endMs": 15086,
+          "charStart": 48,
+          "charEnd": 49
+        }
+      ]
+    },
+    {
+      "text": "かすかに残る動力源を頼りに歩みを進めていた彼は、廃墟の底で奇跡的に芽吹いた小さな若木を発見した。",
+      "startMs": 16052,
+      "endMs": 23708,
+      "words": [
+        {
+          "text": "かすか",
+          "startMs": 16202,
+          "endMs": 16422,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "に",
+          "startMs": 16432,
+          "endMs": 16532,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "残る",
+          "startMs": 16542,
+          "endMs": 16842,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "動力源",
+          "startMs": 16852,
+          "endMs": 17402,
+          "charStart": 6,
+          "charEnd": 9
+        },
+        {
+          "text": "を",
+          "startMs": 17412,
+          "endMs": 17492,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "頼り",
+          "startMs": 17502,
+          "endMs": 17812,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "に",
+          "startMs": 17822,
+          "endMs": 17962,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "歩み",
+          "startMs": 17992,
+          "endMs": 18292,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "を",
+          "startMs": 18302,
+          "endMs": 18382,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "進め",
+          "startMs": 18392,
+          "endMs": 18722,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "て",
+          "startMs": 18732,
+          "endMs": 18792,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "い",
+          "startMs": 18802,
+          "endMs": 18892,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "た",
+          "startMs": 18902,
+          "endMs": 18992,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "彼",
+          "startMs": 19002,
+          "endMs": 19202,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "は",
+          "startMs": 19212,
+          "endMs": 19412,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "廃墟",
+          "startMs": 19552,
+          "endMs": 19862,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "の",
+          "startMs": 19872,
+          "endMs": 19972,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "底",
+          "startMs": 19982,
+          "endMs": 20202,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "で",
+          "startMs": 20212,
+          "endMs": 20392,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "奇跡的",
+          "startMs": 20442,
+          "endMs": 20942,
+          "charStart": 29,
+          "charEnd": 32
+        },
+        {
+          "text": "に",
+          "startMs": 20952,
+          "endMs": 21052,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "芽吹い",
+          "startMs": 21062,
+          "endMs": 21342,
+          "charStart": 33,
+          "charEnd": 36
+        },
+        {
+          "text": "た",
+          "startMs": 21352,
+          "endMs": 21422,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "小さな",
+          "startMs": 21432,
+          "endMs": 21872,
+          "charStart": 37,
+          "charEnd": 40
+        },
+        {
+          "text": "若木",
+          "startMs": 21882,
+          "endMs": 22182,
+          "charStart": 40,
+          "charEnd": 42
+        },
+        {
+          "text": "を",
+          "startMs": 22192,
+          "endMs": 22262,
+          "charStart": 42,
+          "charEnd": 43
+        },
+        {
+          "text": "発見",
+          "startMs": 22272,
+          "endMs": 22672,
+          "charStart": 43,
+          "charEnd": 45
+        },
+        {
+          "text": "し",
+          "startMs": 22682,
+          "endMs": 22802,
+          "charStart": 45,
+          "charEnd": 46
+        },
+        {
+          "text": "た",
+          "startMs": 22812,
+          "endMs": 22992,
+          "charStart": 46,
+          "charEnd": 47
+        }
+      ]
+    },
+    {
+      "text": "その若木には、地上から絶滅したはずの「世界樹」の血統を受け継ぐ幼き樹精の魂が宿っていた。",
+      "startMs": 23958,
+      "endMs": 31446,
+      "words": [
+        {
+          "text": "その",
+          "startMs": 24068,
+          "endMs": 24328,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "若木",
+          "startMs": 24338,
+          "endMs": 24658,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "に",
+          "startMs": 24668,
+          "endMs": 24758,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "は",
+          "startMs": 24768,
+          "endMs": 24988,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "地上",
+          "startMs": 25188,
+          "endMs": 25538,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "から",
+          "startMs": 25548,
+          "endMs": 25728,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "絶滅",
+          "startMs": 25738,
+          "endMs": 26168,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "し",
+          "startMs": 26178,
+          "endMs": 26248,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "た",
+          "startMs": 26258,
+          "endMs": 26328,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "はず",
+          "startMs": 26338,
+          "endMs": 26548,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "の",
+          "startMs": 26558,
+          "endMs": 26718,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "世界",
+          "startMs": 26838,
+          "endMs": 27188,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "樹",
+          "startMs": 27198,
+          "endMs": 27408,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "の",
+          "startMs": 27548,
+          "endMs": 27678,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "血統",
+          "startMs": 27688,
+          "endMs": 28068,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "を",
+          "startMs": 28078,
+          "endMs": 28138,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "受け継ぐ",
+          "startMs": 28148,
+          "endMs": 28578,
+          "charStart": 27,
+          "charEnd": 31
+        },
+        {
+          "text": "幼き",
+          "startMs": 28588,
+          "endMs": 29068,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "樹精",
+          "startMs": 29088,
+          "endMs": 29388,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "の",
+          "startMs": 29398,
+          "endMs": 29498,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "魂",
+          "startMs": 29508,
+          "endMs": 29908,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "が",
+          "startMs": 29918,
+          "endMs": 29998,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "宿っ",
+          "startMs": 30008,
+          "endMs": 30338,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "て",
+          "startMs": 30348,
+          "endMs": 30418,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "い",
+          "startMs": 30428,
+          "endMs": 30538,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "た",
+          "startMs": 30548,
+          "endMs": 30738,
+          "charStart": 42,
+          "charEnd": 43
+        }
+      ]
+    },
+    {
+      "text": "不毛の灰が降り注ぐ過酷な大地では、守り手なしにその弱々しい命を維持することは不可能であった。",
+      "startMs": 31696,
+      "endMs": 38968,
+      "words": [
+        {
+          "text": "不毛",
+          "startMs": 31806,
+          "endMs": 32126,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "の",
+          "startMs": 32136,
+          "endMs": 32216,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "灰",
+          "startMs": 32226,
+          "endMs": 32406,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "が",
+          "startMs": 32416,
+          "endMs": 32506,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "降り注ぐ",
+          "startMs": 32516,
+          "endMs": 33096,
+          "charStart": 5,
+          "charEnd": 9
+        },
+        {
+          "text": "過酷",
+          "startMs": 33106,
+          "endMs": 33416,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "な",
+          "startMs": 33426,
+          "endMs": 33516,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "大地",
+          "startMs": 33526,
+          "endMs": 33816,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "で",
+          "startMs": 33826,
+          "endMs": 33906,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "は",
+          "startMs": 33916,
+          "endMs": 34096,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "守り",
+          "startMs": 34236,
+          "endMs": 34556,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "手なし",
+          "startMs": 34566,
+          "endMs": 34866,
+          "charStart": 19,
+          "charEnd": 22
+        },
+        {
+          "text": "に",
+          "startMs": 34876,
+          "endMs": 35016,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "その",
+          "startMs": 35036,
+          "endMs": 35256,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "弱",
+          "startMs": 35266,
+          "endMs": 35486,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "々しい",
+          "startMs": 35496,
+          "endMs": 36056,
+          "charStart": 26,
+          "charEnd": 29
+        },
+        {
+          "text": "命",
+          "startMs": 36066,
+          "endMs": 36376,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "を",
+          "startMs": 36386,
+          "endMs": 36506,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "維持",
+          "startMs": 36516,
+          "endMs": 36736,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "する",
+          "startMs": 36746,
+          "endMs": 36936,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "こと",
+          "startMs": 36946,
+          "endMs": 37136,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "は",
+          "startMs": 37146,
+          "endMs": 37356,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "不可能",
+          "startMs": 37426,
+          "endMs": 37796,
+          "charStart": 38,
+          "charEnd": 41
+        },
+        {
+          "text": "で",
+          "startMs": 37806,
+          "endMs": 37876,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "あっ",
+          "startMs": 37886,
+          "endMs": 38066,
+          "charStart": 42,
+          "charEnd": 44
+        },
+        {
+          "text": "た",
+          "startMs": 38076,
+          "endMs": 38266,
+          "charStart": 44,
+          "charEnd": 45
+        }
+      ]
+    },
+    {
+      "text": "巨人は無言のまま自らの頑丈な胸甲を開き、空洞となっていた動力炉の空間に若木を丁重に移植した。",
+      "startMs": 39218,
+      "endMs": 46874,
+      "words": [
+        {
+          "text": "巨人",
+          "startMs": 39358,
+          "endMs": 39638,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "は",
+          "startMs": 39648,
+          "endMs": 39768,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "無言",
+          "startMs": 39788,
+          "endMs": 40068,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "の",
+          "startMs": 40078,
+          "endMs": 40168,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "まま",
+          "startMs": 40178,
+          "endMs": 40378,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "自ら",
+          "startMs": 40388,
+          "endMs": 40788,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "の",
+          "startMs": 40798,
+          "endMs": 40898,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "頑丈",
+          "startMs": 40908,
+          "endMs": 41268,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "な",
+          "startMs": 41278,
+          "endMs": 41368,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "胸甲",
+          "startMs": 41378,
+          "endMs": 41758,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "を",
+          "startMs": 41768,
+          "endMs": 41828,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "開き",
+          "startMs": 41838,
+          "endMs": 42298,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "空洞",
+          "startMs": 42438,
+          "endMs": 42808,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "と",
+          "startMs": 42818,
+          "endMs": 42898,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "なっ",
+          "startMs": 42908,
+          "endMs": 43068,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "て",
+          "startMs": 43078,
+          "endMs": 43138,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "い",
+          "startMs": 43148,
+          "endMs": 43248,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "た",
+          "startMs": 43258,
+          "endMs": 43398,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "動力炉",
+          "startMs": 43458,
+          "endMs": 43928,
+          "charStart": 28,
+          "charEnd": 31
+        },
+        {
+          "text": "の",
+          "startMs": 43938,
+          "endMs": 44048,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "空間",
+          "startMs": 44058,
+          "endMs": 44398,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "に",
+          "startMs": 44408,
+          "endMs": 44588,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "若木",
+          "startMs": 44648,
+          "endMs": 44958,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "を",
+          "startMs": 44968,
+          "endMs": 45058,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "丁重",
+          "startMs": 45068,
+          "endMs": 45458,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "に",
+          "startMs": 45468,
+          "endMs": 45558,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "移植",
+          "startMs": 45568,
+          "endMs": 45858,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "し",
+          "startMs": 45868,
+          "endMs": 45978,
+          "charStart": 43,
+          "charEnd": 44
+        },
+        {
+          "text": "た",
+          "startMs": 45988,
+          "endMs": 46168,
+          "charStart": 44,
+          "charEnd": 45
+        }
+      ]
+    },
+    {
+      "text": "内部に残されたわずかな魔力液を樹木に分け与えつつ、彼は外界の酸性雨や毒風から小さな命を遮断した。",
+      "startMs": 47124,
+      "endMs": 54852,
+      "words": [
+        {
+          "text": "内部",
+          "startMs": 47234,
+          "endMs": 47524,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "に",
+          "startMs": 47534,
+          "endMs": 47634,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "残さ",
+          "startMs": 47644,
+          "endMs": 47944,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "れ",
+          "startMs": 47954,
+          "endMs": 48034,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "た",
+          "startMs": 48044,
+          "endMs": 48144,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "わずか",
+          "startMs": 48154,
+          "endMs": 48464,
+          "charStart": 7,
+          "charEnd": 10
+        },
+        {
+          "text": "な",
+          "startMs": 48474,
+          "endMs": 48564,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "魔力液",
+          "startMs": 48574,
+          "endMs": 49074,
+          "charStart": 11,
+          "charEnd": 14
+        },
+        {
+          "text": "を",
+          "startMs": 49084,
+          "endMs": 49204,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "樹木",
+          "startMs": 49214,
+          "endMs": 49544,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "に",
+          "startMs": 49554,
+          "endMs": 49654,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "分け",
+          "startMs": 49664,
+          "endMs": 49884,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "与え",
+          "startMs": 49894,
+          "endMs": 50144,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "つつ",
+          "startMs": 50154,
+          "endMs": 50474,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "彼",
+          "startMs": 50644,
+          "endMs": 50804,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "は",
+          "startMs": 50814,
+          "endMs": 50954,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "外界",
+          "startMs": 50984,
+          "endMs": 51344,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "の",
+          "startMs": 51354,
+          "endMs": 51434,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "酸性雨",
+          "startMs": 51444,
+          "endMs": 51914,
+          "charStart": 30,
+          "charEnd": 33
+        },
+        {
+          "text": "や",
+          "startMs": 51924,
+          "endMs": 52044,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "毒風",
+          "startMs": 52054,
+          "endMs": 52434,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "から",
+          "startMs": 52444,
+          "endMs": 52654,
+          "charStart": 36,
+          "charEnd": 38
+        },
+        {
+          "text": "小さな",
+          "startMs": 52704,
+          "endMs": 53104,
+          "charStart": 38,
+          "charEnd": 41
+        },
+        {
+          "text": "命",
+          "startMs": 53114,
+          "endMs": 53424,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "を",
+          "startMs": 53434,
+          "endMs": 53514,
+          "charStart": 42,
+          "charEnd": 43
+        },
+        {
+          "text": "遮断",
+          "startMs": 53524,
+          "endMs": 53844,
+          "charStart": 43,
+          "charEnd": 45
+        },
+        {
+          "text": "し",
+          "startMs": 53854,
+          "endMs": 53964,
+          "charStart": 45,
+          "charEnd": 46
+        },
+        {
+          "text": "た",
+          "startMs": 53974,
+          "endMs": 54154,
+          "charStart": 46,
+          "charEnd": 47
+        }
+      ]
+    },
+    {
+      "text": "旅の途上、変異した凶暴な機械生命体に襲撃された際も、巨人は自らの装甲を盾にして苗木を守り抜いた。",
+      "startMs": 55102,
+      "endMs": 63334,
+      "words": [
+        {
+          "text": "旅",
+          "startMs": 55242,
+          "endMs": 55422,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "の",
+          "startMs": 55432,
+          "endMs": 55522,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "途上",
+          "startMs": 55532,
+          "endMs": 55882,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "変異",
+          "startMs": 56172,
+          "endMs": 56442,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "し",
+          "startMs": 56452,
+          "endMs": 56542,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "た",
+          "startMs": 56552,
+          "endMs": 56642,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "凶暴",
+          "startMs": 56652,
+          "endMs": 57062,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "な",
+          "startMs": 57072,
+          "endMs": 57172,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "機械",
+          "startMs": 57182,
+          "endMs": 57502,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "生命体",
+          "startMs": 57512,
+          "endMs": 58072,
+          "charStart": 14,
+          "charEnd": 17
+        },
+        {
+          "text": "に",
+          "startMs": 58082,
+          "endMs": 58192,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "襲撃",
+          "startMs": 58202,
+          "endMs": 58612,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "さ",
+          "startMs": 58622,
+          "endMs": 58722,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "れ",
+          "startMs": 58732,
+          "endMs": 58812,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "た",
+          "startMs": 58822,
+          "endMs": 58922,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "際",
+          "startMs": 58932,
+          "endMs": 59152,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "も",
+          "startMs": 59162,
+          "endMs": 59342,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "巨人",
+          "startMs": 59512,
+          "endMs": 59792,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "は",
+          "startMs": 59802,
+          "endMs": 59932,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "自ら",
+          "startMs": 59962,
+          "endMs": 60372,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "の",
+          "startMs": 60382,
+          "endMs": 60482,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "装甲",
+          "startMs": 60492,
+          "endMs": 60882,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "を",
+          "startMs": 60892,
+          "endMs": 60972,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "盾",
+          "startMs": 60982,
+          "endMs": 61182,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "に",
+          "startMs": 61192,
+          "endMs": 61292,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "し",
+          "startMs": 61302,
+          "endMs": 61382,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "て",
+          "startMs": 61392,
+          "endMs": 61502,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "苗木",
+          "startMs": 61572,
+          "endMs": 61862,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "を",
+          "startMs": 61872,
+          "endMs": 61962,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "守り抜い",
+          "startMs": 61972,
+          "endMs": 62442,
+          "charStart": 42,
+          "charEnd": 46
+        },
+        {
+          "text": "た",
+          "startMs": 62452,
+          "endMs": 62642,
+          "charStart": 46,
+          "charEnd": 47
+        }
+      ]
+    },
+    {
+      "text": "ついに清らかな水が湧き出る約束の地に辿り着いた時、巨人の魔核は完全に寿命を迎えようとしていた。",
+      "startMs": 63584,
+      "endMs": 70688,
+      "words": [
+        {
+          "text": "ついに",
+          "startMs": 63724,
+          "endMs": 64084,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "清らか",
+          "startMs": 64094,
+          "endMs": 64474,
+          "charStart": 3,
+          "charEnd": 6
+        },
+        {
+          "text": "な",
+          "startMs": 64484,
+          "endMs": 64564,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "水",
+          "startMs": 64574,
+          "endMs": 64764,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "が",
+          "startMs": 64774,
+          "endMs": 64864,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "湧き出る",
+          "startMs": 64874,
+          "endMs": 65264,
+          "charStart": 9,
+          "charEnd": 13
+        },
+        {
+          "text": "約束",
+          "startMs": 65274,
+          "endMs": 65664,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "の",
+          "startMs": 65674,
+          "endMs": 65744,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "地",
+          "startMs": 65754,
+          "endMs": 65894,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "に",
+          "startMs": 65904,
+          "endMs": 66034,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "辿り",
+          "startMs": 66054,
+          "endMs": 66314,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "着い",
+          "startMs": 66324,
+          "endMs": 66514,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "た",
+          "startMs": 66524,
+          "endMs": 66594,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "時",
+          "startMs": 66604,
+          "endMs": 66904,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "巨人",
+          "startMs": 67074,
+          "endMs": 67344,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "の",
+          "startMs": 67354,
+          "endMs": 67444,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "魔核",
+          "startMs": 67454,
+          "endMs": 67764,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "は",
+          "startMs": 67774,
+          "endMs": 67934,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "完全",
+          "startMs": 68004,
+          "endMs": 68384,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "に",
+          "startMs": 68394,
+          "endMs": 68514,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "寿命",
+          "startMs": 68524,
+          "endMs": 68834,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "を",
+          "startMs": 68844,
+          "endMs": 68914,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "迎え",
+          "startMs": 68924,
+          "endMs": 69204,
+          "charStart": 37,
+          "charEnd": 39
+        },
+        {
+          "text": "よう",
+          "startMs": 69214,
+          "endMs": 69394,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "と",
+          "startMs": 69404,
+          "endMs": 69474,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "し",
+          "startMs": 69484,
+          "endMs": 69594,
+          "charStart": 42,
+          "charEnd": 43
+        },
+        {
+          "text": "て",
+          "startMs": 69604,
+          "endMs": 69654,
+          "charStart": 43,
+          "charEnd": 44
+        },
+        {
+          "text": "い",
+          "startMs": 69664,
+          "endMs": 69774,
+          "charStart": 44,
+          "charEnd": 45
+        },
+        {
+          "text": "た",
+          "startMs": 69784,
+          "endMs": 69984,
+          "charStart": 45,
+          "charEnd": 46
+        }
+      ]
+    },
+    {
+      "text": "動かなくなった巨人の胸元から根を張った若木は、新緑の葉を広げ、荒野の再生を告げるように青空へ伸びていった。",
+      "startMs": 70938,
+      "endMs": 78978,
+      "words": [
+        {
+          "text": "動か",
+          "startMs": 71078,
+          "endMs": 71328,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "なく",
+          "startMs": 71338,
+          "endMs": 71538,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "なっ",
+          "startMs": 71548,
+          "endMs": 71698,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "た",
+          "startMs": 71708,
+          "endMs": 71788,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "巨人",
+          "startMs": 71798,
+          "endMs": 72118,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "の",
+          "startMs": 72128,
+          "endMs": 72228,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "胸元",
+          "startMs": 72238,
+          "endMs": 72628,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "から",
+          "startMs": 72638,
+          "endMs": 72828,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "根",
+          "startMs": 72838,
+          "endMs": 72948,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "を",
+          "startMs": 72958,
+          "endMs": 73038,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "張っ",
+          "startMs": 73048,
+          "endMs": 73228,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "た",
+          "startMs": 73238,
+          "endMs": 73338,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "若木",
+          "startMs": 73348,
+          "endMs": 73648,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "は",
+          "startMs": 73658,
+          "endMs": 73878,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "新緑",
+          "startMs": 74118,
+          "endMs": 74558,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "の",
+          "startMs": 74568,
+          "endMs": 74638,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "葉",
+          "startMs": 74648,
+          "endMs": 74758,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "を",
+          "startMs": 74768,
+          "endMs": 74838,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "広げ",
+          "startMs": 74848,
+          "endMs": 75278,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "荒野",
+          "startMs": 75448,
+          "endMs": 75678,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "の",
+          "startMs": 75688,
+          "endMs": 75788,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "再生",
+          "startMs": 75798,
+          "endMs": 76178,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "を",
+          "startMs": 76188,
+          "endMs": 76288,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "告げる",
+          "startMs": 76298,
+          "endMs": 76588,
+          "charStart": 37,
+          "charEnd": 40
+        },
+        {
+          "text": "よう",
+          "startMs": 76598,
+          "endMs": 76778,
+          "charStart": 40,
+          "charEnd": 42
+        },
+        {
+          "text": "に",
+          "startMs": 76788,
+          "endMs": 76968,
+          "charStart": 42,
+          "charEnd": 43
+        },
+        {
+          "text": "青空",
+          "startMs": 77048,
+          "endMs": 77448,
+          "charStart": 43,
+          "charEnd": 45
+        },
+        {
+          "text": "へ",
+          "startMs": 77458,
+          "endMs": 77558,
+          "charStart": 45,
+          "charEnd": 46
+        },
+        {
+          "text": "伸び",
+          "startMs": 77568,
+          "endMs": 77788,
+          "charStart": 46,
+          "charEnd": 48
+        },
+        {
+          "text": "て",
+          "startMs": 77798,
+          "endMs": 77848,
+          "charStart": 48,
+          "charEnd": 49
+        },
+        {
+          "text": "いっ",
+          "startMs": 77858,
+          "endMs": 78048,
+          "charStart": 49,
+          "charEnd": 51
+        },
+        {
+          "text": "た",
+          "startMs": 78058,
+          "endMs": 78268,
+          "charStart": 51,
+          "charEnd": 52
+        }
+      ]
+    }
+  ]
+}

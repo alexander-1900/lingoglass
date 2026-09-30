@@ -1,0 +1,774 @@
+{
+  "version": 3,
+  "lang": "ru",
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 43986,
+  "sentences": [
+    {
+      "text": "Скоро наступит долгожданное лето, и студенты поедут отдыхать.",
+      "startMs": 0,
+      "endMs": 4128,
+      "words": [
+        {
+          "text": "Скоро",
+          "startMs": 100,
+          "endMs": 490,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "наступит",
+          "startMs": 490,
+          "endMs": 880,
+          "charStart": 6,
+          "charEnd": 14
+        },
+        {
+          "text": "долгожданное",
+          "startMs": 880,
+          "endMs": 1450,
+          "charStart": 15,
+          "charEnd": 27
+        },
+        {
+          "text": "лето",
+          "startMs": 1450,
+          "endMs": 1740,
+          "charStart": 28,
+          "charEnd": 32
+        },
+        {
+          "text": "и",
+          "startMs": 1930,
+          "endMs": 2050,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "студенты",
+          "startMs": 2050,
+          "endMs": 2490,
+          "charStart": 36,
+          "charEnd": 44
+        },
+        {
+          "text": "поедут",
+          "startMs": 2490,
+          "endMs": 2900,
+          "charStart": 45,
+          "charEnd": 51
+        },
+        {
+          "text": "отдыхать",
+          "startMs": 2900,
+          "endMs": 3390,
+          "charStart": 52,
+          "charEnd": 60
+        }
+      ]
+    },
+    {
+      "text": "Михаил и Дарья уже несколько недель увлечённо планируют свой отпуск.",
+      "startMs": 4378,
+      "endMs": 8554,
+      "words": [
+        {
+          "text": "Михаил",
+          "startMs": 4478,
+          "endMs": 4998,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "и",
+          "startMs": 4998,
+          "endMs": 5128,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "Дарья",
+          "startMs": 5128,
+          "endMs": 5478,
+          "charStart": 9,
+          "charEnd": 14
+        },
+        {
+          "text": "уже",
+          "startMs": 5478,
+          "endMs": 5738,
+          "charStart": 15,
+          "charEnd": 18
+        },
+        {
+          "text": "несколько",
+          "startMs": 5738,
+          "endMs": 6098,
+          "charStart": 19,
+          "charEnd": 28
+        },
+        {
+          "text": "недель",
+          "startMs": 6098,
+          "endMs": 6358,
+          "charStart": 29,
+          "charEnd": 35
+        },
+        {
+          "text": "увлечённо",
+          "startMs": 6358,
+          "endMs": 6878,
+          "charStart": 36,
+          "charEnd": 45
+        },
+        {
+          "text": "планируют",
+          "startMs": 6878,
+          "endMs": 7278,
+          "charStart": 46,
+          "charEnd": 55
+        },
+        {
+          "text": "свой",
+          "startMs": 7278,
+          "endMs": 7458,
+          "charStart": 56,
+          "charEnd": 60
+        },
+        {
+          "text": "отпуск",
+          "startMs": 7458,
+          "endMs": 7888,
+          "charStart": 61,
+          "charEnd": 67
+        }
+      ]
+    },
+    {
+      "text": "Сначала они хотели купить дешёвые путёвки на популярное море.",
+      "startMs": 8804,
+      "endMs": 12500,
+      "words": [
+        {
+          "text": "Сначала",
+          "startMs": 8904,
+          "endMs": 9394,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "они",
+          "startMs": 9394,
+          "endMs": 9524,
+          "charStart": 8,
+          "charEnd": 11
+        },
+        {
+          "text": "хотели",
+          "startMs": 9524,
+          "endMs": 9844,
+          "charStart": 12,
+          "charEnd": 18
+        },
+        {
+          "text": "купить",
+          "startMs": 9844,
+          "endMs": 10114,
+          "charStart": 19,
+          "charEnd": 25
+        },
+        {
+          "text": "дешёвые",
+          "startMs": 10114,
+          "endMs": 10504,
+          "charStart": 26,
+          "charEnd": 33
+        },
+        {
+          "text": "путёвки",
+          "startMs": 10504,
+          "endMs": 10884,
+          "charStart": 34,
+          "charEnd": 41
+        },
+        {
+          "text": "на",
+          "startMs": 10884,
+          "endMs": 10974,
+          "charStart": 42,
+          "charEnd": 44
+        },
+        {
+          "text": "популярное",
+          "startMs": 10974,
+          "endMs": 11434,
+          "charStart": 45,
+          "charEnd": 55
+        },
+        {
+          "text": "море",
+          "startMs": 11434,
+          "endMs": 11784,
+          "charStart": 56,
+          "charEnd": 60
+        }
+      ]
+    },
+    {
+      "text": "Но потом они поняли, что летом на южных пляжах слишком много туристов.",
+      "startMs": 12750,
+      "endMs": 17046,
+      "words": [
+        {
+          "text": "Но",
+          "startMs": 12850,
+          "endMs": 13080,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "потом",
+          "startMs": 13080,
+          "endMs": 13320,
+          "charStart": 3,
+          "charEnd": 8
+        },
+        {
+          "text": "они",
+          "startMs": 13320,
+          "endMs": 13460,
+          "charStart": 9,
+          "charEnd": 12
+        },
+        {
+          "text": "поняли",
+          "startMs": 13460,
+          "endMs": 13770,
+          "charStart": 13,
+          "charEnd": 19
+        },
+        {
+          "text": "что",
+          "startMs": 13990,
+          "endMs": 14160,
+          "charStart": 21,
+          "charEnd": 24
+        },
+        {
+          "text": "летом",
+          "startMs": 14160,
+          "endMs": 14410,
+          "charStart": 25,
+          "charEnd": 30
+        },
+        {
+          "text": "на",
+          "startMs": 14410,
+          "endMs": 14500,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "южных",
+          "startMs": 14500,
+          "endMs": 14810,
+          "charStart": 34,
+          "charEnd": 39
+        },
+        {
+          "text": "пляжах",
+          "startMs": 14810,
+          "endMs": 15160,
+          "charStart": 40,
+          "charEnd": 46
+        },
+        {
+          "text": "слишком",
+          "startMs": 15160,
+          "endMs": 15570,
+          "charStart": 47,
+          "charEnd": 54
+        },
+        {
+          "text": "много",
+          "startMs": 15570,
+          "endMs": 15840,
+          "charStart": 55,
+          "charEnd": 60
+        },
+        {
+          "text": "туристов",
+          "startMs": 15840,
+          "endMs": 16320,
+          "charStart": 61,
+          "charEnd": 69
+        }
+      ]
+    },
+    {
+      "text": "Поэтому молодые люди решили отправиться в большое путешествие на Байкал.",
+      "startMs": 17296,
+      "endMs": 21352,
+      "words": [
+        {
+          "text": "Поэтому",
+          "startMs": 17396,
+          "endMs": 17806,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "молодые",
+          "startMs": 17806,
+          "endMs": 18136,
+          "charStart": 8,
+          "charEnd": 15
+        },
+        {
+          "text": "люди",
+          "startMs": 18136,
+          "endMs": 18386,
+          "charStart": 16,
+          "charEnd": 20
+        },
+        {
+          "text": "решили",
+          "startMs": 18386,
+          "endMs": 18686,
+          "charStart": 21,
+          "charEnd": 27
+        },
+        {
+          "text": "отправиться",
+          "startMs": 18686,
+          "endMs": 19106,
+          "charStart": 28,
+          "charEnd": 39
+        },
+        {
+          "text": "в",
+          "startMs": 19106,
+          "endMs": 19146,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "большое",
+          "startMs": 19146,
+          "endMs": 19546,
+          "charStart": 42,
+          "charEnd": 49
+        },
+        {
+          "text": "путешествие",
+          "startMs": 19546,
+          "endMs": 20066,
+          "charStart": 50,
+          "charEnd": 61
+        },
+        {
+          "text": "на",
+          "startMs": 20066,
+          "endMs": 20156,
+          "charStart": 62,
+          "charEnd": 64
+        },
+        {
+          "text": "Байкал",
+          "startMs": 20156,
+          "endMs": 20636,
+          "charStart": 65,
+          "charEnd": 71
+        }
+      ]
+    },
+    {
+      "text": "Михаил прочитал в путеводителе много полезной информации об этом озере.",
+      "startMs": 21602,
+      "endMs": 25850,
+      "words": [
+        {
+          "text": "Михаил",
+          "startMs": 21702,
+          "endMs": 22162,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "прочитал",
+          "startMs": 22162,
+          "endMs": 22542,
+          "charStart": 7,
+          "charEnd": 15
+        },
+        {
+          "text": "в",
+          "startMs": 22542,
+          "endMs": 22592,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "путеводителе",
+          "startMs": 22592,
+          "endMs": 23122,
+          "charStart": 18,
+          "charEnd": 30
+        },
+        {
+          "text": "много",
+          "startMs": 23122,
+          "endMs": 23472,
+          "charStart": 31,
+          "charEnd": 36
+        },
+        {
+          "text": "полезной",
+          "startMs": 23472,
+          "endMs": 23832,
+          "charStart": 37,
+          "charEnd": 45
+        },
+        {
+          "text": "информации",
+          "startMs": 23832,
+          "endMs": 24402,
+          "charStart": 46,
+          "charEnd": 56
+        },
+        {
+          "text": "об",
+          "startMs": 24402,
+          "endMs": 24572,
+          "charStart": 57,
+          "charEnd": 59
+        },
+        {
+          "text": "этом",
+          "startMs": 24572,
+          "endMs": 24742,
+          "charStart": 60,
+          "charEnd": 64
+        },
+        {
+          "text": "озере",
+          "startMs": 24742,
+          "endMs": 25132,
+          "charStart": 65,
+          "charEnd": 70
+        }
+      ]
+    },
+    {
+      "text": "Дарья забронировала уютный деревянный домик на берегу живописного залива.",
+      "startMs": 26100,
+      "endMs": 30372,
+      "words": [
+        {
+          "text": "Дарья",
+          "startMs": 26200,
+          "endMs": 26650,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "забронировала",
+          "startMs": 26650,
+          "endMs": 27220,
+          "charStart": 6,
+          "charEnd": 19
+        },
+        {
+          "text": "уютный",
+          "startMs": 27220,
+          "endMs": 27650,
+          "charStart": 20,
+          "charEnd": 26
+        },
+        {
+          "text": "деревянный",
+          "startMs": 27650,
+          "endMs": 28030,
+          "charStart": 27,
+          "charEnd": 37
+        },
+        {
+          "text": "домик",
+          "startMs": 28030,
+          "endMs": 28360,
+          "charStart": 38,
+          "charEnd": 43
+        },
+        {
+          "text": "на",
+          "startMs": 28360,
+          "endMs": 28450,
+          "charStart": 44,
+          "charEnd": 46
+        },
+        {
+          "text": "берегу",
+          "startMs": 28450,
+          "endMs": 28710,
+          "charStart": 47,
+          "charEnd": 53
+        },
+        {
+          "text": "живописного",
+          "startMs": 28710,
+          "endMs": 29200,
+          "charStart": 54,
+          "charEnd": 65
+        },
+        {
+          "text": "залива",
+          "startMs": 29200,
+          "endMs": 29640,
+          "charStart": 66,
+          "charEnd": 72
+        }
+      ]
+    },
+    {
+      "text": "Если погода будет солнечной, они будут кататься на лодке каждый день.",
+      "startMs": 30622,
+      "endMs": 34726,
+      "words": [
+        {
+          "text": "Если",
+          "startMs": 30722,
+          "endMs": 31092,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "погода",
+          "startMs": 31092,
+          "endMs": 31372,
+          "charStart": 5,
+          "charEnd": 11
+        },
+        {
+          "text": "будет",
+          "startMs": 31372,
+          "endMs": 31572,
+          "charStart": 12,
+          "charEnd": 17
+        },
+        {
+          "text": "солнечной",
+          "startMs": 31572,
+          "endMs": 32012,
+          "charStart": 18,
+          "charEnd": 27
+        },
+        {
+          "text": "они",
+          "startMs": 32222,
+          "endMs": 32452,
+          "charStart": 29,
+          "charEnd": 32
+        },
+        {
+          "text": "будут",
+          "startMs": 32452,
+          "endMs": 32642,
+          "charStart": 33,
+          "charEnd": 38
+        },
+        {
+          "text": "кататься",
+          "startMs": 32642,
+          "endMs": 33032,
+          "charStart": 39,
+          "charEnd": 47
+        },
+        {
+          "text": "на",
+          "startMs": 33032,
+          "endMs": 33142,
+          "charStart": 48,
+          "charEnd": 50
+        },
+        {
+          "text": "лодке",
+          "startMs": 33142,
+          "endMs": 33452,
+          "charStart": 51,
+          "charEnd": 56
+        },
+        {
+          "text": "каждый",
+          "startMs": 33452,
+          "endMs": 33742,
+          "charStart": 57,
+          "charEnd": 63
+        },
+        {
+          "text": "день",
+          "startMs": 33742,
+          "endMs": 33992,
+          "charStart": 64,
+          "charEnd": 68
+        }
+      ]
+    },
+    {
+      "text": "Также друзья обязательно поднимутся на высокие горы с опытным гидом.",
+      "startMs": 34976,
+      "endMs": 38912,
+      "words": [
+        {
+          "text": "Также",
+          "startMs": 35076,
+          "endMs": 35406,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "друзья",
+          "startMs": 35406,
+          "endMs": 35756,
+          "charStart": 6,
+          "charEnd": 12
+        },
+        {
+          "text": "обязательно",
+          "startMs": 35756,
+          "endMs": 36306,
+          "charStart": 13,
+          "charEnd": 24
+        },
+        {
+          "text": "поднимутся",
+          "startMs": 36306,
+          "endMs": 36756,
+          "charStart": 25,
+          "charEnd": 35
+        },
+        {
+          "text": "на",
+          "startMs": 36756,
+          "endMs": 36836,
+          "charStart": 36,
+          "charEnd": 38
+        },
+        {
+          "text": "высокие",
+          "startMs": 36836,
+          "endMs": 37206,
+          "charStart": 39,
+          "charEnd": 46
+        },
+        {
+          "text": "горы",
+          "startMs": 37206,
+          "endMs": 37446,
+          "charStart": 47,
+          "charEnd": 51
+        },
+        {
+          "text": "с",
+          "startMs": 37446,
+          "endMs": 37526,
+          "charStart": 52,
+          "charEnd": 53
+        },
+        {
+          "text": "опытным",
+          "startMs": 37526,
+          "endMs": 37866,
+          "charStart": 54,
+          "charEnd": 61
+        },
+        {
+          "text": "гидом",
+          "startMs": 37866,
+          "endMs": 38196,
+          "charStart": 62,
+          "charEnd": 67
+        }
+      ]
+    },
+    {
+      "text": "Они надеются привезти домой красивые фотографии и незабываемые яркие впечатления.",
+      "startMs": 39162,
+      "endMs": 43986,
+      "words": [
+        {
+          "text": "Они",
+          "startMs": 39262,
+          "endMs": 39532,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "надеются",
+          "startMs": 39532,
+          "endMs": 39902,
+          "charStart": 4,
+          "charEnd": 12
+        },
+        {
+          "text": "привезти",
+          "startMs": 39902,
+          "endMs": 40252,
+          "charStart": 13,
+          "charEnd": 21
+        },
+        {
+          "text": "домой",
+          "startMs": 40252,
+          "endMs": 40502,
+          "charStart": 22,
+          "charEnd": 27
+        },
+        {
+          "text": "красивые",
+          "startMs": 40502,
+          "endMs": 40892,
+          "charStart": 28,
+          "charEnd": 36
+        },
+        {
+          "text": "фотографии",
+          "startMs": 40892,
+          "endMs": 41502,
+          "charStart": 37,
+          "charEnd": 47
+        },
+        {
+          "text": "и",
+          "startMs": 41502,
+          "endMs": 41632,
+          "charStart": 48,
+          "charEnd": 49
+        },
+        {
+          "text": "незабываемые",
+          "startMs": 41632,
+          "endMs": 42252,
+          "charStart": 50,
+          "charEnd": 62
+        },
+        {
+          "text": "яркие",
+          "startMs": 42252,
+          "endMs": 42572,
+          "charStart": 63,
+          "charEnd": 68
+        },
+        {
+          "text": "впечатления",
+          "startMs": 42572,
+          "endMs": 43262,
+          "charStart": 69,
+          "charEnd": 80
+        }
+      ]
+    }
+  ]
+}

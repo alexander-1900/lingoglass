@@ -1,0 +1,1978 @@
+{
+  "version": 3,
+  "lang": "ja",
+  "voice": "ja-JP-NanamiNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 69426,
+  "sentences": [
+    {
+      "text": "昔、陸奥国の安達ヶ原に、夜になると旅人を捕らえて食らうと噂される恐ろしい鬼婆が住んでいました。",
+      "startMs": 0,
+      "endMs": 7368,
+      "words": [
+        {
+          "text": "昔",
+          "startMs": 110,
+          "endMs": 560,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "陸奥",
+          "startMs": 840,
+          "endMs": 1020,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "国",
+          "startMs": 1030,
+          "endMs": 1230,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "の",
+          "startMs": 1240,
+          "endMs": 1310,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "安達",
+          "startMs": 1320,
+          "endMs": 1680,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "ヶ原",
+          "startMs": 1690,
+          "endMs": 1960,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "に",
+          "startMs": 1970,
+          "endMs": 2160,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "夜",
+          "startMs": 2300,
+          "endMs": 2500,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "に",
+          "startMs": 2510,
+          "endMs": 2620,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "なる",
+          "startMs": 2630,
+          "endMs": 2810,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "と",
+          "startMs": 2820,
+          "endMs": 2930,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "旅人",
+          "startMs": 2950,
+          "endMs": 3350,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "を",
+          "startMs": 3360,
+          "endMs": 3430,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "捕らえ",
+          "startMs": 3440,
+          "endMs": 3690,
+          "charStart": 20,
+          "charEnd": 23
+        },
+        {
+          "text": "て",
+          "startMs": 3700,
+          "endMs": 3790,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "食らう",
+          "startMs": 3800,
+          "endMs": 4080,
+          "charStart": 24,
+          "charEnd": 27
+        },
+        {
+          "text": "と",
+          "startMs": 4090,
+          "endMs": 4170,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "噂",
+          "startMs": 4180,
+          "endMs": 4470,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "さ",
+          "startMs": 4480,
+          "endMs": 4580,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "れる",
+          "startMs": 4590,
+          "endMs": 4780,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "恐ろしい",
+          "startMs": 4790,
+          "endMs": 5390,
+          "charStart": 32,
+          "charEnd": 36
+        },
+        {
+          "text": "鬼婆",
+          "startMs": 5400,
+          "endMs": 5780,
+          "charStart": 36,
+          "charEnd": 38
+        },
+        {
+          "text": "が",
+          "startMs": 5790,
+          "endMs": 5890,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "住ん",
+          "startMs": 5900,
+          "endMs": 6110,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "で",
+          "startMs": 6120,
+          "endMs": 6180,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "いま",
+          "startMs": 6190,
+          "endMs": 6360,
+          "charStart": 42,
+          "charEnd": 44
+        },
+        {
+          "text": "し",
+          "startMs": 6370,
+          "endMs": 6460,
+          "charStart": 44,
+          "charEnd": 45
+        },
+        {
+          "text": "た",
+          "startMs": 6470,
+          "endMs": 6650,
+          "charStart": 45,
+          "charEnd": 46
+        }
+      ]
+    },
+    {
+      "text": "日が暮れて道に迷った旅の僧が、荒野にぽつんと立つ古びた一軒家に宿を求めました。",
+      "startMs": 7618,
+      "endMs": 13690,
+      "words": [
+        {
+          "text": "日",
+          "startMs": 7728,
+          "endMs": 7848,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "が",
+          "startMs": 7858,
+          "endMs": 7968,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "暮れ",
+          "startMs": 7978,
+          "endMs": 8158,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "て",
+          "startMs": 8168,
+          "endMs": 8258,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "道",
+          "startMs": 8268,
+          "endMs": 8488,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "に",
+          "startMs": 8498,
+          "endMs": 8588,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "迷っ",
+          "startMs": 8598,
+          "endMs": 8848,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "た",
+          "startMs": 8858,
+          "endMs": 8938,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "旅",
+          "startMs": 8948,
+          "endMs": 9138,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "の",
+          "startMs": 9148,
+          "endMs": 9228,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "僧",
+          "startMs": 9238,
+          "endMs": 9428,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "が",
+          "startMs": 9438,
+          "endMs": 9628,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "荒野",
+          "startMs": 9908,
+          "endMs": 10188,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "に",
+          "startMs": 10198,
+          "endMs": 10328,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "ぽつん",
+          "startMs": 10338,
+          "endMs": 10638,
+          "charStart": 18,
+          "charEnd": 21
+        },
+        {
+          "text": "と",
+          "startMs": 10648,
+          "endMs": 10748,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "立つ",
+          "startMs": 10758,
+          "endMs": 10978,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "古び",
+          "startMs": 10988,
+          "endMs": 11288,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "た",
+          "startMs": 11298,
+          "endMs": 11378,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "一軒家",
+          "startMs": 11388,
+          "endMs": 11828,
+          "charStart": 27,
+          "charEnd": 30
+        },
+        {
+          "text": "に",
+          "startMs": 11838,
+          "endMs": 11998,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "宿",
+          "startMs": 12018,
+          "endMs": 12218,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "を",
+          "startMs": 12228,
+          "endMs": 12298,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "求め",
+          "startMs": 12308,
+          "endMs": 12608,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "まし",
+          "startMs": 12618,
+          "endMs": 12808,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "た",
+          "startMs": 12818,
+          "endMs": 12998,
+          "charStart": 37,
+          "charEnd": 38
+        }
+      ]
+    },
+    {
+      "text": "家の主である老婆は僧を暖かく迎え入れ、囲炉裏の火で冷えた体を温めさせてくれました。",
+      "startMs": 13940,
+      "endMs": 20372,
+      "words": [
+        {
+          "text": "家",
+          "startMs": 14080,
+          "endMs": 14250,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "の",
+          "startMs": 14260,
+          "endMs": 14370,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "主",
+          "startMs": 14380,
+          "endMs": 14600,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "で",
+          "startMs": 14610,
+          "endMs": 14680,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "ある",
+          "startMs": 14690,
+          "endMs": 14870,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "老婆",
+          "startMs": 14880,
+          "endMs": 15150,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "は",
+          "startMs": 15160,
+          "endMs": 15290,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "僧",
+          "startMs": 15300,
+          "endMs": 15530,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "を",
+          "startMs": 15540,
+          "endMs": 15600,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "暖かく",
+          "startMs": 15610,
+          "endMs": 16180,
+          "charStart": 11,
+          "charEnd": 14
+        },
+        {
+          "text": "迎え入れ",
+          "startMs": 16190,
+          "endMs": 16740,
+          "charStart": 14,
+          "charEnd": 18
+        },
+        {
+          "text": "囲炉裏",
+          "startMs": 16910,
+          "endMs": 17180,
+          "charStart": 19,
+          "charEnd": 22
+        },
+        {
+          "text": "の",
+          "startMs": 17190,
+          "endMs": 17260,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "火",
+          "startMs": 17270,
+          "endMs": 17400,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "で",
+          "startMs": 17410,
+          "endMs": 17480,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "冷え",
+          "startMs": 17490,
+          "endMs": 17730,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "た",
+          "startMs": 17740,
+          "endMs": 17850,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "体",
+          "startMs": 17860,
+          "endMs": 18130,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "を",
+          "startMs": 18140,
+          "endMs": 18240,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "温め",
+          "startMs": 18250,
+          "endMs": 18780,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "さ",
+          "startMs": 18790,
+          "endMs": 18890,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "せ",
+          "startMs": 18900,
+          "endMs": 19000,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "て",
+          "startMs": 19010,
+          "endMs": 19090,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "くれまし",
+          "startMs": 19100,
+          "endMs": 19470,
+          "charStart": 35,
+          "charEnd": 39
+        },
+        {
+          "text": "た",
+          "startMs": 19480,
+          "endMs": 19660,
+          "charStart": 39,
+          "charEnd": 40
+        }
+      ]
+    },
+    {
+      "text": "老婆は「薪を取りに行ってくる間、決して奥の部屋を覗いてはいけません」と言い残して出かけました。",
+      "startMs": 20622,
+      "endMs": 27534,
+      "words": [
+        {
+          "text": "老婆",
+          "startMs": 20762,
+          "endMs": 21042,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "は",
+          "startMs": 21052,
+          "endMs": 21262,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "薪",
+          "startMs": 21482,
+          "endMs": 21792,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "を",
+          "startMs": 21802,
+          "endMs": 21902,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "取り",
+          "startMs": 21912,
+          "endMs": 22122,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "に",
+          "startMs": 22132,
+          "endMs": 22212,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "行っ",
+          "startMs": 22222,
+          "endMs": 22362,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "て",
+          "startMs": 22372,
+          "endMs": 22452,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "くる",
+          "startMs": 22462,
+          "endMs": 22632,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "間",
+          "startMs": 22642,
+          "endMs": 22982,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "決し",
+          "startMs": 23252,
+          "endMs": 23542,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "て",
+          "startMs": 23552,
+          "endMs": 23622,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "奥",
+          "startMs": 23632,
+          "endMs": 23852,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "の",
+          "startMs": 23862,
+          "endMs": 23932,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "部屋",
+          "startMs": 23942,
+          "endMs": 24162,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "を",
+          "startMs": 24172,
+          "endMs": 24272,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "覗い",
+          "startMs": 24282,
+          "endMs": 24582,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "て",
+          "startMs": 24592,
+          "endMs": 24672,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "は",
+          "startMs": 24682,
+          "endMs": 24752,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "いけ",
+          "startMs": 24762,
+          "endMs": 24952,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "ませ",
+          "startMs": 24962,
+          "endMs": 25192,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "ん",
+          "startMs": 25202,
+          "endMs": 25352,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "と",
+          "startMs": 25522,
+          "endMs": 25592,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "言い",
+          "startMs": 25602,
+          "endMs": 25752,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "残し",
+          "startMs": 25762,
+          "endMs": 26052,
+          "charStart": 37,
+          "charEnd": 39
+        },
+        {
+          "text": "て",
+          "startMs": 26062,
+          "endMs": 26142,
+          "charStart": 39,
+          "charEnd": 40
+        },
+        {
+          "text": "出かけ",
+          "startMs": 26152,
+          "endMs": 26452,
+          "charStart": 40,
+          "charEnd": 43
+        },
+        {
+          "text": "まし",
+          "startMs": 26462,
+          "endMs": 26652,
+          "charStart": 43,
+          "charEnd": 45
+        },
+        {
+          "text": "た",
+          "startMs": 26662,
+          "endMs": 26832,
+          "charStart": 45,
+          "charEnd": 46
+        }
+      ]
+    },
+    {
+      "text": "僧は最初は約束を守っていたものの、不気味な気配に耐え兼ねて、ついに禁じられた部屋を覗いてしまいました。",
+      "startMs": 27784,
+      "endMs": 34984,
+      "words": [
+        {
+          "text": "僧",
+          "startMs": 27894,
+          "endMs": 28134,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "は",
+          "startMs": 28144,
+          "endMs": 28244,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "最初",
+          "startMs": 28254,
+          "endMs": 28574,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "は",
+          "startMs": 28584,
+          "endMs": 28674,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "約束",
+          "startMs": 28694,
+          "endMs": 29114,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "を",
+          "startMs": 29124,
+          "endMs": 29224,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "守っ",
+          "startMs": 29234,
+          "endMs": 29514,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "て",
+          "startMs": 29524,
+          "endMs": 29594,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "い",
+          "startMs": 29604,
+          "endMs": 29704,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "た",
+          "startMs": 29714,
+          "endMs": 29794,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "もの",
+          "startMs": 29804,
+          "endMs": 29984,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "の",
+          "startMs": 29994,
+          "endMs": 30144,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "不気味",
+          "startMs": 30344,
+          "endMs": 30644,
+          "charStart": 17,
+          "charEnd": 20
+        },
+        {
+          "text": "な",
+          "startMs": 30654,
+          "endMs": 30754,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "気配",
+          "startMs": 30764,
+          "endMs": 31074,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "に",
+          "startMs": 31084,
+          "endMs": 31204,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "耐え",
+          "startMs": 31214,
+          "endMs": 31384,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "兼ね",
+          "startMs": 31394,
+          "endMs": 31604,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "て",
+          "startMs": 31614,
+          "endMs": 31834,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "ついに",
+          "startMs": 31974,
+          "endMs": 32324,
+          "charStart": 30,
+          "charEnd": 33
+        },
+        {
+          "text": "禁じ",
+          "startMs": 32334,
+          "endMs": 32614,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "ら",
+          "startMs": 32624,
+          "endMs": 32704,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "れ",
+          "startMs": 32714,
+          "endMs": 32794,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "た",
+          "startMs": 32804,
+          "endMs": 32904,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "部屋",
+          "startMs": 32914,
+          "endMs": 33144,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "を",
+          "startMs": 33154,
+          "endMs": 33244,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "覗い",
+          "startMs": 33254,
+          "endMs": 33544,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "て",
+          "startMs": 33554,
+          "endMs": 33624,
+          "charStart": 43,
+          "charEnd": 44
+        },
+        {
+          "text": "しまい",
+          "startMs": 33634,
+          "endMs": 33904,
+          "charStart": 44,
+          "charEnd": 47
+        },
+        {
+          "text": "まし",
+          "startMs": 33914,
+          "endMs": 34094,
+          "charStart": 47,
+          "charEnd": 49
+        },
+        {
+          "text": "た",
+          "startMs": 34104,
+          "endMs": 34284,
+          "charStart": 49,
+          "charEnd": 50
+        }
+      ]
+    },
+    {
+      "text": "部屋の中には無数の人骨が散乱しており、血まみれの包丁が冷たい光を放っていたのです。",
+      "startMs": 35234,
+      "endMs": 41618,
+      "words": [
+        {
+          "text": "部屋",
+          "startMs": 35344,
+          "endMs": 35534,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "の",
+          "startMs": 35544,
+          "endMs": 35644,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "中",
+          "startMs": 35654,
+          "endMs": 35834,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "に",
+          "startMs": 35844,
+          "endMs": 35944,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "は",
+          "startMs": 35954,
+          "endMs": 36114,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "無数",
+          "startMs": 36164,
+          "endMs": 36464,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "の",
+          "startMs": 36474,
+          "endMs": 36584,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "人骨",
+          "startMs": 36594,
+          "endMs": 36994,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "が",
+          "startMs": 37004,
+          "endMs": 37104,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "散乱",
+          "startMs": 37114,
+          "endMs": 37484,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "し",
+          "startMs": 37494,
+          "endMs": 37594,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "て",
+          "startMs": 37604,
+          "endMs": 37664,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "おり",
+          "startMs": 37674,
+          "endMs": 37934,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "血まみれ",
+          "startMs": 38074,
+          "endMs": 38484,
+          "charStart": 19,
+          "charEnd": 23
+        },
+        {
+          "text": "の",
+          "startMs": 38494,
+          "endMs": 38594,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "包丁",
+          "startMs": 38604,
+          "endMs": 38964,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "が",
+          "startMs": 38974,
+          "endMs": 39134,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "冷たい",
+          "startMs": 39164,
+          "endMs": 39574,
+          "charStart": 27,
+          "charEnd": 30
+        },
+        {
+          "text": "光",
+          "startMs": 39584,
+          "endMs": 39864,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "を",
+          "startMs": 39874,
+          "endMs": 39954,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "放っ",
+          "startMs": 39964,
+          "endMs": 40264,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "て",
+          "startMs": 40274,
+          "endMs": 40334,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "い",
+          "startMs": 40344,
+          "endMs": 40434,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "た",
+          "startMs": 40444,
+          "endMs": 40514,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "の",
+          "startMs": 40524,
+          "endMs": 40614,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "です",
+          "startMs": 40624,
+          "endMs": 40924,
+          "charStart": 38,
+          "charEnd": 40
+        }
+      ]
+    },
+    {
+      "text": "驚愕した僧が恐怖に震えながら逃げ出すと、鬼の形相に変貌した老婆が凄まじい速さで追いかけてきました。",
+      "startMs": 41868,
+      "endMs": 49284,
+      "words": [
+        {
+          "text": "驚愕",
+          "startMs": 42008,
+          "endMs": 42378,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "し",
+          "startMs": 42388,
+          "endMs": 42468,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "た",
+          "startMs": 42478,
+          "endMs": 42558,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "僧",
+          "startMs": 42568,
+          "endMs": 42758,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "が",
+          "startMs": 42768,
+          "endMs": 42888,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "恐怖",
+          "startMs": 42918,
+          "endMs": 43238,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "に",
+          "startMs": 43248,
+          "endMs": 43348,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "震え",
+          "startMs": 43358,
+          "endMs": 43628,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "ながら",
+          "startMs": 43638,
+          "endMs": 43898,
+          "charStart": 11,
+          "charEnd": 14
+        },
+        {
+          "text": "逃げ",
+          "startMs": 43908,
+          "endMs": 44138,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "出す",
+          "startMs": 44148,
+          "endMs": 44348,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "と",
+          "startMs": 44358,
+          "endMs": 44538,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "鬼",
+          "startMs": 44708,
+          "endMs": 44878,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "の",
+          "startMs": 44888,
+          "endMs": 44968,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "形相",
+          "startMs": 44978,
+          "endMs": 45388,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "に",
+          "startMs": 45398,
+          "endMs": 45478,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "変貌",
+          "startMs": 45488,
+          "endMs": 45858,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "し",
+          "startMs": 45868,
+          "endMs": 45938,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "た",
+          "startMs": 45948,
+          "endMs": 46038,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "老婆",
+          "startMs": 46048,
+          "endMs": 46298,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "が",
+          "startMs": 46308,
+          "endMs": 46478,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "凄ま",
+          "startMs": 46558,
+          "endMs": 46908,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "じい",
+          "startMs": 46918,
+          "endMs": 47088,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "速さ",
+          "startMs": 47098,
+          "endMs": 47408,
+          "charStart": 36,
+          "charEnd": 38
+        },
+        {
+          "text": "で",
+          "startMs": 47418,
+          "endMs": 47568,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "追いかけ",
+          "startMs": 47628,
+          "endMs": 47998,
+          "charStart": 39,
+          "charEnd": 43
+        },
+        {
+          "text": "て",
+          "startMs": 48008,
+          "endMs": 48078,
+          "charStart": 43,
+          "charEnd": 44
+        },
+        {
+          "text": "き",
+          "startMs": 48088,
+          "endMs": 48188,
+          "charStart": 44,
+          "charEnd": 45
+        },
+        {
+          "text": "まし",
+          "startMs": 48198,
+          "endMs": 48378,
+          "charStart": 45,
+          "charEnd": 47
+        },
+        {
+          "text": "た",
+          "startMs": 48388,
+          "endMs": 48568,
+          "charStart": 47,
+          "charEnd": 48
+        }
+      ]
+    },
+    {
+      "text": "追いつかれそうになった僧は、肌身離さず持っていた観音像を取り出して必死に祈り続けました。",
+      "startMs": 49534,
+      "endMs": 55846,
+      "words": [
+        {
+          "text": "追いつか",
+          "startMs": 49674,
+          "endMs": 50004,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "れ",
+          "startMs": 50014,
+          "endMs": 50094,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "そう",
+          "startMs": 50104,
+          "endMs": 50294,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "に",
+          "startMs": 50304,
+          "endMs": 50384,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "なっ",
+          "startMs": 50394,
+          "endMs": 50544,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "た",
+          "startMs": 50554,
+          "endMs": 50644,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "僧",
+          "startMs": 50654,
+          "endMs": 50884,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "は",
+          "startMs": 50894,
+          "endMs": 51074,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "肌身",
+          "startMs": 51214,
+          "endMs": 51534,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "離さ",
+          "startMs": 51544,
+          "endMs": 51874,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "ず",
+          "startMs": 51884,
+          "endMs": 51984,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "持っ",
+          "startMs": 51994,
+          "endMs": 52154,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "て",
+          "startMs": 52164,
+          "endMs": 52224,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "い",
+          "startMs": 52234,
+          "endMs": 52324,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "た",
+          "startMs": 52334,
+          "endMs": 52434,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "観音像",
+          "startMs": 52444,
+          "endMs": 52964,
+          "charStart": 24,
+          "charEnd": 27
+        },
+        {
+          "text": "を",
+          "startMs": 52974,
+          "endMs": 53064,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "取り出し",
+          "startMs": 53074,
+          "endMs": 53444,
+          "charStart": 28,
+          "charEnd": 32
+        },
+        {
+          "text": "て",
+          "startMs": 53454,
+          "endMs": 53654,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "必死",
+          "startMs": 53744,
+          "endMs": 54054,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "に",
+          "startMs": 54064,
+          "endMs": 54214,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "祈り",
+          "startMs": 54224,
+          "endMs": 54474,
+          "charStart": 36,
+          "charEnd": 38
+        },
+        {
+          "text": "続け",
+          "startMs": 54484,
+          "endMs": 54754,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "まし",
+          "startMs": 54764,
+          "endMs": 54954,
+          "charStart": 40,
+          "charEnd": 42
+        },
+        {
+          "text": "た",
+          "startMs": 54964,
+          "endMs": 55134,
+          "charStart": 42,
+          "charEnd": 43
+        }
+      ]
+    },
+    {
+      "text": "すると虚空から聖なる光の矢が放たれ、凶暴な鬼婆の胸を正確に射抜きました。",
+      "startMs": 56096,
+      "endMs": 62048,
+      "words": [
+        {
+          "text": "する",
+          "startMs": 56206,
+          "endMs": 56456,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "と",
+          "startMs": 56466,
+          "endMs": 56576,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "虚空",
+          "startMs": 56586,
+          "endMs": 56896,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "から",
+          "startMs": 56906,
+          "endMs": 57086,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "聖",
+          "startMs": 57096,
+          "endMs": 57296,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "なる",
+          "startMs": 57306,
+          "endMs": 57446,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "光",
+          "startMs": 57456,
+          "endMs": 57736,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "の",
+          "startMs": 57746,
+          "endMs": 57826,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "矢",
+          "startMs": 57836,
+          "endMs": 57956,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "が",
+          "startMs": 57966,
+          "endMs": 58056,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "放た",
+          "startMs": 58066,
+          "endMs": 58386,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "れ",
+          "startMs": 58396,
+          "endMs": 58556,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "凶暴",
+          "startMs": 58816,
+          "endMs": 59206,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "な",
+          "startMs": 59216,
+          "endMs": 59306,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "鬼婆",
+          "startMs": 59316,
+          "endMs": 59736,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "の",
+          "startMs": 59746,
+          "endMs": 59846,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "胸",
+          "startMs": 59856,
+          "endMs": 60036,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "を",
+          "startMs": 60046,
+          "endMs": 60176,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "正確",
+          "startMs": 60196,
+          "endMs": 60596,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "に",
+          "startMs": 60606,
+          "endMs": 60706,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "射",
+          "startMs": 60716,
+          "endMs": 60786,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "抜き",
+          "startMs": 60796,
+          "endMs": 60976,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "まし",
+          "startMs": 60986,
+          "endMs": 61166,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "た",
+          "startMs": 61176,
+          "endMs": 61346,
+          "charStart": 34,
+          "charEnd": 35
+        }
+      ]
+    },
+    {
+      "text": "正気を取り戻して息絶えた老婆を手厚く葬り、僧は人間の業の深さを胸に刻んで旅を続けました。",
+      "startMs": 62298,
+      "endMs": 69426,
+      "words": [
+        {
+          "text": "正気",
+          "startMs": 62408,
+          "endMs": 62748,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "を",
+          "startMs": 62758,
+          "endMs": 62858,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "取り戻し",
+          "startMs": 62868,
+          "endMs": 63348,
+          "charStart": 3,
+          "charEnd": 7
+        },
+        {
+          "text": "て",
+          "startMs": 63358,
+          "endMs": 63408,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "息絶え",
+          "startMs": 63418,
+          "endMs": 63818,
+          "charStart": 8,
+          "charEnd": 11
+        },
+        {
+          "text": "た",
+          "startMs": 63828,
+          "endMs": 63928,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "老婆",
+          "startMs": 63938,
+          "endMs": 64188,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "を",
+          "startMs": 64198,
+          "endMs": 64328,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "手厚く",
+          "startMs": 64348,
+          "endMs": 64758,
+          "charStart": 15,
+          "charEnd": 18
+        },
+        {
+          "text": "葬り",
+          "startMs": 64768,
+          "endMs": 65258,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "僧",
+          "startMs": 65398,
+          "endMs": 65638,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "は",
+          "startMs": 65648,
+          "endMs": 65728,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "人間",
+          "startMs": 65738,
+          "endMs": 66098,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "の",
+          "startMs": 66108,
+          "endMs": 66198,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "業",
+          "startMs": 66208,
+          "endMs": 66408,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "の",
+          "startMs": 66418,
+          "endMs": 66488,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "深さ",
+          "startMs": 66498,
+          "endMs": 66798,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "を",
+          "startMs": 66808,
+          "endMs": 66908,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "胸",
+          "startMs": 66918,
+          "endMs": 67108,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "に",
+          "startMs": 67118,
+          "endMs": 67248,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "刻ん",
+          "startMs": 67258,
+          "endMs": 67548,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "で",
+          "startMs": 67558,
+          "endMs": 67688,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "旅",
+          "startMs": 67708,
+          "endMs": 67928,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "を",
+          "startMs": 67938,
+          "endMs": 68028,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "続け",
+          "startMs": 68038,
+          "endMs": 68338,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "まし",
+          "startMs": 68348,
+          "endMs": 68538,
+          "charStart": 40,
+          "charEnd": 42
+        },
+        {
+          "text": "た",
+          "startMs": 68548,
+          "endMs": 68728,
+          "charStart": 42,
+          "charEnd": 43
+        }
+      ]
+    }
+  ]
+}

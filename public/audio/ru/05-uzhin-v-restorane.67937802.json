@@ -1,0 +1,571 @@
+{
+  "version": 3,
+  "lang": "ru",
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 33642,
+  "sentences": [
+    {
+      "text": "В пятницу Виктор и Марина идут в ресторан.",
+      "startMs": 0,
+      "endMs": 3048,
+      "words": [
+        {
+          "text": "В",
+          "startMs": 100,
+          "endMs": 260,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "пятницу",
+          "startMs": 260,
+          "endMs": 700,
+          "charStart": 2,
+          "charEnd": 9
+        },
+        {
+          "text": "Виктор",
+          "startMs": 700,
+          "endMs": 1040,
+          "charStart": 10,
+          "charEnd": 16
+        },
+        {
+          "text": "и",
+          "startMs": 1040,
+          "endMs": 1110,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "Марина",
+          "startMs": 1110,
+          "endMs": 1550,
+          "charStart": 19,
+          "charEnd": 25
+        },
+        {
+          "text": "идут",
+          "startMs": 1550,
+          "endMs": 1840,
+          "charStart": 26,
+          "charEnd": 30
+        },
+        {
+          "text": "в",
+          "startMs": 1840,
+          "endMs": 1860,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "ресторан",
+          "startMs": 1860,
+          "endMs": 2320,
+          "charStart": 33,
+          "charEnd": 41
+        }
+      ]
+    },
+    {
+      "text": "Этот ресторан находится на старой тихой улице.",
+      "startMs": 3298,
+      "endMs": 6490,
+      "words": [
+        {
+          "text": "Этот",
+          "startMs": 3398,
+          "endMs": 3688,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "ресторан",
+          "startMs": 3688,
+          "endMs": 4038,
+          "charStart": 5,
+          "charEnd": 13
+        },
+        {
+          "text": "находится",
+          "startMs": 4038,
+          "endMs": 4458,
+          "charStart": 14,
+          "charEnd": 23
+        },
+        {
+          "text": "на",
+          "startMs": 4458,
+          "endMs": 4578,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "старой",
+          "startMs": 4578,
+          "endMs": 4898,
+          "charStart": 27,
+          "charEnd": 33
+        },
+        {
+          "text": "тихой",
+          "startMs": 4898,
+          "endMs": 5248,
+          "charStart": 34,
+          "charEnd": 39
+        },
+        {
+          "text": "улице",
+          "startMs": 5248,
+          "endMs": 5758,
+          "charStart": 40,
+          "charEnd": 45
+        }
+      ]
+    },
+    {
+      "text": "В зале играет тихая и приятная музыка.",
+      "startMs": 6740,
+      "endMs": 9740,
+      "words": [
+        {
+          "text": "В",
+          "startMs": 6840,
+          "endMs": 7000,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "зале",
+          "startMs": 7000,
+          "endMs": 7290,
+          "charStart": 2,
+          "charEnd": 6
+        },
+        {
+          "text": "играет",
+          "startMs": 7290,
+          "endMs": 7620,
+          "charStart": 7,
+          "charEnd": 13
+        },
+        {
+          "text": "тихая",
+          "startMs": 7620,
+          "endMs": 8070,
+          "charStart": 14,
+          "charEnd": 19
+        },
+        {
+          "text": "и",
+          "startMs": 8070,
+          "endMs": 8150,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "приятная",
+          "startMs": 8150,
+          "endMs": 8580,
+          "charStart": 22,
+          "charEnd": 30
+        },
+        {
+          "text": "музыка",
+          "startMs": 8580,
+          "endMs": 9010,
+          "charStart": 31,
+          "charEnd": 37
+        }
+      ]
+    },
+    {
+      "text": "Официант приносит меню на двух языках.",
+      "startMs": 9990,
+      "endMs": 12846,
+      "words": [
+        {
+          "text": "Официант",
+          "startMs": 10090,
+          "endMs": 10660,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "приносит",
+          "startMs": 10660,
+          "endMs": 11060,
+          "charStart": 9,
+          "charEnd": 17
+        },
+        {
+          "text": "меню",
+          "startMs": 11060,
+          "endMs": 11290,
+          "charStart": 18,
+          "charEnd": 22
+        },
+        {
+          "text": "на",
+          "startMs": 11290,
+          "endMs": 11420,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "двух",
+          "startMs": 11420,
+          "endMs": 11650,
+          "charStart": 26,
+          "charEnd": 30
+        },
+        {
+          "text": "языках",
+          "startMs": 11650,
+          "endMs": 12120,
+          "charStart": 31,
+          "charEnd": 37
+        }
+      ]
+    },
+    {
+      "text": "Марина заказывает куриный суп и свежий салат.",
+      "startMs": 13096,
+      "endMs": 16312,
+      "words": [
+        {
+          "text": "Марина",
+          "startMs": 13196,
+          "endMs": 13646,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "заказывает",
+          "startMs": 13646,
+          "endMs": 14106,
+          "charStart": 7,
+          "charEnd": 17
+        },
+        {
+          "text": "куриный",
+          "startMs": 14106,
+          "endMs": 14426,
+          "charStart": 18,
+          "charEnd": 25
+        },
+        {
+          "text": "суп",
+          "startMs": 14426,
+          "endMs": 14716,
+          "charStart": 26,
+          "charEnd": 29
+        },
+        {
+          "text": "и",
+          "startMs": 14716,
+          "endMs": 14836,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "свежий",
+          "startMs": 14836,
+          "endMs": 15156,
+          "charStart": 32,
+          "charEnd": 38
+        },
+        {
+          "text": "салат",
+          "startMs": 15156,
+          "endMs": 15576,
+          "charStart": 39,
+          "charEnd": 44
+        }
+      ]
+    },
+    {
+      "text": "Виктор выбирает жареную рыбу с картофелем.",
+      "startMs": 16562,
+      "endMs": 19418,
+      "words": [
+        {
+          "text": "Виктор",
+          "startMs": 16662,
+          "endMs": 17132,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "выбирает",
+          "startMs": 17132,
+          "endMs": 17482,
+          "charStart": 7,
+          "charEnd": 15
+        },
+        {
+          "text": "жареную",
+          "startMs": 17482,
+          "endMs": 17862,
+          "charStart": 16,
+          "charEnd": 23
+        },
+        {
+          "text": "рыбу",
+          "startMs": 17862,
+          "endMs": 18102,
+          "charStart": 24,
+          "charEnd": 28
+        },
+        {
+          "text": "с",
+          "startMs": 18102,
+          "endMs": 18152,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "картофелем",
+          "startMs": 18152,
+          "endMs": 18702,
+          "charStart": 31,
+          "charEnd": 41
+        }
+      ]
+    },
+    {
+      "text": "Они также просят графин воды с лимоном.",
+      "startMs": 19668,
+      "endMs": 22428,
+      "words": [
+        {
+          "text": "Они",
+          "startMs": 19768,
+          "endMs": 20088,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "также",
+          "startMs": 20088,
+          "endMs": 20338,
+          "charStart": 4,
+          "charEnd": 9
+        },
+        {
+          "text": "просят",
+          "startMs": 20338,
+          "endMs": 20648,
+          "charStart": 10,
+          "charEnd": 16
+        },
+        {
+          "text": "графин",
+          "startMs": 20648,
+          "endMs": 20998,
+          "charStart": 17,
+          "charEnd": 23
+        },
+        {
+          "text": "воды",
+          "startMs": 20998,
+          "endMs": 21208,
+          "charStart": 24,
+          "charEnd": 28
+        },
+        {
+          "text": "с",
+          "startMs": 21208,
+          "endMs": 21278,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "лимоном",
+          "startMs": 21278,
+          "endMs": 21718,
+          "charStart": 31,
+          "charEnd": 38
+        }
+      ]
+    },
+    {
+      "text": "Официант быстро приносит горячие и вкусные блюда.",
+      "startMs": 22678,
+      "endMs": 26182,
+      "words": [
+        {
+          "text": "Официант",
+          "startMs": 22778,
+          "endMs": 23328,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "быстро",
+          "startMs": 23328,
+          "endMs": 23698,
+          "charStart": 9,
+          "charEnd": 15
+        },
+        {
+          "text": "приносит",
+          "startMs": 23698,
+          "endMs": 24068,
+          "charStart": 16,
+          "charEnd": 24
+        },
+        {
+          "text": "горячие",
+          "startMs": 24068,
+          "endMs": 24558,
+          "charStart": 25,
+          "charEnd": 32
+        },
+        {
+          "text": "и",
+          "startMs": 24558,
+          "endMs": 24658,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "вкусные",
+          "startMs": 24658,
+          "endMs": 25058,
+          "charStart": 35,
+          "charEnd": 42
+        },
+        {
+          "text": "блюда",
+          "startMs": 25058,
+          "endMs": 25448,
+          "charStart": 43,
+          "charEnd": 48
+        }
+      ]
+    },
+    {
+      "text": "Друзья долго ужинают и обсуждают интересные новости.",
+      "startMs": 26432,
+      "endMs": 30080,
+      "words": [
+        {
+          "text": "Друзья",
+          "startMs": 26532,
+          "endMs": 27042,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "долго",
+          "startMs": 27042,
+          "endMs": 27332,
+          "charStart": 7,
+          "charEnd": 12
+        },
+        {
+          "text": "ужинают",
+          "startMs": 27332,
+          "endMs": 27812,
+          "charStart": 13,
+          "charEnd": 20
+        },
+        {
+          "text": "и",
+          "startMs": 27812,
+          "endMs": 27882,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "обсуждают",
+          "startMs": 27882,
+          "endMs": 28442,
+          "charStart": 23,
+          "charEnd": 32
+        },
+        {
+          "text": "интересные",
+          "startMs": 28442,
+          "endMs": 28922,
+          "charStart": 33,
+          "charEnd": 43
+        },
+        {
+          "text": "новости",
+          "startMs": 28922,
+          "endMs": 29372,
+          "charStart": 44,
+          "charEnd": 51
+        }
+      ]
+    },
+    {
+      "text": "В конце Виктор просит счёт и оставляет чаевые.",
+      "startMs": 30330,
+      "endMs": 33642,
+      "words": [
+        {
+          "text": "В",
+          "startMs": 30430,
+          "endMs": 30560,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "конце",
+          "startMs": 30560,
+          "endMs": 30910,
+          "charStart": 2,
+          "charEnd": 7
+        },
+        {
+          "text": "Виктор",
+          "startMs": 30910,
+          "endMs": 31220,
+          "charStart": 8,
+          "charEnd": 14
+        },
+        {
+          "text": "просит",
+          "startMs": 31220,
+          "endMs": 31540,
+          "charStart": 15,
+          "charEnd": 21
+        },
+        {
+          "text": "счёт",
+          "startMs": 31540,
+          "endMs": 31880,
+          "charStart": 22,
+          "charEnd": 26
+        },
+        {
+          "text": "и",
+          "startMs": 31880,
+          "endMs": 31970,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "оставляет",
+          "startMs": 31970,
+          "endMs": 32370,
+          "charStart": 29,
+          "charEnd": 38
+        },
+        {
+          "text": "чаевые",
+          "startMs": 32370,
+          "endMs": 32910,
+          "charStart": 39,
+          "charEnd": 45
+        }
+      ]
+    }
+  ]
+}

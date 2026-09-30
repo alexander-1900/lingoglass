@@ -1,0 +1,1684 @@
+{
+  "version": 3,
+  "lang": "ja",
+  "voice": "ja-JP-NanamiNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 58194,
+  "sentences": [
+    {
+      "text": "ある山里に、いつも怠けてばかりいる彦一というずる賢い男が住んでいました。",
+      "startMs": 0,
+      "endMs": 5448,
+      "words": [
+        {
+          "text": "ある",
+          "startMs": 140,
+          "endMs": 290,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "山里",
+          "startMs": 300,
+          "endMs": 740,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "に",
+          "startMs": 750,
+          "endMs": 970,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "いつも",
+          "startMs": 1210,
+          "endMs": 1480,
+          "charStart": 6,
+          "charEnd": 9
+        },
+        {
+          "text": "怠け",
+          "startMs": 1490,
+          "endMs": 1770,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "て",
+          "startMs": 1780,
+          "endMs": 1860,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "ばかり",
+          "startMs": 1870,
+          "endMs": 2150,
+          "charStart": 12,
+          "charEnd": 15
+        },
+        {
+          "text": "いる",
+          "startMs": 2160,
+          "endMs": 2300,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "彦一",
+          "startMs": 2310,
+          "endMs": 2700,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "と",
+          "startMs": 2710,
+          "endMs": 2780,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "いうずる",
+          "startMs": 2790,
+          "endMs": 3200,
+          "charStart": 20,
+          "charEnd": 24
+        },
+        {
+          "text": "賢い",
+          "startMs": 3210,
+          "endMs": 3600,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "男",
+          "startMs": 3610,
+          "endMs": 3890,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "が",
+          "startMs": 3900,
+          "endMs": 4000,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "住ん",
+          "startMs": 4010,
+          "endMs": 4220,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "で",
+          "startMs": 4230,
+          "endMs": 4290,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "いま",
+          "startMs": 4300,
+          "endMs": 4470,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "し",
+          "startMs": 4480,
+          "endMs": 4570,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "た",
+          "startMs": 4580,
+          "endMs": 4760,
+          "charStart": 34,
+          "charEnd": 35
+        }
+      ]
+    },
+    {
+      "text": "彦一は山で、姿を消すことができる不思議な「隠れ蓑」を持った天狗に出会いました。",
+      "startMs": 5698,
+      "endMs": 11386,
+      "words": [
+        {
+          "text": "彦一",
+          "startMs": 5808,
+          "endMs": 6248,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "は",
+          "startMs": 6258,
+          "endMs": 6338,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "山",
+          "startMs": 6348,
+          "endMs": 6588,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "で",
+          "startMs": 6598,
+          "endMs": 6788,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "姿",
+          "startMs": 7048,
+          "endMs": 7348,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "を",
+          "startMs": 7358,
+          "endMs": 7438,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "消す",
+          "startMs": 7448,
+          "endMs": 7668,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "こと",
+          "startMs": 7678,
+          "endMs": 7848,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "が",
+          "startMs": 7858,
+          "endMs": 7948,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "できる",
+          "startMs": 7958,
+          "endMs": 8298,
+          "charStart": 13,
+          "charEnd": 16
+        },
+        {
+          "text": "不思議",
+          "startMs": 8308,
+          "endMs": 8588,
+          "charStart": 16,
+          "charEnd": 19
+        },
+        {
+          "text": "な",
+          "startMs": 8598,
+          "endMs": 8688,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "隠れ",
+          "startMs": 8738,
+          "endMs": 9028,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "蓑",
+          "startMs": 9038,
+          "endMs": 9228,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "を",
+          "startMs": 9248,
+          "endMs": 9338,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "持っ",
+          "startMs": 9348,
+          "endMs": 9508,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "た",
+          "startMs": 9518,
+          "endMs": 9628,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "天狗",
+          "startMs": 9638,
+          "endMs": 9918,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "に",
+          "startMs": 9928,
+          "endMs": 10038,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "出会い",
+          "startMs": 10048,
+          "endMs": 10308,
+          "charStart": 32,
+          "charEnd": 35
+        },
+        {
+          "text": "まし",
+          "startMs": 10318,
+          "endMs": 10498,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "た",
+          "startMs": 10508,
+          "endMs": 10688,
+          "charStart": 37,
+          "charEnd": 38
+        }
+      ]
+    },
+    {
+      "text": "男は竹の筒を目に当てて、「これを使えば遠くの景色が見える」と嘘をつきました。",
+      "startMs": 11636,
+      "endMs": 17420,
+      "words": [
+        {
+          "text": "男",
+          "startMs": 11776,
+          "endMs": 12046,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "は",
+          "startMs": 12056,
+          "endMs": 12166,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "竹",
+          "startMs": 12176,
+          "endMs": 12396,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "の",
+          "startMs": 12406,
+          "endMs": 12506,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "筒",
+          "startMs": 12516,
+          "endMs": 12716,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "を",
+          "startMs": 12726,
+          "endMs": 12806,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "目",
+          "startMs": 12816,
+          "endMs": 12916,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "に",
+          "startMs": 12926,
+          "endMs": 13036,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "当て",
+          "startMs": 13046,
+          "endMs": 13236,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "て",
+          "startMs": 13246,
+          "endMs": 13436,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "これ",
+          "startMs": 13686,
+          "endMs": 13886,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "を",
+          "startMs": 13896,
+          "endMs": 13986,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "使え",
+          "startMs": 13996,
+          "endMs": 14276,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "ば",
+          "startMs": 14286,
+          "endMs": 14416,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "遠く",
+          "startMs": 14456,
+          "endMs": 14746,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "の",
+          "startMs": 14756,
+          "endMs": 14846,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "景色",
+          "startMs": 14856,
+          "endMs": 15156,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "が",
+          "startMs": 15166,
+          "endMs": 15256,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "見える",
+          "startMs": 15266,
+          "endMs": 15596,
+          "charStart": 25,
+          "charEnd": 28
+        },
+        {
+          "text": "と",
+          "startMs": 15756,
+          "endMs": 15836,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "嘘",
+          "startMs": 15846,
+          "endMs": 16066,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "を",
+          "startMs": 16076,
+          "endMs": 16146,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "つき",
+          "startMs": 16156,
+          "endMs": 16346,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "まし",
+          "startMs": 16356,
+          "endMs": 16536,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "た",
+          "startMs": 16546,
+          "endMs": 16726,
+          "charStart": 36,
+          "charEnd": 37
+        }
+      ]
+    },
+    {
+      "text": "好奇心を持った天狗は、その竹の筒と自分の隠れ蓑を交換してしまいました。",
+      "startMs": 17670,
+      "endMs": 23118,
+      "words": [
+        {
+          "text": "好奇心",
+          "startMs": 17780,
+          "endMs": 18260,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "を",
+          "startMs": 18270,
+          "endMs": 18330,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "持っ",
+          "startMs": 18340,
+          "endMs": 18500,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "た",
+          "startMs": 18510,
+          "endMs": 18610,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "天狗",
+          "startMs": 18620,
+          "endMs": 18890,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "は",
+          "startMs": 18900,
+          "endMs": 19110,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "その",
+          "startMs": 19320,
+          "endMs": 19550,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "竹",
+          "startMs": 19560,
+          "endMs": 19760,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "の",
+          "startMs": 19770,
+          "endMs": 19860,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "筒",
+          "startMs": 19870,
+          "endMs": 20070,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "と",
+          "startMs": 20080,
+          "endMs": 20230,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "自分",
+          "startMs": 20270,
+          "endMs": 20530,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "の",
+          "startMs": 20540,
+          "endMs": 20630,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "隠れ",
+          "startMs": 20640,
+          "endMs": 20920,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "蓑",
+          "startMs": 20930,
+          "endMs": 21120,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "を",
+          "startMs": 21130,
+          "endMs": 21200,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "交換",
+          "startMs": 21210,
+          "endMs": 21590,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "し",
+          "startMs": 21600,
+          "endMs": 21680,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "て",
+          "startMs": 21690,
+          "endMs": 21770,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "しまい",
+          "startMs": 21780,
+          "endMs": 22050,
+          "charStart": 28,
+          "charEnd": 31
+        },
+        {
+          "text": "まし",
+          "startMs": 22060,
+          "endMs": 22240,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "た",
+          "startMs": 22250,
+          "endMs": 22430,
+          "charStart": 33,
+          "charEnd": 34
+        }
+      ]
+    },
+    {
+      "text": "蓑を着て姿を消した男は、町へ行って酒や団子を勝手に食べ始めました。",
+      "startMs": 23368,
+      "endMs": 28768,
+      "words": [
+        {
+          "text": "蓑",
+          "startMs": 23478,
+          "endMs": 23698,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "を",
+          "startMs": 23708,
+          "endMs": 23778,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "着",
+          "startMs": 23788,
+          "endMs": 23898,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "て",
+          "startMs": 23908,
+          "endMs": 24008,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "姿",
+          "startMs": 24018,
+          "endMs": 24328,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "を",
+          "startMs": 24338,
+          "endMs": 24428,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "消し",
+          "startMs": 24438,
+          "endMs": 24658,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "た",
+          "startMs": 24668,
+          "endMs": 24728,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "男",
+          "startMs": 24738,
+          "endMs": 25048,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "は",
+          "startMs": 25058,
+          "endMs": 25258,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "町",
+          "startMs": 25468,
+          "endMs": 25678,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "へ",
+          "startMs": 25688,
+          "endMs": 25748,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "行っ",
+          "startMs": 25758,
+          "endMs": 25918,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "て",
+          "startMs": 25928,
+          "endMs": 26048,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "酒",
+          "startMs": 26078,
+          "endMs": 26308,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "や",
+          "startMs": 26318,
+          "endMs": 26428,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "団子",
+          "startMs": 26438,
+          "endMs": 26708,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "を",
+          "startMs": 26718,
+          "endMs": 26798,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "勝手",
+          "startMs": 26808,
+          "endMs": 27078,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "に",
+          "startMs": 27088,
+          "endMs": 27218,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "食べ",
+          "startMs": 27228,
+          "endMs": 27388,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "始め",
+          "startMs": 27398,
+          "endMs": 27688,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "まし",
+          "startMs": 27698,
+          "endMs": 27888,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "た",
+          "startMs": 27898,
+          "endMs": 28078,
+          "charStart": 31,
+          "charEnd": 32
+        }
+      ]
+    },
+    {
+      "text": "家に帰った男が蓑を脱いで寝ている間に、妻が汚れた蓑を燃やしてしまいました。",
+      "startMs": 29018,
+      "endMs": 34610,
+      "words": [
+        {
+          "text": "家",
+          "startMs": 29158,
+          "endMs": 29318,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "に",
+          "startMs": 29328,
+          "endMs": 29448,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "帰っ",
+          "startMs": 29458,
+          "endMs": 29688,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "た",
+          "startMs": 29698,
+          "endMs": 29778,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "男",
+          "startMs": 29788,
+          "endMs": 30078,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "が",
+          "startMs": 30088,
+          "endMs": 30178,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "蓑",
+          "startMs": 30188,
+          "endMs": 30408,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "を",
+          "startMs": 30418,
+          "endMs": 30498,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "脱い",
+          "startMs": 30508,
+          "endMs": 30678,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "で",
+          "startMs": 30688,
+          "endMs": 30758,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "寝",
+          "startMs": 30768,
+          "endMs": 30878,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "て",
+          "startMs": 30888,
+          "endMs": 30958,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "いる",
+          "startMs": 30968,
+          "endMs": 31148,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "間",
+          "startMs": 31158,
+          "endMs": 31388,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "に",
+          "startMs": 31398,
+          "endMs": 31608,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "妻",
+          "startMs": 31868,
+          "endMs": 32098,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "が",
+          "startMs": 32108,
+          "endMs": 32178,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "汚れ",
+          "startMs": 32188,
+          "endMs": 32488,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "た",
+          "startMs": 32498,
+          "endMs": 32588,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "蓑",
+          "startMs": 32598,
+          "endMs": 32798,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "を",
+          "startMs": 32808,
+          "endMs": 32878,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "燃やし",
+          "startMs": 32888,
+          "endMs": 33188,
+          "charStart": 26,
+          "charEnd": 29
+        },
+        {
+          "text": "て",
+          "startMs": 33198,
+          "endMs": 33268,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "しまい",
+          "startMs": 33278,
+          "endMs": 33538,
+          "charStart": 30,
+          "charEnd": 33
+        },
+        {
+          "text": "まし",
+          "startMs": 33548,
+          "endMs": 33728,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "た",
+          "startMs": 33738,
+          "endMs": 33918,
+          "charStart": 35,
+          "charEnd": 36
+        }
+      ]
+    },
+    {
+      "text": "怒った男は残った灰を集めて、自分の体に塗り、再び姿を消そうとしました。",
+      "startMs": 34860,
+      "endMs": 40956,
+      "words": [
+        {
+          "text": "怒っ",
+          "startMs": 35000,
+          "endMs": 35240,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "た",
+          "startMs": 35250,
+          "endMs": 35330,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "男",
+          "startMs": 35340,
+          "endMs": 35630,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "は",
+          "startMs": 35640,
+          "endMs": 35740,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "残っ",
+          "startMs": 35750,
+          "endMs": 36030,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "た",
+          "startMs": 36040,
+          "endMs": 36130,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "灰",
+          "startMs": 36140,
+          "endMs": 36340,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "を",
+          "startMs": 36350,
+          "endMs": 36420,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "集め",
+          "startMs": 36430,
+          "endMs": 36750,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "て",
+          "startMs": 36760,
+          "endMs": 36980,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "自分",
+          "startMs": 37250,
+          "endMs": 37530,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "の",
+          "startMs": 37540,
+          "endMs": 37630,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "体",
+          "startMs": 37640,
+          "endMs": 37910,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "に",
+          "startMs": 37920,
+          "endMs": 38040,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "塗り",
+          "startMs": 38050,
+          "endMs": 38290,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "再び",
+          "startMs": 38520,
+          "endMs": 38890,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "姿",
+          "startMs": 38900,
+          "endMs": 39210,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "を",
+          "startMs": 39220,
+          "endMs": 39310,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "消そう",
+          "startMs": 39320,
+          "endMs": 39660,
+          "charStart": 26,
+          "charEnd": 29
+        },
+        {
+          "text": "と",
+          "startMs": 39670,
+          "endMs": 39740,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "し",
+          "startMs": 39750,
+          "endMs": 39870,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "まし",
+          "startMs": 39880,
+          "endMs": 40060,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "た",
+          "startMs": 40070,
+          "endMs": 40250,
+          "charStart": 33,
+          "charEnd": 34
+        }
+      ]
+    },
+    {
+      "text": "しかし、鼻の頭だけ灰を塗るのを忘れていたので、鼻だけが浮いて見えていました。",
+      "startMs": 41206,
+      "endMs": 46918,
+      "words": [
+        {
+          "text": "しかし",
+          "startMs": 41316,
+          "endMs": 41766,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "鼻",
+          "startMs": 42006,
+          "endMs": 42196,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "の",
+          "startMs": 42206,
+          "endMs": 42286,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "頭",
+          "startMs": 42296,
+          "endMs": 42606,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "だけ",
+          "startMs": 42616,
+          "endMs": 42806,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "灰",
+          "startMs": 42816,
+          "endMs": 43026,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "を",
+          "startMs": 43036,
+          "endMs": 43126,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "塗る",
+          "startMs": 43136,
+          "endMs": 43326,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "の",
+          "startMs": 43336,
+          "endMs": 43406,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "を",
+          "startMs": 43416,
+          "endMs": 43486,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "忘れ",
+          "startMs": 43496,
+          "endMs": 43796,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "て",
+          "startMs": 43806,
+          "endMs": 43876,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "い",
+          "startMs": 43886,
+          "endMs": 43986,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "た",
+          "startMs": 43996,
+          "endMs": 44066,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "の",
+          "startMs": 44076,
+          "endMs": 44156,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "で",
+          "startMs": 44166,
+          "endMs": 44386,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "鼻",
+          "startMs": 44636,
+          "endMs": 44826,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "だけ",
+          "startMs": 44836,
+          "endMs": 45036,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "が",
+          "startMs": 45046,
+          "endMs": 45146,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "浮い",
+          "startMs": 45156,
+          "endMs": 45356,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "て",
+          "startMs": 45366,
+          "endMs": 45436,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "見え",
+          "startMs": 45446,
+          "endMs": 45636,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "て",
+          "startMs": 45646,
+          "endMs": 45716,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "いま",
+          "startMs": 45726,
+          "endMs": 45916,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "し",
+          "startMs": 45926,
+          "endMs": 46026,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "た",
+          "startMs": 46036,
+          "endMs": 46226,
+          "charStart": 36,
+          "charEnd": 37
+        }
+      ]
+    },
+    {
+      "text": "町の人々は宙に浮いている奇妙な鼻を見つけて、男を棒で追いかけました。",
+      "startMs": 47168,
+      "endMs": 52520,
+      "words": [
+        {
+          "text": "町",
+          "startMs": 47278,
+          "endMs": 47498,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "の",
+          "startMs": 47508,
+          "endMs": 47578,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "人々",
+          "startMs": 47588,
+          "endMs": 47968,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "は",
+          "startMs": 47978,
+          "endMs": 48108,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "宙",
+          "startMs": 48128,
+          "endMs": 48378,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "に",
+          "startMs": 48388,
+          "endMs": 48488,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "浮い",
+          "startMs": 48498,
+          "endMs": 48658,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "て",
+          "startMs": 48668,
+          "endMs": 48718,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "いる",
+          "startMs": 48728,
+          "endMs": 48918,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "奇妙",
+          "startMs": 48928,
+          "endMs": 49228,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "な",
+          "startMs": 49238,
+          "endMs": 49308,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "鼻",
+          "startMs": 49318,
+          "endMs": 49518,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "を",
+          "startMs": 49528,
+          "endMs": 49598,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "見つけ",
+          "startMs": 49608,
+          "endMs": 49888,
+          "charStart": 17,
+          "charEnd": 20
+        },
+        {
+          "text": "て",
+          "startMs": 49898,
+          "endMs": 50088,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "男",
+          "startMs": 50348,
+          "endMs": 50698,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "を",
+          "startMs": 50708,
+          "endMs": 50788,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "棒",
+          "startMs": 50798,
+          "endMs": 50998,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "で",
+          "startMs": 51008,
+          "endMs": 51078,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "追いかけ",
+          "startMs": 51088,
+          "endMs": 51458,
+          "charStart": 26,
+          "charEnd": 30
+        },
+        {
+          "text": "まし",
+          "startMs": 51468,
+          "endMs": 51658,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "た",
+          "startMs": 51668,
+          "endMs": 51828,
+          "charStart": 32,
+          "charEnd": 33
+        }
+      ]
+    },
+    {
+      "text": "悪巧みをした男は川に飛び込んで、灰が落ちて正体がばれてしまいました。",
+      "startMs": 52770,
+      "endMs": 58194,
+      "words": [
+        {
+          "text": "悪巧み",
+          "startMs": 52880,
+          "endMs": 53370,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "を",
+          "startMs": 53380,
+          "endMs": 53460,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "し",
+          "startMs": 53470,
+          "endMs": 53560,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "た",
+          "startMs": 53570,
+          "endMs": 53630,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "男",
+          "startMs": 53640,
+          "endMs": 53930,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "は",
+          "startMs": 53940,
+          "endMs": 54110,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "川",
+          "startMs": 54170,
+          "endMs": 54380,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "に",
+          "startMs": 54390,
+          "endMs": 54530,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "飛び込ん",
+          "startMs": 54540,
+          "endMs": 54910,
+          "charStart": 10,
+          "charEnd": 14
+        },
+        {
+          "text": "で",
+          "startMs": 54920,
+          "endMs": 55120,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "灰",
+          "startMs": 55370,
+          "endMs": 55550,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "が",
+          "startMs": 55560,
+          "endMs": 55630,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "落ち",
+          "startMs": 55640,
+          "endMs": 55860,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "て",
+          "startMs": 55870,
+          "endMs": 56050,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "正体",
+          "startMs": 56110,
+          "endMs": 56480,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "がばれ",
+          "startMs": 56490,
+          "endMs": 56750,
+          "charStart": 23,
+          "charEnd": 26
+        },
+        {
+          "text": "て",
+          "startMs": 56760,
+          "endMs": 56850,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "しまい",
+          "startMs": 56860,
+          "endMs": 57120,
+          "charStart": 27,
+          "charEnd": 30
+        },
+        {
+          "text": "まし",
+          "startMs": 57130,
+          "endMs": 57310,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "た",
+          "startMs": 57320,
+          "endMs": 57500,
+          "charStart": 32,
+          "charEnd": 33
+        }
+      ]
+    }
+  ]
+}

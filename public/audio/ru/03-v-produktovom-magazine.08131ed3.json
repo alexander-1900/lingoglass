@@ -1,0 +1,536 @@
+{
+  "version": 3,
+  "lang": "ru",
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 32418,
+  "sentences": [
+    {
+      "text": "Вечером Борис идёт в супермаркет возле дома.",
+      "startMs": 0,
+      "endMs": 3144,
+      "words": [
+        {
+          "text": "Вечером",
+          "startMs": 100,
+          "endMs": 620,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "Борис",
+          "startMs": 620,
+          "endMs": 900,
+          "charStart": 8,
+          "charEnd": 13
+        },
+        {
+          "text": "идёт",
+          "startMs": 900,
+          "endMs": 1170,
+          "charStart": 14,
+          "charEnd": 18
+        },
+        {
+          "text": "в",
+          "startMs": 1170,
+          "endMs": 1200,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "супермаркет",
+          "startMs": 1200,
+          "endMs": 1760,
+          "charStart": 21,
+          "charEnd": 32
+        },
+        {
+          "text": "возле",
+          "startMs": 1760,
+          "endMs": 2040,
+          "charStart": 33,
+          "charEnd": 38
+        },
+        {
+          "text": "дома",
+          "startMs": 2040,
+          "endMs": 2420,
+          "charStart": 39,
+          "charEnd": 43
+        }
+      ]
+    },
+    {
+      "text": "У него в кармане есть список продуктов.",
+      "startMs": 3394,
+      "endMs": 6154,
+      "words": [
+        {
+          "text": "У",
+          "startMs": 3494,
+          "endMs": 3644,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "него",
+          "startMs": 3644,
+          "endMs": 3804,
+          "charStart": 2,
+          "charEnd": 6
+        },
+        {
+          "text": "в",
+          "startMs": 3804,
+          "endMs": 3854,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "кармане",
+          "startMs": 3854,
+          "endMs": 4244,
+          "charStart": 9,
+          "charEnd": 16
+        },
+        {
+          "text": "есть",
+          "startMs": 4244,
+          "endMs": 4494,
+          "charStart": 17,
+          "charEnd": 21
+        },
+        {
+          "text": "список",
+          "startMs": 4494,
+          "endMs": 4904,
+          "charStart": 22,
+          "charEnd": 28
+        },
+        {
+          "text": "продуктов",
+          "startMs": 4904,
+          "endMs": 5434,
+          "charStart": 29,
+          "charEnd": 38
+        }
+      ]
+    },
+    {
+      "text": "Сначала он берёт свежий белый хлеб.",
+      "startMs": 6404,
+      "endMs": 9164,
+      "words": [
+        {
+          "text": "Сначала",
+          "startMs": 6504,
+          "endMs": 7034,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "он",
+          "startMs": 7034,
+          "endMs": 7244,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "берёт",
+          "startMs": 7244,
+          "endMs": 7494,
+          "charStart": 11,
+          "charEnd": 16
+        },
+        {
+          "text": "свежий",
+          "startMs": 7494,
+          "endMs": 7844,
+          "charStart": 17,
+          "charEnd": 23
+        },
+        {
+          "text": "белый",
+          "startMs": 7844,
+          "endMs": 8084,
+          "charStart": 24,
+          "charEnd": 29
+        },
+        {
+          "text": "хлеб",
+          "startMs": 8084,
+          "endMs": 8424,
+          "charStart": 30,
+          "charEnd": 34
+        }
+      ]
+    },
+    {
+      "text": "Потом Борис выбирает сыр, молоко и масло.",
+      "startMs": 9414,
+      "endMs": 12438,
+      "words": [
+        {
+          "text": "Потом",
+          "startMs": 9514,
+          "endMs": 9844,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "Борис",
+          "startMs": 9844,
+          "endMs": 10084,
+          "charStart": 6,
+          "charEnd": 11
+        },
+        {
+          "text": "выбирает",
+          "startMs": 10084,
+          "endMs": 10434,
+          "charStart": 12,
+          "charEnd": 20
+        },
+        {
+          "text": "сыр",
+          "startMs": 10434,
+          "endMs": 10664,
+          "charStart": 21,
+          "charEnd": 24
+        },
+        {
+          "text": "молоко",
+          "startMs": 10834,
+          "endMs": 11184,
+          "charStart": 26,
+          "charEnd": 32
+        },
+        {
+          "text": "и",
+          "startMs": 11184,
+          "endMs": 11314,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "масло",
+          "startMs": 11314,
+          "endMs": 11734,
+          "charStart": 35,
+          "charEnd": 40
+        }
+      ]
+    },
+    {
+      "text": "В отделе фруктов он покупает сладкие яблоки.",
+      "startMs": 12688,
+      "endMs": 15904,
+      "words": [
+        {
+          "text": "В",
+          "startMs": 12788,
+          "endMs": 12968,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "отделе",
+          "startMs": 12968,
+          "endMs": 13278,
+          "charStart": 2,
+          "charEnd": 8
+        },
+        {
+          "text": "фруктов",
+          "startMs": 13278,
+          "endMs": 13728,
+          "charStart": 9,
+          "charEnd": 16
+        },
+        {
+          "text": "он",
+          "startMs": 13728,
+          "endMs": 13888,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "покупает",
+          "startMs": 13888,
+          "endMs": 14298,
+          "charStart": 20,
+          "charEnd": 28
+        },
+        {
+          "text": "сладкие",
+          "startMs": 14298,
+          "endMs": 14698,
+          "charStart": 29,
+          "charEnd": 36
+        },
+        {
+          "text": "яблоки",
+          "startMs": 14698,
+          "endMs": 15178,
+          "charStart": 37,
+          "charEnd": 43
+        }
+      ]
+    },
+    {
+      "text": "Борис кладёт все продукты в корзину.",
+      "startMs": 16154,
+      "endMs": 18890,
+      "words": [
+        {
+          "text": "Борис",
+          "startMs": 16254,
+          "endMs": 16714,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "кладёт",
+          "startMs": 16714,
+          "endMs": 17054,
+          "charStart": 6,
+          "charEnd": 12
+        },
+        {
+          "text": "все",
+          "startMs": 17054,
+          "endMs": 17294,
+          "charStart": 13,
+          "charEnd": 16
+        },
+        {
+          "text": "продукты",
+          "startMs": 17294,
+          "endMs": 17664,
+          "charStart": 17,
+          "charEnd": 25
+        },
+        {
+          "text": "в",
+          "startMs": 17664,
+          "endMs": 17694,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "корзину",
+          "startMs": 17694,
+          "endMs": 18154,
+          "charStart": 28,
+          "charEnd": 35
+        }
+      ]
+    },
+    {
+      "text": "На кассе работает очень вежливая девушка.",
+      "startMs": 19140,
+      "endMs": 22092,
+      "words": [
+        {
+          "text": "На",
+          "startMs": 19240,
+          "endMs": 19470,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "кассе",
+          "startMs": 19470,
+          "endMs": 19770,
+          "charStart": 3,
+          "charEnd": 8
+        },
+        {
+          "text": "работает",
+          "startMs": 19770,
+          "endMs": 20240,
+          "charStart": 9,
+          "charEnd": 17
+        },
+        {
+          "text": "очень",
+          "startMs": 20240,
+          "endMs": 20520,
+          "charStart": 18,
+          "charEnd": 23
+        },
+        {
+          "text": "вежливая",
+          "startMs": 20520,
+          "endMs": 20910,
+          "charStart": 24,
+          "charEnd": 32
+        },
+        {
+          "text": "девушка",
+          "startMs": 20910,
+          "endMs": 21370,
+          "charStart": 33,
+          "charEnd": 40
+        }
+      ]
+    },
+    {
+      "text": "Кассир говорит: «С вас шестьсот рублей».",
+      "startMs": 22342,
+      "endMs": 25558,
+      "words": [
+        {
+          "text": "Кассир",
+          "startMs": 22442,
+          "endMs": 22822,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "говорит",
+          "startMs": 22822,
+          "endMs": 23172,
+          "charStart": 7,
+          "charEnd": 14
+        },
+        {
+          "text": "С",
+          "startMs": 23372,
+          "endMs": 23482,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "вас",
+          "startMs": 23482,
+          "endMs": 23722,
+          "charStart": 19,
+          "charEnd": 22
+        },
+        {
+          "text": "шестьсот",
+          "startMs": 23722,
+          "endMs": 24132,
+          "charStart": 23,
+          "charEnd": 31
+        },
+        {
+          "text": "рублей",
+          "startMs": 24132,
+          "endMs": 24532,
+          "charStart": 32,
+          "charEnd": 38
+        }
+      ]
+    },
+    {
+      "text": "Борис быстро оплачивает покупку банковской картой.",
+      "startMs": 25808,
+      "endMs": 29192,
+      "words": [
+        {
+          "text": "Борис",
+          "startMs": 25908,
+          "endMs": 26358,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "быстро",
+          "startMs": 26358,
+          "endMs": 26728,
+          "charStart": 6,
+          "charEnd": 12
+        },
+        {
+          "text": "оплачивает",
+          "startMs": 26728,
+          "endMs": 27288,
+          "charStart": 13,
+          "charEnd": 23
+        },
+        {
+          "text": "покупку",
+          "startMs": 27288,
+          "endMs": 27698,
+          "charStart": 24,
+          "charEnd": 31
+        },
+        {
+          "text": "банковской",
+          "startMs": 27698,
+          "endMs": 28118,
+          "charStart": 32,
+          "charEnd": 42
+        },
+        {
+          "text": "картой",
+          "startMs": 28118,
+          "endMs": 28508,
+          "charStart": 43,
+          "charEnd": 49
+        }
+      ]
+    },
+    {
+      "text": "Он несёт пакет домой с хорошим настроением.",
+      "startMs": 29442,
+      "endMs": 32418,
+      "words": [
+        {
+          "text": "Он",
+          "startMs": 29542,
+          "endMs": 29772,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "несёт",
+          "startMs": 29772,
+          "endMs": 30082,
+          "charStart": 3,
+          "charEnd": 8
+        },
+        {
+          "text": "пакет",
+          "startMs": 30082,
+          "endMs": 30372,
+          "charStart": 9,
+          "charEnd": 14
+        },
+        {
+          "text": "домой",
+          "startMs": 30372,
+          "endMs": 30672,
+          "charStart": 15,
+          "charEnd": 20
+        },
+        {
+          "text": "с",
+          "startMs": 30672,
+          "endMs": 30732,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "хорошим",
+          "startMs": 30732,
+          "endMs": 31092,
+          "charStart": 23,
+          "charEnd": 30
+        },
+        {
+          "text": "настроением",
+          "startMs": 31092,
+          "endMs": 31722,
+          "charStart": 31,
+          "charEnd": 42
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1117 @@
+{
+  "version": 3,
+  "lang": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 55098,
+  "sentences": [
+    {
+      "text": "El lenguaje no aprehende la realidad fenoménica, sino que urde un velo tautológico insoslayable.",
+      "startMs": 0,
+      "endMs": 4896,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 100,
+          "endMs": 270,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "lenguaje",
+          "startMs": 280,
+          "endMs": 630,
+          "charStart": 3,
+          "charEnd": 11
+        },
+        {
+          "text": "no",
+          "startMs": 640,
+          "endMs": 740,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "aprehende",
+          "startMs": 750,
+          "endMs": 1060,
+          "charStart": 15,
+          "charEnd": 24
+        },
+        {
+          "text": "la",
+          "startMs": 1070,
+          "endMs": 1150,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "realidad",
+          "startMs": 1160,
+          "endMs": 1520,
+          "charStart": 28,
+          "charEnd": 36
+        },
+        {
+          "text": "fenoménica",
+          "startMs": 1530,
+          "endMs": 2060,
+          "charStart": 37,
+          "charEnd": 47
+        },
+        {
+          "text": "sino",
+          "startMs": 2250,
+          "endMs": 2410,
+          "charStart": 49,
+          "charEnd": 53
+        },
+        {
+          "text": "que",
+          "startMs": 2420,
+          "endMs": 2520,
+          "charStart": 54,
+          "charEnd": 57
+        },
+        {
+          "text": "urde",
+          "startMs": 2530,
+          "endMs": 2720,
+          "charStart": 58,
+          "charEnd": 62
+        },
+        {
+          "text": "un",
+          "startMs": 2730,
+          "endMs": 2820,
+          "charStart": 63,
+          "charEnd": 65
+        },
+        {
+          "text": "velo",
+          "startMs": 2830,
+          "endMs": 3000,
+          "charStart": 66,
+          "charEnd": 70
+        },
+        {
+          "text": "tautológico",
+          "startMs": 3010,
+          "endMs": 3530,
+          "charStart": 71,
+          "charEnd": 82
+        },
+        {
+          "text": "insoslayable",
+          "startMs": 3540,
+          "endMs": 4210,
+          "charStart": 83,
+          "charEnd": 95
+        }
+      ]
+    },
+    {
+      "text": "Agotadas las posibilidades de la mímesis representativa, el discurso se pliega sobre su propia vaciedad autorreferencial.",
+      "startMs": 5146,
+      "endMs": 11242,
+      "words": [
+        {
+          "text": "Agotadas",
+          "startMs": 5241,
+          "endMs": 5701,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "las",
+          "startMs": 5711,
+          "endMs": 5831,
+          "charStart": 9,
+          "charEnd": 12
+        },
+        {
+          "text": "posibilidades",
+          "startMs": 5841,
+          "endMs": 6371,
+          "charStart": 13,
+          "charEnd": 26
+        },
+        {
+          "text": "de",
+          "startMs": 6381,
+          "endMs": 6441,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "la",
+          "startMs": 6451,
+          "endMs": 6521,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "mímesis",
+          "startMs": 6531,
+          "endMs": 6841,
+          "charStart": 33,
+          "charEnd": 40
+        },
+        {
+          "text": "representativa",
+          "startMs": 6851,
+          "endMs": 7511,
+          "charStart": 41,
+          "charEnd": 55
+        },
+        {
+          "text": "el",
+          "startMs": 7761,
+          "endMs": 7921,
+          "charStart": 57,
+          "charEnd": 59
+        },
+        {
+          "text": "discurso",
+          "startMs": 7931,
+          "endMs": 8321,
+          "charStart": 60,
+          "charEnd": 68
+        },
+        {
+          "text": "se",
+          "startMs": 8331,
+          "endMs": 8451,
+          "charStart": 69,
+          "charEnd": 71
+        },
+        {
+          "text": "pliega",
+          "startMs": 8461,
+          "endMs": 8711,
+          "charStart": 72,
+          "charEnd": 78
+        },
+        {
+          "text": "sobre",
+          "startMs": 8721,
+          "endMs": 8931,
+          "charStart": 79,
+          "charEnd": 84
+        },
+        {
+          "text": "su",
+          "startMs": 8941,
+          "endMs": 9051,
+          "charStart": 85,
+          "charEnd": 87
+        },
+        {
+          "text": "propia",
+          "startMs": 9061,
+          "endMs": 9311,
+          "charStart": 88,
+          "charEnd": 94
+        },
+        {
+          "text": "vaciedad",
+          "startMs": 9321,
+          "endMs": 9681,
+          "charStart": 95,
+          "charEnd": 103
+        },
+        {
+          "text": "autorreferencial",
+          "startMs": 9691,
+          "endMs": 10541,
+          "charStart": 104,
+          "charEnd": 120
+        }
+      ]
+    },
+    {
+      "text": "Pretender que el significante coincida plenamente con el significado entraña una candorosa falacia metafísica.",
+      "startMs": 11492,
+      "endMs": 16844,
+      "words": [
+        {
+          "text": "Pretender",
+          "startMs": 11587,
+          "endMs": 12007,
+          "charStart": 0,
+          "charEnd": 9
+        },
+        {
+          "text": "que",
+          "startMs": 12017,
+          "endMs": 12097,
+          "charStart": 10,
+          "charEnd": 13
+        },
+        {
+          "text": "el",
+          "startMs": 12107,
+          "endMs": 12167,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "significante",
+          "startMs": 12177,
+          "endMs": 12697,
+          "charStart": 17,
+          "charEnd": 29
+        },
+        {
+          "text": "coincida",
+          "startMs": 12707,
+          "endMs": 13077,
+          "charStart": 30,
+          "charEnd": 38
+        },
+        {
+          "text": "plenamente",
+          "startMs": 13087,
+          "endMs": 13547,
+          "charStart": 39,
+          "charEnd": 49
+        },
+        {
+          "text": "con",
+          "startMs": 13557,
+          "endMs": 13677,
+          "charStart": 50,
+          "charEnd": 53
+        },
+        {
+          "text": "el",
+          "startMs": 13687,
+          "endMs": 13767,
+          "charStart": 54,
+          "charEnd": 56
+        },
+        {
+          "text": "significado",
+          "startMs": 13777,
+          "endMs": 14257,
+          "charStart": 57,
+          "charEnd": 68
+        },
+        {
+          "text": "entraña",
+          "startMs": 14267,
+          "endMs": 14597,
+          "charStart": 69,
+          "charEnd": 76
+        },
+        {
+          "text": "una",
+          "startMs": 14607,
+          "endMs": 14717,
+          "charStart": 77,
+          "charEnd": 80
+        },
+        {
+          "text": "candorosa",
+          "startMs": 14727,
+          "endMs": 15167,
+          "charStart": 81,
+          "charEnd": 90
+        },
+        {
+          "text": "falacia",
+          "startMs": 15177,
+          "endMs": 15497,
+          "charStart": 91,
+          "charEnd": 98
+        },
+        {
+          "text": "metafísica",
+          "startMs": 15507,
+          "endMs": 16157,
+          "charStart": 99,
+          "charEnd": 109
+        }
+      ]
+    },
+    {
+      "text": "Enredado en los meandros de una semiosis infinita, el filósofo constata la inanidad de sus afanes epistemológicos.",
+      "startMs": 17094,
+      "endMs": 22926,
+      "words": [
+        {
+          "text": "Enredado",
+          "startMs": 17189,
+          "endMs": 17629,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "en",
+          "startMs": 17639,
+          "endMs": 17689,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "los",
+          "startMs": 17699,
+          "endMs": 17819,
+          "charStart": 12,
+          "charEnd": 15
+        },
+        {
+          "text": "meandros",
+          "startMs": 17829,
+          "endMs": 18169,
+          "charStart": 16,
+          "charEnd": 24
+        },
+        {
+          "text": "de",
+          "startMs": 18179,
+          "endMs": 18239,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "una",
+          "startMs": 18249,
+          "endMs": 18379,
+          "charStart": 28,
+          "charEnd": 31
+        },
+        {
+          "text": "semiosis",
+          "startMs": 18389,
+          "endMs": 18769,
+          "charStart": 32,
+          "charEnd": 40
+        },
+        {
+          "text": "infinita",
+          "startMs": 18779,
+          "endMs": 19219,
+          "charStart": 41,
+          "charEnd": 49
+        },
+        {
+          "text": "el",
+          "startMs": 19409,
+          "endMs": 19579,
+          "charStart": 51,
+          "charEnd": 53
+        },
+        {
+          "text": "filósofo",
+          "startMs": 19589,
+          "endMs": 20009,
+          "charStart": 54,
+          "charEnd": 62
+        },
+        {
+          "text": "constata",
+          "startMs": 20019,
+          "endMs": 20389,
+          "charStart": 63,
+          "charEnd": 71
+        },
+        {
+          "text": "la",
+          "startMs": 20399,
+          "endMs": 20469,
+          "charStart": 72,
+          "charEnd": 74
+        },
+        {
+          "text": "inanidad",
+          "startMs": 20479,
+          "endMs": 20819,
+          "charStart": 75,
+          "charEnd": 83
+        },
+        {
+          "text": "de",
+          "startMs": 20829,
+          "endMs": 20899,
+          "charStart": 84,
+          "charEnd": 86
+        },
+        {
+          "text": "sus",
+          "startMs": 20909,
+          "endMs": 21049,
+          "charStart": 87,
+          "charEnd": 90
+        },
+        {
+          "text": "afanes",
+          "startMs": 21059,
+          "endMs": 21349,
+          "charStart": 91,
+          "charEnd": 97
+        },
+        {
+          "text": "epistemológicos",
+          "startMs": 21359,
+          "endMs": 22229,
+          "charStart": 98,
+          "charEnd": 113
+        }
+      ]
+    },
+    {
+      "text": "Cada vocablo balbuceado distorsiona irremisiblemente la prístina pureza de la experiencia inefable.",
+      "startMs": 23176,
+      "endMs": 28144,
+      "words": [
+        {
+          "text": "Cada",
+          "startMs": 23276,
+          "endMs": 23516,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "vocablo",
+          "startMs": 23526,
+          "endMs": 23836,
+          "charStart": 5,
+          "charEnd": 12
+        },
+        {
+          "text": "balbuceado",
+          "startMs": 23846,
+          "endMs": 24316,
+          "charStart": 13,
+          "charEnd": 23
+        },
+        {
+          "text": "distorsiona",
+          "startMs": 24326,
+          "endMs": 24836,
+          "charStart": 24,
+          "charEnd": 35
+        },
+        {
+          "text": "irremisiblemente",
+          "startMs": 24846,
+          "endMs": 25566,
+          "charStart": 36,
+          "charEnd": 52
+        },
+        {
+          "text": "la",
+          "startMs": 25576,
+          "endMs": 25666,
+          "charStart": 53,
+          "charEnd": 55
+        },
+        {
+          "text": "prístina",
+          "startMs": 25676,
+          "endMs": 26016,
+          "charStart": 56,
+          "charEnd": 64
+        },
+        {
+          "text": "pureza",
+          "startMs": 26026,
+          "endMs": 26326,
+          "charStart": 65,
+          "charEnd": 71
+        },
+        {
+          "text": "de",
+          "startMs": 26336,
+          "endMs": 26406,
+          "charStart": 72,
+          "charEnd": 74
+        },
+        {
+          "text": "la",
+          "startMs": 26416,
+          "endMs": 26466,
+          "charStart": 75,
+          "charEnd": 77
+        },
+        {
+          "text": "experiencia",
+          "startMs": 26476,
+          "endMs": 26936,
+          "charStart": 78,
+          "charEnd": 89
+        },
+        {
+          "text": "inefable",
+          "startMs": 26946,
+          "endMs": 27446,
+          "charStart": 90,
+          "charEnd": 98
+        }
+      ]
+    },
+    {
+      "text": "Lejos de esclarecer el enigma ontológico, la hipertrofia conceptual obscurece los confines del entendimiento humano.",
+      "startMs": 28394,
+      "endMs": 34322,
+      "words": [
+        {
+          "text": "Lejos",
+          "startMs": 28494,
+          "endMs": 28864,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "de",
+          "startMs": 28874,
+          "endMs": 28934,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "esclarecer",
+          "startMs": 28944,
+          "endMs": 29354,
+          "charStart": 9,
+          "charEnd": 19
+        },
+        {
+          "text": "el",
+          "startMs": 29364,
+          "endMs": 29434,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "enigma",
+          "startMs": 29444,
+          "endMs": 29684,
+          "charStart": 23,
+          "charEnd": 29
+        },
+        {
+          "text": "ontológico",
+          "startMs": 29694,
+          "endMs": 30234,
+          "charStart": 30,
+          "charEnd": 40
+        },
+        {
+          "text": "la",
+          "startMs": 30439,
+          "endMs": 30589,
+          "charStart": 42,
+          "charEnd": 44
+        },
+        {
+          "text": "hipertrofia",
+          "startMs": 30599,
+          "endMs": 31049,
+          "charStart": 45,
+          "charEnd": 56
+        },
+        {
+          "text": "conceptual",
+          "startMs": 31059,
+          "endMs": 31589,
+          "charStart": 57,
+          "charEnd": 67
+        },
+        {
+          "text": "obscurece",
+          "startMs": 31599,
+          "endMs": 32029,
+          "charStart": 68,
+          "charEnd": 77
+        },
+        {
+          "text": "los",
+          "startMs": 32039,
+          "endMs": 32159,
+          "charStart": 78,
+          "charEnd": 81
+        },
+        {
+          "text": "confines",
+          "startMs": 32169,
+          "endMs": 32549,
+          "charStart": 82,
+          "charEnd": 90
+        },
+        {
+          "text": "del",
+          "startMs": 32559,
+          "endMs": 32649,
+          "charStart": 91,
+          "charEnd": 94
+        },
+        {
+          "text": "entendimiento",
+          "startMs": 32659,
+          "endMs": 33169,
+          "charStart": 95,
+          "charEnd": 108
+        },
+        {
+          "text": "humano",
+          "startMs": 33179,
+          "endMs": 33609,
+          "charStart": 109,
+          "charEnd": 115
+        }
+      ]
+    },
+    {
+      "text": "Quienquiera que ose desentrañar el silencio primordial habrá de sucumbir a la tiranía del logos.",
+      "startMs": 34572,
+      "endMs": 39060,
+      "words": [
+        {
+          "text": "Quienquiera",
+          "startMs": 34667,
+          "endMs": 35097,
+          "charStart": 0,
+          "charEnd": 11
+        },
+        {
+          "text": "que",
+          "startMs": 35107,
+          "endMs": 35217,
+          "charStart": 12,
+          "charEnd": 15
+        },
+        {
+          "text": "ose",
+          "startMs": 35227,
+          "endMs": 35387,
+          "charStart": 16,
+          "charEnd": 19
+        },
+        {
+          "text": "desentrañar",
+          "startMs": 35397,
+          "endMs": 35847,
+          "charStart": 20,
+          "charEnd": 31
+        },
+        {
+          "text": "el",
+          "startMs": 35857,
+          "endMs": 35927,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "silencio",
+          "startMs": 35937,
+          "endMs": 36327,
+          "charStart": 35,
+          "charEnd": 43
+        },
+        {
+          "text": "primordial",
+          "startMs": 36337,
+          "endMs": 36767,
+          "charStart": 44,
+          "charEnd": 54
+        },
+        {
+          "text": "habrá",
+          "startMs": 36777,
+          "endMs": 36937,
+          "charStart": 55,
+          "charEnd": 60
+        },
+        {
+          "text": "de",
+          "startMs": 36947,
+          "endMs": 37017,
+          "charStart": 61,
+          "charEnd": 63
+        },
+        {
+          "text": "sucumbir",
+          "startMs": 37027,
+          "endMs": 37407,
+          "charStart": 64,
+          "charEnd": 72
+        },
+        {
+          "text": "a",
+          "startMs": 37417,
+          "endMs": 37437,
+          "charStart": 73,
+          "charEnd": 74
+        },
+        {
+          "text": "la",
+          "startMs": 37447,
+          "endMs": 37527,
+          "charStart": 75,
+          "charEnd": 77
+        },
+        {
+          "text": "tiranía",
+          "startMs": 37537,
+          "endMs": 37847,
+          "charStart": 78,
+          "charEnd": 85
+        },
+        {
+          "text": "del",
+          "startMs": 37857,
+          "endMs": 37957,
+          "charStart": 86,
+          "charEnd": 89
+        },
+        {
+          "text": "logos",
+          "startMs": 37967,
+          "endMs": 38367,
+          "charStart": 90,
+          "charEnd": 95
+        }
+      ]
+    },
+    {
+      "text": "La paradoja estriba en que solo mediante el artificio lingüístico logramos vislumbrar aquello que lo trasciende.",
+      "startMs": 39310,
+      "endMs": 44398,
+      "words": [
+        {
+          "text": "La",
+          "startMs": 39410,
+          "endMs": 39610,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "paradoja",
+          "startMs": 39620,
+          "endMs": 39970,
+          "charStart": 3,
+          "charEnd": 11
+        },
+        {
+          "text": "estriba",
+          "startMs": 39980,
+          "endMs": 40320,
+          "charStart": 12,
+          "charEnd": 19
+        },
+        {
+          "text": "en",
+          "startMs": 40330,
+          "endMs": 40430,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "que",
+          "startMs": 40440,
+          "endMs": 40530,
+          "charStart": 23,
+          "charEnd": 26
+        },
+        {
+          "text": "solo",
+          "startMs": 40540,
+          "endMs": 40720,
+          "charStart": 27,
+          "charEnd": 31
+        },
+        {
+          "text": "mediante",
+          "startMs": 40730,
+          "endMs": 41030,
+          "charStart": 32,
+          "charEnd": 40
+        },
+        {
+          "text": "el",
+          "startMs": 41040,
+          "endMs": 41090,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "artificio",
+          "startMs": 41100,
+          "endMs": 41480,
+          "charStart": 44,
+          "charEnd": 53
+        },
+        {
+          "text": "lingüístico",
+          "startMs": 41490,
+          "endMs": 41960,
+          "charStart": 54,
+          "charEnd": 65
+        },
+        {
+          "text": "logramos",
+          "startMs": 41970,
+          "endMs": 42320,
+          "charStart": 66,
+          "charEnd": 74
+        },
+        {
+          "text": "vislumbrar",
+          "startMs": 42330,
+          "endMs": 42710,
+          "charStart": 75,
+          "charEnd": 85
+        },
+        {
+          "text": "aquello",
+          "startMs": 42720,
+          "endMs": 43000,
+          "charStart": 86,
+          "charEnd": 93
+        },
+        {
+          "text": "que",
+          "startMs": 43010,
+          "endMs": 43090,
+          "charStart": 94,
+          "charEnd": 97
+        },
+        {
+          "text": "lo",
+          "startMs": 43100,
+          "endMs": 43170,
+          "charStart": 98,
+          "charEnd": 100
+        },
+        {
+          "text": "trasciende",
+          "startMs": 43180,
+          "endMs": 43710,
+          "charStart": 101,
+          "charEnd": 111
+        }
+      ]
+    },
+    {
+      "text": "Destruidos los cimientos del dogmatismo semántico, únicamente sobrevive el murmullo de la indeterminación textual.",
+      "startMs": 44648,
+      "endMs": 50408,
+      "words": [
+        {
+          "text": "Destruidos",
+          "startMs": 44748,
+          "endMs": 45288,
+          "charStart": 0,
+          "charEnd": 10
+        },
+        {
+          "text": "los",
+          "startMs": 45298,
+          "endMs": 45418,
+          "charStart": 11,
+          "charEnd": 14
+        },
+        {
+          "text": "cimientos",
+          "startMs": 45428,
+          "endMs": 45778,
+          "charStart": 15,
+          "charEnd": 24
+        },
+        {
+          "text": "del",
+          "startMs": 45788,
+          "endMs": 45888,
+          "charStart": 25,
+          "charEnd": 28
+        },
+        {
+          "text": "dogmatismo",
+          "startMs": 45898,
+          "endMs": 46338,
+          "charStart": 29,
+          "charEnd": 39
+        },
+        {
+          "text": "semántico",
+          "startMs": 46348,
+          "endMs": 46868,
+          "charStart": 40,
+          "charEnd": 49
+        },
+        {
+          "text": "únicamente",
+          "startMs": 47058,
+          "endMs": 47608,
+          "charStart": 51,
+          "charEnd": 61
+        },
+        {
+          "text": "sobrevive",
+          "startMs": 47618,
+          "endMs": 47988,
+          "charStart": 62,
+          "charEnd": 71
+        },
+        {
+          "text": "el",
+          "startMs": 47998,
+          "endMs": 48068,
+          "charStart": 72,
+          "charEnd": 74
+        },
+        {
+          "text": "murmullo",
+          "startMs": 48078,
+          "endMs": 48428,
+          "charStart": 75,
+          "charEnd": 83
+        },
+        {
+          "text": "de",
+          "startMs": 48438,
+          "endMs": 48508,
+          "charStart": 84,
+          "charEnd": 86
+        },
+        {
+          "text": "la",
+          "startMs": 48518,
+          "endMs": 48568,
+          "charStart": 87,
+          "charEnd": 89
+        },
+        {
+          "text": "indeterminación",
+          "startMs": 48578,
+          "endMs": 49168,
+          "charStart": 90,
+          "charEnd": 105
+        },
+        {
+          "text": "textual",
+          "startMs": 49178,
+          "endMs": 49708,
+          "charStart": 106,
+          "charEnd": 113
+        }
+      ]
+    },
+    {
+      "text": "Callar deviene así en el único acto genuinamente veraz frente al abismo de lo incognoscible.",
+      "startMs": 50658,
+      "endMs": 55098,
+      "words": [
+        {
+          "text": "Callar",
+          "startMs": 50753,
+          "endMs": 51073,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "deviene",
+          "startMs": 51083,
+          "endMs": 51353,
+          "charStart": 7,
+          "charEnd": 14
+        },
+        {
+          "text": "así",
+          "startMs": 51363,
+          "endMs": 51563,
+          "charStart": 15,
+          "charEnd": 18
+        },
+        {
+          "text": "en",
+          "startMs": 51573,
+          "endMs": 51653,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "el",
+          "startMs": 51663,
+          "endMs": 51743,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "único",
+          "startMs": 51753,
+          "endMs": 51993,
+          "charStart": 25,
+          "charEnd": 30
+        },
+        {
+          "text": "acto",
+          "startMs": 52003,
+          "endMs": 52183,
+          "charStart": 31,
+          "charEnd": 35
+        },
+        {
+          "text": "genuinamente",
+          "startMs": 52193,
+          "endMs": 52733,
+          "charStart": 36,
+          "charEnd": 48
+        },
+        {
+          "text": "veraz",
+          "startMs": 52743,
+          "endMs": 53003,
+          "charStart": 49,
+          "charEnd": 54
+        },
+        {
+          "text": "frente",
+          "startMs": 53013,
+          "endMs": 53243,
+          "charStart": 55,
+          "charEnd": 61
+        },
+        {
+          "text": "al",
+          "startMs": 53253,
+          "endMs": 53313,
+          "charStart": 62,
+          "charEnd": 64
+        },
+        {
+          "text": "abismo",
+          "startMs": 53323,
+          "endMs": 53593,
+          "charStart": 65,
+          "charEnd": 71
+        },
+        {
+          "text": "de",
+          "startMs": 53603,
+          "endMs": 53663,
+          "charStart": 72,
+          "charEnd": 74
+        },
+        {
+          "text": "lo",
+          "startMs": 53673,
+          "endMs": 53723,
+          "charStart": 75,
+          "charEnd": 77
+        },
+        {
+          "text": "incognoscible",
+          "startMs": 53733,
+          "endMs": 54413,
+          "charStart": 78,
+          "charEnd": 91
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2062 @@
+{
+  "version": 3,
+  "lang": "ja",
+  "voice": "ja-JP-NanamiNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 75090,
+  "sentences": [
+    {
+      "text": "熊野へと巡礼の旅をしていた美貌の僧・安珍は、宿泊先の長者の娘である清姫に一目惚れされてしまいました。",
+      "startMs": 0,
+      "endMs": 8112,
+      "words": [
+        {
+          "text": "熊野",
+          "startMs": 140,
+          "endMs": 390,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "へ",
+          "startMs": 400,
+          "endMs": 490,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "と",
+          "startMs": 500,
+          "endMs": 620,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "巡礼",
+          "startMs": 630,
+          "endMs": 990,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "の",
+          "startMs": 1000,
+          "endMs": 1080,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "旅",
+          "startMs": 1090,
+          "endMs": 1280,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "を",
+          "startMs": 1290,
+          "endMs": 1380,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "し",
+          "startMs": 1390,
+          "endMs": 1490,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "て",
+          "startMs": 1500,
+          "endMs": 1550,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "い",
+          "startMs": 1560,
+          "endMs": 1650,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "た",
+          "startMs": 1660,
+          "endMs": 1750,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "美貌",
+          "startMs": 1760,
+          "endMs": 2060,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "の",
+          "startMs": 2070,
+          "endMs": 2150,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "僧",
+          "startMs": 2160,
+          "endMs": 2420,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "安珍",
+          "startMs": 2640,
+          "endMs": 3040,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "は",
+          "startMs": 3050,
+          "endMs": 3260,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "宿泊",
+          "startMs": 3400,
+          "endMs": 3810,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "先",
+          "startMs": 3820,
+          "endMs": 4040,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "の",
+          "startMs": 4050,
+          "endMs": 4130,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "長者",
+          "startMs": 4140,
+          "endMs": 4470,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "の",
+          "startMs": 4480,
+          "endMs": 4580,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "娘",
+          "startMs": 4590,
+          "endMs": 4900,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "で",
+          "startMs": 4910,
+          "endMs": 4980,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "ある",
+          "startMs": 4990,
+          "endMs": 5230,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "清姫",
+          "startMs": 5250,
+          "endMs": 5680,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "に",
+          "startMs": 5690,
+          "endMs": 5880,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "一目",
+          "startMs": 5900,
+          "endMs": 6280,
+          "charStart": 36,
+          "charEnd": 38
+        },
+        {
+          "text": "惚れ",
+          "startMs": 6290,
+          "endMs": 6440,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "さ",
+          "startMs": 6450,
+          "endMs": 6550,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "れ",
+          "startMs": 6560,
+          "endMs": 6640,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "て",
+          "startMs": 6650,
+          "endMs": 6740,
+          "charStart": 42,
+          "charEnd": 43
+        },
+        {
+          "text": "しまい",
+          "startMs": 6750,
+          "endMs": 7020,
+          "charStart": 43,
+          "charEnd": 46
+        },
+        {
+          "text": "まし",
+          "startMs": 7030,
+          "endMs": 7210,
+          "charStart": 46,
+          "charEnd": 48
+        },
+        {
+          "text": "た",
+          "startMs": 7220,
+          "endMs": 7400,
+          "charStart": 48,
+          "charEnd": 49
+        }
+      ]
+    },
+    {
+      "text": "清姫から熱烈に愛を告白された安珍は、「帰りに必ず立ち寄る」と嘘をついて逃げるように去っていきました。",
+      "startMs": 8362,
+      "endMs": 15898,
+      "words": [
+        {
+          "text": "清姫",
+          "startMs": 8502,
+          "endMs": 8882,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "から",
+          "startMs": 8892,
+          "endMs": 9082,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "熱烈",
+          "startMs": 9092,
+          "endMs": 9502,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "に",
+          "startMs": 9512,
+          "endMs": 9612,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "愛",
+          "startMs": 9622,
+          "endMs": 9832,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "を",
+          "startMs": 9842,
+          "endMs": 9932,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "告白",
+          "startMs": 9942,
+          "endMs": 10322,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "さ",
+          "startMs": 10332,
+          "endMs": 10432,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "れ",
+          "startMs": 10442,
+          "endMs": 10522,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "た",
+          "startMs": 10532,
+          "endMs": 10622,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "安珍",
+          "startMs": 10632,
+          "endMs": 10972,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "は",
+          "startMs": 10982,
+          "endMs": 11182,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "帰り",
+          "startMs": 11382,
+          "endMs": 11672,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "に",
+          "startMs": 11682,
+          "endMs": 11852,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "必ず",
+          "startMs": 11862,
+          "endMs": 12292,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "立ち寄る",
+          "startMs": 12302,
+          "endMs": 12812,
+          "charStart": 24,
+          "charEnd": 28
+        },
+        {
+          "text": "と",
+          "startMs": 12982,
+          "endMs": 13032,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "嘘",
+          "startMs": 13042,
+          "endMs": 13282,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "を",
+          "startMs": 13292,
+          "endMs": 13372,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "つい",
+          "startMs": 13382,
+          "endMs": 13602,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "て",
+          "startMs": 13612,
+          "endMs": 13702,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "逃げる",
+          "startMs": 13712,
+          "endMs": 14032,
+          "charStart": 35,
+          "charEnd": 38
+        },
+        {
+          "text": "よう",
+          "startMs": 14042,
+          "endMs": 14212,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "に",
+          "startMs": 14222,
+          "endMs": 14322,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "去っ",
+          "startMs": 14332,
+          "endMs": 14532,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "て",
+          "startMs": 14542,
+          "endMs": 14612,
+          "charStart": 43,
+          "charEnd": 44
+        },
+        {
+          "text": "いき",
+          "startMs": 14622,
+          "endMs": 14812,
+          "charStart": 44,
+          "charEnd": 46
+        },
+        {
+          "text": "まし",
+          "startMs": 14822,
+          "endMs": 15002,
+          "charStart": 46,
+          "charEnd": 48
+        },
+        {
+          "text": "た",
+          "startMs": 15012,
+          "endMs": 15202,
+          "charStart": 48,
+          "charEnd": 49
+        }
+      ]
+    },
+    {
+      "text": "約束の期日を過ぎても現れない安珍に裏切られたことを知った清姫は、怒りと絶望のあまり裸足で後を追いました。",
+      "startMs": 16148,
+      "endMs": 23924,
+      "words": [
+        {
+          "text": "約束",
+          "startMs": 16258,
+          "endMs": 16668,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "の",
+          "startMs": 16678,
+          "endMs": 16778,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "期日",
+          "startMs": 16788,
+          "endMs": 17138,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "を",
+          "startMs": 17148,
+          "endMs": 17218,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "過ぎ",
+          "startMs": 17228,
+          "endMs": 17468,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "て",
+          "startMs": 17478,
+          "endMs": 17548,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "も",
+          "startMs": 17558,
+          "endMs": 17678,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "現れ",
+          "startMs": 17698,
+          "endMs": 18108,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "ない",
+          "startMs": 18118,
+          "endMs": 18278,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "安珍",
+          "startMs": 18288,
+          "endMs": 18668,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "に",
+          "startMs": 18678,
+          "endMs": 18788,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "裏切ら",
+          "startMs": 18798,
+          "endMs": 19138,
+          "charStart": 17,
+          "charEnd": 20
+        },
+        {
+          "text": "れ",
+          "startMs": 19148,
+          "endMs": 19228,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "た",
+          "startMs": 19238,
+          "endMs": 19338,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "こと",
+          "startMs": 19348,
+          "endMs": 19548,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "を",
+          "startMs": 19558,
+          "endMs": 19638,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "知っ",
+          "startMs": 19658,
+          "endMs": 19808,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "た",
+          "startMs": 19818,
+          "endMs": 19918,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "清姫",
+          "startMs": 19928,
+          "endMs": 20378,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "は",
+          "startMs": 20388,
+          "endMs": 20578,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "怒り",
+          "startMs": 20718,
+          "endMs": 21038,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "と",
+          "startMs": 21048,
+          "endMs": 21138,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "絶望",
+          "startMs": 21148,
+          "endMs": 21558,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "の",
+          "startMs": 21568,
+          "endMs": 21628,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "あまり",
+          "startMs": 21638,
+          "endMs": 21938,
+          "charStart": 38,
+          "charEnd": 41
+        },
+        {
+          "text": "裸足",
+          "startMs": 21948,
+          "endMs": 22278,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "で",
+          "startMs": 22288,
+          "endMs": 22358,
+          "charStart": 43,
+          "charEnd": 44
+        },
+        {
+          "text": "後",
+          "startMs": 22368,
+          "endMs": 22598,
+          "charStart": 44,
+          "charEnd": 45
+        },
+        {
+          "text": "を",
+          "startMs": 22608,
+          "endMs": 22658,
+          "charStart": 45,
+          "charEnd": 46
+        },
+        {
+          "text": "追い",
+          "startMs": 22668,
+          "endMs": 22838,
+          "charStart": 46,
+          "charEnd": 48
+        },
+        {
+          "text": "まし",
+          "startMs": 22848,
+          "endMs": 23028,
+          "charStart": 48,
+          "charEnd": 50
+        },
+        {
+          "text": "た",
+          "startMs": 23038,
+          "endMs": 23218,
+          "charStart": 50,
+          "charEnd": 51
+        }
+      ]
+    },
+    {
+      "text": "川の岸辺に辿り着いた清姫は、安珍が船頭に頼んで自分を乗せないように仕向けて舟を出したことを知りました。",
+      "startMs": 24174,
+      "endMs": 31542,
+      "words": [
+        {
+          "text": "川",
+          "startMs": 24314,
+          "endMs": 24484,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "の",
+          "startMs": 24494,
+          "endMs": 24594,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "岸辺",
+          "startMs": 24604,
+          "endMs": 24894,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "に",
+          "startMs": 24904,
+          "endMs": 25024,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "辿り",
+          "startMs": 25034,
+          "endMs": 25304,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "着い",
+          "startMs": 25314,
+          "endMs": 25504,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "た",
+          "startMs": 25514,
+          "endMs": 25594,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "清姫",
+          "startMs": 25604,
+          "endMs": 26044,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "は",
+          "startMs": 26054,
+          "endMs": 26244,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "安珍",
+          "startMs": 26414,
+          "endMs": 26734,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "が",
+          "startMs": 26744,
+          "endMs": 26854,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "船頭",
+          "startMs": 26864,
+          "endMs": 27234,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "に",
+          "startMs": 27244,
+          "endMs": 27344,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "頼ん",
+          "startMs": 27354,
+          "endMs": 27604,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "で",
+          "startMs": 27614,
+          "endMs": 27714,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "自分",
+          "startMs": 27724,
+          "endMs": 27994,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "を",
+          "startMs": 28004,
+          "endMs": 28084,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "乗せ",
+          "startMs": 28094,
+          "endMs": 28304,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "ない",
+          "startMs": 28314,
+          "endMs": 28504,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "よう",
+          "startMs": 28514,
+          "endMs": 28664,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "に",
+          "startMs": 28674,
+          "endMs": 28764,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "仕向け",
+          "startMs": 28774,
+          "endMs": 29084,
+          "charStart": 33,
+          "charEnd": 36
+        },
+        {
+          "text": "て",
+          "startMs": 29094,
+          "endMs": 29284,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "舟",
+          "startMs": 29354,
+          "endMs": 29554,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "を",
+          "startMs": 29564,
+          "endMs": 29654,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "出し",
+          "startMs": 29664,
+          "endMs": 29864,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "た",
+          "startMs": 29874,
+          "endMs": 29954,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "こと",
+          "startMs": 29964,
+          "endMs": 30154,
+          "charStart": 42,
+          "charEnd": 44
+        },
+        {
+          "text": "を",
+          "startMs": 30164,
+          "endMs": 30224,
+          "charStart": 44,
+          "charEnd": 45
+        },
+        {
+          "text": "知り",
+          "startMs": 30234,
+          "endMs": 30454,
+          "charStart": 45,
+          "charEnd": 47
+        },
+        {
+          "text": "まし",
+          "startMs": 30464,
+          "endMs": 30644,
+          "charStart": 47,
+          "charEnd": 49
+        },
+        {
+          "text": "た",
+          "startMs": 30654,
+          "endMs": 30824,
+          "charStart": 49,
+          "charEnd": 50
+        }
+      ]
+    },
+    {
+      "text": "激しい情念と執着によって彼女の肉体は変貌を遂げ、大蛇となって猛り狂う濁流を泳ぎ渡りました。",
+      "startMs": 31792,
+      "endMs": 39136,
+      "words": [
+        {
+          "text": "激しい",
+          "startMs": 31902,
+          "endMs": 32342,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "情念",
+          "startMs": 32352,
+          "endMs": 32692,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "と",
+          "startMs": 32702,
+          "endMs": 32812,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "執着",
+          "startMs": 32822,
+          "endMs": 33212,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "に",
+          "startMs": 33222,
+          "endMs": 33312,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "よっ",
+          "startMs": 33322,
+          "endMs": 33482,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "て",
+          "startMs": 33492,
+          "endMs": 33692,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "彼女",
+          "startMs": 33772,
+          "endMs": 34092,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "の",
+          "startMs": 34102,
+          "endMs": 34192,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "肉体",
+          "startMs": 34202,
+          "endMs": 34582,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "は",
+          "startMs": 34592,
+          "endMs": 34742,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "変貌",
+          "startMs": 34762,
+          "endMs": 35112,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "を",
+          "startMs": 35122,
+          "endMs": 35212,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "遂げ",
+          "startMs": 35222,
+          "endMs": 35532,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "大蛇",
+          "startMs": 35672,
+          "endMs": 35982,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "と",
+          "startMs": 35992,
+          "endMs": 36082,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "なっ",
+          "startMs": 36092,
+          "endMs": 36262,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "て",
+          "startMs": 36272,
+          "endMs": 36392,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "猛り狂う",
+          "startMs": 36422,
+          "endMs": 36992,
+          "charStart": 30,
+          "charEnd": 34
+        },
+        {
+          "text": "濁流",
+          "startMs": 37002,
+          "endMs": 37342,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "を",
+          "startMs": 37352,
+          "endMs": 37422,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "泳ぎ",
+          "startMs": 37432,
+          "endMs": 37782,
+          "charStart": 37,
+          "charEnd": 39
+        },
+        {
+          "text": "渡り",
+          "startMs": 37792,
+          "endMs": 38052,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "まし",
+          "startMs": 38062,
+          "endMs": 38242,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "た",
+          "startMs": 38252,
+          "endMs": 38432,
+          "charStart": 43,
+          "charEnd": 44
+        }
+      ]
+    },
+    {
+      "text": "蛇の姿となった清姫に追われた安珍は、命からがら道成寺へ逃げ込み、僧侶たちに助けを求めました。",
+      "startMs": 39386,
+      "endMs": 46754,
+      "words": [
+        {
+          "text": "蛇",
+          "startMs": 39496,
+          "endMs": 39726,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "の",
+          "startMs": 39736,
+          "endMs": 39816,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "姿",
+          "startMs": 39826,
+          "endMs": 40136,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "と",
+          "startMs": 40146,
+          "endMs": 40236,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "なっ",
+          "startMs": 40246,
+          "endMs": 40416,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "た",
+          "startMs": 40426,
+          "endMs": 40526,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "清姫",
+          "startMs": 40536,
+          "endMs": 40946,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "に",
+          "startMs": 40956,
+          "endMs": 41056,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "追わ",
+          "startMs": 41066,
+          "endMs": 41226,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "れ",
+          "startMs": 41236,
+          "endMs": 41316,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "た",
+          "startMs": 41326,
+          "endMs": 41406,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "安珍",
+          "startMs": 41416,
+          "endMs": 41766,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "は",
+          "startMs": 41776,
+          "endMs": 42006,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "命",
+          "startMs": 42256,
+          "endMs": 42546,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "からがら",
+          "startMs": 42556,
+          "endMs": 42916,
+          "charStart": 19,
+          "charEnd": 23
+        },
+        {
+          "text": "道成寺",
+          "startMs": 42926,
+          "endMs": 43396,
+          "charStart": 23,
+          "charEnd": 26
+        },
+        {
+          "text": "へ",
+          "startMs": 43406,
+          "endMs": 43486,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "逃げ",
+          "startMs": 43496,
+          "endMs": 43716,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "込み",
+          "startMs": 43726,
+          "endMs": 44036,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "僧侶",
+          "startMs": 44176,
+          "endMs": 44526,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "たち",
+          "startMs": 44536,
+          "endMs": 44756,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "に",
+          "startMs": 44766,
+          "endMs": 44926,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "助け",
+          "startMs": 44946,
+          "endMs": 45236,
+          "charStart": 37,
+          "charEnd": 39
+        },
+        {
+          "text": "を",
+          "startMs": 45246,
+          "endMs": 45346,
+          "charStart": 39,
+          "charEnd": 40
+        },
+        {
+          "text": "求め",
+          "startMs": 45356,
+          "endMs": 45656,
+          "charStart": 40,
+          "charEnd": 42
+        },
+        {
+          "text": "まし",
+          "startMs": 45666,
+          "endMs": 45856,
+          "charStart": 42,
+          "charEnd": 44
+        },
+        {
+          "text": "た",
+          "startMs": 45866,
+          "endMs": 46056,
+          "charStart": 44,
+          "charEnd": 45
+        }
+      ]
+    },
+    {
+      "text": "寺の僧侶たちは大鐘を下ろし、その中に安珍を隠して固く門を閉ざしました。",
+      "startMs": 47004,
+      "endMs": 52908,
+      "words": [
+        {
+          "text": "寺",
+          "startMs": 47154,
+          "endMs": 47294,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "の",
+          "startMs": 47304,
+          "endMs": 47404,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "僧侶",
+          "startMs": 47414,
+          "endMs": 47714,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "たち",
+          "startMs": 47724,
+          "endMs": 47944,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "は",
+          "startMs": 47954,
+          "endMs": 48074,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "大鐘",
+          "startMs": 48094,
+          "endMs": 48494,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "を",
+          "startMs": 48504,
+          "endMs": 48574,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "下ろし",
+          "startMs": 48584,
+          "endMs": 49004,
+          "charStart": 10,
+          "charEnd": 13
+        },
+        {
+          "text": "その",
+          "startMs": 49274,
+          "endMs": 49484,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "中",
+          "startMs": 49494,
+          "endMs": 49674,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "に",
+          "startMs": 49684,
+          "endMs": 49884,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "安珍",
+          "startMs": 49924,
+          "endMs": 50344,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "を",
+          "startMs": 50354,
+          "endMs": 50434,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "隠し",
+          "startMs": 50444,
+          "endMs": 50774,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "て",
+          "startMs": 50784,
+          "endMs": 50894,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "固く",
+          "startMs": 50914,
+          "endMs": 51254,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "門",
+          "startMs": 51264,
+          "endMs": 51414,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "を",
+          "startMs": 51424,
+          "endMs": 51514,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "閉ざし",
+          "startMs": 51524,
+          "endMs": 51844,
+          "charStart": 28,
+          "charEnd": 31
+        },
+        {
+          "text": "まし",
+          "startMs": 51854,
+          "endMs": 52034,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "た",
+          "startMs": 52044,
+          "endMs": 52214,
+          "charStart": 33,
+          "charEnd": 34
+        }
+      ]
+    },
+    {
+      "text": "しかし寺に乱入した大蛇は、安珍の潜む鐘に幾重にも巻きつき、逃げ場を完全に塞いでしまいました。",
+      "startMs": 53158,
+      "endMs": 60262,
+      "words": [
+        {
+          "text": "しかし",
+          "startMs": 53268,
+          "endMs": 53628,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "寺",
+          "startMs": 53648,
+          "endMs": 53828,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "に",
+          "startMs": 53838,
+          "endMs": 53958,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "乱入",
+          "startMs": 53968,
+          "endMs": 54308,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "し",
+          "startMs": 54318,
+          "endMs": 54388,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "た",
+          "startMs": 54398,
+          "endMs": 54478,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "大蛇",
+          "startMs": 54488,
+          "endMs": 54778,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "は",
+          "startMs": 54788,
+          "endMs": 54988,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "安珍",
+          "startMs": 55218,
+          "endMs": 55608,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "の",
+          "startMs": 55618,
+          "endMs": 55688,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "潜む",
+          "startMs": 55698,
+          "endMs": 56028,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "鐘",
+          "startMs": 56038,
+          "endMs": 56228,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "に",
+          "startMs": 56238,
+          "endMs": 56458,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "幾重",
+          "startMs": 56478,
+          "endMs": 56738,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "に",
+          "startMs": 56748,
+          "endMs": 56848,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "も",
+          "startMs": 56858,
+          "endMs": 56948,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "巻きつき",
+          "startMs": 56958,
+          "endMs": 57478,
+          "charStart": 24,
+          "charEnd": 28
+        },
+        {
+          "text": "逃げ",
+          "startMs": 57618,
+          "endMs": 57848,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "場",
+          "startMs": 57858,
+          "endMs": 57938,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "を",
+          "startMs": 57948,
+          "endMs": 58068,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "完全",
+          "startMs": 58078,
+          "endMs": 58448,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "に",
+          "startMs": 58458,
+          "endMs": 58538,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "塞い",
+          "startMs": 58548,
+          "endMs": 58818,
+          "charStart": 36,
+          "charEnd": 38
+        },
+        {
+          "text": "で",
+          "startMs": 58828,
+          "endMs": 58898,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "しまい",
+          "startMs": 58908,
+          "endMs": 59178,
+          "charStart": 39,
+          "charEnd": 42
+        },
+        {
+          "text": "まし",
+          "startMs": 59188,
+          "endMs": 59368,
+          "charStart": 42,
+          "charEnd": 44
+        },
+        {
+          "text": "た",
+          "startMs": 59378,
+          "endMs": 59558,
+          "charStart": 44,
+          "charEnd": 45
+        }
+      ]
+    },
+    {
+      "text": "清姫の口から噴き出した激しい怒りの炎は鐘を真っ赤に焼き尽くし、中にいた安珍を焼き殺してしまいました。",
+      "startMs": 60512,
+      "endMs": 67952,
+      "words": [
+        {
+          "text": "清姫",
+          "startMs": 60652,
+          "endMs": 61042,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "の",
+          "startMs": 61052,
+          "endMs": 61162,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "口",
+          "startMs": 61172,
+          "endMs": 61362,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "から",
+          "startMs": 61372,
+          "endMs": 61532,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "噴き",
+          "startMs": 61542,
+          "endMs": 61722,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "出し",
+          "startMs": 61732,
+          "endMs": 61902,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "た",
+          "startMs": 61912,
+          "endMs": 61992,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "激しい",
+          "startMs": 62002,
+          "endMs": 62462,
+          "charStart": 11,
+          "charEnd": 14
+        },
+        {
+          "text": "怒り",
+          "startMs": 62482,
+          "endMs": 62732,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "の",
+          "startMs": 62742,
+          "endMs": 62822,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "炎",
+          "startMs": 62832,
+          "endMs": 63092,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "は",
+          "startMs": 63102,
+          "endMs": 63312,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "鐘",
+          "startMs": 63412,
+          "endMs": 63642,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "を",
+          "startMs": 63652,
+          "endMs": 63752,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "真っ赤",
+          "startMs": 63762,
+          "endMs": 64022,
+          "charStart": 21,
+          "charEnd": 24
+        },
+        {
+          "text": "に",
+          "startMs": 64032,
+          "endMs": 64142,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "焼き",
+          "startMs": 64152,
+          "endMs": 64352,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "尽くし",
+          "startMs": 64362,
+          "endMs": 64802,
+          "charStart": 27,
+          "charEnd": 30
+        },
+        {
+          "text": "中",
+          "startMs": 64942,
+          "endMs": 65162,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "に",
+          "startMs": 65172,
+          "endMs": 65282,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "い",
+          "startMs": 65292,
+          "endMs": 65382,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "た",
+          "startMs": 65392,
+          "endMs": 65472,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "安珍",
+          "startMs": 65482,
+          "endMs": 65872,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "を",
+          "startMs": 65882,
+          "endMs": 65962,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "焼き",
+          "startMs": 65972,
+          "endMs": 66222,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "殺し",
+          "startMs": 66232,
+          "endMs": 66512,
+          "charStart": 40,
+          "charEnd": 42
+        },
+        {
+          "text": "て",
+          "startMs": 66522,
+          "endMs": 66592,
+          "charStart": 42,
+          "charEnd": 43
+        },
+        {
+          "text": "しまい",
+          "startMs": 66602,
+          "endMs": 66872,
+          "charStart": 43,
+          "charEnd": 46
+        },
+        {
+          "text": "まし",
+          "startMs": 66882,
+          "endMs": 67062,
+          "charStart": 46,
+          "charEnd": 48
+        },
+        {
+          "text": "た",
+          "startMs": 67072,
+          "endMs": 67242,
+          "charStart": 48,
+          "charEnd": 49
+        }
+      ]
+    },
+    {
+      "text": "復讐を遂げた大蛇は川へ身を投げて命を絶ち、抑えがたい愛執の恐ろしさを後世に残しました。",
+      "startMs": 68202,
+      "endMs": 75090,
+      "words": [
+        {
+          "text": "復讐",
+          "startMs": 68312,
+          "endMs": 68712,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "を",
+          "startMs": 68722,
+          "endMs": 68802,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "遂げ",
+          "startMs": 68812,
+          "endMs": 69002,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "た",
+          "startMs": 69012,
+          "endMs": 69112,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "大蛇",
+          "startMs": 69122,
+          "endMs": 69412,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "は",
+          "startMs": 69422,
+          "endMs": 69602,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "川",
+          "startMs": 69672,
+          "endMs": 69872,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "へ",
+          "startMs": 69882,
+          "endMs": 69972,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "身",
+          "startMs": 69982,
+          "endMs": 70102,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "を",
+          "startMs": 70112,
+          "endMs": 70182,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "投げ",
+          "startMs": 70192,
+          "endMs": 70382,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "て",
+          "startMs": 70392,
+          "endMs": 70472,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "命",
+          "startMs": 70482,
+          "endMs": 70832,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "を",
+          "startMs": 70842,
+          "endMs": 70912,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "絶ち",
+          "startMs": 70922,
+          "endMs": 71282,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "抑え",
+          "startMs": 71422,
+          "endMs": 71722,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "がたい",
+          "startMs": 71732,
+          "endMs": 72022,
+          "charStart": 23,
+          "charEnd": 26
+        },
+        {
+          "text": "愛執",
+          "startMs": 72032,
+          "endMs": 72442,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "の",
+          "startMs": 72452,
+          "endMs": 72532,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "恐ろしさ",
+          "startMs": 72542,
+          "endMs": 73032,
+          "charStart": 29,
+          "charEnd": 33
+        },
+        {
+          "text": "を",
+          "startMs": 73042,
+          "endMs": 73202,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "後世",
+          "startMs": 73222,
+          "endMs": 73612,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "に",
+          "startMs": 73622,
+          "endMs": 73702,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "残し",
+          "startMs": 73712,
+          "endMs": 74012,
+          "charStart": 37,
+          "charEnd": 39
+        },
+        {
+          "text": "まし",
+          "startMs": 74022,
+          "endMs": 74202,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "た",
+          "startMs": 74212,
+          "endMs": 74392,
+          "charStart": 41,
+          "charEnd": 42
+        }
+      ]
+    }
+  ]
+}

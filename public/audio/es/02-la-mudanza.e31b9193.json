@@ -1,0 +1,935 @@
+{
+  "version": 3,
+  "lang": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 42042,
+  "sentences": [
+    {
+      "text": "Después de buscar durante varias semanas, Laura encontró un piso luminoso.",
+      "startMs": 0,
+      "endMs": 4104,
+      "words": [
+        {
+          "text": "Después",
+          "startMs": 95,
+          "endMs": 485,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "de",
+          "startMs": 495,
+          "endMs": 555,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "buscar",
+          "startMs": 565,
+          "endMs": 855,
+          "charStart": 11,
+          "charEnd": 17
+        },
+        {
+          "text": "durante",
+          "startMs": 865,
+          "endMs": 1135,
+          "charStart": 18,
+          "charEnd": 25
+        },
+        {
+          "text": "varias",
+          "startMs": 1145,
+          "endMs": 1355,
+          "charStart": 26,
+          "charEnd": 32
+        },
+        {
+          "text": "semanas",
+          "startMs": 1365,
+          "endMs": 1765,
+          "charStart": 33,
+          "charEnd": 40
+        },
+        {
+          "text": "Laura",
+          "startMs": 1965,
+          "endMs": 2175,
+          "charStart": 42,
+          "charEnd": 47
+        },
+        {
+          "text": "encontró",
+          "startMs": 2185,
+          "endMs": 2515,
+          "charStart": 48,
+          "charEnd": 56
+        },
+        {
+          "text": "un",
+          "startMs": 2525,
+          "endMs": 2645,
+          "charStart": 57,
+          "charEnd": 59
+        },
+        {
+          "text": "piso",
+          "startMs": 2655,
+          "endMs": 2855,
+          "charStart": 60,
+          "charEnd": 64
+        },
+        {
+          "text": "luminoso",
+          "startMs": 2865,
+          "endMs": 3415,
+          "charStart": 65,
+          "charEnd": 73
+        }
+      ]
+    },
+    {
+      "text": "El apartamento estaba en el tercer piso de un edificio moderno y tranquilo.",
+      "startMs": 4354,
+      "endMs": 8242,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 4449,
+          "endMs": 4609,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "apartamento",
+          "startMs": 4619,
+          "endMs": 5089,
+          "charStart": 3,
+          "charEnd": 14
+        },
+        {
+          "text": "estaba",
+          "startMs": 5099,
+          "endMs": 5349,
+          "charStart": 15,
+          "charEnd": 21
+        },
+        {
+          "text": "en",
+          "startMs": 5359,
+          "endMs": 5419,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "el",
+          "startMs": 5429,
+          "endMs": 5509,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "tercer",
+          "startMs": 5519,
+          "endMs": 5819,
+          "charStart": 28,
+          "charEnd": 34
+        },
+        {
+          "text": "piso",
+          "startMs": 5829,
+          "endMs": 6039,
+          "charStart": 35,
+          "charEnd": 39
+        },
+        {
+          "text": "de",
+          "startMs": 6049,
+          "endMs": 6139,
+          "charStart": 40,
+          "charEnd": 42
+        },
+        {
+          "text": "un",
+          "startMs": 6149,
+          "endMs": 6239,
+          "charStart": 43,
+          "charEnd": 45
+        },
+        {
+          "text": "edificio",
+          "startMs": 6249,
+          "endMs": 6639,
+          "charStart": 46,
+          "charEnd": 54
+        },
+        {
+          "text": "moderno",
+          "startMs": 6649,
+          "endMs": 6969,
+          "charStart": 55,
+          "charEnd": 62
+        },
+        {
+          "text": "y",
+          "startMs": 6979,
+          "endMs": 7009,
+          "charStart": 63,
+          "charEnd": 64
+        },
+        {
+          "text": "tranquilo",
+          "startMs": 7019,
+          "endMs": 7559,
+          "charStart": 65,
+          "charEnd": 74
+        }
+      ]
+    },
+    {
+      "text": "El sábado por la mañana, sus mejores amigos vinieron a ayudarla con las cajas.",
+      "startMs": 8492,
+      "endMs": 12740,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 8587,
+          "endMs": 8777,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "sábado",
+          "startMs": 8787,
+          "endMs": 9057,
+          "charStart": 3,
+          "charEnd": 9
+        },
+        {
+          "text": "por",
+          "startMs": 9067,
+          "endMs": 9187,
+          "charStart": 10,
+          "charEnd": 13
+        },
+        {
+          "text": "la",
+          "startMs": 9197,
+          "endMs": 9257,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "mañana",
+          "startMs": 9267,
+          "endMs": 9607,
+          "charStart": 17,
+          "charEnd": 23
+        },
+        {
+          "text": "sus",
+          "startMs": 9797,
+          "endMs": 9927,
+          "charStart": 25,
+          "charEnd": 28
+        },
+        {
+          "text": "mejores",
+          "startMs": 9937,
+          "endMs": 10277,
+          "charStart": 29,
+          "charEnd": 36
+        },
+        {
+          "text": "amigos",
+          "startMs": 10287,
+          "endMs": 10577,
+          "charStart": 37,
+          "charEnd": 43
+        },
+        {
+          "text": "vinieron",
+          "startMs": 10587,
+          "endMs": 10877,
+          "charStart": 44,
+          "charEnd": 52
+        },
+        {
+          "text": "a",
+          "startMs": 10887,
+          "endMs": 10907,
+          "charStart": 53,
+          "charEnd": 54
+        },
+        {
+          "text": "ayudarla",
+          "startMs": 10917,
+          "endMs": 11287,
+          "charStart": 55,
+          "charEnd": 63
+        },
+        {
+          "text": "con",
+          "startMs": 11297,
+          "endMs": 11407,
+          "charStart": 64,
+          "charEnd": 67
+        },
+        {
+          "text": "las",
+          "startMs": 11417,
+          "endMs": 11537,
+          "charStart": 68,
+          "charEnd": 71
+        },
+        {
+          "text": "cajas",
+          "startMs": 11547,
+          "endMs": 12057,
+          "charStart": 72,
+          "charEnd": 77
+        }
+      ]
+    },
+    {
+      "text": "Ellos cargaron los muebles pesados en una furgoneta blanca muy espaciosa.",
+      "startMs": 12990,
+      "endMs": 16974,
+      "words": [
+        {
+          "text": "Ellos",
+          "startMs": 13085,
+          "endMs": 13355,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "cargaron",
+          "startMs": 13365,
+          "endMs": 13685,
+          "charStart": 6,
+          "charEnd": 14
+        },
+        {
+          "text": "los",
+          "startMs": 13695,
+          "endMs": 13825,
+          "charStart": 15,
+          "charEnd": 18
+        },
+        {
+          "text": "muebles",
+          "startMs": 13835,
+          "endMs": 14105,
+          "charStart": 19,
+          "charEnd": 26
+        },
+        {
+          "text": "pesados",
+          "startMs": 14115,
+          "endMs": 14515,
+          "charStart": 27,
+          "charEnd": 34
+        },
+        {
+          "text": "en",
+          "startMs": 14525,
+          "endMs": 14595,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "una",
+          "startMs": 14605,
+          "endMs": 14735,
+          "charStart": 38,
+          "charEnd": 41
+        },
+        {
+          "text": "furgoneta",
+          "startMs": 14745,
+          "endMs": 15175,
+          "charStart": 42,
+          "charEnd": 51
+        },
+        {
+          "text": "blanca",
+          "startMs": 15185,
+          "endMs": 15475,
+          "charStart": 52,
+          "charEnd": 58
+        },
+        {
+          "text": "muy",
+          "startMs": 15485,
+          "endMs": 15625,
+          "charStart": 59,
+          "charEnd": 62
+        },
+        {
+          "text": "espaciosa",
+          "startMs": 15635,
+          "endMs": 16285,
+          "charStart": 63,
+          "charEnd": 72
+        }
+      ]
+    },
+    {
+      "text": "El viaje hasta el nuevo barrio duró solamente media hora sin tráfico.",
+      "startMs": 17224,
+      "endMs": 20944,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 17319,
+          "endMs": 17489,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "viaje",
+          "startMs": 17499,
+          "endMs": 17769,
+          "charStart": 3,
+          "charEnd": 8
+        },
+        {
+          "text": "hasta",
+          "startMs": 17779,
+          "endMs": 17939,
+          "charStart": 9,
+          "charEnd": 14
+        },
+        {
+          "text": "el",
+          "startMs": 17949,
+          "endMs": 17999,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "nuevo",
+          "startMs": 18009,
+          "endMs": 18209,
+          "charStart": 18,
+          "charEnd": 23
+        },
+        {
+          "text": "barrio",
+          "startMs": 18219,
+          "endMs": 18499,
+          "charStart": 24,
+          "charEnd": 30
+        },
+        {
+          "text": "duró",
+          "startMs": 18509,
+          "endMs": 18689,
+          "charStart": 31,
+          "charEnd": 35
+        },
+        {
+          "text": "solamente",
+          "startMs": 18699,
+          "endMs": 19139,
+          "charStart": 36,
+          "charEnd": 45
+        },
+        {
+          "text": "media",
+          "startMs": 19149,
+          "endMs": 19409,
+          "charStart": 46,
+          "charEnd": 51
+        },
+        {
+          "text": "hora",
+          "startMs": 19419,
+          "endMs": 19569,
+          "charStart": 52,
+          "charEnd": 56
+        },
+        {
+          "text": "sin",
+          "startMs": 19579,
+          "endMs": 19739,
+          "charStart": 57,
+          "charEnd": 60
+        },
+        {
+          "text": "tráfico",
+          "startMs": 19749,
+          "endMs": 20259,
+          "charStart": 61,
+          "charEnd": 68
+        }
+      ]
+    },
+    {
+      "text": "Primero, subieron la mesa del comedor y las sillas de madera clara.",
+      "startMs": 21194,
+      "endMs": 24842,
+      "words": [
+        {
+          "text": "Primero",
+          "startMs": 21294,
+          "endMs": 21734,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "subieron",
+          "startMs": 21934,
+          "endMs": 22254,
+          "charStart": 9,
+          "charEnd": 17
+        },
+        {
+          "text": "la",
+          "startMs": 22264,
+          "endMs": 22344,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "mesa",
+          "startMs": 22354,
+          "endMs": 22574,
+          "charStart": 21,
+          "charEnd": 25
+        },
+        {
+          "text": "del",
+          "startMs": 22584,
+          "endMs": 22694,
+          "charStart": 26,
+          "charEnd": 29
+        },
+        {
+          "text": "comedor",
+          "startMs": 22704,
+          "endMs": 23034,
+          "charStart": 30,
+          "charEnd": 37
+        },
+        {
+          "text": "y",
+          "startMs": 23044,
+          "endMs": 23064,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "las",
+          "startMs": 23074,
+          "endMs": 23204,
+          "charStart": 40,
+          "charEnd": 43
+        },
+        {
+          "text": "sillas",
+          "startMs": 23214,
+          "endMs": 23444,
+          "charStart": 44,
+          "charEnd": 50
+        },
+        {
+          "text": "de",
+          "startMs": 23454,
+          "endMs": 23514,
+          "charStart": 51,
+          "charEnd": 53
+        },
+        {
+          "text": "madera",
+          "startMs": 23524,
+          "endMs": 23764,
+          "charStart": 54,
+          "charEnd": 60
+        },
+        {
+          "text": "clara",
+          "startMs": 23774,
+          "endMs": 24164,
+          "charStart": 61,
+          "charEnd": 66
+        }
+      ]
+    },
+    {
+      "text": "Luego, colocaron la cama grande y el armario en el dormitorio principal.",
+      "startMs": 25092,
+      "endMs": 29052,
+      "words": [
+        {
+          "text": "Luego",
+          "startMs": 25187,
+          "endMs": 25557,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "colocaron",
+          "startMs": 25737,
+          "endMs": 26127,
+          "charStart": 7,
+          "charEnd": 16
+        },
+        {
+          "text": "la",
+          "startMs": 26137,
+          "endMs": 26207,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "cama",
+          "startMs": 26217,
+          "endMs": 26427,
+          "charStart": 20,
+          "charEnd": 24
+        },
+        {
+          "text": "grande",
+          "startMs": 26437,
+          "endMs": 26707,
+          "charStart": 25,
+          "charEnd": 31
+        },
+        {
+          "text": "y",
+          "startMs": 26717,
+          "endMs": 26777,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "el",
+          "startMs": 26787,
+          "endMs": 26867,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "armario",
+          "startMs": 26877,
+          "endMs": 27217,
+          "charStart": 37,
+          "charEnd": 44
+        },
+        {
+          "text": "en",
+          "startMs": 27227,
+          "endMs": 27297,
+          "charStart": 45,
+          "charEnd": 47
+        },
+        {
+          "text": "el",
+          "startMs": 27307,
+          "endMs": 27387,
+          "charStart": 48,
+          "charEnd": 50
+        },
+        {
+          "text": "dormitorio",
+          "startMs": 27397,
+          "endMs": 27777,
+          "charStart": 51,
+          "charEnd": 61
+        },
+        {
+          "text": "principal",
+          "startMs": 27787,
+          "endMs": 28357,
+          "charStart": 62,
+          "charEnd": 71
+        }
+      ]
+    },
+    {
+      "text": "A las tres de la tarde, Laura pidió dos pizzas grandes para todos.",
+      "startMs": 29302,
+      "endMs": 33070,
+      "words": [
+        {
+          "text": "A",
+          "startMs": 29397,
+          "endMs": 29507,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "las",
+          "startMs": 29517,
+          "endMs": 29657,
+          "charStart": 2,
+          "charEnd": 5
+        },
+        {
+          "text": "tres",
+          "startMs": 29667,
+          "endMs": 29827,
+          "charStart": 6,
+          "charEnd": 10
+        },
+        {
+          "text": "de",
+          "startMs": 29837,
+          "endMs": 29877,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "la",
+          "startMs": 29887,
+          "endMs": 29967,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "tarde",
+          "startMs": 29977,
+          "endMs": 30287,
+          "charStart": 17,
+          "charEnd": 22
+        },
+        {
+          "text": "Laura",
+          "startMs": 30547,
+          "endMs": 30757,
+          "charStart": 24,
+          "charEnd": 29
+        },
+        {
+          "text": "pidió",
+          "startMs": 30767,
+          "endMs": 30987,
+          "charStart": 30,
+          "charEnd": 35
+        },
+        {
+          "text": "dos",
+          "startMs": 30997,
+          "endMs": 31167,
+          "charStart": 36,
+          "charEnd": 39
+        },
+        {
+          "text": "pizzas",
+          "startMs": 31177,
+          "endMs": 31467,
+          "charStart": 40,
+          "charEnd": 46
+        },
+        {
+          "text": "grandes",
+          "startMs": 31477,
+          "endMs": 31787,
+          "charStart": 47,
+          "charEnd": 54
+        },
+        {
+          "text": "para",
+          "startMs": 31797,
+          "endMs": 31947,
+          "charStart": 55,
+          "charEnd": 59
+        },
+        {
+          "text": "todos",
+          "startMs": 31957,
+          "endMs": 32377,
+          "charStart": 60,
+          "charEnd": 65
+        }
+      ]
+    },
+    {
+      "text": "Sus amigos comieron con apetito mientras escuchaban canciones alegres en la radio.",
+      "startMs": 33320,
+      "endMs": 37544,
+      "words": [
+        {
+          "text": "Sus",
+          "startMs": 33415,
+          "endMs": 33665,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "amigos",
+          "startMs": 33675,
+          "endMs": 33955,
+          "charStart": 4,
+          "charEnd": 10
+        },
+        {
+          "text": "comieron",
+          "startMs": 33965,
+          "endMs": 34275,
+          "charStart": 11,
+          "charEnd": 19
+        },
+        {
+          "text": "con",
+          "startMs": 34285,
+          "endMs": 34395,
+          "charStart": 20,
+          "charEnd": 23
+        },
+        {
+          "text": "apetito",
+          "startMs": 34405,
+          "endMs": 34765,
+          "charStart": 24,
+          "charEnd": 31
+        },
+        {
+          "text": "mientras",
+          "startMs": 34775,
+          "endMs": 35055,
+          "charStart": 32,
+          "charEnd": 40
+        },
+        {
+          "text": "escuchaban",
+          "startMs": 35065,
+          "endMs": 35505,
+          "charStart": 41,
+          "charEnd": 51
+        },
+        {
+          "text": "canciones",
+          "startMs": 35515,
+          "endMs": 35915,
+          "charStart": 52,
+          "charEnd": 61
+        },
+        {
+          "text": "alegres",
+          "startMs": 35925,
+          "endMs": 36245,
+          "charStart": 62,
+          "charEnd": 69
+        },
+        {
+          "text": "en",
+          "startMs": 36255,
+          "endMs": 36305,
+          "charStart": 70,
+          "charEnd": 72
+        },
+        {
+          "text": "la",
+          "startMs": 36315,
+          "endMs": 36385,
+          "charStart": 73,
+          "charEnd": 75
+        },
+        {
+          "text": "radio",
+          "startMs": 36395,
+          "endMs": 36845,
+          "charStart": 76,
+          "charEnd": 81
+        }
+      ]
+    },
+    {
+      "text": "Finalmente, Laura les agradeció su gran ayuda con un fuerte abrazo sincero.",
+      "startMs": 37794,
+      "endMs": 42042,
+      "words": [
+        {
+          "text": "Finalmente",
+          "startMs": 37894,
+          "endMs": 38544,
+          "charStart": 0,
+          "charEnd": 10
+        },
+        {
+          "text": "Laura",
+          "startMs": 38784,
+          "endMs": 38964,
+          "charStart": 12,
+          "charEnd": 17
+        },
+        {
+          "text": "les",
+          "startMs": 38974,
+          "endMs": 39104,
+          "charStart": 18,
+          "charEnd": 21
+        },
+        {
+          "text": "agradeció",
+          "startMs": 39114,
+          "endMs": 39504,
+          "charStart": 22,
+          "charEnd": 31
+        },
+        {
+          "text": "su",
+          "startMs": 39514,
+          "endMs": 39624,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "gran",
+          "startMs": 39634,
+          "endMs": 39774,
+          "charStart": 35,
+          "charEnd": 39
+        },
+        {
+          "text": "ayuda",
+          "startMs": 39784,
+          "endMs": 40064,
+          "charStart": 40,
+          "charEnd": 45
+        },
+        {
+          "text": "con",
+          "startMs": 40074,
+          "endMs": 40204,
+          "charStart": 46,
+          "charEnd": 49
+        },
+        {
+          "text": "un",
+          "startMs": 40214,
+          "endMs": 40314,
+          "charStart": 50,
+          "charEnd": 52
+        },
+        {
+          "text": "fuerte",
+          "startMs": 40324,
+          "endMs": 40564,
+          "charStart": 53,
+          "charEnd": 59
+        },
+        {
+          "text": "abrazo",
+          "startMs": 40574,
+          "endMs": 40824,
+          "charStart": 60,
+          "charEnd": 66
+        },
+        {
+          "text": "sincero",
+          "startMs": 40834,
+          "endMs": 41354,
+          "charStart": 67,
+          "charEnd": 74
+        }
+      ]
+    }
+  ]
+}

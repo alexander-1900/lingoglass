@@ -1,0 +1,1978 @@
+{
+  "version": 3,
+  "lang": "ja",
+  "voice": "ja-JP-NanamiNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 74154,
+  "sentences": [
+    {
+      "text": "昔、ある老夫婦が指の大きさほどしかない小さな男の子を授かり、「一寸法師」と名付けて大切に育てました。",
+      "startMs": 0,
+      "endMs": 8088,
+      "words": [
+        {
+          "text": "昔",
+          "startMs": 110,
+          "endMs": 510,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "ある",
+          "startMs": 770,
+          "endMs": 990,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "老夫婦",
+          "startMs": 1000,
+          "endMs": 1440,
+          "charStart": 4,
+          "charEnd": 7
+        },
+        {
+          "text": "が",
+          "startMs": 1450,
+          "endMs": 1530,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "指",
+          "startMs": 1550,
+          "endMs": 1810,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "の",
+          "startMs": 1820,
+          "endMs": 1910,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "大きさ",
+          "startMs": 1920,
+          "endMs": 2280,
+          "charStart": 10,
+          "charEnd": 13
+        },
+        {
+          "text": "ほど",
+          "startMs": 2290,
+          "endMs": 2490,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "しか",
+          "startMs": 2500,
+          "endMs": 2700,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "ない",
+          "startMs": 2710,
+          "endMs": 2910,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "小さな",
+          "startMs": 2920,
+          "endMs": 3330,
+          "charStart": 19,
+          "charEnd": 22
+        },
+        {
+          "text": "男",
+          "startMs": 3340,
+          "endMs": 3630,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "の",
+          "startMs": 3640,
+          "endMs": 3740,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "子",
+          "startMs": 3750,
+          "endMs": 3840,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "を",
+          "startMs": 3850,
+          "endMs": 3920,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "授かり",
+          "startMs": 3930,
+          "endMs": 4440,
+          "charStart": 26,
+          "charEnd": 29
+        },
+        {
+          "text": "一寸法師",
+          "startMs": 4680,
+          "endMs": 5460,
+          "charStart": 31,
+          "charEnd": 35
+        },
+        {
+          "text": "と",
+          "startMs": 5600,
+          "endMs": 5690,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "名付け",
+          "startMs": 5700,
+          "endMs": 6020,
+          "charStart": 37,
+          "charEnd": 40
+        },
+        {
+          "text": "て",
+          "startMs": 6030,
+          "endMs": 6170,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "大切",
+          "startMs": 6190,
+          "endMs": 6580,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "に",
+          "startMs": 6590,
+          "endMs": 6690,
+          "charStart": 43,
+          "charEnd": 44
+        },
+        {
+          "text": "育て",
+          "startMs": 6700,
+          "endMs": 7010,
+          "charStart": 44,
+          "charEnd": 46
+        },
+        {
+          "text": "まし",
+          "startMs": 7020,
+          "endMs": 7210,
+          "charStart": 46,
+          "charEnd": 48
+        },
+        {
+          "text": "た",
+          "startMs": 7220,
+          "endMs": 7380,
+          "charStart": 48,
+          "charEnd": 49
+        }
+      ]
+    },
+    {
+      "text": "一寸法師は体が小さいままでしたが、都へ行って立派な侍になりたいという強い志を抱いていました。",
+      "startMs": 8338,
+      "endMs": 15826,
+      "words": [
+        {
+          "text": "一寸法師",
+          "startMs": 8478,
+          "endMs": 9128,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "は",
+          "startMs": 9138,
+          "endMs": 9328,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "体",
+          "startMs": 9398,
+          "endMs": 9718,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "が",
+          "startMs": 9728,
+          "endMs": 9818,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "小さい",
+          "startMs": 9828,
+          "endMs": 10248,
+          "charStart": 7,
+          "charEnd": 10
+        },
+        {
+          "text": "まま",
+          "startMs": 10258,
+          "endMs": 10438,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "でし",
+          "startMs": 10448,
+          "endMs": 10618,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "た",
+          "startMs": 10628,
+          "endMs": 10698,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "が",
+          "startMs": 10708,
+          "endMs": 10928,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "都",
+          "startMs": 11068,
+          "endMs": 11378,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "へ",
+          "startMs": 11388,
+          "endMs": 11488,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "行っ",
+          "startMs": 11498,
+          "endMs": 11658,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "て",
+          "startMs": 11668,
+          "endMs": 11788,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "立派",
+          "startMs": 11808,
+          "endMs": 12088,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "な",
+          "startMs": 12098,
+          "endMs": 12198,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "侍",
+          "startMs": 12208,
+          "endMs": 12578,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "に",
+          "startMs": 12588,
+          "endMs": 12668,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "なり",
+          "startMs": 12678,
+          "endMs": 12858,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "たい",
+          "startMs": 12868,
+          "endMs": 13018,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "と",
+          "startMs": 13028,
+          "endMs": 13088,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "いう",
+          "startMs": 13098,
+          "endMs": 13348,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "強い",
+          "startMs": 13358,
+          "endMs": 13698,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "志",
+          "startMs": 13708,
+          "endMs": 14218,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "を",
+          "startMs": 14228,
+          "endMs": 14308,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "抱い",
+          "startMs": 14318,
+          "endMs": 14588,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "て",
+          "startMs": 14598,
+          "endMs": 14648,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "いま",
+          "startMs": 14658,
+          "endMs": 14838,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "し",
+          "startMs": 14848,
+          "endMs": 14938,
+          "charStart": 43,
+          "charEnd": 44
+        },
+        {
+          "text": "た",
+          "startMs": 14948,
+          "endMs": 15128,
+          "charStart": 44,
+          "charEnd": 45
+        }
+      ]
+    },
+    {
+      "text": "針の刀を腰に差し、お椀の舟に乗りながら、箸を櫂代わりにして川を上って都を目指しました。",
+      "startMs": 16076,
+      "endMs": 22988,
+      "words": [
+        {
+          "text": "針",
+          "startMs": 16186,
+          "endMs": 16376,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "の",
+          "startMs": 16386,
+          "endMs": 16486,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "刀",
+          "startMs": 16496,
+          "endMs": 16786,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "を",
+          "startMs": 16796,
+          "endMs": 16896,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "腰",
+          "startMs": 16906,
+          "endMs": 17136,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "に",
+          "startMs": 17146,
+          "endMs": 17226,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "差し",
+          "startMs": 17236,
+          "endMs": 17556,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "お",
+          "startMs": 17806,
+          "endMs": 17886,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "椀",
+          "startMs": 17896,
+          "endMs": 18066,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "の",
+          "startMs": 18076,
+          "endMs": 18156,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "舟",
+          "startMs": 18166,
+          "endMs": 18366,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "に",
+          "startMs": 18376,
+          "endMs": 18486,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "乗り",
+          "startMs": 18496,
+          "endMs": 18676,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "ながら",
+          "startMs": 18686,
+          "endMs": 19056,
+          "charStart": 16,
+          "charEnd": 19
+        },
+        {
+          "text": "箸",
+          "startMs": 19196,
+          "endMs": 19456,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "を",
+          "startMs": 19466,
+          "endMs": 19576,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "櫂代わり",
+          "startMs": 19586,
+          "endMs": 20066,
+          "charStart": 22,
+          "charEnd": 26
+        },
+        {
+          "text": "に",
+          "startMs": 20076,
+          "endMs": 20176,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "し",
+          "startMs": 20186,
+          "endMs": 20266,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "て",
+          "startMs": 20276,
+          "endMs": 20416,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "川",
+          "startMs": 20506,
+          "endMs": 20706,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "を",
+          "startMs": 20716,
+          "endMs": 20816,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "上っ",
+          "startMs": 20826,
+          "endMs": 21096,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "て",
+          "startMs": 21106,
+          "endMs": 21186,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "都",
+          "startMs": 21196,
+          "endMs": 21496,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "を",
+          "startMs": 21506,
+          "endMs": 21586,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "目指し",
+          "startMs": 21596,
+          "endMs": 21896,
+          "charStart": 36,
+          "charEnd": 39
+        },
+        {
+          "text": "まし",
+          "startMs": 21906,
+          "endMs": 22086,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "た",
+          "startMs": 22096,
+          "endMs": 22276,
+          "charStart": 41,
+          "charEnd": 42
+        }
+      ]
+    },
+    {
+      "text": "都に到着した彼は、高名な大臣の屋敷に奉公することを許され、その聡明さによって姫君に気に入られました。",
+      "startMs": 23238,
+      "endMs": 31470,
+      "words": [
+        {
+          "text": "都",
+          "startMs": 23348,
+          "endMs": 23668,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "に",
+          "startMs": 23678,
+          "endMs": 23808,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "到着",
+          "startMs": 23818,
+          "endMs": 24208,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "し",
+          "startMs": 24218,
+          "endMs": 24298,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "た",
+          "startMs": 24308,
+          "endMs": 24388,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "彼",
+          "startMs": 24398,
+          "endMs": 24598,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "は",
+          "startMs": 24608,
+          "endMs": 24798,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "高名",
+          "startMs": 25048,
+          "endMs": 25418,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "な",
+          "startMs": 25428,
+          "endMs": 25518,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "大臣",
+          "startMs": 25528,
+          "endMs": 25878,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "の",
+          "startMs": 25888,
+          "endMs": 25968,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "屋敷",
+          "startMs": 25978,
+          "endMs": 26288,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "に",
+          "startMs": 26298,
+          "endMs": 26388,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "奉公",
+          "startMs": 26398,
+          "endMs": 26798,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "する",
+          "startMs": 26808,
+          "endMs": 27008,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "こと",
+          "startMs": 27018,
+          "endMs": 27208,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "を",
+          "startMs": 27218,
+          "endMs": 27288,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "許さ",
+          "startMs": 27298,
+          "endMs": 27628,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "れ",
+          "startMs": 27638,
+          "endMs": 27798,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "その",
+          "startMs": 27938,
+          "endMs": 28198,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "聡明",
+          "startMs": 28208,
+          "endMs": 28608,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "さ",
+          "startMs": 28618,
+          "endMs": 28718,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "に",
+          "startMs": 28728,
+          "endMs": 28828,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "よっ",
+          "startMs": 28838,
+          "endMs": 28998,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "て",
+          "startMs": 29008,
+          "endMs": 29218,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "姫君",
+          "startMs": 29298,
+          "endMs": 29738,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "に",
+          "startMs": 29748,
+          "endMs": 29898,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "気",
+          "startMs": 29908,
+          "endMs": 30028,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "に入ら",
+          "startMs": 30038,
+          "endMs": 30298,
+          "charStart": 42,
+          "charEnd": 45
+        },
+        {
+          "text": "れ",
+          "startMs": 30308,
+          "endMs": 30378,
+          "charStart": 45,
+          "charEnd": 46
+        },
+        {
+          "text": "まし",
+          "startMs": 30388,
+          "endMs": 30578,
+          "charStart": 46,
+          "charEnd": 48
+        },
+        {
+          "text": "た",
+          "startMs": 30588,
+          "endMs": 30758,
+          "charStart": 48,
+          "charEnd": 49
+        }
+      ]
+    },
+    {
+      "text": "ある日、姫のお供をして寺へ参詣に出かけた際、恐ろしい二匹の鬼が突然現れました。",
+      "startMs": 31720,
+      "endMs": 38080,
+      "words": [
+        {
+          "text": "ある",
+          "startMs": 31870,
+          "endMs": 32000,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "日",
+          "startMs": 32010,
+          "endMs": 32210,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "姫",
+          "startMs": 32470,
+          "endMs": 32690,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "の",
+          "startMs": 32700,
+          "endMs": 32790,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "お供",
+          "startMs": 32800,
+          "endMs": 33060,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "を",
+          "startMs": 33070,
+          "endMs": 33140,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "し",
+          "startMs": 33150,
+          "endMs": 33240,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "て",
+          "startMs": 33250,
+          "endMs": 33360,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "寺",
+          "startMs": 33370,
+          "endMs": 33560,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "へ",
+          "startMs": 33570,
+          "endMs": 33680,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "参詣",
+          "startMs": 33690,
+          "endMs": 34090,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "に",
+          "startMs": 34100,
+          "endMs": 34190,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "出かけ",
+          "startMs": 34200,
+          "endMs": 34480,
+          "charStart": 16,
+          "charEnd": 19
+        },
+        {
+          "text": "た",
+          "startMs": 34490,
+          "endMs": 34580,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "際",
+          "startMs": 34590,
+          "endMs": 34880,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "恐ろしい",
+          "startMs": 35050,
+          "endMs": 35540,
+          "charStart": 22,
+          "charEnd": 26
+        },
+        {
+          "text": "二匹",
+          "startMs": 35550,
+          "endMs": 35850,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "の",
+          "startMs": 35860,
+          "endMs": 35940,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "鬼",
+          "startMs": 35950,
+          "endMs": 36130,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "が",
+          "startMs": 36140,
+          "endMs": 36240,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "突然",
+          "startMs": 36250,
+          "endMs": 36610,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "現れ",
+          "startMs": 36620,
+          "endMs": 36980,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "まし",
+          "startMs": 36990,
+          "endMs": 37190,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "た",
+          "startMs": 37200,
+          "endMs": 37370,
+          "charStart": 37,
+          "charEnd": 38
+        }
+      ]
+    },
+    {
+      "text": "姫を守るために果敢に立ち向かった一寸法師でしたが、巨大な鬼に呆気なく飲み込まれてしまいました。",
+      "startMs": 38330,
+      "endMs": 44810,
+      "words": [
+        {
+          "text": "姫",
+          "startMs": 38440,
+          "endMs": 38660,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "を",
+          "startMs": 38670,
+          "endMs": 38750,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "守る",
+          "startMs": 38760,
+          "endMs": 39040,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "ため",
+          "startMs": 39050,
+          "endMs": 39230,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "に",
+          "startMs": 39240,
+          "endMs": 39400,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "果敢",
+          "startMs": 39440,
+          "endMs": 39710,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "に",
+          "startMs": 39720,
+          "endMs": 39820,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "立ち向かっ",
+          "startMs": 39830,
+          "endMs": 40260,
+          "charStart": 10,
+          "charEnd": 15
+        },
+        {
+          "text": "た",
+          "startMs": 40270,
+          "endMs": 40390,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "一寸法師",
+          "startMs": 40410,
+          "endMs": 41050,
+          "charStart": 16,
+          "charEnd": 20
+        },
+        {
+          "text": "でし",
+          "startMs": 41060,
+          "endMs": 41220,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "た",
+          "startMs": 41230,
+          "endMs": 41300,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "が",
+          "startMs": 41310,
+          "endMs": 41520,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "巨大",
+          "startMs": 41690,
+          "endMs": 41950,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "な",
+          "startMs": 41960,
+          "endMs": 42040,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "鬼",
+          "startMs": 42050,
+          "endMs": 42260,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "に",
+          "startMs": 42270,
+          "endMs": 42380,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "呆気なく",
+          "startMs": 42390,
+          "endMs": 42880,
+          "charStart": 30,
+          "charEnd": 34
+        },
+        {
+          "text": "飲み込ま",
+          "startMs": 42890,
+          "endMs": 43260,
+          "charStart": 34,
+          "charEnd": 38
+        },
+        {
+          "text": "れ",
+          "startMs": 43270,
+          "endMs": 43350,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "て",
+          "startMs": 43360,
+          "endMs": 43450,
+          "charStart": 39,
+          "charEnd": 40
+        },
+        {
+          "text": "しまい",
+          "startMs": 43460,
+          "endMs": 43720,
+          "charStart": 40,
+          "charEnd": 43
+        },
+        {
+          "text": "まし",
+          "startMs": 43730,
+          "endMs": 43910,
+          "charStart": 43,
+          "charEnd": 45
+        },
+        {
+          "text": "た",
+          "startMs": 43920,
+          "endMs": 44100,
+          "charStart": 45,
+          "charEnd": 46
+        }
+      ]
+    },
+    {
+      "text": "しかし彼は決して怯むことなく、鬼の腹の中を針の刀で激しく突き刺して苦しめました。",
+      "startMs": 45060,
+      "endMs": 51612,
+      "words": [
+        {
+          "text": "しかし",
+          "startMs": 45170,
+          "endMs": 45550,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "彼",
+          "startMs": 45570,
+          "endMs": 45770,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "は",
+          "startMs": 45780,
+          "endMs": 45900,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "決し",
+          "startMs": 45910,
+          "endMs": 46200,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "て",
+          "startMs": 46210,
+          "endMs": 46280,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "怯む",
+          "startMs": 46290,
+          "endMs": 46640,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "こと",
+          "startMs": 46650,
+          "endMs": 46840,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "なく",
+          "startMs": 46850,
+          "endMs": 47190,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "鬼",
+          "startMs": 47360,
+          "endMs": 47540,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "の",
+          "startMs": 47550,
+          "endMs": 47630,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "腹",
+          "startMs": 47640,
+          "endMs": 47840,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "の",
+          "startMs": 47850,
+          "endMs": 47940,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "中",
+          "startMs": 47950,
+          "endMs": 48150,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "を",
+          "startMs": 48160,
+          "endMs": 48320,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "針",
+          "startMs": 48340,
+          "endMs": 48570,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "の",
+          "startMs": 48580,
+          "endMs": 48670,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "刀",
+          "startMs": 48680,
+          "endMs": 48980,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "で",
+          "startMs": 48990,
+          "endMs": 49150,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "激しく",
+          "startMs": 49210,
+          "endMs": 49640,
+          "charStart": 25,
+          "charEnd": 28
+        },
+        {
+          "text": "突き刺し",
+          "startMs": 49650,
+          "endMs": 50040,
+          "charStart": 28,
+          "charEnd": 32
+        },
+        {
+          "text": "て",
+          "startMs": 50050,
+          "endMs": 50130,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "苦しめ",
+          "startMs": 50140,
+          "endMs": 50540,
+          "charStart": 33,
+          "charEnd": 36
+        },
+        {
+          "text": "まし",
+          "startMs": 50550,
+          "endMs": 50740,
+          "charStart": 36,
+          "charEnd": 38
+        },
+        {
+          "text": "た",
+          "startMs": 50750,
+          "endMs": 50920,
+          "charStart": 38,
+          "charEnd": 39
+        }
+      ]
+    },
+    {
+      "text": "たまらず悲鳴を上げて一寸法師を吐き出した鬼たちは、大切な宝物を放り出して山へ逃げ去っていきました。",
+      "startMs": 51862,
+      "endMs": 58894,
+      "words": [
+        {
+          "text": "たまらず",
+          "startMs": 51972,
+          "endMs": 52362,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "悲鳴",
+          "startMs": 52372,
+          "endMs": 52692,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "を",
+          "startMs": 52702,
+          "endMs": 52782,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "上げ",
+          "startMs": 52792,
+          "endMs": 52992,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "て",
+          "startMs": 53002,
+          "endMs": 53122,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "一寸法師",
+          "startMs": 53132,
+          "endMs": 53812,
+          "charStart": 10,
+          "charEnd": 14
+        },
+        {
+          "text": "を",
+          "startMs": 53822,
+          "endMs": 53902,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "吐き出し",
+          "startMs": 53912,
+          "endMs": 54332,
+          "charStart": 15,
+          "charEnd": 19
+        },
+        {
+          "text": "た",
+          "startMs": 54342,
+          "endMs": 54412,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "鬼",
+          "startMs": 54422,
+          "endMs": 54632,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "たち",
+          "startMs": 54642,
+          "endMs": 54842,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "は",
+          "startMs": 54852,
+          "endMs": 55042,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "大切",
+          "startMs": 55182,
+          "endMs": 55572,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "な",
+          "startMs": 55582,
+          "endMs": 55672,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "宝物",
+          "startMs": 55682,
+          "endMs": 56162,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "を",
+          "startMs": 56172,
+          "endMs": 56232,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "放り出し",
+          "startMs": 56242,
+          "endMs": 56702,
+          "charStart": 31,
+          "charEnd": 35
+        },
+        {
+          "text": "て",
+          "startMs": 56712,
+          "endMs": 56772,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "山",
+          "startMs": 56782,
+          "endMs": 56992,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "へ",
+          "startMs": 57002,
+          "endMs": 57102,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "逃げ",
+          "startMs": 57112,
+          "endMs": 57332,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "去っ",
+          "startMs": 57342,
+          "endMs": 57532,
+          "charStart": 40,
+          "charEnd": 42
+        },
+        {
+          "text": "て",
+          "startMs": 57542,
+          "endMs": 57602,
+          "charStart": 42,
+          "charEnd": 43
+        },
+        {
+          "text": "いき",
+          "startMs": 57612,
+          "endMs": 57802,
+          "charStart": 43,
+          "charEnd": 45
+        },
+        {
+          "text": "まし",
+          "startMs": 57812,
+          "endMs": 57992,
+          "charStart": 45,
+          "charEnd": 47
+        },
+        {
+          "text": "た",
+          "startMs": 58002,
+          "endMs": 58182,
+          "charStart": 47,
+          "charEnd": 48
+        }
+      ]
+    },
+    {
+      "text": "残された「打出の小槌」を姫が一寸法師のために振ると、彼の体は瞬く間に立派な若武者の姿へと成長しました。",
+      "startMs": 59144,
+      "endMs": 67376,
+      "words": [
+        {
+          "text": "残さ",
+          "startMs": 59254,
+          "endMs": 59574,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "れ",
+          "startMs": 59584,
+          "endMs": 59664,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "た",
+          "startMs": 59674,
+          "endMs": 59784,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "打出",
+          "startMs": 59904,
+          "endMs": 60324,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "の",
+          "startMs": 60334,
+          "endMs": 60434,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "小槌",
+          "startMs": 60444,
+          "endMs": 60764,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "を",
+          "startMs": 60784,
+          "endMs": 60874,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "姫",
+          "startMs": 60894,
+          "endMs": 61124,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "が",
+          "startMs": 61134,
+          "endMs": 61244,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "一寸法師",
+          "startMs": 61254,
+          "endMs": 61894,
+          "charStart": 14,
+          "charEnd": 18
+        },
+        {
+          "text": "の",
+          "startMs": 61904,
+          "endMs": 61994,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "ため",
+          "startMs": 62004,
+          "endMs": 62184,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "に",
+          "startMs": 62194,
+          "endMs": 62294,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "振る",
+          "startMs": 62304,
+          "endMs": 62514,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "と",
+          "startMs": 62524,
+          "endMs": 62734,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "彼",
+          "startMs": 62904,
+          "endMs": 63064,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "の",
+          "startMs": 63074,
+          "endMs": 63184,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "体",
+          "startMs": 63194,
+          "endMs": 63484,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "は",
+          "startMs": 63494,
+          "endMs": 63654,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "瞬く",
+          "startMs": 63714,
+          "endMs": 64114,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "間",
+          "startMs": 64124,
+          "endMs": 64194,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "に",
+          "startMs": 64204,
+          "endMs": 64364,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "立派",
+          "startMs": 64384,
+          "endMs": 64644,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "な",
+          "startMs": 64654,
+          "endMs": 64754,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "若武者",
+          "startMs": 64764,
+          "endMs": 65174,
+          "charStart": 37,
+          "charEnd": 40
+        },
+        {
+          "text": "の",
+          "startMs": 65184,
+          "endMs": 65274,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "姿",
+          "startMs": 65284,
+          "endMs": 65584,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "へ",
+          "startMs": 65594,
+          "endMs": 65684,
+          "charStart": 42,
+          "charEnd": 43
+        },
+        {
+          "text": "と",
+          "startMs": 65694,
+          "endMs": 65784,
+          "charStart": 43,
+          "charEnd": 44
+        },
+        {
+          "text": "成長",
+          "startMs": 65794,
+          "endMs": 66194,
+          "charStart": 44,
+          "charEnd": 46
+        },
+        {
+          "text": "し",
+          "startMs": 66204,
+          "endMs": 66304,
+          "charStart": 46,
+          "charEnd": 47
+        },
+        {
+          "text": "まし",
+          "startMs": 66314,
+          "endMs": 66494,
+          "charStart": 47,
+          "charEnd": 49
+        },
+        {
+          "text": "た",
+          "startMs": 66504,
+          "endMs": 66674,
+          "charStart": 49,
+          "charEnd": 50
+        }
+      ]
+    },
+    {
+      "text": "こうして武士として名を馳せた一寸法師は姫と結ばれ、末長く幸せに暮らしたということです。",
+      "startMs": 67626,
+      "endMs": 74154,
+      "words": [
+        {
+          "text": "こうし",
+          "startMs": 67776,
+          "endMs": 68016,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "て",
+          "startMs": 68026,
+          "endMs": 68116,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "武士",
+          "startMs": 68126,
+          "endMs": 68346,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "と",
+          "startMs": 68356,
+          "endMs": 68436,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "し",
+          "startMs": 68446,
+          "endMs": 68546,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "て",
+          "startMs": 68556,
+          "endMs": 68646,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "名",
+          "startMs": 68656,
+          "endMs": 68746,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "を",
+          "startMs": 68756,
+          "endMs": 68836,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "馳せ",
+          "startMs": 68846,
+          "endMs": 69076,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "た",
+          "startMs": 69086,
+          "endMs": 69176,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "一寸法師",
+          "startMs": 69186,
+          "endMs": 69836,
+          "charStart": 14,
+          "charEnd": 18
+        },
+        {
+          "text": "は",
+          "startMs": 69846,
+          "endMs": 70036,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "姫",
+          "startMs": 70146,
+          "endMs": 70396,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "と",
+          "startMs": 70406,
+          "endMs": 70516,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "結ば",
+          "startMs": 70526,
+          "endMs": 70856,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "れ",
+          "startMs": 70866,
+          "endMs": 71056,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "末長く",
+          "startMs": 71196,
+          "endMs": 71726,
+          "charStart": 25,
+          "charEnd": 28
+        },
+        {
+          "text": "幸せ",
+          "startMs": 71736,
+          "endMs": 72146,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "に",
+          "startMs": 72156,
+          "endMs": 72286,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "暮らし",
+          "startMs": 72296,
+          "endMs": 72586,
+          "charStart": 31,
+          "charEnd": 34
+        },
+        {
+          "text": "た",
+          "startMs": 72596,
+          "endMs": 72666,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "と",
+          "startMs": 72676,
+          "endMs": 72766,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "いう",
+          "startMs": 72776,
+          "endMs": 72966,
+          "charStart": 36,
+          "charEnd": 38
+        },
+        {
+          "text": "こと",
+          "startMs": 72976,
+          "endMs": 73156,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "です",
+          "startMs": 73166,
+          "endMs": 73456,
+          "charStart": 40,
+          "charEnd": 42
+        }
+      ]
+    }
+  ]
+}

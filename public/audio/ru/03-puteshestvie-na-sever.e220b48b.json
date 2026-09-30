@@ -1,0 +1,627 @@
+{
+  "version": 3,
+  "lang": "ru",
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 40338,
+  "sentences": [
+    {
+      "text": "Студенты давно мечтали увидеть настоящее северное сияние.",
+      "startMs": 0,
+      "endMs": 3840,
+      "words": [
+        {
+          "text": "Студенты",
+          "startMs": 100,
+          "endMs": 630,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "давно",
+          "startMs": 630,
+          "endMs": 870,
+          "charStart": 9,
+          "charEnd": 14
+        },
+        {
+          "text": "мечтали",
+          "startMs": 870,
+          "endMs": 1240,
+          "charStart": 15,
+          "charEnd": 22
+        },
+        {
+          "text": "увидеть",
+          "startMs": 1240,
+          "endMs": 1600,
+          "charStart": 23,
+          "charEnd": 30
+        },
+        {
+          "text": "настоящее",
+          "startMs": 1600,
+          "endMs": 2200,
+          "charStart": 31,
+          "charEnd": 40
+        },
+        {
+          "text": "северное",
+          "startMs": 2200,
+          "endMs": 2600,
+          "charStart": 41,
+          "charEnd": 49
+        },
+        {
+          "text": "сияние",
+          "startMs": 2600,
+          "endMs": 3150,
+          "charStart": 50,
+          "charEnd": 56
+        }
+      ]
+    },
+    {
+      "text": "Зимой они наконец отправились в холодный Мурманск.",
+      "startMs": 4090,
+      "endMs": 7258,
+      "words": [
+        {
+          "text": "Зимой",
+          "startMs": 4190,
+          "endMs": 4620,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "они",
+          "startMs": 4620,
+          "endMs": 4730,
+          "charStart": 6,
+          "charEnd": 9
+        },
+        {
+          "text": "наконец",
+          "startMs": 4730,
+          "endMs": 5120,
+          "charStart": 10,
+          "charEnd": 17
+        },
+        {
+          "text": "отправились",
+          "startMs": 5120,
+          "endMs": 5630,
+          "charStart": 18,
+          "charEnd": 29
+        },
+        {
+          "text": "в",
+          "startMs": 5630,
+          "endMs": 5660,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "холодный",
+          "startMs": 5660,
+          "endMs": 6090,
+          "charStart": 32,
+          "charEnd": 40
+        },
+        {
+          "text": "Мурманск",
+          "startMs": 6090,
+          "endMs": 6590,
+          "charStart": 41,
+          "charEnd": 49
+        }
+      ]
+    },
+    {
+      "text": "Несмотря на сильный мороз, путешественники чувствовали радостное волнение.",
+      "startMs": 7508,
+      "endMs": 11756,
+      "words": [
+        {
+          "text": "Несмотря",
+          "startMs": 7608,
+          "endMs": 8098,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "на",
+          "startMs": 8098,
+          "endMs": 8208,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "сильный",
+          "startMs": 8208,
+          "endMs": 8438,
+          "charStart": 12,
+          "charEnd": 19
+        },
+        {
+          "text": "мороз",
+          "startMs": 8438,
+          "endMs": 8778,
+          "charStart": 20,
+          "charEnd": 25
+        },
+        {
+          "text": "путешественники",
+          "startMs": 8948,
+          "endMs": 9628,
+          "charStart": 27,
+          "charEnd": 42
+        },
+        {
+          "text": "чувствовали",
+          "startMs": 9628,
+          "endMs": 10108,
+          "charStart": 43,
+          "charEnd": 54
+        },
+        {
+          "text": "радостное",
+          "startMs": 10108,
+          "endMs": 10488,
+          "charStart": 55,
+          "charEnd": 64
+        },
+        {
+          "text": "волнение",
+          "startMs": 10488,
+          "endMs": 11058,
+          "charStart": 65,
+          "charEnd": 73
+        }
+      ]
+    },
+    {
+      "text": "Местный гид показал им самые живописные снежные места.",
+      "startMs": 12006,
+      "endMs": 15678,
+      "words": [
+        {
+          "text": "Местный",
+          "startMs": 12106,
+          "endMs": 12556,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "гид",
+          "startMs": 12556,
+          "endMs": 12756,
+          "charStart": 8,
+          "charEnd": 11
+        },
+        {
+          "text": "показал",
+          "startMs": 12756,
+          "endMs": 13166,
+          "charStart": 12,
+          "charEnd": 19
+        },
+        {
+          "text": "им",
+          "startMs": 13166,
+          "endMs": 13326,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "самые",
+          "startMs": 13326,
+          "endMs": 13666,
+          "charStart": 23,
+          "charEnd": 28
+        },
+        {
+          "text": "живописные",
+          "startMs": 13666,
+          "endMs": 14196,
+          "charStart": 29,
+          "charEnd": 39
+        },
+        {
+          "text": "снежные",
+          "startMs": 14196,
+          "endMs": 14576,
+          "charStart": 40,
+          "charEnd": 47
+        },
+        {
+          "text": "места",
+          "startMs": 14576,
+          "endMs": 14956,
+          "charStart": 48,
+          "charEnd": 53
+        }
+      ]
+    },
+    {
+      "text": "Вечером они выехали за город, чтобы наблюдать за небом.",
+      "startMs": 15928,
+      "endMs": 19456,
+      "words": [
+        {
+          "text": "Вечером",
+          "startMs": 16028,
+          "endMs": 16588,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "они",
+          "startMs": 16588,
+          "endMs": 16758,
+          "charStart": 8,
+          "charEnd": 11
+        },
+        {
+          "text": "выехали",
+          "startMs": 16758,
+          "endMs": 17118,
+          "charStart": 12,
+          "charEnd": 19
+        },
+        {
+          "text": "за",
+          "startMs": 17118,
+          "endMs": 17228,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "город",
+          "startMs": 17228,
+          "endMs": 17488,
+          "charStart": 23,
+          "charEnd": 28
+        },
+        {
+          "text": "чтобы",
+          "startMs": 17628,
+          "endMs": 17878,
+          "charStart": 30,
+          "charEnd": 35
+        },
+        {
+          "text": "наблюдать",
+          "startMs": 17878,
+          "endMs": 18258,
+          "charStart": 36,
+          "charEnd": 45
+        },
+        {
+          "text": "за",
+          "startMs": 18258,
+          "endMs": 18368,
+          "charStart": 46,
+          "charEnd": 48
+        },
+        {
+          "text": "небом",
+          "startMs": 18368,
+          "endMs": 18718,
+          "charStart": 49,
+          "charEnd": 54
+        }
+      ]
+    },
+    {
+      "text": "Внезапно тёмное зимнее небо озарилось яркими зелёными огнями.",
+      "startMs": 19706,
+      "endMs": 23834,
+      "words": [
+        {
+          "text": "Внезапно",
+          "startMs": 19806,
+          "endMs": 20396,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "тёмное",
+          "startMs": 20396,
+          "endMs": 20746,
+          "charStart": 9,
+          "charEnd": 15
+        },
+        {
+          "text": "зимнее",
+          "startMs": 20746,
+          "endMs": 21066,
+          "charStart": 16,
+          "charEnd": 22
+        },
+        {
+          "text": "небо",
+          "startMs": 21066,
+          "endMs": 21346,
+          "charStart": 23,
+          "charEnd": 27
+        },
+        {
+          "text": "озарилось",
+          "startMs": 21346,
+          "endMs": 21836,
+          "charStart": 28,
+          "charEnd": 37
+        },
+        {
+          "text": "яркими",
+          "startMs": 21836,
+          "endMs": 22246,
+          "charStart": 38,
+          "charEnd": 44
+        },
+        {
+          "text": "зелёными",
+          "startMs": 22246,
+          "endMs": 22656,
+          "charStart": 45,
+          "charEnd": 53
+        },
+        {
+          "text": "огнями",
+          "startMs": 22656,
+          "endMs": 23116,
+          "charStart": 54,
+          "charEnd": 60
+        }
+      ]
+    },
+    {
+      "text": "Ребята не могли оторвать восхищённых взглядов от редкого зрелища.",
+      "startMs": 24084,
+      "endMs": 28044,
+      "words": [
+        {
+          "text": "Ребята",
+          "startMs": 24184,
+          "endMs": 24634,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "не",
+          "startMs": 24634,
+          "endMs": 24714,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "могли",
+          "startMs": 24714,
+          "endMs": 24944,
+          "charStart": 10,
+          "charEnd": 15
+        },
+        {
+          "text": "оторвать",
+          "startMs": 24944,
+          "endMs": 25294,
+          "charStart": 16,
+          "charEnd": 24
+        },
+        {
+          "text": "восхищённых",
+          "startMs": 25294,
+          "endMs": 25834,
+          "charStart": 25,
+          "charEnd": 36
+        },
+        {
+          "text": "взглядов",
+          "startMs": 25834,
+          "endMs": 26324,
+          "charStart": 37,
+          "charEnd": 45
+        },
+        {
+          "text": "от",
+          "startMs": 26324,
+          "endMs": 26494,
+          "charStart": 46,
+          "charEnd": 48
+        },
+        {
+          "text": "редкого",
+          "startMs": 26494,
+          "endMs": 26774,
+          "charStart": 49,
+          "charEnd": 56
+        },
+        {
+          "text": "зрелища",
+          "startMs": 26774,
+          "endMs": 27314,
+          "charStart": 57,
+          "charEnd": 64
+        }
+      ]
+    },
+    {
+      "text": "Фотограф сделал потрясающие снимки, которые запомнятся навсегда.",
+      "startMs": 28294,
+      "endMs": 32494,
+      "words": [
+        {
+          "text": "Фотограф",
+          "startMs": 28394,
+          "endMs": 28914,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "сделал",
+          "startMs": 28914,
+          "endMs": 29234,
+          "charStart": 9,
+          "charEnd": 15
+        },
+        {
+          "text": "потрясающие",
+          "startMs": 29234,
+          "endMs": 29874,
+          "charStart": 16,
+          "charEnd": 27
+        },
+        {
+          "text": "снимки",
+          "startMs": 29874,
+          "endMs": 30244,
+          "charStart": 28,
+          "charEnd": 34
+        },
+        {
+          "text": "которые",
+          "startMs": 30454,
+          "endMs": 30784,
+          "charStart": 36,
+          "charEnd": 43
+        },
+        {
+          "text": "запомнятся",
+          "startMs": 30784,
+          "endMs": 31294,
+          "charStart": 44,
+          "charEnd": 54
+        },
+        {
+          "text": "навсегда",
+          "startMs": 31294,
+          "endMs": 31774,
+          "charStart": 55,
+          "charEnd": 63
+        }
+      ]
+    },
+    {
+      "text": "Горячий чай в термосе помог туристам согреться.",
+      "startMs": 32744,
+      "endMs": 35984,
+      "words": [
+        {
+          "text": "Горячий",
+          "startMs": 32844,
+          "endMs": 33354,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "чай",
+          "startMs": 33354,
+          "endMs": 33544,
+          "charStart": 8,
+          "charEnd": 11
+        },
+        {
+          "text": "в",
+          "startMs": 33544,
+          "endMs": 33594,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "термосе",
+          "startMs": 33594,
+          "endMs": 33994,
+          "charStart": 14,
+          "charEnd": 21
+        },
+        {
+          "text": "помог",
+          "startMs": 33994,
+          "endMs": 34354,
+          "charStart": 22,
+          "charEnd": 27
+        },
+        {
+          "text": "туристам",
+          "startMs": 34354,
+          "endMs": 34744,
+          "charStart": 28,
+          "charEnd": 36
+        },
+        {
+          "text": "согреться",
+          "startMs": 34744,
+          "endMs": 35294,
+          "charStart": 37,
+          "charEnd": 46
+        }
+      ]
+    },
+    {
+      "text": "Они поняли, что суровая природа обладает удивительной красотой.",
+      "startMs": 36234,
+      "endMs": 40338,
+      "words": [
+        {
+          "text": "Они",
+          "startMs": 36334,
+          "endMs": 36634,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "поняли",
+          "startMs": 36634,
+          "endMs": 36964,
+          "charStart": 4,
+          "charEnd": 10
+        },
+        {
+          "text": "что",
+          "startMs": 37174,
+          "endMs": 37344,
+          "charStart": 12,
+          "charEnd": 15
+        },
+        {
+          "text": "суровая",
+          "startMs": 37344,
+          "endMs": 37714,
+          "charStart": 16,
+          "charEnd": 23
+        },
+        {
+          "text": "природа",
+          "startMs": 37714,
+          "endMs": 38104,
+          "charStart": 24,
+          "charEnd": 31
+        },
+        {
+          "text": "обладает",
+          "startMs": 38104,
+          "endMs": 38634,
+          "charStart": 32,
+          "charEnd": 40
+        },
+        {
+          "text": "удивительной",
+          "startMs": 38634,
+          "endMs": 39104,
+          "charStart": 41,
+          "charEnd": 53
+        },
+        {
+          "text": "красотой",
+          "startMs": 39104,
+          "endMs": 39644,
+          "charStart": 54,
+          "charEnd": 62
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2020 @@
+{
+  "version": 3,
+  "lang": "ja",
+  "voice": "ja-JP-NanamiNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 77490,
+  "sentences": [
+    {
+      "text": "高天原を追放された須佐之男命は、出雲の国の川のほとりに降り立ち、泣いている老夫婦と美しい娘に出会いました。",
+      "startMs": 0,
+      "endMs": 8424,
+      "words": [
+        {
+          "text": "高天原",
+          "startMs": 140,
+          "endMs": 710,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "を",
+          "startMs": 720,
+          "endMs": 810,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "追放",
+          "startMs": 820,
+          "endMs": 1230,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "さ",
+          "startMs": 1240,
+          "endMs": 1330,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "れ",
+          "startMs": 1340,
+          "endMs": 1420,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "た",
+          "startMs": 1430,
+          "endMs": 1560,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "須佐之",
+          "startMs": 1580,
+          "endMs": 1960,
+          "charStart": 9,
+          "charEnd": 12
+        },
+        {
+          "text": "男命",
+          "startMs": 1970,
+          "endMs": 2440,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "は",
+          "startMs": 2450,
+          "endMs": 2670,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "出雲",
+          "startMs": 2920,
+          "endMs": 3210,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "の",
+          "startMs": 3220,
+          "endMs": 3330,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "国",
+          "startMs": 3340,
+          "endMs": 3540,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "の",
+          "startMs": 3550,
+          "endMs": 3650,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "川",
+          "startMs": 3660,
+          "endMs": 3870,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "の",
+          "startMs": 3880,
+          "endMs": 3970,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "ほとり",
+          "startMs": 3980,
+          "endMs": 4280,
+          "charStart": 23,
+          "charEnd": 26
+        },
+        {
+          "text": "に",
+          "startMs": 4290,
+          "endMs": 4370,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "降り立ち",
+          "startMs": 4380,
+          "endMs": 4910,
+          "charStart": 27,
+          "charEnd": 31
+        },
+        {
+          "text": "泣い",
+          "startMs": 5050,
+          "endMs": 5260,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "て",
+          "startMs": 5270,
+          "endMs": 5320,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "いる",
+          "startMs": 5330,
+          "endMs": 5520,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "老夫婦",
+          "startMs": 5530,
+          "endMs": 5980,
+          "charStart": 37,
+          "charEnd": 40
+        },
+        {
+          "text": "と",
+          "startMs": 5990,
+          "endMs": 6060,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "美しい",
+          "startMs": 6070,
+          "endMs": 6650,
+          "charStart": 41,
+          "charEnd": 44
+        },
+        {
+          "text": "娘",
+          "startMs": 6660,
+          "endMs": 6930,
+          "charStart": 44,
+          "charEnd": 45
+        },
+        {
+          "text": "に",
+          "startMs": 6940,
+          "endMs": 7070,
+          "charStart": 45,
+          "charEnd": 46
+        },
+        {
+          "text": "出会い",
+          "startMs": 7080,
+          "endMs": 7330,
+          "charStart": 46,
+          "charEnd": 49
+        },
+        {
+          "text": "まし",
+          "startMs": 7340,
+          "endMs": 7520,
+          "charStart": 49,
+          "charEnd": 51
+        },
+        {
+          "text": "た",
+          "startMs": 7530,
+          "endMs": 7720,
+          "charStart": 51,
+          "charEnd": 52
+        }
+      ]
+    },
+    {
+      "text": "理由を尋ねると、八つの頭と尾を持つ怪物「八岐大蛇」に、毎年娘を一人ずつ生贄に捧げさせられているのだと答えました。",
+      "startMs": 8674,
+      "endMs": 17290,
+      "words": [
+        {
+          "text": "理由",
+          "startMs": 8814,
+          "endMs": 9094,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "を",
+          "startMs": 9104,
+          "endMs": 9184,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "尋ねる",
+          "startMs": 9194,
+          "endMs": 9594,
+          "charStart": 3,
+          "charEnd": 6
+        },
+        {
+          "text": "と",
+          "startMs": 9604,
+          "endMs": 9764,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "八つ",
+          "startMs": 9974,
+          "endMs": 10274,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "の",
+          "startMs": 10284,
+          "endMs": 10354,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "頭",
+          "startMs": 10364,
+          "endMs": 10654,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "と",
+          "startMs": 10664,
+          "endMs": 10754,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "尾",
+          "startMs": 10764,
+          "endMs": 10844,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "を",
+          "startMs": 10854,
+          "endMs": 10914,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "持つ",
+          "startMs": 10924,
+          "endMs": 11144,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "怪物",
+          "startMs": 11154,
+          "endMs": 11574,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "八岐大蛇",
+          "startMs": 11724,
+          "endMs": 12394,
+          "charStart": 20,
+          "charEnd": 24
+        },
+        {
+          "text": "に",
+          "startMs": 12404,
+          "endMs": 12584,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "毎年",
+          "startMs": 12724,
+          "endMs": 13154,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "娘",
+          "startMs": 13164,
+          "endMs": 13464,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "を",
+          "startMs": 13474,
+          "endMs": 13574,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "一人",
+          "startMs": 13584,
+          "endMs": 13874,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "ずつ",
+          "startMs": 13884,
+          "endMs": 14084,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "生贄",
+          "startMs": 14094,
+          "endMs": 14464,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "に",
+          "startMs": 14474,
+          "endMs": 14604,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "捧げ",
+          "startMs": 14624,
+          "endMs": 14934,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "さ",
+          "startMs": 14944,
+          "endMs": 15044,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "せら",
+          "startMs": 15054,
+          "endMs": 15224,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "れ",
+          "startMs": 15234,
+          "endMs": 15314,
+          "charStart": 43,
+          "charEnd": 44
+        },
+        {
+          "text": "て",
+          "startMs": 15324,
+          "endMs": 15394,
+          "charStart": 44,
+          "charEnd": 45
+        },
+        {
+          "text": "いる",
+          "startMs": 15404,
+          "endMs": 15574,
+          "charStart": 45,
+          "charEnd": 47
+        },
+        {
+          "text": "の",
+          "startMs": 15584,
+          "endMs": 15654,
+          "charStart": 47,
+          "charEnd": 48
+        },
+        {
+          "text": "だ",
+          "startMs": 15664,
+          "endMs": 15754,
+          "charStart": 48,
+          "charEnd": 49
+        },
+        {
+          "text": "と",
+          "startMs": 15764,
+          "endMs": 15894,
+          "charStart": 49,
+          "charEnd": 50
+        },
+        {
+          "text": "答え",
+          "startMs": 15914,
+          "endMs": 16194,
+          "charStart": 50,
+          "charEnd": 52
+        },
+        {
+          "text": "まし",
+          "startMs": 16204,
+          "endMs": 16394,
+          "charStart": 52,
+          "charEnd": 54
+        },
+        {
+          "text": "た",
+          "startMs": 16404,
+          "endMs": 16574,
+          "charStart": 54,
+          "charEnd": 55
+        }
+      ]
+    },
+    {
+      "text": "最後に残された櫛名田比売を救うために、須佐之男命は大蛇を退治することを約束し、強い酒を用意させました。",
+      "startMs": 17540,
+      "endMs": 25700,
+      "words": [
+        {
+          "text": "最後",
+          "startMs": 17650,
+          "endMs": 17960,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "に",
+          "startMs": 17970,
+          "endMs": 18070,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "残さ",
+          "startMs": 18080,
+          "endMs": 18370,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "れ",
+          "startMs": 18380,
+          "endMs": 18460,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "た",
+          "startMs": 18470,
+          "endMs": 18580,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "櫛名田",
+          "startMs": 18590,
+          "endMs": 18960,
+          "charStart": 7,
+          "charEnd": 10
+        },
+        {
+          "text": "比売",
+          "startMs": 18970,
+          "endMs": 19300,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "を",
+          "startMs": 19310,
+          "endMs": 19400,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "救う",
+          "startMs": 19410,
+          "endMs": 19700,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "ため",
+          "startMs": 19710,
+          "endMs": 19890,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "に",
+          "startMs": 19900,
+          "endMs": 20090,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "須佐之",
+          "startMs": 20230,
+          "endMs": 20660,
+          "charStart": 19,
+          "charEnd": 22
+        },
+        {
+          "text": "男命",
+          "startMs": 20670,
+          "endMs": 21160,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "は",
+          "startMs": 21170,
+          "endMs": 21290,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "大蛇",
+          "startMs": 21300,
+          "endMs": 21590,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "を",
+          "startMs": 21600,
+          "endMs": 21700,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "退治",
+          "startMs": 21710,
+          "endMs": 22020,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "する",
+          "startMs": 22030,
+          "endMs": 22220,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "こと",
+          "startMs": 22230,
+          "endMs": 22420,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "を",
+          "startMs": 22430,
+          "endMs": 22500,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "約束",
+          "startMs": 22510,
+          "endMs": 22900,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "し",
+          "startMs": 22910,
+          "endMs": 23150,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "強い",
+          "startMs": 23420,
+          "endMs": 23750,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "酒",
+          "startMs": 23760,
+          "endMs": 24000,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "を",
+          "startMs": 24010,
+          "endMs": 24100,
+          "charStart": 42,
+          "charEnd": 43
+        },
+        {
+          "text": "用意",
+          "startMs": 24110,
+          "endMs": 24390,
+          "charStart": 43,
+          "charEnd": 45
+        },
+        {
+          "text": "さ",
+          "startMs": 24400,
+          "endMs": 24500,
+          "charStart": 45,
+          "charEnd": 46
+        },
+        {
+          "text": "せ",
+          "startMs": 24510,
+          "endMs": 24610,
+          "charStart": 46,
+          "charEnd": 47
+        },
+        {
+          "text": "まし",
+          "startMs": 24620,
+          "endMs": 24810,
+          "charStart": 47,
+          "charEnd": 49
+        },
+        {
+          "text": "た",
+          "startMs": 24820,
+          "endMs": 25000,
+          "charStart": 49,
+          "charEnd": 50
+        }
+      ]
+    },
+    {
+      "text": "彼は八つの門を作り、それぞれに強い酒を満たした大樽を置いて怪物が現れるのを待ち構えました。",
+      "startMs": 25950,
+      "endMs": 32862,
+      "words": [
+        {
+          "text": "彼",
+          "startMs": 26090,
+          "endMs": 26250,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "は",
+          "startMs": 26260,
+          "endMs": 26360,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "八つ",
+          "startMs": 26370,
+          "endMs": 26700,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "の",
+          "startMs": 26710,
+          "endMs": 26800,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "門",
+          "startMs": 26810,
+          "endMs": 26980,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "を",
+          "startMs": 26990,
+          "endMs": 27090,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "作り",
+          "startMs": 27100,
+          "endMs": 27480,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "それぞれ",
+          "startMs": 27620,
+          "endMs": 28020,
+          "charStart": 10,
+          "charEnd": 14
+        },
+        {
+          "text": "に",
+          "startMs": 28030,
+          "endMs": 28150,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "強い",
+          "startMs": 28160,
+          "endMs": 28450,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "酒",
+          "startMs": 28460,
+          "endMs": 28670,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "を",
+          "startMs": 28680,
+          "endMs": 28760,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "満たし",
+          "startMs": 28770,
+          "endMs": 29060,
+          "charStart": 19,
+          "charEnd": 22
+        },
+        {
+          "text": "た",
+          "startMs": 29070,
+          "endMs": 29140,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "大樽",
+          "startMs": 29150,
+          "endMs": 29540,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "を",
+          "startMs": 29550,
+          "endMs": 29610,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "置い",
+          "startMs": 29620,
+          "endMs": 29890,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "て",
+          "startMs": 29900,
+          "endMs": 30080,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "怪物",
+          "startMs": 30160,
+          "endMs": 30560,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "が",
+          "startMs": 30570,
+          "endMs": 30660,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "現れる",
+          "startMs": 30670,
+          "endMs": 31130,
+          "charStart": 32,
+          "charEnd": 35
+        },
+        {
+          "text": "の",
+          "startMs": 31140,
+          "endMs": 31210,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "を",
+          "startMs": 31220,
+          "endMs": 31300,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "待ち構え",
+          "startMs": 31320,
+          "endMs": 31790,
+          "charStart": 37,
+          "charEnd": 41
+        },
+        {
+          "text": "まし",
+          "startMs": 31800,
+          "endMs": 31990,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "た",
+          "startMs": 32000,
+          "endMs": 32160,
+          "charStart": 43,
+          "charEnd": 44
+        }
+      ]
+    },
+    {
+      "text": "やがて地響きとともに、山のように巨大な八岐大蛇が血のように赤い目を光らせて姿を現しました。",
+      "startMs": 33112,
+      "endMs": 40288,
+      "words": [
+        {
+          "text": "やがて",
+          "startMs": 33222,
+          "endMs": 33592,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "地響き",
+          "startMs": 33602,
+          "endMs": 34042,
+          "charStart": 3,
+          "charEnd": 6
+        },
+        {
+          "text": "と",
+          "startMs": 34052,
+          "endMs": 34142,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "とも",
+          "startMs": 34152,
+          "endMs": 34362,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "に",
+          "startMs": 34372,
+          "endMs": 34552,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "山",
+          "startMs": 34692,
+          "endMs": 34922,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "の",
+          "startMs": 34932,
+          "endMs": 35012,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "よう",
+          "startMs": 35022,
+          "endMs": 35212,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "に",
+          "startMs": 35222,
+          "endMs": 35382,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "巨大",
+          "startMs": 35392,
+          "endMs": 35702,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "な",
+          "startMs": 35712,
+          "endMs": 35772,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "八岐大蛇",
+          "startMs": 35782,
+          "endMs": 36502,
+          "charStart": 19,
+          "charEnd": 23
+        },
+        {
+          "text": "が",
+          "startMs": 36512,
+          "endMs": 36592,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "血",
+          "startMs": 36602,
+          "endMs": 36742,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "の",
+          "startMs": 36752,
+          "endMs": 36832,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "よう",
+          "startMs": 36842,
+          "endMs": 37022,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "に",
+          "startMs": 37032,
+          "endMs": 37182,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "赤い",
+          "startMs": 37222,
+          "endMs": 37542,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "目",
+          "startMs": 37552,
+          "endMs": 37622,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "を",
+          "startMs": 37632,
+          "endMs": 37702,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "光ら",
+          "startMs": 37712,
+          "endMs": 38012,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "せ",
+          "startMs": 38022,
+          "endMs": 38122,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "て",
+          "startMs": 38132,
+          "endMs": 38292,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "姿",
+          "startMs": 38362,
+          "endMs": 38692,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "を",
+          "startMs": 38702,
+          "endMs": 38792,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "現し",
+          "startMs": 38802,
+          "endMs": 39212,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "まし",
+          "startMs": 39222,
+          "endMs": 39402,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "た",
+          "startMs": 39412,
+          "endMs": 39582,
+          "charStart": 43,
+          "charEnd": 44
+        }
+      ]
+    },
+    {
+      "text": "酒の芳しい匂いに釣られた大蛇は、八つの頭をそれぞれの樽に突っ込んで酒を飲み干してしまいました。",
+      "startMs": 40538,
+      "endMs": 47426,
+      "words": [
+        {
+          "text": "酒",
+          "startMs": 40648,
+          "endMs": 40878,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "の",
+          "startMs": 40888,
+          "endMs": 40988,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "芳しい",
+          "startMs": 40998,
+          "endMs": 41498,
+          "charStart": 2,
+          "charEnd": 5
+        },
+        {
+          "text": "匂い",
+          "startMs": 41508,
+          "endMs": 41788,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "に",
+          "startMs": 41798,
+          "endMs": 41898,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "釣",
+          "startMs": 41908,
+          "endMs": 42018,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "ら",
+          "startMs": 42028,
+          "endMs": 42108,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "れ",
+          "startMs": 42118,
+          "endMs": 42198,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "た",
+          "startMs": 42208,
+          "endMs": 42308,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "大蛇",
+          "startMs": 42318,
+          "endMs": 42618,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "は",
+          "startMs": 42628,
+          "endMs": 42818,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "八つ",
+          "startMs": 42958,
+          "endMs": 43278,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "の",
+          "startMs": 43288,
+          "endMs": 43358,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "頭",
+          "startMs": 43368,
+          "endMs": 43638,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "を",
+          "startMs": 43648,
+          "endMs": 43788,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "それぞれ",
+          "startMs": 43828,
+          "endMs": 44238,
+          "charStart": 21,
+          "charEnd": 25
+        },
+        {
+          "text": "の",
+          "startMs": 44248,
+          "endMs": 44348,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "樽",
+          "startMs": 44358,
+          "endMs": 44548,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "に",
+          "startMs": 44558,
+          "endMs": 44698,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "突っ込ん",
+          "startMs": 44718,
+          "endMs": 45068,
+          "charStart": 28,
+          "charEnd": 32
+        },
+        {
+          "text": "で",
+          "startMs": 45078,
+          "endMs": 45178,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "酒",
+          "startMs": 45198,
+          "endMs": 45448,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "を",
+          "startMs": 45458,
+          "endMs": 45548,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "飲み干し",
+          "startMs": 45558,
+          "endMs": 45978,
+          "charStart": 35,
+          "charEnd": 39
+        },
+        {
+          "text": "て",
+          "startMs": 45988,
+          "endMs": 46058,
+          "charStart": 39,
+          "charEnd": 40
+        },
+        {
+          "text": "しまい",
+          "startMs": 46068,
+          "endMs": 46338,
+          "charStart": 40,
+          "charEnd": 43
+        },
+        {
+          "text": "まし",
+          "startMs": 46348,
+          "endMs": 46528,
+          "charStart": 43,
+          "charEnd": 45
+        },
+        {
+          "text": "た",
+          "startMs": 46538,
+          "endMs": 46708,
+          "charStart": 45,
+          "charEnd": 46
+        }
+      ]
+    },
+    {
+      "text": "毒酒に酔い潰れて大蛇が深い眠りに落ちたところを見計らい、須佐之男命は十拳剣を抜いて襲いかかりました。",
+      "startMs": 47676,
+      "endMs": 55164,
+      "words": [
+        {
+          "text": "毒酒",
+          "startMs": 47786,
+          "endMs": 48096,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "に",
+          "startMs": 48106,
+          "endMs": 48216,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "酔い潰れ",
+          "startMs": 48226,
+          "endMs": 48706,
+          "charStart": 3,
+          "charEnd": 7
+        },
+        {
+          "text": "て",
+          "startMs": 48716,
+          "endMs": 48856,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "大蛇",
+          "startMs": 48876,
+          "endMs": 49146,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "が",
+          "startMs": 49156,
+          "endMs": 49256,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "深い",
+          "startMs": 49266,
+          "endMs": 49576,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "眠り",
+          "startMs": 49586,
+          "endMs": 49846,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "に",
+          "startMs": 49856,
+          "endMs": 49936,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "落ち",
+          "startMs": 49946,
+          "endMs": 50156,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "た",
+          "startMs": 50166,
+          "endMs": 50236,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "ところ",
+          "startMs": 50246,
+          "endMs": 50536,
+          "charStart": 19,
+          "charEnd": 22
+        },
+        {
+          "text": "を",
+          "startMs": 50546,
+          "endMs": 50626,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "見計らい",
+          "startMs": 50636,
+          "endMs": 51226,
+          "charStart": 23,
+          "charEnd": 27
+        },
+        {
+          "text": "須佐之",
+          "startMs": 51366,
+          "endMs": 51796,
+          "charStart": 28,
+          "charEnd": 31
+        },
+        {
+          "text": "男命",
+          "startMs": 51806,
+          "endMs": 52276,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "は",
+          "startMs": 52286,
+          "endMs": 52476,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "十",
+          "startMs": 52536,
+          "endMs": 52746,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "拳",
+          "startMs": 52756,
+          "endMs": 52936,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "剣",
+          "startMs": 52946,
+          "endMs": 53126,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "を",
+          "startMs": 53136,
+          "endMs": 53226,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "抜い",
+          "startMs": 53236,
+          "endMs": 53436,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "て",
+          "startMs": 53446,
+          "endMs": 53516,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "襲い",
+          "startMs": 53526,
+          "endMs": 53826,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "かかり",
+          "startMs": 53836,
+          "endMs": 54096,
+          "charStart": 43,
+          "charEnd": 46
+        },
+        {
+          "text": "まし",
+          "startMs": 54106,
+          "endMs": 54286,
+          "charStart": 46,
+          "charEnd": 48
+        },
+        {
+          "text": "た",
+          "startMs": 54296,
+          "endMs": 54466,
+          "charStart": 48,
+          "charEnd": 49
+        }
+      ]
+    },
+    {
+      "text": "暴れる隙を与えずに八つの首を次々と切り落とし、川の水が真っ赤に染まるほど激しい戦いが繰り広げられました。",
+      "startMs": 55414,
+      "endMs": 63118,
+      "words": [
+        {
+          "text": "暴れる",
+          "startMs": 55524,
+          "endMs": 55904,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "隙",
+          "startMs": 55914,
+          "endMs": 56104,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "を",
+          "startMs": 56114,
+          "endMs": 56194,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "与え",
+          "startMs": 56204,
+          "endMs": 56494,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "ず",
+          "startMs": 56504,
+          "endMs": 56594,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "に",
+          "startMs": 56604,
+          "endMs": 56804,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "八つ",
+          "startMs": 56864,
+          "endMs": 57134,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "の",
+          "startMs": 57144,
+          "endMs": 57234,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "首",
+          "startMs": 57244,
+          "endMs": 57444,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "を",
+          "startMs": 57454,
+          "endMs": 57534,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "次々",
+          "startMs": 57544,
+          "endMs": 57974,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "と",
+          "startMs": 57984,
+          "endMs": 58084,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "切り落とし",
+          "startMs": 58094,
+          "endMs": 58824,
+          "charStart": 17,
+          "charEnd": 22
+        },
+        {
+          "text": "川",
+          "startMs": 58964,
+          "endMs": 59184,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "の",
+          "startMs": 59194,
+          "endMs": 59294,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "水",
+          "startMs": 59304,
+          "endMs": 59484,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "が",
+          "startMs": 59494,
+          "endMs": 59604,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "真っ赤",
+          "startMs": 59614,
+          "endMs": 59884,
+          "charStart": 27,
+          "charEnd": 30
+        },
+        {
+          "text": "に",
+          "startMs": 59894,
+          "endMs": 60004,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "染まる",
+          "startMs": 60014,
+          "endMs": 60304,
+          "charStart": 31,
+          "charEnd": 34
+        },
+        {
+          "text": "ほど",
+          "startMs": 60314,
+          "endMs": 60514,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "激しい",
+          "startMs": 60524,
+          "endMs": 60964,
+          "charStart": 36,
+          "charEnd": 39
+        },
+        {
+          "text": "戦い",
+          "startMs": 60974,
+          "endMs": 61304,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "が",
+          "startMs": 61314,
+          "endMs": 61414,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "繰り広げ",
+          "startMs": 61424,
+          "endMs": 61864,
+          "charStart": 42,
+          "charEnd": 46
+        },
+        {
+          "text": "ら",
+          "startMs": 61874,
+          "endMs": 61944,
+          "charStart": 46,
+          "charEnd": 47
+        },
+        {
+          "text": "れ",
+          "startMs": 61954,
+          "endMs": 62024,
+          "charStart": 47,
+          "charEnd": 48
+        },
+        {
+          "text": "まし",
+          "startMs": 62034,
+          "endMs": 62224,
+          "charStart": 48,
+          "charEnd": 50
+        },
+        {
+          "text": "た",
+          "startMs": 62234,
+          "endMs": 62414,
+          "charStart": 50,
+          "charEnd": 51
+        }
+      ]
+    },
+    {
+      "text": "大蛇の尾を切り裂いた際、その中から光り輝く神聖な名剣「天叢雲剣」が現れました。",
+      "startMs": 63368,
+      "endMs": 70136,
+      "words": [
+        {
+          "text": "大蛇",
+          "startMs": 63478,
+          "endMs": 63778,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "の",
+          "startMs": 63788,
+          "endMs": 63878,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "尾",
+          "startMs": 63888,
+          "endMs": 63968,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "を",
+          "startMs": 63978,
+          "endMs": 64058,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "切り裂い",
+          "startMs": 64068,
+          "endMs": 64488,
+          "charStart": 5,
+          "charEnd": 9
+        },
+        {
+          "text": "た",
+          "startMs": 64498,
+          "endMs": 64568,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "際",
+          "startMs": 64578,
+          "endMs": 64838,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "その",
+          "startMs": 65108,
+          "endMs": 65308,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "中",
+          "startMs": 65318,
+          "endMs": 65508,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "から",
+          "startMs": 65518,
+          "endMs": 65698,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "光り輝く",
+          "startMs": 65728,
+          "endMs": 66468,
+          "charStart": 17,
+          "charEnd": 21
+        },
+        {
+          "text": "神聖",
+          "startMs": 66478,
+          "endMs": 66888,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "な",
+          "startMs": 66898,
+          "endMs": 66978,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "名剣",
+          "startMs": 66988,
+          "endMs": 67388,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "天",
+          "startMs": 67548,
+          "endMs": 67708,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "叢",
+          "startMs": 67718,
+          "endMs": 67958,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "雲",
+          "startMs": 67968,
+          "endMs": 68108,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "剣",
+          "startMs": 68118,
+          "endMs": 68388,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "が",
+          "startMs": 68558,
+          "endMs": 68658,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "現れ",
+          "startMs": 68668,
+          "endMs": 69028,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "まし",
+          "startMs": 69038,
+          "endMs": 69238,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "た",
+          "startMs": 69248,
+          "endMs": 69418,
+          "charStart": 37,
+          "charEnd": 38
+        }
+      ]
+    },
+    {
+      "text": "大蛇を討ち果たした須佐之男命は娘を妻に迎え、出雲の地に宮殿を建てて平穏を取り戻しました。",
+      "startMs": 70386,
+      "endMs": 77490,
+      "words": [
+        {
+          "text": "大蛇",
+          "startMs": 70496,
+          "endMs": 70806,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "を",
+          "startMs": 70816,
+          "endMs": 70886,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "討ち果たし",
+          "startMs": 70896,
+          "endMs": 71396,
+          "charStart": 3,
+          "charEnd": 8
+        },
+        {
+          "text": "た",
+          "startMs": 71406,
+          "endMs": 71516,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "須佐之",
+          "startMs": 71536,
+          "endMs": 71916,
+          "charStart": 9,
+          "charEnd": 12
+        },
+        {
+          "text": "男命",
+          "startMs": 71926,
+          "endMs": 72376,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "は",
+          "startMs": 72386,
+          "endMs": 72596,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "娘",
+          "startMs": 72656,
+          "endMs": 72956,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "を",
+          "startMs": 72966,
+          "endMs": 73066,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "妻",
+          "startMs": 73076,
+          "endMs": 73316,
+          "charStart": 17,
+          "charEnd": 18
+        },
+        {
+          "text": "に",
+          "startMs": 73326,
+          "endMs": 73446,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "迎え",
+          "startMs": 73456,
+          "endMs": 73826,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "出雲",
+          "startMs": 73966,
+          "endMs": 74296,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "の",
+          "startMs": 74306,
+          "endMs": 74386,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "地",
+          "startMs": 74396,
+          "endMs": 74546,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "に",
+          "startMs": 74556,
+          "endMs": 74696,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "宮殿",
+          "startMs": 74706,
+          "endMs": 75046,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "を",
+          "startMs": 75056,
+          "endMs": 75136,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "建て",
+          "startMs": 75146,
+          "endMs": 75336,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "て",
+          "startMs": 75346,
+          "endMs": 75466,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "平穏",
+          "startMs": 75486,
+          "endMs": 75836,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "を",
+          "startMs": 75846,
+          "endMs": 75936,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "取り戻し",
+          "startMs": 75946,
+          "endMs": 76416,
+          "charStart": 36,
+          "charEnd": 40
+        },
+        {
+          "text": "まし",
+          "startMs": 76426,
+          "endMs": 76606,
+          "charStart": 40,
+          "charEnd": 42
+        },
+        {
+          "text": "た",
+          "startMs": 76616,
+          "endMs": 76786,
+          "charStart": 42,
+          "charEnd": 43
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,599 @@
+{
+  "version": 3,
+  "lang": "ru",
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 38010,
+  "sentences": [
+    {
+      "text": "Дмитрий давно хотел сменить свою неинтересную работу.",
+      "startMs": 0,
+      "endMs": 3480,
+      "words": [
+        {
+          "text": "Дмитрий",
+          "startMs": 100,
+          "endMs": 620,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "давно",
+          "startMs": 620,
+          "endMs": 870,
+          "charStart": 8,
+          "charEnd": 13
+        },
+        {
+          "text": "хотел",
+          "startMs": 870,
+          "endMs": 1160,
+          "charStart": 14,
+          "charEnd": 19
+        },
+        {
+          "text": "сменить",
+          "startMs": 1160,
+          "endMs": 1500,
+          "charStart": 20,
+          "charEnd": 27
+        },
+        {
+          "text": "свою",
+          "startMs": 1500,
+          "endMs": 1770,
+          "charStart": 28,
+          "charEnd": 32
+        },
+        {
+          "text": "неинтересную",
+          "startMs": 1770,
+          "endMs": 2320,
+          "charStart": 33,
+          "charEnd": 45
+        },
+        {
+          "text": "работу",
+          "startMs": 2320,
+          "endMs": 2740,
+          "charStart": 46,
+          "charEnd": 52
+        }
+      ]
+    },
+    {
+      "text": "Он усердно учился программированию каждый свободный вечер.",
+      "startMs": 3730,
+      "endMs": 7186,
+      "words": [
+        {
+          "text": "Он",
+          "startMs": 3830,
+          "endMs": 4040,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "усердно",
+          "startMs": 4040,
+          "endMs": 4410,
+          "charStart": 3,
+          "charEnd": 10
+        },
+        {
+          "text": "учился",
+          "startMs": 4410,
+          "endMs": 4780,
+          "charStart": 11,
+          "charEnd": 17
+        },
+        {
+          "text": "программированию",
+          "startMs": 4780,
+          "endMs": 5410,
+          "charStart": 18,
+          "charEnd": 34
+        },
+        {
+          "text": "каждый",
+          "startMs": 5410,
+          "endMs": 5750,
+          "charStart": 35,
+          "charEnd": 41
+        },
+        {
+          "text": "свободный",
+          "startMs": 5750,
+          "endMs": 6150,
+          "charStart": 42,
+          "charEnd": 51
+        },
+        {
+          "text": "вечер",
+          "startMs": 6150,
+          "endMs": 6500,
+          "charStart": 52,
+          "charEnd": 57
+        }
+      ]
+    },
+    {
+      "text": "Хотя родители сомневались, он твёрдо верил в успех.",
+      "startMs": 7436,
+      "endMs": 10796,
+      "words": [
+        {
+          "text": "Хотя",
+          "startMs": 7536,
+          "endMs": 7876,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "родители",
+          "startMs": 7876,
+          "endMs": 8226,
+          "charStart": 5,
+          "charEnd": 13
+        },
+        {
+          "text": "сомневались",
+          "startMs": 8226,
+          "endMs": 8746,
+          "charStart": 14,
+          "charEnd": 25
+        },
+        {
+          "text": "он",
+          "startMs": 8956,
+          "endMs": 9086,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "твёрдо",
+          "startMs": 9086,
+          "endMs": 9446,
+          "charStart": 30,
+          "charEnd": 36
+        },
+        {
+          "text": "верил",
+          "startMs": 9446,
+          "endMs": 9686,
+          "charStart": 37,
+          "charEnd": 42
+        },
+        {
+          "text": "в",
+          "startMs": 9686,
+          "endMs": 9706,
+          "charStart": 43,
+          "charEnd": 44
+        },
+        {
+          "text": "успех",
+          "startMs": 9706,
+          "endMs": 10106,
+          "charStart": 45,
+          "charEnd": 50
+        }
+      ]
+    },
+    {
+      "text": "Дмитрий начал регулярно посещать профессиональные курсы.",
+      "startMs": 11046,
+      "endMs": 14574,
+      "words": [
+        {
+          "text": "Дмитрий",
+          "startMs": 11146,
+          "endMs": 11666,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "начал",
+          "startMs": 11666,
+          "endMs": 11956,
+          "charStart": 8,
+          "charEnd": 13
+        },
+        {
+          "text": "регулярно",
+          "startMs": 11956,
+          "endMs": 12386,
+          "charStart": 14,
+          "charEnd": 23
+        },
+        {
+          "text": "посещать",
+          "startMs": 12386,
+          "endMs": 12826,
+          "charStart": 24,
+          "charEnd": 32
+        },
+        {
+          "text": "профессиональные",
+          "startMs": 12826,
+          "endMs": 13496,
+          "charStart": 33,
+          "charEnd": 49
+        },
+        {
+          "text": "курсы",
+          "startMs": 13496,
+          "endMs": 13886,
+          "charStart": 50,
+          "charEnd": 55
+        }
+      ]
+    },
+    {
+      "text": "Чтобы получить первый опыт, он создал собственный проект.",
+      "startMs": 14824,
+      "endMs": 18400,
+      "words": [
+        {
+          "text": "Чтобы",
+          "startMs": 14924,
+          "endMs": 15264,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "получить",
+          "startMs": 15264,
+          "endMs": 15614,
+          "charStart": 6,
+          "charEnd": 14
+        },
+        {
+          "text": "первый",
+          "startMs": 15614,
+          "endMs": 15884,
+          "charStart": 15,
+          "charEnd": 21
+        },
+        {
+          "text": "опыт",
+          "startMs": 15884,
+          "endMs": 16124,
+          "charStart": 22,
+          "charEnd": 26
+        },
+        {
+          "text": "он",
+          "startMs": 16344,
+          "endMs": 16464,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "создал",
+          "startMs": 16464,
+          "endMs": 16814,
+          "charStart": 31,
+          "charEnd": 37
+        },
+        {
+          "text": "собственный",
+          "startMs": 16814,
+          "endMs": 17244,
+          "charStart": 38,
+          "charEnd": 49
+        },
+        {
+          "text": "проект",
+          "startMs": 17244,
+          "endMs": 17704,
+          "charStart": 50,
+          "charEnd": 56
+        }
+      ]
+    },
+    {
+      "text": "Вскоре молодой специалист успешно прошёл сложное собеседование.",
+      "startMs": 18650,
+      "endMs": 22538,
+      "words": [
+        {
+          "text": "Вскоре",
+          "startMs": 18750,
+          "endMs": 19150,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "молодой",
+          "startMs": 19150,
+          "endMs": 19450,
+          "charStart": 7,
+          "charEnd": 14
+        },
+        {
+          "text": "специалист",
+          "startMs": 19450,
+          "endMs": 20020,
+          "charStart": 15,
+          "charEnd": 25
+        },
+        {
+          "text": "успешно",
+          "startMs": 20020,
+          "endMs": 20400,
+          "charStart": 26,
+          "charEnd": 33
+        },
+        {
+          "text": "прошёл",
+          "startMs": 20400,
+          "endMs": 20740,
+          "charStart": 34,
+          "charEnd": 40
+        },
+        {
+          "text": "сложное",
+          "startMs": 20740,
+          "endMs": 21120,
+          "charStart": 41,
+          "charEnd": 48
+        },
+        {
+          "text": "собеседование",
+          "startMs": 21120,
+          "endMs": 21840,
+          "charStart": 49,
+          "charEnd": 62
+        }
+      ]
+    },
+    {
+      "text": "Руководитель предложил ему перспективную должность в крупной компании.",
+      "startMs": 22788,
+      "endMs": 26748,
+      "words": [
+        {
+          "text": "Руководитель",
+          "startMs": 22888,
+          "endMs": 23518,
+          "charStart": 0,
+          "charEnd": 12
+        },
+        {
+          "text": "предложил",
+          "startMs": 23518,
+          "endMs": 23928,
+          "charStart": 13,
+          "charEnd": 22
+        },
+        {
+          "text": "ему",
+          "startMs": 23928,
+          "endMs": 24128,
+          "charStart": 23,
+          "charEnd": 26
+        },
+        {
+          "text": "перспективную",
+          "startMs": 24128,
+          "endMs": 24718,
+          "charStart": 27,
+          "charEnd": 40
+        },
+        {
+          "text": "должность",
+          "startMs": 24718,
+          "endMs": 25108,
+          "charStart": 41,
+          "charEnd": 50
+        },
+        {
+          "text": "в",
+          "startMs": 25108,
+          "endMs": 25158,
+          "charStart": 51,
+          "charEnd": 52
+        },
+        {
+          "text": "крупной",
+          "startMs": 25158,
+          "endMs": 25478,
+          "charStart": 53,
+          "charEnd": 60
+        },
+        {
+          "text": "компании",
+          "startMs": 25478,
+          "endMs": 26078,
+          "charStart": 61,
+          "charEnd": 69
+        }
+      ]
+    },
+    {
+      "text": "Теперь Дмитрий ежедневно решает интересные и важные задачи.",
+      "startMs": 26998,
+      "endMs": 30934,
+      "words": [
+        {
+          "text": "Теперь",
+          "startMs": 27098,
+          "endMs": 27438,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "Дмитрий",
+          "startMs": 27438,
+          "endMs": 27858,
+          "charStart": 7,
+          "charEnd": 14
+        },
+        {
+          "text": "ежедневно",
+          "startMs": 27858,
+          "endMs": 28328,
+          "charStart": 15,
+          "charEnd": 24
+        },
+        {
+          "text": "решает",
+          "startMs": 28328,
+          "endMs": 28728,
+          "charStart": 25,
+          "charEnd": 31
+        },
+        {
+          "text": "интересные",
+          "startMs": 28728,
+          "endMs": 29328,
+          "charStart": 32,
+          "charEnd": 42
+        },
+        {
+          "text": "и",
+          "startMs": 29328,
+          "endMs": 29408,
+          "charStart": 43,
+          "charEnd": 44
+        },
+        {
+          "text": "важные",
+          "startMs": 29408,
+          "endMs": 29728,
+          "charStart": 45,
+          "charEnd": 51
+        },
+        {
+          "text": "задачи",
+          "startMs": 29728,
+          "endMs": 30208,
+          "charStart": 52,
+          "charEnd": 58
+        }
+      ]
+    },
+    {
+      "text": "Коллеги всегда готовы помочь ему полезным советом.",
+      "startMs": 31184,
+      "endMs": 34400,
+      "words": [
+        {
+          "text": "Коллеги",
+          "startMs": 31284,
+          "endMs": 31694,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "всегда",
+          "startMs": 31694,
+          "endMs": 32014,
+          "charStart": 8,
+          "charEnd": 14
+        },
+        {
+          "text": "готовы",
+          "startMs": 32014,
+          "endMs": 32324,
+          "charStart": 15,
+          "charEnd": 21
+        },
+        {
+          "text": "помочь",
+          "startMs": 32324,
+          "endMs": 32644,
+          "charStart": 22,
+          "charEnd": 28
+        },
+        {
+          "text": "ему",
+          "startMs": 32644,
+          "endMs": 32834,
+          "charStart": 29,
+          "charEnd": 32
+        },
+        {
+          "text": "полезным",
+          "startMs": 32834,
+          "endMs": 33224,
+          "charStart": 33,
+          "charEnd": 41
+        },
+        {
+          "text": "советом",
+          "startMs": 33224,
+          "endMs": 33674,
+          "charStart": 42,
+          "charEnd": 49
+        }
+      ]
+    },
+    {
+      "text": "Он гордится тем, что не побоялся изменить жизнь.",
+      "startMs": 34650,
+      "endMs": 38010,
+      "words": [
+        {
+          "text": "Он",
+          "startMs": 34750,
+          "endMs": 34990,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "гордится",
+          "startMs": 34990,
+          "endMs": 35370,
+          "charStart": 3,
+          "charEnd": 11
+        },
+        {
+          "text": "тем",
+          "startMs": 35370,
+          "endMs": 35610,
+          "charStart": 12,
+          "charEnd": 15
+        },
+        {
+          "text": "что",
+          "startMs": 35790,
+          "endMs": 35970,
+          "charStart": 17,
+          "charEnd": 20
+        },
+        {
+          "text": "не",
+          "startMs": 35970,
+          "endMs": 36070,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "побоялся",
+          "startMs": 36070,
+          "endMs": 36600,
+          "charStart": 24,
+          "charEnd": 32
+        },
+        {
+          "text": "изменить",
+          "startMs": 36600,
+          "endMs": 36980,
+          "charStart": 33,
+          "charEnd": 41
+        },
+        {
+          "text": "жизнь",
+          "startMs": 36980,
+          "endMs": 37320,
+          "charStart": 42,
+          "charEnd": 47
+        }
+      ]
+    }
+  ]
+}

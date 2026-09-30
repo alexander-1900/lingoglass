@@ -1,0 +1,1194 @@
+{
+  "version": 3,
+  "lang": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 57186,
+  "sentences": [
+    {
+      "text": "Durante décadas, cientos de pueblos del interior peninsular han sufrido un proceso incesante de despoblación.",
+      "startMs": 0,
+      "endMs": 5352,
+      "words": [
+        {
+          "text": "Durante",
+          "startMs": 95,
+          "endMs": 465,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "décadas",
+          "startMs": 475,
+          "endMs": 865,
+          "charStart": 8,
+          "charEnd": 15
+        },
+        {
+          "text": "cientos",
+          "startMs": 1045,
+          "endMs": 1335,
+          "charStart": 17,
+          "charEnd": 24
+        },
+        {
+          "text": "de",
+          "startMs": 1345,
+          "endMs": 1415,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "pueblos",
+          "startMs": 1425,
+          "endMs": 1695,
+          "charStart": 28,
+          "charEnd": 35
+        },
+        {
+          "text": "del",
+          "startMs": 1705,
+          "endMs": 1785,
+          "charStart": 36,
+          "charEnd": 39
+        },
+        {
+          "text": "interior",
+          "startMs": 1795,
+          "endMs": 2095,
+          "charStart": 40,
+          "charEnd": 48
+        },
+        {
+          "text": "peninsular",
+          "startMs": 2105,
+          "endMs": 2535,
+          "charStart": 49,
+          "charEnd": 59
+        },
+        {
+          "text": "han",
+          "startMs": 2545,
+          "endMs": 2635,
+          "charStart": 60,
+          "charEnd": 63
+        },
+        {
+          "text": "sufrido",
+          "startMs": 2645,
+          "endMs": 2975,
+          "charStart": 64,
+          "charEnd": 71
+        },
+        {
+          "text": "un",
+          "startMs": 2985,
+          "endMs": 3075,
+          "charStart": 72,
+          "charEnd": 74
+        },
+        {
+          "text": "proceso",
+          "startMs": 3085,
+          "endMs": 3435,
+          "charStart": 75,
+          "charEnd": 82
+        },
+        {
+          "text": "incesante",
+          "startMs": 3445,
+          "endMs": 3865,
+          "charStart": 83,
+          "charEnd": 92
+        },
+        {
+          "text": "de",
+          "startMs": 3875,
+          "endMs": 3935,
+          "charStart": 93,
+          "charEnd": 95
+        },
+        {
+          "text": "despoblación",
+          "startMs": 3945,
+          "endMs": 4665,
+          "charStart": 96,
+          "charEnd": 108
+        }
+      ]
+    },
+    {
+      "text": "La falta de oportunidades laborales y servicios básicos empujó a las generaciones jóvenes hacia las grandes metrópolis.",
+      "startMs": 5602,
+      "endMs": 10738,
+      "words": [
+        {
+          "text": "La",
+          "startMs": 5697,
+          "endMs": 5877,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "falta",
+          "startMs": 5887,
+          "endMs": 6127,
+          "charStart": 3,
+          "charEnd": 8
+        },
+        {
+          "text": "de",
+          "startMs": 6137,
+          "endMs": 6197,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "oportunidades",
+          "startMs": 6207,
+          "endMs": 6757,
+          "charStart": 12,
+          "charEnd": 25
+        },
+        {
+          "text": "laborales",
+          "startMs": 6767,
+          "endMs": 7177,
+          "charStart": 26,
+          "charEnd": 35
+        },
+        {
+          "text": "y",
+          "startMs": 7187,
+          "endMs": 7227,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "servicios",
+          "startMs": 7237,
+          "endMs": 7667,
+          "charStart": 38,
+          "charEnd": 47
+        },
+        {
+          "text": "básicos",
+          "startMs": 7677,
+          "endMs": 8087,
+          "charStart": 48,
+          "charEnd": 55
+        },
+        {
+          "text": "empujó",
+          "startMs": 8097,
+          "endMs": 8407,
+          "charStart": 56,
+          "charEnd": 62
+        },
+        {
+          "text": "a",
+          "startMs": 8417,
+          "endMs": 8437,
+          "charStart": 63,
+          "charEnd": 64
+        },
+        {
+          "text": "las",
+          "startMs": 8447,
+          "endMs": 8567,
+          "charStart": 65,
+          "charEnd": 68
+        },
+        {
+          "text": "generaciones",
+          "startMs": 8577,
+          "endMs": 9087,
+          "charStart": 69,
+          "charEnd": 81
+        },
+        {
+          "text": "jóvenes",
+          "startMs": 9097,
+          "endMs": 9417,
+          "charStart": 82,
+          "charEnd": 89
+        },
+        {
+          "text": "hacia",
+          "startMs": 9427,
+          "endMs": 9597,
+          "charStart": 90,
+          "charEnd": 95
+        },
+        {
+          "text": "las",
+          "startMs": 9607,
+          "endMs": 9737,
+          "charStart": 96,
+          "charEnd": 99
+        },
+        {
+          "text": "grandes",
+          "startMs": 9747,
+          "endMs": 10017,
+          "charStart": 100,
+          "charEnd": 107
+        },
+        {
+          "text": "metrópolis",
+          "startMs": 10027,
+          "endMs": 10607,
+          "charStart": 108,
+          "charEnd": 118
+        }
+      ]
+    },
+    {
+      "text": "No obstante, recientemente ha surgido un movimiento social dispuesto a revitalizar estas comunidades olvidadas.",
+      "startMs": 10988,
+      "endMs": 16748,
+      "words": [
+        {
+          "text": "No",
+          "startMs": 11088,
+          "endMs": 11288,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "obstante",
+          "startMs": 11298,
+          "endMs": 11738,
+          "charStart": 3,
+          "charEnd": 11
+        },
+        {
+          "text": "recientemente",
+          "startMs": 11913,
+          "endMs": 12593,
+          "charStart": 13,
+          "charEnd": 26
+        },
+        {
+          "text": "ha",
+          "startMs": 12603,
+          "endMs": 12643,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "surgido",
+          "startMs": 12653,
+          "endMs": 13033,
+          "charStart": 30,
+          "charEnd": 37
+        },
+        {
+          "text": "un",
+          "startMs": 13043,
+          "endMs": 13113,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "movimiento",
+          "startMs": 13123,
+          "endMs": 13513,
+          "charStart": 41,
+          "charEnd": 51
+        },
+        {
+          "text": "social",
+          "startMs": 13523,
+          "endMs": 13803,
+          "charStart": 52,
+          "charEnd": 58
+        },
+        {
+          "text": "dispuesto",
+          "startMs": 13813,
+          "endMs": 14213,
+          "charStart": 59,
+          "charEnd": 68
+        },
+        {
+          "text": "a",
+          "startMs": 14223,
+          "endMs": 14243,
+          "charStart": 69,
+          "charEnd": 70
+        },
+        {
+          "text": "revitalizar",
+          "startMs": 14253,
+          "endMs": 14753,
+          "charStart": 71,
+          "charEnd": 82
+        },
+        {
+          "text": "estas",
+          "startMs": 14763,
+          "endMs": 14983,
+          "charStart": 83,
+          "charEnd": 88
+        },
+        {
+          "text": "comunidades",
+          "startMs": 14993,
+          "endMs": 15463,
+          "charStart": 89,
+          "charEnd": 100
+        },
+        {
+          "text": "olvidadas",
+          "startMs": 15473,
+          "endMs": 16053,
+          "charStart": 101,
+          "charEnd": 110
+        }
+      ]
+    },
+    {
+      "text": "Varios emprendedores digitales se han instalado en aldeas remotas aprovechando la instalación de fibra óptica.",
+      "startMs": 16998,
+      "endMs": 22086,
+      "words": [
+        {
+          "text": "Varios",
+          "startMs": 17093,
+          "endMs": 17443,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "emprendedores",
+          "startMs": 17453,
+          "endMs": 17943,
+          "charStart": 7,
+          "charEnd": 20
+        },
+        {
+          "text": "digitales",
+          "startMs": 17953,
+          "endMs": 18383,
+          "charStart": 21,
+          "charEnd": 30
+        },
+        {
+          "text": "se",
+          "startMs": 18393,
+          "endMs": 18473,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "han",
+          "startMs": 18483,
+          "endMs": 18543,
+          "charStart": 34,
+          "charEnd": 37
+        },
+        {
+          "text": "instalado",
+          "startMs": 18553,
+          "endMs": 18943,
+          "charStart": 38,
+          "charEnd": 47
+        },
+        {
+          "text": "en",
+          "startMs": 18953,
+          "endMs": 19013,
+          "charStart": 48,
+          "charEnd": 50
+        },
+        {
+          "text": "aldeas",
+          "startMs": 19023,
+          "endMs": 19283,
+          "charStart": 51,
+          "charEnd": 57
+        },
+        {
+          "text": "remotas",
+          "startMs": 19293,
+          "endMs": 19613,
+          "charStart": 58,
+          "charEnd": 65
+        },
+        {
+          "text": "aprovechando",
+          "startMs": 19623,
+          "endMs": 20083,
+          "charStart": 66,
+          "charEnd": 78
+        },
+        {
+          "text": "la",
+          "startMs": 20093,
+          "endMs": 20153,
+          "charStart": 79,
+          "charEnd": 81
+        },
+        {
+          "text": "instalación",
+          "startMs": 20163,
+          "endMs": 20593,
+          "charStart": 82,
+          "charEnd": 93
+        },
+        {
+          "text": "de",
+          "startMs": 20603,
+          "endMs": 20683,
+          "charStart": 94,
+          "charEnd": 96
+        },
+        {
+          "text": "fibra",
+          "startMs": 20693,
+          "endMs": 20923,
+          "charStart": 97,
+          "charEnd": 102
+        },
+        {
+          "text": "óptica",
+          "startMs": 20933,
+          "endMs": 21383,
+          "charStart": 103,
+          "charEnd": 109
+        }
+      ]
+    },
+    {
+      "text": "Si el Estado no garantizara una atención sanitaria adecuada, sería imposible atraer a nuevos pobladores.",
+      "startMs": 22336,
+      "endMs": 27712,
+      "words": [
+        {
+          "text": "Si",
+          "startMs": 22436,
+          "endMs": 22666,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "el",
+          "startMs": 22676,
+          "endMs": 22736,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "Estado",
+          "startMs": 22746,
+          "endMs": 23026,
+          "charStart": 6,
+          "charEnd": 12
+        },
+        {
+          "text": "no",
+          "startMs": 23036,
+          "endMs": 23136,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "garantizara",
+          "startMs": 23146,
+          "endMs": 23616,
+          "charStart": 16,
+          "charEnd": 27
+        },
+        {
+          "text": "una",
+          "startMs": 23626,
+          "endMs": 23746,
+          "charStart": 28,
+          "charEnd": 31
+        },
+        {
+          "text": "atención",
+          "startMs": 23756,
+          "endMs": 24156,
+          "charStart": 32,
+          "charEnd": 40
+        },
+        {
+          "text": "sanitaria",
+          "startMs": 24166,
+          "endMs": 24566,
+          "charStart": 41,
+          "charEnd": 50
+        },
+        {
+          "text": "adecuada",
+          "startMs": 24576,
+          "endMs": 25016,
+          "charStart": 51,
+          "charEnd": 59
+        },
+        {
+          "text": "sería",
+          "startMs": 25216,
+          "endMs": 25466,
+          "charStart": 61,
+          "charEnd": 66
+        },
+        {
+          "text": "imposible",
+          "startMs": 25476,
+          "endMs": 25836,
+          "charStart": 67,
+          "charEnd": 76
+        },
+        {
+          "text": "atraer",
+          "startMs": 25846,
+          "endMs": 26116,
+          "charStart": 77,
+          "charEnd": 83
+        },
+        {
+          "text": "a",
+          "startMs": 26126,
+          "endMs": 26146,
+          "charStart": 84,
+          "charEnd": 85
+        },
+        {
+          "text": "nuevos",
+          "startMs": 26156,
+          "endMs": 26416,
+          "charStart": 86,
+          "charEnd": 92
+        },
+        {
+          "text": "pobladores",
+          "startMs": 26426,
+          "endMs": 27026,
+          "charStart": 93,
+          "charEnd": 103
+        }
+      ]
+    },
+    {
+      "text": "Es fundamental que las escuelas rurales permanezcan abiertas, por pocos que sean los alumnos matriculados.",
+      "startMs": 27962,
+      "endMs": 33314,
+      "words": [
+        {
+          "text": "Es",
+          "startMs": 28057,
+          "endMs": 28247,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "fundamental",
+          "startMs": 28257,
+          "endMs": 28787,
+          "charStart": 3,
+          "charEnd": 14
+        },
+        {
+          "text": "que",
+          "startMs": 28797,
+          "endMs": 28877,
+          "charStart": 15,
+          "charEnd": 18
+        },
+        {
+          "text": "las",
+          "startMs": 28887,
+          "endMs": 29017,
+          "charStart": 19,
+          "charEnd": 22
+        },
+        {
+          "text": "escuelas",
+          "startMs": 29027,
+          "endMs": 29357,
+          "charStart": 23,
+          "charEnd": 31
+        },
+        {
+          "text": "rurales",
+          "startMs": 29367,
+          "endMs": 29687,
+          "charStart": 32,
+          "charEnd": 39
+        },
+        {
+          "text": "permanezcan",
+          "startMs": 29697,
+          "endMs": 30147,
+          "charStart": 40,
+          "charEnd": 51
+        },
+        {
+          "text": "abiertas",
+          "startMs": 30157,
+          "endMs": 30597,
+          "charStart": 52,
+          "charEnd": 60
+        },
+        {
+          "text": "por",
+          "startMs": 30767,
+          "endMs": 30907,
+          "charStart": 62,
+          "charEnd": 65
+        },
+        {
+          "text": "pocos",
+          "startMs": 30917,
+          "endMs": 31177,
+          "charStart": 66,
+          "charEnd": 71
+        },
+        {
+          "text": "que",
+          "startMs": 31187,
+          "endMs": 31267,
+          "charStart": 72,
+          "charEnd": 75
+        },
+        {
+          "text": "sean",
+          "startMs": 31277,
+          "endMs": 31477,
+          "charStart": 76,
+          "charEnd": 80
+        },
+        {
+          "text": "los",
+          "startMs": 31487,
+          "endMs": 31617,
+          "charStart": 81,
+          "charEnd": 84
+        },
+        {
+          "text": "alumnos",
+          "startMs": 31627,
+          "endMs": 31927,
+          "charStart": 85,
+          "charEnd": 92
+        },
+        {
+          "text": "matriculados",
+          "startMs": 31937,
+          "endMs": 32627,
+          "charStart": 93,
+          "charEnd": 105
+        }
+      ]
+    },
+    {
+      "text": "Muchos antiguos urbanitas confiesan que su calidad de vida ha mejorado considerablemente desde que abandonaron la ciudad.",
+      "startMs": 33564,
+      "endMs": 38556,
+      "words": [
+        {
+          "text": "Muchos",
+          "startMs": 33659,
+          "endMs": 34019,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "antiguos",
+          "startMs": 34029,
+          "endMs": 34409,
+          "charStart": 7,
+          "charEnd": 15
+        },
+        {
+          "text": "urbanitas",
+          "startMs": 34419,
+          "endMs": 34839,
+          "charStart": 16,
+          "charEnd": 25
+        },
+        {
+          "text": "confiesan",
+          "startMs": 34849,
+          "endMs": 35289,
+          "charStart": 26,
+          "charEnd": 35
+        },
+        {
+          "text": "que",
+          "startMs": 35299,
+          "endMs": 35379,
+          "charStart": 36,
+          "charEnd": 39
+        },
+        {
+          "text": "su",
+          "startMs": 35389,
+          "endMs": 35489,
+          "charStart": 40,
+          "charEnd": 42
+        },
+        {
+          "text": "calidad",
+          "startMs": 35499,
+          "endMs": 35779,
+          "charStart": 43,
+          "charEnd": 50
+        },
+        {
+          "text": "de",
+          "startMs": 35789,
+          "endMs": 35859,
+          "charStart": 51,
+          "charEnd": 53
+        },
+        {
+          "text": "vida",
+          "startMs": 35869,
+          "endMs": 36049,
+          "charStart": 54,
+          "charEnd": 58
+        },
+        {
+          "text": "ha",
+          "startMs": 36059,
+          "endMs": 36099,
+          "charStart": 59,
+          "charEnd": 61
+        },
+        {
+          "text": "mejorado",
+          "startMs": 36109,
+          "endMs": 36499,
+          "charStart": 62,
+          "charEnd": 70
+        },
+        {
+          "text": "considerablemente",
+          "startMs": 36509,
+          "endMs": 37259,
+          "charStart": 71,
+          "charEnd": 88
+        },
+        {
+          "text": "desde",
+          "startMs": 37269,
+          "endMs": 37469,
+          "charStart": 89,
+          "charEnd": 94
+        },
+        {
+          "text": "que",
+          "startMs": 37479,
+          "endMs": 37549,
+          "charStart": 95,
+          "charEnd": 98
+        },
+        {
+          "text": "abandonaron",
+          "startMs": 37559,
+          "endMs": 37979,
+          "charStart": 99,
+          "charEnd": 110
+        },
+        {
+          "text": "la",
+          "startMs": 37989,
+          "endMs": 38069,
+          "charStart": 111,
+          "charEnd": 113
+        },
+        {
+          "text": "ciudad",
+          "startMs": 38079,
+          "endMs": 38429,
+          "charStart": 114,
+          "charEnd": 120
+        }
+      ]
+    },
+    {
+      "text": "Aunque algunos vecinos mayores desconfiaban al principio de las nuevas iniciativas, ahora agradecen la llegada de sangre fresca.",
+      "startMs": 38806,
+      "endMs": 44974,
+      "words": [
+        {
+          "text": "Aunque",
+          "startMs": 38901,
+          "endMs": 39171,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "algunos",
+          "startMs": 39181,
+          "endMs": 39421,
+          "charStart": 7,
+          "charEnd": 14
+        },
+        {
+          "text": "vecinos",
+          "startMs": 39431,
+          "endMs": 39731,
+          "charStart": 15,
+          "charEnd": 22
+        },
+        {
+          "text": "mayores",
+          "startMs": 39741,
+          "endMs": 40051,
+          "charStart": 23,
+          "charEnd": 30
+        },
+        {
+          "text": "desconfiaban",
+          "startMs": 40061,
+          "endMs": 40591,
+          "charStart": 31,
+          "charEnd": 43
+        },
+        {
+          "text": "al",
+          "startMs": 40601,
+          "endMs": 40671,
+          "charStart": 44,
+          "charEnd": 46
+        },
+        {
+          "text": "principio",
+          "startMs": 40681,
+          "endMs": 41071,
+          "charStart": 47,
+          "charEnd": 56
+        },
+        {
+          "text": "de",
+          "startMs": 41081,
+          "endMs": 41141,
+          "charStart": 57,
+          "charEnd": 59
+        },
+        {
+          "text": "las",
+          "startMs": 41151,
+          "endMs": 41281,
+          "charStart": 60,
+          "charEnd": 63
+        },
+        {
+          "text": "nuevas",
+          "startMs": 41291,
+          "endMs": 41531,
+          "charStart": 64,
+          "charEnd": 70
+        },
+        {
+          "text": "iniciativas",
+          "startMs": 41541,
+          "endMs": 42111,
+          "charStart": 71,
+          "charEnd": 82
+        },
+        {
+          "text": "ahora",
+          "startMs": 42321,
+          "endMs": 42621,
+          "charStart": 84,
+          "charEnd": 89
+        },
+        {
+          "text": "agradecen",
+          "startMs": 42631,
+          "endMs": 43011,
+          "charStart": 90,
+          "charEnd": 99
+        },
+        {
+          "text": "la",
+          "startMs": 43021,
+          "endMs": 43101,
+          "charStart": 100,
+          "charEnd": 102
+        },
+        {
+          "text": "llegada",
+          "startMs": 43111,
+          "endMs": 43401,
+          "charStart": 103,
+          "charEnd": 110
+        },
+        {
+          "text": "de",
+          "startMs": 43411,
+          "endMs": 43501,
+          "charStart": 111,
+          "charEnd": 113
+        },
+        {
+          "text": "sangre",
+          "startMs": 43511,
+          "endMs": 43781,
+          "charStart": 114,
+          "charEnd": 120
+        },
+        {
+          "text": "fresca",
+          "startMs": 43791,
+          "endMs": 44261,
+          "charStart": 121,
+          "charEnd": 127
+        }
+      ]
+    },
+    {
+      "text": "El turismo rural sostenible y la agricultura ecológica están demostrando ser motores económicos muy viables.",
+      "startMs": 45224,
+      "endMs": 50576,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 45319,
+          "endMs": 45499,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "turismo",
+          "startMs": 45509,
+          "endMs": 45819,
+          "charStart": 3,
+          "charEnd": 10
+        },
+        {
+          "text": "rural",
+          "startMs": 45829,
+          "endMs": 46069,
+          "charStart": 11,
+          "charEnd": 16
+        },
+        {
+          "text": "sostenible",
+          "startMs": 46079,
+          "endMs": 46539,
+          "charStart": 17,
+          "charEnd": 27
+        },
+        {
+          "text": "y",
+          "startMs": 46549,
+          "endMs": 46579,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "la",
+          "startMs": 46589,
+          "endMs": 46659,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "agricultura",
+          "startMs": 46669,
+          "endMs": 47119,
+          "charStart": 33,
+          "charEnd": 44
+        },
+        {
+          "text": "ecológica",
+          "startMs": 47129,
+          "endMs": 47599,
+          "charStart": 45,
+          "charEnd": 54
+        },
+        {
+          "text": "están",
+          "startMs": 47609,
+          "endMs": 47839,
+          "charStart": 55,
+          "charEnd": 60
+        },
+        {
+          "text": "demostrando",
+          "startMs": 47849,
+          "endMs": 48299,
+          "charStart": 61,
+          "charEnd": 72
+        },
+        {
+          "text": "ser",
+          "startMs": 48309,
+          "endMs": 48459,
+          "charStart": 73,
+          "charEnd": 76
+        },
+        {
+          "text": "motores",
+          "startMs": 48469,
+          "endMs": 48769,
+          "charStart": 77,
+          "charEnd": 84
+        },
+        {
+          "text": "económicos",
+          "startMs": 48779,
+          "endMs": 49249,
+          "charStart": 85,
+          "charEnd": 95
+        },
+        {
+          "text": "muy",
+          "startMs": 49259,
+          "endMs": 49389,
+          "charStart": 96,
+          "charEnd": 99
+        },
+        {
+          "text": "viables",
+          "startMs": 49399,
+          "endMs": 49889,
+          "charStart": 100,
+          "charEnd": 107
+        }
+      ]
+    },
+    {
+      "text": "Preservar la memoria histórica y el patrimonio etnográfico de estos valles constituye un deber moral hacia nuestros antepasados.",
+      "startMs": 50826,
+      "endMs": 57186,
+      "words": [
+        {
+          "text": "Preservar",
+          "startMs": 50926,
+          "endMs": 51366,
+          "charStart": 0,
+          "charEnd": 9
+        },
+        {
+          "text": "la",
+          "startMs": 51376,
+          "endMs": 51436,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "memoria",
+          "startMs": 51446,
+          "endMs": 51716,
+          "charStart": 13,
+          "charEnd": 20
+        },
+        {
+          "text": "histórica",
+          "startMs": 51726,
+          "endMs": 52126,
+          "charStart": 21,
+          "charEnd": 30
+        },
+        {
+          "text": "y",
+          "startMs": 52136,
+          "endMs": 52196,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "el",
+          "startMs": 52206,
+          "endMs": 52276,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "patrimonio",
+          "startMs": 52286,
+          "endMs": 52686,
+          "charStart": 36,
+          "charEnd": 46
+        },
+        {
+          "text": "etnográfico",
+          "startMs": 52696,
+          "endMs": 53206,
+          "charStart": 47,
+          "charEnd": 58
+        },
+        {
+          "text": "de",
+          "startMs": 53216,
+          "endMs": 53306,
+          "charStart": 59,
+          "charEnd": 61
+        },
+        {
+          "text": "estos",
+          "startMs": 53316,
+          "endMs": 53556,
+          "charStart": 62,
+          "charEnd": 67
+        },
+        {
+          "text": "valles",
+          "startMs": 53566,
+          "endMs": 53876,
+          "charStart": 68,
+          "charEnd": 74
+        },
+        {
+          "text": "constituye",
+          "startMs": 53886,
+          "endMs": 54366,
+          "charStart": 75,
+          "charEnd": 85
+        },
+        {
+          "text": "un",
+          "startMs": 54376,
+          "endMs": 54456,
+          "charStart": 86,
+          "charEnd": 88
+        },
+        {
+          "text": "deber",
+          "startMs": 54466,
+          "endMs": 54656,
+          "charStart": 89,
+          "charEnd": 94
+        },
+        {
+          "text": "moral",
+          "startMs": 54666,
+          "endMs": 54886,
+          "charStart": 95,
+          "charEnd": 100
+        },
+        {
+          "text": "hacia",
+          "startMs": 54896,
+          "endMs": 55276,
+          "charStart": 101,
+          "charEnd": 106
+        },
+        {
+          "text": "nuestros",
+          "startMs": 55391,
+          "endMs": 55781,
+          "charStart": 107,
+          "charEnd": 115
+        },
+        {
+          "text": "antepasados",
+          "startMs": 55791,
+          "endMs": 56491,
+          "charStart": 116,
+          "charEnd": 127
+        }
+      ]
+    }
+  ]
+}

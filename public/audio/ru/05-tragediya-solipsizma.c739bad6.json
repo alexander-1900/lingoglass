@@ -1,0 +1,732 @@
+{
+  "version": 3,
+  "lang": "ru",
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 54522,
+  "sentences": [
+    {
+      "text": "Фундаментальная проблема интерсубъективности обнажает трагическую изолированность индивидуального сознания.",
+      "startMs": 0,
+      "endMs": 5760,
+      "words": [
+        {
+          "text": "Фундаментальная",
+          "startMs": 100,
+          "endMs": 790,
+          "charStart": 0,
+          "charEnd": 15
+        },
+        {
+          "text": "проблема",
+          "startMs": 790,
+          "endMs": 1220,
+          "charStart": 16,
+          "charEnd": 24
+        },
+        {
+          "text": "интерсубъективности",
+          "startMs": 1220,
+          "endMs": 2160,
+          "charStart": 25,
+          "charEnd": 44
+        },
+        {
+          "text": "обнажает",
+          "startMs": 2160,
+          "endMs": 2630,
+          "charStart": 45,
+          "charEnd": 53
+        },
+        {
+          "text": "трагическую",
+          "startMs": 2630,
+          "endMs": 3200,
+          "charStart": 54,
+          "charEnd": 65
+        },
+        {
+          "text": "изолированность",
+          "startMs": 3200,
+          "endMs": 3890,
+          "charStart": 66,
+          "charEnd": 81
+        },
+        {
+          "text": "индивидуального",
+          "startMs": 3890,
+          "endMs": 4430,
+          "charStart": 82,
+          "charEnd": 97
+        },
+        {
+          "text": "сознания",
+          "startMs": 4430,
+          "endMs": 5030,
+          "charStart": 98,
+          "charEnd": 106
+        }
+      ]
+    },
+    {
+      "text": "Замкнутый в монадологической капсуле субъект обречён на вечный эпистемологический солипсизм.",
+      "startMs": 6010,
+      "endMs": 11002,
+      "words": [
+        {
+          "text": "Замкнутый",
+          "startMs": 6110,
+          "endMs": 6720,
+          "charStart": 0,
+          "charEnd": 9
+        },
+        {
+          "text": "в",
+          "startMs": 6720,
+          "endMs": 6760,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "монадологической",
+          "startMs": 6760,
+          "endMs": 7460,
+          "charStart": 12,
+          "charEnd": 28
+        },
+        {
+          "text": "капсуле",
+          "startMs": 7460,
+          "endMs": 7820,
+          "charStart": 29,
+          "charEnd": 36
+        },
+        {
+          "text": "субъект",
+          "startMs": 7820,
+          "endMs": 8200,
+          "charStart": 37,
+          "charEnd": 44
+        },
+        {
+          "text": "обречён",
+          "startMs": 8200,
+          "endMs": 8530,
+          "charStart": 45,
+          "charEnd": 52
+        },
+        {
+          "text": "на",
+          "startMs": 8530,
+          "endMs": 8640,
+          "charStart": 53,
+          "charEnd": 55
+        },
+        {
+          "text": "вечный",
+          "startMs": 8640,
+          "endMs": 9040,
+          "charStart": 56,
+          "charEnd": 62
+        },
+        {
+          "text": "эпистемологический",
+          "startMs": 9040,
+          "endMs": 9790,
+          "charStart": 63,
+          "charEnd": 81
+        },
+        {
+          "text": "солипсизм",
+          "startMs": 9790,
+          "endMs": 10320,
+          "charStart": 82,
+          "charEnd": 91
+        }
+      ]
+    },
+    {
+      "text": "Язык, призванный служить мостом взаимопонимания, зачастую превращается в непреодолимую стену.",
+      "startMs": 11252,
+      "endMs": 16724,
+      "words": [
+        {
+          "text": "Язык",
+          "startMs": 11352,
+          "endMs": 11902,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "призванный",
+          "startMs": 12002,
+          "endMs": 12352,
+          "charStart": 6,
+          "charEnd": 16
+        },
+        {
+          "text": "служить",
+          "startMs": 12352,
+          "endMs": 12672,
+          "charStart": 17,
+          "charEnd": 24
+        },
+        {
+          "text": "мостом",
+          "startMs": 12672,
+          "endMs": 13012,
+          "charStart": 25,
+          "charEnd": 31
+        },
+        {
+          "text": "взаимопонимания",
+          "startMs": 13012,
+          "endMs": 13722,
+          "charStart": 32,
+          "charEnd": 47
+        },
+        {
+          "text": "зачастую",
+          "startMs": 13982,
+          "endMs": 14372,
+          "charStart": 49,
+          "charEnd": 57
+        },
+        {
+          "text": "превращается",
+          "startMs": 14372,
+          "endMs": 14962,
+          "charStart": 58,
+          "charEnd": 70
+        },
+        {
+          "text": "в",
+          "startMs": 14962,
+          "endMs": 15032,
+          "charStart": 71,
+          "charEnd": 72
+        },
+        {
+          "text": "непреодолимую",
+          "startMs": 15032,
+          "endMs": 15622,
+          "charStart": 73,
+          "charEnd": 86
+        },
+        {
+          "text": "стену",
+          "startMs": 15622,
+          "endMs": 15992,
+          "charStart": 87,
+          "charEnd": 92
+        }
+      ]
+    },
+    {
+      "text": "Слова, отягощённые индивидуальными коннотациями, фатально искажают подлинную интенцию говорящего.",
+      "startMs": 16974,
+      "endMs": 22830,
+      "words": [
+        {
+          "text": "Слова",
+          "startMs": 17074,
+          "endMs": 17564,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "отягощённые",
+          "startMs": 17704,
+          "endMs": 18384,
+          "charStart": 7,
+          "charEnd": 18
+        },
+        {
+          "text": "индивидуальными",
+          "startMs": 18384,
+          "endMs": 18954,
+          "charStart": 19,
+          "charEnd": 34
+        },
+        {
+          "text": "коннотациями",
+          "startMs": 18954,
+          "endMs": 19514,
+          "charStart": 35,
+          "charEnd": 47
+        },
+        {
+          "text": "фатально",
+          "startMs": 19774,
+          "endMs": 20114,
+          "charStart": 49,
+          "charEnd": 57
+        },
+        {
+          "text": "искажают",
+          "startMs": 20114,
+          "endMs": 20564,
+          "charStart": 58,
+          "charEnd": 66
+        },
+        {
+          "text": "подлинную",
+          "startMs": 20564,
+          "endMs": 21044,
+          "charStart": 67,
+          "charEnd": 76
+        },
+        {
+          "text": "интенцию",
+          "startMs": 21044,
+          "endMs": 21524,
+          "charStart": 77,
+          "charEnd": 85
+        },
+        {
+          "text": "говорящего",
+          "startMs": 21524,
+          "endMs": 22094,
+          "charStart": 86,
+          "charEnd": 96
+        }
+      ]
+    },
+    {
+      "text": "Пытаясь выразить невыразимое, мысль неизбежно омертвляется в застывших лингвистических формах.",
+      "startMs": 23080,
+      "endMs": 28336,
+      "words": [
+        {
+          "text": "Пытаясь",
+          "startMs": 23180,
+          "endMs": 23550,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "выразить",
+          "startMs": 23550,
+          "endMs": 23950,
+          "charStart": 8,
+          "charEnd": 16
+        },
+        {
+          "text": "невыразимое",
+          "startMs": 23950,
+          "endMs": 24520,
+          "charStart": 17,
+          "charEnd": 28
+        },
+        {
+          "text": "мысль",
+          "startMs": 24790,
+          "endMs": 25090,
+          "charStart": 30,
+          "charEnd": 35
+        },
+        {
+          "text": "неизбежно",
+          "startMs": 25090,
+          "endMs": 25560,
+          "charStart": 36,
+          "charEnd": 45
+        },
+        {
+          "text": "омертвляется",
+          "startMs": 25560,
+          "endMs": 26060,
+          "charStart": 46,
+          "charEnd": 58
+        },
+        {
+          "text": "в",
+          "startMs": 26060,
+          "endMs": 26090,
+          "charStart": 59,
+          "charEnd": 60
+        },
+        {
+          "text": "застывших",
+          "startMs": 26090,
+          "endMs": 26590,
+          "charStart": 61,
+          "charEnd": 70
+        },
+        {
+          "text": "лингвистических",
+          "startMs": 26590,
+          "endMs": 27250,
+          "charStart": 71,
+          "charEnd": 86
+        },
+        {
+          "text": "формах",
+          "startMs": 27250,
+          "endMs": 27660,
+          "charStart": 87,
+          "charEnd": 93
+        }
+      ]
+    },
+    {
+      "text": "Два мыслящих существа обмениваются лишь конвенциональными знаками, не соприкасаясь сущностями.",
+      "startMs": 28586,
+      "endMs": 34082,
+      "words": [
+        {
+          "text": "Два",
+          "startMs": 28686,
+          "endMs": 29036,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "мыслящих",
+          "startMs": 29036,
+          "endMs": 29466,
+          "charStart": 4,
+          "charEnd": 12
+        },
+        {
+          "text": "существа",
+          "startMs": 29466,
+          "endMs": 29916,
+          "charStart": 13,
+          "charEnd": 21
+        },
+        {
+          "text": "обмениваются",
+          "startMs": 29916,
+          "endMs": 30546,
+          "charStart": 22,
+          "charEnd": 34
+        },
+        {
+          "text": "лишь",
+          "startMs": 30546,
+          "endMs": 30726,
+          "charStart": 35,
+          "charEnd": 39
+        },
+        {
+          "text": "конвенциональными",
+          "startMs": 30726,
+          "endMs": 31436,
+          "charStart": 40,
+          "charEnd": 57
+        },
+        {
+          "text": "знаками",
+          "startMs": 31436,
+          "endMs": 31776,
+          "charStart": 58,
+          "charEnd": 65
+        },
+        {
+          "text": "не",
+          "startMs": 32036,
+          "endMs": 32126,
+          "charStart": 67,
+          "charEnd": 69
+        },
+        {
+          "text": "соприкасаясь",
+          "startMs": 32126,
+          "endMs": 32696,
+          "charStart": 70,
+          "charEnd": 82
+        },
+        {
+          "text": "сущностями",
+          "startMs": 32696,
+          "endMs": 33356,
+          "charStart": 83,
+          "charEnd": 93
+        }
+      ]
+    },
+    {
+      "text": "Этот коммуникативный разрыв порождает ощущение неизбывного онтологического одиночества.",
+      "startMs": 34332,
+      "endMs": 39372,
+      "words": [
+        {
+          "text": "Этот",
+          "startMs": 34432,
+          "endMs": 34732,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "коммуникативный",
+          "startMs": 34732,
+          "endMs": 35312,
+          "charStart": 5,
+          "charEnd": 20
+        },
+        {
+          "text": "разрыв",
+          "startMs": 35312,
+          "endMs": 35692,
+          "charStart": 21,
+          "charEnd": 27
+        },
+        {
+          "text": "порождает",
+          "startMs": 35692,
+          "endMs": 36112,
+          "charStart": 28,
+          "charEnd": 37
+        },
+        {
+          "text": "ощущение",
+          "startMs": 36112,
+          "endMs": 36632,
+          "charStart": 38,
+          "charEnd": 46
+        },
+        {
+          "text": "неизбывного",
+          "startMs": 36632,
+          "endMs": 37252,
+          "charStart": 47,
+          "charEnd": 58
+        },
+        {
+          "text": "онтологического",
+          "startMs": 37252,
+          "endMs": 37992,
+          "charStart": 59,
+          "charEnd": 74
+        },
+        {
+          "text": "одиночества",
+          "startMs": 37992,
+          "endMs": 38662,
+          "charStart": 75,
+          "charEnd": 86
+        }
+      ]
+    },
+    {
+      "text": "Однако в редкие мгновения интуитивного резонанса иллюзия раздельности мгновенно рассеивается.",
+      "startMs": 39622,
+      "endMs": 44758,
+      "words": [
+        {
+          "text": "Однако",
+          "startMs": 39722,
+          "endMs": 40142,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "в",
+          "startMs": 40142,
+          "endMs": 40172,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "редкие",
+          "startMs": 40172,
+          "endMs": 40452,
+          "charStart": 9,
+          "charEnd": 15
+        },
+        {
+          "text": "мгновения",
+          "startMs": 40452,
+          "endMs": 40992,
+          "charStart": 16,
+          "charEnd": 25
+        },
+        {
+          "text": "интуитивного",
+          "startMs": 40992,
+          "endMs": 41512,
+          "charStart": 26,
+          "charEnd": 38
+        },
+        {
+          "text": "резонанса",
+          "startMs": 41512,
+          "endMs": 42042,
+          "charStart": 39,
+          "charEnd": 48
+        },
+        {
+          "text": "иллюзия",
+          "startMs": 42042,
+          "endMs": 42352,
+          "charStart": 49,
+          "charEnd": 56
+        },
+        {
+          "text": "раздельности",
+          "startMs": 42352,
+          "endMs": 42862,
+          "charStart": 57,
+          "charEnd": 69
+        },
+        {
+          "text": "мгновенно",
+          "startMs": 42862,
+          "endMs": 43362,
+          "charStart": 70,
+          "charEnd": 79
+        },
+        {
+          "text": "рассеивается",
+          "startMs": 43362,
+          "endMs": 44052,
+          "charStart": 80,
+          "charEnd": 92
+        }
+      ]
+    },
+    {
+      "text": "Безмолвный взгляд передаёт то, что навеки недоступно дискурсивному логосу.",
+      "startMs": 45008,
+      "endMs": 49592,
+      "words": [
+        {
+          "text": "Безмолвный",
+          "startMs": 45108,
+          "endMs": 45708,
+          "charStart": 0,
+          "charEnd": 10
+        },
+        {
+          "text": "взгляд",
+          "startMs": 45708,
+          "endMs": 46028,
+          "charStart": 11,
+          "charEnd": 17
+        },
+        {
+          "text": "передаёт",
+          "startMs": 46028,
+          "endMs": 46438,
+          "charStart": 18,
+          "charEnd": 26
+        },
+        {
+          "text": "то",
+          "startMs": 46438,
+          "endMs": 46618,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "что",
+          "startMs": 46868,
+          "endMs": 47018,
+          "charStart": 31,
+          "charEnd": 34
+        },
+        {
+          "text": "навеки",
+          "startMs": 47018,
+          "endMs": 47338,
+          "charStart": 35,
+          "charEnd": 41
+        },
+        {
+          "text": "недоступно",
+          "startMs": 47338,
+          "endMs": 47848,
+          "charStart": 42,
+          "charEnd": 52
+        },
+        {
+          "text": "дискурсивному",
+          "startMs": 47848,
+          "endMs": 48418,
+          "charStart": 53,
+          "charEnd": 66
+        },
+        {
+          "text": "логосу",
+          "startMs": 48418,
+          "endMs": 48868,
+          "charStart": 67,
+          "charEnd": 73
+        }
+      ]
+    },
+    {
+      "text": "Истинное понимание начинается там, где бессильное слово благоговейно умолкает.",
+      "startMs": 49842,
+      "endMs": 54522,
+      "words": [
+        {
+          "text": "Истинное",
+          "startMs": 49942,
+          "endMs": 50382,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "понимание",
+          "startMs": 50382,
+          "endMs": 50772,
+          "charStart": 9,
+          "charEnd": 18
+        },
+        {
+          "text": "начинается",
+          "startMs": 50772,
+          "endMs": 51232,
+          "charStart": 19,
+          "charEnd": 29
+        },
+        {
+          "text": "там",
+          "startMs": 51232,
+          "endMs": 51492,
+          "charStart": 30,
+          "charEnd": 33
+        },
+        {
+          "text": "где",
+          "startMs": 51702,
+          "endMs": 51902,
+          "charStart": 35,
+          "charEnd": 38
+        },
+        {
+          "text": "бессильное",
+          "startMs": 51902,
+          "endMs": 52332,
+          "charStart": 39,
+          "charEnd": 49
+        },
+        {
+          "text": "слово",
+          "startMs": 52332,
+          "endMs": 52612,
+          "charStart": 50,
+          "charEnd": 55
+        },
+        {
+          "text": "благоговейно",
+          "startMs": 52612,
+          "endMs": 53192,
+          "charStart": 56,
+          "charEnd": 68
+        },
+        {
+          "text": "умолкает",
+          "startMs": 53192,
+          "endMs": 53812,
+          "charStart": 69,
+          "charEnd": 77
+        }
+      ]
+    }
+  ]
+}

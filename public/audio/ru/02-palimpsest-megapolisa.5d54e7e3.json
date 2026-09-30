@@ -1,0 +1,837 @@
+{
+  "version": 3,
+  "lang": "ru",
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 60234,
+  "sentences": [
+    {
+      "text": "Величественный мегаполис являет собой причудливый палимпсест, наслоивший разнородные архитектурные парадигмы.",
+      "startMs": 0,
+      "endMs": 5832,
+      "words": [
+        {
+          "text": "Величественный",
+          "startMs": 100,
+          "endMs": 760,
+          "charStart": 0,
+          "charEnd": 14
+        },
+        {
+          "text": "мегаполис",
+          "startMs": 760,
+          "endMs": 1260,
+          "charStart": 15,
+          "charEnd": 24
+        },
+        {
+          "text": "являет",
+          "startMs": 1260,
+          "endMs": 1570,
+          "charStart": 25,
+          "charEnd": 31
+        },
+        {
+          "text": "собой",
+          "startMs": 1570,
+          "endMs": 1800,
+          "charStart": 32,
+          "charEnd": 37
+        },
+        {
+          "text": "причудливый",
+          "startMs": 1800,
+          "endMs": 2260,
+          "charStart": 38,
+          "charEnd": 49
+        },
+        {
+          "text": "палимпсест",
+          "startMs": 2260,
+          "endMs": 2720,
+          "charStart": 50,
+          "charEnd": 60
+        },
+        {
+          "text": "наслоивший",
+          "startMs": 2930,
+          "endMs": 3410,
+          "charStart": 62,
+          "charEnd": 72
+        },
+        {
+          "text": "разнородные",
+          "startMs": 3410,
+          "endMs": 3930,
+          "charStart": 73,
+          "charEnd": 84
+        },
+        {
+          "text": "архитектурные",
+          "startMs": 3930,
+          "endMs": 4590,
+          "charStart": 85,
+          "charEnd": 98
+        },
+        {
+          "text": "парадигмы",
+          "startMs": 4590,
+          "endMs": 5110,
+          "charStart": 99,
+          "charEnd": 108
+        }
+      ]
+    },
+    {
+      "text": "Барочные ансамбли органично соседствуют с монументальным конструктивизмом, создавая уникальный урбанистический контекст.",
+      "startMs": 6082,
+      "endMs": 12418,
+      "words": [
+        {
+          "text": "Барочные",
+          "startMs": 6182,
+          "endMs": 6742,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "ансамбли",
+          "startMs": 6742,
+          "endMs": 7162,
+          "charStart": 9,
+          "charEnd": 17
+        },
+        {
+          "text": "органично",
+          "startMs": 7162,
+          "endMs": 7662,
+          "charStart": 18,
+          "charEnd": 27
+        },
+        {
+          "text": "соседствуют",
+          "startMs": 7662,
+          "endMs": 8162,
+          "charStart": 28,
+          "charEnd": 39
+        },
+        {
+          "text": "с",
+          "startMs": 8162,
+          "endMs": 8212,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "монументальным",
+          "startMs": 8212,
+          "endMs": 8762,
+          "charStart": 42,
+          "charEnd": 56
+        },
+        {
+          "text": "конструктивизмом",
+          "startMs": 8762,
+          "endMs": 9432,
+          "charStart": 57,
+          "charEnd": 73
+        },
+        {
+          "text": "создавая",
+          "startMs": 9662,
+          "endMs": 10042,
+          "charStart": 75,
+          "charEnd": 83
+        },
+        {
+          "text": "уникальный",
+          "startMs": 10042,
+          "endMs": 10562,
+          "charStart": 84,
+          "charEnd": 94
+        },
+        {
+          "text": "урбанистический",
+          "startMs": 10562,
+          "endMs": 11242,
+          "charStart": 95,
+          "charEnd": 110
+        },
+        {
+          "text": "контекст",
+          "startMs": 11242,
+          "endMs": 11732,
+          "charStart": 111,
+          "charEnd": 119
+        }
+      ]
+    },
+    {
+      "text": "Прогуливаясь по гранитным набережным, вдумчивый фланёр улавливает тончайшие метаморфозы городского пространства.",
+      "startMs": 12668,
+      "endMs": 18332,
+      "words": [
+        {
+          "text": "Прогуливаясь",
+          "startMs": 12768,
+          "endMs": 13298,
+          "charStart": 0,
+          "charEnd": 12
+        },
+        {
+          "text": "по",
+          "startMs": 13298,
+          "endMs": 13378,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "гранитным",
+          "startMs": 13378,
+          "endMs": 13768,
+          "charStart": 16,
+          "charEnd": 25
+        },
+        {
+          "text": "набережным",
+          "startMs": 13768,
+          "endMs": 14208,
+          "charStart": 26,
+          "charEnd": 36
+        },
+        {
+          "text": "вдумчивый",
+          "startMs": 14428,
+          "endMs": 14818,
+          "charStart": 38,
+          "charEnd": 47
+        },
+        {
+          "text": "фланёр",
+          "startMs": 14818,
+          "endMs": 15178,
+          "charStart": 48,
+          "charEnd": 54
+        },
+        {
+          "text": "улавливает",
+          "startMs": 15178,
+          "endMs": 15648,
+          "charStart": 55,
+          "charEnd": 65
+        },
+        {
+          "text": "тончайшие",
+          "startMs": 15648,
+          "endMs": 16128,
+          "charStart": 66,
+          "charEnd": 75
+        },
+        {
+          "text": "метаморфозы",
+          "startMs": 16128,
+          "endMs": 16648,
+          "charStart": 76,
+          "charEnd": 87
+        },
+        {
+          "text": "городского",
+          "startMs": 16648,
+          "endMs": 17038,
+          "charStart": 88,
+          "charEnd": 98
+        },
+        {
+          "text": "пространства",
+          "startMs": 17038,
+          "endMs": 17628,
+          "charStart": 99,
+          "charEnd": 111
+        }
+      ]
+    },
+    {
+      "text": "Осыпающаяся штукатурка фасадов парадоксальным образом обнажает сокровенную сущность ушедших эпох.",
+      "startMs": 18582,
+      "endMs": 24054,
+      "words": [
+        {
+          "text": "Осыпающаяся",
+          "startMs": 18682,
+          "endMs": 19392,
+          "charStart": 0,
+          "charEnd": 11
+        },
+        {
+          "text": "штукатурка",
+          "startMs": 19392,
+          "endMs": 19842,
+          "charStart": 12,
+          "charEnd": 22
+        },
+        {
+          "text": "фасадов",
+          "startMs": 19842,
+          "endMs": 20262,
+          "charStart": 23,
+          "charEnd": 30
+        },
+        {
+          "text": "парадоксальным",
+          "startMs": 20262,
+          "endMs": 20822,
+          "charStart": 31,
+          "charEnd": 45
+        },
+        {
+          "text": "образом",
+          "startMs": 20822,
+          "endMs": 21202,
+          "charStart": 46,
+          "charEnd": 53
+        },
+        {
+          "text": "обнажает",
+          "startMs": 21202,
+          "endMs": 21612,
+          "charStart": 54,
+          "charEnd": 62
+        },
+        {
+          "text": "сокровенную",
+          "startMs": 21612,
+          "endMs": 22112,
+          "charStart": 63,
+          "charEnd": 74
+        },
+        {
+          "text": "сущность",
+          "startMs": 22112,
+          "endMs": 22592,
+          "charStart": 75,
+          "charEnd": 83
+        },
+        {
+          "text": "ушедших",
+          "startMs": 22592,
+          "endMs": 23002,
+          "charStart": 84,
+          "charEnd": 91
+        },
+        {
+          "text": "эпох",
+          "startMs": 23002,
+          "endMs": 23332,
+          "charStart": 92,
+          "charEnd": 96
+        }
+      ]
+    },
+    {
+      "text": "Современные девелоперы, движимые исключительно меркантильными интересами, нередко разрушают хрупкую историческую аутентичность.",
+      "startMs": 24304,
+      "endMs": 31096,
+      "words": [
+        {
+          "text": "Современные",
+          "startMs": 24404,
+          "endMs": 25004,
+          "charStart": 0,
+          "charEnd": 11
+        },
+        {
+          "text": "девелоперы",
+          "startMs": 25004,
+          "endMs": 25474,
+          "charStart": 12,
+          "charEnd": 22
+        },
+        {
+          "text": "движимые",
+          "startMs": 25624,
+          "endMs": 26094,
+          "charStart": 24,
+          "charEnd": 32
+        },
+        {
+          "text": "исключительно",
+          "startMs": 26094,
+          "endMs": 26634,
+          "charStart": 33,
+          "charEnd": 46
+        },
+        {
+          "text": "меркантильными",
+          "startMs": 26634,
+          "endMs": 27174,
+          "charStart": 47,
+          "charEnd": 61
+        },
+        {
+          "text": "интересами",
+          "startMs": 27174,
+          "endMs": 27624,
+          "charStart": 62,
+          "charEnd": 72
+        },
+        {
+          "text": "нередко",
+          "startMs": 27954,
+          "endMs": 28234,
+          "charStart": 74,
+          "charEnd": 81
+        },
+        {
+          "text": "разрушают",
+          "startMs": 28234,
+          "endMs": 28654,
+          "charStart": 82,
+          "charEnd": 91
+        },
+        {
+          "text": "хрупкую",
+          "startMs": 28654,
+          "endMs": 29064,
+          "charStart": 92,
+          "charEnd": 99
+        },
+        {
+          "text": "историческую",
+          "startMs": 29064,
+          "endMs": 29694,
+          "charStart": 100,
+          "charEnd": 112
+        },
+        {
+          "text": "аутентичность",
+          "startMs": 29694,
+          "endMs": 30434,
+          "charStart": 113,
+          "charEnd": 126
+        }
+      ]
+    },
+    {
+      "text": "Общественные активисты ведут непримиримую борьбу против варварского сноса памятников зодчества.",
+      "startMs": 31346,
+      "endMs": 36338,
+      "words": [
+        {
+          "text": "Общественные",
+          "startMs": 31446,
+          "endMs": 32036,
+          "charStart": 0,
+          "charEnd": 12
+        },
+        {
+          "text": "активисты",
+          "startMs": 32036,
+          "endMs": 32466,
+          "charStart": 13,
+          "charEnd": 22
+        },
+        {
+          "text": "ведут",
+          "startMs": 32466,
+          "endMs": 32766,
+          "charStart": 23,
+          "charEnd": 28
+        },
+        {
+          "text": "непримиримую",
+          "startMs": 32766,
+          "endMs": 33306,
+          "charStart": 29,
+          "charEnd": 41
+        },
+        {
+          "text": "борьбу",
+          "startMs": 33306,
+          "endMs": 33616,
+          "charStart": 42,
+          "charEnd": 48
+        },
+        {
+          "text": "против",
+          "startMs": 33616,
+          "endMs": 33936,
+          "charStart": 49,
+          "charEnd": 55
+        },
+        {
+          "text": "варварского",
+          "startMs": 33936,
+          "endMs": 34386,
+          "charStart": 56,
+          "charEnd": 67
+        },
+        {
+          "text": "сноса",
+          "startMs": 34386,
+          "endMs": 34696,
+          "charStart": 68,
+          "charEnd": 73
+        },
+        {
+          "text": "памятников",
+          "startMs": 34696,
+          "endMs": 35136,
+          "charStart": 74,
+          "charEnd": 84
+        },
+        {
+          "text": "зодчества",
+          "startMs": 35136,
+          "endMs": 35636,
+          "charStart": 85,
+          "charEnd": 94
+        }
+      ]
+    },
+    {
+      "text": "Сохранение материального наследия требует не просто консервации, но глубокой концептуальной ревитализации.",
+      "startMs": 36588,
+      "endMs": 42204,
+      "words": [
+        {
+          "text": "Сохранение",
+          "startMs": 36688,
+          "endMs": 37248,
+          "charStart": 0,
+          "charEnd": 10
+        },
+        {
+          "text": "материального",
+          "startMs": 37248,
+          "endMs": 37698,
+          "charStart": 11,
+          "charEnd": 24
+        },
+        {
+          "text": "наследия",
+          "startMs": 37698,
+          "endMs": 38118,
+          "charStart": 25,
+          "charEnd": 33
+        },
+        {
+          "text": "требует",
+          "startMs": 38118,
+          "endMs": 38488,
+          "charStart": 34,
+          "charEnd": 41
+        },
+        {
+          "text": "не",
+          "startMs": 38488,
+          "endMs": 38598,
+          "charStart": 42,
+          "charEnd": 44
+        },
+        {
+          "text": "просто",
+          "startMs": 38598,
+          "endMs": 38848,
+          "charStart": 45,
+          "charEnd": 51
+        },
+        {
+          "text": "консервации",
+          "startMs": 38848,
+          "endMs": 39408,
+          "charStart": 52,
+          "charEnd": 63
+        },
+        {
+          "text": "но",
+          "startMs": 39658,
+          "endMs": 39768,
+          "charStart": 65,
+          "charEnd": 67
+        },
+        {
+          "text": "глубокой",
+          "startMs": 39768,
+          "endMs": 40168,
+          "charStart": 68,
+          "charEnd": 76
+        },
+        {
+          "text": "концептуальной",
+          "startMs": 40168,
+          "endMs": 40778,
+          "charStart": 77,
+          "charEnd": 91
+        },
+        {
+          "text": "ревитализации",
+          "startMs": 40778,
+          "endMs": 41528,
+          "charStart": 92,
+          "charEnd": 105
+        }
+      ]
+    },
+    {
+      "text": "Интегрируя музейные пространства в живую ткань мегаполиса, урбанисты преодолевают мёртвенную статичность экспозиций.",
+      "startMs": 42454,
+      "endMs": 48574,
+      "words": [
+        {
+          "text": "Интегрируя",
+          "startMs": 42554,
+          "endMs": 43134,
+          "charStart": 0,
+          "charEnd": 10
+        },
+        {
+          "text": "музейные",
+          "startMs": 43134,
+          "endMs": 43544,
+          "charStart": 11,
+          "charEnd": 19
+        },
+        {
+          "text": "пространства",
+          "startMs": 43544,
+          "endMs": 44024,
+          "charStart": 20,
+          "charEnd": 32
+        },
+        {
+          "text": "в",
+          "startMs": 44024,
+          "endMs": 44054,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "живую",
+          "startMs": 44054,
+          "endMs": 44334,
+          "charStart": 35,
+          "charEnd": 40
+        },
+        {
+          "text": "ткань",
+          "startMs": 44334,
+          "endMs": 44554,
+          "charStart": 41,
+          "charEnd": 46
+        },
+        {
+          "text": "мегаполиса",
+          "startMs": 44554,
+          "endMs": 45064,
+          "charStart": 47,
+          "charEnd": 57
+        },
+        {
+          "text": "урбанисты",
+          "startMs": 45294,
+          "endMs": 45784,
+          "charStart": 59,
+          "charEnd": 68
+        },
+        {
+          "text": "преодолевают",
+          "startMs": 45784,
+          "endMs": 46274,
+          "charStart": 69,
+          "charEnd": 81
+        },
+        {
+          "text": "мёртвенную",
+          "startMs": 46274,
+          "endMs": 46704,
+          "charStart": 82,
+          "charEnd": 92
+        },
+        {
+          "text": "статичность",
+          "startMs": 46704,
+          "endMs": 47284,
+          "charStart": 93,
+          "charEnd": 104
+        },
+        {
+          "text": "экспозиций",
+          "startMs": 47284,
+          "endMs": 47904,
+          "charStart": 105,
+          "charEnd": 115
+        }
+      ]
+    },
+    {
+      "text": "Город оживает тогда, когда каждый камень начинает резонировать с экзистенцией его обитателей.",
+      "startMs": 48824,
+      "endMs": 54152,
+      "words": [
+        {
+          "text": "Город",
+          "startMs": 48924,
+          "endMs": 49434,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "оживает",
+          "startMs": 49434,
+          "endMs": 49764,
+          "charStart": 6,
+          "charEnd": 13
+        },
+        {
+          "text": "тогда",
+          "startMs": 49764,
+          "endMs": 50074,
+          "charStart": 14,
+          "charEnd": 19
+        },
+        {
+          "text": "когда",
+          "startMs": 50284,
+          "endMs": 50554,
+          "charStart": 21,
+          "charEnd": 26
+        },
+        {
+          "text": "каждый",
+          "startMs": 50554,
+          "endMs": 50894,
+          "charStart": 27,
+          "charEnd": 33
+        },
+        {
+          "text": "камень",
+          "startMs": 50894,
+          "endMs": 51164,
+          "charStart": 34,
+          "charEnd": 40
+        },
+        {
+          "text": "начинает",
+          "startMs": 51164,
+          "endMs": 51534,
+          "charStart": 41,
+          "charEnd": 49
+        },
+        {
+          "text": "резонировать",
+          "startMs": 51534,
+          "endMs": 52004,
+          "charStart": 50,
+          "charEnd": 62
+        },
+        {
+          "text": "с",
+          "startMs": 52004,
+          "endMs": 52074,
+          "charStart": 63,
+          "charEnd": 64
+        },
+        {
+          "text": "экзистенцией",
+          "startMs": 52074,
+          "endMs": 52694,
+          "charStart": 65,
+          "charEnd": 77
+        },
+        {
+          "text": "его",
+          "startMs": 52694,
+          "endMs": 52904,
+          "charStart": 78,
+          "charEnd": 81
+        },
+        {
+          "text": "обитателей",
+          "startMs": 52904,
+          "endMs": 53474,
+          "charStart": 82,
+          "charEnd": 92
+        }
+      ]
+    },
+    {
+      "text": "Так формируется коллективная культурная идентичность, неподвластная разрушительному воздействию неумолимого времени.",
+      "startMs": 54402,
+      "endMs": 60234,
+      "words": [
+        {
+          "text": "Так",
+          "startMs": 54502,
+          "endMs": 54722,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "формируется",
+          "startMs": 54722,
+          "endMs": 55192,
+          "charStart": 4,
+          "charEnd": 15
+        },
+        {
+          "text": "коллективная",
+          "startMs": 55192,
+          "endMs": 55672,
+          "charStart": 16,
+          "charEnd": 28
+        },
+        {
+          "text": "культурная",
+          "startMs": 55672,
+          "endMs": 56142,
+          "charStart": 29,
+          "charEnd": 39
+        },
+        {
+          "text": "идентичность",
+          "startMs": 56142,
+          "endMs": 56712,
+          "charStart": 40,
+          "charEnd": 52
+        },
+        {
+          "text": "неподвластная",
+          "startMs": 56902,
+          "endMs": 57442,
+          "charStart": 54,
+          "charEnd": 67
+        },
+        {
+          "text": "разрушительному",
+          "startMs": 57442,
+          "endMs": 58042,
+          "charStart": 68,
+          "charEnd": 83
+        },
+        {
+          "text": "воздействию",
+          "startMs": 58042,
+          "endMs": 58562,
+          "charStart": 84,
+          "charEnd": 95
+        },
+        {
+          "text": "неумолимого",
+          "startMs": 58562,
+          "endMs": 59102,
+          "charStart": 96,
+          "charEnd": 107
+        },
+        {
+          "text": "времени",
+          "startMs": 59102,
+          "endMs": 59512,
+          "charStart": 108,
+          "charEnd": 115
+        }
+      ]
+    }
+  ]
+}

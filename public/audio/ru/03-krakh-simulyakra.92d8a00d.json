@@ -1,0 +1,739 @@
+{
+  "version": 3,
+  "lang": "ru",
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 55770,
+  "sentences": [
+    {
+      "text": "Тотальная симуляция окончательно подменила референтную действительность калейдоскопом пустых означающих.",
+      "startMs": 0,
+      "endMs": 5424,
+      "words": [
+        {
+          "text": "Тотальная",
+          "startMs": 100,
+          "endMs": 530,
+          "charStart": 0,
+          "charEnd": 9
+        },
+        {
+          "text": "симуляция",
+          "startMs": 530,
+          "endMs": 1080,
+          "charStart": 10,
+          "charEnd": 19
+        },
+        {
+          "text": "окончательно",
+          "startMs": 1080,
+          "endMs": 1670,
+          "charStart": 20,
+          "charEnd": 32
+        },
+        {
+          "text": "подменила",
+          "startMs": 1670,
+          "endMs": 2090,
+          "charStart": 33,
+          "charEnd": 42
+        },
+        {
+          "text": "референтную",
+          "startMs": 2090,
+          "endMs": 2570,
+          "charStart": 43,
+          "charEnd": 54
+        },
+        {
+          "text": "действительность",
+          "startMs": 2570,
+          "endMs": 3090,
+          "charStart": 55,
+          "charEnd": 71
+        },
+        {
+          "text": "калейдоскопом",
+          "startMs": 3090,
+          "endMs": 3640,
+          "charStart": 72,
+          "charEnd": 85
+        },
+        {
+          "text": "пустых",
+          "startMs": 3640,
+          "endMs": 4040,
+          "charStart": 86,
+          "charEnd": 92
+        },
+        {
+          "text": "означающих",
+          "startMs": 4040,
+          "endMs": 4720,
+          "charStart": 93,
+          "charEnd": 103
+        }
+      ]
+    },
+    {
+      "text": "Гиперреальность, сконструированная медийными технологиями, нивелирует грань между подлинным и фальсифицированным.",
+      "startMs": 5674,
+      "endMs": 11482,
+      "words": [
+        {
+          "text": "Гиперреальность",
+          "startMs": 5774,
+          "endMs": 6564,
+          "charStart": 0,
+          "charEnd": 15
+        },
+        {
+          "text": "сконструированная",
+          "startMs": 6694,
+          "endMs": 7344,
+          "charStart": 17,
+          "charEnd": 34
+        },
+        {
+          "text": "медийными",
+          "startMs": 7344,
+          "endMs": 7724,
+          "charStart": 35,
+          "charEnd": 44
+        },
+        {
+          "text": "технологиями",
+          "startMs": 7724,
+          "endMs": 8264,
+          "charStart": 45,
+          "charEnd": 57
+        },
+        {
+          "text": "нивелирует",
+          "startMs": 8574,
+          "endMs": 8924,
+          "charStart": 59,
+          "charEnd": 69
+        },
+        {
+          "text": "грань",
+          "startMs": 8924,
+          "endMs": 9154,
+          "charStart": 70,
+          "charEnd": 75
+        },
+        {
+          "text": "между",
+          "startMs": 9154,
+          "endMs": 9404,
+          "charStart": 76,
+          "charEnd": 81
+        },
+        {
+          "text": "подлинным",
+          "startMs": 9404,
+          "endMs": 9844,
+          "charStart": 82,
+          "charEnd": 91
+        },
+        {
+          "text": "и",
+          "startMs": 9844,
+          "endMs": 9964,
+          "charStart": 92,
+          "charEnd": 93
+        },
+        {
+          "text": "фальсифицированным",
+          "startMs": 9964,
+          "endMs": 10754,
+          "charStart": 94,
+          "charEnd": 112
+        }
+      ]
+    },
+    {
+      "text": "Отчуждённый индивид безропотно потребляет тиражируемые образы, утрачивая способность к критической рефлексии.",
+      "startMs": 11732,
+      "endMs": 17732,
+      "words": [
+        {
+          "text": "Отчуждённый",
+          "startMs": 11832,
+          "endMs": 12452,
+          "charStart": 0,
+          "charEnd": 11
+        },
+        {
+          "text": "индивид",
+          "startMs": 12452,
+          "endMs": 12872,
+          "charStart": 12,
+          "charEnd": 19
+        },
+        {
+          "text": "безропотно",
+          "startMs": 12872,
+          "endMs": 13352,
+          "charStart": 20,
+          "charEnd": 30
+        },
+        {
+          "text": "потребляет",
+          "startMs": 13352,
+          "endMs": 13792,
+          "charStart": 31,
+          "charEnd": 41
+        },
+        {
+          "text": "тиражируемые",
+          "startMs": 13792,
+          "endMs": 14392,
+          "charStart": 42,
+          "charEnd": 54
+        },
+        {
+          "text": "образы",
+          "startMs": 14392,
+          "endMs": 14742,
+          "charStart": 55,
+          "charEnd": 61
+        },
+        {
+          "text": "утрачивая",
+          "startMs": 14942,
+          "endMs": 15412,
+          "charStart": 63,
+          "charEnd": 72
+        },
+        {
+          "text": "способность",
+          "startMs": 15412,
+          "endMs": 15952,
+          "charStart": 73,
+          "charEnd": 84
+        },
+        {
+          "text": "к",
+          "startMs": 15952,
+          "endMs": 15992,
+          "charStart": 85,
+          "charEnd": 86
+        },
+        {
+          "text": "критической",
+          "startMs": 15992,
+          "endMs": 16482,
+          "charStart": 87,
+          "charEnd": 98
+        },
+        {
+          "text": "рефлексии",
+          "startMs": 16482,
+          "endMs": 17052,
+          "charStart": 99,
+          "charEnd": 108
+        }
+      ]
+    },
+    {
+      "text": "Ирония и деконструкция, провозглашённые главными инструментами эмансипации, выродились в бесплодный интеллектуальный цинизм.",
+      "startMs": 17982,
+      "endMs": 24822,
+      "words": [
+        {
+          "text": "Ирония",
+          "startMs": 18082,
+          "endMs": 18652,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "и",
+          "startMs": 18652,
+          "endMs": 18712,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "деконструкция",
+          "startMs": 18712,
+          "endMs": 19372,
+          "charStart": 9,
+          "charEnd": 22
+        },
+        {
+          "text": "провозглашённые",
+          "startMs": 19542,
+          "endMs": 20172,
+          "charStart": 24,
+          "charEnd": 39
+        },
+        {
+          "text": "главными",
+          "startMs": 20172,
+          "endMs": 20552,
+          "charStart": 40,
+          "charEnd": 48
+        },
+        {
+          "text": "инструментами",
+          "startMs": 20552,
+          "endMs": 21152,
+          "charStart": 49,
+          "charEnd": 62
+        },
+        {
+          "text": "эмансипации",
+          "startMs": 21152,
+          "endMs": 21782,
+          "charStart": 63,
+          "charEnd": 74
+        },
+        {
+          "text": "выродились",
+          "startMs": 22082,
+          "endMs": 22492,
+          "charStart": 76,
+          "charEnd": 86
+        },
+        {
+          "text": "в",
+          "startMs": 22492,
+          "endMs": 22582,
+          "charStart": 87,
+          "charEnd": 88
+        },
+        {
+          "text": "бесплодный",
+          "startMs": 22582,
+          "endMs": 23122,
+          "charStart": 89,
+          "charEnd": 99
+        },
+        {
+          "text": "интеллектуальный",
+          "startMs": 23122,
+          "endMs": 23702,
+          "charStart": 100,
+          "charEnd": 116
+        },
+        {
+          "text": "цинизм",
+          "startMs": 23702,
+          "endMs": 24142,
+          "charStart": 117,
+          "charEnd": 123
+        }
+      ]
+    },
+    {
+      "text": "Жажда аутентичности наталкивается на глянцевую поверхность перманентного спектакля.",
+      "startMs": 25072,
+      "endMs": 29824,
+      "words": [
+        {
+          "text": "Жажда",
+          "startMs": 25172,
+          "endMs": 25672,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "аутентичности",
+          "startMs": 25672,
+          "endMs": 26402,
+          "charStart": 6,
+          "charEnd": 19
+        },
+        {
+          "text": "наталкивается",
+          "startMs": 26402,
+          "endMs": 26982,
+          "charStart": 20,
+          "charEnd": 33
+        },
+        {
+          "text": "на",
+          "startMs": 26982,
+          "endMs": 27102,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "глянцевую",
+          "startMs": 27102,
+          "endMs": 27522,
+          "charStart": 37,
+          "charEnd": 46
+        },
+        {
+          "text": "поверхность",
+          "startMs": 27522,
+          "endMs": 27992,
+          "charStart": 47,
+          "charEnd": 58
+        },
+        {
+          "text": "перманентного",
+          "startMs": 27992,
+          "endMs": 28522,
+          "charStart": 59,
+          "charEnd": 72
+        },
+        {
+          "text": "спектакля",
+          "startMs": 28522,
+          "endMs": 29102,
+          "charStart": 73,
+          "charEnd": 82
+        }
+      ]
+    },
+    {
+      "text": "Осознав иллюзорность навязанных симулякров, мыслитель пытается прорвать герметичный кокон виртуальности.",
+      "startMs": 30074,
+      "endMs": 35762,
+      "words": [
+        {
+          "text": "Осознав",
+          "startMs": 30174,
+          "endMs": 30744,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "иллюзорность",
+          "startMs": 30744,
+          "endMs": 31274,
+          "charStart": 8,
+          "charEnd": 20
+        },
+        {
+          "text": "навязанных",
+          "startMs": 31274,
+          "endMs": 31694,
+          "charStart": 21,
+          "charEnd": 31
+        },
+        {
+          "text": "симулякров",
+          "startMs": 31694,
+          "endMs": 32194,
+          "charStart": 32,
+          "charEnd": 42
+        },
+        {
+          "text": "мыслитель",
+          "startMs": 32384,
+          "endMs": 32784,
+          "charStart": 44,
+          "charEnd": 53
+        },
+        {
+          "text": "пытается",
+          "startMs": 32784,
+          "endMs": 33154,
+          "charStart": 54,
+          "charEnd": 62
+        },
+        {
+          "text": "прорвать",
+          "startMs": 33154,
+          "endMs": 33514,
+          "charStart": 63,
+          "charEnd": 71
+        },
+        {
+          "text": "герметичный",
+          "startMs": 33514,
+          "endMs": 34134,
+          "charStart": 72,
+          "charEnd": 83
+        },
+        {
+          "text": "кокон",
+          "startMs": 34134,
+          "endMs": 34394,
+          "charStart": 84,
+          "charEnd": 89
+        },
+        {
+          "text": "виртуальности",
+          "startMs": 34394,
+          "endMs": 35034,
+          "charStart": 90,
+          "charEnd": 103
+        }
+      ]
+    },
+    {
+      "text": "Только непосредственный экзистенциальный опыт боли способен разрушить цифровой наркоз.",
+      "startMs": 36012,
+      "endMs": 40692,
+      "words": [
+        {
+          "text": "Только",
+          "startMs": 36112,
+          "endMs": 36422,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "непосредственный",
+          "startMs": 36422,
+          "endMs": 37132,
+          "charStart": 7,
+          "charEnd": 23
+        },
+        {
+          "text": "экзистенциальный",
+          "startMs": 37132,
+          "endMs": 37792,
+          "charStart": 24,
+          "charEnd": 40
+        },
+        {
+          "text": "опыт",
+          "startMs": 37792,
+          "endMs": 38072,
+          "charStart": 41,
+          "charEnd": 45
+        },
+        {
+          "text": "боли",
+          "startMs": 38072,
+          "endMs": 38332,
+          "charStart": 46,
+          "charEnd": 50
+        },
+        {
+          "text": "способен",
+          "startMs": 38332,
+          "endMs": 38732,
+          "charStart": 51,
+          "charEnd": 59
+        },
+        {
+          "text": "разрушить",
+          "startMs": 38732,
+          "endMs": 39182,
+          "charStart": 60,
+          "charEnd": 69
+        },
+        {
+          "text": "цифровой",
+          "startMs": 39182,
+          "endMs": 39542,
+          "charStart": 70,
+          "charEnd": 78
+        },
+        {
+          "text": "наркоз",
+          "startMs": 39542,
+          "endMs": 39982,
+          "charStart": 79,
+          "charEnd": 85
+        }
+      ]
+    },
+    {
+      "text": "Освобождённое сознание мучительно возвращается к первичным онтологическим смыслам.",
+      "startMs": 40942,
+      "endMs": 45622,
+      "words": [
+        {
+          "text": "Освобождённое",
+          "startMs": 41042,
+          "endMs": 41772,
+          "charStart": 0,
+          "charEnd": 13
+        },
+        {
+          "text": "сознание",
+          "startMs": 41772,
+          "endMs": 42202,
+          "charStart": 14,
+          "charEnd": 22
+        },
+        {
+          "text": "мучительно",
+          "startMs": 42202,
+          "endMs": 42642,
+          "charStart": 23,
+          "charEnd": 33
+        },
+        {
+          "text": "возвращается",
+          "startMs": 42642,
+          "endMs": 43252,
+          "charStart": 34,
+          "charEnd": 46
+        },
+        {
+          "text": "к",
+          "startMs": 43252,
+          "endMs": 43322,
+          "charStart": 47,
+          "charEnd": 48
+        },
+        {
+          "text": "первичным",
+          "startMs": 43322,
+          "endMs": 43892,
+          "charStart": 49,
+          "charEnd": 58
+        },
+        {
+          "text": "онтологическим",
+          "startMs": 43892,
+          "endMs": 44502,
+          "charStart": 59,
+          "charEnd": 73
+        },
+        {
+          "text": "смыслам",
+          "startMs": 44502,
+          "endMs": 44932,
+          "charStart": 74,
+          "charEnd": 81
+        }
+      ]
+    },
+    {
+      "text": "Сквозь обломки постмодернистских конструктов вновь проглядывает неприкрытая трагедия бытия.",
+      "startMs": 45872,
+      "endMs": 51080,
+      "words": [
+        {
+          "text": "Сквозь",
+          "startMs": 45972,
+          "endMs": 46372,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "обломки",
+          "startMs": 46372,
+          "endMs": 46772,
+          "charStart": 7,
+          "charEnd": 14
+        },
+        {
+          "text": "постмодернистских",
+          "startMs": 46772,
+          "endMs": 47492,
+          "charStart": 15,
+          "charEnd": 32
+        },
+        {
+          "text": "конструктов",
+          "startMs": 47492,
+          "endMs": 48062,
+          "charStart": 33,
+          "charEnd": 44
+        },
+        {
+          "text": "вновь",
+          "startMs": 48062,
+          "endMs": 48422,
+          "charStart": 45,
+          "charEnd": 50
+        },
+        {
+          "text": "проглядывает",
+          "startMs": 48422,
+          "endMs": 48952,
+          "charStart": 51,
+          "charEnd": 63
+        },
+        {
+          "text": "неприкрытая",
+          "startMs": 48952,
+          "endMs": 49502,
+          "charStart": 64,
+          "charEnd": 75
+        },
+        {
+          "text": "трагедия",
+          "startMs": 49502,
+          "endMs": 49912,
+          "charStart": 76,
+          "charEnd": 84
+        },
+        {
+          "text": "бытия",
+          "startMs": 49912,
+          "endMs": 50352,
+          "charStart": 85,
+          "charEnd": 90
+        }
+      ]
+    },
+    {
+      "text": "Обретение подлинности требует мужественного отречения от комфортного небытия.",
+      "startMs": 51330,
+      "endMs": 55770,
+      "words": [
+        {
+          "text": "Обретение",
+          "startMs": 51430,
+          "endMs": 51980,
+          "charStart": 0,
+          "charEnd": 9
+        },
+        {
+          "text": "подлинности",
+          "startMs": 51980,
+          "endMs": 52480,
+          "charStart": 10,
+          "charEnd": 21
+        },
+        {
+          "text": "требует",
+          "startMs": 52480,
+          "endMs": 52830,
+          "charStart": 22,
+          "charEnd": 29
+        },
+        {
+          "text": "мужественного",
+          "startMs": 52830,
+          "endMs": 53350,
+          "charStart": 30,
+          "charEnd": 43
+        },
+        {
+          "text": "отречения",
+          "startMs": 53350,
+          "endMs": 53870,
+          "charStart": 44,
+          "charEnd": 53
+        },
+        {
+          "text": "от",
+          "startMs": 53870,
+          "endMs": 54030,
+          "charStart": 54,
+          "charEnd": 56
+        },
+        {
+          "text": "комфортного",
+          "startMs": 54030,
+          "endMs": 54510,
+          "charStart": 57,
+          "charEnd": 68
+        },
+        {
+          "text": "небытия",
+          "startMs": 54510,
+          "endMs": 55030,
+          "charStart": 69,
+          "charEnd": 76
+        }
+      ]
+    }
+  ]
+}

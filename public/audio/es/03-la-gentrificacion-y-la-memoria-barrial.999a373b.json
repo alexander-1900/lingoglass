@@ -1,0 +1,1397 @@
+{
+  "version": 3,
+  "lang": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 73842,
+  "sentences": [
+    {
+      "text": "La paulatina transformación del antiguo arrabal obrero en un epicentro de especulación inmobiliaria alteró irreversiblemente su fisonomía vernácula.",
+      "startMs": 0,
+      "endMs": 7104,
+      "words": [
+        {
+          "text": "La",
+          "startMs": 100,
+          "endMs": 300,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "paulatina",
+          "startMs": 310,
+          "endMs": 690,
+          "charStart": 3,
+          "charEnd": 12
+        },
+        {
+          "text": "transformación",
+          "startMs": 700,
+          "endMs": 1250,
+          "charStart": 13,
+          "charEnd": 27
+        },
+        {
+          "text": "del",
+          "startMs": 1260,
+          "endMs": 1360,
+          "charStart": 28,
+          "charEnd": 31
+        },
+        {
+          "text": "antiguo",
+          "startMs": 1370,
+          "endMs": 1710,
+          "charStart": 32,
+          "charEnd": 39
+        },
+        {
+          "text": "arrabal",
+          "startMs": 1720,
+          "endMs": 2010,
+          "charStart": 40,
+          "charEnd": 47
+        },
+        {
+          "text": "obrero",
+          "startMs": 2020,
+          "endMs": 2280,
+          "charStart": 48,
+          "charEnd": 54
+        },
+        {
+          "text": "en",
+          "startMs": 2290,
+          "endMs": 2370,
+          "charStart": 55,
+          "charEnd": 57
+        },
+        {
+          "text": "un",
+          "startMs": 2380,
+          "endMs": 2450,
+          "charStart": 58,
+          "charEnd": 60
+        },
+        {
+          "text": "epicentro",
+          "startMs": 2460,
+          "endMs": 2850,
+          "charStart": 61,
+          "charEnd": 70
+        },
+        {
+          "text": "de",
+          "startMs": 2860,
+          "endMs": 2920,
+          "charStart": 71,
+          "charEnd": 73
+        },
+        {
+          "text": "especulación",
+          "startMs": 2930,
+          "endMs": 3460,
+          "charStart": 74,
+          "charEnd": 86
+        },
+        {
+          "text": "inmobiliaria",
+          "startMs": 3470,
+          "endMs": 3930,
+          "charStart": 87,
+          "charEnd": 99
+        },
+        {
+          "text": "alteró",
+          "startMs": 3940,
+          "endMs": 4340,
+          "charStart": 100,
+          "charEnd": 106
+        },
+        {
+          "text": "irreversiblemente",
+          "startMs": 4460,
+          "endMs": 5300,
+          "charStart": 107,
+          "charEnd": 124
+        },
+        {
+          "text": "su",
+          "startMs": 5310,
+          "endMs": 5410,
+          "charStart": 125,
+          "charEnd": 127
+        },
+        {
+          "text": "fisonomía",
+          "startMs": 5420,
+          "endMs": 5830,
+          "charStart": 128,
+          "charEnd": 137
+        },
+        {
+          "text": "vernácula",
+          "startMs": 5840,
+          "endMs": 6400,
+          "charStart": 138,
+          "charEnd": 147
+        }
+      ]
+    },
+    {
+      "text": "Antiguos talleres artesanales y tabernas centenarias fueron reemplazados vertiginosamente por exclusivas galerías de arte y cafeterías minimalistas.",
+      "startMs": 7354,
+      "endMs": 14866,
+      "words": [
+        {
+          "text": "Antiguos",
+          "startMs": 7464,
+          "endMs": 7874,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "talleres",
+          "startMs": 7884,
+          "endMs": 8194,
+          "charStart": 9,
+          "charEnd": 17
+        },
+        {
+          "text": "artesanales",
+          "startMs": 8204,
+          "endMs": 8744,
+          "charStart": 18,
+          "charEnd": 29
+        },
+        {
+          "text": "y",
+          "startMs": 8754,
+          "endMs": 8794,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "tabernas",
+          "startMs": 8804,
+          "endMs": 9154,
+          "charStart": 32,
+          "charEnd": 40
+        },
+        {
+          "text": "centenarias",
+          "startMs": 9164,
+          "endMs": 9684,
+          "charStart": 41,
+          "charEnd": 52
+        },
+        {
+          "text": "fueron",
+          "startMs": 9694,
+          "endMs": 9914,
+          "charStart": 53,
+          "charEnd": 59
+        },
+        {
+          "text": "reemplazados",
+          "startMs": 9924,
+          "endMs": 10484,
+          "charStart": 60,
+          "charEnd": 72
+        },
+        {
+          "text": "vertiginosamente",
+          "startMs": 10494,
+          "endMs": 11224,
+          "charStart": 73,
+          "charEnd": 89
+        },
+        {
+          "text": "por",
+          "startMs": 11234,
+          "endMs": 11354,
+          "charStart": 90,
+          "charEnd": 93
+        },
+        {
+          "text": "exclusivas",
+          "startMs": 11364,
+          "endMs": 12034,
+          "charStart": 94,
+          "charEnd": 104
+        },
+        {
+          "text": "galerías",
+          "startMs": 12164,
+          "endMs": 12634,
+          "charStart": 105,
+          "charEnd": 113
+        },
+        {
+          "text": "de",
+          "startMs": 12644,
+          "endMs": 12724,
+          "charStart": 114,
+          "charEnd": 116
+        },
+        {
+          "text": "arte",
+          "startMs": 12734,
+          "endMs": 12934,
+          "charStart": 117,
+          "charEnd": 121
+        },
+        {
+          "text": "y",
+          "startMs": 12944,
+          "endMs": 12984,
+          "charStart": 122,
+          "charEnd": 123
+        },
+        {
+          "text": "cafeterías",
+          "startMs": 12994,
+          "endMs": 13464,
+          "charStart": 124,
+          "charEnd": 134
+        },
+        {
+          "text": "minimalistas",
+          "startMs": 13474,
+          "endMs": 14174,
+          "charStart": 135,
+          "charEnd": 147
+        }
+      ]
+    },
+    {
+      "text": "Los vecinos originarios, asfixiados por la escalada implacable del alquiler, se vieron compelidos a desocupar sus viviendas ancestrales.",
+      "startMs": 15116,
+      "endMs": 22028,
+      "words": [
+        {
+          "text": "Los",
+          "startMs": 15216,
+          "endMs": 15456,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "vecinos",
+          "startMs": 15466,
+          "endMs": 15786,
+          "charStart": 4,
+          "charEnd": 11
+        },
+        {
+          "text": "originarios",
+          "startMs": 15796,
+          "endMs": 16346,
+          "charStart": 12,
+          "charEnd": 23
+        },
+        {
+          "text": "asfixiados",
+          "startMs": 16556,
+          "endMs": 17066,
+          "charStart": 25,
+          "charEnd": 35
+        },
+        {
+          "text": "por",
+          "startMs": 17076,
+          "endMs": 17196,
+          "charStart": 36,
+          "charEnd": 39
+        },
+        {
+          "text": "la",
+          "startMs": 17206,
+          "endMs": 17266,
+          "charStart": 40,
+          "charEnd": 42
+        },
+        {
+          "text": "escalada",
+          "startMs": 17276,
+          "endMs": 17606,
+          "charStart": 43,
+          "charEnd": 51
+        },
+        {
+          "text": "implacable",
+          "startMs": 17616,
+          "endMs": 18016,
+          "charStart": 52,
+          "charEnd": 62
+        },
+        {
+          "text": "del",
+          "startMs": 18026,
+          "endMs": 18126,
+          "charStart": 63,
+          "charEnd": 66
+        },
+        {
+          "text": "alquiler",
+          "startMs": 18136,
+          "endMs": 18506,
+          "charStart": 67,
+          "charEnd": 75
+        },
+        {
+          "text": "se",
+          "startMs": 18736,
+          "endMs": 18946,
+          "charStart": 77,
+          "charEnd": 79
+        },
+        {
+          "text": "vieron",
+          "startMs": 18956,
+          "endMs": 19176,
+          "charStart": 80,
+          "charEnd": 86
+        },
+        {
+          "text": "compelidos",
+          "startMs": 19186,
+          "endMs": 19626,
+          "charStart": 87,
+          "charEnd": 97
+        },
+        {
+          "text": "a",
+          "startMs": 19636,
+          "endMs": 19666,
+          "charStart": 98,
+          "charEnd": 99
+        },
+        {
+          "text": "desocupar",
+          "startMs": 19676,
+          "endMs": 20106,
+          "charStart": 100,
+          "charEnd": 109
+        },
+        {
+          "text": "sus",
+          "startMs": 20116,
+          "endMs": 20256,
+          "charStart": 110,
+          "charEnd": 113
+        },
+        {
+          "text": "viviendas",
+          "startMs": 20266,
+          "endMs": 20626,
+          "charStart": 114,
+          "charEnd": 123
+        },
+        {
+          "text": "ancestrales",
+          "startMs": 20636,
+          "endMs": 21326,
+          "charStart": 124,
+          "charEnd": 135
+        }
+      ]
+    },
+    {
+      "text": "Pese a que las autoridades locales ensalzaban la revitalización urbana, subyacía una flagrante fractura socioeconómica entre los recién llegados y los pobladores autóctonos.",
+      "startMs": 22278,
+      "endMs": 30294,
+      "words": [
+        {
+          "text": "Pese",
+          "startMs": 22378,
+          "endMs": 22648,
+          "charStart": 0,
+          "charEnd": 4
+        },
+        {
+          "text": "a",
+          "startMs": 22658,
+          "endMs": 22688,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "que",
+          "startMs": 22698,
+          "endMs": 22778,
+          "charStart": 7,
+          "charEnd": 10
+        },
+        {
+          "text": "las",
+          "startMs": 22788,
+          "endMs": 22908,
+          "charStart": 11,
+          "charEnd": 14
+        },
+        {
+          "text": "autoridades",
+          "startMs": 22918,
+          "endMs": 23338,
+          "charStart": 15,
+          "charEnd": 26
+        },
+        {
+          "text": "locales",
+          "startMs": 23348,
+          "endMs": 23688,
+          "charStart": 27,
+          "charEnd": 34
+        },
+        {
+          "text": "ensalzaban",
+          "startMs": 23698,
+          "endMs": 24118,
+          "charStart": 35,
+          "charEnd": 45
+        },
+        {
+          "text": "la",
+          "startMs": 24128,
+          "endMs": 24188,
+          "charStart": 46,
+          "charEnd": 48
+        },
+        {
+          "text": "revitalización",
+          "startMs": 24198,
+          "endMs": 24778,
+          "charStart": 49,
+          "charEnd": 63
+        },
+        {
+          "text": "urbana",
+          "startMs": 24788,
+          "endMs": 25128,
+          "charStart": 64,
+          "charEnd": 70
+        },
+        {
+          "text": "subyacía",
+          "startMs": 25358,
+          "endMs": 25898,
+          "charStart": 72,
+          "charEnd": 80
+        },
+        {
+          "text": "una",
+          "startMs": 25908,
+          "endMs": 26048,
+          "charStart": 81,
+          "charEnd": 84
+        },
+        {
+          "text": "flagrante",
+          "startMs": 26058,
+          "endMs": 26458,
+          "charStart": 85,
+          "charEnd": 94
+        },
+        {
+          "text": "fractura",
+          "startMs": 26468,
+          "endMs": 26818,
+          "charStart": 95,
+          "charEnd": 103
+        },
+        {
+          "text": "socioeconómica",
+          "startMs": 26828,
+          "endMs": 27478,
+          "charStart": 104,
+          "charEnd": 118
+        },
+        {
+          "text": "entre",
+          "startMs": 27488,
+          "endMs": 27668,
+          "charStart": 119,
+          "charEnd": 124
+        },
+        {
+          "text": "los",
+          "startMs": 27678,
+          "endMs": 27778,
+          "charStart": 125,
+          "charEnd": 128
+        },
+        {
+          "text": "recién",
+          "startMs": 27788,
+          "endMs": 28038,
+          "charStart": 129,
+          "charEnd": 135
+        },
+        {
+          "text": "llegados",
+          "startMs": 28048,
+          "endMs": 28398,
+          "charStart": 136,
+          "charEnd": 144
+        },
+        {
+          "text": "y",
+          "startMs": 28408,
+          "endMs": 28438,
+          "charStart": 145,
+          "charEnd": 146
+        },
+        {
+          "text": "los",
+          "startMs": 28448,
+          "endMs": 28568,
+          "charStart": 147,
+          "charEnd": 150
+        },
+        {
+          "text": "pobladores",
+          "startMs": 28578,
+          "endMs": 28968,
+          "charStart": 151,
+          "charEnd": 161
+        },
+        {
+          "text": "autóctonos",
+          "startMs": 28978,
+          "endMs": 29608,
+          "charStart": 162,
+          "charEnd": 172
+        }
+      ]
+    },
+    {
+      "text": "Diversos colectivos vecinales convocaron asambleas espontáneas con el propósito de blindar el patrimonio inmaterial frente al desarraigo.",
+      "startMs": 30544,
+      "endMs": 37312,
+      "words": [
+        {
+          "text": "Diversos",
+          "startMs": 30639,
+          "endMs": 31079,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "colectivos",
+          "startMs": 31089,
+          "endMs": 31509,
+          "charStart": 9,
+          "charEnd": 19
+        },
+        {
+          "text": "vecinales",
+          "startMs": 31519,
+          "endMs": 31979,
+          "charStart": 20,
+          "charEnd": 29
+        },
+        {
+          "text": "convocaron",
+          "startMs": 31989,
+          "endMs": 32429,
+          "charStart": 30,
+          "charEnd": 40
+        },
+        {
+          "text": "asambleas",
+          "startMs": 32439,
+          "endMs": 32839,
+          "charStart": 41,
+          "charEnd": 50
+        },
+        {
+          "text": "espontáneas",
+          "startMs": 32849,
+          "endMs": 33379,
+          "charStart": 51,
+          "charEnd": 62
+        },
+        {
+          "text": "con",
+          "startMs": 33389,
+          "endMs": 33509,
+          "charStart": 63,
+          "charEnd": 66
+        },
+        {
+          "text": "el",
+          "startMs": 33519,
+          "endMs": 33589,
+          "charStart": 67,
+          "charEnd": 69
+        },
+        {
+          "text": "propósito",
+          "startMs": 33599,
+          "endMs": 34019,
+          "charStart": 70,
+          "charEnd": 79
+        },
+        {
+          "text": "de",
+          "startMs": 34029,
+          "endMs": 34099,
+          "charStart": 80,
+          "charEnd": 82
+        },
+        {
+          "text": "blindar",
+          "startMs": 34109,
+          "endMs": 34379,
+          "charStart": 83,
+          "charEnd": 90
+        },
+        {
+          "text": "el",
+          "startMs": 34389,
+          "endMs": 34459,
+          "charStart": 91,
+          "charEnd": 93
+        },
+        {
+          "text": "patrimonio",
+          "startMs": 34469,
+          "endMs": 35049,
+          "charStart": 94,
+          "charEnd": 104
+        },
+        {
+          "text": "inmaterial",
+          "startMs": 35169,
+          "endMs": 35739,
+          "charStart": 105,
+          "charEnd": 115
+        },
+        {
+          "text": "frente",
+          "startMs": 35749,
+          "endMs": 35979,
+          "charStart": 116,
+          "charEnd": 122
+        },
+        {
+          "text": "al",
+          "startMs": 35989,
+          "endMs": 36039,
+          "charStart": 123,
+          "charEnd": 125
+        },
+        {
+          "text": "desarraigo",
+          "startMs": 36049,
+          "endMs": 36609,
+          "charStart": 126,
+          "charEnd": 136
+        }
+      ]
+    },
+    {
+      "text": "Pintadas reivindicativas en los muros desconchados atestiguaban el profundo desasosiego de una comunidad privada de su memoria colectiva.",
+      "startMs": 37562,
+      "endMs": 44090,
+      "words": [
+        {
+          "text": "Pintadas",
+          "startMs": 37657,
+          "endMs": 38087,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "reivindicativas",
+          "startMs": 38097,
+          "endMs": 38757,
+          "charStart": 9,
+          "charEnd": 24
+        },
+        {
+          "text": "en",
+          "startMs": 38767,
+          "endMs": 38827,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "los",
+          "startMs": 38837,
+          "endMs": 38957,
+          "charStart": 28,
+          "charEnd": 31
+        },
+        {
+          "text": "muros",
+          "startMs": 38967,
+          "endMs": 39177,
+          "charStart": 32,
+          "charEnd": 37
+        },
+        {
+          "text": "desconchados",
+          "startMs": 39187,
+          "endMs": 39667,
+          "charStart": 38,
+          "charEnd": 50
+        },
+        {
+          "text": "atestiguaban",
+          "startMs": 39677,
+          "endMs": 40187,
+          "charStart": 51,
+          "charEnd": 63
+        },
+        {
+          "text": "el",
+          "startMs": 40197,
+          "endMs": 40277,
+          "charStart": 64,
+          "charEnd": 66
+        },
+        {
+          "text": "profundo",
+          "startMs": 40287,
+          "endMs": 40617,
+          "charStart": 67,
+          "charEnd": 75
+        },
+        {
+          "text": "desasosiego",
+          "startMs": 40627,
+          "endMs": 41127,
+          "charStart": 76,
+          "charEnd": 87
+        },
+        {
+          "text": "de",
+          "startMs": 41137,
+          "endMs": 41217,
+          "charStart": 88,
+          "charEnd": 90
+        },
+        {
+          "text": "una",
+          "startMs": 41227,
+          "endMs": 41357,
+          "charStart": 91,
+          "charEnd": 94
+        },
+        {
+          "text": "comunidad",
+          "startMs": 41367,
+          "endMs": 41877,
+          "charStart": 95,
+          "charEnd": 104
+        },
+        {
+          "text": "privada",
+          "startMs": 41997,
+          "endMs": 42317,
+          "charStart": 105,
+          "charEnd": 112
+        },
+        {
+          "text": "de",
+          "startMs": 42327,
+          "endMs": 42417,
+          "charStart": 113,
+          "charEnd": 115
+        },
+        {
+          "text": "su",
+          "startMs": 42427,
+          "endMs": 42527,
+          "charStart": 116,
+          "charEnd": 118
+        },
+        {
+          "text": "memoria",
+          "startMs": 42537,
+          "endMs": 42817,
+          "charStart": 119,
+          "charEnd": 126
+        },
+        {
+          "text": "colectiva",
+          "startMs": 42827,
+          "endMs": 43387,
+          "charStart": 127,
+          "charEnd": 136
+        }
+      ]
+    },
+    {
+      "text": "Cabría preguntarse si la modernización urbanística justifica necesariamente la aniquilación de la identidad histórica de los barrios populares.",
+      "startMs": 44340,
+      "endMs": 51156,
+      "words": [
+        {
+          "text": "Cabría",
+          "startMs": 44440,
+          "endMs": 44760,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "preguntarse",
+          "startMs": 44770,
+          "endMs": 45280,
+          "charStart": 7,
+          "charEnd": 18
+        },
+        {
+          "text": "si",
+          "startMs": 45290,
+          "endMs": 45380,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "la",
+          "startMs": 45390,
+          "endMs": 45460,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "modernización",
+          "startMs": 45470,
+          "endMs": 46020,
+          "charStart": 25,
+          "charEnd": 38
+        },
+        {
+          "text": "urbanística",
+          "startMs": 46030,
+          "endMs": 46550,
+          "charStart": 39,
+          "charEnd": 50
+        },
+        {
+          "text": "justifica",
+          "startMs": 46560,
+          "endMs": 46980,
+          "charStart": 51,
+          "charEnd": 60
+        },
+        {
+          "text": "necesariamente",
+          "startMs": 46990,
+          "endMs": 47630,
+          "charStart": 61,
+          "charEnd": 75
+        },
+        {
+          "text": "la",
+          "startMs": 47640,
+          "endMs": 47700,
+          "charStart": 76,
+          "charEnd": 78
+        },
+        {
+          "text": "aniquilación",
+          "startMs": 47710,
+          "endMs": 48160,
+          "charStart": 79,
+          "charEnd": 91
+        },
+        {
+          "text": "de",
+          "startMs": 48170,
+          "endMs": 48230,
+          "charStart": 92,
+          "charEnd": 94
+        },
+        {
+          "text": "la",
+          "startMs": 48240,
+          "endMs": 48290,
+          "charStart": 95,
+          "charEnd": 97
+        },
+        {
+          "text": "identidad",
+          "startMs": 48300,
+          "endMs": 48790,
+          "charStart": 98,
+          "charEnd": 107
+        },
+        {
+          "text": "histórica",
+          "startMs": 48905,
+          "endMs": 49345,
+          "charStart": 108,
+          "charEnd": 117
+        },
+        {
+          "text": "de",
+          "startMs": 49355,
+          "endMs": 49415,
+          "charStart": 118,
+          "charEnd": 120
+        },
+        {
+          "text": "los",
+          "startMs": 49425,
+          "endMs": 49535,
+          "charStart": 121,
+          "charEnd": 124
+        },
+        {
+          "text": "barrios",
+          "startMs": 49545,
+          "endMs": 49815,
+          "charStart": 125,
+          "charEnd": 132
+        },
+        {
+          "text": "populares",
+          "startMs": 49825,
+          "endMs": 50455,
+          "charStart": 133,
+          "charEnd": 142
+        }
+      ]
+    },
+    {
+      "text": "Una anciana residente contemplaba melancólicamente desde su balcón cómo las máquinas excavadoras demolían el mercado donde había transcurrido su juventud.",
+      "startMs": 51406,
+      "endMs": 58822,
+      "words": [
+        {
+          "text": "Una",
+          "startMs": 51501,
+          "endMs": 51711,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "anciana",
+          "startMs": 51721,
+          "endMs": 52021,
+          "charStart": 4,
+          "charEnd": 11
+        },
+        {
+          "text": "residente",
+          "startMs": 52031,
+          "endMs": 52501,
+          "charStart": 12,
+          "charEnd": 21
+        },
+        {
+          "text": "contemplaba",
+          "startMs": 52511,
+          "endMs": 52991,
+          "charStart": 22,
+          "charEnd": 33
+        },
+        {
+          "text": "melancólicamente",
+          "startMs": 53001,
+          "endMs": 53781,
+          "charStart": 34,
+          "charEnd": 50
+        },
+        {
+          "text": "desde",
+          "startMs": 53791,
+          "endMs": 53991,
+          "charStart": 51,
+          "charEnd": 56
+        },
+        {
+          "text": "su",
+          "startMs": 54001,
+          "endMs": 54091,
+          "charStart": 57,
+          "charEnd": 59
+        },
+        {
+          "text": "balcón",
+          "startMs": 54101,
+          "endMs": 54401,
+          "charStart": 60,
+          "charEnd": 66
+        },
+        {
+          "text": "cómo",
+          "startMs": 54411,
+          "endMs": 54561,
+          "charStart": 67,
+          "charEnd": 71
+        },
+        {
+          "text": "las",
+          "startMs": 54571,
+          "endMs": 54701,
+          "charStart": 72,
+          "charEnd": 75
+        },
+        {
+          "text": "máquinas",
+          "startMs": 54711,
+          "endMs": 55031,
+          "charStart": 76,
+          "charEnd": 84
+        },
+        {
+          "text": "excavadoras",
+          "startMs": 55041,
+          "endMs": 55501,
+          "charStart": 85,
+          "charEnd": 96
+        },
+        {
+          "text": "demolían",
+          "startMs": 55511,
+          "endMs": 55861,
+          "charStart": 97,
+          "charEnd": 105
+        },
+        {
+          "text": "el",
+          "startMs": 55871,
+          "endMs": 56111,
+          "charStart": 106,
+          "charEnd": 108
+        },
+        {
+          "text": "mercado",
+          "startMs": 56231,
+          "endMs": 56641,
+          "charStart": 109,
+          "charEnd": 116
+        },
+        {
+          "text": "donde",
+          "startMs": 56651,
+          "endMs": 56841,
+          "charStart": 117,
+          "charEnd": 122
+        },
+        {
+          "text": "había",
+          "startMs": 56851,
+          "endMs": 57011,
+          "charStart": 123,
+          "charEnd": 128
+        },
+        {
+          "text": "transcurrido",
+          "startMs": 57021,
+          "endMs": 57501,
+          "charStart": 129,
+          "charEnd": 141
+        },
+        {
+          "text": "su",
+          "startMs": 57511,
+          "endMs": 57611,
+          "charStart": 142,
+          "charEnd": 144
+        },
+        {
+          "text": "juventud",
+          "startMs": 57621,
+          "endMs": 58111,
+          "charStart": 145,
+          "charEnd": 153
+        }
+      ]
+    },
+    {
+      "text": "Por más que los nuevos residentes pretendan integrarse en el vecindario, su presencia perpetúa involuntariamente dinámicas de exclusión socioespacial.",
+      "startMs": 59072,
+      "endMs": 66272,
+      "words": [
+        {
+          "text": "Por",
+          "startMs": 59172,
+          "endMs": 59372,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "más",
+          "startMs": 59382,
+          "endMs": 59532,
+          "charStart": 4,
+          "charEnd": 7
+        },
+        {
+          "text": "que",
+          "startMs": 59542,
+          "endMs": 59612,
+          "charStart": 8,
+          "charEnd": 11
+        },
+        {
+          "text": "los",
+          "startMs": 59622,
+          "endMs": 59752,
+          "charStart": 12,
+          "charEnd": 15
+        },
+        {
+          "text": "nuevos",
+          "startMs": 59762,
+          "endMs": 59982,
+          "charStart": 16,
+          "charEnd": 22
+        },
+        {
+          "text": "residentes",
+          "startMs": 59992,
+          "endMs": 60442,
+          "charStart": 23,
+          "charEnd": 33
+        },
+        {
+          "text": "pretendan",
+          "startMs": 60452,
+          "endMs": 60812,
+          "charStart": 34,
+          "charEnd": 43
+        },
+        {
+          "text": "integrarse",
+          "startMs": 60822,
+          "endMs": 61232,
+          "charStart": 44,
+          "charEnd": 54
+        },
+        {
+          "text": "en",
+          "startMs": 61242,
+          "endMs": 61302,
+          "charStart": 55,
+          "charEnd": 57
+        },
+        {
+          "text": "el",
+          "startMs": 61312,
+          "endMs": 61382,
+          "charStart": 58,
+          "charEnd": 60
+        },
+        {
+          "text": "vecindario",
+          "startMs": 61392,
+          "endMs": 61912,
+          "charStart": 61,
+          "charEnd": 71
+        },
+        {
+          "text": "su",
+          "startMs": 62142,
+          "endMs": 62362,
+          "charStart": 73,
+          "charEnd": 75
+        },
+        {
+          "text": "presencia",
+          "startMs": 62372,
+          "endMs": 62772,
+          "charStart": 76,
+          "charEnd": 85
+        },
+        {
+          "text": "perpetúa",
+          "startMs": 62782,
+          "endMs": 63172,
+          "charStart": 86,
+          "charEnd": 94
+        },
+        {
+          "text": "involuntariamente",
+          "startMs": 63182,
+          "endMs": 63902,
+          "charStart": 95,
+          "charEnd": 112
+        },
+        {
+          "text": "dinámicas",
+          "startMs": 63912,
+          "endMs": 64332,
+          "charStart": 113,
+          "charEnd": 122
+        },
+        {
+          "text": "de",
+          "startMs": 64342,
+          "endMs": 64392,
+          "charStart": 123,
+          "charEnd": 125
+        },
+        {
+          "text": "exclusión",
+          "startMs": 64402,
+          "endMs": 64822,
+          "charStart": 126,
+          "charEnd": 135
+        },
+        {
+          "text": "socioespacial",
+          "startMs": 64832,
+          "endMs": 65562,
+          "charStart": 136,
+          "charEnd": 149
+        }
+      ]
+    },
+    {
+      "text": "El reto estriba en concebir ciudades habitables que reconcilien el progreso arquitectónico con la innegociable dignidad de sus habitantes preexistentes.",
+      "startMs": 66522,
+      "endMs": 73842,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 66617,
+          "endMs": 66807,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "reto",
+          "startMs": 66817,
+          "endMs": 66987,
+          "charStart": 3,
+          "charEnd": 7
+        },
+        {
+          "text": "estriba",
+          "startMs": 66997,
+          "endMs": 67327,
+          "charStart": 8,
+          "charEnd": 15
+        },
+        {
+          "text": "en",
+          "startMs": 67337,
+          "endMs": 67427,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "concebir",
+          "startMs": 67437,
+          "endMs": 67807,
+          "charStart": 19,
+          "charEnd": 27
+        },
+        {
+          "text": "ciudades",
+          "startMs": 67817,
+          "endMs": 68187,
+          "charStart": 28,
+          "charEnd": 36
+        },
+        {
+          "text": "habitables",
+          "startMs": 68197,
+          "endMs": 68647,
+          "charStart": 37,
+          "charEnd": 47
+        },
+        {
+          "text": "que",
+          "startMs": 68657,
+          "endMs": 68737,
+          "charStart": 48,
+          "charEnd": 51
+        },
+        {
+          "text": "reconcilien",
+          "startMs": 68747,
+          "endMs": 69217,
+          "charStart": 52,
+          "charEnd": 63
+        },
+        {
+          "text": "el",
+          "startMs": 69227,
+          "endMs": 69307,
+          "charStart": 64,
+          "charEnd": 66
+        },
+        {
+          "text": "progreso",
+          "startMs": 69317,
+          "endMs": 69657,
+          "charStart": 67,
+          "charEnd": 75
+        },
+        {
+          "text": "arquitectónico",
+          "startMs": 69667,
+          "endMs": 70257,
+          "charStart": 76,
+          "charEnd": 90
+        },
+        {
+          "text": "con",
+          "startMs": 70267,
+          "endMs": 70387,
+          "charStart": 91,
+          "charEnd": 94
+        },
+        {
+          "text": "la",
+          "startMs": 70397,
+          "endMs": 70447,
+          "charStart": 95,
+          "charEnd": 97
+        },
+        {
+          "text": "innegociable",
+          "startMs": 70457,
+          "endMs": 71087,
+          "charStart": 98,
+          "charEnd": 110
+        },
+        {
+          "text": "dignidad",
+          "startMs": 71207,
+          "endMs": 71657,
+          "charStart": 111,
+          "charEnd": 119
+        },
+        {
+          "text": "de",
+          "startMs": 71667,
+          "endMs": 71737,
+          "charStart": 120,
+          "charEnd": 122
+        },
+        {
+          "text": "sus",
+          "startMs": 71747,
+          "endMs": 71887,
+          "charStart": 123,
+          "charEnd": 126
+        },
+        {
+          "text": "habitantes",
+          "startMs": 71897,
+          "endMs": 72297,
+          "charStart": 127,
+          "charEnd": 137
+        },
+        {
+          "text": "preexistentes",
+          "startMs": 72307,
+          "endMs": 73137,
+          "charStart": 138,
+          "charEnd": 151
+        }
+      ]
+    }
+  ]
+}

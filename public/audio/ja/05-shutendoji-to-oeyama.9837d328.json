@@ -1,0 +1,2062 @@
+{
+  "version": 3,
+  "lang": "ja",
+  "voice": "ja-JP-NanamiNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 76650,
+  "sentences": [
+    {
+      "text": "平安の都では、大江山に住む鬼の頭領「酒呑童子」によって貴族の姫君たちが拐われる事件が相次いでいました。",
+      "startMs": 0,
+      "endMs": 8064,
+      "words": [
+        {
+          "text": "平安",
+          "startMs": 110,
+          "endMs": 470,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "の",
+          "startMs": 480,
+          "endMs": 570,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "都",
+          "startMs": 580,
+          "endMs": 860,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "で",
+          "startMs": 870,
+          "endMs": 960,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "は",
+          "startMs": 970,
+          "endMs": 1170,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "大江山",
+          "startMs": 1420,
+          "endMs": 1870,
+          "charStart": 7,
+          "charEnd": 10
+        },
+        {
+          "text": "に",
+          "startMs": 1880,
+          "endMs": 2000,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "住む",
+          "startMs": 2010,
+          "endMs": 2230,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "鬼",
+          "startMs": 2240,
+          "endMs": 2520,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "の",
+          "startMs": 2530,
+          "endMs": 2630,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "頭領",
+          "startMs": 2640,
+          "endMs": 3090,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "酒呑童子",
+          "startMs": 3180,
+          "endMs": 3850,
+          "charStart": 18,
+          "charEnd": 22
+        },
+        {
+          "text": "に",
+          "startMs": 3990,
+          "endMs": 4100,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "よっ",
+          "startMs": 4110,
+          "endMs": 4270,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "て",
+          "startMs": 4280,
+          "endMs": 4370,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "貴族",
+          "startMs": 4380,
+          "endMs": 4720,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "の",
+          "startMs": 4730,
+          "endMs": 4790,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "姫君",
+          "startMs": 4800,
+          "endMs": 5220,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "たち",
+          "startMs": 5230,
+          "endMs": 5420,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "が",
+          "startMs": 5430,
+          "endMs": 5550,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "拐わ",
+          "startMs": 5560,
+          "endMs": 5830,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "れる",
+          "startMs": 5840,
+          "endMs": 6010,
+          "charStart": 37,
+          "charEnd": 39
+        },
+        {
+          "text": "事件",
+          "startMs": 6020,
+          "endMs": 6320,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "が",
+          "startMs": 6330,
+          "endMs": 6450,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "相次い",
+          "startMs": 6460,
+          "endMs": 6840,
+          "charStart": 42,
+          "charEnd": 45
+        },
+        {
+          "text": "で",
+          "startMs": 6850,
+          "endMs": 6890,
+          "charStart": 45,
+          "charEnd": 46
+        },
+        {
+          "text": "いま",
+          "startMs": 6900,
+          "endMs": 7070,
+          "charStart": 46,
+          "charEnd": 48
+        },
+        {
+          "text": "し",
+          "startMs": 7080,
+          "endMs": 7170,
+          "charStart": 48,
+          "charEnd": 49
+        },
+        {
+          "text": "た",
+          "startMs": 7180,
+          "endMs": 7360,
+          "charStart": 49,
+          "charEnd": 50
+        }
+      ]
+    },
+    {
+      "text": "帝の命を受けた名将・源頼光とその仲間たちは、山伏の姿に変装して鬼の討伐へと向かいました。",
+      "startMs": 8314,
+      "endMs": 16258,
+      "words": [
+        {
+          "text": "帝",
+          "startMs": 8464,
+          "endMs": 8574,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "の",
+          "startMs": 8584,
+          "endMs": 8654,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "命",
+          "startMs": 8664,
+          "endMs": 8964,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "を",
+          "startMs": 8974,
+          "endMs": 9044,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "受け",
+          "startMs": 9054,
+          "endMs": 9224,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "た",
+          "startMs": 9234,
+          "endMs": 9334,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "名将",
+          "startMs": 9344,
+          "endMs": 9814,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "源頼光",
+          "startMs": 10044,
+          "endMs": 10944,
+          "charStart": 10,
+          "charEnd": 13
+        },
+        {
+          "text": "と",
+          "startMs": 10954,
+          "endMs": 11094,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "その",
+          "startMs": 11144,
+          "endMs": 11364,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "仲間",
+          "startMs": 11374,
+          "endMs": 11684,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "たち",
+          "startMs": 11694,
+          "endMs": 11924,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "は",
+          "startMs": 11934,
+          "endMs": 12114,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "山伏",
+          "startMs": 12254,
+          "endMs": 12694,
+          "charStart": 22,
+          "charEnd": 24
+        },
+        {
+          "text": "の",
+          "startMs": 12704,
+          "endMs": 12794,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "姿",
+          "startMs": 12804,
+          "endMs": 13114,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "に",
+          "startMs": 13124,
+          "endMs": 13234,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "変装",
+          "startMs": 13244,
+          "endMs": 13644,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "し",
+          "startMs": 13654,
+          "endMs": 13744,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "て",
+          "startMs": 13754,
+          "endMs": 13904,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "鬼",
+          "startMs": 13964,
+          "endMs": 14204,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "の",
+          "startMs": 14214,
+          "endMs": 14314,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "討伐",
+          "startMs": 14324,
+          "endMs": 14704,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "へ",
+          "startMs": 14714,
+          "endMs": 14784,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "と",
+          "startMs": 14794,
+          "endMs": 14894,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "向か",
+          "startMs": 14904,
+          "endMs": 15094,
+          "charStart": 37,
+          "charEnd": 39
+        },
+        {
+          "text": "いまし",
+          "startMs": 15104,
+          "endMs": 15384,
+          "charStart": 39,
+          "charEnd": 42
+        },
+        {
+          "text": "た",
+          "startMs": 15394,
+          "endMs": 15564,
+          "charStart": 42,
+          "charEnd": 43
+        }
+      ]
+    },
+    {
+      "text": "険しい山道を進む一行の前に神々が現れ、鬼の自由を奪う不思議な毒酒を授けて去っていきました。",
+      "startMs": 16508,
+      "endMs": 23708,
+      "words": [
+        {
+          "text": "険しい",
+          "startMs": 16658,
+          "endMs": 17048,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "山道",
+          "startMs": 17058,
+          "endMs": 17458,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "を",
+          "startMs": 17468,
+          "endMs": 17548,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "進む",
+          "startMs": 17558,
+          "endMs": 17878,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "一行",
+          "startMs": 17888,
+          "endMs": 18268,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "の",
+          "startMs": 18278,
+          "endMs": 18358,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "前",
+          "startMs": 18368,
+          "endMs": 18528,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "に",
+          "startMs": 18538,
+          "endMs": 18778,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "神々",
+          "startMs": 18848,
+          "endMs": 19278,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "が",
+          "startMs": 19288,
+          "endMs": 19368,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "現れ",
+          "startMs": 19378,
+          "endMs": 19828,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "鬼",
+          "startMs": 19968,
+          "endMs": 20168,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "の",
+          "startMs": 20178,
+          "endMs": 20278,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "自由",
+          "startMs": 20288,
+          "endMs": 20568,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "を",
+          "startMs": 20578,
+          "endMs": 20638,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "奪う",
+          "startMs": 20648,
+          "endMs": 20948,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "不思議",
+          "startMs": 20958,
+          "endMs": 21258,
+          "charStart": 26,
+          "charEnd": 29
+        },
+        {
+          "text": "な",
+          "startMs": 21268,
+          "endMs": 21358,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "毒酒",
+          "startMs": 21368,
+          "endMs": 21668,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "を",
+          "startMs": 21678,
+          "endMs": 21738,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "授け",
+          "startMs": 21748,
+          "endMs": 22058,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "て",
+          "startMs": 22068,
+          "endMs": 22178,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "去っ",
+          "startMs": 22188,
+          "endMs": 22388,
+          "charStart": 36,
+          "charEnd": 38
+        },
+        {
+          "text": "て",
+          "startMs": 22398,
+          "endMs": 22458,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "いき",
+          "startMs": 22468,
+          "endMs": 22648,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "まし",
+          "startMs": 22658,
+          "endMs": 22838,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "た",
+          "startMs": 22848,
+          "endMs": 23018,
+          "charStart": 43,
+          "charEnd": 44
+        }
+      ]
+    },
+    {
+      "text": "頼光たちは道に迷った修行僧を装って岩屋に潜入し、警戒する酒呑童子の歓待を受けることに成功しました。",
+      "startMs": 23958,
+      "endMs": 32046,
+      "words": [
+        {
+          "text": "頼光",
+          "startMs": 24068,
+          "endMs": 24478,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "たち",
+          "startMs": 24488,
+          "endMs": 24688,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "は",
+          "startMs": 24698,
+          "endMs": 24888,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "道",
+          "startMs": 24978,
+          "endMs": 25208,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "に",
+          "startMs": 25218,
+          "endMs": 25318,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "迷っ",
+          "startMs": 25328,
+          "endMs": 25608,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "た",
+          "startMs": 25618,
+          "endMs": 25718,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "修行僧",
+          "startMs": 25728,
+          "endMs": 26218,
+          "charStart": 10,
+          "charEnd": 13
+        },
+        {
+          "text": "を",
+          "startMs": 26228,
+          "endMs": 26288,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "装っ",
+          "startMs": 26298,
+          "endMs": 26708,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "て",
+          "startMs": 26718,
+          "endMs": 26798,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "岩屋",
+          "startMs": 26808,
+          "endMs": 27118,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "に",
+          "startMs": 27128,
+          "endMs": 27238,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "潜入",
+          "startMs": 27248,
+          "endMs": 27658,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "し",
+          "startMs": 27668,
+          "endMs": 27938,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "警戒",
+          "startMs": 28108,
+          "endMs": 28438,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "する",
+          "startMs": 28448,
+          "endMs": 28678,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "酒呑童子",
+          "startMs": 28688,
+          "endMs": 29238,
+          "charStart": 28,
+          "charEnd": 32
+        },
+        {
+          "text": "の",
+          "startMs": 29248,
+          "endMs": 29348,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "歓待",
+          "startMs": 29358,
+          "endMs": 29738,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "を",
+          "startMs": 29748,
+          "endMs": 29818,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "受ける",
+          "startMs": 29828,
+          "endMs": 30128,
+          "charStart": 36,
+          "charEnd": 39
+        },
+        {
+          "text": "こと",
+          "startMs": 30138,
+          "endMs": 30308,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "に",
+          "startMs": 30318,
+          "endMs": 30428,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "成功",
+          "startMs": 30438,
+          "endMs": 30838,
+          "charStart": 42,
+          "charEnd": 44
+        },
+        {
+          "text": "し",
+          "startMs": 30848,
+          "endMs": 30948,
+          "charStart": 44,
+          "charEnd": 45
+        },
+        {
+          "text": "まし",
+          "startMs": 30958,
+          "endMs": 31138,
+          "charStart": 45,
+          "charEnd": 47
+        },
+        {
+          "text": "た",
+          "startMs": 31148,
+          "endMs": 31338,
+          "charStart": 47,
+          "charEnd": 48
+        }
+      ]
+    },
+    {
+      "text": "その夜、盛大な宴が始まると、頼光は持参した神の酒を酒呑童子に振る舞い、大いに飲ませました。",
+      "startMs": 32296,
+      "endMs": 39664,
+      "words": [
+        {
+          "text": "その",
+          "startMs": 32406,
+          "endMs": 32626,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "夜",
+          "startMs": 32636,
+          "endMs": 32946,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "盛大",
+          "startMs": 33146,
+          "endMs": 33536,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "な",
+          "startMs": 33546,
+          "endMs": 33606,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "宴",
+          "startMs": 33616,
+          "endMs": 33786,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "が",
+          "startMs": 33796,
+          "endMs": 33886,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "始ま",
+          "startMs": 33896,
+          "endMs": 34196,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "る",
+          "startMs": 34206,
+          "endMs": 34306,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "と",
+          "startMs": 34316,
+          "endMs": 34486,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "頼光",
+          "startMs": 34776,
+          "endMs": 35196,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "は",
+          "startMs": 35206,
+          "endMs": 35326,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "持参",
+          "startMs": 35346,
+          "endMs": 35646,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "し",
+          "startMs": 35656,
+          "endMs": 35736,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "た",
+          "startMs": 35746,
+          "endMs": 35836,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "神",
+          "startMs": 35846,
+          "endMs": 36056,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "の",
+          "startMs": 36066,
+          "endMs": 36146,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "酒",
+          "startMs": 36156,
+          "endMs": 36386,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "を",
+          "startMs": 36396,
+          "endMs": 36566,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "酒呑童子",
+          "startMs": 36636,
+          "endMs": 37186,
+          "charStart": 25,
+          "charEnd": 29
+        },
+        {
+          "text": "に",
+          "startMs": 37196,
+          "endMs": 37276,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "振る舞い",
+          "startMs": 37286,
+          "endMs": 37736,
+          "charStart": 30,
+          "charEnd": 34
+        },
+        {
+          "text": "大",
+          "startMs": 37906,
+          "endMs": 38056,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "い",
+          "startMs": 38066,
+          "endMs": 38156,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "に",
+          "startMs": 38166,
+          "endMs": 38266,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "飲ま",
+          "startMs": 38276,
+          "endMs": 38456,
+          "charStart": 38,
+          "charEnd": 40
+        },
+        {
+          "text": "せ",
+          "startMs": 38466,
+          "endMs": 38576,
+          "charStart": 40,
+          "charEnd": 41
+        },
+        {
+          "text": "まし",
+          "startMs": 38586,
+          "endMs": 38776,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "た",
+          "startMs": 38786,
+          "endMs": 38956,
+          "charStart": 43,
+          "charEnd": 44
+        }
+      ]
+    },
+    {
+      "text": "酒の美味さに酔いしれた酒呑童子と手下の鬼たちは、警戒心を完全に解いて深い眠りに落ちていきました。",
+      "startMs": 39914,
+      "endMs": 47114,
+      "words": [
+        {
+          "text": "酒",
+          "startMs": 40024,
+          "endMs": 40264,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "の",
+          "startMs": 40274,
+          "endMs": 40384,
+          "charStart": 1,
+          "charEnd": 2
+        },
+        {
+          "text": "美味",
+          "startMs": 40394,
+          "endMs": 40554,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "さ",
+          "startMs": 40564,
+          "endMs": 40654,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "に",
+          "startMs": 40664,
+          "endMs": 40794,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "酔いしれ",
+          "startMs": 40804,
+          "endMs": 41174,
+          "charStart": 6,
+          "charEnd": 10
+        },
+        {
+          "text": "た",
+          "startMs": 41184,
+          "endMs": 41294,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "酒呑童子",
+          "startMs": 41304,
+          "endMs": 41874,
+          "charStart": 11,
+          "charEnd": 15
+        },
+        {
+          "text": "と",
+          "startMs": 41884,
+          "endMs": 42044,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "手下",
+          "startMs": 42084,
+          "endMs": 42304,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "の",
+          "startMs": 42314,
+          "endMs": 42404,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "鬼",
+          "startMs": 42414,
+          "endMs": 42604,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "たち",
+          "startMs": 42614,
+          "endMs": 42824,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "は",
+          "startMs": 42834,
+          "endMs": 43014,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "警戒心",
+          "startMs": 43184,
+          "endMs": 43734,
+          "charStart": 24,
+          "charEnd": 27
+        },
+        {
+          "text": "を",
+          "startMs": 43744,
+          "endMs": 43834,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "完全",
+          "startMs": 43844,
+          "endMs": 44214,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "に",
+          "startMs": 44224,
+          "endMs": 44344,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "解い",
+          "startMs": 44354,
+          "endMs": 44524,
+          "charStart": 31,
+          "charEnd": 33
+        },
+        {
+          "text": "て",
+          "startMs": 44534,
+          "endMs": 44774,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "深い",
+          "startMs": 44844,
+          "endMs": 45134,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "眠り",
+          "startMs": 45144,
+          "endMs": 45424,
+          "charStart": 36,
+          "charEnd": 38
+        },
+        {
+          "text": "に",
+          "startMs": 45434,
+          "endMs": 45514,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "落ち",
+          "startMs": 45524,
+          "endMs": 45744,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "て",
+          "startMs": 45754,
+          "endMs": 45804,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "いき",
+          "startMs": 45814,
+          "endMs": 46014,
+          "charStart": 42,
+          "charEnd": 44
+        },
+        {
+          "text": "まし",
+          "startMs": 46024,
+          "endMs": 46204,
+          "charStart": 44,
+          "charEnd": 46
+        },
+        {
+          "text": "た",
+          "startMs": 46214,
+          "endMs": 46404,
+          "charStart": 46,
+          "charEnd": 47
+        }
+      ]
+    },
+    {
+      "text": "鬼たちの体が麻痺した瞬間を見逃さず、頼光たちは隠し持っていた鎧を身につけて刀を抜きました。",
+      "startMs": 47364,
+      "endMs": 54540,
+      "words": [
+        {
+          "text": "鬼",
+          "startMs": 47504,
+          "endMs": 47664,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "たち",
+          "startMs": 47674,
+          "endMs": 47874,
+          "charStart": 1,
+          "charEnd": 3
+        },
+        {
+          "text": "の",
+          "startMs": 47884,
+          "endMs": 47974,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "体",
+          "startMs": 47984,
+          "endMs": 48244,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "が",
+          "startMs": 48254,
+          "endMs": 48364,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "麻痺",
+          "startMs": 48374,
+          "endMs": 48614,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "し",
+          "startMs": 48624,
+          "endMs": 48714,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "た",
+          "startMs": 48724,
+          "endMs": 48804,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "瞬間",
+          "startMs": 48814,
+          "endMs": 49214,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "を",
+          "startMs": 49224,
+          "endMs": 49314,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "見逃さ",
+          "startMs": 49324,
+          "endMs": 49744,
+          "charStart": 13,
+          "charEnd": 16
+        },
+        {
+          "text": "ず",
+          "startMs": 49754,
+          "endMs": 49964,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "頼光",
+          "startMs": 50104,
+          "endMs": 50524,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "たち",
+          "startMs": 50534,
+          "endMs": 50724,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "は",
+          "startMs": 50734,
+          "endMs": 50914,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "隠し持っ",
+          "startMs": 50974,
+          "endMs": 51464,
+          "charStart": 23,
+          "charEnd": 27
+        },
+        {
+          "text": "て",
+          "startMs": 51474,
+          "endMs": 51534,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "い",
+          "startMs": 51544,
+          "endMs": 51644,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "た",
+          "startMs": 51654,
+          "endMs": 51724,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "鎧",
+          "startMs": 51734,
+          "endMs": 52064,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "を",
+          "startMs": 52074,
+          "endMs": 52154,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "身",
+          "startMs": 52164,
+          "endMs": 52274,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "に",
+          "startMs": 52284,
+          "endMs": 52384,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "つけ",
+          "startMs": 52394,
+          "endMs": 52574,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "て",
+          "startMs": 52584,
+          "endMs": 52774,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "刀",
+          "startMs": 52824,
+          "endMs": 53144,
+          "charStart": 37,
+          "charEnd": 38
+        },
+        {
+          "text": "を",
+          "startMs": 53154,
+          "endMs": 53244,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "抜き",
+          "startMs": 53254,
+          "endMs": 53454,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "まし",
+          "startMs": 53464,
+          "endMs": 53644,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "た",
+          "startMs": 53654,
+          "endMs": 53824,
+          "charStart": 43,
+          "charEnd": 44
+        }
+      ]
+    },
+    {
+      "text": "頼光の名刀が一閃すると、巨大な酒呑童子の首は宙を舞って跳ね飛ばされました。",
+      "startMs": 54790,
+      "endMs": 60958,
+      "words": [
+        {
+          "text": "頼光",
+          "startMs": 54900,
+          "endMs": 55330,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "の",
+          "startMs": 55340,
+          "endMs": 55440,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "名刀",
+          "startMs": 55450,
+          "endMs": 55810,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "が",
+          "startMs": 55820,
+          "endMs": 55910,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "一閃",
+          "startMs": 55920,
+          "endMs": 56260,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "する",
+          "startMs": 56270,
+          "endMs": 56500,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "と",
+          "startMs": 56510,
+          "endMs": 56680,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "巨大",
+          "startMs": 56920,
+          "endMs": 57240,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "な",
+          "startMs": 57250,
+          "endMs": 57350,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "酒呑童子",
+          "startMs": 57360,
+          "endMs": 57890,
+          "charStart": 15,
+          "charEnd": 19
+        },
+        {
+          "text": "の",
+          "startMs": 57900,
+          "endMs": 58000,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "首",
+          "startMs": 58010,
+          "endMs": 58220,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "は",
+          "startMs": 58230,
+          "endMs": 58450,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "宙",
+          "startMs": 58570,
+          "endMs": 58800,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "を",
+          "startMs": 58810,
+          "endMs": 58890,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "舞っ",
+          "startMs": 58900,
+          "endMs": 59070,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "て",
+          "startMs": 59080,
+          "endMs": 59260,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "跳ね飛ば",
+          "startMs": 59310,
+          "endMs": 59710,
+          "charStart": 27,
+          "charEnd": 31
+        },
+        {
+          "text": "さ",
+          "startMs": 59720,
+          "endMs": 59810,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "れ",
+          "startMs": 59820,
+          "endMs": 59890,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "まし",
+          "startMs": 59900,
+          "endMs": 60090,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "た",
+          "startMs": 60100,
+          "endMs": 60270,
+          "charStart": 35,
+          "charEnd": 36
+        }
+      ]
+    },
+    {
+      "text": "首だけになってもなお頼光の兜に噛みついて抵抗した酒呑童子でしたが、神仏の加護を破ることはできませんでした。",
+      "startMs": 61208,
+      "endMs": 68792,
+      "words": [
+        {
+          "text": "首",
+          "startMs": 61348,
+          "endMs": 61528,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "だけ",
+          "startMs": 61538,
+          "endMs": 61728,
+          "charStart": 1,
+          "charEnd": 3
+        },
+        {
+          "text": "に",
+          "startMs": 61738,
+          "endMs": 61848,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "なっ",
+          "startMs": 61858,
+          "endMs": 62018,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "て",
+          "startMs": 62028,
+          "endMs": 62108,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "も",
+          "startMs": 62118,
+          "endMs": 62228,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "なお",
+          "startMs": 62238,
+          "endMs": 62438,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "頼光",
+          "startMs": 62448,
+          "endMs": 62868,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "の",
+          "startMs": 62878,
+          "endMs": 62978,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "兜",
+          "startMs": 62988,
+          "endMs": 63268,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "に",
+          "startMs": 63278,
+          "endMs": 63398,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "噛みつい",
+          "startMs": 63408,
+          "endMs": 63818,
+          "charStart": 15,
+          "charEnd": 19
+        },
+        {
+          "text": "て",
+          "startMs": 63828,
+          "endMs": 63948,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "抵抗",
+          "startMs": 63968,
+          "endMs": 64348,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "し",
+          "startMs": 64358,
+          "endMs": 64428,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "た",
+          "startMs": 64438,
+          "endMs": 64538,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "酒呑童子",
+          "startMs": 64558,
+          "endMs": 65118,
+          "charStart": 24,
+          "charEnd": 28
+        },
+        {
+          "text": "でし",
+          "startMs": 65128,
+          "endMs": 65298,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "た",
+          "startMs": 65308,
+          "endMs": 65388,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "が",
+          "startMs": 65398,
+          "endMs": 65598,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "神仏",
+          "startMs": 65738,
+          "endMs": 66198,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "の",
+          "startMs": 66208,
+          "endMs": 66308,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "加護",
+          "startMs": 66318,
+          "endMs": 66528,
+          "charStart": 36,
+          "charEnd": 38
+        },
+        {
+          "text": "を",
+          "startMs": 66538,
+          "endMs": 66608,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "破る",
+          "startMs": 66618,
+          "endMs": 66928,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "こと",
+          "startMs": 66938,
+          "endMs": 67118,
+          "charStart": 41,
+          "charEnd": 43
+        },
+        {
+          "text": "は",
+          "startMs": 67128,
+          "endMs": 67228,
+          "charStart": 43,
+          "charEnd": 44
+        },
+        {
+          "text": "でき",
+          "startMs": 67238,
+          "endMs": 67438,
+          "charStart": 44,
+          "charEnd": 46
+        },
+        {
+          "text": "ませ",
+          "startMs": 67448,
+          "endMs": 67648,
+          "charStart": 46,
+          "charEnd": 48
+        },
+        {
+          "text": "ん",
+          "startMs": 67658,
+          "endMs": 67708,
+          "charStart": 48,
+          "charEnd": 49
+        },
+        {
+          "text": "でし",
+          "startMs": 67718,
+          "endMs": 67898,
+          "charStart": 49,
+          "charEnd": 51
+        },
+        {
+          "text": "た",
+          "startMs": 67908,
+          "endMs": 68098,
+          "charStart": 51,
+          "charEnd": 52
+        }
+      ]
+    },
+    {
+      "text": "残党を討ち滅ぼして捕らわれていた姫たちを救出した頼光一行は、都へ凱旋して武名を天下に轟かせました。",
+      "startMs": 69042,
+      "endMs": 76650,
+      "words": [
+        {
+          "text": "残党",
+          "startMs": 69152,
+          "endMs": 69552,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "を",
+          "startMs": 69562,
+          "endMs": 69622,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "討ち",
+          "startMs": 69632,
+          "endMs": 69852,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "滅ぼし",
+          "startMs": 69862,
+          "endMs": 70262,
+          "charStart": 5,
+          "charEnd": 8
+        },
+        {
+          "text": "て",
+          "startMs": 70272,
+          "endMs": 70372,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "捕らわれ",
+          "startMs": 70382,
+          "endMs": 70742,
+          "charStart": 9,
+          "charEnd": 13
+        },
+        {
+          "text": "て",
+          "startMs": 70752,
+          "endMs": 70822,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "い",
+          "startMs": 70832,
+          "endMs": 70922,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "た",
+          "startMs": 70932,
+          "endMs": 71012,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "姫",
+          "startMs": 71022,
+          "endMs": 71252,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "たち",
+          "startMs": 71262,
+          "endMs": 71482,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "を",
+          "startMs": 71492,
+          "endMs": 71582,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "救出",
+          "startMs": 71592,
+          "endMs": 71992,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "し",
+          "startMs": 72002,
+          "endMs": 72082,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "た",
+          "startMs": 72092,
+          "endMs": 72182,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "頼光",
+          "startMs": 72242,
+          "endMs": 72692,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "一行",
+          "startMs": 72702,
+          "endMs": 73102,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "は",
+          "startMs": 73112,
+          "endMs": 73312,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "都",
+          "startMs": 73482,
+          "endMs": 73512,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "へ",
+          "startMs": 73522,
+          "endMs": 73642,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "凱旋",
+          "startMs": 73652,
+          "endMs": 74022,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "し",
+          "startMs": 74032,
+          "endMs": 74132,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "て",
+          "startMs": 74142,
+          "endMs": 74242,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "武名",
+          "startMs": 74262,
+          "endMs": 74532,
+          "charStart": 36,
+          "charEnd": 38
+        },
+        {
+          "text": "を",
+          "startMs": 74542,
+          "endMs": 74632,
+          "charStart": 38,
+          "charEnd": 39
+        },
+        {
+          "text": "天下",
+          "startMs": 74642,
+          "endMs": 74922,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "に",
+          "startMs": 74932,
+          "endMs": 75072,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "轟か",
+          "startMs": 75082,
+          "endMs": 75442,
+          "charStart": 42,
+          "charEnd": 44
+        },
+        {
+          "text": "せ",
+          "startMs": 75452,
+          "endMs": 75562,
+          "charStart": 44,
+          "charEnd": 45
+        },
+        {
+          "text": "まし",
+          "startMs": 75572,
+          "endMs": 75762,
+          "charStart": 45,
+          "charEnd": 47
+        },
+        {
+          "text": "た",
+          "startMs": 75772,
+          "endMs": 75952,
+          "charStart": 47,
+          "charEnd": 48
+        }
+      ]
+    }
+  ]
+}

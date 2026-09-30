@@ -1,0 +1,1565 @@
+{
+  "version": 3,
+  "lang": "ja",
+  "voice": "ja-JP-NanamiNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 61026,
+  "sentences": [
+    {
+      "text": "若者言葉を嘆く声は、いつの時代にも繰り返されてきた慨嘆にすぎない。",
+      "startMs": 0,
+      "endMs": 5328,
+      "words": [
+        {
+          "text": "若者",
+          "startMs": 110,
+          "endMs": 510,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "言葉",
+          "startMs": 520,
+          "endMs": 770,
+          "charStart": 2,
+          "charEnd": 4
+        },
+        {
+          "text": "を",
+          "startMs": 780,
+          "endMs": 890,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "嘆く",
+          "startMs": 900,
+          "endMs": 1220,
+          "charStart": 5,
+          "charEnd": 7
+        },
+        {
+          "text": "声",
+          "startMs": 1230,
+          "endMs": 1400,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "は",
+          "startMs": 1410,
+          "endMs": 1640,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "いつ",
+          "startMs": 1910,
+          "endMs": 2100,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "の",
+          "startMs": 2110,
+          "endMs": 2200,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "時代",
+          "startMs": 2210,
+          "endMs": 2480,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "に",
+          "startMs": 2490,
+          "endMs": 2570,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "も",
+          "startMs": 2580,
+          "endMs": 2720,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "繰り返さ",
+          "startMs": 2780,
+          "endMs": 3250,
+          "charStart": 17,
+          "charEnd": 21
+        },
+        {
+          "text": "れ",
+          "startMs": 3260,
+          "endMs": 3340,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "て",
+          "startMs": 3350,
+          "endMs": 3440,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "き",
+          "startMs": 3450,
+          "endMs": 3540,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "た",
+          "startMs": 3550,
+          "endMs": 3650,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "慨嘆",
+          "startMs": 3660,
+          "endMs": 4020,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "に",
+          "startMs": 4030,
+          "endMs": 4120,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "すぎ",
+          "startMs": 4130,
+          "endMs": 4350,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "ない",
+          "startMs": 4360,
+          "endMs": 4630,
+          "charStart": 30,
+          "charEnd": 32
+        }
+      ]
+    },
+    {
+      "text": "言葉は生き物であり、変化しない言語など、死んだ言語を除いて存在しない。",
+      "startMs": 5578,
+      "endMs": 10978,
+      "words": [
+        {
+          "text": "言葉",
+          "startMs": 5728,
+          "endMs": 5988,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "は",
+          "startMs": 5998,
+          "endMs": 6098,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "生き物",
+          "startMs": 6108,
+          "endMs": 6488,
+          "charStart": 3,
+          "charEnd": 6
+        },
+        {
+          "text": "で",
+          "startMs": 6498,
+          "endMs": 6578,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "あり",
+          "startMs": 6588,
+          "endMs": 6858,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "変化",
+          "startMs": 7118,
+          "endMs": 7378,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "し",
+          "startMs": 7388,
+          "endMs": 7508,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "ない",
+          "startMs": 7518,
+          "endMs": 7668,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "言語",
+          "startMs": 7678,
+          "endMs": 7928,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "など",
+          "startMs": 7938,
+          "endMs": 8218,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "死ん",
+          "startMs": 8448,
+          "endMs": 8648,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "だ",
+          "startMs": 8658,
+          "endMs": 8738,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "言語",
+          "startMs": 8748,
+          "endMs": 9018,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "を",
+          "startMs": 9028,
+          "endMs": 9098,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "除い",
+          "startMs": 9108,
+          "endMs": 9398,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "て",
+          "startMs": 9408,
+          "endMs": 9498,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "存在",
+          "startMs": 9508,
+          "endMs": 9868,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "し",
+          "startMs": 9878,
+          "endMs": 9998,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "ない",
+          "startMs": 10008,
+          "endMs": 10268,
+          "charStart": 32,
+          "charEnd": 34
+        }
+      ]
+    },
+    {
+      "text": "SNSの普及は、言葉の流行と廃れの周期をかつてないほど加速させた。",
+      "startMs": 11228,
+      "endMs": 16748,
+      "words": [
+        {
+          "text": "SNS",
+          "startMs": 11338,
+          "endMs": 11928,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "の",
+          "startMs": 11938,
+          "endMs": 12008,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "普及",
+          "startMs": 12018,
+          "endMs": 12308,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "は",
+          "startMs": 12318,
+          "endMs": 12498,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "言葉",
+          "startMs": 12738,
+          "endMs": 13038,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "の",
+          "startMs": 13048,
+          "endMs": 13138,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "流行",
+          "startMs": 13148,
+          "endMs": 13538,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "と",
+          "startMs": 13548,
+          "endMs": 13678,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "廃れ",
+          "startMs": 13708,
+          "endMs": 13978,
+          "charStart": 14,
+          "charEnd": 16
+        },
+        {
+          "text": "の",
+          "startMs": 13988,
+          "endMs": 14088,
+          "charStart": 16,
+          "charEnd": 17
+        },
+        {
+          "text": "周期",
+          "startMs": 14098,
+          "endMs": 14408,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "を",
+          "startMs": 14418,
+          "endMs": 14528,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "かつて",
+          "startMs": 14538,
+          "endMs": 14848,
+          "charStart": 20,
+          "charEnd": 23
+        },
+        {
+          "text": "ない",
+          "startMs": 14858,
+          "endMs": 15038,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "ほど",
+          "startMs": 15048,
+          "endMs": 15268,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "加速",
+          "startMs": 15278,
+          "endMs": 15578,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "さ",
+          "startMs": 15588,
+          "endMs": 15688,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "せ",
+          "startMs": 15698,
+          "endMs": 15808,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "た",
+          "startMs": 15818,
+          "endMs": 16038,
+          "charStart": 31,
+          "charEnd": 32
+        }
+      ]
+    },
+    {
+      "text": "かつては反抗の記号だった表現が、瞬く間に商業に回収されることも珍しくない。",
+      "startMs": 16998,
+      "endMs": 22998,
+      "words": [
+        {
+          "text": "かつて",
+          "startMs": 17138,
+          "endMs": 17398,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "は",
+          "startMs": 17408,
+          "endMs": 17538,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "反抗",
+          "startMs": 17548,
+          "endMs": 17968,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "の",
+          "startMs": 17978,
+          "endMs": 18058,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "記号",
+          "startMs": 18068,
+          "endMs": 18378,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "だっ",
+          "startMs": 18388,
+          "endMs": 18518,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "た",
+          "startMs": 18528,
+          "endMs": 18598,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "表現",
+          "startMs": 18608,
+          "endMs": 19028,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "が",
+          "startMs": 19038,
+          "endMs": 19238,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "瞬く",
+          "startMs": 19378,
+          "endMs": 19798,
+          "charStart": 16,
+          "charEnd": 18
+        },
+        {
+          "text": "間",
+          "startMs": 19808,
+          "endMs": 19878,
+          "charStart": 18,
+          "charEnd": 19
+        },
+        {
+          "text": "に",
+          "startMs": 19888,
+          "endMs": 20018,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "商業",
+          "startMs": 20028,
+          "endMs": 20418,
+          "charStart": 20,
+          "charEnd": 22
+        },
+        {
+          "text": "に",
+          "startMs": 20428,
+          "endMs": 20538,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "回収",
+          "startMs": 20548,
+          "endMs": 20898,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "さ",
+          "startMs": 20908,
+          "endMs": 21008,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "れる",
+          "startMs": 21018,
+          "endMs": 21188,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "こと",
+          "startMs": 21198,
+          "endMs": 21388,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "も",
+          "startMs": 21398,
+          "endMs": 21538,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "珍しく",
+          "startMs": 21558,
+          "endMs": 22038,
+          "charStart": 31,
+          "charEnd": 34
+        },
+        {
+          "text": "ない",
+          "startMs": 22048,
+          "endMs": 22298,
+          "charStart": 34,
+          "charEnd": 36
+        }
+      ]
+    },
+    {
+      "text": "敬語の乱れを指摘する向きもあるが、丁寧さの形が変容しているだけだとの見方も有力だ。",
+      "startMs": 23248,
+      "endMs": 29464,
+      "words": [
+        {
+          "text": "敬語",
+          "startMs": 23398,
+          "endMs": 23628,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "の",
+          "startMs": 23638,
+          "endMs": 23728,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "乱れ",
+          "startMs": 23738,
+          "endMs": 24008,
+          "charStart": 3,
+          "charEnd": 5
+        },
+        {
+          "text": "を",
+          "startMs": 24018,
+          "endMs": 24118,
+          "charStart": 5,
+          "charEnd": 6
+        },
+        {
+          "text": "指摘",
+          "startMs": 24128,
+          "endMs": 24418,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "する",
+          "startMs": 24428,
+          "endMs": 24628,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "向き",
+          "startMs": 24638,
+          "endMs": 24838,
+          "charStart": 10,
+          "charEnd": 12
+        },
+        {
+          "text": "も",
+          "startMs": 24848,
+          "endMs": 24928,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "ある",
+          "startMs": 24938,
+          "endMs": 25108,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "が",
+          "startMs": 25118,
+          "endMs": 25318,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "丁寧",
+          "startMs": 25488,
+          "endMs": 25808,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "さ",
+          "startMs": 25818,
+          "endMs": 25918,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "の",
+          "startMs": 25928,
+          "endMs": 26018,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "形",
+          "startMs": 26028,
+          "endMs": 26338,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "が",
+          "startMs": 26348,
+          "endMs": 26458,
+          "charStart": 22,
+          "charEnd": 23
+        },
+        {
+          "text": "変容",
+          "startMs": 26468,
+          "endMs": 26878,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "し",
+          "startMs": 26888,
+          "endMs": 26958,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "て",
+          "startMs": 26968,
+          "endMs": 27018,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "いる",
+          "startMs": 27028,
+          "endMs": 27218,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "だけ",
+          "startMs": 27228,
+          "endMs": 27408,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "だ",
+          "startMs": 27418,
+          "endMs": 27518,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "と",
+          "startMs": 27528,
+          "endMs": 27618,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "の",
+          "startMs": 27628,
+          "endMs": 27718,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "見方",
+          "startMs": 27728,
+          "endMs": 28028,
+          "charStart": 34,
+          "charEnd": 36
+        },
+        {
+          "text": "も",
+          "startMs": 28038,
+          "endMs": 28138,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "有力",
+          "startMs": 28148,
+          "endMs": 28548,
+          "charStart": 37,
+          "charEnd": 39
+        },
+        {
+          "text": "だ",
+          "startMs": 28558,
+          "endMs": 28748,
+          "charStart": 39,
+          "charEnd": 40
+        }
+      ]
+    },
+    {
+      "text": "方言が見直され、地域のアイデンティティとして再評価される動きも広がっている。",
+      "startMs": 29714,
+      "endMs": 35354,
+      "words": [
+        {
+          "text": "方言",
+          "startMs": 29824,
+          "endMs": 30164,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "が",
+          "startMs": 30174,
+          "endMs": 30264,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "見直さ",
+          "startMs": 30274,
+          "endMs": 30674,
+          "charStart": 3,
+          "charEnd": 6
+        },
+        {
+          "text": "れ",
+          "startMs": 30684,
+          "endMs": 30854,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "地域",
+          "startMs": 31114,
+          "endMs": 31434,
+          "charStart": 8,
+          "charEnd": 10
+        },
+        {
+          "text": "の",
+          "startMs": 31444,
+          "endMs": 31514,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "アイデンティティ",
+          "startMs": 31524,
+          "endMs": 32174,
+          "charStart": 11,
+          "charEnd": 19
+        },
+        {
+          "text": "と",
+          "startMs": 32184,
+          "endMs": 32254,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "し",
+          "startMs": 32264,
+          "endMs": 32364,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "て",
+          "startMs": 32374,
+          "endMs": 32544,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "再評価",
+          "startMs": 32654,
+          "endMs": 33154,
+          "charStart": 22,
+          "charEnd": 25
+        },
+        {
+          "text": "さ",
+          "startMs": 33164,
+          "endMs": 33274,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "れる",
+          "startMs": 33284,
+          "endMs": 33454,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "動き",
+          "startMs": 33464,
+          "endMs": 33764,
+          "charStart": 28,
+          "charEnd": 30
+        },
+        {
+          "text": "も",
+          "startMs": 33774,
+          "endMs": 33854,
+          "charStart": 30,
+          "charEnd": 31
+        },
+        {
+          "text": "広がっ",
+          "startMs": 33864,
+          "endMs": 34274,
+          "charStart": 31,
+          "charEnd": 34
+        },
+        {
+          "text": "て",
+          "startMs": 34284,
+          "endMs": 34354,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "いる",
+          "startMs": 34364,
+          "endMs": 34654,
+          "charStart": 35,
+          "charEnd": 37
+        }
+      ]
+    },
+    {
+      "text": "外来語の氾濫を憂う声がある一方で、日本語の外来語受容力こそが生命力の証だという指摘もある。",
+      "startMs": 35604,
+      "endMs": 42996,
+      "words": [
+        {
+          "text": "外来語",
+          "startMs": 35714,
+          "endMs": 36154,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "の",
+          "startMs": 36164,
+          "endMs": 36254,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "氾濫",
+          "startMs": 36264,
+          "endMs": 36644,
+          "charStart": 4,
+          "charEnd": 6
+        },
+        {
+          "text": "を",
+          "startMs": 36654,
+          "endMs": 36744,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "憂う",
+          "startMs": 36754,
+          "endMs": 37124,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "声",
+          "startMs": 37134,
+          "endMs": 37304,
+          "charStart": 9,
+          "charEnd": 10
+        },
+        {
+          "text": "が",
+          "startMs": 37314,
+          "endMs": 37404,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "ある",
+          "startMs": 37414,
+          "endMs": 37584,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "一方",
+          "startMs": 37594,
+          "endMs": 37944,
+          "charStart": 13,
+          "charEnd": 15
+        },
+        {
+          "text": "で",
+          "startMs": 37954,
+          "endMs": 38134,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "日本語",
+          "startMs": 38274,
+          "endMs": 38684,
+          "charStart": 17,
+          "charEnd": 20
+        },
+        {
+          "text": "の",
+          "startMs": 38694,
+          "endMs": 38794,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "外来語",
+          "startMs": 38804,
+          "endMs": 39254,
+          "charStart": 21,
+          "charEnd": 24
+        },
+        {
+          "text": "受容",
+          "startMs": 39264,
+          "endMs": 39574,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "力",
+          "startMs": 39584,
+          "endMs": 39774,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "こそ",
+          "startMs": 39784,
+          "endMs": 39984,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "が",
+          "startMs": 39994,
+          "endMs": 40174,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "生命力",
+          "startMs": 40274,
+          "endMs": 40854,
+          "charStart": 30,
+          "charEnd": 33
+        },
+        {
+          "text": "の",
+          "startMs": 40864,
+          "endMs": 40934,
+          "charStart": 33,
+          "charEnd": 34
+        },
+        {
+          "text": "証",
+          "startMs": 40944,
+          "endMs": 41254,
+          "charStart": 34,
+          "charEnd": 35
+        },
+        {
+          "text": "だ",
+          "startMs": 41264,
+          "endMs": 41344,
+          "charStart": 35,
+          "charEnd": 36
+        },
+        {
+          "text": "と",
+          "startMs": 41354,
+          "endMs": 41434,
+          "charStart": 36,
+          "charEnd": 37
+        },
+        {
+          "text": "いう",
+          "startMs": 41444,
+          "endMs": 41624,
+          "charStart": 37,
+          "charEnd": 39
+        },
+        {
+          "text": "指摘",
+          "startMs": 41634,
+          "endMs": 41924,
+          "charStart": 39,
+          "charEnd": 41
+        },
+        {
+          "text": "も",
+          "startMs": 41934,
+          "endMs": 42004,
+          "charStart": 41,
+          "charEnd": 42
+        },
+        {
+          "text": "ある",
+          "startMs": 42014,
+          "endMs": 42294,
+          "charStart": 42,
+          "charEnd": 44
+        }
+      ]
+    },
+    {
+      "text": "言葉の正しさを誰が決めるのかという問いは、権力と言語の関係を暴き出す。",
+      "startMs": 43246,
+      "endMs": 48790,
+      "words": [
+        {
+          "text": "言葉",
+          "startMs": 43386,
+          "endMs": 43646,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "の",
+          "startMs": 43656,
+          "endMs": 43766,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "正しさ",
+          "startMs": 43776,
+          "endMs": 44156,
+          "charStart": 3,
+          "charEnd": 6
+        },
+        {
+          "text": "を",
+          "startMs": 44166,
+          "endMs": 44266,
+          "charStart": 6,
+          "charEnd": 7
+        },
+        {
+          "text": "誰",
+          "startMs": 44276,
+          "endMs": 44466,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "が",
+          "startMs": 44476,
+          "endMs": 44576,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "決める",
+          "startMs": 44586,
+          "endMs": 44916,
+          "charStart": 9,
+          "charEnd": 12
+        },
+        {
+          "text": "の",
+          "startMs": 44926,
+          "endMs": 45006,
+          "charStart": 12,
+          "charEnd": 13
+        },
+        {
+          "text": "か",
+          "startMs": 45016,
+          "endMs": 45116,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "と",
+          "startMs": 45126,
+          "endMs": 45206,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "いう",
+          "startMs": 45216,
+          "endMs": 45406,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "問い",
+          "startMs": 45416,
+          "endMs": 45586,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "は",
+          "startMs": 45596,
+          "endMs": 45796,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "権力",
+          "startMs": 46056,
+          "endMs": 46426,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "と",
+          "startMs": 46436,
+          "endMs": 46526,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "言語",
+          "startMs": 46536,
+          "endMs": 46836,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "の",
+          "startMs": 46846,
+          "endMs": 46956,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "関係",
+          "startMs": 46966,
+          "endMs": 47346,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "を",
+          "startMs": 47356,
+          "endMs": 47436,
+          "charStart": 29,
+          "charEnd": 30
+        },
+        {
+          "text": "暴き出す",
+          "startMs": 47446,
+          "endMs": 48096,
+          "charStart": 30,
+          "charEnd": 34
+        }
+      ]
+    },
+    {
+      "text": "辞書が追いつかないほどの速度で生まれる新語は、社会の変化を映す鏡にほかならない。",
+      "startMs": 49040,
+      "endMs": 54800,
+      "words": [
+        {
+          "text": "辞書",
+          "startMs": 49150,
+          "endMs": 49400,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "が",
+          "startMs": 49410,
+          "endMs": 49500,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "追いつか",
+          "startMs": 49510,
+          "endMs": 49890,
+          "charStart": 3,
+          "charEnd": 7
+        },
+        {
+          "text": "ない",
+          "startMs": 49900,
+          "endMs": 50050,
+          "charStart": 7,
+          "charEnd": 9
+        },
+        {
+          "text": "ほど",
+          "startMs": 50060,
+          "endMs": 50250,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "の",
+          "startMs": 50260,
+          "endMs": 50350,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "速度",
+          "startMs": 50360,
+          "endMs": 50660,
+          "charStart": 12,
+          "charEnd": 14
+        },
+        {
+          "text": "で",
+          "startMs": 50670,
+          "endMs": 50750,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "生まれる",
+          "startMs": 50760,
+          "endMs": 51120,
+          "charStart": 15,
+          "charEnd": 19
+        },
+        {
+          "text": "新語",
+          "startMs": 51130,
+          "endMs": 51440,
+          "charStart": 19,
+          "charEnd": 21
+        },
+        {
+          "text": "は",
+          "startMs": 51450,
+          "endMs": 51660,
+          "charStart": 21,
+          "charEnd": 22
+        },
+        {
+          "text": "社会",
+          "startMs": 51900,
+          "endMs": 52210,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "の",
+          "startMs": 52220,
+          "endMs": 52290,
+          "charStart": 25,
+          "charEnd": 26
+        },
+        {
+          "text": "変化",
+          "startMs": 52300,
+          "endMs": 52580,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "を",
+          "startMs": 52590,
+          "endMs": 52680,
+          "charStart": 28,
+          "charEnd": 29
+        },
+        {
+          "text": "映す",
+          "startMs": 52690,
+          "endMs": 52990,
+          "charStart": 29,
+          "charEnd": 31
+        },
+        {
+          "text": "鏡",
+          "startMs": 53000,
+          "endMs": 53300,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "に",
+          "startMs": 53310,
+          "endMs": 53430,
+          "charStart": 32,
+          "charEnd": 33
+        },
+        {
+          "text": "ほか",
+          "startMs": 53440,
+          "endMs": 53670,
+          "charStart": 33,
+          "charEnd": 35
+        },
+        {
+          "text": "なら",
+          "startMs": 53680,
+          "endMs": 53860,
+          "charStart": 35,
+          "charEnd": 37
+        },
+        {
+          "text": "ない",
+          "startMs": 53870,
+          "endMs": 54110,
+          "charStart": 37,
+          "charEnd": 39
+        }
+      ]
+    },
+    {
+      "text": "大切なのは、変化を嘆くことではなく、言葉とともに思考を鍛え続けることだろう。",
+      "startMs": 55050,
+      "endMs": 61026,
+      "words": [
+        {
+          "text": "大切",
+          "startMs": 55160,
+          "endMs": 55560,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "な",
+          "startMs": 55570,
+          "endMs": 55650,
+          "charStart": 2,
+          "charEnd": 3
+        },
+        {
+          "text": "の",
+          "startMs": 55660,
+          "endMs": 55750,
+          "charStart": 3,
+          "charEnd": 4
+        },
+        {
+          "text": "は",
+          "startMs": 55760,
+          "endMs": 55980,
+          "charStart": 4,
+          "charEnd": 5
+        },
+        {
+          "text": "変化",
+          "startMs": 56230,
+          "endMs": 56480,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "を",
+          "startMs": 56490,
+          "endMs": 56590,
+          "charStart": 8,
+          "charEnd": 9
+        },
+        {
+          "text": "嘆く",
+          "startMs": 56600,
+          "endMs": 56910,
+          "charStart": 9,
+          "charEnd": 11
+        },
+        {
+          "text": "こと",
+          "startMs": 56920,
+          "endMs": 57100,
+          "charStart": 11,
+          "charEnd": 13
+        },
+        {
+          "text": "で",
+          "startMs": 57110,
+          "endMs": 57200,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "は",
+          "startMs": 57210,
+          "endMs": 57290,
+          "charStart": 14,
+          "charEnd": 15
+        },
+        {
+          "text": "なく",
+          "startMs": 57300,
+          "endMs": 57600,
+          "charStart": 15,
+          "charEnd": 17
+        },
+        {
+          "text": "言葉",
+          "startMs": 57840,
+          "endMs": 58150,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "と",
+          "startMs": 58160,
+          "endMs": 58260,
+          "charStart": 20,
+          "charEnd": 21
+        },
+        {
+          "text": "とも",
+          "startMs": 58270,
+          "endMs": 58470,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "に",
+          "startMs": 58480,
+          "endMs": 58670,
+          "charStart": 23,
+          "charEnd": 24
+        },
+        {
+          "text": "思考",
+          "startMs": 58760,
+          "endMs": 59030,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "を",
+          "startMs": 59040,
+          "endMs": 59120,
+          "charStart": 26,
+          "charEnd": 27
+        },
+        {
+          "text": "鍛え",
+          "startMs": 59130,
+          "endMs": 59400,
+          "charStart": 27,
+          "charEnd": 29
+        },
+        {
+          "text": "続ける",
+          "startMs": 59410,
+          "endMs": 59790,
+          "charStart": 29,
+          "charEnd": 32
+        },
+        {
+          "text": "こと",
+          "startMs": 59800,
+          "endMs": 59970,
+          "charStart": 32,
+          "charEnd": 34
+        },
+        {
+          "text": "だろう",
+          "startMs": 59980,
+          "endMs": 60320,
+          "charStart": 34,
+          "charEnd": 37
+        }
+      ]
+    }
+  ]
+}

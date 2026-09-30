@@ -1,0 +1,760 @@
+{
+  "version": 3,
+  "lang": "ru",
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 50202,
+  "sentences": [
+    {
+      "text": "Ностальгия представляет собой не сентиментальную слабость, а глубинную метафизическую тоску по утраченной целостности.",
+      "startMs": 0,
+      "endMs": 5856,
+      "words": [
+        {
+          "text": "Ностальгия",
+          "startMs": 100,
+          "endMs": 680,
+          "charStart": 0,
+          "charEnd": 10
+        },
+        {
+          "text": "представляет",
+          "startMs": 680,
+          "endMs": 1140,
+          "charStart": 11,
+          "charEnd": 23
+        },
+        {
+          "text": "собой",
+          "startMs": 1140,
+          "endMs": 1370,
+          "charStart": 24,
+          "charEnd": 29
+        },
+        {
+          "text": "не",
+          "startMs": 1370,
+          "endMs": 1480,
+          "charStart": 30,
+          "charEnd": 32
+        },
+        {
+          "text": "сентиментальную",
+          "startMs": 1480,
+          "endMs": 2060,
+          "charStart": 33,
+          "charEnd": 48
+        },
+        {
+          "text": "слабость",
+          "startMs": 2060,
+          "endMs": 2410,
+          "charStart": 49,
+          "charEnd": 57
+        },
+        {
+          "text": "а",
+          "startMs": 2620,
+          "endMs": 2660,
+          "charStart": 59,
+          "charEnd": 60
+        },
+        {
+          "text": "глубинную",
+          "startMs": 2660,
+          "endMs": 3090,
+          "charStart": 61,
+          "charEnd": 70
+        },
+        {
+          "text": "метафизическую",
+          "startMs": 3090,
+          "endMs": 3720,
+          "charStart": 71,
+          "charEnd": 85
+        },
+        {
+          "text": "тоску",
+          "startMs": 3720,
+          "endMs": 4020,
+          "charStart": 86,
+          "charEnd": 91
+        },
+        {
+          "text": "по",
+          "startMs": 4020,
+          "endMs": 4120,
+          "charStart": 92,
+          "charEnd": 94
+        },
+        {
+          "text": "утраченной",
+          "startMs": 4120,
+          "endMs": 4530,
+          "charStart": 95,
+          "charEnd": 105
+        },
+        {
+          "text": "целостности",
+          "startMs": 4530,
+          "endMs": 5130,
+          "charStart": 106,
+          "charEnd": 117
+        }
+      ]
+    },
+    {
+      "text": "Ускользающее прошлое необратимо растворяется в непроницаемой мгле забвения.",
+      "startMs": 6106,
+      "endMs": 10546,
+      "words": [
+        {
+          "text": "Ускользающее",
+          "startMs": 6206,
+          "endMs": 6936,
+          "charStart": 0,
+          "charEnd": 12
+        },
+        {
+          "text": "прошлое",
+          "startMs": 6936,
+          "endMs": 7276,
+          "charStart": 13,
+          "charEnd": 20
+        },
+        {
+          "text": "необратимо",
+          "startMs": 7276,
+          "endMs": 7746,
+          "charStart": 21,
+          "charEnd": 31
+        },
+        {
+          "text": "растворяется",
+          "startMs": 7746,
+          "endMs": 8246,
+          "charStart": 32,
+          "charEnd": 44
+        },
+        {
+          "text": "в",
+          "startMs": 8246,
+          "endMs": 8306,
+          "charStart": 45,
+          "charEnd": 46
+        },
+        {
+          "text": "непроницаемой",
+          "startMs": 8306,
+          "endMs": 8946,
+          "charStart": 47,
+          "charEnd": 60
+        },
+        {
+          "text": "мгле",
+          "startMs": 8946,
+          "endMs": 9186,
+          "charStart": 61,
+          "charEnd": 65
+        },
+        {
+          "text": "забвения",
+          "startMs": 9186,
+          "endMs": 9816,
+          "charStart": 66,
+          "charEnd": 74
+        }
+      ]
+    },
+    {
+      "text": "Случайный аромат или забытый аккорд способны мгновенно воскресить законсервированные пласты памяти.",
+      "startMs": 10796,
+      "endMs": 16148,
+      "words": [
+        {
+          "text": "Случайный",
+          "startMs": 10896,
+          "endMs": 11436,
+          "charStart": 0,
+          "charEnd": 9
+        },
+        {
+          "text": "аромат",
+          "startMs": 11436,
+          "endMs": 11816,
+          "charStart": 10,
+          "charEnd": 16
+        },
+        {
+          "text": "или",
+          "startMs": 11816,
+          "endMs": 11956,
+          "charStart": 17,
+          "charEnd": 20
+        },
+        {
+          "text": "забытый",
+          "startMs": 11956,
+          "endMs": 12286,
+          "charStart": 21,
+          "charEnd": 28
+        },
+        {
+          "text": "аккорд",
+          "startMs": 12286,
+          "endMs": 12566,
+          "charStart": 29,
+          "charEnd": 35
+        },
+        {
+          "text": "способны",
+          "startMs": 12566,
+          "endMs": 13016,
+          "charStart": 36,
+          "charEnd": 44
+        },
+        {
+          "text": "мгновенно",
+          "startMs": 13016,
+          "endMs": 13486,
+          "charStart": 45,
+          "charEnd": 54
+        },
+        {
+          "text": "воскресить",
+          "startMs": 13486,
+          "endMs": 13906,
+          "charStart": 55,
+          "charEnd": 65
+        },
+        {
+          "text": "законсервированные",
+          "startMs": 13906,
+          "endMs": 14666,
+          "charStart": 66,
+          "charEnd": 84
+        },
+        {
+          "text": "пласты",
+          "startMs": 14666,
+          "endMs": 14956,
+          "charStart": 85,
+          "charEnd": 91
+        },
+        {
+          "text": "памяти",
+          "startMs": 14956,
+          "endMs": 15416,
+          "charStart": 92,
+          "charEnd": 98
+        }
+      ]
+    },
+    {
+      "text": "Ожившие воспоминания обжигают душу острой горечью своей безвозвратности.",
+      "startMs": 16398,
+      "endMs": 20838,
+      "words": [
+        {
+          "text": "Ожившие",
+          "startMs": 16498,
+          "endMs": 17008,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "воспоминания",
+          "startMs": 17008,
+          "endMs": 17598,
+          "charStart": 8,
+          "charEnd": 20
+        },
+        {
+          "text": "обжигают",
+          "startMs": 17598,
+          "endMs": 18018,
+          "charStart": 21,
+          "charEnd": 29
+        },
+        {
+          "text": "душу",
+          "startMs": 18018,
+          "endMs": 18348,
+          "charStart": 30,
+          "charEnd": 34
+        },
+        {
+          "text": "острой",
+          "startMs": 18348,
+          "endMs": 18708,
+          "charStart": 35,
+          "charEnd": 41
+        },
+        {
+          "text": "горечью",
+          "startMs": 18708,
+          "endMs": 19098,
+          "charStart": 42,
+          "charEnd": 49
+        },
+        {
+          "text": "своей",
+          "startMs": 19098,
+          "endMs": 19358,
+          "charStart": 50,
+          "charEnd": 55
+        },
+        {
+          "text": "безвозвратности",
+          "startMs": 19358,
+          "endMs": 20118,
+          "charStart": 56,
+          "charEnd": 71
+        }
+      ]
+    },
+    {
+      "text": "Человек тщетно пытается собрать разрозненные осколки своей прежней идентичности.",
+      "startMs": 21088,
+      "endMs": 25768,
+      "words": [
+        {
+          "text": "Человек",
+          "startMs": 21188,
+          "endMs": 21638,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "тщетно",
+          "startMs": 21638,
+          "endMs": 22018,
+          "charStart": 8,
+          "charEnd": 14
+        },
+        {
+          "text": "пытается",
+          "startMs": 22018,
+          "endMs": 22368,
+          "charStart": 15,
+          "charEnd": 23
+        },
+        {
+          "text": "собрать",
+          "startMs": 22368,
+          "endMs": 22728,
+          "charStart": 24,
+          "charEnd": 31
+        },
+        {
+          "text": "разрозненные",
+          "startMs": 22728,
+          "endMs": 23288,
+          "charStart": 32,
+          "charEnd": 44
+        },
+        {
+          "text": "осколки",
+          "startMs": 23288,
+          "endMs": 23668,
+          "charStart": 45,
+          "charEnd": 52
+        },
+        {
+          "text": "своей",
+          "startMs": 23668,
+          "endMs": 23958,
+          "charStart": 53,
+          "charEnd": 58
+        },
+        {
+          "text": "прежней",
+          "startMs": 23958,
+          "endMs": 24318,
+          "charStart": 59,
+          "charEnd": 66
+        },
+        {
+          "text": "идентичности",
+          "startMs": 24318,
+          "endMs": 25058,
+          "charStart": 67,
+          "charEnd": 79
+        }
+      ]
+    },
+    {
+      "text": "Каждое возвращение в город юности оборачивается болезненной встречей с собственным призраком.",
+      "startMs": 26018,
+      "endMs": 30770,
+      "words": [
+        {
+          "text": "Каждое",
+          "startMs": 26118,
+          "endMs": 26488,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "возвращение",
+          "startMs": 26488,
+          "endMs": 26978,
+          "charStart": 7,
+          "charEnd": 18
+        },
+        {
+          "text": "в",
+          "startMs": 26978,
+          "endMs": 27028,
+          "charStart": 19,
+          "charEnd": 20
+        },
+        {
+          "text": "город",
+          "startMs": 27028,
+          "endMs": 27248,
+          "charStart": 21,
+          "charEnd": 26
+        },
+        {
+          "text": "юности",
+          "startMs": 27248,
+          "endMs": 27628,
+          "charStart": 27,
+          "charEnd": 33
+        },
+        {
+          "text": "оборачивается",
+          "startMs": 27628,
+          "endMs": 28268,
+          "charStart": 34,
+          "charEnd": 47
+        },
+        {
+          "text": "болезненной",
+          "startMs": 28268,
+          "endMs": 28698,
+          "charStart": 48,
+          "charEnd": 59
+        },
+        {
+          "text": "встречей",
+          "startMs": 28698,
+          "endMs": 29078,
+          "charStart": 60,
+          "charEnd": 68
+        },
+        {
+          "text": "с",
+          "startMs": 29078,
+          "endMs": 29128,
+          "charStart": 69,
+          "charEnd": 70
+        },
+        {
+          "text": "собственным",
+          "startMs": 29128,
+          "endMs": 29568,
+          "charStart": 71,
+          "charEnd": 82
+        },
+        {
+          "text": "призраком",
+          "startMs": 29568,
+          "endMs": 30038,
+          "charStart": 83,
+          "charEnd": 92
+        }
+      ]
+    },
+    {
+      "text": "Время, будучи великим уравнителем, безжалостно стирает некогда незыблемые следы былого.",
+      "startMs": 31020,
+      "endMs": 36420,
+      "words": [
+        {
+          "text": "Время",
+          "startMs": 31120,
+          "endMs": 31600,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "будучи",
+          "startMs": 31800,
+          "endMs": 32130,
+          "charStart": 7,
+          "charEnd": 13
+        },
+        {
+          "text": "великим",
+          "startMs": 32130,
+          "endMs": 32470,
+          "charStart": 14,
+          "charEnd": 21
+        },
+        {
+          "text": "уравнителем",
+          "startMs": 32470,
+          "endMs": 32980,
+          "charStart": 22,
+          "charEnd": 33
+        },
+        {
+          "text": "безжалостно",
+          "startMs": 33190,
+          "endMs": 33700,
+          "charStart": 35,
+          "charEnd": 46
+        },
+        {
+          "text": "стирает",
+          "startMs": 33700,
+          "endMs": 34060,
+          "charStart": 47,
+          "charEnd": 54
+        },
+        {
+          "text": "некогда",
+          "startMs": 34060,
+          "endMs": 34440,
+          "charStart": 55,
+          "charEnd": 62
+        },
+        {
+          "text": "незыблемые",
+          "startMs": 34440,
+          "endMs": 34960,
+          "charStart": 63,
+          "charEnd": 73
+        },
+        {
+          "text": "следы",
+          "startMs": 34960,
+          "endMs": 35230,
+          "charStart": 74,
+          "charEnd": 79
+        },
+        {
+          "text": "былого",
+          "startMs": 35230,
+          "endMs": 35680,
+          "charStart": 80,
+          "charEnd": 86
+        }
+      ]
+    },
+    {
+      "text": "Однако в горниле ностальгического переживания преходящее очищается до уровня мифа.",
+      "startMs": 36670,
+      "endMs": 41446,
+      "words": [
+        {
+          "text": "Однако",
+          "startMs": 36770,
+          "endMs": 37190,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "в",
+          "startMs": 37190,
+          "endMs": 37230,
+          "charStart": 7,
+          "charEnd": 8
+        },
+        {
+          "text": "горниле",
+          "startMs": 37230,
+          "endMs": 37590,
+          "charStart": 9,
+          "charEnd": 16
+        },
+        {
+          "text": "ностальгического",
+          "startMs": 37590,
+          "endMs": 38250,
+          "charStart": 17,
+          "charEnd": 33
+        },
+        {
+          "text": "переживания",
+          "startMs": 38250,
+          "endMs": 38730,
+          "charStart": 34,
+          "charEnd": 45
+        },
+        {
+          "text": "преходящее",
+          "startMs": 38730,
+          "endMs": 39290,
+          "charStart": 46,
+          "charEnd": 56
+        },
+        {
+          "text": "очищается",
+          "startMs": 39290,
+          "endMs": 39900,
+          "charStart": 57,
+          "charEnd": 66
+        },
+        {
+          "text": "до",
+          "startMs": 39900,
+          "endMs": 40040,
+          "charStart": 67,
+          "charEnd": 69
+        },
+        {
+          "text": "уровня",
+          "startMs": 40040,
+          "endMs": 40330,
+          "charStart": 70,
+          "charEnd": 76
+        },
+        {
+          "text": "мифа",
+          "startMs": 40330,
+          "endMs": 40720,
+          "charStart": 77,
+          "charEnd": 81
+        }
+      ]
+    },
+    {
+      "text": "Прошлое кристаллизуется в сознании как недосягаемый золотой век.",
+      "startMs": 41696,
+      "endMs": 45560,
+      "words": [
+        {
+          "text": "Прошлое",
+          "startMs": 41796,
+          "endMs": 42236,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "кристаллизуется",
+          "startMs": 42236,
+          "endMs": 42846,
+          "charStart": 8,
+          "charEnd": 23
+        },
+        {
+          "text": "в",
+          "startMs": 42846,
+          "endMs": 42876,
+          "charStart": 24,
+          "charEnd": 25
+        },
+        {
+          "text": "сознании",
+          "startMs": 42876,
+          "endMs": 43346,
+          "charStart": 26,
+          "charEnd": 34
+        },
+        {
+          "text": "как",
+          "startMs": 43346,
+          "endMs": 43556,
+          "charStart": 35,
+          "charEnd": 38
+        },
+        {
+          "text": "недосягаемый",
+          "startMs": 43556,
+          "endMs": 44196,
+          "charStart": 39,
+          "charEnd": 51
+        },
+        {
+          "text": "золотой",
+          "startMs": 44196,
+          "endMs": 44536,
+          "charStart": 52,
+          "charEnd": 59
+        },
+        {
+          "text": "век",
+          "startMs": 44536,
+          "endMs": 44856,
+          "charStart": 60,
+          "charEnd": 63
+        }
+      ]
+    },
+    {
+      "text": "Примирение с необратимостью хроноса дарует мудрое утешение увядающему духу.",
+      "startMs": 45810,
+      "endMs": 50202,
+      "words": [
+        {
+          "text": "Примирение",
+          "startMs": 45910,
+          "endMs": 46380,
+          "charStart": 0,
+          "charEnd": 10
+        },
+        {
+          "text": "с",
+          "startMs": 46380,
+          "endMs": 46430,
+          "charStart": 11,
+          "charEnd": 12
+        },
+        {
+          "text": "необратимостью",
+          "startMs": 46430,
+          "endMs": 47010,
+          "charStart": 13,
+          "charEnd": 27
+        },
+        {
+          "text": "хроноса",
+          "startMs": 47010,
+          "endMs": 47410,
+          "charStart": 28,
+          "charEnd": 35
+        },
+        {
+          "text": "дарует",
+          "startMs": 47410,
+          "endMs": 47740,
+          "charStart": 36,
+          "charEnd": 42
+        },
+        {
+          "text": "мудрое",
+          "startMs": 47740,
+          "endMs": 48060,
+          "charStart": 43,
+          "charEnd": 49
+        },
+        {
+          "text": "утешение",
+          "startMs": 48060,
+          "endMs": 48570,
+          "charStart": 50,
+          "charEnd": 58
+        },
+        {
+          "text": "увядающему",
+          "startMs": 48570,
+          "endMs": 49140,
+          "charStart": 59,
+          "charEnd": 69
+        },
+        {
+          "text": "духу",
+          "startMs": 49140,
+          "endMs": 49480,
+          "charStart": 70,
+          "charEnd": 74
+        }
+      ]
+    }
+  ]
+}

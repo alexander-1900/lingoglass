@@ -1,0 +1,515 @@
+{
+  "version": 3,
+  "lang": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 26082,
+  "sentences": [
+    {
+      "text": "Es verano y hace mucho calor.",
+      "startMs": 0,
+      "endMs": 2184,
+      "words": [
+        {
+          "text": "Es",
+          "startMs": 100,
+          "endMs": 290,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "verano",
+          "startMs": 300,
+          "endMs": 620,
+          "charStart": 3,
+          "charEnd": 9
+        },
+        {
+          "text": "y",
+          "startMs": 630,
+          "endMs": 700,
+          "charStart": 10,
+          "charEnd": 11
+        },
+        {
+          "text": "hace",
+          "startMs": 710,
+          "endMs": 870,
+          "charStart": 12,
+          "charEnd": 16
+        },
+        {
+          "text": "mucho",
+          "startMs": 880,
+          "endMs": 1090,
+          "charStart": 17,
+          "charEnd": 22
+        },
+        {
+          "text": "calor",
+          "startMs": 1100,
+          "endMs": 1490,
+          "charStart": 23,
+          "charEnd": 28
+        }
+      ]
+    },
+    {
+      "text": "La familia viaja en coche rojo.",
+      "startMs": 2434,
+      "endMs": 4834,
+      "words": [
+        {
+          "text": "La",
+          "startMs": 2534,
+          "endMs": 2744,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "familia",
+          "startMs": 2754,
+          "endMs": 3054,
+          "charStart": 3,
+          "charEnd": 10
+        },
+        {
+          "text": "viaja",
+          "startMs": 3064,
+          "endMs": 3364,
+          "charStart": 11,
+          "charEnd": 16
+        },
+        {
+          "text": "en",
+          "startMs": 3374,
+          "endMs": 3474,
+          "charStart": 17,
+          "charEnd": 19
+        },
+        {
+          "text": "coche",
+          "startMs": 3484,
+          "endMs": 3724,
+          "charStart": 20,
+          "charEnd": 25
+        },
+        {
+          "text": "rojo",
+          "startMs": 3734,
+          "endMs": 4144,
+          "charStart": 26,
+          "charEnd": 30
+        }
+      ]
+    },
+    {
+      "text": "Ellos llegan a una playa bonita.",
+      "startMs": 5084,
+      "endMs": 7364,
+      "words": [
+        {
+          "text": "Ellos",
+          "startMs": 5179,
+          "endMs": 5469,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "llegan",
+          "startMs": 5479,
+          "endMs": 5709,
+          "charStart": 6,
+          "charEnd": 12
+        },
+        {
+          "text": "a",
+          "startMs": 5719,
+          "endMs": 5749,
+          "charStart": 13,
+          "charEnd": 14
+        },
+        {
+          "text": "una",
+          "startMs": 5759,
+          "endMs": 5929,
+          "charStart": 15,
+          "charEnd": 18
+        },
+        {
+          "text": "playa",
+          "startMs": 5939,
+          "endMs": 6189,
+          "charStart": 19,
+          "charEnd": 24
+        },
+        {
+          "text": "bonita",
+          "startMs": 6199,
+          "endMs": 6679,
+          "charStart": 25,
+          "charEnd": 31
+        }
+      ]
+    },
+    {
+      "text": "El mar azul está muy limpio.",
+      "startMs": 7614,
+      "endMs": 9750,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 7709,
+          "endMs": 7889,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "mar",
+          "startMs": 7899,
+          "endMs": 8029,
+          "charStart": 3,
+          "charEnd": 6
+        },
+        {
+          "text": "azul",
+          "startMs": 8039,
+          "endMs": 8259,
+          "charStart": 7,
+          "charEnd": 11
+        },
+        {
+          "text": "está",
+          "startMs": 8269,
+          "endMs": 8449,
+          "charStart": 12,
+          "charEnd": 16
+        },
+        {
+          "text": "muy",
+          "startMs": 8459,
+          "endMs": 8589,
+          "charStart": 17,
+          "charEnd": 20
+        },
+        {
+          "text": "limpio",
+          "startMs": 8599,
+          "endMs": 9059,
+          "charStart": 21,
+          "charEnd": 27
+        }
+      ]
+    },
+    {
+      "text": "Los padres descansan bajo una sombrilla.",
+      "startMs": 10000,
+      "endMs": 12712,
+      "words": [
+        {
+          "text": "Los",
+          "startMs": 10095,
+          "endMs": 10325,
+          "charStart": 0,
+          "charEnd": 3
+        },
+        {
+          "text": "padres",
+          "startMs": 10335,
+          "endMs": 10575,
+          "charStart": 4,
+          "charEnd": 10
+        },
+        {
+          "text": "descansan",
+          "startMs": 10585,
+          "endMs": 11035,
+          "charStart": 11,
+          "charEnd": 20
+        },
+        {
+          "text": "bajo",
+          "startMs": 11045,
+          "endMs": 11275,
+          "charStart": 21,
+          "charEnd": 25
+        },
+        {
+          "text": "una",
+          "startMs": 11285,
+          "endMs": 11425,
+          "charStart": 26,
+          "charEnd": 29
+        },
+        {
+          "text": "sombrilla",
+          "startMs": 11435,
+          "endMs": 12015,
+          "charStart": 30,
+          "charEnd": 39
+        }
+      ]
+    },
+    {
+      "text": "El hijo pequeño nada en el agua.",
+      "startMs": 12962,
+      "endMs": 15170,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 13057,
+          "endMs": 13227,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "hijo",
+          "startMs": 13237,
+          "endMs": 13407,
+          "charStart": 3,
+          "charEnd": 7
+        },
+        {
+          "text": "pequeño",
+          "startMs": 13417,
+          "endMs": 13717,
+          "charStart": 8,
+          "charEnd": 15
+        },
+        {
+          "text": "nada",
+          "startMs": 13727,
+          "endMs": 13917,
+          "charStart": 16,
+          "charEnd": 20
+        },
+        {
+          "text": "en",
+          "startMs": 13927,
+          "endMs": 13987,
+          "charStart": 21,
+          "charEnd": 23
+        },
+        {
+          "text": "el",
+          "startMs": 13997,
+          "endMs": 14077,
+          "charStart": 24,
+          "charEnd": 26
+        },
+        {
+          "text": "agua",
+          "startMs": 14087,
+          "endMs": 14467,
+          "charStart": 27,
+          "charEnd": 31
+        }
+      ]
+    },
+    {
+      "text": "Todos comen bocadillos de jamón sabrosos.",
+      "startMs": 15420,
+      "endMs": 18084,
+      "words": [
+        {
+          "text": "Todos",
+          "startMs": 15515,
+          "endMs": 15805,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "comen",
+          "startMs": 15815,
+          "endMs": 16035,
+          "charStart": 6,
+          "charEnd": 11
+        },
+        {
+          "text": "bocadillos",
+          "startMs": 16045,
+          "endMs": 16465,
+          "charStart": 12,
+          "charEnd": 22
+        },
+        {
+          "text": "de",
+          "startMs": 16475,
+          "endMs": 16535,
+          "charStart": 23,
+          "charEnd": 25
+        },
+        {
+          "text": "jamón",
+          "startMs": 16545,
+          "endMs": 16805,
+          "charStart": 26,
+          "charEnd": 31
+        },
+        {
+          "text": "sabrosos",
+          "startMs": 16815,
+          "endMs": 17385,
+          "charStart": 32,
+          "charEnd": 40
+        }
+      ]
+    },
+    {
+      "text": "El sol brilla fuerte toda la tarde.",
+      "startMs": 18334,
+      "endMs": 20758,
+      "words": [
+        {
+          "text": "El",
+          "startMs": 18434,
+          "endMs": 18634,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "sol",
+          "startMs": 18644,
+          "endMs": 18814,
+          "charStart": 3,
+          "charEnd": 6
+        },
+        {
+          "text": "brilla",
+          "startMs": 18824,
+          "endMs": 19094,
+          "charStart": 7,
+          "charEnd": 13
+        },
+        {
+          "text": "fuerte",
+          "startMs": 19104,
+          "endMs": 19384,
+          "charStart": 14,
+          "charEnd": 20
+        },
+        {
+          "text": "toda",
+          "startMs": 19394,
+          "endMs": 19544,
+          "charStart": 21,
+          "charEnd": 25
+        },
+        {
+          "text": "la",
+          "startMs": 19554,
+          "endMs": 19634,
+          "charStart": 26,
+          "charEnd": 28
+        },
+        {
+          "text": "tarde",
+          "startMs": 19644,
+          "endMs": 20064,
+          "charStart": 29,
+          "charEnd": 34
+        }
+      ]
+    },
+    {
+      "text": "Al atardecer caminan por la orilla.",
+      "startMs": 21008,
+      "endMs": 23408,
+      "words": [
+        {
+          "text": "Al",
+          "startMs": 21103,
+          "endMs": 21263,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "atardecer",
+          "startMs": 21273,
+          "endMs": 21693,
+          "charStart": 3,
+          "charEnd": 12
+        },
+        {
+          "text": "caminan",
+          "startMs": 21703,
+          "endMs": 22073,
+          "charStart": 13,
+          "charEnd": 20
+        },
+        {
+          "text": "por",
+          "startMs": 22083,
+          "endMs": 22193,
+          "charStart": 21,
+          "charEnd": 24
+        },
+        {
+          "text": "la",
+          "startMs": 22203,
+          "endMs": 22263,
+          "charStart": 25,
+          "charEnd": 27
+        },
+        {
+          "text": "orilla",
+          "startMs": 22273,
+          "endMs": 22703,
+          "charStart": 28,
+          "charEnd": 34
+        }
+      ]
+    },
+    {
+      "text": "La familia vuelve contenta a casa.",
+      "startMs": 23658,
+      "endMs": 26082,
+      "words": [
+        {
+          "text": "La",
+          "startMs": 23758,
+          "endMs": 23968,
+          "charStart": 0,
+          "charEnd": 2
+        },
+        {
+          "text": "familia",
+          "startMs": 23978,
+          "endMs": 24288,
+          "charStart": 3,
+          "charEnd": 10
+        },
+        {
+          "text": "vuelve",
+          "startMs": 24298,
+          "endMs": 24538,
+          "charStart": 11,
+          "charEnd": 17
+        },
+        {
+          "text": "contenta",
+          "startMs": 24548,
+          "endMs": 24908,
+          "charStart": 18,
+          "charEnd": 26
+        },
+        {
+          "text": "a",
+          "startMs": 24918,
+          "endMs": 24948,
+          "charStart": 27,
+          "charEnd": 28
+        },
+        {
+          "text": "casa",
+          "startMs": 24958,
+          "endMs": 25388,
+          "charStart": 29,
+          "charEnd": 33
+        }
+      ]
+    }
+  ]
+}

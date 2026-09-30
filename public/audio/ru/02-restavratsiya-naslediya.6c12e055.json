@@ -1,0 +1,816 @@
+{
+  "version": 3,
+  "lang": "ru",
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 56082,
+  "sentences": [
+    {
+      "text": "Старинный дворянский особняк находился в полуразрушенном состоянии на протяжении нескольких десятилетий.",
+      "startMs": 0,
+      "endMs": 5376,
+      "words": [
+        {
+          "text": "Старинный",
+          "startMs": 100,
+          "endMs": 630,
+          "charStart": 0,
+          "charEnd": 9
+        },
+        {
+          "text": "дворянский",
+          "startMs": 630,
+          "endMs": 1020,
+          "charStart": 10,
+          "charEnd": 20
+        },
+        {
+          "text": "особняк",
+          "startMs": 1020,
+          "endMs": 1430,
+          "charStart": 21,
+          "charEnd": 28
+        },
+        {
+          "text": "находился",
+          "startMs": 1430,
+          "endMs": 1880,
+          "charStart": 29,
+          "charEnd": 38
+        },
+        {
+          "text": "в",
+          "startMs": 1880,
+          "endMs": 1940,
+          "charStart": 39,
+          "charEnd": 40
+        },
+        {
+          "text": "полуразрушенном",
+          "startMs": 1940,
+          "endMs": 2570,
+          "charStart": 41,
+          "charEnd": 56
+        },
+        {
+          "text": "состоянии",
+          "startMs": 2570,
+          "endMs": 3080,
+          "charStart": 57,
+          "charEnd": 66
+        },
+        {
+          "text": "на",
+          "startMs": 3080,
+          "endMs": 3170,
+          "charStart": 67,
+          "charEnd": 69
+        },
+        {
+          "text": "протяжении",
+          "startMs": 3170,
+          "endMs": 3650,
+          "charStart": 70,
+          "charEnd": 80
+        },
+        {
+          "text": "нескольких",
+          "startMs": 3650,
+          "endMs": 4070,
+          "charStart": 81,
+          "charEnd": 91
+        },
+        {
+          "text": "десятилетий",
+          "startMs": 4070,
+          "endMs": 4690,
+          "charStart": 92,
+          "charEnd": 103
+        }
+      ]
+    },
+    {
+      "text": "Группа талантливых энтузиастов наконец получила долгожданное государственное разрешение на проведение реставрации.",
+      "startMs": 5626,
+      "endMs": 11554,
+      "words": [
+        {
+          "text": "Группа",
+          "startMs": 5726,
+          "endMs": 6186,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "талантливых",
+          "startMs": 6186,
+          "endMs": 6746,
+          "charStart": 7,
+          "charEnd": 18
+        },
+        {
+          "text": "энтузиастов",
+          "startMs": 6746,
+          "endMs": 7306,
+          "charStart": 19,
+          "charEnd": 30
+        },
+        {
+          "text": "наконец",
+          "startMs": 7306,
+          "endMs": 7696,
+          "charStart": 31,
+          "charEnd": 38
+        },
+        {
+          "text": "получила",
+          "startMs": 7696,
+          "endMs": 8056,
+          "charStart": 39,
+          "charEnd": 47
+        },
+        {
+          "text": "долгожданное",
+          "startMs": 8056,
+          "endMs": 8666,
+          "charStart": 48,
+          "charEnd": 60
+        },
+        {
+          "text": "государственное",
+          "startMs": 8666,
+          "endMs": 9226,
+          "charStart": 61,
+          "charEnd": 76
+        },
+        {
+          "text": "разрешение",
+          "startMs": 9226,
+          "endMs": 9706,
+          "charStart": 77,
+          "charEnd": 87
+        },
+        {
+          "text": "на",
+          "startMs": 9706,
+          "endMs": 9806,
+          "charStart": 88,
+          "charEnd": 90
+        },
+        {
+          "text": "проведение",
+          "startMs": 9806,
+          "endMs": 10206,
+          "charStart": 91,
+          "charEnd": 101
+        },
+        {
+          "text": "реставрации",
+          "startMs": 10206,
+          "endMs": 10866,
+          "charStart": 102,
+          "charEnd": 113
+        }
+      ]
+    },
+    {
+      "text": "Опытные архитекторы тщательно изучили архивные чертежи, стремясь воссоздать первозданный облик здания.",
+      "startMs": 11804,
+      "endMs": 17684,
+      "words": [
+        {
+          "text": "Опытные",
+          "startMs": 11904,
+          "endMs": 12344,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "архитекторы",
+          "startMs": 12344,
+          "endMs": 12824,
+          "charStart": 8,
+          "charEnd": 19
+        },
+        {
+          "text": "тщательно",
+          "startMs": 12824,
+          "endMs": 13234,
+          "charStart": 20,
+          "charEnd": 29
+        },
+        {
+          "text": "изучили",
+          "startMs": 13234,
+          "endMs": 13624,
+          "charStart": 30,
+          "charEnd": 37
+        },
+        {
+          "text": "архивные",
+          "startMs": 13624,
+          "endMs": 14084,
+          "charStart": 38,
+          "charEnd": 46
+        },
+        {
+          "text": "чертежи",
+          "startMs": 14084,
+          "endMs": 14474,
+          "charStart": 47,
+          "charEnd": 54
+        },
+        {
+          "text": "стремясь",
+          "startMs": 14694,
+          "endMs": 15054,
+          "charStart": 56,
+          "charEnd": 64
+        },
+        {
+          "text": "воссоздать",
+          "startMs": 15054,
+          "endMs": 15544,
+          "charStart": 65,
+          "charEnd": 75
+        },
+        {
+          "text": "первозданный",
+          "startMs": 15544,
+          "endMs": 16114,
+          "charStart": 76,
+          "charEnd": 88
+        },
+        {
+          "text": "облик",
+          "startMs": 16114,
+          "endMs": 16384,
+          "charStart": 89,
+          "charEnd": 94
+        },
+        {
+          "text": "здания",
+          "startMs": 16384,
+          "endMs": 16934,
+          "charStart": 95,
+          "charEnd": 101
+        }
+      ]
+    },
+    {
+      "text": "Кропотливая работа над восстановлением уникальной лепнины требовала предельной концентрации и терпения.",
+      "startMs": 17934,
+      "endMs": 23310,
+      "words": [
+        {
+          "text": "Кропотливая",
+          "startMs": 18034,
+          "endMs": 18534,
+          "charStart": 0,
+          "charEnd": 11
+        },
+        {
+          "text": "работа",
+          "startMs": 18534,
+          "endMs": 18834,
+          "charStart": 12,
+          "charEnd": 18
+        },
+        {
+          "text": "над",
+          "startMs": 18834,
+          "endMs": 18964,
+          "charStart": 19,
+          "charEnd": 22
+        },
+        {
+          "text": "восстановлением",
+          "startMs": 18964,
+          "endMs": 19534,
+          "charStart": 23,
+          "charEnd": 38
+        },
+        {
+          "text": "уникальной",
+          "startMs": 19534,
+          "endMs": 19964,
+          "charStart": 39,
+          "charEnd": 49
+        },
+        {
+          "text": "лепнины",
+          "startMs": 19964,
+          "endMs": 20324,
+          "charStart": 50,
+          "charEnd": 57
+        },
+        {
+          "text": "требовала",
+          "startMs": 20324,
+          "endMs": 20754,
+          "charStart": 58,
+          "charEnd": 67
+        },
+        {
+          "text": "предельной",
+          "startMs": 20754,
+          "endMs": 21144,
+          "charStart": 68,
+          "charEnd": 78
+        },
+        {
+          "text": "концентрации",
+          "startMs": 21144,
+          "endMs": 21814,
+          "charStart": 79,
+          "charEnd": 91
+        },
+        {
+          "text": "и",
+          "startMs": 21814,
+          "endMs": 21914,
+          "charStart": 92,
+          "charEnd": 93
+        },
+        {
+          "text": "терпения",
+          "startMs": 21914,
+          "endMs": 22574,
+          "charStart": 94,
+          "charEnd": 102
+        }
+      ]
+    },
+    {
+      "text": "Мастера использовали исключительно аутентичные строительные материалы соответствующей исторической эпохи.",
+      "startMs": 23560,
+      "endMs": 29248,
+      "words": [
+        {
+          "text": "Мастера",
+          "startMs": 23660,
+          "endMs": 24150,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "использовали",
+          "startMs": 24150,
+          "endMs": 24610,
+          "charStart": 8,
+          "charEnd": 20
+        },
+        {
+          "text": "исключительно",
+          "startMs": 24610,
+          "endMs": 25290,
+          "charStart": 21,
+          "charEnd": 34
+        },
+        {
+          "text": "аутентичные",
+          "startMs": 25290,
+          "endMs": 25950,
+          "charStart": 35,
+          "charEnd": 46
+        },
+        {
+          "text": "строительные",
+          "startMs": 25950,
+          "endMs": 26400,
+          "charStart": 47,
+          "charEnd": 59
+        },
+        {
+          "text": "материалы",
+          "startMs": 26400,
+          "endMs": 26810,
+          "charStart": 60,
+          "charEnd": 69
+        },
+        {
+          "text": "соответствующей",
+          "startMs": 26810,
+          "endMs": 27540,
+          "charStart": 70,
+          "charEnd": 85
+        },
+        {
+          "text": "исторической",
+          "startMs": 27540,
+          "endMs": 28090,
+          "charStart": 86,
+          "charEnd": 98
+        },
+        {
+          "text": "эпохи",
+          "startMs": 28090,
+          "endMs": 28530,
+          "charStart": 99,
+          "charEnd": 104
+        }
+      ]
+    },
+    {
+      "text": "Обнаружив под слоем штукатурки редкие фрески, специалисты временно приостановили отделочные работы.",
+      "startMs": 29498,
+      "endMs": 34922,
+      "words": [
+        {
+          "text": "Обнаружив",
+          "startMs": 29598,
+          "endMs": 30158,
+          "charStart": 0,
+          "charEnd": 9
+        },
+        {
+          "text": "под",
+          "startMs": 30158,
+          "endMs": 30288,
+          "charStart": 10,
+          "charEnd": 13
+        },
+        {
+          "text": "слоем",
+          "startMs": 30288,
+          "endMs": 30508,
+          "charStart": 14,
+          "charEnd": 19
+        },
+        {
+          "text": "штукатурки",
+          "startMs": 30508,
+          "endMs": 30978,
+          "charStart": 20,
+          "charEnd": 30
+        },
+        {
+          "text": "редкие",
+          "startMs": 30978,
+          "endMs": 31258,
+          "charStart": 31,
+          "charEnd": 37
+        },
+        {
+          "text": "фрески",
+          "startMs": 31258,
+          "endMs": 31578,
+          "charStart": 38,
+          "charEnd": 44
+        },
+        {
+          "text": "специалисты",
+          "startMs": 31808,
+          "endMs": 32318,
+          "charStart": 46,
+          "charEnd": 57
+        },
+        {
+          "text": "временно",
+          "startMs": 32318,
+          "endMs": 32668,
+          "charStart": 58,
+          "charEnd": 66
+        },
+        {
+          "text": "приостановили",
+          "startMs": 32668,
+          "endMs": 33248,
+          "charStart": 67,
+          "charEnd": 80
+        },
+        {
+          "text": "отделочные",
+          "startMs": 33248,
+          "endMs": 33798,
+          "charStart": 81,
+          "charEnd": 91
+        },
+        {
+          "text": "работы",
+          "startMs": 33798,
+          "endMs": 34218,
+          "charStart": 92,
+          "charEnd": 98
+        }
+      ]
+    },
+    {
+      "text": "Местные жители с нетерпением ожидали завершения этого масштабного культурного проекта.",
+      "startMs": 35172,
+      "endMs": 39924,
+      "words": [
+        {
+          "text": "Местные",
+          "startMs": 35272,
+          "endMs": 35722,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "жители",
+          "startMs": 35722,
+          "endMs": 36022,
+          "charStart": 8,
+          "charEnd": 14
+        },
+        {
+          "text": "с",
+          "startMs": 36022,
+          "endMs": 36072,
+          "charStart": 15,
+          "charEnd": 16
+        },
+        {
+          "text": "нетерпением",
+          "startMs": 36072,
+          "endMs": 36672,
+          "charStart": 17,
+          "charEnd": 28
+        },
+        {
+          "text": "ожидали",
+          "startMs": 36672,
+          "endMs": 37002,
+          "charStart": 29,
+          "charEnd": 36
+        },
+        {
+          "text": "завершения",
+          "startMs": 37002,
+          "endMs": 37542,
+          "charStart": 37,
+          "charEnd": 47
+        },
+        {
+          "text": "этого",
+          "startMs": 37542,
+          "endMs": 37802,
+          "charStart": 48,
+          "charEnd": 53
+        },
+        {
+          "text": "масштабного",
+          "startMs": 37802,
+          "endMs": 38312,
+          "charStart": 54,
+          "charEnd": 65
+        },
+        {
+          "text": "культурного",
+          "startMs": 38312,
+          "endMs": 38742,
+          "charStart": 66,
+          "charEnd": 77
+        },
+        {
+          "text": "проекта",
+          "startMs": 38742,
+          "endMs": 39212,
+          "charStart": 78,
+          "charEnd": 85
+        }
+      ]
+    },
+    {
+      "text": "Благодаря слаженным действиям команды полуразрушенное поместье постепенно возвращало своё былое величие.",
+      "startMs": 40174,
+      "endMs": 45622,
+      "words": [
+        {
+          "text": "Благодаря",
+          "startMs": 40274,
+          "endMs": 40724,
+          "charStart": 0,
+          "charEnd": 9
+        },
+        {
+          "text": "слаженным",
+          "startMs": 40724,
+          "endMs": 41144,
+          "charStart": 10,
+          "charEnd": 19
+        },
+        {
+          "text": "действиям",
+          "startMs": 41144,
+          "endMs": 41494,
+          "charStart": 20,
+          "charEnd": 29
+        },
+        {
+          "text": "команды",
+          "startMs": 41494,
+          "endMs": 41894,
+          "charStart": 30,
+          "charEnd": 37
+        },
+        {
+          "text": "полуразрушенное",
+          "startMs": 41894,
+          "endMs": 42544,
+          "charStart": 38,
+          "charEnd": 53
+        },
+        {
+          "text": "поместье",
+          "startMs": 42544,
+          "endMs": 42954,
+          "charStart": 54,
+          "charEnd": 62
+        },
+        {
+          "text": "постепенно",
+          "startMs": 42954,
+          "endMs": 43424,
+          "charStart": 63,
+          "charEnd": 73
+        },
+        {
+          "text": "возвращало",
+          "startMs": 43424,
+          "endMs": 43924,
+          "charStart": 74,
+          "charEnd": 84
+        },
+        {
+          "text": "своё",
+          "startMs": 43924,
+          "endMs": 44184,
+          "charStart": 85,
+          "charEnd": 89
+        },
+        {
+          "text": "былое",
+          "startMs": 44184,
+          "endMs": 44434,
+          "charStart": 90,
+          "charEnd": 95
+        },
+        {
+          "text": "величие",
+          "startMs": 44434,
+          "endMs": 44944,
+          "charStart": 96,
+          "charEnd": 103
+        }
+      ]
+    },
+    {
+      "text": "В обновлённом здании городские власти решили открыть общедоступный исторический музей.",
+      "startMs": 45872,
+      "endMs": 50624,
+      "words": [
+        {
+          "text": "В",
+          "startMs": 45972,
+          "endMs": 46152,
+          "charStart": 0,
+          "charEnd": 1
+        },
+        {
+          "text": "обновлённом",
+          "startMs": 46152,
+          "endMs": 46612,
+          "charStart": 2,
+          "charEnd": 13
+        },
+        {
+          "text": "здании",
+          "startMs": 46612,
+          "endMs": 46972,
+          "charStart": 14,
+          "charEnd": 20
+        },
+        {
+          "text": "городские",
+          "startMs": 46972,
+          "endMs": 47352,
+          "charStart": 21,
+          "charEnd": 30
+        },
+        {
+          "text": "власти",
+          "startMs": 47352,
+          "endMs": 47702,
+          "charStart": 31,
+          "charEnd": 37
+        },
+        {
+          "text": "решили",
+          "startMs": 47702,
+          "endMs": 47992,
+          "charStart": 38,
+          "charEnd": 44
+        },
+        {
+          "text": "открыть",
+          "startMs": 47992,
+          "endMs": 48342,
+          "charStart": 45,
+          "charEnd": 52
+        },
+        {
+          "text": "общедоступный",
+          "startMs": 48342,
+          "endMs": 48972,
+          "charStart": 53,
+          "charEnd": 66
+        },
+        {
+          "text": "исторический",
+          "startMs": 48972,
+          "endMs": 49512,
+          "charStart": 67,
+          "charEnd": 79
+        },
+        {
+          "text": "музей",
+          "startMs": 49512,
+          "endMs": 49912,
+          "charStart": 80,
+          "charEnd": 85
+        }
+      ]
+    },
+    {
+      "text": "Сохранение материальной памяти предков остаётся важнейшим долгом каждого цивилизованного общества.",
+      "startMs": 50874,
+      "endMs": 56082,
+      "words": [
+        {
+          "text": "Сохранение",
+          "startMs": 50974,
+          "endMs": 51524,
+          "charStart": 0,
+          "charEnd": 10
+        },
+        {
+          "text": "материальной",
+          "startMs": 51524,
+          "endMs": 51984,
+          "charStart": 11,
+          "charEnd": 23
+        },
+        {
+          "text": "памяти",
+          "startMs": 51984,
+          "endMs": 52294,
+          "charStart": 24,
+          "charEnd": 30
+        },
+        {
+          "text": "предков",
+          "startMs": 52294,
+          "endMs": 52714,
+          "charStart": 31,
+          "charEnd": 38
+        },
+        {
+          "text": "остаётся",
+          "startMs": 52714,
+          "endMs": 53164,
+          "charStart": 39,
+          "charEnd": 47
+        },
+        {
+          "text": "важнейшим",
+          "startMs": 53164,
+          "endMs": 53664,
+          "charStart": 48,
+          "charEnd": 57
+        },
+        {
+          "text": "долгом",
+          "startMs": 53664,
+          "endMs": 53964,
+          "charStart": 58,
+          "charEnd": 64
+        },
+        {
+          "text": "каждого",
+          "startMs": 53964,
+          "endMs": 54324,
+          "charStart": 65,
+          "charEnd": 72
+        },
+        {
+          "text": "цивилизованного",
+          "startMs": 54324,
+          "endMs": 54864,
+          "charStart": 73,
+          "charEnd": 88
+        },
+        {
+          "text": "общества",
+          "startMs": 54864,
+          "endMs": 55374,
+          "charStart": 89,
+          "charEnd": 97
+        }
+      ]
+    }
+  ]
+}

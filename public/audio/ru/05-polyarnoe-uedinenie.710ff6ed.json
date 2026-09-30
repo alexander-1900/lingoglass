@@ -1,0 +1,809 @@
+{
+  "version": 3,
+  "lang": "ru",
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+25%",
+  "sampleRate": 24000,
+  "gapMs": 250,
+  "durationMs": 58194,
+  "sentences": [
+    {
+      "text": "Арктическое безмолвие сковывает наблюдателя леденящим ощущением собственного онтологического ничтожества.",
+      "startMs": 0,
+      "endMs": 5688,
+      "words": [
+        {
+          "text": "Арктическое",
+          "startMs": 100,
+          "endMs": 730,
+          "charStart": 0,
+          "charEnd": 11
+        },
+        {
+          "text": "безмолвие",
+          "startMs": 730,
+          "endMs": 1210,
+          "charStart": 12,
+          "charEnd": 21
+        },
+        {
+          "text": "сковывает",
+          "startMs": 1210,
+          "endMs": 1630,
+          "charStart": 22,
+          "charEnd": 31
+        },
+        {
+          "text": "наблюдателя",
+          "startMs": 1630,
+          "endMs": 2130,
+          "charStart": 32,
+          "charEnd": 43
+        },
+        {
+          "text": "леденящим",
+          "startMs": 2130,
+          "endMs": 2650,
+          "charStart": 44,
+          "charEnd": 53
+        },
+        {
+          "text": "ощущением",
+          "startMs": 2650,
+          "endMs": 3160,
+          "charStart": 54,
+          "charEnd": 63
+        },
+        {
+          "text": "собственного",
+          "startMs": 3160,
+          "endMs": 3700,
+          "charStart": 64,
+          "charEnd": 76
+        },
+        {
+          "text": "онтологического",
+          "startMs": 3700,
+          "endMs": 4360,
+          "charStart": 77,
+          "charEnd": 92
+        },
+        {
+          "text": "ничтожества",
+          "startMs": 4360,
+          "endMs": 5000,
+          "charStart": 93,
+          "charEnd": 104
+        }
+      ]
+    },
+    {
+      "text": "Бескрайняя ледяная пустыня, лишённая антропогенных ориентиров, растворяет привычные пространственно-временные координаты.",
+      "startMs": 5938,
+      "endMs": 12442,
+      "words": [
+        {
+          "text": "Бескрайняя",
+          "startMs": 6038,
+          "endMs": 6628,
+          "charStart": 0,
+          "charEnd": 10
+        },
+        {
+          "text": "ледяная",
+          "startMs": 6628,
+          "endMs": 6958,
+          "charStart": 11,
+          "charEnd": 18
+        },
+        {
+          "text": "пустыня",
+          "startMs": 6958,
+          "endMs": 7338,
+          "charStart": 19,
+          "charEnd": 26
+        },
+        {
+          "text": "лишённая",
+          "startMs": 7578,
+          "endMs": 8018,
+          "charStart": 28,
+          "charEnd": 36
+        },
+        {
+          "text": "антропогенных",
+          "startMs": 8018,
+          "endMs": 8648,
+          "charStart": 37,
+          "charEnd": 50
+        },
+        {
+          "text": "ориентиров",
+          "startMs": 8648,
+          "endMs": 9118,
+          "charStart": 51,
+          "charEnd": 61
+        },
+        {
+          "text": "растворяет",
+          "startMs": 9308,
+          "endMs": 9738,
+          "charStart": 63,
+          "charEnd": 73
+        },
+        {
+          "text": "привычные",
+          "startMs": 9738,
+          "endMs": 10228,
+          "charStart": 74,
+          "charEnd": 83
+        },
+        {
+          "text": "пространственно-временные",
+          "startMs": 10228,
+          "endMs": 11148,
+          "charStart": 84,
+          "charEnd": 109
+        },
+        {
+          "text": "координаты",
+          "startMs": 11148,
+          "endMs": 11738,
+          "charStart": 110,
+          "charEnd": 120
+        }
+      ]
+    },
+    {
+      "text": "Одинокий полярник вслушивается в монотонное завывание пурги, заглушающее внутренний монолог.",
+      "startMs": 12692,
+      "endMs": 17900,
+      "words": [
+        {
+          "text": "Одинокий",
+          "startMs": 12792,
+          "endMs": 13272,
+          "charStart": 0,
+          "charEnd": 8
+        },
+        {
+          "text": "полярник",
+          "startMs": 13272,
+          "endMs": 13682,
+          "charStart": 9,
+          "charEnd": 17
+        },
+        {
+          "text": "вслушивается",
+          "startMs": 13682,
+          "endMs": 14242,
+          "charStart": 18,
+          "charEnd": 30
+        },
+        {
+          "text": "в",
+          "startMs": 14242,
+          "endMs": 14282,
+          "charStart": 31,
+          "charEnd": 32
+        },
+        {
+          "text": "монотонное",
+          "startMs": 14282,
+          "endMs": 14772,
+          "charStart": 33,
+          "charEnd": 43
+        },
+        {
+          "text": "завывание",
+          "startMs": 14772,
+          "endMs": 15182,
+          "charStart": 44,
+          "charEnd": 53
+        },
+        {
+          "text": "пурги",
+          "startMs": 15182,
+          "endMs": 15482,
+          "charStart": 54,
+          "charEnd": 59
+        },
+        {
+          "text": "заглушающее",
+          "startMs": 15722,
+          "endMs": 16332,
+          "charStart": 61,
+          "charEnd": 72
+        },
+        {
+          "text": "внутренний",
+          "startMs": 16332,
+          "endMs": 16722,
+          "charStart": 73,
+          "charEnd": 83
+        },
+        {
+          "text": "монолог",
+          "startMs": 16722,
+          "endMs": 17172,
+          "charStart": 84,
+          "charEnd": 91
+        }
+      ]
+    },
+    {
+      "text": "Сенсорная депривация провоцирует возникновение причудливых слуховых и зрительных галлюцинаций.",
+      "startMs": 18150,
+      "endMs": 23286,
+      "words": [
+        {
+          "text": "Сенсорная",
+          "startMs": 18250,
+          "endMs": 18830,
+          "charStart": 0,
+          "charEnd": 9
+        },
+        {
+          "text": "депривация",
+          "startMs": 18830,
+          "endMs": 19350,
+          "charStart": 10,
+          "charEnd": 20
+        },
+        {
+          "text": "провоцирует",
+          "startMs": 19350,
+          "endMs": 19830,
+          "charStart": 21,
+          "charEnd": 32
+        },
+        {
+          "text": "возникновение",
+          "startMs": 19830,
+          "endMs": 20430,
+          "charStart": 33,
+          "charEnd": 46
+        },
+        {
+          "text": "причудливых",
+          "startMs": 20430,
+          "endMs": 20920,
+          "charStart": 47,
+          "charEnd": 58
+        },
+        {
+          "text": "слуховых",
+          "startMs": 20920,
+          "endMs": 21390,
+          "charStart": 59,
+          "charEnd": 67
+        },
+        {
+          "text": "и",
+          "startMs": 21390,
+          "endMs": 21510,
+          "charStart": 68,
+          "charEnd": 69
+        },
+        {
+          "text": "зрительных",
+          "startMs": 21510,
+          "endMs": 21950,
+          "charStart": 70,
+          "charEnd": 80
+        },
+        {
+          "text": "галлюцинаций",
+          "startMs": 21950,
+          "endMs": 22600,
+          "charStart": 81,
+          "charEnd": 93
+        }
+      ]
+    },
+    {
+      "text": "Психика человека, подвергнутая столь экстремальной дестабилизации, мучительно пересматривает базовые жизненные ориентиры.",
+      "startMs": 23536,
+      "endMs": 29992,
+      "words": [
+        {
+          "text": "Психика",
+          "startMs": 23636,
+          "endMs": 24066,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "человека",
+          "startMs": 24066,
+          "endMs": 24496,
+          "charStart": 8,
+          "charEnd": 16
+        },
+        {
+          "text": "подвергнутая",
+          "startMs": 24646,
+          "endMs": 25186,
+          "charStart": 18,
+          "charEnd": 30
+        },
+        {
+          "text": "столь",
+          "startMs": 25186,
+          "endMs": 25406,
+          "charStart": 31,
+          "charEnd": 36
+        },
+        {
+          "text": "экстремальной",
+          "startMs": 25406,
+          "endMs": 25946,
+          "charStart": 37,
+          "charEnd": 50
+        },
+        {
+          "text": "дестабилизации",
+          "startMs": 25946,
+          "endMs": 26626,
+          "charStart": 51,
+          "charEnd": 65
+        },
+        {
+          "text": "мучительно",
+          "startMs": 26906,
+          "endMs": 27306,
+          "charStart": 67,
+          "charEnd": 77
+        },
+        {
+          "text": "пересматривает",
+          "startMs": 27306,
+          "endMs": 27866,
+          "charStart": 78,
+          "charEnd": 92
+        },
+        {
+          "text": "базовые",
+          "startMs": 27866,
+          "endMs": 28246,
+          "charStart": 93,
+          "charEnd": 100
+        },
+        {
+          "text": "жизненные",
+          "startMs": 28246,
+          "endMs": 28656,
+          "charStart": 101,
+          "charEnd": 110
+        },
+        {
+          "text": "ориентиры",
+          "startMs": 28656,
+          "endMs": 29256,
+          "charStart": 111,
+          "charEnd": 120
+        }
+      ]
+    },
+    {
+      "text": "Вдали от конвенциональных благ цивилизации наносная мишура эгоизма мгновенно осыпается.",
+      "startMs": 30242,
+      "endMs": 35354,
+      "words": [
+        {
+          "text": "Вдали",
+          "startMs": 30342,
+          "endMs": 30752,
+          "charStart": 0,
+          "charEnd": 5
+        },
+        {
+          "text": "от",
+          "startMs": 30752,
+          "endMs": 30832,
+          "charStart": 6,
+          "charEnd": 8
+        },
+        {
+          "text": "конвенциональных",
+          "startMs": 30832,
+          "endMs": 31472,
+          "charStart": 9,
+          "charEnd": 25
+        },
+        {
+          "text": "благ",
+          "startMs": 31472,
+          "endMs": 31702,
+          "charStart": 26,
+          "charEnd": 30
+        },
+        {
+          "text": "цивилизации",
+          "startMs": 31702,
+          "endMs": 32252,
+          "charStart": 31,
+          "charEnd": 42
+        },
+        {
+          "text": "наносная",
+          "startMs": 32252,
+          "endMs": 32632,
+          "charStart": 43,
+          "charEnd": 51
+        },
+        {
+          "text": "мишура",
+          "startMs": 32632,
+          "endMs": 33022,
+          "charStart": 52,
+          "charEnd": 58
+        },
+        {
+          "text": "эгоизма",
+          "startMs": 33022,
+          "endMs": 33452,
+          "charStart": 59,
+          "charEnd": 66
+        },
+        {
+          "text": "мгновенно",
+          "startMs": 33452,
+          "endMs": 33992,
+          "charStart": 67,
+          "charEnd": 76
+        },
+        {
+          "text": "осыпается",
+          "startMs": 33992,
+          "endMs": 34662,
+          "charStart": 77,
+          "charEnd": 86
+        }
+      ]
+    },
+    {
+      "text": "Оставаясь наедине со стихией, индивид лицом к лицу встречает первобытные страхи.",
+      "startMs": 35604,
+      "endMs": 40452,
+      "words": [
+        {
+          "text": "Оставаясь",
+          "startMs": 35704,
+          "endMs": 36184,
+          "charStart": 0,
+          "charEnd": 9
+        },
+        {
+          "text": "наедине",
+          "startMs": 36184,
+          "endMs": 36494,
+          "charStart": 10,
+          "charEnd": 17
+        },
+        {
+          "text": "со",
+          "startMs": 36494,
+          "endMs": 36604,
+          "charStart": 18,
+          "charEnd": 20
+        },
+        {
+          "text": "стихией",
+          "startMs": 36604,
+          "endMs": 37024,
+          "charStart": 21,
+          "charEnd": 28
+        },
+        {
+          "text": "индивид",
+          "startMs": 37264,
+          "endMs": 37614,
+          "charStart": 30,
+          "charEnd": 37
+        },
+        {
+          "text": "лицом",
+          "startMs": 37614,
+          "endMs": 37934,
+          "charStart": 38,
+          "charEnd": 43
+        },
+        {
+          "text": "к",
+          "startMs": 37934,
+          "endMs": 37984,
+          "charStart": 44,
+          "charEnd": 45
+        },
+        {
+          "text": "лицу",
+          "startMs": 37984,
+          "endMs": 38254,
+          "charStart": 46,
+          "charEnd": 50
+        },
+        {
+          "text": "встречает",
+          "startMs": 38254,
+          "endMs": 38744,
+          "charStart": 51,
+          "charEnd": 60
+        },
+        {
+          "text": "первобытные",
+          "startMs": 38744,
+          "endMs": 39254,
+          "charStart": 61,
+          "charEnd": 72
+        },
+        {
+          "text": "страхи",
+          "startMs": 39254,
+          "endMs": 39734,
+          "charStart": 73,
+          "charEnd": 79
+        }
+      ]
+    },
+    {
+      "text": "Сквозь мучительный катарсис кристаллизуется абсолютная ясность духа и нерушимая внутренняя стойкость.",
+      "startMs": 40702,
+      "endMs": 46222,
+      "words": [
+        {
+          "text": "Сквозь",
+          "startMs": 40802,
+          "endMs": 41192,
+          "charStart": 0,
+          "charEnd": 6
+        },
+        {
+          "text": "мучительный",
+          "startMs": 41192,
+          "endMs": 41612,
+          "charStart": 7,
+          "charEnd": 18
+        },
+        {
+          "text": "катарсис",
+          "startMs": 41612,
+          "endMs": 42062,
+          "charStart": 19,
+          "charEnd": 27
+        },
+        {
+          "text": "кристаллизуется",
+          "startMs": 42062,
+          "endMs": 42712,
+          "charStart": 28,
+          "charEnd": 43
+        },
+        {
+          "text": "абсолютная",
+          "startMs": 42712,
+          "endMs": 43252,
+          "charStart": 44,
+          "charEnd": 54
+        },
+        {
+          "text": "ясность",
+          "startMs": 43252,
+          "endMs": 43612,
+          "charStart": 55,
+          "charEnd": 62
+        },
+        {
+          "text": "духа",
+          "startMs": 43612,
+          "endMs": 44052,
+          "charStart": 63,
+          "charEnd": 67
+        },
+        {
+          "text": "и",
+          "startMs": 44052,
+          "endMs": 44162,
+          "charStart": 68,
+          "charEnd": 69
+        },
+        {
+          "text": "нерушимая",
+          "startMs": 44162,
+          "endMs": 44652,
+          "charStart": 70,
+          "charEnd": 79
+        },
+        {
+          "text": "внутренняя",
+          "startMs": 44652,
+          "endMs": 45072,
+          "charStart": 80,
+          "charEnd": 90
+        },
+        {
+          "text": "стойкость",
+          "startMs": 45072,
+          "endMs": 45562,
+          "charStart": 91,
+          "charEnd": 100
+        }
+      ]
+    },
+    {
+      "text": "Ледяной космический холод обнажает непостижимую хрупкость и священную ценность каждого вздоха.",
+      "startMs": 46472,
+      "endMs": 51800,
+      "words": [
+        {
+          "text": "Ледяной",
+          "startMs": 46572,
+          "endMs": 47012,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "космический",
+          "startMs": 47012,
+          "endMs": 47512,
+          "charStart": 8,
+          "charEnd": 19
+        },
+        {
+          "text": "холод",
+          "startMs": 47512,
+          "endMs": 47892,
+          "charStart": 20,
+          "charEnd": 25
+        },
+        {
+          "text": "обнажает",
+          "startMs": 47892,
+          "endMs": 48312,
+          "charStart": 26,
+          "charEnd": 34
+        },
+        {
+          "text": "непостижимую",
+          "startMs": 48312,
+          "endMs": 48902,
+          "charStart": 35,
+          "charEnd": 47
+        },
+        {
+          "text": "хрупкость",
+          "startMs": 48902,
+          "endMs": 49362,
+          "charStart": 48,
+          "charEnd": 57
+        },
+        {
+          "text": "и",
+          "startMs": 49362,
+          "endMs": 49442,
+          "charStart": 58,
+          "charEnd": 59
+        },
+        {
+          "text": "священную",
+          "startMs": 49442,
+          "endMs": 49932,
+          "charStart": 60,
+          "charEnd": 69
+        },
+        {
+          "text": "ценность",
+          "startMs": 49932,
+          "endMs": 50322,
+          "charStart": 70,
+          "charEnd": 78
+        },
+        {
+          "text": "каждого",
+          "startMs": 50322,
+          "endMs": 50632,
+          "charStart": 79,
+          "charEnd": 86
+        },
+        {
+          "text": "вздоха",
+          "startMs": 50632,
+          "endMs": 51072,
+          "charStart": 87,
+          "charEnd": 93
+        }
+      ]
+    },
+    {
+      "text": "Пережив подобное потрясение, человек возвращается в социум преображённым носителем глубинного экзистенциального опыта.",
+      "startMs": 52050,
+      "endMs": 58194,
+      "words": [
+        {
+          "text": "Пережив",
+          "startMs": 52150,
+          "endMs": 52530,
+          "charStart": 0,
+          "charEnd": 7
+        },
+        {
+          "text": "подобное",
+          "startMs": 52530,
+          "endMs": 52910,
+          "charStart": 8,
+          "charEnd": 16
+        },
+        {
+          "text": "потрясение",
+          "startMs": 52910,
+          "endMs": 53410,
+          "charStart": 17,
+          "charEnd": 27
+        },
+        {
+          "text": "человек",
+          "startMs": 53630,
+          "endMs": 53940,
+          "charStart": 29,
+          "charEnd": 36
+        },
+        {
+          "text": "возвращается",
+          "startMs": 53940,
+          "endMs": 54480,
+          "charStart": 37,
+          "charEnd": 49
+        },
+        {
+          "text": "в",
+          "startMs": 54480,
+          "endMs": 54520,
+          "charStart": 50,
+          "charEnd": 51
+        },
+        {
+          "text": "социум",
+          "startMs": 54520,
+          "endMs": 54920,
+          "charStart": 52,
+          "charEnd": 58
+        },
+        {
+          "text": "преображённым",
+          "startMs": 54920,
+          "endMs": 55440,
+          "charStart": 59,
+          "charEnd": 72
+        },
+        {
+          "text": "носителем",
+          "startMs": 55440,
+          "endMs": 55880,
+          "charStart": 73,
+          "charEnd": 82
+        },
+        {
+          "text": "глубинного",
+          "startMs": 55880,
+          "endMs": 56400,
+          "charStart": 83,
+          "charEnd": 93
+        },
+        {
+          "text": "экзистенциального",
+          "startMs": 56400,
+          "endMs": 57080,
+          "charStart": 94,
+          "charEnd": 111
+        },
+        {
+          "text": "опыта",
+          "startMs": 57080,
+          "endMs": 57490,
+          "charStart": 112,
+          "charEnd": 117
+        }
+      ]
+    }
+  ]
+}
