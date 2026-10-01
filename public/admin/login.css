@@ -1,0 +1,93 @@
+/* lingoglass admin — login. Cream & Clay palette, system fonts, no framework. */
+:root {
+  --cream: #faf7f0;
+  --paper: #fffdf8;
+  --ink: #2b2621;
+  --muted: #7a7166;
+  --clay: #b4552d;
+  --clay-dark: #93421f;
+  --line: #e7e0d4;
+  --danger: #a1271b;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: var(--cream);
+  color: var(--ink);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.card {
+  width: min(360px, 100%);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 28px 26px;
+  box-shadow: 0 12px 32px rgba(43, 38, 33, 0.08);
+}
+h1 {
+  margin: 0 0 4px;
+  font-size: 22px;
+  letter-spacing: -0.01em;
+}
+h1 span {
+  color: var(--clay);
+}
+.sub,
+.hint {
+  margin: 0 0 20px;
+  color: var(--muted);
+  font-size: 13px;
+}
+.hint {
+  margin: 18px 0 0;
+}
+label {
+  display: block;
+  margin: 14px 0 6px;
+  font-size: 13px;
+  font-weight: 600;
+}
+input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font-size: 15px;
+  background: #fff;
+  color: var(--ink);
+}
+input:focus {
+  outline: 2px solid var(--clay);
+  outline-offset: 1px;
+  border-color: transparent;
+}
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 11px 14px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--clay);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+button:hover {
+  background: var(--clay-dark);
+}
+button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+.error {
+  margin: 14px 0 0;
+  color: var(--danger);
+  font-size: 13px;
+}

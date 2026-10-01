@@ -7,12 +7,18 @@
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit --incremental false",
+    "typecheck:workers": "tsc --noEmit -p functions/tsconfig.json",
+    "dev:admin": "wrangler pages dev out --port 8788",
     "lint": "eslint .",
     "test": "vitest run",
     "audio:generate": "node scripts/generate-audio.mjs",
     "audio:fixture": "node scripts/generate-audio.mjs --fixture",
     "audio:clear": "node scripts/clear-audio.mjs",
-    "deploy": "wrangler pages deploy out --project-name=lingoglass --commit-dirty=true"
+    "deploy": "wrangler pages deploy out --project-name=lingoglass --commit-dirty=true",
+    "db:migrate": "wrangler d1 migrations apply lingoglasse-db --remote",
+    "db:migrate:local": "wrangler d1 migrations apply lingoglasse-db --local",
+    "db:list": "wrangler d1 migrations list lingoglasse-db --remote",
+    "admin:create": "node scripts/admin-create.mjs"
   },
   "dependencies": {
     "next": "15.5.26",
@@ -20,6 +26,7 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261001.1",
     "@eslint/eslintrc": "^3.3.7",
     "@types/node": "^22.10.5",
     "@types/react": "^19.0.4",

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Sign in — lingoglass admin</title>
+    <link rel="stylesheet" href="/admin/login.css" />
+  </head>
+  <body>
+    <main class="card">
+      <h1>lingoglass <span>admin</span></h1>
+      <p class="sub">Private area. Every access attempt is logged.</p>
+      <form id="login-form" novalidate>
+        <label for="username">Username</label>
+        <input
+          id="username"
+          name="username"
+          type="text"
+          autocomplete="username"
+          maxlength="64"
+          spellcheck="false"
+          autocapitalize="none"
+          required
+        />
+        <label for="password">Password</label>
+        <input
+          id="password"
+          name="password"
+          type="password"
+          autocomplete="current-password"
+          maxlength="1024"
+          required
+        />
+        <p id="error" class="error" role="alert" hidden></p>
+        <button id="submit" type="submit">Sign in</button>
+      </form>
+      <p class="hint">Not linked from the public site. Admins only.</p>
+    </main>
+    <script src="/admin/login.js" defer></script>
+  </body>
+</html>

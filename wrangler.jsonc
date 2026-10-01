@@ -1,0 +1,51 @@
+{
+  // Pages project config — SOURCE OF TRUTH for the Pages project once the
+  // first `wrangler pages deploy` runs with this file (dashboard fields become
+  // read-only). Bindings must match what the project already has: DB / MEDIA.
+  // Deliberately no $schema: wrangler is a global tool here, not a project
+  // dependency, so node_modules/wrangler/config-schema.json does not exist.
+  "name": "lingoglass",
+  "pages_build_output_dir": "./out",
+  // node:crypto (password hashing) needs nodejs_compat in Pages Functions.
+  // Compatibility dates >= 2026-08-04 enable it by default; kept explicit so
+  // the requirement survives a future compatibility_date change.
+  "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "lingoglasse-db",
+      "database_id": "2c0578c3-206c-499e-8afa-7a23595183a9",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "MEDIA",
+      "bucket_name": "lingoglasse-media"
+    }
+  ],
+  // Non-secret admin/Functions config. Read by Pages Functions at runtime and
+  // by scripts/admin-create.mjs (keeps hash parameters in sync). SECRETS never
+  // belong here — IP_HASH_SALT / DEPLOY_HOOK_URL / CLOUDFLARE_API_TOKEN live
+  // only in the Cloudflare dashboard (Pages → Settings → Environment
+  // variables, Production scope) or .dev.vars locally (gitignored).
+  "vars": {
+    "ADMIN_SITE_ORIGIN": "https://lingoglass.pages.dev",
+    "ADMIN_SESSION_TTL_HOURS": "12",
+    "ADMIN_IDLE_TTL_MINUTES": "120",
+    "ADMIN_PASSWORD_KDF": "pbkdf2-sha256",
+    // Cost measured on Workers Free with `wrangler pages deployment tail` (the
+    // cpuTime field): ≈24 ms CPU per login, ≈38 ms for an unknown username
+    // (adds the timing-equalizing dummy verify) — comfortably fine in practice
+    // despite the documented 10 ms Free-plan figure. If logins ever start
+    // failing with a CPU error: lower this, redeploy, then re-run
+    // scripts/admin-create.mjs --update (hashes embed their own parameters, so
+    // existing rows keep verifying).
+    "ADMIN_PBKDF2_ITERATIONS": "100000",
+    "ADMIN_LOGIN_MAX_ATTEMPTS": "5",
+    "ADMIN_LOGIN_WINDOW_MINUTES": "15",
+    "ADMIN_LOCKOUT_MINUTES": "15",
+    "ADMIN_MAX_UPLOAD_BYTES": "5242880"
+  }
+}

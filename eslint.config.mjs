@@ -16,6 +16,7 @@ const config = [
       "coverage/**",
       "data/**",
       "next-env.d.ts",
+      ".wrangler/**",
     ],
   },
   ...compat.extends("next/core-web-vitals", "next/typescript"),

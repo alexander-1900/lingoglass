@@ -1,0 +1,20 @@
+{
+  // Pages Functions have their OWN program: Workers globals/types, no DOM.
+  // The root tsconfig excludes functions/ (Next + Workers types conflict);
+  // `npm run typecheck:workers` runs this config. scripts/lib/password.mjs is
+  // pulled in via import and type-inferred (allowJs).
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "types": ["@cloudflare/workers-types"],
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["./**/*.ts"]
+}

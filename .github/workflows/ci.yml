@@ -38,6 +38,7 @@ jobs:
       - run: npm ci
       - run: npm run lint
       - run: npm run typecheck
+      - run: npm run typecheck:workers
       - run: npm test
       - run: node scripts/validate-content.mjs
       - run: npm run build

@@ -1,0 +1,8 @@
+# Copy to `.dev.vars` (gitignored) for local `npm run dev:admin`
+# (wrangler pages dev loads it automatically). NEVER put real secrets here —
+# production secrets live ONLY in the Cloudflare dashboard, Pages project →
+# Settings → Environment variables, Production scope.
+#
+# Salt for privacy-preserving IP hashes in login_attempts/audit_log:
+#   node -e "console.log(crypto.randomBytes(32).toString('base64url'))"
+IP_HASH_SALT = "replace-with-a-random-32-byte-base64url-string"

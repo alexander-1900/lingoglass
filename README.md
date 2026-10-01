@@ -16,7 +16,7 @@ voices, and keep a personal vocabulary queue — all in the browser.
 - **Read aloud** — neural narration per story (edge-tts) with sentence highlighting and word taps, falling back to the Web Speech API (Woman / Man / Auto voices, 0.5×–1.5×)
 - **Vocabulary queue** — bookmark words; they persist in `localStorage` on the device
 - **3 reading layouts** — side-by-side, line-by-line, interactive tap-to-reveal (persisted per device)
-- **Fully static reading** — all story pages prerendered at build time, no tracking, no accounts, no database
+- **Fully static reading** — all story pages prerendered at build time; no tracking, and no reader accounts (the private operator CMS at `/admin` is separate — see **Admin CMS**)
 - **Warm editorial design** — Cream & Clay palette, system fonts only, no CSS frameworks
 
 ## Quick start
@@ -137,7 +137,8 @@ of a changed pipeline should be one), `--only lang/slug[,…]`, `--dry-run`, `--
 | `FFMPEG`             | `ffmpeg` on PATH        | Path to the ffmpeg binary. A winget/choco/Program Files install is found automatically when PATH does not know it yet (fresh terminal); `FFMPEG` overrides |
 
 Reading, bookmarks, and preferences are anonymous and local-only
-(`localStorage`). There are no accounts and no network calls for user data.
+(`localStorage`). There are no reader accounts and no network calls for reader data
+(the operator-only `/admin` CMS is described under **Admin CMS**).
 
 ## Scripts
 
@@ -153,6 +154,10 @@ Reading, bookmarks, and preferences are anonymous and local-only
 | `npm run audio:fixture` | Same pipeline, beep audio instead of edge-tts speech (ffmpeg only) — smoke-tests the reader. Add `-- --only lang/slug` etc. |
 | `npm run audio:clear` | Deletes the regenerable `public/audio/` output (used to drop fixture beeps before committing) |
 | `npm run deploy` | Uploads the built `out/` to Cloudflare Pages (see **Deploy** below) |
+| `npm run typecheck:workers` | TypeScript check for Pages Functions (`functions/tsconfig.json`) |
+| `npm run dev:admin` | Serve the built `out/` with Pages Functions locally (http://localhost:8788; needs a prior `npm run build`) |
+| `npm run db:migrate` | Apply pending D1 migrations to the admin database (`:local` variant for local dev) |
+| `npm run admin:create` | Create/rotate the `/admin` account — see **Admin CMS** |
 
 ## Deploy
 
@@ -181,4 +186,46 @@ Two things worth keeping in mind:
   fall back to the device voice and look like it had a timing bug, when it never got audio.
 - **`SITE_URL` is build-time, not runtime.** Building with the localhost value in
   `.env.local` produces a working site whose sitemap advertises localhost.
+
+## Admin CMS
+
+A private, operator-only CMS for managing stories lives at **`/admin`**
+(https://lingoglass.pages.dev/admin). The reader itself stays fully static and
+account-free — this surface exists only for the site operator.
+
+It runs on Cloudflare Pages Functions (`functions/`) with:
+
+- **D1** — `lingoglass-db` (binding `DB`), schema in `migrations/`. Apply with
+  `npm run db:migrate` (remote) or `npm run db:migrate:local`.
+- **R2** — `lingoglass-media` (binding `MEDIA`) for cover images (Phase 5).
+- **`public/_routes.json`** — scopes Functions to `/admin*` and `/api/admin/*` only,
+  so every reader page stays zero-invocation static. Don't widen this casually.
+- **`functions/_middleware.ts`** — the session gate. It is the *root* middleware on
+  purpose: only root-level middleware runs in front of static files, which is what
+  makes even `/admin/index.html` unreachable without a session.
+
+Status: **Phases 1–2 complete** — auth schema + `admin:create` bootstrapper; session
+gate; login/logout/session APIs with CSRF protection, per-username + per-IP rate
+limiting and lockout; sign-in page and signed-in shell. Story list and editor arrive
+in Phases 4–5, publishing (deploy-hook rebuild) in Phase 6.
+
+Notes worth keeping:
+
+- **Create or rotate the account:** `npm run admin:create -- --remote` (interactive,
+  hidden prompt; `--generate` for a random one-time password; `--update` to rotate —
+  it also clears `failed_attempts`/`locked_until`/`disabled`, i.e. the early way out
+  of a lockout).
+- **Secrets stay out of the repo:** `IP_HASH_SALT` (and the Phase 6 `DEPLOY_HOOK_URL`)
+  live in the Pages project's dashboard variables (Production scope) or a gitignored
+  `.dev.vars` locally — see `.dev.vars.example`.
+- **Password hashing:** PBKDF2-SHA256 @ 100 000 iterations (`ADMIN_PBKDF2_ITERATIONS`).
+  Measured with `wrangler pages deployment tail` (the `cpuTime` field): ≈24 ms per
+  login, ≈38 ms for an unknown username (its timing-equalizing dummy verify) — fine
+  on Workers Free despite the documented 10 ms figure. If a CPU error ever appears
+  at login: lower the var, redeploy, then re-run `admin:create --update` — existing
+  hashes keep verifying because each hash embeds its own cost parameters.
+- **Phase 6 caveat:** publishing will regenerate `content/**` from D1
+  (`scripts/sync-content.mjs`), which invalidates `public/audio/manifest.json` —
+  `tests/story-audio-artifacts.test.ts` asserts the manifest matches the story text,
+  so the publish flow must regenerate/prune audio in the same step.
 

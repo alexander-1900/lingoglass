@@ -14,3 +14,8 @@ __pycache__
 coverage/
 # Audio generation intermediates (public/audio/ IS committed)
 .audio-cache/
+# Cloudflare Wrangler (local D1/R2 dev state) & function secrets — never commit
+.wrangler/
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
