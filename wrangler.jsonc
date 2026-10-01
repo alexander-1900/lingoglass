@@ -6,10 +6,14 @@
   // dependency, so node_modules/wrangler/config-schema.json does not exist.
   "name": "lingoglass",
   "pages_build_output_dir": "./out",
-  // node:crypto (password hashing) needs nodejs_compat in Pages Functions.
-  // Compatibility dates >= 2026-08-04 enable it by default; kept explicit so
-  // the requirement survives a future compatibility_date change.
-  "compatibility_date": "2026-10-01",
+  // node:crypto (password hashing) needs nodejs_compat — flagged explicitly (and
+  // dates >= 2026-08-04 enable it by default) so the requirement survives a
+  // future compatibility_date change. The date itself is pinned to the newest
+  // value the locally installed wrangler (4.131.x) accepts: production takes any
+  // past date, but a newer one breaks `npm run dev:admin` / `db:*:local` with
+  // "newest date supported by this server binary". Bump it only together with a
+  // wrangler upgrade, then re-test locally.
+  "compatibility_date": "2026-09-18",
   "compatibility_flags": ["nodejs_compat"],
   "d1_databases": [
     {
