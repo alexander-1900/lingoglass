@@ -1,7 +1,11 @@
 // ONE implementation of the story markdown format — shared by the loader
-// (lib/stories.ts), the build validator (scripts/validate-content.mjs) and
-// the JA precompute (scripts/precompute-ja.mjs). Three hand-kept copies of
-// these rules drifted silently; when you change the format, change it here.
+// (lib/stories.ts), the build validator (scripts/validate-content.mjs), the
+// JA precompute (scripts/precompute-ja.mjs) and the admin API's round-trip
+// check (functions/_lib/stories.ts). renderStoryMarkdown() below is the
+// canonical WRITER, used by the admin API today and by the Phase 6 content
+// export (scripts/sync-content.mjs); it must always emit exactly what the
+// parser above can read back identically. Three hand-kept copies of these
+// rules drifted silently once; when you change the format, change it here.
 //
 // Format (see STORY-FORMAT.md):
 //   ---
@@ -97,4 +101,37 @@ export function parseSentences(raw) {
  * @param {string} v */
 export function isSafeSegment(v) {
   return SAFE_SLUG.test(v) && !v.includes("..");
+}
+
+/**
+ * Canonical serializer — the exact inverse of the parser above. Used by the
+ * admin API's round-trip check (functions/_lib/stories.ts) and by the Phase 6
+ * content export (scripts/sync-content.mjs). Always LF; .gitattributes pins
+ * content/**\/*.md to eol=lf, so files written from here stay byte-stable.
+ *
+ * `sentences[].words` are the `* surface (note)` glossary lines (note must be
+ * non-empty — it is what the popover shows). The caller has already validated
+ * that every field survives a render→parse round trip.
+ *
+ * @param {{ title: string, titleEn: string, lang: string, level: string, minutes: number }} meta
+ * @param {{ target: string, en: string, words?: { surface: string, note: string }[] }[]} sentences
+ * @returns {string} markdown, ending in a single trailing newline
+ */
+export function renderStoryMarkdown(meta, sentences) {
+  const out = [
+    "---",
+    `title: ${meta.title}`,
+    `title-en: ${meta.titleEn}`,
+    `lang: ${meta.lang}`,
+    `level: ${meta.level}`,
+    `minutes: ${meta.minutes}`,
+    "---",
+  ];
+  for (const s of sentences) {
+    out.push("");
+    out.push(s.target);
+    for (const w of s.words ?? []) out.push(`* ${w.surface} (${w.note})`);
+    out.push(`> ${s.en}`);
+  }
+  return out.join("\n") + "\n";
 }

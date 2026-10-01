@@ -10,14 +10,19 @@ export class ApiError extends Error {
     public readonly status: number,
     public readonly code: string,
     message?: string,
-    public readonly headers?: Record<string, string>
+    public readonly headers?: Record<string, string>,
+    /** Extra machine-readable context (e.g. field-level validation issues).
+     *  Must never contain secrets — it is sent to the client verbatim. */
+    public readonly details?: unknown
   ) {
     super(message ?? code);
     this.name = "ApiError";
   }
 
   toResponse(): Response {
-    return json({ error: this.message ?? this.code }, this.status, this.headers);
+    const body: Record<string, unknown> = { error: this.message ?? this.code };
+    if (this.details !== undefined) body.details = this.details;
+    return json(body, this.status, this.headers);
   }
 }
 

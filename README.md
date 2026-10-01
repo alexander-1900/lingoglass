@@ -204,10 +204,39 @@ It runs on Cloudflare Pages Functions (`functions/`) with:
   purpose: only root-level middleware runs in front of static files, which is what
   makes even `/admin/index.html` unreachable without a session.
 
-Status: **Phases 1–2 complete** — auth schema + `admin:create` bootstrapper; session
+Status: **Phases 1–3 complete** — auth schema + `admin:create` bootstrapper; session
 gate; login/logout/session APIs with CSRF protection, per-username + per-IP rate
-limiting and lockout; sign-in page and signed-in shell. Story list and editor arrive
-in Phases 4–5, publishing (deploy-hook rebuild) in Phase 6.
+limiting and lockout; the stories CRUD API (below). The story list/editor UI
+arrives in Phases 4–5, publishing (deploy-hook rebuild) in Phase 6.
+
+### Stories API (Phase 3)
+
+All under `/api/admin/stories`, session-gated with CSRF (and Origin) checks on
+every mutation:
+
+- `GET  /api/admin/stories` — list/filter/search (`lang`, `level`, `status`,
+  `q`, `deleted=1`, `limit`/`offset`); returns `nextSlugIndex`, the next `NN`
+  prefix suggestion for that lang/level (deleted rows count — an order slot
+  never comes back).
+- `POST /api/admin/stories` — create a DRAFT with its full content.
+- `GET  /api/admin/stories/:id` — metadata + sentences + glossary words.
+- `PUT  /api/admin/stories/:id` — full replace; echoes `updatedAt` for an
+  optimistic lock (409 `conflict`, response carries the current value) and 409
+  `story_deleted` on trashed rows.
+- `DELETE /api/admin/stories/:id` — soft delete (trash); `POST .../:id/restore`
+  undoes it, idempotently. A slug stays reserved even when deleted — URLs are
+  never recycled.
+- Every mutation lands in `audit_log` (`story.create|update|delete|restore`).
+
+What protects the content pipeline: the API validates tighter than the D1
+CHECKs (title 200, sentence 1000, surface 80, note 200; ≤200 sentences, ≤50
+words per sentence, ≤2000 words per story) and then **round-trips every
+payload** — it renders the story with `renderStoryMarkdown()`
+(`scripts/lib/story-format.mjs`, the canonical writer shared with the Phase 6
+export) and re-parses it with the same primitives the reader uses, rejecting
+anything that would not come back identically. Slugs must be lowercase
+`NN-basename`: the 2-digit prefix is what keeps `readdirSync().sort()` library
+order stable.
 
 Notes worth keeping:
 
