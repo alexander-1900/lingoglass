@@ -4,6 +4,7 @@
 // .bind() call; the only concatenated SQL is fixed fragments + bound params.
 
 import type { Env } from "./env";
+import type { StoryImageRow } from "./images";
 import { storyListJson, type StoryInput, type StoryListRow, type StoryRow, type StorySentenceInput } from "./stories";
 
 const STORY_COLUMNS =
@@ -134,6 +135,84 @@ export async function getCoverImageId(env: Env, storyId: number): Promise<number
     .first<{ id: number }>();
   return row?.id ?? null;
 }
+
+// ---- story_images (Phase 5 covers) -----------------------------------------
+
+const IMAGE_COLUMNS =
+  "id, story_id, r2_key, content_type, byte_size, sha256, width, height, is_cover, uploaded_at";
+
+/** Gallery order: the cover first, then newest uploads. */
+export async function listStoryImages(env: Env, storyId: number): Promise<StoryImageRow[]> {
+  const page = await env.DB.prepare(
+    `SELECT ${IMAGE_COLUMNS} FROM story_images WHERE story_id = ? ` +
+      "ORDER BY is_cover DESC, uploaded_at DESC, id DESC"
+  )
+    .bind(storyId)
+    .all<StoryImageRow>();
+  return page.results ?? [];
+}
+
+export async function getStoryImageRow(
+  env: Env,
+  storyId: number,
+  imageId: number
+): Promise<StoryImageRow | null> {
+  const row = await env.DB.prepare(`SELECT ${IMAGE_COLUMNS} FROM story_images WHERE id = ? AND story_id = ?`)
+    .bind(imageId, storyId)
+    .first<StoryImageRow>();
+  return row ?? null;
+}
+
+export async function getStoryImageByKey(env: Env, storyId: number, r2Key: string): Promise<StoryImageRow | null> {
+  const row = await env.DB.prepare(`SELECT ${IMAGE_COLUMNS} FROM story_images WHERE r2_key = ? AND story_id = ?`)
+    .bind(r2Key, storyId)
+    .first<StoryImageRow>();
+  return row ?? null;
+}
+
+/** Insert, deduplicating on the UNIQUE r2_key (same bytes twice → same row). */
+export async function insertStoryImage(
+  env: Env,
+  image: Omit<StoryImageRow, "id">
+): Promise<StoryImageRow> {
+  await env.DB.prepare(
+    "INSERT INTO story_images (story_id, r2_key, content_type, byte_size, sha256, width, height, is_cover, uploaded_at) " +
+      "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) ON CONFLICT(r2_key) DO NOTHING"
+  )
+    .bind(
+      image.story_id,
+      image.r2_key,
+      image.content_type,
+      image.byte_size,
+      image.sha256,
+      image.width,
+      image.height,
+      image.is_cover,
+      image.uploaded_at
+    )
+    .run();
+  const row = await getStoryImageByKey(env, image.story_id, image.r2_key);
+  if (!row) throw new Error("story_images insert did not land");
+  return row;
+}
+
+/** Exactly one cover per story (the partial unique index enforces it too —
+ *  clearing the old cover and setting the new one happen in one batch). */
+export async function setCoverImage(env: Env, storyId: number, imageId: number): Promise<void> {
+  await env.DB.batch([
+    env.DB.prepare("UPDATE story_images SET is_cover = 0 WHERE story_id = ? AND is_cover = 1").bind(storyId),
+    env.DB.prepare("UPDATE story_images SET is_cover = 1 WHERE id = ? AND story_id = ?").bind(imageId, storyId),
+  ]);
+}
+
+/** Returns the deleted row so the caller can also drop its R2 object. */
+export async function deleteStoryImage(env: Env, storyId: number, imageId: number): Promise<StoryImageRow | null> {
+  const row = await getStoryImageRow(env, storyId, imageId);
+  if (!row) return null;
+  await env.DB.prepare("DELETE FROM story_images WHERE id = ? AND story_id = ?").bind(imageId, storyId).run();
+  return row;
+}
+
 
 /** Slug holder in the same lang/level — deleted rows count (UNIQUE covers
  *  them; a URL never gets recycled). */
