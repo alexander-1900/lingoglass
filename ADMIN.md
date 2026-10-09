@@ -25,6 +25,13 @@ Three layers, one direction of travel:
 That split is deliberate: you can stage ten stories, then ship them in one
 reviewed build instead of ten rebuilds.
 
+> **Where we are today:** the pipeline is built and all 85 stories are already in
+> D1 as `published`, but the `lingoglass` Pages project is still a **direct
+> upload**, so the deploy hook does not exist yet and "Publish site" has nothing
+> to fire. Deploys are still `npm run deploy`. Use **`npm run publish`** to
+> export D1 → `content/**` and commit the result; **Setup → Git-connected
+> project** below is the cutover that switches the button on.
+
 ## Publishing
 
 1. Edit in `/admin`; the editor's **Publish** button (or the row's Publish
@@ -32,8 +39,10 @@ reviewed build instead of ten rebuilds.
    double clicks are no-ops, not errors. If the story changed in another tab
    since you loaded it, the button reports the conflict instead of publishing
    stale content (same optimistic lock as Save).
-2. Click **Publish site** in the header. The banner reports the hook's outcome;
-   Cloudflare then rebuilds (`~30–60 s`).
+2. Click **Publish site** in the header. Once the project is Git-connected (see
+   **Setup** below) the banner reports the hook's outcome and Cloudflare rebuilds
+   (`~30–60 s`). Until then the button reports that no hook is configured —
+   nothing breaks, it just has nowhere to send the build.
 3. A second click within 60 s is refused with the time remaining — that is the
    throttle, not a fault. The list view's history strip shows the last attempts
    (and, when the hook is not configured, says so).
@@ -50,9 +59,11 @@ Where it is implemented: `POST /api/admin/stories/:id/publish` and
 | `502 deploy_hook_failed` | hook returned non-2xx/redirect | Check the hook URL; the journal row carries the HTTP detail |
 | `429 publish_throttled` | another publish < 60 s ago | Wait out the reported seconds |
 
-`npm run publish` is the manual escape hatch: it runs the same
-`sync-content --remote` export, journals the attempt (mode `manual`) and fires
-the hook. Use it when the dashboard button can't reach the hook.
+`npm run publish` is the workhorse until the cutover: it runs the same
+`sync-content --remote` export into `content/**`, journals the attempt (mode
+`manual`), and fires the hook if one is configured. With no hook it stops there
+and asks you to commit the export — on a direct-upload project that commit is
+what you then deploy with `npm run deploy`.
 
 ## The one-time import
 
@@ -66,8 +77,9 @@ npm run content:import -- --remote --covers     # + upload frontmatter image: ph
 ```
 
 `--update` re-imports into existing rows (destructive — content is replaced),
-`--limit N` does a small slice first. After a successful import, **publish** the
-stories you want visible, then **Publish site**.
+`--limit N` does a small slice first. **Already done:** the remote database holds
+all 85 stories as `published`, so the site's content is live and a re-export is a
+no-op. Re-run this only to seed a fresh database.
 
 ## Setup (once per environment)
 
@@ -86,17 +98,24 @@ The token only needs to **read** D1 and R2 — the build never writes to either.
 Local development puts Functions secrets in a gitignored `.dev.vars`
 (see `.dev.vars.example`).
 
-### Git-connected project
+### Git-connected project (not yet done)
 
-`lingoglass` is a Git-connected Pages project, so publishing is the deploy hook,
-not `npm run deploy`. If you ever need to recreate it:
+`lingoglass` is still a **direct-upload** project, so publishing is
+`npm run deploy` and `npm run publish` ends by asking you to commit the export.
+Turning the button into a real one-click rebuild means converting the project to
+Git-connected — a deliberate cutover, because the name is taken by the live site:
 
-1. Create a Pages project connected to this repo. Build command `npm run build`,
-   output directory `out` — both already the repo's defaults.
+1. Create a Pages project connected to this repo (the CLI can't: the repo link
+   is a dashboard OAuth step). Build command `npm run build`, output directory
+   `out` — both already the repo's defaults.
 2. Set the four variables above (Production scope).
 3. Bindings must match `wrangler.jsonc`: D1 `lingoglass-db` as `DB`, R2
    `lingoglass-media` as `MEDIA`.
-4. Verify with one "Publish site", then delete the old Direct-Upload project.
+4. Take a deploy hook (Settings → Builds & deployments → Deploy hooks) and put it
+   in `DEPLOY_HOOK_URL`.
+5. Verify with one "Publish site", confirm the rebuild's prebuild exported D1
+   correctly, then point the custom domain at the new project and delete the old
+   Direct-Upload project.
 
 ## Safety rails (what the export refuses to do)
 

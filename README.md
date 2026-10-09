@@ -166,15 +166,14 @@ Reading, bookmarks, and preferences are anonymous and local-only
 ## Deploy
 
 The site is a static export (`out/`) served by Cloudflare Pages as the project
-`lingoglass` → https://lingoglass.pages.dev. The project is **Git-connected**: a
-push to GitHub runs CI only (it never deploys), while publishing is a deliberate,
-journaled action — see **Publishing (Phase 6)** below and **[ADMIN.md](ADMIN.md)**.
+`lingoglass` → https://lingoglass.pages.dev. That project is currently a
+**direct upload**, so a push to GitHub runs CI only — deploying is a separate,
+deliberate step:
 
 ```powershell
 $env:SITE_URL = "https://lingoglass.pages.dev"   # .env.local points at localhost, and the
                                                  # sitemap/robots bake this value in
-npm run build                                     # D1 export (build machine only) + validate
-                                                  # + JA precompute + static export
+npm run build                                     # validate + JA precompute + static export
 npm run deploy                                    # wrangler pages deploy out --project-name=lingoglass
 ```
 
@@ -307,6 +306,15 @@ pruned on export.
 `scripts/import-content.mjs` is the one-time bootstrap in the other direction —
 `content/** → D1` (batched, skips existing rows unless `--update`, `--covers`
 uploads the frontmatter `image:` photos to R2). See **ADMIN.md** for the runbook.
+
+**Current state:** all 85 stories are imported into D1 as `published`, and a
+re-export is a verified no-op (`0 written, 85 unchanged`). The publish *pipeline*
+is complete and tested end to end, but the `lingoglass` Pages project is still a
+direct upload — so the "Publish site" button has no hook to fire yet, and
+deploys remain `npm run deploy`. Converting the project to Git-connected is a
+deliberate cutover (its name is taken by the live project); **ADMIN.md** records
+the steps. Until then `npm run publish` exports D1 → `content/**` and the
+operator commits the result by hand.
 
 ### Admin UI (Phase 4)
 

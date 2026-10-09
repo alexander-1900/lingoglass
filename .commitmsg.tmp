@@ -1,0 +1,8 @@
+docs: describe the publishing pipeline's actual deployment state
+
+The Phase 6 commit described the Pages project as Git-connected, which is not
+true yet: lingoglass is still a direct-upload project, so the deploy hook does
+not exist and "Publish site" has nothing to fire. Correct README's Deploy
+section and the Phase 6 note, and reframe ADMIN.md's mental model, publishing
+steps and Setup around the real state -- deploys stay `npm run deploy`, and
+`npm run publish` exports D1 into content/ for a hand commit until the cutover.
