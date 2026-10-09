@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/validate-content.mjs && node scripts/precompute-ja.mjs",
+    "prebuild": "node scripts/sync-content.mjs --build && node scripts/validate-content.mjs && node scripts/precompute-ja.mjs",
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit --incremental false",
@@ -14,11 +14,15 @@
     "audio:generate": "node scripts/generate-audio.mjs",
     "audio:fixture": "node scripts/generate-audio.mjs --fixture",
     "audio:clear": "node scripts/clear-audio.mjs",
+    "audio:reconcile": "node scripts/audio-reconcile.mjs",
     "deploy": "wrangler pages deploy out --project-name=lingoglass --commit-dirty=true",
     "db:migrate": "wrangler d1 migrations apply lingoglasse-db --remote",
     "db:migrate:local": "wrangler d1 migrations apply lingoglasse-db --local",
     "db:list": "wrangler d1 migrations list lingoglasse-db --remote",
-    "admin:create": "node scripts/admin-create.mjs"
+    "admin:create": "node scripts/admin-create.mjs",
+    "content:import": "node scripts/import-content.mjs",
+    "content:sync": "node scripts/sync-content.mjs",
+    "publish": "node scripts/publish.mjs"
   },
   "dependencies": {
     "next": "15.5.26",

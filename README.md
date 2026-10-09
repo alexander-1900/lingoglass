@@ -149,10 +149,14 @@ Reading, bookmarks, and preferences are anonymous and local-only
 | `npm start`       | Serve the production build                        |
 | `npm run typecheck` | TypeScript check (`tsc --noEmit`)               |
 | `npm run lint` | ESLint (`next/core-web-vitals` + TS rules)        |
-| `npm test` | Local-storage regression tests (`vitest run`) |
+| `npm test` | Test suite (`vitest run`) — storage, format, audio, admin API/UI and the Phase 6 content-sync round trip |
 | `npm run audio:generate` | Neural story audio (authoring-time only; needs Python + edge-tts and ffmpeg — see `.env.example`). Supports `--lang`, `--limit-per-level`, `--limit`, `--only lang/slug`, `--rate`, `--dry-run`, `--concurrency`, `--show-boundaries` |
 | `npm run audio:fixture` | Same pipeline, beep audio instead of edge-tts speech (ffmpeg only) — smoke-tests the reader. Add `-- --only lang/slug` etc. |
 | `npm run audio:clear` | Deletes the regenerable `public/audio/` output (used to drop fixture beeps before committing) |
+| `npm run audio:reconcile` | Manifest ⇄ `content/**` drift check (orphaned/drifted/missing entries; `--prune` removes orphans, `--quiet` for CI-style output) |
+| `npm run content:import` | One-time bootstrap: import `content/**` into D1 (and `--covers` uploads cover photos to R2) — see **ADMIN.md** |
+| `npm run content:sync` | Export published D1 stories back into `content/**` (a publish does this on the build machine; `--build` skips cleanly without a token) |
+| `npm run publish` | Manual publish: `content:sync --remote` → journal → fire `DEPLOY_HOOK_URL` |
 | `npm run deploy` | Uploads the built `out/` to Cloudflare Pages (see **Deploy** below) |
 | `npm run typecheck:workers` | TypeScript check for Pages Functions (`functions/tsconfig.json`) |
 | `npm run dev:admin` | Serve the built `out/` with Pages Functions locally (http://localhost:8788; needs a prior `npm run build`) |
@@ -161,15 +165,17 @@ Reading, bookmarks, and preferences are anonymous and local-only
 
 ## Deploy
 
-The site is a static export (`out/`) uploaded to Cloudflare Pages as the project
-`lingoglass` → https://lingoglass.pages.dev. That project is a **direct upload**, not
-Git-connected, so a push to GitHub runs CI only — deploying is a separate, deliberate step:
+The site is a static export (`out/`) served by Cloudflare Pages as the project
+`lingoglass` → https://lingoglass.pages.dev. The project is **Git-connected**: a
+push to GitHub runs CI only (it never deploys), while publishing is a deliberate,
+journaled action — see **Publishing (Phase 6)** below and **[ADMIN.md](ADMIN.md)**.
 
 ```powershell
 $env:SITE_URL = "https://lingoglass.pages.dev"   # .env.local points at localhost, and the
                                                  # sitemap/robots bake this value in
-npm run build                                    # validate + JA precompute + static export
-npm run deploy                                   # wrangler pages deploy out --project-name=lingoglass
+npm run build                                     # D1 export (build machine only) + validate
+                                                  # + JA precompute + static export
+npm run deploy                                    # wrangler pages deploy out --project-name=lingoglass
 ```
 
 `npm run deploy` needs `wrangler` (install it globally, or change the script to
@@ -204,10 +210,13 @@ It runs on Cloudflare Pages Functions (`functions/`) with:
   purpose: only root-level middleware runs in front of static files, which is what
   makes even `/admin/index.html` unreachable without a session.
 
-Status: **Phases 1–3 complete** — auth schema + `admin:create` bootstrapper; session
+Status: **Phases 1–6 complete** — auth schema + `admin:create` bootstrapper; session
 gate; login/logout/session APIs with CSRF protection, per-username + per-IP rate
-limiting and lockout; the stories CRUD API (below). The story list/editor UI
-arrives in Phases 4–5, publishing (deploy-hook rebuild) in Phase 6.
+limiting and lockout; the stories CRUD API (below); the story list + editor UI
+(`public/admin/`: hash router, filters, optimistic-lock saves); cover-image
+upload/manage (R2-backed gallery, magic-byte sniffing); and the publishing
+pipeline — per-story publish plus the one-click "Publish site" deploy-hook rebuild.
+The day-to-day operator runbook lives in **[ADMIN.md](ADMIN.md)**.
 
 ### Stories API (Phase 3)
 
@@ -226,7 +235,9 @@ every mutation:
 - `DELETE /api/admin/stories/:id` — soft delete (trash); `POST .../:id/restore`
   undoes it, idempotently. A slug stays reserved even when deleted — URLs are
   never recycled.
-- Every mutation lands in `audit_log` (`story.create|update|delete|restore`).
+- `POST /api/admin/stories/:id/publish` — flip a draft to published (see
+  **Publishing** below).
+- Every mutation lands in `audit_log` (`story.create|update|delete|restore|publish`).
 
 What protects the content pipeline: the API validates tighter than the D1
 CHECKs (title 200, sentence 1000, surface 80, note 200; ≤200 sentences, ≤50
@@ -253,8 +264,74 @@ Notes worth keeping:
   on Workers Free despite the documented 10 ms figure. If a CPU error ever appears
   at login: lower the var, redeploy, then re-run `admin:create --update` — existing
   hashes keep verifying because each hash embeds its own cost parameters.
-- **Phase 6 caveat:** publishing will regenerate `content/**` from D1
+- **Phase 6 note:** publishing regenerates `content/**` from D1
   (`scripts/sync-content.mjs`), which invalidates `public/audio/manifest.json` —
-  `tests/story-audio-artifacts.test.ts` asserts the manifest matches the story text,
-  so the publish flow must regenerate/prune audio in the same step.
+  `tests/story-audio-artifacts.test.ts` asserts the manifest matches the story
+  text. `npm run audio:reconcile` reports exactly that drift (orphaned/drifted/
+  missing) so audio can be regenerated or pruned in the same session; the build
+  never regenerates audio on its own.
+
+### Publishing (Phase 6)
+
+Two distinct buttons, one obvious distinction: **Publish** (a story) marks it
+eligible in D1; **Publish site** makes it visible to readers.
+
+- **`POST /api/admin/stories/:id/publish`** — `draft → published` only, on the
+  live row (trashed rows 409 `story_deleted`). Idempotent: publishing an
+  already-published story is a no-op, not an error. The optional
+  `{ updatedAt }` body re-uses the editor's optimistic lock — if the story
+  changed since it was loaded, the request 409s instead of publishing stale
+  content. `published_at` is COALESCEd, so the first publish date survives
+  re-publishes. Lands in `audit_log` as `story.publish`.
+- **`GET`/`POST /api/admin/publish`** — the site publish. `GET` returns the
+  recent request history; `POST` journals the request (mode + actor in
+  `publish_requests`), fires `DEPLOY_HOOK_URL`, and records the hook's outcome.
+  A 60 s throttle answers 429 with the previous request so a double click is a
+  clear message instead of two builds; a missing `DEPLOY_HOOK_URL` degrades
+  gracefully (nothing to fire — the journal entry still records the attempt).
+
+The rebuild itself is where D1 becomes content: the deploy hook runs
+`npm run build`, whose prebuild chain is
+`sync-content.mjs --build → validate-content.mjs → precompute-ja.mjs`.
+`--build` mode is written for machines with **no wrangler login**: it pulls
+published stories over the D1 REST API (`CLOUDFLARE_API_TOKEN` +
+`CLOUDFLARE_ACCOUNT_ID`) and **skips cleanly when those are unset** — which is
+what CI and local builds do, because they use the committed `content/**` instead.
+Safety rails before anything is written: a failed D1 pull aborts the build, an
+empty published set alongside non-empty D1 rows refuses to touch `content/`
+(it would otherwise read as "delete everything"), and unsafe path segments in
+`lang/level/slug` are rejected rather than written outside the tree. R2 cover
+images ride along into `public/images/covers/`, and drafts/soft-deleted rows are
+pruned on export.
+
+`scripts/import-content.mjs` is the one-time bootstrap in the other direction —
+`content/** → D1` (batched, skips existing rows unless `--update`, `--covers`
+uploads the frontmatter `image:` photos to R2). See **ADMIN.md** for the runbook.
+
+### Admin UI (Phase 4)
+
+`public/admin/` is a dependency-free ES-module app served through the session
+gate (no framework, no build step): `app.js` bootstraps the session + CSRF token
+and hosts the hash router (`#/` list, `#/new`, `#/story/:id`), `list-view.js`
+renders the filterable/paginated table (filters live in the hash so reload and
+Back keep the working set), `editor-view.js` is the metadata + sentence/word
+editor, and `story-form.js`/`api.js`/`dom.js` hold the pure form-state⇄payload,
+fetch and DOM layers — all covered headless by `tests/admin-stories-ui.test.ts`.
+Saves use the optimistic lock: every `PUT` echoes the loaded `updatedAt`, and a
+409 conflict reloads the current story instead of overwriting it.
+
+### Cover images (Phase 5)
+
+Images are session-gated under `/api/admin/stories/:id/images`:
+
+- `GET` — the gallery (cover first); `POST` — one raw-body upload per request:
+  size cap (`ADMIN_MAX_UPLOAD_BYTES`, default 5 MB) → **magic-byte** sniffing
+  (JPEG/PNG/WebP only — the declared `Content-Type` is never trusted) → sha256 →
+  R2 object at the content-addressed `covers/<lang>/<level>/<slug>/<sha>.<ext>`
+  key → `story_images` row. Identical bytes dedupe onto one row; the first image
+  becomes the cover.
+- `GET .../:imageId` — the bytes (same-origin, for editor previews);
+  `DELETE .../:imageId` — drops the D1 row first, then the R2 object;
+  `POST .../:imageId/cover` — promotes an image to THE cover (exactly one per
+  story, idempotent). All mutations land in `audit_log`.
 

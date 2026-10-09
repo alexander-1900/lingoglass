@@ -5,10 +5,13 @@
 import { describe, expect, it } from "vitest";
 import {
   LIMITS,
+  checkUpdatedAtLock,
   parseStoryIdParam,
   parseStoryInput,
+  planPublish,
   verifyRoundTrip,
   type StoryInput,
+  type StoryRow,
 } from "../functions/_lib/stories";
 import { renderStoryMarkdown } from "../scripts/lib/story-format.mjs";
 
@@ -269,5 +272,76 @@ describe("parseStoryInput rejections", () => {
 
   it.each(cases)("rejects %s", (_name, body, field) => {
     expect(expectIssues(body)).toContain(field);
+  });
+});
+
+// ---- publish transition (Phase 6) -------------------------------------------
+
+describe("planPublish", () => {
+  const row = (over: Partial<Body> = {}): Body => ({
+    id: 7,
+    lang: "es",
+    level: "a1",
+    slug: "06-la-casa-nueva",
+    title: "La casa nueva",
+    title_en: "The new house",
+    minutes: 4,
+    status: "draft",
+    source: "admin",
+    created_at: 1,
+    updated_at: 2,
+    published_at: null,
+    deleted_at: null,
+    ...over,
+  });
+
+  it("publishes a live draft", () => {
+    expect(planPublish(row() as never)).toEqual({ action: "publish" });
+  });
+
+  it("is a no-op for an already-published story (idempotent double click)", () => {
+    expect(planPublish(row({ status: "published", published_at: 3 }) as never)).toEqual({ action: "noop" });
+  });
+
+  it("rejects a trashed story with story_deleted", () => {
+    const plan = planPublish(row({ deleted_at: 9 }) as never);
+    expect(plan.action).toBe("reject");
+    if (plan.action === "reject") expect(plan.code).toBe("story_deleted");
+  });
+
+  it("prefers the trash verdict over the status verdict", () => {
+    // Deleted + already published: the operator must restore first — one
+    // clear message, never a confusing "already published" on a dead story.
+    const plan = planPublish(row({ status: "published", deleted_at: 9 }) as never);
+    expect(plan.action).toBe("reject");
+  });
+});
+
+describe("checkUpdatedAtLock", () => {
+  const row = (updatedAt: number): StoryRow =>
+    ({ id: 7, lang: "es", level: "a1", slug: "x", title: "t", title_en: "t", minutes: 3, status: "draft", source: "admin", created_at: 1, updated_at: updatedAt, published_at: null, deleted_at: null }) as StoryRow;
+
+  it("passes when no expectation is sent (curl-style opt out)", () => {
+    expect(checkUpdatedAtLock(row(5), undefined)).toEqual({ ok: true });
+    expect(checkUpdatedAtLock(row(5), null)).toEqual({ ok: true });
+  });
+
+  it("passes on a matching updatedAt", () => {
+    expect(checkUpdatedAtLock(row(5), 5)).toEqual({ ok: true });
+  });
+
+  it("rejects a non-integer expectation", () => {
+    const check = checkUpdatedAtLock(row(5), "5");
+    expect(check.ok).toBe(false);
+    if (!check.ok) expect(check.code).toBe("invalid_updated_at");
+  });
+
+  it("reports a conflict with the current updatedAt", () => {
+    const check = checkUpdatedAtLock(row(6), 5);
+    expect(check.ok).toBe(false);
+    if (!check.ok) {
+      expect(check.code).toBe("conflict");
+      expect(check.updatedAt).toBe(6);
+    }
   });
 });

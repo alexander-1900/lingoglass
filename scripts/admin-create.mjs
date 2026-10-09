@@ -20,8 +20,8 @@ import os from "node:os";
 import path from "node:path";
 import crypto from "node:crypto";
 import readline from "node:readline";
-import { execSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
+import { d1File, d1Query, readDbName, readWranglerVar } from "./lib/d1.mjs";
 import {
   hashPassword,
   verifyPassword,
@@ -100,27 +100,6 @@ function parseArgs(argv) {
   return out;
 }
 
-/** Read a string var out of wrangler.jsonc (JSONC — regex, not JSON.parse). */
-function readWranglerVar(name, fallback) {
-  try {
-    const raw = fs.readFileSync(path.join(root, "wrangler.jsonc"), "utf-8");
-    const m = raw.match(new RegExp(`"${name}"\\s*:\\s*"([^"]*)"`));
-    return m ? m[1] : fallback;
-  } catch {
-    return fallback;
-  }
-}
-
-function readDbName(override) {
-  if (override) return override;
-  try {
-    const raw = fs.readFileSync(path.join(root, "wrangler.jsonc"), "utf-8");
-    const m = raw.match(/"database_name"\s*:\s*"([^"]+)"/);
-    if (m) return m[1];
-  } catch { /* fall through */ }
-  return fail("wrangler.jsonc: d1_databases[0].database_name not found — pass --db <name>");
-}
-
 /** Hidden password prompt (standard muted-readline pattern; TTY only). */
 function promptHidden(query) {
   return new Promise((resolve) => {
@@ -164,53 +143,6 @@ async function acquirePassword(opts) {
   return { password: a, generated: false };
 }
 
-/** Quote an argument for the platform shell (paths/db names never contain `"`). */
-function shellQuote(value) {
-  return `"${String(value).replace(/"/g, "")}"`;
-}
-
-function runWrangler(args) {
-  const command = ["wrangler", ...args.map(shellQuote)].join(" ");
-  try {
-    return execSync(command, { encoding: "utf-8", stdio: ["ignore", "pipe", "pipe"] });
-  } catch (err) {
-    const detail = [err.stdout, err.stderr].filter(Boolean).join("\n").trim();
-    console.error(detail || String(err.message));
-    return null;
-  }
-}
-
-/** wrangler --json may be preceded by banner lines — locate and parse the array. */
-function parseJsonish(stdout) {
-  const trimmed = stdout.trim();
-  try {
-    return JSON.parse(trimmed);
-  } catch { /* fall through */ }
-  const start = trimmed.indexOf("[");
-  const end = trimmed.lastIndexOf("]");
-  if (start === -1 || end <= start) fail("could not parse wrangler output:\n" + trimmed);
-  try {
-    return JSON.parse(trimmed.slice(start, end + 1));
-  } catch {
-    return fail("could not parse wrangler output:\n" + trimmed);
-  }
-}
-
-function resultsOf(payload) {
-  if (Array.isArray(payload)) return payload[0]?.results ?? [];
-  return payload?.results ?? [];
-}
-
-function d1File(db, scope, file) {
-  return runWrangler(["d1", "execute", db, "--yes", scope, "--file", file]);
-}
-
-function d1Query(db, scope, sql) {
-  const stdout = runWrangler(["d1", "execute", db, "--yes", "--json", scope, "--command", sql]);
-  if (stdout === null) return null;
-  return resultsOf(parseJsonish(stdout));
-}
-
 async function main() {
   const opts = parseArgs(process.argv.slice(2));
   if (opts.help) return usage();
@@ -223,10 +155,11 @@ async function main() {
   }
 
   const scope = opts.remote ? "--remote" : "--local";
-  const db = opts.dryRun ? "dry-run" : readDbName(opts.db);
-  const kdf = opts.kdf ?? readWranglerVar("ADMIN_PASSWORD_KDF", DEFAULT_KDF);
+  const db = opts.dryRun ? "dry-run" : readDbName(root, opts.db);
+  if (!db) fail("wrangler.jsonc: d1_databases[0].database_name not found — pass --db <name>");
+  const kdf = opts.kdf ?? readWranglerVar(root, "ADMIN_PASSWORD_KDF", DEFAULT_KDF);
   const iterations =
-    opts.iterations ?? Number(readWranglerVar("ADMIN_PBKDF2_ITERATIONS", DEFAULT_PBKDF2_ITERATIONS));
+    opts.iterations ?? Number(readWranglerVar(root, "ADMIN_PBKDF2_ITERATIONS", DEFAULT_PBKDF2_ITERATIONS));
   if (!Number.isInteger(iterations) || iterations < 1) fail("invalid iterations: " + iterations);
 
   const { password, generated } = await acquirePassword(opts);
@@ -335,4 +268,8 @@ async function main() {
   }
 }
 
-await main();
+try {
+  await main();
+} catch (err) {
+  fail(String((err && err.message) || err));
+}

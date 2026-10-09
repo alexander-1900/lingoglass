@@ -320,3 +320,17 @@ export async function restoreStory(env: Env, id: number, now: number): Promise<b
     .run();
   return (res.meta.changes ?? 0) > 0;
 }
+
+/** draft → published. Idempotent (a second click changes nothing) and gated on
+ *  the story being live: publishing a trashed story is a 409 in the route, and
+ *  a concurrent trash between the route's read and this write just makes the
+ *  conditional UPDATE a no-op. `published_at` stamps once, on first publish. */
+export async function publishStory(env: Env, id: number, now: number): Promise<boolean> {
+  const res = await env.DB.prepare(
+    "UPDATE stories SET status = 'published', published_at = COALESCE(published_at, ?), updated_at = ? " +
+      "WHERE id = ? AND status = 'draft' AND deleted_at IS NULL"
+  )
+    .bind(now, now, id)
+    .run();
+  return (res.meta.changes ?? 0) > 0;
+}

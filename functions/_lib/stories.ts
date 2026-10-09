@@ -370,3 +370,60 @@ export function storyListJson(row: StoryListRow) {
     coverImageId: row.cover_image_id,
   };
 }
+
+// ---- Publish transition (Phase 6) -------------------------------------------
+// Pure decision for POST /stories/:id/publish, mirroring how restore.ts treats
+// an already-live story: publishing is idempotent, but a trashed story is a
+// 409 (restore first — one path in, one out).
+
+export type PublishPlan =
+  | { action: "publish" }
+  | { action: "noop" }
+  | { action: "reject"; code: "story_deleted"; message: string };
+
+export function planPublish(row: StoryRow): PublishPlan {
+  if (row.deleted_at !== null) {
+    return {
+      action: "reject",
+      code: "story_deleted",
+      message: "This story is in the trash — restore it before publishing",
+    };
+  }
+  if (row.status === "published") return { action: "noop" };
+  return { action: "publish" };
+}
+
+/** Optimistic-lock verdict shared by PUT /stories/:id and the publish route:
+ *  the client echoes the updatedAt it loaded; null/undefined means "no
+ *  expectation" (curl-style calls opt out). */
+export type LockCheck =
+  | { ok: true }
+  | {
+      ok: false;
+      code: "invalid_updated_at" | "conflict";
+      message: string;
+      updatedAt?: number;
+    };
+
+export function checkUpdatedAtLock(row: StoryRow, expect: unknown): LockCheck {
+  if (expect === undefined || expect === null) return { ok: true };
+  if (typeof expect !== "number" || !Number.isInteger(expect)) {
+    return {
+      ok: false,
+      code: "invalid_updated_at",
+      message: "updatedAt must be an integer (unix seconds)",
+    };
+  }
+  // Equal-second writes are theoretically indistinguishable (epoch-seconds
+  // convention), but a single operator's editor always sends its own
+  // last-seen value, so the practical clobber window is sub-second.
+  if (expect !== row.updated_at) {
+    return {
+      ok: false,
+      code: "conflict",
+      message: "The story changed since it was loaded — reload and re-apply your edits",
+      updatedAt: row.updated_at,
+    };
+  }
+  return { ok: true };
+}

@@ -165,6 +165,12 @@ h1 {
   border-color: #b3261e;
   color: #b3261e;
 }
+/* Publish echoes the .badge.published green — the action and its result read
+   as one concept across list rows and the editor footer. */
+.btn.publish:hover:enabled {
+  border-color: #2f5f28;
+  color: #2f5f28;
+}
 .btn.small {
   padding: 4px 9px;
   font-size: 12px;

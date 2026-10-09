@@ -4,7 +4,7 @@
 // drive; everything here must also hold without a DOM.
 
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { ApiError, createStory, getSession, listStories, setCsrfToken, updateStory } from "../public/admin/api.js";
+import { ApiError, createStory, getSession, listStories, publishHistory, publishStory, requestSitePublish, setCsrfToken, updateStory } from "../public/admin/api.js";
 import { hashQueryOf, routeOf } from "../public/admin/app.js";
 import {
   IMAGE_MAX_BYTES,
@@ -208,6 +208,56 @@ describe("api.js fetch layer", () => {
   it("reports an unreachable API as status 0", async () => {
     vi.stubGlobal("fetch", () => Promise.reject(new TypeError("fetch failed")));
     await expect(getSession()).rejects.toMatchObject({ status: 0 });
+  });
+
+  it("publishes a story with the CSRF header and the lock token", async () => {
+    stubFetch(() => new Response(JSON.stringify({ ok: true, published: true, story: { id: 7, status: "published" } }), { status: 200 }));
+    setCsrfToken("tok-pub");
+    const result = await publishStory(7, { updatedAt: 1234 });
+    expect(result.published).toBe(true);
+    expect(calls[0]?.url).toBe("/api/admin/stories/7/publish");
+    expect(calls[0]?.init?.method).toBe("POST");
+    expect((calls[0]?.init?.headers as Record<string, string>)["X-CSRF-Token"]).toBe("tok-pub");
+    expect(calls[0]?.init?.body).toBe(JSON.stringify({ updatedAt: 1234 }));
+  });
+
+  it("defaults the publish payload to an empty object (curl-friendly)", async () => {
+    stubFetch(() => new Response(JSON.stringify({ ok: true, published: true }), { status: 200 }));
+    await publishStory(9);
+    expect(calls[0]?.init?.body).toBe(JSON.stringify({}));
+  });
+
+  it("POSTs the site publish and GETs the history without a body", async () => {
+    stubFetch(
+      (url, init) =>
+        new Response(
+          JSON.stringify(init.method === "POST" ? { ok: true, dispatched: true } : { requests: [] }),
+          { status: 200 }
+        )
+    );
+    setCsrfToken("tok-site");
+    const post = await requestSitePublish();
+    expect(post.dispatched).toBe(true);
+    expect(calls[0]?.url).toBe("/api/admin/publish");
+    expect(calls[0]?.init?.method).toBe("POST");
+    expect((calls[0]?.init?.headers as Record<string, string>)["X-CSRF-Token"]).toBe("tok-site");
+    const get = await publishHistory();
+    expect(get.requests).toEqual([]);
+    expect(calls[1]?.init?.method).toBe("GET"); // GET: no CSRF header
+    expect((calls[1]?.init?.headers as Record<string, string>)["X-CSRF-Token"]).toBeUndefined();
+  });
+
+  it("surfaces the publish throttle as a 429 with Retry-After context", async () => {
+    stubFetch(
+      () =>
+        new Response(JSON.stringify({ error: "A site publish was already requested 12s ago", details: { lastRequest: { id: 3 } } }), {
+          status: 429,
+        })
+    );
+    await expect(requestSitePublish()).rejects.toMatchObject({
+      status: 429,
+      details: { lastRequest: { id: 3 } },
+    });
   });
 
   it("falls back to a readable message on a non-JSON error body", async () => {

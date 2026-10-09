@@ -3,8 +3,8 @@
 // ("#/?lang=ja&level=n5&…") so reloads and Back keep the working set.
 // Stable hooks for the E2E browser drive: .new-story, .filter-lang/.filter-level/
 // .filter-status/.filter-q/.filter-deleted, row[data-story-id], .edit-row,
-// .trash-row, .restore-row, .page-prev/.page-next.
-import { deleteStory, listStories, restoreStory } from "./api.js";
+// .publish-row, .trash-row, .restore-row, .page-prev/.page-next.
+import { deleteStory, listStories, publishHistory, publishStory, restoreStory } from "./api.js";
 import { el } from "./dom.js";
 import {
   LANG_LABELS,
@@ -25,6 +25,7 @@ export function renderListView(container, ctx, initialFilters) {
   let searchTimer = 0;
 
   const noticeEl = el("p", { class: "notice", hidden: true });
+  const publishStripEl = el("p", { class: "muted small publish-history", hidden: true });
   const summaryEl = el("p", { class: "muted summary" });
   const tableWrap = el("div", { class: "table-wrap" });
   const pagerInfo = el("span", { class: "muted" });
@@ -103,7 +104,29 @@ export function renderListView(container, ctx, initialFilters) {
     newBtn,
   ]);
 
-  container.replaceChildren(noticeEl, toolbarEl, summaryEl, tableWrap, pagerEl);
+  container.replaceChildren(noticeEl, publishStripEl, toolbarEl, summaryEl, tableWrap, pagerEl);
+
+  // ---- publish history strip -------------------------------------------------
+  // Best-effort context for the "Publish site" button: the latest journal row
+  // from publish_requests. Failures are silent — the strip is decoration, the
+  // button works without it.
+
+  async function loadPublishStrip() {
+    let data;
+    try {
+      data = await publishHistory();
+    } catch {
+      return;
+    }
+    if (ctx.isStale()) return;
+    const latest = data && Array.isArray(data.requests) ? data.requests[0] : null;
+    if (!latest) return;
+    const when = formatEpoch(latest.requestedAt);
+    publishStripEl.textContent =
+      `Last site publish: ${when} — ${latest.status}` + (latest.detail ? ` (${latest.detail.slice(0, 120)})` : "");
+    publishStripEl.hidden = false;
+  }
+  void loadPublishStrip();
 
   // ---- state ⇄ hash ---------------------------------------------------------
 
@@ -194,6 +217,19 @@ export function renderListView(container, ctx, initialFilters) {
       );
     } else {
       actions.append(
+        ...(story.status === "draft"
+          ? [
+              el("button", {
+                type: "button",
+                class: "btn small publish-row",
+                text: "Publish",
+                onclick: (event) => {
+                  event.stopPropagation();
+                  void act("publish", story);
+                },
+              }),
+            ]
+          : []),
         el("button", {
           type: "button",
           class: "btn small edit-row",
@@ -272,10 +308,19 @@ export function renderListView(container, ctx, initialFilters) {
 
   async function act(kind, story) {
     if (kind === "delete" && !window.confirm(`Move “${story.title}” to the trash?`)) return;
+    if (kind === "publish" && !window.confirm(`Publish “${story.title}”? It will be exported to the site on the next publish.`)) return;
     try {
       if (kind === "delete") {
         await deleteStory(story.id);
         showNotice("ok", `Moved “${story.title}” to the trash.`);
+      } else if (kind === "publish") {
+        const result = await publishStory(story.id);
+        showNotice(
+          "ok",
+          result && result.published
+            ? `Published “${story.title}”. Use “Publish site” (top bar) to push it live.`
+            : `“${story.title}” was already published.`
+        );
       } else {
         const result = await restoreStory(story.id);
         showNotice("ok", result && result.restored ? `Restored “${story.title}”.` : `“${story.title}” was already live.`);

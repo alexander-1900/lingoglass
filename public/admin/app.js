@@ -8,7 +8,7 @@
 //   #/             story list (filters ride in the hash: #/?lang=ja&level=n5…)
 //   #/new          create-story editor
 //   #/story/:id    editor for one story (id must be a positive integer)
-import { ApiError, getSession, logout, setCsrfToken } from "./api.js";
+import { ApiError, getSession, logout, requestSitePublish, setCsrfToken } from "./api.js";
 import { renderEditorView } from "./editor-view.js";
 import { renderListView } from "./list-view.js";
 import { filtersFromHashQuery } from "./story-form.js";
@@ -43,6 +43,7 @@ function main() {
   const viewEl = document.getElementById("view");
   const whoEl = document.getElementById("who");
   const logoutBtn = document.getElementById("logout");
+  const publishSiteBtn = document.getElementById("publish-site");
   const bannerEl = document.getElementById("banner");
   if (!viewEl) return;
 
@@ -174,6 +175,34 @@ function main() {
         /* the cookie may already be gone — go to the login page either way */
       }
       location.assign("/admin/login");
+    });
+  }
+
+  // "Publish site": fires the deploy hook (Cloudflare rebuilds, which re-exports
+  // content/** from D1 via sync-content --build). Double-click protection +
+  // confirm, because each click queues a real (billed) build.
+  if (publishSiteBtn) {
+    publishSiteBtn.addEventListener("click", async () => {
+      if (!window.confirm("Rebuild and republish the site from the saved stories in D1?")) return;
+      publishSiteBtn.disabled = true;
+      try {
+        const result = await requestSitePublish();
+        if (result && result.dispatched) {
+          showBanner("ok", "Site publish started — the build takes a minute or two.");
+        } else {
+          showBanner("ok", "Recorded, but no deploy hook is configured — run “npm run publish” locally instead.");
+        }
+      } catch (err) {
+        if (err instanceof ApiError && err.status === 401) {
+          location.assign("/admin/login");
+          return;
+        }
+        // 429 (throttle) and 502 (hook failure) both land here with a clear
+        // message from the API; the history strip on #/ has the journal row.
+        showBanner("error", (err && err.message) || "Publish failed — check the deploy hook configuration.");
+      } finally {
+        publishSiteBtn.disabled = false;
+      }
     });
   }
 

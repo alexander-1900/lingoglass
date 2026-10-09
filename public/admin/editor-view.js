@@ -5,9 +5,9 @@
 // for speed only — the server, including its render/parse round-trip check,
 // stays authoritative and its field-level issues land under the same inputs.
 // Stable hooks for the E2E browser drive: [data-path="slug"|"title"|"titleEn"|
-// "minutes"|"lang"|"level"|"sentences[i].target"|…], .save, .trash, .restore,
-// .add-sentence, .add-word, .remove-sentence, .remove-word.
-import { ApiError, createStory, deleteStory, getStory, listImages, listStories, restoreStory, setImageCover, updateStory, uploadImage } from "./api.js";
+// "minutes"|"lang"|"level"|"sentences[i].target"|…], .save, .publish, .trash,
+// .restore, .add-sentence, .add-word, .remove-sentence, .remove-word.
+import { ApiError, createStory, deleteStory, getStory, listImages, listStories, publishStory, restoreStory, setImageCover, updateStory, uploadImage } from "./api.js";
 import { el } from "./dom.js";
 import {
   LANG_LABELS,
@@ -46,6 +46,12 @@ export function renderEditorView(container, ctx, route) {
   const footerEl = el("div", { class: "editor-foot" });
 
   const saveBtn = el("button", { type: "submit", class: "btn primary save", text: "Save" });
+  const publishBtn = el("button", {
+    type: "button",
+    class: "btn publish",
+    text: "Publish",
+    onclick: () => void publishNow(),
+  });
   const trashBtn = el("button", {
     type: "button",
     class: "btn danger trash",
@@ -667,6 +673,65 @@ export function renderEditorView(container, ctx, route) {
 
   // Soft API failures are handled per call site via ctx.handleApiError(err).
 
+  // ---- publish (story → exported on next site build) -------------------------
+
+  /** Marks the story published in D1 (optimistic lock: unsaved edits are NOT
+   *  included — the API publishes what is stored, so save first). The SITE
+   *  only updates after "Publish site" fires the deploy hook; the notice says
+   *  so, because a story silently going live "later" would confuse. */
+  async function publishNow() {
+    if (busy || isNew || state.id === null) return;
+    if (state.deletedAt !== null) {
+      showNotice("error", "This story is in the trash — restore it before publishing.");
+      return;
+    }
+    if (isDirty()) {
+      showNotice("error", "You have unsaved changes — Save first, then Publish (publishing stores what is saved).");
+      return;
+    }
+    busy = true;
+    publishBtn.disabled = true;
+    try {
+      const result = await publishStory(state.id, { updatedAt: state.updatedAt });
+      if (disposed) return;
+      if (result.story) {
+        // Merge only scalars: result.story is a SUMMARY (no sentences), and
+        // storyToFormState would reset the editor's sentence rows. The payload
+        // baseline is unaffected — formToPayload never included status.
+        state.status = String(result.story.status ?? state.status);
+        state.updatedAt = result.story.updatedAt ?? state.updatedAt;
+        state.deletedAt = result.story.deletedAt ?? null;
+      }
+      renderMeta();
+      renderFooter();
+      updateSummary();
+      showNotice(
+        "ok",
+        result.published
+          ? "Published — it will appear on the site after the next “Publish site”."
+          : "This story was already published."
+      );
+    } catch (err) {
+      if (disposed) return;
+      if (err instanceof ApiError && err.status === 409) {
+        showNotice("error", "The story changed elsewhere — reloading it so you can re-check.", [
+          {
+            label: "Reload",
+            onClick: () => {
+              leaving = true;
+              ctx.go(`#/story/${state.id}`, { replace: true });
+            },
+          },
+        ]);
+        return;
+      }
+      if (!ctx.handleApiError(err)) showNotice("error", err.message || "Could not publish the story.");
+    } finally {
+      busy = false;
+      publishBtn.disabled = false;
+    }
+  }
+
   // ---- slug suggestion ------------------------------------------------------
 
   /** Asks the list endpoint what "NN" the next story in this lang/level gets.
@@ -696,13 +761,16 @@ export function renderEditorView(container, ctx, route) {
   // ---- footer + load --------------------------------------------------------
 
 
-  footerEl.append(el("span", { class: "spacer" }), dirtyEl, backBtn, trashBtn, restoreBtn, saveBtn);
+  footerEl.append(el("span", { class: "spacer" }), dirtyEl, backBtn, trashBtn, restoreBtn, publishBtn, saveBtn);
 
-  /** Trashed stories are read-only here (the API enforces the same rule). */
+  /** Trashed stories are read-only here (the API enforces the same rule).
+   *  Publish is only offered for existing, live drafts — published stories
+   *  have nothing to transition (and the list shows the badge either way). */
   function renderFooter() {
     const trashed = !isNew && state.deletedAt !== null;
     trashBtn.hidden = isNew || trashed;
     restoreBtn.hidden = !trashed;
+    publishBtn.hidden = isNew || trashed || state.status === "published" || loadFailed;
     saveBtn.hidden = trashed || loadFailed;
     dirtyEl.hidden = trashed;
   }

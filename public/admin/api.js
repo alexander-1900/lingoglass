@@ -70,6 +70,16 @@ export const updateStory = (id, payload) => request(`/api/admin/stories/${id}`, 
 export const deleteStory = (id) => request(`/api/admin/stories/${id}`, { method: "DELETE" });
 export const restoreStory = (id) => request(`/api/admin/stories/${id}/restore`, { method: "POST" });
 
+// ---- publishing (Phase 6) ----------------------------------------------------
+// Two distinct acts: publishing a STORY marks it eligible for the D1→content/
+// export; publishing the SITE fires the deploy hook so the static build
+// re-runs that export. The editor exposes both, one click each.
+
+export const publishStory = (id, payload) =>
+  request(`/api/admin/stories/${id}/publish`, { method: "POST", body: payload ?? {} });
+export const requestSitePublish = () => request("/api/admin/publish", { method: "POST" });
+export const publishHistory = () => request("/api/admin/publish");
+
 // ---- cover images (Phase 5) ------------------------------------------------
 // The upload is the ONE call that isn't JSON-in: the image bytes go as the raw
 // body with the file's own Content-Type (the server sniffs them anyway).
