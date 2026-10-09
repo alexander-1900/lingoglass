@@ -4,25 +4,23 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex, nofollow" />
-    <title>Admin — lingoglass</title>
+    <title>Stories — lingoglass admin</title>
     <link rel="stylesheet" href="/admin/app.css" />
   </head>
   <body>
     <header class="bar">
       <strong>lingoglass admin</strong>
+      <nav class="nav">
+        <a class="nav-link" href="#/">Stories</a>
+        <a class="nav-link" href="#/new">New story</a>
+      </nav>
       <span id="who" class="who">…</span>
       <button id="logout" type="button">Sign out</button>
     </header>
-    <main>
-      <section class="card">
-        <h1>Signed in</h1>
-        <p id="status">Checking session…</p>
-        <p class="hint">
-          Phase 2 of the admin build. Story list, editor and cover uploads arrive in Phases 4–5;
-          publishing in Phase 6.
-        </p>
-      </section>
+    <p id="banner" class="banner" hidden></p>
+    <main id="view">
+      <p class="muted">Loading…</p>
     </main>
-    <script src="/admin/app.js" defer></script>
+    <script type="module" src="/admin/app.js"></script>
   </body>
 </html>
