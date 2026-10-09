@@ -1,7 +1,7 @@
 ---
 title: El perro de Sofía
 title-en: Sofía's Dog
-image: /images/stories/02-el-perro-de-sofia.jpg
+image: /images/covers/es/a1/02-el-perro-de-sofia.jpg
 lang: es
 level: a1
 minutes: 3

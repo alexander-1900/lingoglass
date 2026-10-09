@@ -1,7 +1,7 @@
 ---
 title: Mi rutina diaria
 title-en: My Daily Routine
-image: /images/stories/01-mi-rutina-diaria.jpg
+image: /images/covers/es/a1/01-mi-rutina-diaria.jpg
 lang: es
 level: a1
 minutes: 3

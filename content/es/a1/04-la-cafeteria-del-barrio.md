@@ -1,7 +1,7 @@
 ---
 title: La cafetería del barrio
 title-en: The Neighborhood Cafe
-image: /images/stories/04-la-cafeteria-del-barrio.png
+image: /images/covers/es/a1/04-la-cafeteria-del-barrio.png
 lang: es
 level: a1
 minutes: 3

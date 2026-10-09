@@ -1,7 +1,7 @@
 ---
 title: Un viaje a la playa
 title-en: A Trip to the Beach
-image: /images/stories/05-un-viaje-a-la-playa.png
+image: /images/covers/es/a1/05-un-viaje-a-la-playa.png
 lang: es
 level: a1
 minutes: 3

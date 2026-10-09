@@ -111,7 +111,11 @@ describe("anchor: content/es/a1/01-mi-rutina-diaria.md", () => {
     expect(story.level).toBe("a1");
     expect(story.slug).toBe("01-mi-rutina-diaria");
     expect(story.sentences.length).toBeGreaterThanOrEqual(5);
-    expect(story.extras.image).toBe("/images/stories/01-mi-rutina-diaria.jpg");
+    // The cover URL is NOT pinned to one folder: this story has an R2 cover, so
+    // sync-content rewrites `image:` to /images/covers/<lang>/<level>/<slug>.ext,
+    // while a repo-only cover stays at /images/stories/<slug>.ext. Either way it
+    // must be an /images/ path ending in the story's own filename.
+    expect(story.extras.image).toMatch(/^\/images\/(stories\/01-mi-rutina-diaria|covers\/es\/a1\/01-mi-rutina-diaria)\.jpg$/);
   });
 
   it("renders back to bytes the same parser reads identically", () => {
@@ -119,8 +123,8 @@ describe("anchor: content/es/a1/01-mi-rutina-diaria.md", () => {
     const again = parseContentFile(rendered, anchorWhere);
     expect(storyEqual(story, again)).toBe(true);
     expect(again.extras).toEqual(story.extras);
-    // Byte-level: identical modulo the two canonical normalizations the writer
-    // is allowed to make — LF endings and the explicit `minutes:` line.
+    // Byte-level: identical modulo the normalizations the writer is allowed to
+    // make — LF endings and the explicit `minutes:` line.
     const lf = raw.replace(/\r\n/g, "\n");
     expect(rendered).toBe(lf.replace("level: a1\n---", "level: a1\nminutes: 3\n---"));
   });

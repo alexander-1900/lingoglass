@@ -1,8 +1,23 @@
-docs: describe the publishing pipeline's actual deployment state
+fix(r2): use {bucket}/{key} — the colon form made wrangler reject the bucket
 
-The Phase 6 commit described the Pages project as Git-connected, which is not
-true yet: lingoglass is still a direct-upload project, so the deploy hook does
-not exist and "Publish site" has nothing to fire. Correct README's Deploy
-section and the Phase 6 note, and reframe ADMIN.md's mental model, publishing
-steps and Setup around the real state -- deploys stay `npm run deploy`, and
-`npm run publish` exports D1 into content/ for a hand commit until the cutover.
+`npm run content:import -- --covers` died on its very first upload:
+
+    The bucket name "lingoglasse-media:covers" is invalid.
+
+r2Put/r2Get spelled the object path `{bucket}:{key}`, but wrangler 4.x wants
+`{bucket}/{key}` — with a colon it split there and treated the whole string as
+a bucket name. The message pointed at the bucket, so the real cause (an
+argument shape) was invisible. This also silently broke the read side, so
+sync-content could never pull covers back out of R2.
+
+Result of the fix, verified against the real bucket:
+- 5 covers uploaded and now in story_images as is_cover=1 (byte sizes match
+  the repo files exactly; the object downloads back at 353340 bytes)
+- sync-content reports "5 covers synced" instead of skipping them, and the
+  export rewrites those 5 stories' frontmatter to the R2 URL
+- public/images/covers/** is generated and deployed, so the reader resolves
+  the new path
+
+tests/scripts-d1.test.ts locks the argument shape down so a future wrangler
+change fails a test instead of a production import. It also drops the
+.commitmsg.tmp scratch file that git add -A swept into the previous commit.

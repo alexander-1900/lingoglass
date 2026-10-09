@@ -207,13 +207,18 @@ export async function r2GetRest(bucket, key, file) {
   }
 }
 
-/** Upload a local file to R2 (import: repo covers → bucket). Null on failure. */
+/** Upload a local file to R2 (import: repo covers → bucket). Null on failure.
+ *  NOTE: wrangler wants `{bucket}/{key}` (a SLASH), not the older `{bucket}:{key}`
+ *  spelling — with a colon it splits there and reports the whole string as an
+ *  invalid bucket name ("lingoglasse-media:covers/…"). Keys are always relative
+ *  here (no leading slash), so a plain join is safe. */
 export function r2Put(bucket, key, file, scope) {
-  return runWrangler(["r2", "object", "put", `${bucket}:${key}`, "--file", file, scope]);
+  return runWrangler(["r2", "object", "put", `${bucket}/${key}`, "--file", file, scope]);
 }
 
 /** Download an R2 object to a local file (sync: bucket covers → public/images).
- *  Returns false when the object does not exist (wrangler exits non-zero). */
+ *  Returns false when the object does not exist (wrangler exits non-zero).
+ *  Same `{bucket}/{key}` spelling as r2Put — see the note there. */
 export function r2Get(bucket, key, file, scope) {
-  return runWrangler(["r2", "object", "get", `${bucket}:${key}`, "--file", file, scope]) !== null;
+  return runWrangler(["r2", "object", "get", `${bucket}/${key}`, "--file", file, scope]) !== null;
 }

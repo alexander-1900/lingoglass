@@ -1,7 +1,7 @@
 ---
 title: Una visita al mercado
 title-en: A Visit to the Market
-image: /images/stories/03-una-visita-al-mercado.jpg
+image: /images/covers/es/a1/03-una-visita-al-mercado.jpg
 lang: es
 level: a1
 minutes: 3
