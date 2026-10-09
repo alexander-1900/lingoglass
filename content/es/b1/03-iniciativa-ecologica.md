@@ -3,6 +3,7 @@ title: La iniciativa ecológica del vecindario
 title-en: The Neighborhood Ecological Initiative
 lang: es
 level: b1
+minutes: 3
 ---
 
 Los vecinos del barrio estaban preocupados por la acumulación excesiva de plásticos urbanos.

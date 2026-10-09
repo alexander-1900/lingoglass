@@ -3,6 +3,7 @@ title: Путь к литературному признанию
 title-en: The Path to Literary Recognition
 lang: ru
 level: b2
+minutes: 3
 ---
 
 Молодой писатель провёл несколько бессонных месяцев за созданием своего дебютного романа.

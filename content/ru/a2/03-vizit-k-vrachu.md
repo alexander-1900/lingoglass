@@ -3,6 +3,7 @@ title: Визит к врачу
 title-en: A Visit to the Doctor
 lang: ru
 level: a2
+minutes: 3
 ---
 
 Вчера утром Сергей почувствовал сильную боль в горле.

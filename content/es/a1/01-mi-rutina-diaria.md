@@ -4,6 +4,7 @@ title-en: My Daily Routine
 image: /images/stories/01-mi-rutina-diaria.jpg
 lang: es
 level: a1
+minutes: 3
 ---
 
 Me llamo Carlos y vivo en Madrid.

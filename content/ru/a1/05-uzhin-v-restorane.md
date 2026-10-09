@@ -3,6 +3,7 @@ title: Ужин в ресторане
 title-en: Dinner at a Restaurant
 lang: ru
 level: a1
+minutes: 3
 ---
 
 В пятницу Виктор и Марина идут в ресторан.

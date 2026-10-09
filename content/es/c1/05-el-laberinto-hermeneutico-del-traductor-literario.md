@@ -3,6 +3,7 @@ title: El laberinto hermenéutico del traductor literario
 title-en: The Hermeneutic Labyrinth of the Literary Translator
 lang: es
 level: c1
+minutes: 3
 ---
 
 Verter una obra poética canónica a otra lengua constituye una odisea estética sembrada de insidiosas trampas filológicas.

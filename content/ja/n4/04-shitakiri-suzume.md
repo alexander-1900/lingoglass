@@ -3,6 +3,7 @@ title: 舌切り雀
 title-en: The Tongue-Cut Sparrow
 lang: ja
 level: n4
+minutes: 3
 ---
 
 優しいおじいさんは、怪我をしていた小さな雀を連れて帰って大切に育てていました。

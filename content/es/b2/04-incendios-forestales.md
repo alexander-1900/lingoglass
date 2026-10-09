@@ -3,6 +3,7 @@ title: El rescate del patrimonio natural y los incendios forestales
 title-en: Rescuing Natural Heritage and Wildfires
 lang: es
 level: b2
+minutes: 3
 ---
 
 Durante el último verano, una ola de calor sin precedentes asoló los bosques del norte.

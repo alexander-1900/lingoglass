@@ -3,6 +3,7 @@ title: 雪女
 title-en: The Snow Woman
 lang: ja
 level: n5
+minutes: 3
 ---
 
 冬の山で、二人の木こりが猛吹雪に遭いました。

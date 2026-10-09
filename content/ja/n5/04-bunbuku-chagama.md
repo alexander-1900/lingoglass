@@ -3,6 +3,7 @@ title: 分福茶釜
 title-en: The Lucky Tea Kettle Tanuki
 lang: ja
 level: n5
+minutes: 3
 ---
 
 静かなお寺に優しいお坊さんが住んでいました。

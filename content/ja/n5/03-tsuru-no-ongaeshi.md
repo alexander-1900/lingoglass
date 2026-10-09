@@ -3,6 +3,7 @@ title: 鶴の恩返し
 title-en: The Grateful Crane
 lang: ja
 level: n5
+minutes: 3
 ---
 
 寒い冬の日に、若い男が罠にかかった鶴を助けました。

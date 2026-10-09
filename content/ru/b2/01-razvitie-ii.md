@@ -3,6 +3,7 @@ title: Развитие искусственного интеллекта
 title-en: The Development of Artificial Intelligence
 lang: ru
 level: b2
+minutes: 3
 ---
 
 Бурное развитие современных технологий кардинально меняет привычную структуру рынка труда.

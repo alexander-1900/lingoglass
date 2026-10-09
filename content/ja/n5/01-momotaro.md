@@ -3,6 +3,7 @@ title: 桃太郎
 title-en: Momotaro — The Peach Boy
 lang: ja
 level: n5
+minutes: 3
 ---
 
 昔、ある所におじいさんとおばあさんが住んでいました。

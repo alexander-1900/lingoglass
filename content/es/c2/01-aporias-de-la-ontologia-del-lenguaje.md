@@ -3,6 +3,7 @@ title: Aporías de la ontología del lenguaje
 title-en: Aporias of the Ontology of Language
 lang: es
 level: c2
+minutes: 3
 ---
 
 El lenguaje no aprehende la realidad fenoménica, sino que urde un velo tautológico insoslayable.

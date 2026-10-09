@@ -3,6 +3,7 @@ title: La encrucijada bioética de la edición genómica
 title-en: The Bioethical Crossroads of Genomic Editing
 lang: es
 level: c1
+minutes: 3
 ---
 
 El perfeccionamiento de las herramientas de edición genómica sitúa a la comunidad científica ante un dilema ontológico sin precedentes.

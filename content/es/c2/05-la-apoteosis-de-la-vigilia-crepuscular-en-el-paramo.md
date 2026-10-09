@@ -3,6 +3,7 @@ title: La apoteosis de la vigilia crepuscular en el páramo
 title-en: The Apotheosis of Twilight Vigil on the Paramo
 lang: es
 level: c2
+minutes: 3
 ---
 
 El páramo estepario desplegábase como un lienzo infinito de aridez geológica bajo el crepúsculo incendiado.

@@ -3,6 +3,7 @@ title: 笠地蔵
 title-en: The Straw Hats for the Jizo Statues
 lang: ja
 level: n4
+minutes: 3
 ---
 
 昔、心優しい貧しいおじいさんとおばあさんが小さな小屋で暮らしていました。

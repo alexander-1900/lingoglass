@@ -3,6 +3,7 @@ title: Палимпсест исторической памяти мегапол
 title-en: The Palimpsest of Metropolis Historical Memory
 lang: ru
 level: c1
+minutes: 3
 ---
 
 Величественный мегаполис являет собой причудливый палимпсест, наслоивший разнородные архитектурные парадигмы.

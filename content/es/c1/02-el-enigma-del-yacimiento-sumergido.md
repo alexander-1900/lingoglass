@@ -3,6 +3,7 @@ title: El enigma del yacimiento sumergido
 title-en: The Enigma of the Submerged Site
 lang: es
 level: c1
+minutes: 3
 ---
 
 Una expedición oceanográfica halló los vestigios sumergidos de una próspera civilización mediterránea olvidada por la historiografía oficial.

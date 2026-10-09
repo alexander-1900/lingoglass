@@ -3,6 +3,7 @@ title: 言葉の変容
 title-en: The Transformation of Language
 lang: ja
 level: n1
+minutes: 3
 ---
 
 若者言葉を嘆く声は、いつの時代にも繰り返されてきた慨嘆にすぎない。

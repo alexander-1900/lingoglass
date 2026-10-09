@@ -3,6 +3,7 @@ title: 天狗の隠れ蓑
 title-en: The Tengu's Cloak of Invisibility
 lang: ja
 level: n4
+minutes: 3
 ---
 
 ある山里に、いつも怠けてばかりいる彦一というずる賢い男が住んでいました。

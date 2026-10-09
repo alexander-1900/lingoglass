@@ -4,6 +4,7 @@ title-en: Sofía's Dog
 image: /images/stories/02-el-perro-de-sofia.jpg
 lang: es
 level: a1
+minutes: 3
 ---
 
 Sofía tiene un perro muy simpático.

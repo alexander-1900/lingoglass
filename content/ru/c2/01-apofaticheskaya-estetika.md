@@ -3,6 +3,7 @@ title: Апофатическая эстетика сакрального мол
 title-en: The Apophatic Aesthetics of Sacred Silence
 lang: ru
 level: c2
+minutes: 3
 ---
 
 Подлинное произведение искусства всегда тяготеет к апофатическому молчанию.

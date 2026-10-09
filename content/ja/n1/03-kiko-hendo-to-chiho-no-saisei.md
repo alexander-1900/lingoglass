@@ -3,6 +3,7 @@ title: 気候変動と地方の再生
 title-en: Climate Change and Rural Revitalization
 lang: ja
 level: n1
+minutes: 3
 ---
 
 猛暑と豪雨が日常化するなか、地方の農山村は気候変動の最前線に立たされている。

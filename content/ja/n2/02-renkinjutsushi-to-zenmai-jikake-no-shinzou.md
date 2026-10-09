@@ -3,6 +3,7 @@ title: 錬金術師とゼンマイ仕掛けの心臓
 title-en: The Alchemist and the Clockwork Heart
 lang: ja
 level: n2
+minutes: 3
 ---
 
 蒸気と歯車の音が鳴り響く霧深き工業都市の片隅で、錬金術師のレイは禁忌とされる人工生命の創造に没頭していた。

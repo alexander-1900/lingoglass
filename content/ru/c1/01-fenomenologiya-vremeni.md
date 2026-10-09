@@ -3,6 +3,7 @@ title: Феноменология субъективного восприяти�
 title-en: The Phenomenology of Subjective Perception of Time
 lang: ru
 level: c1
+minutes: 3
 ---
 
 Неумолимый темпоральный континуум непрерывно трансформирует сиюминутное настоящее в зыбкую иллюзию воспоминаний.

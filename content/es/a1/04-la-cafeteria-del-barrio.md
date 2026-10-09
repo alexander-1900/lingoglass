@@ -4,6 +4,7 @@ title-en: The Neighborhood Cafe
 image: /images/stories/04-la-cafeteria-del-barrio.png
 lang: es
 level: a1
+minutes: 3
 ---
 
 Hay una cafetería cerca del parque.

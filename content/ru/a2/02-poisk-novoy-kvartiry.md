@@ -3,6 +3,7 @@ title: Поиск новой квартиры
 title-en: Searching for a New Apartment
 lang: ru
 level: a2
+minutes: 3
 ---
 
 Елена давно мечтала переехать в более просторную квартиру.

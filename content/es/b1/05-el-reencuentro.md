@@ -3,6 +3,7 @@ title: El reencuentro tras una década
 title-en: The Reunion After a Decade
 lang: es
 level: b1
+minutes: 3
 ---
 
 Hacía diez años que Manuel no veía a su amiga de la infancia, Clara.

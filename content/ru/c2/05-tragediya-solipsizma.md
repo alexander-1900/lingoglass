@@ -3,6 +3,7 @@ title: Трагедия солипсизма и границы логоса
 title-en: The Tragedy of Solipsism and the Boundaries of Logos
 lang: ru
 level: c2
+minutes: 3
 ---
 
 Фундаментальная проблема интерсубъективности обнажает трагическую изолированность индивидуального сознания.

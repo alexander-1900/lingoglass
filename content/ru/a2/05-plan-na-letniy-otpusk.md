@@ -3,6 +3,7 @@ title: Планы на летний отпуск
 title-en: Plans for Summer Vacation
 lang: ru
 level: a2
+minutes: 3
 ---
 
 Скоро наступит долгожданное лето, и студенты поедут отдыхать.

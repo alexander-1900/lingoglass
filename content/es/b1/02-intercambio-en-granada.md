@@ -3,6 +3,7 @@ title: El intercambio universitario en Granada
 title-en: The University Exchange in Granada
 lang: es
 level: b1
+minutes: 3
 ---
 
 Cuando Claudia recibió la confirmación de su beca, apenas podía creer su buena suerte.

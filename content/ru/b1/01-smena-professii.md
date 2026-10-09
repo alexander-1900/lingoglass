@@ -3,6 +3,7 @@ title: Смена профессии
 title-en: Career Change
 lang: ru
 level: b1
+minutes: 3
 ---
 
 Дмитрий давно хотел сменить свою неинтересную работу.

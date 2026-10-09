@@ -3,6 +3,7 @@ title: 金太郎と足柄山の熊
 title-en: Kintaro and the Bear of Mount Ashigara
 lang: ja
 level: n4
+minutes: 3
 ---
 
 足柄山に、生まれつき人並み外れた怪力を持つ金太郎という元気な男の子がいました。

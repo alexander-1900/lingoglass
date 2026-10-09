@@ -3,6 +3,7 @@ title: La gentrificación y la memoria barrial
 title-en: Gentrification and Neighborhood Memory
 lang: es
 level: c1
+minutes: 3
 ---
 
 La paulatina transformación del antiguo arrabal obrero en un epicentro de especulación inmobiliaria alteró irreversiblemente su fisonomía vernácula.

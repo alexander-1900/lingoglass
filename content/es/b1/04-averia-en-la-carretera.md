@@ -3,6 +3,7 @@ title: Una avería en la carretera
 title-en: A Breakdown on the Highway
 lang: es
 level: b1
+minutes: 3
 ---
 
 El viernes pasado, Andrés conducía hacia la montaña para desconectar del estrés laboral.

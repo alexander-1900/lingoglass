@@ -3,6 +3,7 @@ title: El dilema ético de la inteligencia artificial
 title-en: The Ethical Dilemma of Artificial Intelligence
 lang: es
 level: b2
+minutes: 3
 ---
 
 El vertiginoso avance de los algoritmos ha suscitado intensos debates en el mundo académico.

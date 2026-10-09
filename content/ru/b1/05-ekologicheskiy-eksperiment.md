@@ -3,6 +3,7 @@ title: Необычный экологический эксперимент
 title-en: An Unusual Ecological Experiment
 lang: ru
 level: b1
+minutes: 3
 ---
 
 Жители небольшого района начали сортировать домашние отходы.

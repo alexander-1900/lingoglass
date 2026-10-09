@@ -3,6 +3,7 @@ title: Новый питомец
 title-en: The New Pet
 lang: ru
 level: a1
+minutes: 3
 ---
 
 У маленького мальчика Миши сегодня праздник.

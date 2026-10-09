@@ -3,6 +3,7 @@ title: Una tarde de compras en el centro
 title-en: An Afternoon of Shopping Downtown
 lang: es
 level: a2
+minutes: 3
 ---
 
 Ayer por la tarde, Carmen fue al centro comercial con su hermana menor.

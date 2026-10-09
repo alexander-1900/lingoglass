@@ -3,6 +3,7 @@ title: Una cena sorpresa de cumpleaños
 title-en: A Surprise Birthday Dinner
 lang: es
 level: a2
+minutes: 3
 ---
 
 El viernes pasado fue el cumpleaños número treinta de mi hermano mayor.

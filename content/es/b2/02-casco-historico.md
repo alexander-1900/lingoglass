@@ -3,6 +3,7 @@ title: La preservación del casco histórico frente al turismo masivo
 title-en: Preserving the Historic District Against Mass Tourism
 lang: es
 level: b2
+minutes: 3
 ---
 
 En los últimos meses, los residentes del centro antiguo han manifestado su profunda preocupación.

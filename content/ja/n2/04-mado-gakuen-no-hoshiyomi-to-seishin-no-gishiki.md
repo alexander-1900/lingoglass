@@ -3,6 +3,7 @@ title: 魔導学園の星詠みと星辰の儀式
 title-en: The Academy Astromancer and the Stellar Rite
 lang: ja
 level: n2
+minutes: 3
 ---
 
 雲海の上にそびえ立つ大魔導学園の天体観測塔で、若き星詠みのセリアは不穏な星の運行を観測していた。

@@ -3,6 +3,7 @@ title: В продуктовом магазине
 title-en: At the Grocery Store
 lang: ru
 level: a1
+minutes: 3
 ---
 
 Вечером Борис идёт в супермаркет возле дома.

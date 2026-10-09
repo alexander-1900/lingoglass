@@ -3,6 +3,7 @@ title: 深淵の死霊術士と虚無の魔獣
 title-en: The Abyssal Necromancer and the Void Beast
 lang: ja
 level: n2
+minutes: 3
 ---
 
 地底深く広がる「忘却の迷宮」の最下層において、追放された死霊術士のヴァルガスは虚無の脅威に立ち向かっていた。

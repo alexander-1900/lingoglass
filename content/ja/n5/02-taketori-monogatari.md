@@ -3,6 +3,7 @@ title: 竹取物語
 title-en: The Tale of the Bamboo Cutter
 lang: ja
 level: n5
+minutes: 3
 ---
 
 昔、竹を取るおじいさんが山へ行きました。

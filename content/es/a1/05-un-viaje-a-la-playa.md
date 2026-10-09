@@ -4,6 +4,7 @@ title-en: A Trip to the Beach
 image: /images/stories/05-un-viaje-a-la-playa.png
 lang: es
 level: a1
+minutes: 3
 ---
 
 Es verano y hace mucho calor.

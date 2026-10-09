@@ -3,6 +3,7 @@ title: 竜騎士と古代の封印
 title-en: The Dragon Knight and the Ancient Seal
 lang: ja
 level: n2
+minutes: 3
 ---
 
 天空に浮かぶ太古の神殿において、何世紀もの間封印されていた闇の古竜がついに覚醒しつつあった。

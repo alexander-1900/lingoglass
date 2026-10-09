@@ -3,6 +3,7 @@ title: AIと労働の未来
 title-en: AI and the Future of Labor
 lang: ja
 level: n1
+minutes: 3
 ---
 
 生成AIの登場は、知的労働のあり方を根底から問い直す契機となった。

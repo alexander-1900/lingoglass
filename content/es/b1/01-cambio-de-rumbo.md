@@ -3,6 +3,7 @@ title: Un cambio de rumbo profesional
 title-en: A Career Direction Change
 lang: es
 level: b1
+minutes: 3
 ---
 
 Tras trabajar varios años como contable en un banco, David decidió cambiar de profesión.

@@ -3,6 +3,7 @@ title: Волонтёрский проект в приюте
 title-en: A Volunteer Project at the Shelter
 lang: ru
 level: b1
+minutes: 3
 ---
 
 Анна решила посвятить свои выходные благотворительному фонду.

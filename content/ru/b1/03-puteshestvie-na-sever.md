@@ -3,6 +3,7 @@ title: Путешествие на Север
 title-en: Journey to the North
 lang: ru
 level: b1
+minutes: 3
 ---
 
 Студенты давно мечтали увидеть настоящее северное сияние.

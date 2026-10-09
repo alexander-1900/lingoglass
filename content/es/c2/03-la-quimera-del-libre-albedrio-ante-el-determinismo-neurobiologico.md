@@ -3,6 +3,7 @@ title: La quimera del libre albedrío ante el determinismo neurobiológico
 title-en: The Chimera of Free Will before Neurobiological Determinism
 lang: es
 level: c2
+minutes: 3
 ---
 
 La noción tradicional de libre albedrío palidece ante los implacables descubrimientos de la neurobiología computacional contemporánea.

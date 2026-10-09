@@ -3,6 +3,7 @@ title: Крах постмодернистского симулякра
 title-en: The Collapse of the Postmodern Simulacrum
 lang: ru
 level: c2
+minutes: 3
 ---
 
 Тотальная симуляция окончательно подменила референтную действительность калейдоскопом пустых означающих.

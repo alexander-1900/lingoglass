@@ -3,6 +3,7 @@ title: La dialéctica del olvido y la ruina arquitectónica
 title-en: The Dialectic of Oblivion and Architectural Ruin
 lang: es
 level: c2
+minutes: 3
 ---
 
 La suntuosa basílica barroca yace consumida por la herrumbre implacable del tiempo devorador.

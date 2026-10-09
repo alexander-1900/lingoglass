@@ -4,6 +4,7 @@ title-en: A Visit to the Market
 image: /images/stories/03-una-visita-al-mercado.jpg
 lang: es
 level: a1
+minutes: 3
 ---
 
 Hoy es sábado por la mañana.

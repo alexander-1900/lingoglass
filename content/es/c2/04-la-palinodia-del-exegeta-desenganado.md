@@ -3,6 +3,7 @@ title: La palinodia del exégeta desengañado
 title-en: The Palinode of the Disillusioned Exegete
 lang: es
 level: c2
+minutes: 3
 ---
 
 Consagró su vida a descifrar los códices gnósticos custodiados en los polvorientos anaqueles del monasterio trapense.

@@ -3,6 +3,7 @@ title: 都市の孤独とつながり
 title-en: Urban Loneliness and Connection
 lang: ja
 level: n1
+minutes: 3
 ---
 
 満員電車に揺られながらも、乗客たちは各々の小さな画面の中に閉じこもっている。

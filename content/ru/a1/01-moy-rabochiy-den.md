@@ -3,6 +3,7 @@ title: Мой рабочий день
 title-en: My Working Day
 lang: ru
 level: a1
+minutes: 3
 ---
 
 Меня зовут Антон.

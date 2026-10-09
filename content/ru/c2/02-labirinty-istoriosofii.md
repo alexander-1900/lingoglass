@@ -3,6 +3,7 @@ title: Лабиринты субъективной историософии
 title-en: The Labyrinths of Subjective Historiosophy
 lang: ru
 level: c2
+minutes: 3
 ---
 
 Исторический процесс предстаёт грандиозным лабиринтом иррациональных флуктуаций.

@@ -3,6 +3,7 @@ title: 道成寺の清姫
 title-en: Kiyohime of Dojo-ji
 lang: ja
 level: n3
+minutes: 3
 ---
 
 熊野へと巡礼の旅をしていた美貌の僧・安珍は、宿泊先の長者の娘である清姫に一目惚れされてしまいました。

@@ -3,6 +3,7 @@ title: El dilema del teletrabajo y la desconexión digital
 title-en: The Teleworking Dilemma and Digital Disconnection
 lang: es
 level: b2
+minutes: 3
 ---
 
 Durante los últimos años, muchas empresas han adoptado el teletrabajo de forma permanente.

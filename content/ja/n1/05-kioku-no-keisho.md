@@ -3,6 +3,7 @@ title: 記憶の継承
 title-en: Inheriting Memory
 lang: ja
 level: n1
+minutes: 3
 ---
 
 戦争体験者の高齢化に伴い、記憶の継承は待ったなしの課題となっている。

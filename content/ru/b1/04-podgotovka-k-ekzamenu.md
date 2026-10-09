@@ -3,6 +3,7 @@ title: Подготовка к ответственному экзамену
 title-en: Preparing for a Crucial Exam
 lang: ru
 level: b1
+minutes: 3
 ---
 
 Через две недели Алине предстояло сдать сложный международный экзамен.

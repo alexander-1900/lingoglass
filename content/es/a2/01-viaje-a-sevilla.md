@@ -3,6 +3,7 @@ title: Un viaje inesperado a Sevilla
 title-en: An Unexpected Trip to Seville
 lang: es
 level: a2
+minutes: 3
 ---
 
 El fin de semana pasado, Marcos viajó a Sevilla en tren de alta velocidad.

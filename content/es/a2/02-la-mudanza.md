@@ -3,6 +3,7 @@ title: La mudanza al nuevo piso
 title-en: Moving to the New Apartment
 lang: es
 level: a2
+minutes: 3
 ---
 
 Después de buscar durante varias semanas, Laura encontró un piso luminoso.

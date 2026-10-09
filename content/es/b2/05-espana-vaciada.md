@@ -3,6 +3,7 @@ title: El renacer de la España vaciada
 title-en: The Rebirth of Empty Spain
 lang: es
 level: b2
+minutes: 3
 ---
 
 Durante décadas, cientos de pueblos del interior peninsular han sufrido un proceso incesante de despoblación.

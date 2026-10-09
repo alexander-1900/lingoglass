@@ -3,6 +3,7 @@ title: Un resfriado inoportuno
 title-en: An Untimely Cold
 lang: es
 level: a2
+minutes: 3
 ---
 
 El lunes pasado, Javier se despertó con un fuerte dolor de garganta.

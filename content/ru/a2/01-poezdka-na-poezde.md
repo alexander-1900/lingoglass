@@ -3,6 +3,7 @@ title: Поездка на поезде
 title-en: A Train Trip
 lang: ru
 level: a2
+minutes: 3
 ---
 
 В прошлую субботу Максим решил поехать в другой город.

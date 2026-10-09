@@ -3,6 +3,7 @@ title: Неожиданная встреча
 title-en: An Unexpected Meeting
 lang: ru
 level: a2
+minutes: 3
 ---
 
 Вчера вечером Ольга медленно шла домой после трудной работы.

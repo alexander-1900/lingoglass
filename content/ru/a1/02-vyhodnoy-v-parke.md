@@ -3,6 +3,7 @@ title: Выходной в парке
 title-en: A Day Off in the Park
 lang: ru
 level: a1
+minutes: 3
 ---
 
 Сегодня воскресенье, и у Анны выходной.

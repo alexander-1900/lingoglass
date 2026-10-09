@@ -3,6 +3,7 @@ title: 朽ちた巨人と最後の樹精
 title-en: The Ruined Golem and the Last Dryad
 lang: ja
 level: n2
+minutes: 3
 ---
 
 魔導戦争によって文明が崩壊してから数百年、荒涼たる瓦礫の平原を一体の古代ゴーレムが彷徨い続けていた。

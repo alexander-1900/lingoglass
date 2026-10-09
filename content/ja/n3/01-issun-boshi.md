@@ -3,6 +3,7 @@ title: 一寸法師
 title-en: Issun-boshi — The One-Inch Boy
 lang: ja
 level: n3
+minutes: 3
 ---
 
 昔、ある老夫婦が指の大きさほどしかない小さな男の子を授かり、「一寸法師」と名付けて大切に育てました。

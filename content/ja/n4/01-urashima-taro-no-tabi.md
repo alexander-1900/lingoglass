@@ -3,6 +3,7 @@ title: 浦島太郎の旅
 title-en: Urashima Taro's Journey
 lang: ja
 level: n4
+minutes: 3
 ---
 
 昔、浦島太郎という優しい漁師が、子供たちにいじめられていた亀を助けました。

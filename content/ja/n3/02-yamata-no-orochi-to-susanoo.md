@@ -3,6 +3,7 @@ title: 八岐大蛇と須佐之男命
 title-en: Yamata no Orochi and Susanoo
 lang: ja
 level: n3
+minutes: 3
 ---
 
 高天原を追放された須佐之男命は、出雲の国の川のほとりに降り立ち、泣いている老夫婦と美しい娘に出会いました。

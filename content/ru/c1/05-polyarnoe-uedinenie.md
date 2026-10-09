@@ -3,6 +3,7 @@ title: Экзистенциальный опыт полярного уедине
 title-en: The Existential Experience of Polar Solitude
 lang: ru
 level: c1
+minutes: 3
 ---
 
 Арктическое безмолвие сковывает наблюдателя леденящим ощущением собственного онтологического ничтожества.

@@ -3,6 +3,7 @@ title: 安達ヶ原の鬼婆
 title-en: The Demon Hag of Adachigahara
 lang: ja
 level: n3
+minutes: 3
 ---
 
 昔、陸奥国の安達ヶ原に、夜になると旅人を捕らえて食らうと噂される恐ろしい鬼婆が住んでいました。

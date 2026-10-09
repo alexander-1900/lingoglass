@@ -3,6 +3,7 @@ title: 酒呑童子と大江山
 title-en: Shutendoji of Mount Oe
 lang: ja
 level: n3
+minutes: 3
 ---
 
 平安の都では、大江山に住む鬼の頭領「酒呑童子」によって貴族の姫君たちが拐われる事件が相次いでいました。

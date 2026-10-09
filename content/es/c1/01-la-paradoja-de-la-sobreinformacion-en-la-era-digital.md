@@ -3,6 +3,7 @@ title: La paradoja de la sobreinformación en la era digital
 title-en: The Paradox of Information Overload in the Digital Era
 lang: es
 level: c1
+minutes: 3
 ---
 
 El bombardeo incesante de datos efímeros distorsiona la capacidad cognitiva del individuo contemporáneo.
