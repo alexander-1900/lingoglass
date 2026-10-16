@@ -429,16 +429,4 @@ export function lookupJapaneseDetail(
   return undefined;
 }
 
-/**
- * English meaning for a Japanese word. `lemma` (Sudachi dictionary form) is
- * preferred; `surface` is the fallback (regex-tokenized text has no lemma).
- * Returns undefined when the word isn't in the local dictionary.
- */
-export function lookupJapaneseMeaning(
-  lemma: string | undefined,
-  surface: string
-): string | undefined {
-  return lookupJapaneseDetail(lemma, surface)?.gloss;
-}
-
 

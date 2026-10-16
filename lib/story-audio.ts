@@ -17,7 +17,7 @@
 // Relative (not "@/scripts/…") on purpose: lib/ imports relatively throughout,
 // and `vitest run` has no alias config — tests/story-audio.test.ts must be able
 // to import this module, and this module must reach the shared timing math.
-import { TIMING_VERSION, sentenceIndexAt } from "../scripts/lib/audio-format.mjs";
+import { sentenceIndexAt, timingIsUsable } from "../scripts/lib/audio-format.mjs";
 
 /** One word the voice reported, shifted into story time (word playback). */
 export interface StoryAudioWord {
@@ -87,30 +87,15 @@ export function storyAudioKey(lang: string, slug: string): string {
 }
 
 /**
- * Is this timing JSON usable for exactly these sentences?
- *
- * The text equality is the real staleness guard: the manifest is keyed by
- * lang/slug only, so a story whose text was edited without re-running the
- * generator would otherwise play yesterday's narration under today's highlight.
- * Cheap (one compare per sentence) and runs once per load.
+ * Is this timing JSON usable for exactly these sentences? Delegates to the
+ * generator's own validator (scripts/lib/audio-format.mjs) so the client and
+ * the offline reconciler can never disagree about what "stale" means.
  */
 export function isTimingUsable(
   json: unknown,
   texts: readonly string[]
 ): json is StoryAudioTiming {
-  if (!json || typeof json !== "object") return false;
-  const t = json as Partial<StoryAudioTiming>;
-  if (t.version !== TIMING_VERSION || !Array.isArray(t.sentences)) return false;
-  if (t.sentences.length !== texts.length) return false;
-  let prev = -1;
-  return t.sentences.every((s, i) => {
-    if (!s || typeof s.text !== "string" || s.text !== texts[i]) return false;
-    if (typeof s.startMs !== "number" || typeof s.endMs !== "number") return false;
-    if (!Number.isFinite(s.startMs) || !Number.isFinite(s.endMs)) return false;
-    if (s.startMs < prev) return false; // the generator emits ascending starts
-    prev = s.startMs;
-    return true;
-  });
+  return timingIsUsable(json, texts);
 }
 
 /** Shape check for one manifest record before URLs are built from it. */
@@ -164,10 +149,15 @@ function loadManifest(): Promise<Record<string, unknown> | null> {
   if (manifestPromise) return manifestPromise;
   if (typeof window === "undefined") return Promise.resolve(null);
   // A missing manifest (audio not generated yet) is the normal case: cache the
-  // null so a story page pays ONE 404 per visit instead of one per mount.
+  // null so a story page pays ONE 404 per visit instead of one per mount. Only
+  // a rejected fetch (offline, aborted) clears the memo so a later mount can
+  // recover — a 404's null stays cached.
   manifestPromise = fetch(MANIFEST_URL)
     .then((res) => (res.ok ? (res.json() as Promise<Record<string, unknown>>) : null))
-    .catch(() => null);
+    .catch(() => {
+      manifestPromise = null;
+      return null;
+    });
   return manifestPromise;
 }
 
@@ -177,7 +167,10 @@ function loadTiming(url: string): Promise<StoryAudioTiming | null> {
   const pending = fetch(url)
     .then((res) => (res.ok ? res.json() : null))
     .then((json) => (json && typeof json === "object" ? (json as StoryAudioTiming) : null))
-    .catch(() => null);
+    .catch(() => {
+      timingCache.delete(url); // transient (offline/aborted) — a later mount retries
+      return null;
+    });
   timingCache.set(url, pending);
   return pending;
 }

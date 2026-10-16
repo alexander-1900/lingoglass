@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import {
   AUDIO_BYTES_PER_MS,
   TICKS_PER_MS,
+  TIMING_VERSION,
   alignWords,
   manifestEntry,
   manifestEntryMatches,
@@ -12,6 +13,7 @@ import {
   staleStoryFiles,
   storyFileNames,
   ticksToMs,
+  timingIsUsable,
   wordTiming,
 } from "../scripts/lib/audio-format.mjs";
 import { sentenceHash8, storyHash8 } from "../scripts/lib/audio-hash.mjs";
@@ -215,5 +217,49 @@ describe("content hashing (what triggers re-synthesis)", () => {
     expect(sentenceHash8("v", "+25%", "Hola.")).not.toBe(sentenceHash8("v", "+25%", "Hola"));
     expect(sentenceHash8("w", "+25%", "Hola.")).not.toBe(sentenceHash8("v", "+25%", "Hola."));
     expect(sentenceHash8("v", "+40%", "Hola.")).not.toBe(sentenceHash8("v", "+25%", "Hola."));
+  });
+});
+
+describe("timingIsUsable (shared client + reconcile validator)", () => {
+  const texts = ["Hola.", "¿Qué tal?"];
+  const valid = {
+    version: TIMING_VERSION,
+    sentences: [
+      { text: "Hola.", startMs: 0, endMs: 1000 },
+      { text: "¿Qué tal?", startMs: 1250, endMs: 2000 },
+    ],
+  };
+
+  it("accepts a well-formed timing for exactly these sentences", () => {
+    expect(timingIsUsable(valid, texts)).toBe(true);
+  });
+
+  it("rejects a missing or non-finite endMs (the reconcile-mirror drift bug)", () => {
+    const missing = {
+      ...valid,
+      sentences: [{ text: "Hola.", startMs: 0, endMs: 1000 }, { text: "¿Qué tal?", startMs: 1250 }],
+    };
+    expect(timingIsUsable(missing, texts)).toBe(false);
+    const infinite = {
+      ...valid,
+      sentences: [
+        { text: "Hola.", startMs: 0, endMs: 1000 },
+        { text: "¿Qué tal?", startMs: 1250, endMs: Number.POSITIVE_INFINITY },
+      ],
+    };
+    expect(timingIsUsable(infinite, texts)).toBe(false);
+  });
+
+  it("rejects drifted text and descending starts", () => {
+    const drifted = {
+      ...valid,
+      sentences: [{ text: "Adiós.", startMs: 0, endMs: 1000 }, valid.sentences[1]],
+    };
+    expect(timingIsUsable(drifted, texts)).toBe(false);
+    const backward = {
+      ...valid,
+      sentences: [valid.sentences[1], { text: "Hola.", startMs: 0, endMs: 1000 }],
+    };
+    expect(timingIsUsable(backward, texts)).toBe(false);
   });
 });

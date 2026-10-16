@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { LANGS, LANG_NAMES, LEVELS, Lang, StoryMeta } from "@/lib/types";
@@ -29,8 +30,8 @@ function langHref(code: Lang | "all"): string {
 function StoryCardLink({ story }: { story: StoryMeta }) {
   const minutes = Math.max(1, story.minutes || 3);
   // A 404'd cover (frontmatter image was removed/renamed) must fall back to
-  // the designed placeholder instead of a broken-image icon — the raw <img>
-  // has no native fallback, so track the error here.
+  // the designed placeholder instead of a broken-image icon — track the error
+  // and swap in StoryCover.
   const [coverFailed, setCoverFailed] = useState(false);
   useEffect(() => setCoverFailed(false), [story.image]);
   return (
@@ -39,7 +40,7 @@ function StoryCardLink({ story }: { story: StoryMeta }) {
       className="story-card"
     >
       {story.image && !coverFailed ? (
-        <img
+        <Image
           className="story-card-cover"
           src={story.image}
           alt={story.title}

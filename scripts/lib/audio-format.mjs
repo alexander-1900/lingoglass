@@ -181,6 +181,35 @@ export function sentenceIndexAt(timeMs, timings) {
   return found;
 }
 
+/**
+ * Is this timing JSON usable for exactly these sentences? ONE implementation
+ * shared by the client controller (lib/story-audio.ts) and the offline
+ * reconciler (scripts/audio-reconcile.mjs), so "stale audio" can never mean two
+ * different things. The text-equality check is the real staleness guard: the
+ * manifest is keyed by lang/slug only, so a story edited without re-running the
+ * generator would otherwise play yesterday's narration under today's highlight.
+ * @param {unknown} json parsed timing JSON
+ * @param {readonly string[]} texts sentences as currently displayed
+ * @returns {boolean}
+ */
+export function timingIsUsable(json, texts) {
+  if (!json || typeof json !== "object") return false;
+  const timing = /** @type {{ version?: unknown, sentences?: unknown }} */ (json);
+  if (timing.version !== TIMING_VERSION || !Array.isArray(timing.sentences)) return false;
+  if (timing.sentences.length !== texts.length) return false;
+  let prev = -1;
+  return timing.sentences.every((s, i) => {
+    if (!s || typeof s !== "object") return false;
+    const sentence = /** @type {{ text?: unknown, startMs?: unknown, endMs?: unknown }} */ (s);
+    if (typeof sentence.text !== "string" || sentence.text !== texts[i]) return false;
+    if (typeof sentence.startMs !== "number" || typeof sentence.endMs !== "number") return false;
+    if (!Number.isFinite(sentence.startMs) || !Number.isFinite(sentence.endMs)) return false;
+    if (sentence.startMs < prev) return false; // the generator emits ascending starts
+    prev = sentence.startMs;
+    return true;
+  });
+}
+
 /** Public filenames for one story revision. @param {string} slug @param {string} hash8 */
 export function storyFileNames(slug, hash8) {
   return { mp3: `${slug}.${hash8}.mp3`, timing: `${slug}.${hash8}.json` };

@@ -1,25 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { lookupJapaneseDetail, lookupJapaneseMeaning } from "../lib/jmdict";
+import { lookupJapaneseDetail } from "../lib/jmdict";
 import type { AffixCandidate } from "../lib/ja-morphology";
-
-describe("lookupJapaneseMeaning", () => {
-  it("resolves the Sudachi lemma first (飲みます → 飲む)", () => {
-    expect(lookupJapaneseMeaning("飲む", "飲みます")).toBe("to drink");
-  });
-
-  it("falls back to the surface when there is no lemma", () => {
-    expect(lookupJapaneseMeaning(undefined, "学校")).toBe("school");
-  });
-
-  it("returns undefined for words outside the local dictionary", () => {
-    expect(lookupJapaneseMeaning("安珍", "安珍")).toBeUndefined();
-  });
-
-  it("answers single digits without needing a dictionary entry", () => {
-    expect(lookupJapaneseMeaning(undefined, "1")).toBe("one");
-    expect(lookupJapaneseMeaning(undefined, "9")).toBe("nine");
-  });
-});
 
 describe("lookupJapaneseDetail", () => {
   it("resolves kanji lemma aliases (為る → する)", () => {

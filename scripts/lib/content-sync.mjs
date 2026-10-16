@@ -11,7 +11,6 @@
 import {
   blockLines,
   enOf,
-  isSafeSegment,
   normalizeText,
   parseGlossaryLine,
   renderStoryMarkdown,

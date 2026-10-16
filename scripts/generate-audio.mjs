@@ -40,8 +40,9 @@
 // The default rate is +25%, deliberately modest: the reader has its own
 // 0.5×–1.5× playback control, and a second speed-up baked into the file would
 // stack on top of it and blur exactly the words a learner slows down for.
-// Override with EDGE_TTS_RATE (see .env.example) or --rate. Changing the rate
-// re-synthesizes: it is part of every cache key and of the story hash.
+// Override with --rate (wins) or EDGE_TTS_RATE (see .env.example). Changing
+// the rate re-synthesizes: it is part of every cache key and of the story
+// hash.
 //
 // Env: EDGE_TTS_RATE, PYTHON (the interpreter also used for Sudachi), FFMPEG.
 // No API key anywhere — see README → Story audio for what that costs (the
@@ -135,6 +136,7 @@ function parseArgs(argv) {
   const opts = {
     concurrency: DEFAULT_CONCURRENCY,
     rate: DEFAULT_RATE,
+    rateExplicit: false,
     showBoundaries: 0,
     limitPerLevel: 0,
     limit: 0,
@@ -158,6 +160,7 @@ function parseArgs(argv) {
     } else if (arg === "--rate") {
       opts.rate = argv[++i];
       if (!RATE_RE.test(opts.rate ?? "")) fail('--rate needs a signed percentage, e.g. "+25%"');
+      opts.rateExplicit = true;
     } else if (arg === "--concurrency") {
       opts.concurrency = Math.min(positiveInt(arg, argv[++i]), 8);
     } else if (arg === "--show-boundaries") {
@@ -172,8 +175,9 @@ function parseArgs(argv) {
       fail(`unknown flag ${arg}`);
     }
   }
-  // The process env is read only after loadEnvFiles(), so a literal default is
-  // compared there; beeps have no rate and must not share the real run's cache.
+  // Beeps have no rate and must not share the real run's cache. The env
+  // fallback is applied in main() after loadEnvFiles(), and only when --rate
+  // was not given explicitly (rateExplicit), so it can never shadow the CLI.
   if (opts.fixture) opts.rate = "+0%";
   return opts;
 }
@@ -862,6 +866,15 @@ function showBoundaries(item, opts) {
 
 async function main() {
   const opts = parseArgs(process.argv.slice(2));
+  loadEnvFiles();
+  // Env fallback, resolved BEFORE the dry run so its output shows the rate a
+  // real run would use. --rate (rateExplicit) always wins over EDGE_TTS_RATE;
+  // only the literal default loses to it.
+  if (!opts.fixture && !opts.rateExplicit && process.env.EDGE_TTS_RATE?.trim()) {
+    const value = process.env.EDGE_TTS_RATE.trim();
+    if (!RATE_RE.test(value)) fail(`EDGE_TTS_RATE="${value}" is not a signed percentage like "+25%"`);
+    opts.rate = value;
+  }
   const stories = loadStories(opts);
 
   if (opts.only) {
@@ -890,14 +903,6 @@ async function main() {
     return;
   }
 
-  loadEnvFiles();
-  // --rate on the command line already replaced the default, so an env value
-  // only applies when neither was given explicitly.
-  if (!opts.fixture && opts.rate === DEFAULT_RATE && process.env.EDGE_TTS_RATE?.trim()) {
-    const value = process.env.EDGE_TTS_RATE.trim();
-    if (!RATE_RE.test(value)) fail(`EDGE_TTS_RATE="${value}" is not a signed percentage like "+25%"`);
-    opts.rate = value;
-  }
   if (opts.fixture) {
     console.log(
       "audio: FIXTURE MODE — locally synthesized beeps instead of speech (no Python, no network).\n" +

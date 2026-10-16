@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { glossaryLookup, isPunctToken, stripPunct, tokenRange, trimmedRange } from "../lib/glossary";
+import { glossaryLookup, stripPunct, tokenRange, trimmedRange } from "../lib/glossary";
 import type { StorySentence } from "../lib/types";
 
 const sent = (glossary: { surface: string; note: string }[]): StorySentence => ({
@@ -43,10 +43,6 @@ describe("glossaryLookup", () => {
 describe("token helpers", () => {
   it("stripPunct removes separators and whitespace", () => {
     expect(stripPunct("  ¡Hola, mundo!  ")).toBe("Holamundo");
-  });
-  it("isPunctToken recognizes separator runs only", () => {
-    expect(isPunctToken("... ")).toBe(true);
-    expect(isPunctToken("hola")).toBe(false);
   });
 });
 

@@ -48,7 +48,6 @@ import {
 
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const CONTENT = path.join(root, "content");
-const COVERS_DIR = path.join(root, "public", "images", "covers");
 
 const EXT_BY_TYPE = { "image/jpeg": ".jpg", "image/png": ".png", "image/webp": ".webp" };
 
@@ -141,10 +140,6 @@ function coverTarget(story, contentType) {
 // Rows are assembled into the exact struct parseContentFile produces, so
 // renderContentFile writes files the build loader parses identically.
 
-const STORY_SQL =
-  "SELECT lang, level, slug, title, title_en, minutes FROM stories " +
-  "WHERE status = 'published' AND deleted_at IS NULL ORDER BY lang, level, slug;";
-
 const SENTENCE_SQL =
   "SELECT s.lang AS lang, s.level AS level, s.slug AS slug, se.position AS position, " +
   "se.target AS target, se.en AS en FROM sentences se " +
@@ -209,8 +204,11 @@ async function main() {
   }
 
   const scope = args.remote ? "--remote" : "--local";
-  const pull = async (sql) =>
-    args.build ? d1QueryRest(await readDatabaseId(root), sql) : d1Query(db, scope, sql);
+  // --build reads through the REST API: resolve the database id once instead of
+  // re-reading wrangler.jsonc for every query.
+  const databaseId = args.build ? await readDatabaseId(root) : null;
+  if (args.build && !databaseId) fail("database_id not found in wrangler.jsonc");
+  const pull = async (sql) => (args.build ? d1QueryRest(databaseId, sql) : d1Query(db, scope, sql));
 
   // 1) Pull everything up front; a failed pull must never be mistaken for
   //    "D1 says delete it all".
@@ -228,14 +226,20 @@ async function main() {
     sentenceRows,
     wordRows
   );
+  const files = existingFiles();
   // Hard rail: an empty published set is a scope/token mistake, not a wipe.
   if (published.size === 0 && storyRows.length > 0) {
     fail(`D1 has ${storyRows.length} stories but 0 published — refusing to touch content/`);
   }
+  if (args.build && published.size === 0 && files.size > 0) {
+    fail(
+      `D1 returned 0 stories — refusing to prune the ${files.size} committed content file(s) ` +
+        "(wrong database or token scope?)"
+    );
+  }
   console.log(`sync-content: ${published.size} published stories in D1 (${storyRows.length} rows total).`);
 
   // 2) Write/refresh published stories; unsafe path segments abort the run.
-  const files = existingFiles();
   let written = 0;
   let unchanged = 0;
   for (const [key, story] of published) {
@@ -264,11 +268,12 @@ async function main() {
   const hidden = new Set(
     storyRows.filter((s) => s.status !== "published" || s.deleted_at !== null).map((s) => `${s.lang}/${s.level}/${s.slug}`)
   );
+  const rowKeys = new Set(storyRows.map((s) => `${s.lang}/${s.level}/${s.slug}`));
   let pruned = 0;
   for (const [key, file] of files) {
     if (published.has(key)) continue;
     if (!hidden.has(key) && !args.build) {
-      if (!storyRows.some((s) => `${s.lang}/${s.level}/${s.slug}` === key)) {
+      if (!rowKeys.has(key)) {
         console.warn(`sync-content: warn: ${key}: file has no D1 row — left alone (repo seed?); --build prunes it`);
       }
       continue;

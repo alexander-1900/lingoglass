@@ -208,7 +208,7 @@ export function cancelPendingSpeak(): void {
 }
 
 /** Speak text with the OS voice (no external TTS service). */
-export function speak(text: string, lang: string, rate = 0.9): void {
+export function speak(text: string, lang: string, rate: number): void {
   if (!speakSupported()) return;
   if (!text.replace(SEPARATOR_RE, "")) return;
   if (speakTimer !== undefined) {

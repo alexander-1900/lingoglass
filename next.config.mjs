@@ -4,6 +4,9 @@ const nextConfig = (phase) => ({
   // Static export → `out/` deploys as-is; headers: public/_headers for hosts,
   // the block below for `next dev` only (phase = PHASE_DEVELOPMENT_SERVER).
   output: "export",
+  // The export target has no image-optimization server; static files in
+  // public/ are served as-is.
+  images: { unoptimized: true },
   ...(phase === "phase-development-server" && {
     async headers() {
       return [

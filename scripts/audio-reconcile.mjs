@@ -11,6 +11,7 @@
 //
 //   node scripts/audio-reconcile.mjs            # report only (exit 1 on issues)
 //   node scripts/audio-reconcile.mjs --prune    # drop orphaned/drifted entries
+//                                               # (exits 0 unless a prune failed)
 //   node scripts/audio-reconcile.mjs --quiet    # exit code only
 //
 // Pruning DELETES mp3/timing files for orphaned and drifted entries (a drifted
@@ -23,7 +24,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { parseSentences } from "./lib/story-format.mjs";
-import { TIMING_VERSION } from "./lib/audio-format.mjs";
+import { timingIsUsable } from "./lib/audio-format.mjs";
 
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const AUDIO = path.join(root, "public", "audio");
@@ -74,21 +75,6 @@ function contentSentences(key) {
   return null;
 }
 
-/** Mirror of isTimingUsable (lib/story-audio.ts) without the TS import. */
-function timingMatches(timing, texts) {
-  if (!timing || typeof timing !== "object") return false;
-  if (timing.version !== TIMING_VERSION || !Array.isArray(timing.sentences)) return false;
-  if (timing.sentences.length !== texts.length) return false;
-  let prev = -1;
-  return timing.sentences.every((s, i) => {
-    if (!s || typeof s.text !== "string" || s.text !== texts[i]) return false;
-    if (typeof s.startMs !== "number" || !Number.isFinite(s.startMs)) return false;
-    if (s.startMs < prev) return false;
-    prev = s.startMs;
-    return true;
-  });
-}
-
 const orphaned = [];
 const drifted = [];
 const missing = [];
@@ -117,7 +103,7 @@ for (const [key, entry] of Object.entries(manifest)) {
     drifted.push(key);
     continue;
   }
-  if (!timingMatches(timing, texts)) {
+  if (!timingIsUsable(timing, texts)) {
     drifted.push(key);
     continue;
   }
@@ -133,6 +119,7 @@ if (hasIssues && !quiet) {
   for (const m of missing) console.warn(`  missing:  ${m.key} — ${m.reason}`);
 }
 
+let pruneFailures = 0;
 if (prune && hasIssues) {
   const drop = new Set([...orphaned, ...drifted, ...missing.map((m) => m.key)]);
   for (const key of drop) {
@@ -143,6 +130,7 @@ if (prune && hasIssues) {
         fs.rmSync(localFile(url), { force: true });
       } catch (err) {
         console.warn(`  prune failed for ${url}: ${err.message}`);
+        pruneFailures++;
       }
     }
     delete manifest[key];
@@ -151,4 +139,6 @@ if (prune && hasIssues) {
   say(`audio-reconcile: pruned ${drop.size} entries (and their files); regenerate with npm run audio:generate.`);
 }
 
-process.exit(hasIssues ? 1 : 0);
+// Exit reflects what is still unresolved: a successful --prune leaves nothing
+// for a wrapper to act on, so it exits 0 even though issues WERE found.
+process.exit(hasIssues && !(prune && pruneFailures === 0) ? 1 : 0);

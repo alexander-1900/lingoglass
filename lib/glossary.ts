@@ -16,20 +16,15 @@ import type { StorySentence } from "./types";
 export const SEPARATORS =
   "\\s.,!?;:«»\"'’‘“”„()—–…¿¡。、、「」『』・！？〈〉《》‹›-";
 
-const PUNCT_TOKEN_RE = new RegExp(`^[${SEPARATORS}]+$`);
 const PUNCT_GLOBAL_RE = new RegExp(`[${SEPARATORS}]`, "g");
-
-export function isPunctToken(w: string): boolean {
-  return PUNCT_TOKEN_RE.test(w);
-}
 
 /**
  * True when a token holds at least one letter or digit — i.e. it is a word the
  * reader should make tappable/focusable and (for JA) give a romaji line.
  *
- * Broader than isPunctToken, which only knows the SEPARATORS list: symbols
- * outside it (※ ― № ～) are non-words too. The 々 iteration mark counts as a
- * letter (Lm), so meaningful kana compounds stay interactive.
+ * Deliberately Unicode-property based rather than a SEPARATORS allowlist:
+ * symbols outside that list (※ ― № ～) are non-words too. The 々 iteration
+ * mark counts as a letter (Lm), so meaningful kana compounds stay interactive.
  */
 export function hasWordChar(s: string): boolean {
   return /[\p{L}\p{N}]/u.test(s);

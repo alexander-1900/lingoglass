@@ -45,7 +45,6 @@ describe("kana → romaji", () => {
     expect(romajiOf("クヷ")).toBe("kuva");
     for (const reading of ["ヷ", "ヸ", "ヹ", "ヺ", "ヮ", "ヰ", "ヱ"]) {
       const out = romajiOf(reading) ?? "";
-      // eslint-disable-next-line no-control-regex
       expect(out).toMatch(/^[\x20-\x7E]*$/);
     }
   });
@@ -53,7 +52,6 @@ describe("kana → romaji", () => {
   it("never produces non-ASCII romaji", () => {
     for (const reading of ["コーヒー", "ッ", "ー", "・", "。", "！？", "キョット"]) {
       const out = romajiOf(reading) ?? "";
-      // eslint-disable-next-line no-control-regex
       expect(out).toMatch(/^[\x20-\x7E]*$/);
     }
   });
